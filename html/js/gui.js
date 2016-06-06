@@ -30,11 +30,9 @@ $('area').click(function(e) {
 	var header = $(modal.find('.modal-header')[0]).find('h4')[0]
 	var body = modal.find('.modal-body')[0]
 	console.log(this.title)
-	var tooltip = this.title.split("\t\t\t")
-	console.log(tooltip[1])
-	console.log((tooltip[1].match(/\n/g) || []).length)
-	$(header).html(tooltip[0])
-	var lines = tooltip[1].split('\n')
+	var lines = this.title.split("\n")
+	$(header).html(lines[0])
+	lines.shift()
 	if (lines[0] == "") {
 	    lines.shift()
 	}
