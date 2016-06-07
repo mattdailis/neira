@@ -1,6 +1,6 @@
-<map id="boys4fourBrooks" name="boys4fourBrooks">
-<area shape="poly" id="node1" href="boys4fourBrooksBBN.html" title="BBN" alt="" coords="82,29,80,22,74,15,66,10,55,7,43,5,32,7,21,10,13,15,7,22,5,29,7,37,13,43,21,49,32,52,43,53,55,52,66,49,74,43,80,37"/>
-<area shape="poly" id="node6" href="boys4fourBrooksBrooks.html" title="Brooks" alt="" coords="418,165,415,158,408,151,397,146,383,143,367,141,352,143,338,146,327,151,320,158,317,165,320,173,327,179,338,185,352,188,367,189,383,188,397,185,408,179,415,173"/>
+<map id="boys4four" name="boys4four">
+<area shape="poly" id="node1" href="boys4fourBBN.html" title="BBN" alt="" coords="82,29,80,22,74,15,66,10,55,7,43,5,32,7,21,10,13,15,7,22,5,29,7,37,13,43,21,49,32,52,43,53,55,52,66,49,74,43,80,37"/>
+<area shape="poly" id="node6" href="boys4fourBrooks.html" title="Brooks" alt="" coords="418,165,415,158,408,151,397,146,383,143,367,141,352,143,338,146,327,151,320,158,317,165,320,173,327,179,338,185,352,188,367,189,383,188,397,185,408,179,415,173"/>
 <area shape="poly" id="edge2" href="http://www.row2k.com/results/resultspage.cfm?UID=958D32A689654822DEFDC06456D1CFA2&amp;cat=1" title="Boys Fours: BB&N; vs. Brooks			
 Submitted by Adam Holland.
 Distance: 1350m
@@ -10,7 +10,7 @@ Comments: Excellent May afternoon of racing on the Charles, not too many powerbo
 Thanks to Brooks for making the trip, well raced all crews." alt="" coords="30,52,15,85,14,101,20,116,38,129,66,140,141,154,226,161,304,162,304,168,226,166,140,159,65,145,36,134,16,119,8,102,10,84,25,50"/>
 <area shape="rect" id="edge2-label" href="http://www.row2k.com/results/resultspage.cfm?UID=958D32A689654822DEFDC06456D1CFA2&amp;cat=1" title="15
 05/21" alt="" coords="18,77,59,117"/>
-<area shape="poly" id="node2" href="boys4fourBrooksStMarks.html" title="StMarks" alt="" coords="207,301,204,294,196,287,184,282,169,279,151,277,134,279,119,282,107,287,99,294,96,301,99,309,107,315,119,321,134,324,151,325,169,324,184,321,196,315,204,309"/>
+<area shape="poly" id="node2" href="boys4fourStMarks.html" title="StMarks" alt="" coords="207,301,204,294,196,287,184,282,169,279,151,277,134,279,119,282,107,287,99,294,96,301,99,309,107,315,119,321,134,324,151,325,169,324,184,321,196,315,204,309"/>
 <area shape="poly" id="edge18" href="http://www.row2k.com/results/resultspage.cfm?UID=CBA12A5A3ED953323D60CEC656FC4847&amp;cat=1" title="St. Marks School (Boys Fours) vs. Deerfield, Brooks, VA			
 Submitted by Andrew Bagley.
 Distance: 1500
@@ -18,8 +18,8 @@ Conditions: Increasing cross tail as races progressed, moderate chop.
 Comments: Race order 4&amp;5 / 2 / 3 / 1. 2V race started 1 boat length after 1500 start. Well done coxswains handling the conditions, thank you to all teams that competed this weekend!" alt="" coords="170,277,207,239,241,211,275,193,310,180,312,185,277,198,244,216,211,243,173,281"/>
 <area shape="rect" id="edge18-label" href="http://www.row2k.com/results/resultspage.cfm?UID=CBA12A5A3ED953323D60CEC656FC4847&amp;cat=1" title="5
 04/23" alt="" coords="242,213,283,253"/>
-<area shape="poly" id="node3" href="boys4fourBrooksMiddlesex.html" title="Middlesex" alt="" coords="360,301,356,294,347,287,333,282,315,279,295,277,276,279,258,282,244,287,234,294,231,301,234,309,244,315,258,321,276,324,295,325,315,324,333,321,347,315,356,309"/>
-<area shape="poly" id="node4" href="boys4fourBrooksDeerfield.html" title="Deerfield" alt="" coords="282,29,279,22,270,15,258,10,241,7,223,5,206,7,189,10,176,15,168,22,165,29,168,37,176,43,189,49,206,52,223,53,241,52,258,49,270,43,279,37"/>
+<area shape="poly" id="node3" href="boys4fourMiddlesex.html" title="Middlesex" alt="" coords="360,301,356,294,347,287,333,282,315,279,295,277,276,279,258,282,244,287,234,294,231,301,234,309,244,315,258,321,276,324,295,325,315,324,333,321,347,315,356,309"/>
+<area shape="poly" id="node4" href="boys4fourDeerfield.html" title="Deerfield" alt="" coords="282,29,279,22,270,15,258,10,241,7,223,5,206,7,189,10,176,15,168,22,165,29,168,37,176,43,189,49,206,52,223,53,241,52,258,49,270,43,279,37"/>
 <area shape="poly" id="edge14" href="http://www.row2k.com/results/resultspage.cfm?UID=CBA12A5A3ED953323D60CEC656FC4847&amp;cat=1" title="St. Marks School (Boys Fours) vs. Deerfield, Brooks, VA			
 Submitted by Andrew Bagley.
 Distance: 1500
@@ -41,7 +41,7 @@ Conditions: Increasing cross tail as races progressed, moderate chop.
 Comments: Race order 4&amp;5 / 2 / 3 / 1. 2V race started 1 boat length after 1500 start. Well done coxswains handling the conditions, thank you to all teams that competed this weekend!" alt="" coords="248,50,337,132,333,136,244,53"/>
 <area shape="rect" id="edge17-label" href="http://www.row2k.com/results/resultspage.cfm?UID=CBA12A5A3ED953323D60CEC656FC4847&amp;cat=1" title="8
 04/23" alt="" coords="317,77,358,117"/>
-<area shape="poly" id="node5" href="boys4fourBrooksGroton.html" title="Groton" alt="" coords="417,29,414,22,407,15,396,10,383,7,367,5,352,7,338,10,328,15,320,22,318,29,320,37,328,43,338,49,352,52,367,53,383,52,396,49,407,43,414,37"/>
+<area shape="poly" id="node5" href="boys4fourGroton.html" title="Groton" alt="" coords="417,29,414,22,407,15,396,10,383,7,367,5,352,7,338,10,328,15,320,22,318,29,320,37,328,43,338,49,352,52,367,53,383,52,396,49,407,43,414,37"/>
 <area shape="poly" id="edge4" href="http://www.row2k.com/results/resultspage.cfm?UID=6569213A30A67E7EADC85E5567B3D74D&amp;cat=1" title="Brooks Crew (Boys 4+) vs. Belmont Hill, Groton, Choate			
 Submitted by Michael Grenier.
 Distance: 1500 meters
@@ -88,7 +88,7 @@ Conditions: Varsity 4s: Strong head wind for all races.
 Comments: Big thanks to both Middlesex and Nobles for a great day of racing despite the challenging conditions." alt="" coords="365,190,356,222,340,255,329,270,325,267,336,252,351,220,360,189"/>
 <area shape="rect" id="edge13-label" href="http://www.row2k.com/results/resultspage.cfm?UID=CA00F571C2D87279FF0D99FC4404BB2E&amp;cat=1" title="66
 04/30" alt="" coords="355,213,397,253"/>
-<area shape="poly" id="node8" href="boys4fourBrooksNobles.html" title="Nobles" alt="" coords="560,301,558,294,551,287,540,282,526,279,511,277,496,279,483,282,472,287,465,294,463,301,465,309,472,315,483,321,496,324,511,325,526,324,540,321,551,315,558,309"/>
+<area shape="poly" id="node8" href="boys4fourNobles.html" title="Nobles" alt="" coords="560,301,558,294,551,287,540,282,526,279,511,277,496,279,483,282,472,287,465,294,463,301,465,309,472,315,483,321,496,324,511,325,526,324,540,321,551,315,558,309"/>
 <area shape="poly" id="edge12" href="http://www.row2k.com/results/resultspage.cfm?UID=CA00F571C2D87279FF0D99FC4404BB2E&amp;cat=1" title="Brooks Crew (Boys) vs. Nobles and Middlesex			
 Submitted by Michael Grenier.
 Distance: 1500 meters
@@ -97,7 +97,7 @@ Conditions: Varsity 4s: Strong head wind for all races.
 Comments: Big thanks to both Middlesex and Nobles for a great day of racing despite the challenging conditions." alt="" coords="386,187,437,251,469,274,466,279,434,255,382,190"/>
 <area shape="rect" id="edge12-label" href="http://www.row2k.com/results/resultspage.cfm?UID=CA00F571C2D87279FF0D99FC4404BB2E&amp;cat=1" title="21
 04/30" alt="" coords="435,213,477,253"/>
-<area shape="poly" id="node7" href="boys4fourBrooksChoate.html" title="Choate" alt="" coords="560,29,558,22,551,15,540,10,526,7,511,5,496,7,483,10,472,15,465,22,463,29,465,37,472,43,483,49,496,52,511,53,526,52,540,49,551,43,558,37"/>
+<area shape="poly" id="node7" href="boys4fourChoate.html" title="Choate" alt="" coords="560,29,558,22,551,15,540,10,526,7,511,5,496,7,483,10,472,15,465,22,463,29,465,37,472,43,483,49,496,52,511,53,526,52,540,49,551,43,558,37"/>
 <area shape="poly" id="edge5" href="http://www.row2k.com/results/resultspage.cfm?UID=6569213A30A67E7EADC85E5567B3D74D&amp;cat=1" title="Brooks Crew (Boys 4+) vs. Belmont Hill, Groton, Choate			
 Submitted by Michael Grenier.
 Distance: 1500 meters
@@ -128,7 +128,7 @@ Conditions: Varsity 4s: Strong head wind for all races.
 Comments: Big thanks to both Middlesex and Nobles for a great day of racing despite the challenging conditions." alt="" coords="530,278,551,246,554,230,548,215,530,203,501,192,429,177,430,172,502,187,533,198,552,212,559,229,556,248,534,281"/>
 <area shape="rect" id="edge11-label" href="http://www.row2k.com/results/resultspage.cfm?UID=CA00F571C2D87279FF0D99FC4404BB2E&amp;cat=1" title="13
 04/30" alt="" coords="557,213,598,253"/>
-<area shape="poly" id="node9" href="boys4fourBrooksBelmontHill.html" title="BelmontHill" alt="" coords="727,29,723,22,713,15,697,10,677,7,655,5,634,7,614,10,598,15,588,22,584,29,588,37,598,43,614,49,634,52,655,53,677,52,697,49,713,43,723,37"/>
+<area shape="poly" id="node9" href="boys4fourBelmontHill.html" title="BelmontHill" alt="" coords="727,29,723,22,713,15,697,10,677,7,655,5,634,7,614,10,598,15,588,22,584,29,588,37,598,43,614,49,634,52,655,53,677,52,697,49,713,43,723,37"/>
 <area shape="poly" id="edge3" href="http://www.row2k.com/results/resultspage.cfm?UID=6569213A30A67E7EADC85E5567B3D74D&amp;cat=1" title="Brooks Crew (Boys 4+) vs. Belmont Hill, Groton, Choate			
 Submitted by Michael Grenier.
 Distance: 1500 meters

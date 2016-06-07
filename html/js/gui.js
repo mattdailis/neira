@@ -1,8 +1,8 @@
-var selected = null
+// var selected = null
 
 $('img[usemap]').maphilight();
 
-$('.modal').on('hidden.bs.modal', function () {
+/*$('.modal').on('hidden.bs.modal', function () {
     $(selected).click()
     selected = null
     $(this).modal('hide')
@@ -42,4 +42,4 @@ $('area').click(function(e) {
 	$('.modal').modal()
 	console.log($('.modal-backdrop'))
     }
-});
+});*/

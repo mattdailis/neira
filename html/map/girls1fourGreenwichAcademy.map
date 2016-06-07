@@ -1,9 +1,9 @@
-<map id="girls1fourGreenwichAcademy" name="girls1fourGreenwichAcademy">
-<area shape="poly" id="node1" href="girls1fourGreenwichAcademySouthfield.html" title="Southfield" alt="" coords="172,301,168,294,159,287,145,282,127,279,107,277,88,279,70,282,56,287,46,294,43,301,46,309,56,315,70,321,88,324,107,325,127,324,145,321,159,315,168,309"/>
-<area shape="poly" id="node2" href="girls1fourGreenwichAcademyGunnery.html" title="Gunnery" alt="" coords="308,301,305,294,297,287,285,282,269,279,251,277,234,279,218,282,206,287,198,294,195,301,198,309,206,315,218,321,234,324,251,325,269,324,285,321,297,315,305,309"/>
-<area shape="poly" id="node3" href="girls1fourGreenwichAcademyBerkshire.html" title="Berkshire" alt="" coords="451,301,448,294,440,287,427,282,410,279,391,277,373,279,356,282,343,287,335,294,332,301,335,309,343,315,356,321,373,324,391,325,410,324,427,321,440,315,448,309"/>
-<area shape="poly" id="node4" href="girls1fourGreenwichAcademyHopkins.html" title="Hopkins" alt="" coords="116,29,114,22,106,15,93,10,78,7,61,5,44,7,28,10,16,15,8,22,5,29,8,37,16,43,28,49,44,52,61,53,78,52,93,49,106,43,114,37"/>
-<area shape="poly" id="node5" href="girls1fourGreenwichAcademyGreenwichAcademy.html" title="GreenwichAcademy" alt="" coords="364,165,359,158,343,151,318,146,286,143,251,141,217,143,185,146,160,151,144,158,139,165,144,173,160,179,185,185,217,188,251,189,286,188,318,185,343,179,359,173"/>
+<map id="girls1four" name="girls1four">
+<area shape="poly" id="node1" href="girls1fourSouthfield.html" title="Southfield" alt="" coords="172,301,168,294,159,287,145,282,127,279,107,277,88,279,70,282,56,287,46,294,43,301,46,309,56,315,70,321,88,324,107,325,127,324,145,321,159,315,168,309"/>
+<area shape="poly" id="node2" href="girls1fourGunnery.html" title="Gunnery" alt="" coords="308,301,305,294,297,287,285,282,269,279,251,277,234,279,218,282,206,287,198,294,195,301,198,309,206,315,218,321,234,324,251,325,269,324,285,321,297,315,305,309"/>
+<area shape="poly" id="node3" href="girls1fourBerkshire.html" title="Berkshire" alt="" coords="451,301,448,294,440,287,427,282,410,279,391,277,373,279,356,282,343,287,335,294,332,301,335,309,343,315,356,321,373,324,391,325,410,324,427,321,440,315,448,309"/>
+<area shape="poly" id="node4" href="girls1fourHopkins.html" title="Hopkins" alt="" coords="116,29,114,22,106,15,93,10,78,7,61,5,44,7,28,10,16,15,8,22,5,29,8,37,16,43,28,49,44,52,61,53,78,52,93,49,106,43,114,37"/>
+<area shape="poly" id="node5" href="girls1fourGreenwichAcademy.html" title="GreenwichAcademy" alt="" coords="364,165,359,158,343,151,318,146,286,143,251,141,217,143,185,146,160,151,144,158,139,165,144,173,160,179,185,185,217,188,251,189,286,188,318,185,343,179,359,173"/>
 <area shape="poly" id="edge1" href="http://www.row2k.com/results/resultspage.cfm?UID=C35110CBA0B6AD173E0E3B64EDFFD21E&amp;cat=1" title="NEIRA Girls 4+: Canterbury School vs. Berkshire/ Cbury/ Hopkin/ Southfield/ Greenwich A./ Marianap			
 Submitted by Sarah Bednar.
 Distance: 1500
@@ -33,7 +33,7 @@ Conditions: Floating starts with moderate head winds early in the races but dyin
 Comments: The start was 6K away from the dock which made hot seating challenging but doable. GA hot seated a rower from GV4 to GV3 . A time wasnt recorded for Greenwich A in GV4." alt="" coords="277,187,361,267,357,271,273,191"/>
 <area shape="rect" id="edge3-label" href="http://www.row2k.com/results/resultspage.cfm?UID=C35110CBA0B6AD173E0E3B64EDFFD21E&amp;cat=1" title="8
 05/21" alt="" coords="343,213,385,253"/>
-<area shape="poly" id="node7" href="girls1fourGreenwichAcademyLymeOldLyme.html" title="LymeOldLyme" alt="" coords="650,301,645,294,633,287,614,282,589,279,562,277,535,279,511,282,491,287,479,294,475,301,479,309,491,315,511,321,535,324,562,325,589,324,614,321,633,315,645,309"/>
+<area shape="poly" id="node7" href="girls1fourLymeOldLyme.html" title="LymeOldLyme" alt="" coords="650,301,645,294,633,287,614,282,589,279,562,277,535,279,511,282,491,287,479,294,475,301,479,309,491,315,511,321,535,324,562,325,589,324,614,321,633,315,645,309"/>
 <area shape="poly" id="edge6" href="http://www.row2k.com/results/resultspage.cfm?UID=103D4893EBAE8939CAC38D1CC2199007&amp;cat=1" title="HS Girls Cup Race &#45; Fours on Lake Waramaug: Gunnery School vs. NCDS, Porters, L/OL, Canterbury,Greenwich Academy			
 Submitted by Katy Varga, The Gunnery.
 Distance: 1650
@@ -42,7 +42,7 @@ Comments: *Note: Miss Porterâs 3V was late to the start for this race, but 
 Much thanks to all of the coaches for helping run a smooth regatta, and congratulations to Greenwich Academy for taking home the cup at the end of the day!" alt="" coords="315,183,391,211,515,271,512,275,389,216,313,188"/>
 <area shape="rect" id="edge6-label" href="http://www.row2k.com/results/resultspage.cfm?UID=103D4893EBAE8939CAC38D1CC2199007&amp;cat=1" title="7
 04/30" alt="" coords="470,213,511,253"/>
-<area shape="poly" id="node6" href="girls1fourGreenwichAcademyNewtonCountryDay.html" title="NewtonCountryDay" alt="" coords="362,29,357,22,341,15,317,10,286,7,251,5,217,7,186,10,162,15,146,22,141,29,146,37,162,43,186,49,217,52,251,53,286,52,317,49,341,43,357,37"/>
+<area shape="poly" id="node6" href="girls1fourNewtonCountryDay.html" title="NewtonCountryDay" alt="" coords="362,29,357,22,341,15,317,10,286,7,251,5,217,7,186,10,162,15,146,22,141,29,146,37,162,43,186,49,217,52,251,53,286,52,317,49,341,43,357,37"/>
 <area shape="poly" id="edge4" href="http://www.row2k.com/results/resultspage.cfm?UID=103D4893EBAE8939CAC38D1CC2199007&amp;cat=1" title="HS Girls Cup Race &#45; Fours on Lake Waramaug: Gunnery School vs. NCDS, Porters, L/OL, Canterbury,Greenwich Academy			
 Submitted by Katy Varga, The Gunnery.
 Distance: 1650
