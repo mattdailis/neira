@@ -212,7 +212,7 @@ if __name__ == '__main__':
     createTable(cur)
 
     res_url = 'http://www.row2k.com'
-    res_html = urllib2.urlopen(res_url+"/results/index.cfm?league=NEIRA")
+    res_html = urllib2.urlopen(res_url+"/results/index.cfm?league=NEIRA&year=2016")
     urls_scraped = getUrlsScraped()
 
     urls = getRaceUrls(urls_scraped)
