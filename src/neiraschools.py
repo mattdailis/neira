@@ -21,7 +21,7 @@ def getNeiraSchools():
             'Lyme/Old Lyme' : ['LOL', 'L//OL', 'L/OL'],
             'Medford' : [],
             'Middlesex' : [],
-            'Milton' : [],
+            'Milton' : ['MHS'],
             'Miss Porters' : ['M Porters', 'MPS'],
             'Newton Country Day' : ['NCDS'],
             'Nobles' : [],
@@ -94,10 +94,11 @@ def matchSchool(name, boatNum=None):
                 except ValueError:
                     pass
 
-    if score > 0.7:
-        return (school, num)
-    else:
-        return (None, None)
+    return (name, num)
+    # if score > 0.7:
+    #     return (school, num)
+    # else:
+    #     return (None, None)
 
 def parseNum(num):
     if 'nov' in num:

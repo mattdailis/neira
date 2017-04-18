@@ -50,15 +50,15 @@ def scrapeRegatta(name, url):
     print "Scraping", name
     html = urllib2.urlopen(res_url+url)
     soup = BeautifulSoup(html)
-    blockquote = soup.find('blockquote')
-    if blockquote == None or soup.find('a', text='Download results here!') != None:
-        print "could not scrape", name, url
-        return
-    tag = soup.find('font', face='Verdana, Arial, Helvetica, sans-serif')
-    dayString = tag.find_all('br')[-1].string.split(';')[0]
-    day = getDate(dayString)
+    title = soup.findAll("meta", { "name" : "description"})[0]['content']
+    dayString =  ','.join(title.split('-')[-2].split(',')[-2:])
 
-    comment = blockquote.i.text.encode('utf-8')
+    day = getDate(dayString.strip())
+
+    blockquote = soup.findAll("div", { "class" : "res-text"})[0]
+
+
+    comment = blockquote.text.encode('utf-8')
     p = str(blockquote.p).split('<br>')
     for t in p:
         comment += "\n"
@@ -66,7 +66,7 @@ def scrapeRegatta(name, url):
     if comment == None:
         comment = ""
 
-    results = blockquote.parent.find_all("font")
+    results = soup.findAll("div", {"class" : "results-block"})
 
     gender = None
     if "boy" in name.lower() and not "girl" in name.lower():
@@ -87,29 +87,24 @@ def scrapeRegatta(name, url):
     schoollog = ""
     boatlog = ""
 
-    i = 1 # Skip the "Results" word
-    while i < len(results) - 3: # Exclude last two "email" words
-        first = results[i]
-        second = results[i + 1]
-        if first.b != None:
-            # Boat name
-            enterHeat(str(gender)+str(boatNum)+boatSize, currentHeat, gender, day, name, comment, res_url+url)
-            currentHeat = []
-            rawboat = first.text.encode('utf-8')
-            (gender, boatNum, boatSize) = parseBoat(gender, boatSize, rawboat)
-            boatlog += rawboat + " -> " + str(boat) + "\n"
-            i -= 1
-        elif len(first.text.strip()) > 0:
-            rawschool = first.text.encode('utf-8').strip()
+    for resultBlock in results:
+        heat = resultBlock.findAll("tr", {"align" : "center"})[0].text.strip()
+        (gender, boatNum, boatSize) = parseBoat(gender, boatSize, heat)
+
+        for school_time in resultBlock.findAll("tr")[1:]:
+            school_time = school_time.findAll("td")
+            rawschool = school_time[0].text.encode('utf-8').strip()
+            if rawschool == "":
+                continue
             (school, num) = matchSchool(rawschool, boatNum=boatNum)
             schoollog +=  rawschool + " -> " + str(school) + "\n"
-            time = second.text.encode('utf-8').strip()
+            time = school_time[1].text.encode('utf-8').strip()
             # if school is None, it's not in NEIRA
             if school != None:
                 currentHeat.append((school, num, time))
-        i += 2
-    if len(currentHeat) > 0:
+
         enterHeat(str(gender)+str(boatNum)+str(boatSize), currentHeat, gender, day, name, comment, res_url+url)
+        currentHeat = []
     return (schoollog, boatlog)
 
 
@@ -147,10 +142,11 @@ def cleanTime(string):
 
 def parseBoat(gender, boatSize, boatString):
     number = None
-    if "g" in boatString.lower().replace("eig", ""):
-        gender = "girls"
-    elif "b" in boatString.lower():
-        gender = "boys"
+    if gender is None:
+        if "g" in boatString.lower().replace("eig", ""):
+            gender = "girls"
+        elif "b" in boatString.lower():
+            gender = "boys"
 
 
     if "1" in boatString or "one" in boatString.lower() or "first" in boatString.lower() or "st" in boatString.lower():
@@ -191,7 +187,7 @@ def getDate(string):
 def getRaceUrls(urls_scraped):
     urls = []
     soup = BeautifulSoup(res_html)
-    highschool = soup.findChildren('strong', text="High School/Scholastic")
+    highschool = soup.findChildren('span', text="High School/Scholastic")
     for bulletList in highschool:
         links = bulletList.parent.parent.find_all("a")
         for link in links:
@@ -206,17 +202,17 @@ def getRaceUrls(urls_scraped):
 # expected bug: when program terminates mid-scrape, should redo that url next time
 
 if __name__ == '__main__':
-    conn = sqlite3.connect('row2k.sqlite3')
+    conn = sqlite3.connect('../bin/row2k.sqlite3')
     cur = conn.cursor()
 
     createTable(cur)
 
     res_url = 'http://www.row2k.com'
-    res_html = urllib2.urlopen(res_url+"/results/index.cfm?league=NEIRA&year=2016")
+    res_html = urllib2.urlopen(res_url+"/results/index.cfm?league=NEIRA&year=2017")
+
     urls_scraped = getUrlsScraped()
 
     urls = getRaceUrls(urls_scraped)
-    print urls
     schools = open("schoolslog.txt", "w")
     boats = open("boatslog.txt", "w")
     if len(urls) > 0:

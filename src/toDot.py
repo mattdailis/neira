@@ -2,6 +2,7 @@ import os
 from bs4 import BeautifulSoup
 from associationList import getNodes
 
+
 def pairsToDot(graph, orders):
     nodes = getNodes(orders)
     dot = "digraph "+graphName(graph)+" {"
@@ -69,14 +70,18 @@ def genPdf(src, dst):
 
 def genHtml(name, graph):
     print "generating", name
-    os.system("graphviz\\release\\bin\\dot.exe -Tcmapx -ohtml\\map\\"+name+".map -Tgif -ohtml\\gif\\"+name+".gif gv\\"+name+".gv")
+    #os.system("graphviz\\release\\bin\\dot.exe -Tcmapx -ohtml\\map\\"+name+".map -Tgif -ohtml\\gif\\"+name+".gif gv\\"+name+".gv")
 
-    modal = open("html\\css\\modal.html", "r")
-    modalStr = modal.read()
-    modal.close()
+    # os.system("dot -T gif -O ../bin/"+name+".dot")
+    os.system('dot -Tcmapx -O ../bin/'+name+'.dot -T gif -O ../bin/'+name+'.dot')
 
-    target = open("html\\"+name+".html", 'w+')
-    map = open("html\\map\\"+name+".map", "r")
+
+    # modal = open("html\\css\\modal.html", "r")
+    # modalStr = modal.read()
+    # modal.close()
+
+    target = open("html/"+name+".html", 'w+')
+    map = open("../bin/"+name+".dot.cmapx", "r")
     mapTag = map.read()
     map.close()
     mapTag = modMap(mapTag, name)
@@ -94,9 +99,9 @@ def genHtml(name, graph):
     if name != graph:
         target.write('<br />')
         target.write('<a href="'+graph+'.html">Back to '+graph+'</a>')
-    target.write('<IMG SRC="gif\\'+ graphName(name) +'.gif" USEMAP="#'+graphName(name)+'" />')
+    target.write('<IMG SRC="../bin/'+ graphName(name) +'.dot.gif" USEMAP="#'+graphName(name)+'" />')
     target.write(mapTag)
-    target.write(modalStr)
+    # target.write(modalStr)
     target.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>')
     target.write('<script src="js/jquery.maphilight.js"></script>')
     target.write('<script src="js/bootstrap.min.js"></script>')
@@ -116,7 +121,7 @@ def modMap(map, name):
     return soup.prettify().encode('utf-8')
 
 def viz(name, url, orders):
-    #genJs("gui.js", name, pairsToDOT(name, orders))
-    genDot("gv/"+graphName(url)+".gv", pairsToDot(name, orders))
+    genJs("gui.js", name, pairsToDot(name, orders))
+    genDot("../bin/"+graphName(url)+".dot", pairsToDot(name, orders))
     genHtml(graphName(url), name)
     #genPdf("gv/"+nodeName(name)+".gv", "pdf/"+nodeName(name)+".pdf")

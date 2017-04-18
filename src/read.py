@@ -34,7 +34,7 @@ def orderEntry(orders, school, boat):
 
 
 if __name__ == '__main__':
-    conn = sqlite3.connect('row2k.sqlite3')
+    conn = sqlite3.connect('../bin/row2k.sqlite3')
     cur = conn.cursor()
 
 
@@ -43,6 +43,8 @@ if __name__ == '__main__':
     """)
 
     results = cur.fetchall()
+    for result in results:
+        print result
     (date, gender, heat, fasterSchool, fasterBoat, slowerSchool, slowerBoat, margin, race, comment, url) = results[0]
     orders = {}
     nodes = {}
@@ -67,28 +69,29 @@ if __name__ == '__main__':
         orderEntry(orders, slowerSchool, slowerBoat)
         orders[fasterSchool][fasterBoat].append(edge)
         orders[slowerSchool][slowerBoat].append(edge)
-        # form = "{boat}: {faster} beat {slower} by {margin} seconds on {date}"
-        # print form.format(date=str(date),
-        #                     faster=fasterSchool,
-        #                     slower=slowerSchool,
-        #                     boat=boat,
-        #                     margin=str(margin))
+        form = "{boat}: {faster} beat {slower} by {margin} seconds on {date}"
+        print form.format(date=str(date),
+                            faster=fasterSchool,
+                            slower=slowerSchool,
+                            boat=boat,
+                            margin=str(margin))
 
     for boat in sorted(orders.keys(), key=sorter):
         #edges = removeCycles(orders[boat])
+        print orders
         edges = orders[boat]
-        # viz(boat, boat, edges)
+        viz(boat, boat, edges)
         # try:
         print "-" * 25
         print boat + ":"
-        for school in seed(fromAssociationList(removeCycles(edges))):
-            print school
-        for school in getNodes(edges):
-            relevant = []
-            for edge in edges:
-                if edge.first == school or edge.second == school:
-                    relevant.append(edge)
-                    #            viz(boat, boat+school, relevant)
+        # for school in seed(fromAssociationList(removeCycles(edges))):
+        #     print school
+        # for school in getNodes(edges):
+        #     relevant = []
+        #     for edge in edges:
+        #         if edge.first == school or edge.second == school:
+        #             relevant.append(edge)
+        #             #            viz(boat, boat+school, relevant)
                     #        print len(allChains(fromAssociationList(removeCycles(edges))))
         raw_input()
 
