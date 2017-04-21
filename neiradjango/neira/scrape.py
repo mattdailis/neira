@@ -3,8 +3,8 @@ import urllib2
 import datetime
 from datetime import date
 import re
-from neiraschools import matchSchool
-from models import Heat, School, Result, Boat
+from neira.neiraschools import matchSchool
+from neira.models import Heat, School, Result, Boat
 
 #--- Set up database ---#
 
@@ -47,7 +47,7 @@ def getUrlsScraped():
 
 #--- Set up scraper ---#
 
-def scrapeRegatta(name, url):
+def scrapeRegatta(name, url, res_url):
     print "Scraping", name
     html = urllib2.urlopen(res_url+url)
     soup = BeautifulSoup(html)
@@ -210,7 +210,7 @@ def getDate(string):
     return d
 
 # Returns a list of urls
-def getRaceUrls(urls_scraped):
+def getRaceUrls(urls_scraped, res_html):
     urls = []
     soup = BeautifulSoup(res_html)
     highschool = soup.findChildren('span', text="High School/Scholastic")
@@ -227,28 +227,33 @@ def getRaceUrls(urls_scraped):
 
 # expected bug: when program terminates mid-scrape, should redo that url next time
 
-if __name__ == '__main__':
-    conn = sqlite3.connect('../bin/row2k.sqlite3')
-    cur = conn.cursor()
+def main():
+    # conn = sqlite3.connect('../bin/row2k.sqlite3')
+    # cur = conn.cursor()
 
-    createTable(cur)
-
+    # createTable(cur)
+    print "running!"
     res_url = 'http://www.row2k.com'
+    import urllib2
     res_html = urllib2.urlopen(res_url+"/results/index.cfm?league=NEIRA&year=2017")
 
-    urls_scraped = getUrlsScraped()
+    urls_scraped = [] # getUrlsScraped()
 
-    urls = getRaceUrls(urls_scraped)
-    schools = open("schoolslog.txt", "w")
-    boats = open("boatslog.txt", "w")
+    urls = getRaceUrls(urls_scraped, res_html)
+    # schools = open("schoolslog.txt", "w")
+    # boats = open("boatslog.txt", "w")
+    print "urls", urls
     if len(urls) > 0:
         for (race, url) in urls:
-            (schoollog, boatlog) = scrapeRegatta(race, url)
-            schools.write(schoollog)
-            boats.write(boatlog)
+            (schoollog, boatlog) = scrapeRegatta(race, url, res_url)
+            # schools.write(schoollog)
+            # boats.write(boatlog)
 
-    schools.close()
-    boats.close()
+    # schools.close()
+    # boats.close()
 
-    conn.commit()
-    cur.close()
+    # conn.commit()
+    # cur.close()
+
+# if __name__ == '__main__':
+main()

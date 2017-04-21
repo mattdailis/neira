@@ -7,11 +7,24 @@ from django.db import models
 class School(models.Model):
     name = models.CharField(max_length=20)
 
+    def __str__(self):
+        return self.name
+
 class Boat(models.Model):
-    size = (("four", "four"),
-            ("eight", "eight"))
+    BOAT_SIZES = (("four", "four"), ("eight", "eight"))
+    size = models.CharField(
+            max_length=5, 
+            choices=BOAT_SIZES,
+            default="four"
+    )
     level = models.IntegerField(default=1)
     school = models.ForeignKey(School, on_delete=models.CASCADE) 
+    team = models.CharField(
+            max_length=1,
+            choices=(("b", "boys"), ("g", "girls"), ("n", "novice")))
+
+    def __str__(self):
+        return "Boat from " + self.school.name
 
 class Heat(models.Model):
     date = models.DateTimeField()
