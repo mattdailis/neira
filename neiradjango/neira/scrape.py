@@ -4,6 +4,7 @@ import datetime
 from datetime import date
 import re
 from neiraschools import matchSchool
+from models import Heat, School, Result, Boat
 
 #--- Set up database ---#
 
@@ -116,6 +117,31 @@ def enterHeat(heat, results, gender, date, race, comment, url):
             margin = getMargin(t1, t2)
             insert(date, gender, heat, fastSchool, fastBoat, slowSchool, slowBoat, margin, race, comment, url)
         i += 1
+
+    # Create new Heat object
+    h = Heat()
+    h.comment = comment
+    h.url = url
+    h.date = date
+    
+    
+    # For each result
+    for (school, level, time) in results:
+        b = getBoat(school, gender, level)
+        t = getTime(time)
+        r = Result()
+        r.raw_boat = str(school) + " " + str(gender) + " " + str(level)
+        r.raw_time = str(time)
+        r.boat = b
+        r.time = t
+        r.heat = h
+        r.save()
+
+def getBoat(school, team, level):
+    return Boat()
+
+def getSchool(school):
+    return School.objects.get(name=school)
 
 def getMargin(time1, time2):
     time1 = getTime(time1)

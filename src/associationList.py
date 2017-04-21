@@ -37,10 +37,14 @@ def getFirst(nodes, orders):
 def getNodes(orders):
     nodes = set([])
     for pair in orders:
-        nodes.add(pair.first)
-        nodes.add(pair.second)
+        try:
+            nodes.add(pair.first)
+            nodes.add(pair.second)
+        except AttributeError:
+            print "Error in:", orders
     return nodes
 
+# Association List (a, b)
 # Association List (a, b)
 def removeAll(item, orders):
     return filter(
