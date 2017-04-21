@@ -1,0 +1,6 @@
+<h1>Boat List<h1>
+<ul>
+    {% for boat in boats.get_queryset %}
+    <li>{{ boat.school.name }}</li>
+    {% endfor %}
+</ul>
