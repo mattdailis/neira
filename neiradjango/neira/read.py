@@ -39,10 +39,10 @@ def main():
         results = list(heat.result_set.all())
         date = heat.date
         results.sort(key=lambda x: x.time)
-        for (i, result) in enumerate(results):
+        for (i, result) in enumerate(results)[:-1]:
             fasterBoat = result.boat
             boat = str(fasterBoat.team) + str(fasterBoat.level) + str(fasterBoat.size)
-            for otherResult in results[i:]:
+            for otherResult in results[i+1:]:
                 t1, t2 = otherResult.time, result.time
 
                 t1_ms = (t1.hour*60*60 + t1.minute*60 + t1.second)*1000 + t1.microsecond
