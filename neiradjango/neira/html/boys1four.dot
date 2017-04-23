@@ -1,0 +1,120 @@
+digraph boys1four {Hingham [URL="boys1fourHingham.html"];Brookline [URL="boys1fourBrookline.html"];StJohns [URL="boys1fourStJohns.html"];Shrewsbury [URL="boys1fourShrewsbury.html"];Simsbury [URL="boys1fourSimsbury.html"];BostonLatin [URL="boys1fourBostonLatin.html"];StJohns -> StJohns[label="0
+04/22", weight="100", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+StJohns -> Shrewsbury[label="8
+04/22", weight="92", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+StJohns -> Simsbury[label="10
+04/22", weight="90", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+StJohns -> Brookline[label="13
+04/22", weight="87", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+StJohns -> Hingham[label="16
+04/22", weight="84", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Shrewsbury -> Shrewsbury[label="0
+04/22", weight="100", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Shrewsbury -> Simsbury[label="2
+04/22", weight="98", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Shrewsbury -> Brookline[label="5
+04/22", weight="95", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Shrewsbury -> Hingham[label="8
+04/22", weight="92", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Simsbury -> Simsbury[label="0
+04/22", weight="100", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Simsbury -> Brookline[label="3
+04/22", weight="97", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Simsbury -> Hingham[label="6
+04/22", weight="94", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Brookline -> Brookline[label="0
+04/22", weight="100", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Brookline -> Hingham[label="3
+04/22", weight="97", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Hingham -> Hingham[label="0
+04/22", weight="100", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Brookline -> Brookline[label="0
+04/22", weight="100", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Brookline -> Simsbury[label="198
+04/22", weight="-98", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Brookline -> Hingham[label="404
+04/22", weight="-304", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Brookline -> BostonLatin[label="424
+04/22", weight="-324", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Brookline -> Shrewsbury[label="330
+04/22", weight="-230", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Simsbury -> Simsbury[label="0
+04/22", weight="100", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Simsbury -> Hingham[label="602
+04/22", weight="-502", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Simsbury -> BostonLatin[label="622
+04/22", weight="-522", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Simsbury -> Shrewsbury[label="528
+04/22", weight="-428", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Hingham -> Hingham[label="0
+04/22", weight="100", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Hingham -> BostonLatin[label="20
+04/22", weight="80", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Hingham -> Shrewsbury[label="74
+04/22", weight="26", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+BostonLatin -> BostonLatin[label="0
+04/22", weight="100", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+BostonLatin -> Shrewsbury[label="94
+04/22", weight="6", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]; 
+Shrewsbury -> Shrewsbury[label="0
+04/22", weight="100", tooltip="
+Distance: 1500 Meters Conditions: Very slight, steady tailwind all day Comments: The B3 started at least 50 meters over the line, times should not be compared. In the G3 Simsbury crabbed and crossed over 3 lanes,they were DSQ. In the G2 Simsbury crabbed at the start, stopped and rowed back into the race. Thank you to St. John's and Shrewsbury for hosting day. Good job by all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8A4A91B68FADF97C5BD116ED0221FC4E&cat=5", random="random"]}
