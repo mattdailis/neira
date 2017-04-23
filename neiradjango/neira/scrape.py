@@ -123,7 +123,7 @@ def enterHeat(heat, results, gender, date, race, comment, url):
     h.comment = comment
     h.url = url
     h.date = date
-    
+    h.save()
     
     # For each result
     for (school, level, time) in results:
@@ -138,10 +138,31 @@ def enterHeat(heat, results, gender, date, race, comment, url):
         r.save()
 
 def getBoat(school, team, level):
-    return Boat()
+    s = getSchool(school)
+    # Filter school
+    boats = s.boat_set.filter(team=team, level=level)
+    if boats.count() == 1:
+        return boats[0]
+        
+    if boats.count() == 0:
+        b = Boat()
+        b.school = s
+        b.team = team
+        b.level = level
+        # size
+        b.save()
+        return b
+
+    raise Exception("There are more than one boat with school {}, team {}, level, {}".format(school, team, level))
 
 def getSchool(school):
-    return School.objects.get(name=school)
+    try:
+        return School.objects.get(name=school)
+    except School.DoesNotExist:
+        s = School()
+        s.name = school
+        s.save()
+        return s
 
 def getMargin(time1, time2):
     time1 = getTime(time1)
