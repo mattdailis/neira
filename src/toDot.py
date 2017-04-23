@@ -1,6 +1,8 @@
 import os
+
 from bs4 import BeautifulSoup
-from associationList import getNodes
+
+from neiradjango.neira.associationList import getNodes
 
 
 def pairsToDot(graph, orders):

@@ -1,7 +1,8 @@
 # A Chain is a Listof Nodes
 
-from associationList import Edge
-from graph import Graph, fromAssociationList
+from graph import fromAssociationList
+from neiradjango.neira.associationList import Edge
+
 
 def chainsFromSeed(seed, graph):
     chains = []
