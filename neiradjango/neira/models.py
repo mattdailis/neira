@@ -27,7 +27,7 @@ class Boat(models.Model):
         return "Boat from " + self.school.name
 
 class Heat(models.Model):
-    date = models.DateTimeField()
+    date = models.DateField()
     comment = models.TextField(default="")
     url = models.URLField(default="#")
 
@@ -38,7 +38,7 @@ class Result(models.Model):
     raw_boat = models.CharField(max_length=50, default="")
     raw_time = models.CharField(max_length=50, default="")
     boat = models.ForeignKey(Boat, on_delete=models.CASCADE)
-    time = models.TimeField()
+    time = models.DurationField()
     heat = models.ForeignKey(Heat, on_delete=models.CASCADE)
 
     def __str__(self):
