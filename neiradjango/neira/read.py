@@ -43,12 +43,7 @@ def main():
             fasterBoat = result.boat
             boat = str(fasterBoat.team) + str(fasterBoat.level) + str(fasterBoat.size)
             for otherResult in results[i+1:]:
-                t1, t2 = otherResult.time, result.time
-
-                t1_ms = (t1.hour*60*60 + t1.minute*60 + t1.second)*1000 + t1.microsecond
-                t2_ms = (t2.hour*60*60 + t2.minute*60 + t2.second)*1000 + t2.microsecond
-
-                margin = (max([t1_ms, t2_ms]) - min([t1_ms, t2_ms]))/10000
+                margin = (otherResult.time - result.time).total_seconds()
                 slowerBoat = otherResult.boat
 
     #

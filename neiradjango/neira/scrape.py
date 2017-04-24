@@ -99,6 +99,8 @@ def enterHeat(heat, results, gender, date, race, comment, url, size):
         r.raw_boat = str(school) + " " + str(gender) + " " + str(level)
         r.raw_time = str(time)
         r.boat = b
+        if t is None:
+            t = datetime.timedelta(hours = -1) # if unable to parse time, set to an invalid (negative) time
         r.time = t
         r.heat = h
         r.save()
@@ -141,15 +143,18 @@ def getMargin(time1, time2):
 def getTime(time):
     time = cleanTime(time)
     try:
-        return datetime.datetime.strptime(time, "%M:%S.%f")
+        dt = datetime.datetime.strptime(time, "%M:%S.%f")
     except:
         try:
-            return datetime.datetime.strptime(time, "%M.%S.%f")
+            dt = datetime.datetime.strptime(time, "%M.%S.%f")
         except:
             try:
-                return datetime.datetime.strptime(time, "%M:%S")
+                dt = datetime.datetime.strptime(time, "%M:%S")
             except:
-                return None
+                dt = None
+    if dt is not None:
+        t = dt.time()
+        return datetime.timedelta(hours=t.hour, minutes=t.minute, seconds=t.second, microseconds=t.microsecond)
 
 def cleanTime(string):
     return string.replace("!", "1").replace(" ", "")
