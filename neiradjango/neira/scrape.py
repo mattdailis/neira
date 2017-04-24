@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import urllib2
 import datetime
-from neiraschools import matchSchool
+from neiraschools import match_school
 from models import Heat, School, Result, Boat
 
 
@@ -64,7 +64,7 @@ def scrape_regatta(name, url, res_url):
             raw_school = school_time[0].text.encode('utf-8').strip()
             if raw_school == "":
                 continue
-            (school, num) = matchSchool(raw_school, boatNum=boat_num)
+            (school, num) = match_school(raw_school, boatNum=boat_num)
             schoollog += raw_school + " -> " + str(school) + "\n"
             time = school_time[1].text.encode('utf-8').strip()
             # if school is None, it's not in NEIRA

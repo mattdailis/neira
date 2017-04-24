@@ -1,8 +1,9 @@
-from difflib import SequenceMatcher as sm
+from difflib import SequenceMatcher
 
 from models import School
 
-# def getNeiraSchools():
+
+# def get_neira_schools():
 #     return {'BBN': [],
 #             'Bancroft' : [],
 #             'Belmont Hill' : [],
@@ -39,8 +40,9 @@ from models import School
 #             'Suffield': []
 #         }
 
-def getNeiraSchools():
+def get_neira_schools():
     return School.objects.all()
+
 
 # If boatNum provided, check if a different number is present in the string.
 # If a different number is present in the string, append that number to the school name
@@ -59,12 +61,12 @@ def getNeiraSchools():
 
 # What about a boys 3 boat that still wants to be considered a 3rd boat, but races 2nd boats occasionally
 # should those races count? Towards what? Margins????
-def matchSchool(name, boatNum=None, subset=None):
+def match_school(name, boatNum=None, subset=None):
     if subset is None:
-        neira = getNeiraSchools()
+        neira = get_neira_schools()
     else:
         neira = subset
-    scores = set([])
+    scores = set([(None, 0)])
     for school in neira:
         score = compare(school.name, name)
         # for nick in school.alternate_names:
@@ -72,17 +74,11 @@ def matchSchool(name, boatNum=None, subset=None):
         #     if newscore > score:
         #         score = newscore
         scores.add((school, score))
-    (school, score) = max(scores, key=(lambda (x, y) : y))
-
-    if school.name in ['Exeter', 'Middletown', 'Suffield']:
-        return (None, None)
-
-    if school.name == 'Greenwich Academy':
-        name = name.replace(" A", " Academy ")
+    (school, score) = max(scores, key=(lambda (x, y): y))
 
     num = boatNum
 
-    if boatNum != None:
+    if boatNum is not None:
         if boatNum == 'novice':
             expectedNum = 0
         else:
@@ -90,29 +86,34 @@ def matchSchool(name, boatNum=None, subset=None):
 
         # Check for the boat number. Ex: "Hopkins 4"
         if len(name.split(" ")) > 1:
-            numStrings = name.replace("/", " ").split(" ")
-            for numString in numStrings:
+            num_strings = name.replace("/", " ").split(" ")
+            for numString in num_strings:
                 try:
-                    num = parseNum(numString)
+                    num = parse_num(numString)
                     break
                 except ValueError:
                     pass
 
-    return (school.name, num)
-    # if score > 0.7:
-    #     return (school, num)
-    # else:
-    #     return (None, None)
+    if score > 0.7:
+        if school.name != name:
+            print name, "  is close enough to  ", school.name
+        school.add_alternate_names([name])
+        return school.name, num
+    else:
+        print name, "  is unique <----------------------------------"
+        return name, num
 
-def parseNum(num):
+
+def parse_num(num):
     if 'nov' in num:
         return 0
     if len(num) == 1:
-        return int(replaceLetters(num))
+        return int(replace_letters(num))
     else:
         raise ValueError
 
-def replaceLetters(string):
+
+def replace_letters(string):
     # n first for novice
     alpha = "nabcdefghijklmopqrstuvwxyz"
     low = string.lower()
@@ -120,8 +121,10 @@ def replaceLetters(string):
         low = low.replace(letter, str(alpha.index(letter)))
     return low
 
-def deUnique(string):
-    return filter((lambda s : str.isalnum(str(s)) and not str(s).isdigit()), string.lower())
+
+def alpha_only(string):
+    return filter((lambda s: str.isalnum(str(s)) and not str(s).isdigit()), string.lower())
+
 
 def compare(school, name):
-    return sm(None, deUnique(school), deUnique(name)).ratio()
+    return SequenceMatcher(None, alpha_only(school), alpha_only(name)).ratio()
