@@ -15862,3 +15862,621 @@ var linebreak = document.createElement("br");
 document.body.appendChild(linebreak);
 var linebreak = document.createElement("br");
 document.body.appendChild(linebreak);
+var image = Viz("digraph boys1eight {CapeCod [URL="boys1eightCapeCod.html"];Shrewsbury [URL="boys1eightShrewsbury.html"];WorcPublic [URL="boys1eightWorcPublic.html"];Tabor [URL="boys1eightTabor.html"];Farmington [URL="boys1eightFarmington.html"];Brookline [URL="boys1eightBrookline.html"];Andover [URL="boys1eightAndover.html"];StJohns [URL="boys1eightStJohns.html"];ELHS [URL="boys1eightELHS.html"];Salisbury [URL="boys1eightSalisbury.html"];Kent [URL="boys1eightKent.html"];Brunswick [URL="boys1eightBrunswick.html"];MHS [URL="boys1eightMHS.html"];MHS -> ELHS[label="15
+04/12", weight="85", tooltip="NEIRA Boys & Girls Eights: Middletown (CT) HS Boys and Girls Crew vs. East Lyme HS Boys and Girls Crew			
+Distance: 1375 meters Conditions: Beautiful, flat, windless lake water - new for MHS river folks! Comments: Boys 2nd Boat race was a scrimmage - should not be used for seeding. Boats were mixed levels. Beautiful day - wanted to give all kids chance to race.
+East Lyme rowed their 3V in the Second boat race as Middletown had no 3V to race them. 3V has no seeding result.
+Girls 2nd Boat race started 150 meters into race course...thus the appearance of faster times. Times should not be compared from race to race as there was variation in starting line.
+Thank you East Lyme for flexibility as race location changed. Thank you to East Hampton Crew for making our race possible by allowing the use of the lake today!
+Thanks to all and congrats on a great (and quick) day of racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3B0073C03E8640371589721B6B10DE1B&cat=5", random="random"]; 
+ELHS -> MHS[label="23
+04/12", weight="77", tooltip="NEIRA Boys & Girls Eights: Middletown (CT) HS Boys and Girls Crew vs. East Lyme HS Boys and Girls Crew			
+Distance: 1375 meters Conditions: Beautiful, flat, windless lake water - new for MHS river folks! Comments: Boys 2nd Boat race was a scrimmage - should not be used for seeding. Boats were mixed levels. Beautiful day - wanted to give all kids chance to race.
+East Lyme rowed their 3V in the Second boat race as Middletown had no 3V to race them. 3V has no seeding result.
+Girls 2nd Boat race started 150 meters into race course...thus the appearance of faster times. Times should not be compared from race to race as there was variation in starting line.
+Thank you East Lyme for flexibility as race location changed. Thank you to East Hampton Crew for making our race possible by allowing the use of the lake today!
+Thanks to all and congrats on a great (and quick) day of racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3B0073C03E8640371589721B6B10DE1B&cat=5", random="random"]; 
+Kent -> StJohns[label="4.1
+04/08", weight="96", tooltip="NEIRA Boys Eights: Kent School vs. St. Johns Prep			
+Distance: 1500 Conditions: There was a strong tail current due to flooding. Winds varied throughout the racing from a blustery headwind for the first 300 meters to a moderate tailwind for the remainder of the course. The wind for the first boat race was a predominant tailwind. Comments: The most exciting race of the day was the boys 4th boat! The lead traded between Kent and St. Johns at least two different times with Kent edging ahead at the line by 1 foot!
+The times of one race should not be compared to different races due to a floating start and the boats not all starting on the line. Some of the lower boats started up 150 meters downstream of the start. All the coxswains should be commended for their steering and handling of the difficult conditions. Thanks to St. Johns for coming to Kent!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=AD45F28D351BA6D38B3B3DFAA9E5A7BA&cat=1", random="random"]; 
+Salisbury -> Andover[label="3
+04/08", weight="97", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Salisbury -> Brookline[label="10
+04/08", weight="90", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Andover -> Brookline[label="7
+04/08", weight="93", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Brunswick -> Tabor[label="7
+04/08", weight="93", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick -> Shrewsbury[label="8
+04/08", weight="92", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick -> Farmington[label="29
+04/08", weight="71", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick -> CapeCod[label="49
+04/08", weight="51", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick -> WorcPublic[label="52
+04/08", weight="48", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Tabor -> Shrewsbury[label="1
+04/08", weight="99", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Tabor -> Farmington[label="22
+04/08", weight="78", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Tabor -> CapeCod[label="42
+04/08", weight="58", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Tabor -> WorcPublic[label="45
+04/08", weight="55", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> Farmington[label="21
+04/08", weight="79", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> CapeCod[label="41
+04/08", weight="59", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> WorcPublic[label="44
+04/08", weight="56", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Farmington -> CapeCod[label="20
+04/08", weight="80", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Farmington -> WorcPublic[label="23
+04/08", weight="77", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+CapeCod -> WorcPublic[label="3
+04/08", weight="97", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Kent -> Tabor[label="9
+04/08", weight="91", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Kent -> Shrewsbury[label="26
+04/08", weight="74", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Kent -> CapeCod[label="59
+04/08", weight="41", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Tabor -> Shrewsbury[label="17
+04/08", weight="83", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Tabor -> CapeCod[label="49
+04/08", weight="51", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> CapeCod[label="32
+04/08", weight="68", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]}", { format: "png-image-element" });
+var label = document.createElement("b");
+label.innerHTML = "boys1eight";
+document.body.appendChild(label);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+document.body.appendChild(image);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var image = Viz("digraph boys1four {CRLS [URL="boys1fourCRLS.html"];Dexter [URL="boys1fourDexter.html"];WorcPublic [URL="boys1fourWorcPublic.html"];EagleHill [URL="boys1fourEagleHill.html"];BBN [URL="boys1fourBBN.html"];Brooks [URL="boys1fourBrooks.html"];Stonington [URL="boys1fourStonington.html"];Xavier [URL="boys1fourXavier.html"];CapeCod [URL="boys1fourCapeCod.html"];Milton [URL="boys1fourMilton.html"];Xavier -> Stonington[label="2.1
+04/09", weight="98", tooltip="NEIRA Boys : Stonington High School vs. Xaiver 			
+Distance: 1500m Conditions: Perfect flat conditions. Slack tide and no wind. Comments: Great day of racing with perfect conditions. Thank you for Xavier visiting the Mystic Seaport for some great racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3BA91FEF68ED90BA8C9514B773A0AA23&cat=1", random="random"]; 
+CRLS -> BBN[label="10
+04/08", weight="90", tooltip="
+ NEIRA Boys Fours: BB&N; vs. CRLS; Milton (Mayors Cup)			
+Distance: 1300m Conditions: Strong cross tail from the starboard side, (WNW or NNW wind) probably 20 mph average; consistently quite strong throughout racing, possibly dropping slightly as racing went on. Water rough but not choppy.
+Coxswains did a good job at the start and steering in challenging conditions Comments: CRLS and Milton raced only 1st and 2nd boats; BB&N; 3rd and 4th boats raced against each other to go down the course.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6FB3384D5CC3492A87B0C133BEA1AF5E&cat=1", random="random"]; 
+CRLS -> Milton[label="15
+04/08", weight="85", tooltip="
+ NEIRA Boys Fours: BB&N; vs. CRLS; Milton (Mayors Cup)			
+Distance: 1300m Conditions: Strong cross tail from the starboard side, (WNW or NNW wind) probably 20 mph average; consistently quite strong throughout racing, possibly dropping slightly as racing went on. Water rough but not choppy.
+Coxswains did a good job at the start and steering in challenging conditions Comments: CRLS and Milton raced only 1st and 2nd boats; BB&N; 3rd and 4th boats raced against each other to go down the course.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6FB3384D5CC3492A87B0C133BEA1AF5E&cat=1", random="random"]; 
+BBN -> Milton[label="4.9
+04/08", weight="96", tooltip="
+ NEIRA Boys Fours: BB&N; vs. CRLS; Milton (Mayors Cup)			
+Distance: 1300m Conditions: Strong cross tail from the starboard side, (WNW or NNW wind) probably 20 mph average; consistently quite strong throughout racing, possibly dropping slightly as racing went on. Water rough but not choppy.
+Coxswains did a good job at the start and steering in challenging conditions Comments: CRLS and Milton raced only 1st and 2nd boats; BB&N; 3rd and 4th boats raced against each other to go down the course.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6FB3384D5CC3492A87B0C133BEA1AF5E&cat=1", random="random"]; 
+Dexter -> Brooks[label="5
+04/08", weight="95", tooltip="NEIRA Boys Fours: Brooks School vs. Dexter			
+Distance: 1250m (approx) Comments: An alternate course was set up due to heavy wind. 15-20 mph tailwind and increasing chop throughout the course. Distances varied somewhat from race to race, so results between races should not be compared. Lower boats did not race. Thank you Dexter for making the early season trip north!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8FCCFD45DE8EEFBDC29D09AC536DB8F1&cat=1", random="random"]; 
+WorcPublic -> EagleHill[label="5
+04/08", weight="95", tooltip="
+ NEIRA Boys & Girls Fours: Worcester Public Opener			
+Distance: 1500 m Conditions: Consistent cross tail wind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=84D4C2202AD6AE3D50CB5E7FB0CA74FB&cat=5", random="random"]; 
+WorcPublic -> CapeCod[label="42
+04/08", weight="58", tooltip="
+ NEIRA Boys & Girls Fours: Worcester Public Opener			
+Distance: 1500 m Conditions: Consistent cross tail wind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=84D4C2202AD6AE3D50CB5E7FB0CA74FB&cat=5", random="random"]; 
+EagleHill -> CapeCod[label="37
+04/08", weight="63", tooltip="
+ NEIRA Boys & Girls Fours: Worcester Public Opener			
+Distance: 1500 m Conditions: Consistent cross tail wind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=84D4C2202AD6AE3D50CB5E7FB0CA74FB&cat=5", random="random"]; 
+CapeCod -> EagleHill[label="55
+04/08", weight="45", tooltip="
+ NEIRA Boys & Girls Fours: Worcester Public Opener			
+Distance: 1500 m Conditions: Consistent cross tail wind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=84D4C2202AD6AE3D50CB5E7FB0CA74FB&cat=5", random="random"]; 
+CapeCod -> WorcPublic[label="_
+04/08", weight="99", tooltip="
+ NEIRA Boys & Girls Fours: Worcester Public Opener			
+Distance: 1500 m Conditions: Consistent cross tail wind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=84D4C2202AD6AE3D50CB5E7FB0CA74FB&cat=5", random="random"]; 
+EagleHill -> WorcPublic[label="_
+04/08", weight="99", tooltip="
+ NEIRA Boys & Girls Fours: Worcester Public Opener			
+Distance: 1500 m Conditions: Consistent cross tail wind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=84D4C2202AD6AE3D50CB5E7FB0CA74FB&cat=5", random="random"]}", { format: "png-image-element" });
+var label = document.createElement("b");
+label.innerHTML = "boys1four";
+document.body.appendChild(label);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+document.body.appendChild(image);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var image = Viz("digraph boys2eight {Shrewsbury [URL="boys2eightShrewsbury.html"];Tabor [URL="boys2eightTabor.html"];Farmington [URL="boys2eightFarmington.html"];Brookline [URL="boys2eightBrookline.html"];Andover [URL="boys2eightAndover.html"];StJohns [URL="boys2eightStJohns.html"];ELHS [URL="boys2eightELHS.html"];Salisbury [URL="boys2eightSalisbury.html"];Kent [URL="boys2eightKent.html"];ELHS2V [URL="boys2eightELHS2V.html"];ELHS3V [URL="boys2eightELHS3V.html"];Brunswick [URL="boys2eightBrunswick.html"];MHS [URL="boys2eightMHS.html"];ELHS -> MHS[label="14
+04/12", weight="86", tooltip="NEIRA Boys & Girls Eights: Middletown (CT) HS Boys and Girls Crew vs. East Lyme HS Boys and Girls Crew			
+Distance: 1375 meters Conditions: Beautiful, flat, windless lake water - new for MHS river folks! Comments: Boys 2nd Boat race was a scrimmage - should not be used for seeding. Boats were mixed levels. Beautiful day - wanted to give all kids chance to race.
+East Lyme rowed their 3V in the Second boat race as Middletown had no 3V to race them. 3V has no seeding result.
+Girls 2nd Boat race started 150 meters into race course...thus the appearance of faster times. Times should not be compared from race to race as there was variation in starting line.
+Thank you East Lyme for flexibility as race location changed. Thank you to East Hampton Crew for making our race possible by allowing the use of the lake today!
+Thanks to all and congrats on a great (and quick) day of racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3B0073C03E8640371589721B6B10DE1B&cat=5", random="random"]; 
+ELHS2V -> MHS[label="29
+04/12", weight="71", tooltip="NEIRA Boys & Girls Eights: Middletown (CT) HS Boys and Girls Crew vs. East Lyme HS Boys and Girls Crew			
+Distance: 1375 meters Conditions: Beautiful, flat, windless lake water - new for MHS river folks! Comments: Boys 2nd Boat race was a scrimmage - should not be used for seeding. Boats were mixed levels. Beautiful day - wanted to give all kids chance to race.
+East Lyme rowed their 3V in the Second boat race as Middletown had no 3V to race them. 3V has no seeding result.
+Girls 2nd Boat race started 150 meters into race course...thus the appearance of faster times. Times should not be compared from race to race as there was variation in starting line.
+Thank you East Lyme for flexibility as race location changed. Thank you to East Hampton Crew for making our race possible by allowing the use of the lake today!
+Thanks to all and congrats on a great (and quick) day of racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3B0073C03E8640371589721B6B10DE1B&cat=5", random="random"]; 
+ELHS2V -> ELHS3V[label="54
+04/12", weight="46", tooltip="NEIRA Boys & Girls Eights: Middletown (CT) HS Boys and Girls Crew vs. East Lyme HS Boys and Girls Crew			
+Distance: 1375 meters Conditions: Beautiful, flat, windless lake water - new for MHS river folks! Comments: Boys 2nd Boat race was a scrimmage - should not be used for seeding. Boats were mixed levels. Beautiful day - wanted to give all kids chance to race.
+East Lyme rowed their 3V in the Second boat race as Middletown had no 3V to race them. 3V has no seeding result.
+Girls 2nd Boat race started 150 meters into race course...thus the appearance of faster times. Times should not be compared from race to race as there was variation in starting line.
+Thank you East Lyme for flexibility as race location changed. Thank you to East Hampton Crew for making our race possible by allowing the use of the lake today!
+Thanks to all and congrats on a great (and quick) day of racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3B0073C03E8640371589721B6B10DE1B&cat=5", random="random"]; 
+MHS -> ELHS3V[label="25
+04/12", weight="75", tooltip="NEIRA Boys & Girls Eights: Middletown (CT) HS Boys and Girls Crew vs. East Lyme HS Boys and Girls Crew			
+Distance: 1375 meters Conditions: Beautiful, flat, windless lake water - new for MHS river folks! Comments: Boys 2nd Boat race was a scrimmage - should not be used for seeding. Boats were mixed levels. Beautiful day - wanted to give all kids chance to race.
+East Lyme rowed their 3V in the Second boat race as Middletown had no 3V to race them. 3V has no seeding result.
+Girls 2nd Boat race started 150 meters into race course...thus the appearance of faster times. Times should not be compared from race to race as there was variation in starting line.
+Thank you East Lyme for flexibility as race location changed. Thank you to East Hampton Crew for making our race possible by allowing the use of the lake today!
+Thanks to all and congrats on a great (and quick) day of racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3B0073C03E8640371589721B6B10DE1B&cat=5", random="random"]; 
+Kent -> StJohns[label="14
+04/08", weight="86", tooltip="NEIRA Boys Eights: Kent School vs. St. Johns Prep			
+Distance: 1500 Conditions: There was a strong tail current due to flooding. Winds varied throughout the racing from a blustery headwind for the first 300 meters to a moderate tailwind for the remainder of the course. The wind for the first boat race was a predominant tailwind. Comments: The most exciting race of the day was the boys 4th boat! The lead traded between Kent and St. Johns at least two different times with Kent edging ahead at the line by 1 foot!
+The times of one race should not be compared to different races due to a floating start and the boats not all starting on the line. Some of the lower boats started up 150 meters downstream of the start. All the coxswains should be commended for their steering and handling of the difficult conditions. Thanks to St. Johns for coming to Kent!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=AD45F28D351BA6D38B3B3DFAA9E5A7BA&cat=1", random="random"]; 
+Salisbury -> Andover[label="2.6
+04/08", weight="98", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Salisbury -> Brookline[label="10
+04/08", weight="90", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Andover -> Brookline[label="8
+04/08", weight="92", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Brunswick -> Shrewsbury[label="10
+04/08", weight="90", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick -> Tabor[label="19
+04/08", weight="81", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick -> Farmington[label="28
+04/08", weight="72", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> Tabor[label="9
+04/08", weight="91", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> Farmington[label="18
+04/08", weight="82", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Tabor -> Farmington[label="9
+04/08", weight="91", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Kent -> Shrewsbury[label="15
+04/08", weight="85", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Kent -> Tabor[label="20
+04/08", weight="80", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> Tabor[label="5
+04/08", weight="95", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]}", { format: "png-image-element" });
+var label = document.createElement("b");
+label.innerHTML = "boys2eight";
+document.body.appendChild(label);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+document.body.appendChild(image);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var image = Viz("digraph boys2four {CRLS [URL="boys2fourCRLS.html"];Dexter [URL="boys2fourDexter.html"];WorcPublic [URL="boys2fourWorcPublic.html"];EagleHill [URL="boys2fourEagleHill.html"];BBN [URL="boys2fourBBN.html"];Brooks [URL="boys2fourBrooks.html"];Stonington [URL="boys2fourStonington.html"];Xavier [URL="boys2fourXavier.html"];CapeCod [URL="boys2fourCapeCod.html"];Milton [URL="boys2fourMilton.html"];Stonington -> Xavier[label="8
+04/09", weight="92", tooltip="NEIRA Boys : Stonington High School vs. Xaiver 			
+Distance: 1500m Conditions: Perfect flat conditions. Slack tide and no wind. Comments: Great day of racing with perfect conditions. Thank you for Xavier visiting the Mystic Seaport for some great racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3BA91FEF68ED90BA8C9514B773A0AA23&cat=1", random="random"]; 
+CRLS -> BBN[label="6
+04/08", weight="94", tooltip="
+ NEIRA Boys Fours: BB&N; vs. CRLS; Milton (Mayors Cup)			
+Distance: 1300m Conditions: Strong cross tail from the starboard side, (WNW or NNW wind) probably 20 mph average; consistently quite strong throughout racing, possibly dropping slightly as racing went on. Water rough but not choppy.
+Coxswains did a good job at the start and steering in challenging conditions Comments: CRLS and Milton raced only 1st and 2nd boats; BB&N; 3rd and 4th boats raced against each other to go down the course.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6FB3384D5CC3492A87B0C133BEA1AF5E&cat=1", random="random"]; 
+CRLS -> Milton[label="36
+04/08", weight="64", tooltip="
+ NEIRA Boys Fours: BB&N; vs. CRLS; Milton (Mayors Cup)			
+Distance: 1300m Conditions: Strong cross tail from the starboard side, (WNW or NNW wind) probably 20 mph average; consistently quite strong throughout racing, possibly dropping slightly as racing went on. Water rough but not choppy.
+Coxswains did a good job at the start and steering in challenging conditions Comments: CRLS and Milton raced only 1st and 2nd boats; BB&N; 3rd and 4th boats raced against each other to go down the course.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6FB3384D5CC3492A87B0C133BEA1AF5E&cat=1", random="random"]; 
+BBN -> Milton[label="29
+04/08", weight="71", tooltip="
+ NEIRA Boys Fours: BB&N; vs. CRLS; Milton (Mayors Cup)			
+Distance: 1300m Conditions: Strong cross tail from the starboard side, (WNW or NNW wind) probably 20 mph average; consistently quite strong throughout racing, possibly dropping slightly as racing went on. Water rough but not choppy.
+Coxswains did a good job at the start and steering in challenging conditions Comments: CRLS and Milton raced only 1st and 2nd boats; BB&N; 3rd and 4th boats raced against each other to go down the course.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6FB3384D5CC3492A87B0C133BEA1AF5E&cat=1", random="random"]; 
+Dexter -> Brooks[label="0.7
+04/08", weight="100", tooltip="NEIRA Boys Fours: Brooks School vs. Dexter			
+Distance: 1250m (approx) Comments: An alternate course was set up due to heavy wind. 15-20 mph tailwind and increasing chop throughout the course. Distances varied somewhat from race to race, so results between races should not be compared. Lower boats did not race. Thank you Dexter for making the early season trip north!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8FCCFD45DE8EEFBDC29D09AC536DB8F1&cat=1", random="random"]; 
+WorcPublic -> CapeCod[label="4
+04/08", weight="96", tooltip="
+ NEIRA Boys & Girls Fours: Worcester Public Opener			
+Distance: 1500 m Conditions: Consistent cross tail wind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=84D4C2202AD6AE3D50CB5E7FB0CA74FB&cat=5", random="random"]; 
+WorcPublic -> EagleHill[label="61
+04/08", weight="39", tooltip="
+ NEIRA Boys & Girls Fours: Worcester Public Opener			
+Distance: 1500 m Conditions: Consistent cross tail wind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=84D4C2202AD6AE3D50CB5E7FB0CA74FB&cat=5", random="random"]; 
+CapeCod -> EagleHill[label="57
+04/08", weight="43", tooltip="
+ NEIRA Boys & Girls Fours: Worcester Public Opener			
+Distance: 1500 m Conditions: Consistent cross tail wind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=84D4C2202AD6AE3D50CB5E7FB0CA74FB&cat=5", random="random"]; 
+WorcPublic -> CapeCod[label="78
+04/08", weight="22", tooltip="
+ NEIRA Boys & Girls Fours: Worcester Public Opener			
+Distance: 1500 m Conditions: Consistent cross tail wind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=84D4C2202AD6AE3D50CB5E7FB0CA74FB&cat=5", random="random"]}", { format: "png-image-element" });
+var label = document.createElement("b");
+label.innerHTML = "boys2four";
+document.body.appendChild(label);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+document.body.appendChild(image);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var image = Viz("digraph boys3eight {Kent4th [URL="boys3eightKent4th.html"];Shrewsbury [URL="boys3eightShrewsbury.html"];WorcPublic [URL="boys3eightWorcPublic.html"];Brunswick4th [URL="boys3eightBrunswick4th.html"];Farmington [URL="boys3eightFarmington.html"];Tabor [URL="boys3eightTabor.html"];Brookline [URL="boys3eightBrookline.html"];Andover [URL="boys3eightAndover.html"];StJohns [URL="boys3eightStJohns.html"];Salisbury [URL="boys3eightSalisbury.html"];Kent [URL="boys3eightKent.html"];Brunswick [URL="boys3eightBrunswick.html"];Kent -> StJohns[label="3.5
+04/08", weight="97", tooltip="NEIRA Boys Eights: Kent School vs. St. Johns Prep			
+Distance: 1500 Conditions: There was a strong tail current due to flooding. Winds varied throughout the racing from a blustery headwind for the first 300 meters to a moderate tailwind for the remainder of the course. The wind for the first boat race was a predominant tailwind. Comments: The most exciting race of the day was the boys 4th boat! The lead traded between Kent and St. Johns at least two different times with Kent edging ahead at the line by 1 foot!
+The times of one race should not be compared to different races due to a floating start and the boats not all starting on the line. Some of the lower boats started up 150 meters downstream of the start. All the coxswains should be commended for their steering and handling of the difficult conditions. Thanks to St. Johns for coming to Kent!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=AD45F28D351BA6D38B3B3DFAA9E5A7BA&cat=1", random="random"]; 
+Andover -> Brookline[label="5
+04/08", weight="95", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Andover -> Salisbury[label="74
+04/08", weight="26", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Brookline -> Salisbury[label="69
+04/08", weight="31", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Brunswick -> Brunswick4th[label="14
+04/08", weight="86", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick -> Shrewsbury[label="21
+04/08", weight="79", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick -> Farmington[label="22
+04/08", weight="78", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick -> Tabor[label="41
+04/08", weight="59", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick -> WorcPublic[label="72
+04/08", weight="28", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick4th -> Shrewsbury[label="7
+04/08", weight="93", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick4th -> Farmington[label="8
+04/08", weight="92", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick4th -> Tabor[label="27
+04/08", weight="73", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick4th -> WorcPublic[label="58
+04/08", weight="42", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> Farmington[label="1
+04/08", weight="99", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> Tabor[label="20
+04/08", weight="80", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> WorcPublic[label="51
+04/08", weight="49", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Farmington -> Tabor[label="19
+04/08", weight="81", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Farmington -> WorcPublic[label="50
+04/08", weight="50", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Tabor -> WorcPublic[label="31
+04/08", weight="69", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Kent -> Shrewsbury[label="3.7
+04/08", weight="97", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Kent -> Kent4th[label="12
+04/08", weight="88", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Kent -> Tabor[label="32
+04/08", weight="68", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Kent -> WorcPublic[label="61
+04/08", weight="39", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> Kent4th[label="8
+04/08", weight="92", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> Tabor[label="28
+04/08", weight="72", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> WorcPublic[label="57
+04/08", weight="43", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Kent4th -> Tabor[label="19
+04/08", weight="81", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Kent4th -> WorcPublic[label="48
+04/08", weight="52", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Tabor -> WorcPublic[label="29
+04/08", weight="71", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]}", { format: "png-image-element" });
+var label = document.createElement("b");
+label.innerHTML = "boys3eight";
+document.body.appendChild(label);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+document.body.appendChild(image);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var image = Viz("digraph boys3four {StoningtonNovice [URL="boys3fourStoningtonNovice.html"];XaiverNovice [URL="boys3fourXaiverNovice.html"];BBN [URL="boys3fourBBN.html"];StoningtonNovice -> XaiverNovice[label="46
+04/09", weight="54", tooltip="NEIRA Boys : Stonington High School vs. Xaiver 			
+Distance: 1500m Conditions: Perfect flat conditions. Slack tide and no wind. Comments: Great day of racing with perfect conditions. Thank you for Xavier visiting the Mystic Seaport for some great racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3BA91FEF68ED90BA8C9514B773A0AA23&cat=1", random="random"]; 
+BBN -> BBN[label="19
+04/08", weight="81", tooltip="
+ NEIRA Boys Fours: BB&N; vs. CRLS; Milton (Mayors Cup)			
+Distance: 1300m Conditions: Strong cross tail from the starboard side, (WNW or NNW wind) probably 20 mph average; consistently quite strong throughout racing, possibly dropping slightly as racing went on. Water rough but not choppy.
+Coxswains did a good job at the start and steering in challenging conditions Comments: CRLS and Milton raced only 1st and 2nd boats; BB&N; 3rd and 4th boats raced against each other to go down the course.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6FB3384D5CC3492A87B0C133BEA1AF5E&cat=1", random="random"]}", { format: "png-image-element" });
+var label = document.createElement("b");
+label.innerHTML = "boys3four";
+document.body.appendChild(label);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+document.body.appendChild(image);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var image = Viz("digraph boys4eight {Kent [URL="boys4eightKent.html"];Farmington [URL="boys4eightFarmington.html"];Brookline [URL="boys4eightBrookline.html"];Andover [URL="boys4eightAndover.html"];Shrewsbury [URL="boys4eightShrewsbury.html"];StJohns [URL="boys4eightStJohns.html"];Brunswick5th [URL="boys4eightBrunswick5th.html"];Andover5thboat [URL="boys4eightAndover5thboat.html"];Kent -> StJohns[label="_
+04/08", weight="99", tooltip="NEIRA Boys Eights: Kent School vs. St. Johns Prep			
+Distance: 1500 Conditions: There was a strong tail current due to flooding. Winds varied throughout the racing from a blustery headwind for the first 300 meters to a moderate tailwind for the remainder of the course. The wind for the first boat race was a predominant tailwind. Comments: The most exciting race of the day was the boys 4th boat! The lead traded between Kent and St. Johns at least two different times with Kent edging ahead at the line by 1 foot!
+The times of one race should not be compared to different races due to a floating start and the boats not all starting on the line. Some of the lower boats started up 150 meters downstream of the start. All the coxswains should be commended for their steering and handling of the difficult conditions. Thanks to St. Johns for coming to Kent!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=AD45F28D351BA6D38B3B3DFAA9E5A7BA&cat=1", random="random"]; 
+Brookline -> Andover[label="0.22
+04/08", weight="100", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Brookline -> Andover5thboat[label="7
+04/08", weight="93", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Andover -> Andover5thboat[label="6
+04/08", weight="94", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]; 
+Brunswick5th -> Shrewsbury[label="6
+04/08", weight="94", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Brunswick5th -> Farmington[label="54
+04/08", weight="46", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]; 
+Shrewsbury -> Farmington[label="48
+04/08", weight="52", tooltip="
+ NEIRA Boys & Girls Eights: Shrewsbury High School			
+Distance: 1500 m Conditions: Consistent cross tail wind; decent chop throughout. Comments: Boys 4th was a novice race. Thank you to all for making the trip on this blustery Spring day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2C7633DAF5912085EDA2396BE1D1AEE5&cat=5", random="random"]}", { format: "png-image-element" });
+var label = document.createElement("b");
+label.innerHTML = "boys4eight";
+document.body.appendChild(label);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+document.body.appendChild(image);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var image = Viz("digraph boys6eight {AndoverGirls4thboat [URL="boys6eightAndoverGirls4thboat.html"];Andover [URL="boys6eightAndover.html"];Andover -> AndoverGirls4thboat[label="5
+04/08", weight="95", tooltip="NEIRA Boys Eights: Phillips Andover vs. Brookline, Salisbury			
+Distance: 1600 Conditions: Strong tail current, brisk cross head wind, significant chop last 300m.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C6BFE031739079F25728A0F380241C9&cat=1", random="random"]}", { format: "png-image-element" });
+var label = document.createElement("b");
+label.innerHTML = "boys6eight";
+document.body.appendChild(label);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+document.body.appendChild(image);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);
+var linebreak = document.createElement("br");
+document.body.appendChild(linebreak);

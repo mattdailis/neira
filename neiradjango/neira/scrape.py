@@ -6,39 +6,6 @@ import re
 from neira.neiraschools import matchSchool
 from neira.models import Heat, School, Result, Boat
 
-#--- Set up database ---#
-
-import sqlite3
-
-def createTable(cur):
-    cur.execute("""
-    CREATE TABLE IF NOT EXISTS Results
-    (date TEXT, gender TEXT, heat TEXT, fasterSchool TEXT, fasterBoat INTEGER, slowerSchool TEXT, slowerBoat TEXT, margin DECIMAL(5, 2), race TEXT, comment TEXT, url TEXT)""")
-#   (date TEXT, faster TEXT, slower TEXT, boat TEXT, margin DECIMAL(5, 2), race TEXT, comment TEXT, url TEXT)""")
-
-def sqlify(string):
-    return string.replace("'", "")
-
-def insert(date, gender, heat, fasterSchool, fasterBoat, slowerSchool, slowerBoat, margin, race, comment, url):
-    print slowerSchool, slowerBoat
-    try:
-        cur.execute(("""
-        INSERT INTO Results (date, gender, heat, fasterSchool, fasterBoat, slowerSchool, slowerBoat,"""+(" margin," if margin != None else "")+""" race, comment, url) VALUES (
-        '{date}', '{gender}', '{heat}', '{fasterSchool}', '{fasterBoat}', '{slowerSchool}', '{slowerBoat}',"""+(" {margin}," if margin != None else "")+""" '{race}', '{comment}', '{url}')""")\
-                    .format(date=str(date),
-                            gender=gender,
-                            heat=sqlify(heat),
-                            fasterSchool=sqlify(fasterSchool),
-                            fasterBoat=str(fasterBoat),
-                            slowerSchool=sqlify(slowerSchool),
-                            slowerBoat=str(slowerBoat),
-                            margin=str(margin),
-                            race=sqlify(race),
-                            comment=sqlify(comment),
-                            url=sqlify(url)))
-    except:
-        print "NOT ENTERED: ", date, gender, heat, fasterSchool, fasterBoat, slowerSchool, slowerBoat, margin, race, comment, url
-
 def getUrlsScraped():
     cur.execute("""
     SELECT race, url FROM Results
@@ -104,19 +71,12 @@ def scrapeRegatta(name, url, res_url):
             if school != None:
                 currentHeat.append((school, num, time))
 
-        enterHeat(str(gender)+str(boatNum)+str(boatSize), currentHeat, gender, day, name, comment, res_url+url)
+        enterHeat(str(gender)+str(boatNum)+str(boatSize), currentHeat, gender, day, name, comment, res_url+url, boatSize)
         currentHeat = []
     return (schoollog, boatlog)
 
 
-def enterHeat(heat, results, gender, date, race, comment, url):
-    i = 0
-    while i < len(results) - 1:
-        (fastSchool, fastBoat, t1) = results[i]
-        for (slowSchool, slowBoat, t2) in results[i+1:]:
-            margin = getMargin(t1, t2)
-            insert(date, gender, heat, fastSchool, fastBoat, slowSchool, slowBoat, margin, race, comment, url)
-        i += 1
+def enterHeat(heat, results, gender, date, race, comment, url, size):
 
     # Create new Heat object
     h = Heat()
@@ -127,7 +87,7 @@ def enterHeat(heat, results, gender, date, race, comment, url):
     
     # For each result
     for (school, level, time) in results:
-        b = getBoat(school, gender, level)
+        b = getBoat(school, gender, level, size)
         t = getTime(time)
         r = Result()
         r.raw_boat = str(school) + " " + str(gender) + " " + str(level)
@@ -137,7 +97,7 @@ def enterHeat(heat, results, gender, date, race, comment, url):
         r.heat = h
         r.save()
 
-def getBoat(school, team, level):
+def getBoat(school, team, level, size):
     s = getSchool(school)
     # Filter school
     boats = s.boat_set.filter(team=team, level=level)
@@ -149,6 +109,7 @@ def getBoat(school, team, level):
         b.school = s
         b.team = team
         b.level = level
+        b.size = size
         # size
         b.save()
         return b

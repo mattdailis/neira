@@ -12,7 +12,11 @@ def pairsToDot(graph, orders):
         dot += nodeName(node) + ' [URL="'+nodeName(graph)+nodeName(node)+'.html"];'
     edges = []
     for edge in orders:
-        margin = edge.margin
+        try:
+            margin = edge.margin
+        except Exception:
+            print "orders", orders
+            margin = edge
         marginStr = str(margin)
         if marginStr == 'None':
             marginStr = '_'

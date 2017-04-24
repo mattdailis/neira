@@ -31,9 +31,15 @@ class Heat(models.Model):
     comment = models.TextField(default="")
     url = models.URLField(default="#")
 
+    def __str__(self):
+        return "Heat " + str(self.date)
+
 class Result(models.Model):
     raw_boat = models.CharField(max_length=50, default="")
     raw_time = models.CharField(max_length=50, default="")
     boat = models.ForeignKey(Boat, on_delete=models.CASCADE)
     time = models.TimeField()
     heat = models.ForeignKey(Heat, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.raw_boat + str(self.heat.date)
