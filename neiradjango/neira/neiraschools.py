@@ -1,41 +1,46 @@
 from difflib import SequenceMatcher as sm
 
+from models import School
+
+# def getNeiraSchools():
+#     return {'BBN': [],
+#             'Bancroft' : [],
+#             'Belmont Hill' : [],
+#             'Berkshire' : [],
+#             'Brooks' : [],
+#             'CRLS' : [],
+#             'Canterbury' : [],
+#             'Choate' : [],
+#             'Deerfield' : [],
+#             'Derryfield' : [],
+#             'Dexter' : [],
+#             'Duxbury' : [],
+#             'Greenwich Academy' : ['GA', 'Greenwich A', 'Greenwich Acad', 'Greenwich'],
+#             'Groton' : [],
+#             'Gunnery' : ['The Gunnery'],
+#             'Hopkins' : ['Hop'],
+#             'Lincoln' : [],
+#             'Lyme/Old Lyme' : ['LOL', 'L//OL', 'L/OL'],
+#             'Medford' : [],
+#             'Middlesex' : [],
+#             'Milton' : ['MHS'],
+#             'Miss Porters' : ['M Porters', 'MPS'],
+#             'Newton Country Day' : ['NCDS'],
+#             'Nobles' : [],
+#             'Pomfret' : [],
+#             'Southfield' : [],
+#             'St Marks' : ['Saint Marks'],
+#             'Taft' : [],
+#             'Valley' : ['Valley Regional'],
+#             'Winsor' : [],
+#             # NOT ACTUALLY NEIRA:
+#             'Exeter' : [],
+#             'Middletown' : [],
+#             'Suffield': []
+#         }
+
 def getNeiraSchools():
-    return {'BBN': [],
-            'Bancroft' : [],
-            'Belmont Hill' : [],
-            'Berkshire' : [],
-            'Brooks' : [],
-            'CRLS' : [],
-            'Canterbury' : [],
-            'Choate' : [],
-            'Deerfield' : [],
-            'Derryfield' : [],
-            'Dexter' : [],
-            'Duxbury' : [],
-            'Greenwich Academy' : ['GA', 'Greenwich A', 'Greenwich Acad', 'Greenwich'],
-            'Groton' : [],
-            'Gunnery' : ['The Gunnery'],
-            'Hopkins' : ['Hop'],
-            'Lincoln' : [],
-            'Lyme/Old Lyme' : ['LOL', 'L//OL', 'L/OL'],
-            'Medford' : [],
-            'Middlesex' : [],
-            'Milton' : ['MHS'],
-            'Miss Porters' : ['M Porters', 'MPS'],
-            'Newton Country Day' : ['NCDS'],
-            'Nobles' : [],
-            'Pomfret' : [],
-            'Southfield' : [],
-            'St Marks' : ['Saint Marks'],
-            'Taft' : [],
-            'Valley' : ['Valley Regional'],
-            'Winsor' : [],
-            # NOT ACTUALLY NEIRA:
-            'Exeter' : [],
-            'Middletown' : [],
-            'Suffield': []
-        }
+    return School.objects.all()
 
 # If boatNum provided, check if a different number is present in the string.
 # If a different number is present in the string, append that number to the school name
@@ -54,22 +59,25 @@ def getNeiraSchools():
 
 # What about a boys 3 boat that still wants to be considered a 3rd boat, but races 2nd boats occasionally
 # should those races count? Towards what? Margins????
-def matchSchool(name, boatNum=None):
-    neira = getNeiraSchools()
+def matchSchool(name, boatNum=None, subset=None):
+    if subset is None:
+        neira = getNeiraSchools()
+    else:
+        neira = subset
     scores = set([])
     for school in neira:
-        score = compare(school, name)
-        for nick in neira[school]:
-            newscore = compare(name, nick)
-            if newscore > score:
-                score = newscore
+        score = compare(school.name, name)
+        # for nick in school.alternate_names:
+        #     newscore = compare(name, nick)
+        #     if newscore > score:
+        #         score = newscore
         scores.add((school, score))
     (school, score) = max(scores, key=(lambda (x, y) : y))
 
-    if school in ['Exeter', 'Middletown', 'Suffield']:
+    if school.name in ['Exeter', 'Middletown', 'Suffield']:
         return (None, None)
 
-    if school == 'Greenwich Academy':
+    if school.name == 'Greenwich Academy':
         name = name.replace(" A", " Academy ")
 
     num = boatNum
@@ -86,15 +94,11 @@ def matchSchool(name, boatNum=None):
             for numString in numStrings:
                 try:
                     num = parseNum(numString)
-                    # if expectedNum != num:
-                    #     if num == 0:
-                    #         num = "novice"
-                    #         school += " " + str(num)
                     break
                 except ValueError:
                     pass
 
-    return (name, num)
+    return (school.name, num)
     # if score > 0.7:
     #     return (school, num)
     # else:
@@ -117,7 +121,7 @@ def replaceLetters(string):
     return low
 
 def deUnique(string):
-    return filter((lambda s : str.isalnum(s) and not s.isdigit()), string.lower())
+    return filter((lambda s : str.isalnum(str(s)) and not str(s).isdigit()), string.lower())
 
 def compare(school, name):
     return sm(None, deUnique(school), deUnique(name)).ratio()
