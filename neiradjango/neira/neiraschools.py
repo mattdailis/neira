@@ -95,13 +95,20 @@ def match_school(name, boatNum=None, subset=None):
                     pass
 
     if score > 0.7:
-        if school.name != name:
+        if alpha_only(name) != alpha_only(school.name):
             print name, "  is close enough to  ", school.name
+            s = School()
+            s.name = name
+            s.save()
+            s.merge_into(school)
         school.add_alternate_names([name])
-        return school.name, num
+        return school, num
     else:
         print name, "  is unique <----------------------------------"
-        return name, num
+        s = School()
+        s.name = name
+        s.save()
+        return s, num
 
 
 def parse_num(num):

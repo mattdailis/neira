@@ -5,6 +5,16 @@ from django.db import models
 
 # Create your models here.
 
+class SchoolManager(models.Manager):
+    def get_queryset(self):
+        return super(SchoolManager, self).get_queryset().filter(alias=None)
+
+    # def get(self, **kwargs):
+    #     schools = super(SchoolManager, self).get_queryset().filter(kwargs)
+
+    # def filter(self, f):
+    #     super(SchoolManager, self).get_queryset().filter(kwargs)
+    #
 
 class School(models.Model):
 
@@ -13,8 +23,9 @@ class School(models.Model):
     """ Fields: """
     name = models.CharField(max_length=20)
     alternate_names = models.TextField(max_length=200)
-    # alias_for = models.ForeignKey('self', on_delete=models.CASCADE)
-
+    alias = models.ForeignKey('self', on_delete=models.CASCADE, default=None, null=True)
+    objects = models.Manager()
+    primaries = SchoolManager()
 
     def __str__(self):
         return self.name
@@ -23,15 +34,18 @@ class School(models.Model):
         other_school.merge_into(self)
         self.save()
 
+    def boats(self):
+        return self.get_primary()._boats()
+
+    def names(self):
+        return self.get_primary()._names()
+
     def merge_into(self, other_school):
-        """ Update the given school with all of my names,
-         set all my boats to point to the other school,
-         and delete myself """
-        other_school.add_alternate_names(self.names())
-        for boat in self.boat_set.all():
-            boat.school = other_school
-            boat.save()
-        self.delete()
+        if self.alias is None:
+            self.alias = other_school
+            self.save()
+        else:
+            self.alias.merge_into(other_school)
 
     def add_alternate_names(self, alternate_names):
         names = self.names()
@@ -40,10 +54,22 @@ class School(models.Model):
         self.alternate_names = self.SPLIT_MARKER.join(names)
         self.save()
 
-    def names(self):
-        """ Return all the strings that have been used to denote this school """
-        return set(self.alternate_names.split(self.SPLIT_MARKER)).union(set([self.name])).difference(set(['']))
+    def _boats(self):
+        return reduce(lambda a, b: a.union(b._boats()), self.school_set.all(), self.boat_set.all())
 
+    def _names(self):
+        """ Return all the strings that have been used to denote this school """
+        my_names = set(self.alternate_names.split(self.SPLIT_MARKER)).union(set([self.name])).difference(set(['']))
+        return reduce(lambda a, b: a.union(b._names()), self.school_set.all(), my_names)
+
+    def primary_name(self):
+        return self.get_primary().name
+
+    def get_primary(self):
+        if self.alias is None:
+            return self
+        else:
+            return self.alias.get_primary()
 
 class Boat(models.Model):
     BOAT_SIZES = (("four", "four"), ("eight", "eight"))

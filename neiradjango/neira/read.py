@@ -47,7 +47,7 @@ def main():
                 if margin > 5:
                     margin = int(margin)
 
-                edge = Edge(date, faster_boat.school.name, slower_boat.school.name, margin)
+                edge = Edge(date, faster_boat.school.primary_name(), slower_boat.school.primary_name(), margin)
                 edge.url = url
                 edge.tooltip = comment
                 orders[boat].append(edge)

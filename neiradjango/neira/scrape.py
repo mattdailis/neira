@@ -65,7 +65,6 @@ def scrape_regatta(name, url, res_url):
             if raw_school == "":
                 continue
             (school, num) = match_school(raw_school, boatNum=boat_num)
-            schoollog += raw_school + " -> " + str(school) + "\n"
             time = school_time[1].text.encode('utf-8').strip()
             # if school is None, it's not in NEIRA
             if school is not None:
@@ -120,13 +119,14 @@ def get_boat(school, team, level, size):
 
 
 def get_school(school):
-    try:
-        return School.objects.get(name=school)
-    except School.DoesNotExist:
-        s = School()
-        s.name = school
-        s.save()
-        return s
+    return school
+    # try:
+    #     return School.objects.get(name=school)
+    # except School.DoesNotExist:
+    #     s = School()
+    #     s.name = school
+    #     s.save()
+    #     return s
 
 
 def get_margin(time1, time2):
