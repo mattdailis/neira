@@ -3,8 +3,8 @@ import urllib2
 import datetime
 from datetime import date
 import re
-from neira.neiraschools import matchSchool
-from neira.models import Heat, School, Result, Boat
+from neiraschools import matchSchool
+from models import Heat, School, Result, Boat
 
 def getUrlsScraped():
     cur.execute("""
@@ -34,7 +34,7 @@ def scrapeRegatta(name, url, res_url):
     if comment == None:
         comment = ""
 
-    results = soup.findAll("div", {"class" : "results-block"})
+    results = soup.findAll(True, {"class": ["results-block", "midhead2"]})
 
     gender = None
     if "boy" in name.lower() and not "girl" in name.lower():
@@ -56,6 +56,12 @@ def scrapeRegatta(name, url, res_url):
     boatlog = ""
 
     for resultBlock in results:
+        if resultBlock.name == 'span':
+            if 'women' in resultBlock.text.lower():
+                gender = "girls"
+            # else:
+            #     gender = "boys"
+            continue
         heat = resultBlock.findAll("tr", {"align" : "center"})[0].text.strip()
         (gender, boatNum, boatSize) = parseBoat(gender, boatSize, heat)
 
