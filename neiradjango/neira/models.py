@@ -85,7 +85,7 @@ class Boat(models.Model):
         choices=(("b", "boys"), ("g", "girls"), ("n", "novice")))
 
     def __str__(self):
-        return "Boat from " + self.school.name
+        return " ".join([self.school.name, self.team, str(self.level), self.size])
 
 
 class Heat(models.Model):

@@ -5,7 +5,7 @@ import datetime
 from toDot import viz
 from associationList import Edge
 
-from models import Heat
+from models import Heat, Boat
 
 
 def sorter(string):
@@ -23,8 +23,45 @@ def orderEntry(orders, school, boat):
     if boat not in orders[school].keys():
         orders[school][boat] = []
 
+# QuerySet of Boats -> List of Edges
+def get_edges(boats):
+    if boats.count() == 0:
+        return []
+    edges = []
+    for boat in boats:
+        results = boat.result_set.all()
+        for result in results:
+            heat = result.heat
+            other_results = sorted(heat.result_set.all(), key=lambda r: r.time)
+            start_index = other_results.index(result)
+            school_name = boat.school.primary_name()
+            for other_result in other_results[start_index+1:]:
+                other_boat = other_result.boat
+                if other_boat in boats:  # potentially slow check
+                    margin = (other_result.time - result.time).total_seconds()
+                    print school_name, "beat", other_result.boat.school.primary_name(), "by", margin, "seconds"
+                    edge = Edge(heat.date, school_name, other_result.boat.school.primary_name(), margin)
+                    edge.url = heat.url
+                    edge.tooltip = heat.comment
+                    edges.append(edge)
+    return edges
 
-def main():
+
+def main_by_boat_class():
+    orders = {}
+    for size in ["four", "eight"]:
+        for team in ["boys", "girls"]:
+            for level in range(6):
+                boats = Boat.objects.filter(size=size, team=team, level=level)
+                if (boats.count() > 0):
+                    print "\nReading", team, level, size, "\n-----"
+                key = str(team) + str(level) + str(size)
+                orders[key] = get_edges(boats)
+
+    return orders
+
+
+def main_by_heat():
     orders = {}
     for heat in Heat.objects.all():
         url = heat.url
@@ -55,7 +92,10 @@ def main():
                 # orderEntry(orders, slower_boat.school.name, slower_boat.level)
                 # orders[faster_boat.school.name][faster_boat.level].append(edge)
                 # orders[slower_boat.school.name][slower_boat.level].append(edge)
+    return orders
 
+def main():
+    orders = main_by_boat_class()
     for boat in sorted(orders.keys(), key=sorter):
         edges = orders[boat]
         viz(boat, boat, edges)
