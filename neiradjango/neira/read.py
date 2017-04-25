@@ -32,13 +32,13 @@ def get_edges(boats):
         results = boat.result_set.all()
         for result in results:
             heat = result.heat
-            other_results = sorted(heat.result_set.all(), key=lambda r: r.time)
+            other_results = sorted(heat.result_set.all(), key=lambda r: r.time.total_seconds() if r.time.total_seconds() > 0 else float("inf"))
             start_index = other_results.index(result)
             school_name = boat.school.primary_name()
             for other_result in other_results[start_index+1:]:
                 other_boat = other_result.boat
                 if other_boat in boats:  # potentially slow check
-                    margin = (other_result.time - result.time).total_seconds()
+                    margin = get_margin(result, other_result)
                     print school_name, "beat", other_result.boat.school.primary_name(), "by", margin, "seconds"
                     edge = Edge(heat.date, school_name, other_result.boat.school.primary_name(), margin)
                     edge.url = heat.url
@@ -46,6 +46,10 @@ def get_edges(boats):
                     edges.append(edge)
     return edges
 
+def get_margin(r1, r2):
+    if r1.time.total_seconds() < 0 or r2.time.total_seconds() < 0:
+        return None
+    return abs((r1.time - r2.time).total_seconds())
 
 def main_by_boat_class():
     orders = {}
@@ -97,8 +101,8 @@ def main_by_heat():
 def main():
     orders = main_by_boat_class()
     for boat in sorted(orders.keys(), key=sorter):
-        edges = orders[boat]
-        viz(boat, boat, edges)
         print "-" * 25
         print boat + ":"
-        raw_input()
+        # raw_input()
+        edges = orders[boat]
+        viz(boat, boat, edges)

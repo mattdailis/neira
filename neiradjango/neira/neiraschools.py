@@ -1,7 +1,7 @@
 from difflib import SequenceMatcher
 
 from models import School
-
+import re
 
 # def get_neira_schools():
 #     return {'BBN': [],
@@ -41,8 +41,48 @@ from models import School
 #         }
 
 def get_neira_schools():
-    return School.objects.all()
+    return set(School.objects.all())
 
+
+def get_school(school_name, subset=None):
+    pattern = re.compile("school", re.IGNORECASE)
+    school_name = pattern.sub("", school_name)
+
+    if subset is None:
+        subset = get_neira_schools()
+
+    scores = set([(None, 0)])
+    for school in subset:
+        score = compare(school.name, school_name)
+        # for nick in school.alternate_names:
+        #     newscore = compare(name, nick)
+        #     if newscore > score:
+        #         score = newscore
+        scores.add((school, score))
+    (school, score) = max(scores, key=(lambda (x, y): y))
+    if score > 0.7:
+        school.add_alternate_names([school_name])
+        if alpha_only(school_name) != alpha_only(school.name):
+            print school_name, "  is close enough to  ", school.name
+            s = School()
+            s.name = school_name
+            s.save()
+            s.merge_into(school)
+            school = s
+    else:
+        print school_name, "  is unique <----------------------------------"
+        school = School()
+        school.name = school_name
+        school.save()
+    
+    if subset is not None:
+        subset.add(school)
+        
+    return school
+    
+
+def get_schools(school_list):
+    return set(map(get_school, school_list))
 
 # If boatNum provided, check if a different number is present in the string.
 # If a different number is present in the string, append that number to the school name
@@ -62,19 +102,8 @@ def get_neira_schools():
 # What about a boys 3 boat that still wants to be considered a 3rd boat, but races 2nd boats occasionally
 # should those races count? Towards what? Margins????
 def match_school(name, boatNum=None, subset=None):
-    if subset is None:
-        neira = get_neira_schools()
-    else:
-        neira = subset
-    scores = set([(None, 0)])
-    for school in neira:
-        score = compare(school.name, name)
-        # for nick in school.alternate_names:
-        #     newscore = compare(name, nick)
-        #     if newscore > score:
-        #         score = newscore
-        scores.add((school, score))
-    (school, score) = max(scores, key=(lambda (x, y): y))
+    
+    school = get_school(name, subset=subset)
 
     num = boatNum
 
@@ -94,21 +123,7 @@ def match_school(name, boatNum=None, subset=None):
                 except ValueError:
                     pass
 
-    if score > 0.7:
-        if alpha_only(name) != alpha_only(school.name):
-            print name, "  is close enough to  ", school.name
-            s = School()
-            s.name = name
-            s.save()
-            s.merge_into(school)
-        school.add_alternate_names([name])
-        return school, num
-    else:
-        print name, "  is unique <----------------------------------"
-        s = School()
-        s.name = name
-        s.save()
-        return s, num
+    return school, num
 
 
 def parse_num(num):

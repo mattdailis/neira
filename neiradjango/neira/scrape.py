@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import urllib2
 import datetime
-from neiraschools import match_school
+from neiraschools import match_school, get_schools
 from models import Heat, School, Result, Boat
 
 
@@ -44,6 +44,15 @@ def scrape_regatta(name, url, res_url):
     elif "four" in name.lower() or "4" in name and not ("eight" in name.lower() or "8" in name):
         boat_size = "four"
 
+    ## Sometimes the title of the race has a list of all the participating schools - take advantage of that if it exists
+    schools_list = None
+    if "vs." in name:
+        try:
+            school_names = map(lambda x: x.strip(), name[name.index(":") + 2:].replace("vs.", ",").split(","))
+        except ValueError:
+            pass
+        schools_list = get_schools(school_names)
+
     current_heat_times = []
 
     schoollog = ""
@@ -64,7 +73,7 @@ def scrape_regatta(name, url, res_url):
             raw_school = school_time[0].text.encode('utf-8').strip()
             if raw_school == "":
                 continue
-            (school, num) = match_school(raw_school, boatNum=boat_num)
+            (school, num) = match_school(raw_school, boatNum=boat_num, subset=schools_list)
             time = school_time[1].text.encode('utf-8').strip()
             # if school is None, it's not in NEIRA
             if school is not None:
