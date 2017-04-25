@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import urllib2
 import datetime
-from neiraschools import match_school, get_schools
+from neiraschools import match_boat, get_schools
 from models import Heat, School, Result, Boat
 
 
@@ -73,11 +73,10 @@ def scrape_regatta(name, url, res_url):
             raw_school = school_time[0].text.encode('utf-8').strip()
             if raw_school == "":
                 continue
-            (school, num) = match_school(raw_school, boatNum=boat_num, subset=schools_list)
+            boat = match_boat(raw_school, boatNum=boat_num, subset=schools_list, team=gender, size=boat_size)
             time = school_time[1].text.encode('utf-8').strip()
             # if school is None, it's not in NEIRA
-            if school is not None:
-                current_heat_times.append((school, num, time))
+            current_heat_times.append((boat, time))
 
         enter_heat(current_heat_times, gender, day, name, comment, res_url + url, boat_size)
         current_heat_times = []
@@ -93,39 +92,17 @@ def enter_heat(results, gender, date, race, comment, url, size):
     h.save()
 
     # For each result
-    for (school, level, time) in results:
-        b = get_boat(school, gender, level, size)
+    for (boat, time) in results:
         t = get_time(time)
         r = Result()
-        r.raw_boat = str(school) + " " + str(gender) + " " + str(level)
+        r.raw_boat = str(boat.school) + " " + str(gender) + " " + str(boat.level)
         r.raw_time = str(time)
-        r.boat = b
+        r.boat = boat
         if t is None:
             t = datetime.timedelta(hours=-1)  # if unable to parse time, set to an invalid (negative) time
         r.time = t
         r.heat = h
         r.save()
-
-
-def get_boat(school, team, level, size):
-    s = get_school(school)
-    # Filter school
-    boats = s.boat_set.filter(team=team, level=level)
-    if boats.count() == 1:
-        return boats[0]
-
-    if boats.count() == 0:
-        b = Boat()
-        b.school = s
-        b.team = team
-        b.level = level
-        b.size = size
-        # size
-        b.save()
-        return b
-
-    raise Exception("There are more than one boat with school {}, team {}, level, {}".format(school, team, level))
-
 
 def get_school(school):
     return school
@@ -252,4 +229,4 @@ def main():
 
 
 # if __name__ == '__main__':
-main()
+

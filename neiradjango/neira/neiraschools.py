@@ -1,6 +1,6 @@
 from difflib import SequenceMatcher
 
-from models import School
+from models import School, Boat
 import re
 
 # def get_neira_schools():
@@ -45,14 +45,15 @@ def get_neira_schools():
 
 
 def get_school(school_name, subset=None):
-    pattern = re.compile("school", re.IGNORECASE)
+    pattern = re.compile("\(.*\)|school|high|boys|girls|varsity", re.IGNORECASE)
     school_name = pattern.sub("", school_name)
 
+    schools = subset
     if subset is None:
-        subset = get_neira_schools()
+        schools = get_neira_schools()
 
     scores = set([(None, 0)])
-    for school in subset:
+    for school in schools:
         score = compare(school.name, school_name)
         # for nick in school.alternate_names:
         #     newscore = compare(name, nick)
@@ -69,14 +70,16 @@ def get_school(school_name, subset=None):
             s.save()
             s.merge_into(school)
             school = s
-    else:
+    elif subset is None:
         print school_name, "  is unique <----------------------------------"
         school = School()
         school.name = school_name
         school.save()
+    else:
+        # Try using all neira_schools if we fail here
+        get_school(school_name, subset=None)
     
-    if subset is not None:
-        subset.add(school)
+    schools.add(school)
         
     return school
     
@@ -101,8 +104,8 @@ def get_schools(school_list):
 
 # What about a boys 3 boat that still wants to be considered a 3rd boat, but races 2nd boats occasionally
 # should those races count? Towards what? Margins????
-def match_school(name, boatNum=None, subset=None):
-    
+def match_boat(name, team=None, boatNum=None, size=None, subset=None):
+    """ Determine (or create) the boat object associated with an entry in a heat """
     school = get_school(name, subset=subset)
 
     num = boatNum
@@ -123,7 +126,28 @@ def match_school(name, boatNum=None, subset=None):
                 except ValueError:
                     pass
 
-    return school, num
+    boat = get_boat(school, team, num, size)
+
+    return boat
+
+
+def get_boat(school, team, level, size):
+    # Filter school
+    boats = school.boat_set.filter(team=team, level=level)
+    if boats.count() == 1:
+        return boats[0]
+
+    if boats.count() == 0:
+        b = Boat()
+        b.school = school
+        b.team = team
+        b.level = level
+        b.size = size
+        # size
+        b.save()
+        return b
+
+    raise Exception("There are more than one boat with school {}, team {}, level, {}".format(school, team, level))
 
 
 def parse_num(num):
