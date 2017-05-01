@@ -5,7 +5,7 @@ import datetime
 from toDot import viz
 from associationList import Edge
 
-from models import Heat, Boat
+from models import Heat, Boat, Result, School
 
 
 def sorter(string):
@@ -64,6 +64,27 @@ def main_by_boat_class():
 
     return orders
 
+def edges_from_results(results):
+    edges = []
+    results = sorted(results, key=lambda x: x.time)
+    for (i, result) in enumerate(results):
+        faster_boat = result.boat
+        for otherResult in results[i+1:]:
+            if otherResult.time.total_seconds() < 0 or result.time.total_seconds() < 0:
+                margin = None
+            else:
+                margin = (otherResult.time - result.time).total_seconds()
+                slower_boat = otherResult.boat
+                
+                if margin > 5:
+                    margin = int(margin)
+                
+                edge = Edge(result.heat.date, faster_boat.school.primary_name(), slower_boat.school.primary_name(), margin)
+                edge.url = result.heat.url
+                edge.tooltip = result.heat.comment
+                edges.append(edge)
+    return edges
+
 
 def main_by_heat():
     orders = {}
@@ -72,34 +93,31 @@ def main_by_heat():
         comment = heat.comment
         results = list(heat.result_set.all())
         date = heat.date
-        results.sort(key=lambda x: x.time)
-        for (i, result) in enumerate(results):
-            faster_boat = result.boat
+        if results:
+            faster_boat = results[0].boat.team
             boat = str(faster_boat.team) + str(faster_boat.level) + str(faster_boat.size)
-            for otherResult in results[i+1:]:
-                if otherResult.time.total_seconds() < 0 or result.time.total_seconds() < 0:
-                    margin = None
-                else:
-                    margin = (otherResult.time - result.time).total_seconds()
-                slower_boat = otherResult.boat
+            if boat not in orders:
+                orders[boat] = []
+            orders[boat].extend(edges_from_results(results))
 
-                if boat not in orders.keys():
-                    orders[boat] = []
-                if margin > 5:
-                    margin = int(margin)
-
-                edge = Edge(date, faster_boat.school.primary_name(), slower_boat.school.primary_name(), margin)
-                edge.url = url
-                edge.tooltip = comment
-                orders[boat].append(edge)
-                # orderEntry(orders, faster_boat.school.name, faster_boat.level)
-                # orderEntry(orders, slower_boat.school.name, slower_boat.level)
-                # orders[faster_boat.school.name][faster_boat.level].append(edge)
-                # orders[slower_boat.school.name][slower_boat.level].append(edge)
     return orders
 
+
+def main_by_school():
+    orders = {}
+    all_results = Result.objects.all()
+    for school in School.primaries.all():
+        results = filter(lambda r: r.boat.school.get_primary() == school, all_results)
+        for result in results:
+            if not school.name in orders:
+                orders[school.name] = []
+            orders[school.name].extend(edges_from_results(results))
+
+    return orders
+                
+
 def main():
-    orders = main_by_boat_class()
+    orders = main_by_school()  # boat_class()
     for boat in sorted(orders.keys(), key=sorter):
         print "-" * 25
         print boat + ":"
