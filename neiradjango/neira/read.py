@@ -32,7 +32,7 @@ def get_edges(boats):
         results = boat.result_set.all()
         for result in results:
             heat = result.heat
-            other_results = sorted(heat.result_set.all(), key=lambda r: r.time.total_seconds() if r.time.total_seconds() > 0 else float("inf"))
+            other_results = sorted(heat.result_set.all(), key=lambda r: r.time.total_seconds() if r.time is not None and r.time.total_seconds() > 0 else float("inf"))
             start_index = other_results.index(result)
             school_name = boat.school.primary_name()
             for other_result in other_results[start_index+1:]:
@@ -47,6 +47,8 @@ def get_edges(boats):
     return edges
 
 def get_margin(r1, r2):
+    if r1.time is None or r2.time is None:
+        return None
     if r1.time.total_seconds() < 0 or r2.time.total_seconds() < 0:
         return None
     return abs((r1.time - r2.time).total_seconds())
