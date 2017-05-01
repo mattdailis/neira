@@ -23,6 +23,7 @@ def orderEntry(orders, school, boat):
     if boat not in orders[school].keys():
         orders[school][boat] = []
 
+
 # QuerySet of Boats -> List of Edges
 def get_edges(boats):
     if len(boats) == 0:
@@ -43,7 +44,7 @@ def get_edges(boats):
                     print school_name, "beat", other_result.boat.school.primary_name(), "by", margin, "seconds"
                     edge = Edge(heat.date, school_name, other_result.boat.school.primary_name(), margin)
                     edge.url = heat.url
-                    edge.tooltip = heat.comment
+                    edge.tooltip = boat.school.name + " ----> " + other_boat.school.name + "\n" + heat.comment
                     edges.append(edge)
     return edges
 
