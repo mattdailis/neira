@@ -101,11 +101,11 @@ def genHtml(name, graph):
     target.write('<link href="css/gui.css" rel="stylesheet">')
     target.write('</head>')
     target.write('<body>')
-    target.write('<a href="index.html">Back to index</a>')
-    if name != graph:
-        target.write('<br />')
-        target.write('<a href="'+graph+'.html">Back to '+graph+'</a>')
-    target.write('<IMG SRC="./'+ graphName(name) +'.dot.gif" USEMAP="#'+graphName(name)+'" />')
+    # target.write('<a href="index.html">Back to index</a>')
+    # if name != graph:
+    #     target.write('<br />')
+    #     target.write('<a href="'+graph+'.html">Back to '+graph+'</a>')
+    target.write('<IMG SRC="./' + graphName(name) + '.dot.gif" USEMAP="#' + graphName(name)+'" />')
     target.write(mapTag)
     # target.write(modalStr)
     target.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>')
