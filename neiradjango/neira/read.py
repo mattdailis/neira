@@ -25,7 +25,8 @@ def orderEntry(orders, school, boat):
 
 # QuerySet of Boats -> List of Edges
 def get_edges(boats):
-    if boats.count() == 0:
+    if len(boats) == 0:
+        print "Empty"
         return []
     edges = []
     for boat in boats:
@@ -53,76 +54,90 @@ def get_margin(r1, r2):
         return None
     return abs((r1.time - r2.time).total_seconds())
 
+
 def main_by_boat_class():
+    all_boats = Boat.objects.all()
+    # if school is not None:
+    #     all_boats = filter(lambda x: x.school.get_primary() == school, all_boats)
+    #     print all_boats
     orders = {}
     for size in ["four", "eight"]:
         for team in ["boys", "girls"]:
             for level in range(6):
-                boats = Boat.objects.filter(size=size, team=team, level=level)
-                if (boats.count() > 0):
+                boats = filter(lambda boat: boat.size == size and boat.team == team and boat.level == level, all_boats)
+                if len(boats) > 0:
                     print "\nReading", team, level, size, "\n-----"
-                key = str(team) + str(level) + str(size)
-                orders[key] = get_edges(boats)
+                    key = str(team) + str(level) + str(size)
+                    edges = get_edges(boats)
+                    orders[key] = edges
+                    for school in School.primaries.all():
+                        name = school.primary_name()
+                        key = str(team) + str(level) + str(size) + (school.primary_name() if school is not None else "")
+                        orders[key] = filter(lambda edge: name == edge.first or name == edge.second, edges)
 
     return orders
 
-def edges_from_results(results):
+
+def edges_between_boats(boats):
     edges = []
-    results = sorted(results, key=lambda x: x.time)
-    for (i, result) in enumerate(results):
-        faster_boat = result.boat
-        for otherResult in results[i+1:]:
-            if otherResult.time.total_seconds() < 0 or result.time.total_seconds() < 0:
-                margin = None
-            else:
-                margin = (otherResult.time - result.time).total_seconds()
-                slower_boat = otherResult.boat
+    for boat in boats:
+        all_results = boat.result_set.all()
+        for my_result in all_results:
+            results = my_result.heat.result_set.all()
+            for (i, result) in enumerate(results):
+                faster_boat = result.boat
+                for otherResult in results[i+1:]:
+                    if otherResult.time.total_seconds() < 0 or result.time.total_seconds() < 0:
+                        margin = None
+                    else:
+                        margin = (otherResult.time - result.time).total_seconds()
+                    slower_boat = otherResult.boat
                 
-                if margin > 5:
-                    margin = int(margin)
+                    if margin > 5:
+                        margin = int(margin)
                 
-                edge = Edge(result.heat.date, faster_boat.school.primary_name(), slower_boat.school.primary_name(), margin)
-                edge.url = result.heat.url
-                edge.tooltip = result.heat.comment
-                edges.append(edge)
+                    edge = Edge(result.heat.date, faster_boat.school.primary_name(), slower_boat.school.primary_name(), margin)
+                    edge.url = result.heat.url
+                    edge.tooltip = result.heat.comment
+                    edges.append(edge)
     return edges
 
 
-def main_by_heat():
-    orders = {}
-    for heat in Heat.objects.all():
-        url = heat.url
-        comment = heat.comment
-        results = list(heat.result_set.all())
-        date = heat.date
-        if results:
-            faster_boat = results[0].boat.team
-            boat = str(faster_boat.team) + str(faster_boat.level) + str(faster_boat.size)
-            if boat not in orders:
-                orders[boat] = []
-            orders[boat].extend(edges_from_results(results))
+# def main_by_heat():
+#     orders = {}
+#     for heat in Heat.objects.all():
+#         url = heat.url
+#         comment = heat.comment
+#         results = list(heat.result_set.all())
+#         date = heat.date
+#         if results:
+#             faster_boat = results[0].boat.team
+#             boat = str(faster_boat.team) + str(faster_boat.level) + str(faster_boat.size)
+#             if boat not in orders:
+#                 orders[boat] = []
+#             orders[boat].extend(edges_from_results(results))
+#
+#     return orders
 
-    return orders
 
-
-def main_by_school():
-    orders = {}
-    all_results = Result.objects.all()
-    for school in School.primaries.all():
-        results = filter(lambda r: r.boat.school.get_primary() == school, all_results)
-        for result in results:
-            if not school.name in orders:
-                orders[school.name] = []
-            orders[school.name].extend(edges_from_results(results))
-
-    return orders
+# def main_by_school():
+#     orders = {}
+#     boats = filter(lambda r: r.boat.school.get_primary() == school, all_results)
+#         if school.name not in orders:
+#             orders[school.name] = []
+#         orders[school.name].extend(edges_from_results(results))
+#     return orders
                 
 
-def main():
-    orders = main_by_school()  # boat_class()
+def gen(orders):
     for boat in sorted(orders.keys(), key=sorter):
         print "-" * 25
         print boat + ":"
         # raw_input()
         edges = orders[boat]
         viz(boat, boat, edges)
+
+
+
+def main():
+    gen(main_by_boat_class())
