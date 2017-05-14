@@ -48,9 +48,11 @@ def scrape_regatta(name, url, res_url):
     schools_list = None
     if "vs." in name:
         try:
-            school_names = map(lambda x: x.strip(), name[name.index(":") + 2:].replace("vs.", ",").split(","))
+            name = name[name.index(":") + 2:]
         except ValueError:
             pass
+        school_names = map(lambda x: x.strip(), name.replace("vs.", ",").replace("and", ",").split(","))
+
         schools_list = get_schools(school_names)
 
     current_heat_times = []
@@ -84,14 +86,12 @@ def scrape_regatta(name, url, res_url):
 
 
 def enter_heat(results, gender, date, race, comment, url, size):
-    # Create new Heat object
     h = Heat()
     h.comment = comment
     h.url = url
     h.date = date
     h.save()
 
-    # For each result
     for (boat, time) in results:
         t = get_time(time)
         r = Result()
