@@ -64,8 +64,18 @@ def scrapeRegatta(name, res_url, url):
         "url": res_url+url
     }
 
-    results = soup.findAll("div", {"class" : "results-block"})
+#    results = soup.findAll("div", {"class" : "results-block"})
+    results = soup.findAll(True, {"class": ["results-block", "midhead2"]})
+
+    
     for resultBlock in results:
+        if resultBlock.name == 'span':
+            if 'women' in resultBlock.text.lower():
+                gender = "girls"
+            # else:
+            #     gender = "boys"
+            continue
+
         heat = resultBlock.findAll("tr", {"align" : "center"})[0].text.strip()
         (gender, boatNum, boatSize) = parseBoat(gender, boatSize, heat)
 
