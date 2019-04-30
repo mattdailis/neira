@@ -4,60 +4,32 @@ import datetime
 from datetime import date
 import re
 from neiraschools import matchSchool
+import json
+import os
 
-#--- Set up database ---#
+def scrapeRegatta(name, res_url, url):
+    """
+    Given the name of the regatta (From the list of regattas) and the link to the row2k page for that regatta,
+    return an object representing the important information in that page.
+    TODO: Make a class representing the contents of a page
+    """
 
-import sqlite3
+    name = name.strip()
 
-def createTable(cur):
-    cur.execute("""
-    CREATE TABLE IF NOT EXISTS Results
-    (date TEXT, gender TEXT, heat TEXT, fasterSchool TEXT, fasterBoat INTEGER, slowerSchool TEXT, slowerBoat TEXT, margin DECIMAL(5, 2), race TEXT, comment TEXT, url TEXT)""")
-#   (date TEXT, faster TEXT, slower TEXT, boat TEXT, margin DECIMAL(5, 2), race TEXT, comment TEXT, url TEXT)""")
-
-def sqlify(string):
-    return string.replace("'", "")
-
-def insert(date, gender, heat, fasterSchool, fasterBoat, slowerSchool, slowerBoat, margin, race, comment, url):
-    print slowerSchool, slowerBoat
-    try:
-        cur.execute(("""
-        INSERT INTO Results (date, gender, heat, fasterSchool, fasterBoat, slowerSchool, slowerBoat,"""+(" margin," if margin != None else "")+""" race, comment, url) VALUES (
-        '{date}', '{gender}', '{heat}', '{fasterSchool}', '{fasterBoat}', '{slowerSchool}', '{slowerBoat}',"""+(" {margin}," if margin != None else "")+""" '{race}', '{comment}', '{url}')""")\
-                    .format(date=str(date),
-                            gender=gender,
-                            heat=sqlify(heat),
-                            fasterSchool=sqlify(fasterSchool),
-                            fasterBoat=str(fasterBoat),
-                            slowerSchool=sqlify(slowerSchool),
-                            slowerBoat=str(slowerBoat),
-                            margin=str(margin),
-                            race=sqlify(race),
-                            comment=sqlify(comment),
-                            url=sqlify(url)))
-    except:
-        print "NOT ENTERED: ", date, gender, heat, fasterSchool, fasterBoat, slowerSchool, slowerBoat, margin, race, comment, url
-
-def getUrlsScraped():
-    cur.execute("""
-    SELECT race, url FROM Results
-    """)
-    return set([(x[0], x[1]) for x in cur.fetchall()])
-
-#--- Set up scraper ---#
-
-def scrapeRegatta(name, url):
-    print "Scraping", name
+    # Open the url
     html = urllib2.urlopen(res_url+url)
     soup = BeautifulSoup(html)
+
+    # Get the title of the page
     title = soup.findAll("meta", { "name" : "description"})[0]['content']
     dayString =  ','.join(title.split('-')[-2].split(',')[-2:])
 
-    day = getDate(dayString.strip())
+    # Get the date of the event
+    # day = getDate(dayString.strip())
+    day = dayString.strip()
 
+    # Get the comment for the day
     blockquote = soup.findAll("div", { "class" : "res-text"})[0]
-
-
     comment = blockquote.text.encode('utf-8')
     p = str(blockquote.p).split('<br>')
     for t in p:
@@ -66,27 +38,33 @@ def scrapeRegatta(name, url):
     if comment == None:
         comment = ""
 
-    results = soup.findAll("div", {"class" : "results-block"})
-
+    # Guess the gender from the name, if possible. Else None
     gender = None
     if "boy" in name.lower() and not "girl" in name.lower():
         gender = "boys"
     elif "girl" in name.lower() and not "boy" in name.lower():
         gender = "girls"
 
-    boatSize = "four" # assume fours
+    # Guess the boat size from the name. Else "fours"
+    boatSize = "fours" # assume fours
     if "eight" in name.lower() or "8" in name and not ("four" in name.lower() or "4" in name):
-        boatSize = "eight"
+        boatSize = "eights"
     elif "four" in name.lower() or "4" in name and not ("eight" in name.lower() or "8" in name):
-        boatSize = "four"
+        boatSize = "fours"
 
-    boat = None
     currentHeat = []
     boatNum = None
 
-    schoollog = ""
-    boatlog = ""
+    heats = []
 
+    race_object = {
+        "day": day,
+        "regatta_display_name": name,
+        "comment": comment,
+        "url": res_url+url
+    }
+
+    results = soup.findAll("div", {"class" : "results-block"})
     for resultBlock in results:
         heat = resultBlock.findAll("tr", {"align" : "center"})[0].text.strip()
         (gender, boatNum, boatSize) = parseBoat(gender, boatSize, heat)
@@ -96,26 +74,19 @@ def scrapeRegatta(name, url):
             rawschool = school_time[0].text.encode('utf-8').strip()
             if rawschool == "":
                 continue
-            (school, num) = matchSchool(rawschool, boatNum=boatNum)
-            schoollog +=  rawschool + " -> " + str(school) + "\n"
+            # (school, num) = matchSchool(rawschool, boatNum=boatNum)
             time = school_time[1].text.encode('utf-8').strip()
-            # if school is None, it's not in NEIRA
-            if school != None:
-                currentHeat.append((school, num, time))
+            currentHeat.append((rawschool, time))
 
-        enterHeat(str(gender)+str(boatNum)+str(boatSize), currentHeat, gender, day, name, comment, res_url+url)
+        heats.append({
+            "class": str(boatSize),
+            "varsity_index": str(boatNum),
+            "results": currentHeat,
+            "gender": gender})
+
         currentHeat = []
-    return (schoollog, boatlog)
-
-
-def enterHeat(heat, results, gender, date, race, comment, url):
-    i = 0
-    while i < len(results) - 1:
-        (fastSchool, fastBoat, t1) = results[i]
-        for (slowSchool, slowBoat, t2) in results[i+1:]:
-            margin = getMargin(t1, t2)
-            insert(date, gender, heat, fastSchool, fastBoat, slowSchool, slowBoat, margin, race, comment, url)
-        i += 1
+    race_object["heats"] = heats
+    return race_object
 
 def getMargin(time1, time2):
     time1 = getTime(time1)
@@ -169,9 +140,9 @@ def parseBoat(gender, boatSize, boatString):
         number = "4"
 
     if number != "4" and ("4" in boatString  or "four" in boatString.lower()):
-        boatSize = "four"
+        boatSize = "fours"
     elif "8" in boatString or "eight" in boatString.lower():
-        boatSize = "eight"
+        boatSize = "eights"
 
     return (gender, number, boatSize)
 
@@ -184,7 +155,7 @@ def getDate(string):
     return d
 
 # Returns a list of urls
-def getRaceUrls(urls_scraped):
+def getRaceUrls(res_html):
     urls = []
     soup = BeautifulSoup(res_html)
     highschool = soup.findChildren('span', text="High School/Scholastic")
@@ -196,33 +167,30 @@ def getRaceUrls(urls_scraped):
                 url = link.get('href').encode('utf-8')
                 urls.append((raceName, url))
             else:
-                print link.get('href'), "could not be scraped"
-    return urls#.difference(urls_scraped)
+                print(link.get('href'), "could not be scraped")
+    return urls
 
 # expected bug: when program terminates mid-scrape, should redo that url next time
 
-if __name__ == '__main__':
-    conn = sqlite3.connect('../bin/row2k.sqlite3')
-    cur = conn.cursor()
-
-    createTable(cur)
-
+def main():
     res_url = 'http://www.row2k.com'
-    res_html = urllib2.urlopen(res_url+"/results/index.cfm?league=NEIRA&year=2017")
+    res_html = urllib2.urlopen(res_url+"/results/index.cfm?league=NEIRA&year=2019")
 
-    urls_scraped = getUrlsScraped()
+    urls_scraped = [] #getUrlsScraped()
 
-    urls = getRaceUrls(urls_scraped)
-    schools = open("schoolslog.txt", "w")
-    boats = open("boatslog.txt", "w")
+    urls = getRaceUrls(res_html)
+    count = 0
+
+    OVERWRITE = False
+
     if len(urls) > 0:
         for (race, url) in urls:
-            (schoollog, boatlog) = scrapeRegatta(race, url)
-            schools.write(schoollog)
-            boats.write(boatlog)
+            uid = re.match( r'.*UID=([0-9|A-Z]+)', url, re.M|re.I).group(1)
+            filename = "data/{}.json".format(uid)
+            if OVERWRITE or not os.path.isfile(filename):
+                race_object = scrapeRegatta(race, res_url, url)
+                with open(filename, "w") as f:
+                    f.write(json.dumps(race_object, sort_keys=True, indent=4))
 
-    schools.close()
-    boats.close()
-
-    conn.commit()
-    cur.close()
+if __name__ == '__main__':
+    main()
