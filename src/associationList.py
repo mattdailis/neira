@@ -63,7 +63,7 @@ def cycles(edges):
     visited = set([])
     for seed in firsts:
         (otherCycles, otherVisited) = cyclesHelp(seed, [], edges, visited)
-        print(otherCycles)
+        #print(otherCycles)
         cycles += otherCycles
         visited = visited.union(otherVisited)
     return cycles

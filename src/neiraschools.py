@@ -1,5 +1,8 @@
 from difflib import SequenceMatcher as sm
 
+matched = set()
+unmatched = set()
+
 def getNeiraSchools():
     return {'BBN': [],
             'Bancroft' : [],
@@ -31,9 +34,11 @@ def getNeiraSchools():
             'Taft' : [],
             'Valley' : ['Valley Regional'],
             'Winsor' : [],
-            # NOT ACTUALLY NEIRA:
+            # NOT ACTUALLY NEIRA, but included to avoid matching one of the above
             'Exeter' : [],
             'Middletown' : [],
+            'Worcester Academy': [],
+            'Bedford' : [],
             'Suffield': []
         }
 
@@ -66,7 +71,7 @@ def matchSchool(name, boatNum=None):
         scores.add((school, score))
     (school, score) = max(scores, key=(lambda x_y : x_y[1]))
 
-    if school in ['Exeter', 'Middletown', 'Suffield']:
+    if school in ['Exeter', 'Middletown', 'Worcester Academy', 'Bedford', 'Suffield']:
         return (None, None)
 
     if school == 'Greenwich Academy':
@@ -94,11 +99,12 @@ def matchSchool(name, boatNum=None):
                 except ValueError:
                     pass
 
-    return (name, num)
-    # if score > 0.7:
-    #     return (school, num)
-    # else:
-    #     return (None, None)
+    if score > 0.7:
+        matched.add((name, school))
+        return (school, num)
+    else:
+        unmatched.add(name)
+        return (None, None)
 
 def parseNum(num):
     if 'nov' in num:

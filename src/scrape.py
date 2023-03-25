@@ -1,6 +1,3 @@
-import sys
-sys.path.append("/Users/matt/workspace/neira_project/neira/src")
-
 from bs4 import BeautifulSoup
 import urllib.request, urllib.error, urllib.parse
 import datetime
@@ -74,8 +71,8 @@ def scrapeRegatta(name, res_url, url):
         if resultBlock.name == 'span':
             if 'women' in resultBlock.text.lower():
                 gender = "girls"
-            # else:
-            #     gender = "boys"
+            elif 'men' in resultBlock.text.lower():
+                gender = "boys"
             continue
 
         heat = resultBlock.findAll("tr", {"align" : "center"})[0].text.strip()
