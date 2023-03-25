@@ -43,9 +43,9 @@ def getNodes(orders):
 
 # Association List (a, b)
 def removeAll(item, orders):
-    return filter(
+    return list(filter(
         (lambda pair: item != pair.first and item != pair.second),
-        orders)
+        orders))
 
 # Association List (a, b)
 def outEdges(node, edges):
@@ -63,7 +63,7 @@ def cycles(edges):
     visited = set([])
     for seed in firsts:
         (otherCycles, otherVisited) = cyclesHelp(seed, [], edges, visited)
-        print otherCycles
+        print(otherCycles)
         cycles += otherCycles
         visited = visited.union(otherVisited)
     return cycles
@@ -105,7 +105,7 @@ def averageEdges(edges):
             edgeDict[edge.toPairTuple()] = set([])
         edgeDict[edge.toPairTuple()].add((edge.date, edge.margin))
     newEdges = set([])
-    for (o, t) in edgeDict.keys():
+    for (o, t) in list(edgeDict.keys()):
         s = 0
         margins = edgeDict[(o, t)]
         for (d, m) in margins:

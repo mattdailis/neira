@@ -1,4 +1,7 @@
-import urllib
+import sys
+sys.path.append("/Users/matt/workspace/neira_project/neira/src")
+
+import urllib.request, urllib.parse, urllib.error
 import sqlite3
 from datetime import date
 import datetime
@@ -27,9 +30,9 @@ def sorter(string):
         return string.lower()
 
 def orderEntry(orders, school, boat):
-    if school not in orders.keys():
+    if school not in list(orders.keys()):
         orders[school] = {}
-    if boat not in orders[school].keys():
+    if boat not in list(orders[school].keys()):
         orders[school][boat] = []
 
 
@@ -44,15 +47,17 @@ if __name__ == '__main__':
 
     results = cur.fetchall()
     for result in results:
-        print result
+        print(result)
     (date, gender, heat, fasterSchool, fasterBoat, slowerSchool, slowerBoat, margin, race, comment, url) = results[0]
     orders = {}
     nodes = {}
     for row in results:
         # print (date, gender, fasterSchool, fasterBoat, slowerSchool, slowerBoat, margin, race, comment, url)
         (date, gender, boat, fasterSchool, fasterBoat, slowerSchool, slowerBoat, margin, race, comment, url) = row
-        if boat not in orders.keys():
+        if boat not in list(orders.keys()):
             orders[boat] = []
+        if margin is None:
+            continue
         if margin > 5:
             margin = int(margin)
         date = datetime.datetime.strptime(date, "%Y-%m-%d")
@@ -70,20 +75,20 @@ if __name__ == '__main__':
         orders[fasterSchool][fasterBoat].append(edge)
         orders[slowerSchool][slowerBoat].append(edge)
         form = "{boat}: {faster} beat {slower} by {margin} seconds on {date}"
-        print form.format(date=str(date),
+        print(form.format(date=str(date),
                             faster=fasterSchool,
                             slower=slowerSchool,
                             boat=boat,
-                            margin=str(margin))
+                            margin=str(margin)))
 
-    for boat in sorted(orders.keys(), key=sorter):
+    for boat in sorted(list(orders.keys()), key=sorter):
         #edges = removeCycles(orders[boat])
-        print orders
+        print(orders)
         edges = orders[boat]
         viz(boat, boat, edges)
         # try:
-        print "-" * 25
-        print boat + ":"
+        print("-" * 25)
+        print(boat + ":")
         # for school in seed(fromAssociationList(removeCycles(edges))):
         #     print school
         # for school in getNodes(edges):
@@ -93,7 +98,7 @@ if __name__ == '__main__':
         #             relevant.append(edge)
         #             #            viz(boat, boat+school, relevant)
                     #        print len(allChains(fromAssociationList(removeCycles(edges))))
-        raw_input()
+        input()
 
     conn.commit()
     cur.close()

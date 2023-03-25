@@ -1,5 +1,8 @@
+import sys
+sys.path.append("/Users/matt/workspace/neira_project/neira/src")
+
 from bs4 import BeautifulSoup
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 import datetime
 from datetime import date
 import re
@@ -13,11 +16,10 @@ def scrapeRegatta(name, res_url, url):
     return an object representing the important information in that page.
     TODO: Make a class representing the contents of a page
     """
-
     name = name.strip()
 
     # Open the url
-    html = urllib2.urlopen(res_url+url)
+    html = urllib.request.urlopen(res_url+url)
     soup = BeautifulSoup(html)
 
     # Get the title of the page
@@ -30,7 +32,7 @@ def scrapeRegatta(name, res_url, url):
 
     # Get the comment for the day
     blockquote = soup.findAll("div", { "class" : "res-text"})[0]
-    comment = blockquote.text.encode('utf-8')
+    comment = blockquote.text.encode('utf-8').decode()
     p = str(blockquote.p).split('<br>')
     for t in p:
         comment += "\n"
@@ -81,12 +83,14 @@ def scrapeRegatta(name, res_url, url):
 
         for school_time in resultBlock.findAll("tr")[1:]:
             school_time = school_time.findAll("td")
-            rawschool = school_time[0].text.encode('utf-8').strip()
+            rawschool = school_time[0].text.encode('utf-8').strip().decode()
             if rawschool == "":
                 continue
             # (school, num) = matchSchool(rawschool, boatNum=boatNum)
-            time = school_time[1].text.encode('utf-8').strip()
-            currentHeat.append((rawschool, time))
+            time = school_time[1].text.encode('utf-8').strip().decode()
+            currentHeat.append({
+                "school": rawschool,
+                "time": time})
 
         heats.append({
             "class": str(boatSize),
@@ -175,19 +179,19 @@ def getRaceUrls(res_html):
             if link.get('href').startswith('/results'):
                 raceName = link.text.encode('utf-8')
                 url = link.get('href').encode('utf-8')
-                urls.append((raceName, url))
+                urls.append((raceName.decode(), url.decode()))
             else:
-                print(link.get('href'), "could not be scraped")
+                print((link.get('href'), "could not be scraped"))
     return urls
 
 # expected bug: when program terminates mid-scrape, should redo that url next time
 
-def main():
+def main(year=2022):
     res_url = 'http://www.row2k.com'
-    res_html = urllib2.urlopen(res_url+"/results/index.cfm?league=NEIRA&year=2019")
+    res_html = urllib.request.urlopen(res_url+"/results/index.cfm?league=NEIRA&year=2022")
 
     urls_scraped = [] #getUrlsScraped()
-
+    import pdb; 
     urls = getRaceUrls(res_html)
     count = 0
 

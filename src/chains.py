@@ -1,5 +1,8 @@
 # A Chain is a Listof Nodes
 
+import sys
+sys.path.append("/Users/matt/workspace/neira_project/neira/src")
+
 from associationList import Edge
 from graph import Graph, fromAssociationList
 
@@ -76,12 +79,12 @@ def mergeChains(chain1, chain2, graph):
         try:
             (dateI, marginI) = graph.checkData(chain1[i-1], nodeI)
         except TypeError:
-            print chain1
+            print(chain1)
             raise TypeError
         try:
             (dateJ, marginJ) = graph.checkData(chain2[j-1], nodeJ)
         except TypeError:
-            print chain2
+            print(chain2)
             raise TypeError
         if nodeI == nodeJ:
             common = nodeI
@@ -153,4 +156,4 @@ if __name__ == '__main__':
     edges = [e1, e2, e3, e4, e5, e6, e7]
     graph = fromAssociationList(edges)
 
-    print seed(graph)
+    print(seed(graph))

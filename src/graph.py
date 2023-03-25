@@ -1,3 +1,6 @@
+import sys
+sys.path.append("/Users/matt/workspace/neira_project/neira/src")
+
 from associationList import Edge
 
 class Graph():
@@ -13,8 +16,8 @@ class Graph():
 
     def addEdge(self, key, val, data):
         if self.checkData(key, val) != None:
-            print self.checkData(key, val)
-            print key, val, data
+            print(self.checkData(key, val))
+            print(key, val, data)
             raise ValueError
         (d, m) = data
         if m < 0:
@@ -56,7 +59,7 @@ class Graph():
         self.makeKey(key, self.inEdgeCount, 0)
 
     def makeKey(self, key, dic, default):
-        if not key in dic.keys():
+        if not key in list(dic.keys()):
             dic[key] = default
 
     # Passively returns data if it exists
@@ -86,11 +89,11 @@ class Graph():
 
     def pop(self, key):
         if key in self.nodes and key not in self.removed:
-            print "pop!", key
+            print("pop!", key)
 #            if key not in self.notFirst:
             self.removed.add(key)
             for val in self.succ(key):
-                print "sub1", val, self.inEdgeCount[val], self.inEdgeCount[val] - 1
+                print("sub1", val, self.inEdgeCount[val], self.inEdgeCount[val] - 1)
                 self.inEdgeCount[val] -= 1
                 if self.inEdgeCount[val] <= 0:
                     self.notFirst.remove(val)
@@ -162,7 +165,7 @@ class Graph():
                 fromNode[node] = current
 
     def updateAncestors(self, node, newMembers):
-        if node not in self.ancestors.keys():
+        if node not in list(self.ancestors.keys()):
             self.ancestors[node] = set([])
         if len(newMembers) > 0:
             newMembers = newMembers.difference(self.ancestors[node])
@@ -171,7 +174,7 @@ class Graph():
                 self.updateAncestors(succ, newMembers.union(set([node])))
 
     def isAncestor(self, node1, node2):
-        if node2 in self.ancestors.keys():
+        if node2 in list(self.ancestors.keys()):
             return node1 in self.ancestors[node2]
         else:
             return False
@@ -179,11 +182,11 @@ class Graph():
 
 def printPath(start, end, dic):
     current = end
-    print "from", end, "to", start
+    print("from", end, "to", start)
     while current != start:
-        print current
+        print(current)
         current = dic[current]
-    print start
+    print(start)
 
 
 

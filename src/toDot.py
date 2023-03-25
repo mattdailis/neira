@@ -1,3 +1,6 @@
+import sys
+sys.path.append("/Users/matt/workspace/neira_project/neira/src")
+
 import os
 from bs4 import BeautifulSoup
 from associationList import getNodes
@@ -22,7 +25,7 @@ def pairsToDot(graph, orders):
         edges.append(edge)
     dot += '; \n'.join(edges)
     dot += "}"
-    return dot.encode('utf-8')
+    return dot.encode('utf-8').decode()
 
 def reduceWhitespace(string):
     string = string.replace("\r", "")
@@ -36,7 +39,7 @@ def graphName(name):
     return nodeName(name).lstrip('0123456789.- ')
 
 def nodeName(name):
-    return filter(str.isalnum, str(name).replace("_", "zzz")).replace("zzz", "_")
+    return "".join(filter(str.isalnum, str(name).replace("_", "zzz"))).replace("zzz", "_")
 
 def genJs(filename, name, dotString):
     target = open(filename, 'a')
@@ -64,12 +67,12 @@ def genDot(filename, dotString):
     target.close()
 
 def genPdf(src, dst):
-    print "src", src
-    print "dst", dst
+    print("src", src)
+    print("dst", dst)
     #os.system("graphviz\\release\\bin\\dot.exe -Tpdf " + src + " -o " + dst)
 
 def genHtml(name, graph):
-    print "generating", name
+    print("generating", name)
     #os.system("graphviz\\release\\bin\\dot.exe -Tcmapx -ohtml\\map\\"+name+".map -Tgif -ohtml\\gif\\"+name+".gif gv\\"+name+".gv")
 
     # os.system("dot -T gif -O ../bin/"+name+".dot")
@@ -118,7 +121,7 @@ def modMap(map, name):
             pass
             #area['href'] = "#"
             #area['onclick'] = "alert('"+area['title'].replace('\n', '\\n')+"'); stopPropagation()"
-    return soup.prettify().encode('utf-8')
+    return soup.prettify().encode('utf-8').decode()
 
 def viz(name, url, orders):
     genJs("gui.js", name, pairsToDot(name, orders))

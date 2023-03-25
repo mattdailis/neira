@@ -64,7 +64,7 @@ def matchSchool(name, boatNum=None):
             if newscore > score:
                 score = newscore
         scores.add((school, score))
-    (school, score) = max(scores, key=(lambda (x, y) : y))
+    (school, score) = max(scores, key=(lambda x_y : x_y[1]))
 
     if school in ['Exeter', 'Middletown', 'Suffield']:
         return (None, None)
@@ -117,7 +117,7 @@ def replaceLetters(string):
     return low
 
 def deUnique(string):
-    return filter((lambda s : str.isalnum(s) and not s.isdigit()), string.lower())
+    return list(filter((lambda s : str.isalnum(s) and not s.isdigit()), string.lower()))
 
 def compare(school, name):
     return sm(None, deUnique(school), deUnique(name)).ratio()
