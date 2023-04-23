@@ -161,6 +161,13 @@ def main():
         edges = orders[boat]
         viz(boat, boat, edges)
 
+        import pdb; pdb.set_trace()
+        schools = {x.first for x in edges}
+        schools.update({x.second for x in edges})
+
+        for school in schools:
+            viz(boat + school, boat + school, [edge for edge in edges if edge.first == school or edge.second == school])
+
 def all_pairs(my_list):
     for i in range(len(my_list) - 1):
         for j in range(i + 1, len(my_list)):
