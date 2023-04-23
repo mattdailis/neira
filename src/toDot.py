@@ -9,7 +9,7 @@ def pairsToDot(graph, orders):
     nodes = getNodes(orders)
     dot = "digraph "+graphName(graph)+" {"
     for node in nodes:
-        dot += nodeName(node) + ' [URL="'+nodeName(graph)+nodeName(node)+'.html"];'
+        dot += nodeName(node) +';' # + ' [URL="'+nodeName(graph)+nodeName(node)+'.html"];'
     edges = []
     for edge in orders:
         margin = edge.margin
