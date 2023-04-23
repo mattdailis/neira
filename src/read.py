@@ -69,10 +69,26 @@ def main():
             class_ = heat["class"]
             gender = heat["gender"]
             varsity_index = heat["varsity_index"]
-            heat_results = heat["results"]
+            heat_results = heat["results"] # assume they're ordered?
 
             boatName = gender + str(varsity_index) + class_
-                
+
+            # take only fastest result by a given school
+            new_heat_results = []
+            seen_schools = set()
+            for entry in heat_results:
+                school, _ = matchSchool(entry["school"], boatNum=varsity_index)
+                if school not in seen_schools:
+                    seen_schools.add(school)
+                    new_heat_results.append(entry)
+                else:
+                    continue
+            heat_results = new_heat_results
+            del new_heat_results
+            del entry
+            del school
+            del _
+            
             for fasterBoat, slowerBoat in all_pairs(heat_results):
                 margin = getMargin(fasterBoat["time"], slowerBoat["time"])
                 fasterSchool, fasterSchoolBoatNum = matchSchool(fasterBoat["school"], boatNum=varsity_index)

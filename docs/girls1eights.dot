@@ -1,4 +1,4 @@
-digraph girls1eights {BostonLatin [URL="girls1eightsBostonLatin.html"];Brookline [URL="girls1eightsBrookline.html"];Hingham [URL="girls1eightsHingham.html"];EastLyme [URL="girls1eightsEastLyme.html"];Salisbury [URL="girls1eightsSalisbury.html"];Duxbury [URL="girls1eightsDuxbury.html"];Kent [URL="girls1eightsKent.html"];StPauls [URL="girls1eightsStPauls.html"];Bedford [URL="girls1eightsBedford.html"];Shrewsbury [URL="girls1eightsShrewsbury.html"];Exeter [URL="girls1eightsExeter.html"];Stonington [URL="girls1eightsStonington.html"];Glastonbury [URL="girls1eightsGlastonbury.html"];Guilford [URL="girls1eightsGuilford.html"];Tabor [URL="girls1eightsTabor.html"];Deerfield [URL="girls1eightsDeerfield.html"];Andover [URL="girls1eightsAndover.html"];Deerfield -> Kent[label="16.8
+digraph girls1eights {Tabor [URL="girls1eightsTabor.html"];Glastonbury [URL="girls1eightsGlastonbury.html"];EastLyme [URL="girls1eightsEastLyme.html"];Duxbury [URL="girls1eightsDuxbury.html"];Brookline [URL="girls1eightsBrookline.html"];Bedford [URL="girls1eightsBedford.html"];Hingham [URL="girls1eightsHingham.html"];Salisbury [URL="girls1eightsSalisbury.html"];Deerfield [URL="girls1eightsDeerfield.html"];Stonington [URL="girls1eightsStonington.html"];Guilford [URL="girls1eightsGuilford.html"];StPauls [URL="girls1eightsStPauls.html"];Kent [URL="girls1eightsKent.html"];BostonLatin [URL="girls1eightsBostonLatin.html"];Exeter [URL="girls1eightsExeter.html"];Andover [URL="girls1eightsAndover.html"];Shrewsbury [URL="girls1eightsShrewsbury.html"];Deerfield -> Kent[label="16.8
 04/08", weight="84", tooltip="NEIRA Girls Eights,Deerfield vs. Kent			
 Distance: 1680m Conditions: Fair conditions on flat water with a gusting 10mph cross tailwind in the first 500m. Comments: Congratulations to all three Deerfield crews on impressive racing. Thank you to Parker and Meg for launching their inaugural eights season with a race against Kent School.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=99230681DE272C5FECC179DDBE0FB911&cat=1", random="random"]; 
@@ -68,10 +68,6 @@ Distance: 1500 Meters Conditions: Light wind changing throughout the day, starti
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
 Glastonbury -> Stonington[label="1.0
 04/08", weight="99", tooltip="NEIRA Boys & Girls Eights,Glastonbury vs Stonington			
-Distance: 1500m Conditions: Tailwind picked up through racing and slight tail current. Order of racing was BV1, GV1, BV2 Comments: The Girls 1V race and the Boys 2V race was slightly shorter than 1500 due to crosswind creating difficulty with alignment.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7534FDE7697701A061E81A000D2CD6A0&cat=5", random="random"]; 
-Stonington -> Glastonbury[label="15.3
-04/08", weight="85", tooltip="NEIRA Boys & Girls Eights,Glastonbury vs Stonington			
 Distance: 1500m Conditions: Tailwind picked up through racing and slight tail current. Order of racing was BV1, GV1, BV2 Comments: The Girls 1V race and the Boys 2V race was slightly shorter than 1500 due to crosswind creating difficulty with alignment.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7534FDE7697701A061E81A000D2CD6A0&cat=5", random="random"]; 
 StPauls -> Tabor[label="31.0

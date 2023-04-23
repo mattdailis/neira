@@ -1,4 +1,4 @@
-digraph girls4eights {StPauls5th [URL="girls4eightsStPauls5th.html"];BostonLatin [URL="girls4eightsBostonLatin.html"];Brookline [URL="girls4eightsBrookline.html"];StPauls4th [URL="girls4eightsStPauls4th.html"];EastLyme [URL="girls4eightsEastLyme.html"];Duxbury [URL="girls4eightsDuxbury.html"];Shrewsbury [URL="girls4eightsShrewsbury.html"];Bedford [URL="girls4eightsBedford.html"];Tabor [URL="girls4eightsTabor.html"];Deerfield [URL="girls4eightsDeerfield.html"];Andover [URL="girls4eightsAndover.html"];Shrewsbury -> EastLyme[label="7.3
+digraph girls4eights {EastLyme [URL="girls4eightsEastLyme.html"];Duxbury [URL="girls4eightsDuxbury.html"];Brookline [URL="girls4eightsBrookline.html"];Bedford [URL="girls4eightsBedford.html"];BostonLatin [URL="girls4eightsBostonLatin.html"];Deerfield [URL="girls4eightsDeerfield.html"];StPauls4th [URL="girls4eightsStPauls4th.html"];StPauls5th [URL="girls4eightsStPauls5th.html"];Tabor [URL="girls4eightsTabor.html"];Andover [URL="girls4eightsAndover.html"];Shrewsbury [URL="girls4eightsShrewsbury.html"];Shrewsbury -> EastLyme[label="7.3
 04/15", weight="93", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
 Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
@@ -45,11 +45,6 @@ The Fourth Boat events in both Boy's and Girl's results are for Novice Crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B8E319823F5E06EE7205EBA30FA0A509&cat=5", random="random"]; 
 BostonLatin -> Brookline[label="27.0
 04/08", weight="73", tooltip="NEIRA Girls Eights,Salvo Cup Girls: Boston Latin School vs. Brookline High School			
-Distance: 1250 Conditions: Great day of racing! Races got a bit faster throughout the day with the tailwind building. 
-To avoid confusion in seeding I put our 3v4+ race into the fourth boat results. We did not race 3V8+s today
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C052030303CD0F4B51A771933CAA5C79&cat=1", random="random"]; 
-BostonLatin -> Brookline[label="22.0
-04/08", weight="78", tooltip="NEIRA Girls Eights,Salvo Cup Girls: Boston Latin School vs. Brookline High School			
 Distance: 1250 Conditions: Great day of racing! Races got a bit faster throughout the day with the tailwind building. 
 To avoid confusion in seeding I put our 3v4+ race into the fourth boat results. We did not race 3V8+s today
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C052030303CD0F4B51A771933CAA5C79&cat=1", random="random"]}

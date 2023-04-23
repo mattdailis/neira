@@ -1,4 +1,4 @@
-digraph girls4fours {StMarks [URL="girls4foursStMarks.html"];NMH [URL="girls4foursNMH.html"];Groton [URL="girls4foursGroton.html"];Valley [URL="girls4foursValley.html"];Hopkins [URL="girls4foursHopkins.html"];BBN [URL="girls4foursBBN.html"];EastLyme [URL="girls4foursEastLyme.html"];CambridgeRingeandLatinSchool [URL="girls4foursCambridgeRingeandLatinSchool.html"];timetrialGrotonracedalone [URL="girls4fourstimetrialGrotonracedalone.html"];Middlesex [URL="girls4foursMiddlesex.html"];Choate [URL="girls4foursChoate.html"];GreenwichAcademy [URL="girls4foursGreenwichAcademy.html"];LymeOldLyme [URL="girls4foursLymeOldLyme.html"];Nobles [URL="girls4foursNobles.html"];Taft [URL="girls4foursTaft.html"];Brooks [URL="girls4foursBrooks.html"];Farmington [URL="girls4foursFarmington.html"];Brooks -> Middlesex[label="17.4
+digraph girls4fours {Hopkins [URL="girls4foursHopkins.html"];CambridgeRingeandLatinSchool [URL="girls4foursCambridgeRingeandLatinSchool.html"];EastLyme [URL="girls4foursEastLyme.html"];timetrialGrotonracedalone [URL="girls4fourstimetrialGrotonracedalone.html"];Groton [URL="girls4foursGroton.html"];Taft [URL="girls4foursTaft.html"];Middlesex [URL="girls4foursMiddlesex.html"];Farmington [URL="girls4foursFarmington.html"];Choate [URL="girls4foursChoate.html"];Brooks [URL="girls4foursBrooks.html"];GreenwichAcademy [URL="girls4foursGreenwichAcademy.html"];NMH [URL="girls4foursNMH.html"];BBN [URL="girls4foursBBN.html"];StMarks [URL="girls4foursStMarks.html"];Nobles [URL="girls4foursNobles.html"];LymeOldLyme [URL="girls4foursLymeOldLyme.html"];Valley [URL="girls4foursValley.html"];Brooks -> Middlesex[label="17.4
 04/22", weight="83", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -14,10 +14,6 @@ Choate -> Hopkins[label="65.19
 04/12", weight="35", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
 Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=97CDDFE6B0BF0E6715FCA59070425D31&cat=5", random="random"]; 
-Choate -> Hopkins[label="32.47
-04/12", weight="68", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
-Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=97CDDFE6B0BF0E6715FCA59070425D31&cat=5", random="random"]; 
 GreenwichAcademy -> Taft[label="46.1
 04/15", weight="54", tooltip="NEIRA Girls Fours,Taft, Greenwich Academy, Valley, Lyme-Old Lyme, Canterbury			
 Distance: 1500m Conditions: Order of racing: G2, G3/G4 (raced together). 8mph crosswind for the G2 race; 10-12 mph for the G3/G4 race; shifting around to a cross tail wind for the final 350 meters or so in both races. Comments: The G3/G4 race needed three tries to get a clean race going. Good work by novice coxswains to get their boats aligned in a crosswind. During the race, the GA 3V caught a boat-stopping crab with 350 meters left; they were leading all boats until that point in the race. 
@@ -29,11 +25,6 @@ NMH -> Choate[label="2.3
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
-NMH -> Choate[label="4.0
-04/15", weight="96", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
-Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
-A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
 NMH -> StMarks[label="13.4
 04/15", weight="87", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
@@ -41,11 +32,6 @@ A special thanks to Paul, all of the coaches, and the parents who made our openi
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
 Choate -> StMarks[label="11.1
 04/15", weight="89", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
-Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
-A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
-Choate -> StMarks[label="9.4
-04/15", weight="91", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 

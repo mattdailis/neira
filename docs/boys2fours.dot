@@ -1,4 +1,4 @@
-digraph boys2fours {KentSchool [URL="boys2foursKentSchool.html"];Hopkins [URL="boys2foursHopkins.html"];Southfield [URL="boys2foursSouthfield.html"];EastLyme [URL="boys2foursEastLyme.html"];Pingree [URL="boys2foursPingree.html"];Nobles [URL="boys2foursNobles.html"];Stonington [URL="boys2foursStonington.html"];Middlesex [URL="boys2foursMiddlesex.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Farmington [URL="boys2foursFarmington.html"];StMarks [URL="boys2foursStMarks.html"];NMH [URL="boys2foursNMH.html"];Choate [URL="boys2foursChoate.html"];Berwick [URL="boys2foursBerwick.html"];BBN [URL="boys2foursBBN.html"];Taft [URL="boys2foursTaft.html"];Brooks [URL="boys2foursBrooks.html"];Berkshire [URL="boys2foursBerkshire.html"];Groton [URL="boys2foursGroton.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];CambridgeRingeandLatinSchool [URL="boys2foursCambridgeRingeandLatinSchool.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Andover [URL="boys2foursAndover.html"];Brooks -> StMarks[label="41.0
+digraph boys2fours {CambridgeRingeandLatinSchool [URL="boys2foursCambridgeRingeandLatinSchool.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Groton [URL="boys2foursGroton.html"];Brooks [URL="boys2foursBrooks.html"];KentSchool [URL="boys2foursKentSchool.html"];Southfield [URL="boys2foursSouthfield.html"];BBN [URL="boys2foursBBN.html"];Pingree [URL="boys2foursPingree.html"];StMarks [URL="boys2foursStMarks.html"];Andover [URL="boys2foursAndover.html"];Berkshire [URL="boys2foursBerkshire.html"];Hopkins [URL="boys2foursHopkins.html"];EastLyme [URL="boys2foursEastLyme.html"];Farmington [URL="boys2foursFarmington.html"];Stonington [URL="boys2foursStonington.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Berwick [URL="boys2foursBerwick.html"];Taft [URL="boys2foursTaft.html"];Middlesex [URL="boys2foursMiddlesex.html"];Choate [URL="boys2foursChoate.html"];NMH [URL="boys2foursNMH.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Nobles [URL="boys2foursNobles.html"];Brooks -> StMarks[label="41.0
 04/22", weight="59", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -80,14 +80,6 @@ BB&N's 4th, 5th and 6th boats on both the boys and girls side raced an exhibitio
 BB&N's 3rd boat boys raced in the shore lane of the 2nd boat race.
 BB&N's 2nd girls boat raced an exhibition against the BB&N 3rd girls.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6CA78FFEA8189C1DC931776413930B44&cat=5", random="random"]; 
-BBN -> Southfield[label="41.0
-04/15", weight="59", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
-Distance: 1350m Conditions: moderate cross head quartering from port.
-slightly stronger for earlier races Comments: Dexter-Southfield boated a 1st and 2nd boat on the boys side and a 1st boat on the girls.
-BB&N's 4th, 5th and 6th boats on both the boys and girls side raced an exhibition piece against each other prior to the start of head-to-head racing.
-BB&N's 3rd boat boys raced in the shore lane of the 2nd boat race.
-BB&N's 2nd girls boat raced an exhibition against the BB&N 3rd girls.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6CA78FFEA8189C1DC931776413930B44&cat=5", random="random"]; 
 Nobles -> Brooks[label="3.1
 04/15", weight="97", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
@@ -95,10 +87,6 @@ Good luck Nobles on your season.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
 Taft -> LymeOldLyme[label="23.85
 04/15", weight="77", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
-Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 
-LymeOldLyme -> Taft[label="3.64
-04/15", weight="97", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
 Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 
 Nobles -> Groton[label="6.35

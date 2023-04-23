@@ -1,9 +1,5 @@
-digraph boys3eights {BostonLatin [URL="boys3eightsBostonLatin.html"];Brookline [URL="boys3eightsBrookline.html"];Duxbury [URL="boys3eightsDuxbury.html"];BCHigh [URL="boys3eightsBCHigh.html"];Bedford [URL="boys3eightsBedford.html"];Hingham [URL="boys3eightsHingham.html"];StJohnsPrep [URL="boys3eightsStJohnsPrep.html"];Salisbury [URL="boys3eightsSalisbury.html"];Exeter [URL="boys3eightsExeter.html"];Tabor [URL="boys3eightsTabor.html"];Deerfield [URL="boys3eightsDeerfield.html"];Berwick [URL="boys3eightsBerwick.html"];StPauls [URL="boys3eightsStPauls.html"];Kent [URL="boys3eightsKent.html"];BCHighB4 [URL="boys3eightsBCHighB4.html"];FairfieldPrep [URL="boys3eightsFairfieldPrep.html"];Shrewsbury [URL="boys3eightsShrewsbury.html"];BCHigh4V [URL="boys3eightsBCHigh4V.html"];Andover [URL="boys3eightsAndover.html"];Berwick -> Salisbury[label="46.9
+digraph boys3eights {FairfieldPrep [URL="boys3eightsFairfieldPrep.html"];Tabor [URL="boys3eightsTabor.html"];Exeter [URL="boys3eightsExeter.html"];StPauls [URL="boys3eightsStPauls.html"];BCHigh4V [URL="boys3eightsBCHigh4V.html"];Brookline [URL="boys3eightsBrookline.html"];Hingham [URL="boys3eightsHingham.html"];Deerfield [URL="boys3eightsDeerfield.html"];Kent [URL="boys3eightsKent.html"];Andover [URL="boys3eightsAndover.html"];Duxbury [URL="boys3eightsDuxbury.html"];BCHighB4 [URL="boys3eightsBCHighB4.html"];Bedford [URL="boys3eightsBedford.html"];Berwick [URL="boys3eightsBerwick.html"];BCHigh [URL="boys3eightsBCHigh.html"];Shrewsbury [URL="boys3eightsShrewsbury.html"];StJohnsPrep [URL="boys3eightsStJohnsPrep.html"];Salisbury [URL="boys3eightsSalisbury.html"];BostonLatin [URL="boys3eightsBostonLatin.html"];Berwick -> Salisbury[label="46.9
 04/19", weight="54", tooltip="NEIRA Boys Eights,Salisbury vs. Brunswick, the Curtis Trophy			
-Distance: 1500m Conditions: 10-12 mph cross tail wind, choppy in the middle 500m. Comments: Good clean racing for all boats. As always, it was great to host Brunswick for our annual dual meet.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0BE61572BBA9B09014D8134F990CBA56&cat=1", random="random"]; 
-Berwick -> Salisbury[label="15.8
-04/19", weight="85", tooltip="NEIRA Boys Eights,Salisbury vs. Brunswick, the Curtis Trophy			
 Distance: 1500m Conditions: 10-12 mph cross tail wind, choppy in the middle 500m. Comments: Good clean racing for all boats. As always, it was great to host Brunswick for our annual dual meet.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0BE61572BBA9B09014D8134F990CBA56&cat=1", random="random"]; 
 Brookline -> BCHigh[label="1.1
@@ -60,10 +56,6 @@ StJohnsPrep -> Tabor[label="31.7
 04/15", weight="69", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
 Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
-StJohnsPrep -> Tabor[label="10.9
-04/15", weight="90", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
-Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
 StJohnsPrep -> Duxbury[label="1.6
 04/22", weight="99", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
 Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
@@ -80,16 +72,6 @@ StJohnsPrep -> Bedford[label="60.94
 Distance: 1500 Conditions: Cross tail wind gusting to strong at times. Comments: G1V: Shrewsbury & Bedford were even at the 200m mark at which point Shrewsbury caught a boat-stopping crab resulting in a 30-45 sec stoppage. 
 The Fourth Boat events in both Boy's and Girl's results are for Novice Crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B8E319823F5E06EE7205EBA30FA0A509&cat=5", random="random"]; 
-StJohnsPrep -> Shrewsbury[label="21.16
-04/08", weight="79", tooltip="NEIRA Boys & Girls Eights,Shrewsbury Opener: Shrewsbury vs. Bedford vs. St. John's			
-Distance: 1500 Conditions: Cross tail wind gusting to strong at times. Comments: G1V: Shrewsbury & Bedford were even at the 200m mark at which point Shrewsbury caught a boat-stopping crab resulting in a 30-45 sec stoppage. 
-The Fourth Boat events in both Boy's and Girl's results are for Novice Crews.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B8E319823F5E06EE7205EBA30FA0A509&cat=5", random="random"]; 
-StJohnsPrep -> Bedford[label="42.19
-04/08", weight="58", tooltip="NEIRA Boys & Girls Eights,Shrewsbury Opener: Shrewsbury vs. Bedford vs. St. John's			
-Distance: 1500 Conditions: Cross tail wind gusting to strong at times. Comments: G1V: Shrewsbury & Bedford were even at the 200m mark at which point Shrewsbury caught a boat-stopping crab resulting in a 30-45 sec stoppage. 
-The Fourth Boat events in both Boy's and Girl's results are for Novice Crews.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B8E319823F5E06EE7205EBA30FA0A509&cat=5", random="random"]; 
 Shrewsbury -> Bedford[label="21.03
 04/08", weight="79", tooltip="NEIRA Boys & Girls Eights,Shrewsbury Opener: Shrewsbury vs. Bedford vs. St. John's			
 Distance: 1500 Conditions: Cross tail wind gusting to strong at times. Comments: G1V: Shrewsbury & Bedford were even at the 200m mark at which point Shrewsbury caught a boat-stopping crab resulting in a 30-45 sec stoppage. 
@@ -97,10 +79,6 @@ The Fourth Boat events in both Boy's and Girl's results are for Novice Crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B8E319823F5E06EE7205EBA30FA0A509&cat=5", random="random"]; 
 Brookline -> Duxbury[label="8.0
 04/08", weight="92", tooltip="NEIRA Boys & Girls Eights,Brookline vs. Duxbury			
-Distance: 1250 Conditions: Slight cross tailwind for all races. Comments: Girls 1v: Duxbury caught crab in the last 300m. Girls 2v: Duxbury 2v had to stop to make course correction to avoid bridge abutment. Boys 3v event started 1 length over start line.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=725E4C4CC432BCB9A050FF17EC53126E&cat=5", random="random"]; 
-Duxbury -> Brookline[label="10.0
-04/08", weight="90", tooltip="NEIRA Boys & Girls Eights,Brookline vs. Duxbury			
 Distance: 1250 Conditions: Slight cross tailwind for all races. Comments: Girls 1v: Duxbury caught crab in the last 300m. Girls 2v: Duxbury 2v had to stop to make course correction to avoid bridge abutment. Boys 3v event started 1 length over start line.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=725E4C4CC432BCB9A050FF17EC53126E&cat=5", random="random"]; 
 Brookline -> BostonLatin[label="9.12
