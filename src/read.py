@@ -86,6 +86,8 @@ def main():
                     continue
                 if fasterSchool == slowerSchool:
                     continue
+                if fasterSchoolBoatNum != slowerSchoolBoatNum:
+                    continue
                 fasterSchoolName = fasterSchool
                 if fasterSchoolBoatNum != varsity_index:
                     fasterSchoolName += " " + str(fasterSchoolBoatNum)
