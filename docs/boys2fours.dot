@@ -1,4 +1,16 @@
-digraph boys2fours {Farmington [URL="boys2foursFarmington.html"];CambridgeRingeandLatinSchool [URL="boys2foursCambridgeRingeandLatinSchool.html"];Southfield [URL="boys2foursSouthfield.html"];Stonington [URL="boys2foursStonington.html"];Berwick [URL="boys2foursBerwick.html"];Pingree [URL="boys2foursPingree.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Berkshire [URL="boys2foursBerkshire.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Andover [URL="boys2foursAndover.html"];BBN [URL="boys2foursBBN.html"];Choate [URL="boys2foursChoate.html"];Brooks [URL="boys2foursBrooks.html"];EastLyme [URL="boys2foursEastLyme.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];NMH [URL="boys2foursNMH.html"];Taft [URL="boys2foursTaft.html"];Nobles [URL="boys2foursNobles.html"];BelmontHill3 [URL="boys2foursBelmontHill3.html"];StMarks [URL="boys2foursStMarks.html"];BelmontHill4 [URL="boys2foursBelmontHill4.html"];Pomfret2 [URL="boys2foursPomfret2.html"];KentSchool [URL="boys2foursKentSchool.html"];Hopkins [URL="boys2foursHopkins.html"];Berwick -> BrewsterAcademy[label="54.6
+digraph boys2fours {BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Farmington [URL="boys2foursFarmington.html"];Stonington [URL="boys2foursStonington.html"];EastLyme [URL="boys2foursEastLyme.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Choate [URL="boys2foursChoate.html"];Southfield [URL="boys2foursSouthfield.html"];BelmontHill4 [URL="boys2foursBelmontHill4.html"];Pingree [URL="boys2foursPingree.html"];StMarks [URL="boys2foursStMarks.html"];Berwick [URL="boys2foursBerwick.html"];KentSchool [URL="boys2foursKentSchool.html"];BBN [URL="boys2foursBBN.html"];CambridgeRingeandLatinSchool [URL="boys2foursCambridgeRingeandLatinSchool.html"];Berkshire [URL="boys2foursBerkshire.html"];NMH [URL="boys2foursNMH.html"];Hopkins [URL="boys2foursHopkins.html"];Groton [URL="boys2foursGroton.html"];Taft [URL="boys2foursTaft.html"];BelmontHill3 [URL="boys2foursBelmontHill3.html"];Nobles [URL="boys2foursNobles.html"];Pomfret2 [URL="boys2foursPomfret2.html"];Middlesex [URL="boys2foursMiddlesex.html"];Andover [URL="boys2foursAndover.html"];Brooks [URL="boys2foursBrooks.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Brooks -> StMarks[label="41.0
+04/22", weight="59", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
+Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
+Brooks -> Middlesex[label="44.0
+04/22", weight="56", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
+Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
+StMarks -> Middlesex[label="3.0
+04/22", weight="97", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
+Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
+Berwick -> BrewsterAcademy[label="54.6
 04/08", weight="46", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
 Distance: Berwick Conditions: Strong head wind gusts in the first 700 meters of the race creating some chop, but generally clean conditions for early April racing. Slightly increasing wind as races progressed. Comments: Race order was Girls 1V, Boys 2V, Girls 2V*,Boys 3V, & Boys 1V**
 *Please note that the Girls 2V should be considered an exhibition as there were Varsity rowers to fill out the line-ups to give younger rowers the chance to race.
@@ -16,6 +28,21 @@ Pingree -> BrewsterAcademy[label="1.71
 04/15", weight="99", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
 Conditions: Light headwind
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]; 
+Nobles -> Groton[label="6.35
+04/22", weight="94", tooltip="NEIRA Boys Fours,BB&N vs Groton, Nobles			
+Distance: Charles River Powerhouse Conditions: moderately strong cross from port, slightly headwind, but since coming from Cambridge side, the racecourse was largely sheltered and the water was good. Comments: BB&N 4th boat's 3 seat popped an oarlock gate and lost their oar about 750m into the race, forcing them to come to a complete stop to replace the oar before continuing.
+A good day of racing, well rowed to Groton and Nobles!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=14D83BD14C341CC276B3C81E6777C0A2&cat=1", random="random"]; 
+Nobles -> BBN[label="19.35
+04/22", weight="81", tooltip="NEIRA Boys Fours,BB&N vs Groton, Nobles			
+Distance: Charles River Powerhouse Conditions: moderately strong cross from port, slightly headwind, but since coming from Cambridge side, the racecourse was largely sheltered and the water was good. Comments: BB&N 4th boat's 3 seat popped an oarlock gate and lost their oar about 750m into the race, forcing them to come to a complete stop to replace the oar before continuing.
+A good day of racing, well rowed to Groton and Nobles!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=14D83BD14C341CC276B3C81E6777C0A2&cat=1", random="random"]; 
+Groton -> BBN[label="13.0
+04/22", weight="87", tooltip="NEIRA Boys Fours,BB&N vs Groton, Nobles			
+Distance: Charles River Powerhouse Conditions: moderately strong cross from port, slightly headwind, but since coming from Cambridge side, the racecourse was largely sheltered and the water was good. Comments: BB&N 4th boat's 3 seat popped an oarlock gate and lost their oar about 750m into the race, forcing them to come to a complete stop to replace the oar before continuing.
+A good day of racing, well rowed to Groton and Nobles!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=14D83BD14C341CC276B3C81E6777C0A2&cat=1", random="random"]; 
 Choate -> Hopkins[label="12.38
 04/12", weight="88", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
 Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.
@@ -86,6 +113,21 @@ LymeOldLyme -> Taft[label="3.64
 04/15", weight="97", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
 Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 
+Nobles -> Groton[label="6.35
+04/22", weight="94", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
+Distance: 1350m Conditions: moderate cross from port, slightly head
+Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]; 
+Nobles -> BBN[label="19.35
+04/22", weight="81", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
+Distance: 1350m Conditions: moderate cross from port, slightly head
+Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]; 
+Groton -> BBN[label="13.0
+04/22", weight="87", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
+Distance: 1350m Conditions: moderate cross from port, slightly head
+Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]; 
 BelmontHill3 -> BelmontHill4[label="19.1
 04/22", weight="81", tooltip="NEIRA Boys Fours,Pomfret v. Belmont Hill			
 Distance: 1500M Conditions: Light tailwind which seemed to slightly increase during the races. (ESE, approx 8 to 12 MPH. Comments: Tried to match skill levels within races. Order of races: Fourth Boat, First Boat, Second Boat, Third Boat.
@@ -113,6 +155,18 @@ Farmington -> EastLyme[label="32.4
 Distance: 1500m Conditions: Strong cross wind throughout racing , slight headwind. Tide incoming against course for boys 1v, none for girls 1v and outgoing with course rest of races. Not comparable times across races. Comments: Novice races were 1000m. In the girls 2v race, a Farmington rower’s oar came out of the oarlock in the last 250m of the race. In the boys novice, East Lyme caught a crab off the start. Stonington and East Lyme raced an exhibition 4+ event. 
 Thank you so much to East Lyme and Farmington for making the trip to Mystic!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=25FA49DE911995B33DFB62505A5976D4&cat=5", random="random"]; 
+NMH -> Hopkins[label="52.5
+04/22", weight="48", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/Old Lyme, Northfield Mount Hermon			
+Distance: 1500m Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty head and cross wind worsening from 9 to 14mph in the later races, significant chop in the first half of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Several boats missed the turn buoys taking a shortcut through the return lane, so to our regret their final results were disqualified by the chief referee. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1A42F905A7DACA1EF3443A90F163BCBC&cat=5", random="random"]; 
+NMH -> LymeOldLyme[label="57.95
+04/22", weight="43", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/Old Lyme, Northfield Mount Hermon			
+Distance: 1500m Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty head and cross wind worsening from 9 to 14mph in the later races, significant chop in the first half of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Several boats missed the turn buoys taking a shortcut through the return lane, so to our regret their final results were disqualified by the chief referee. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1A42F905A7DACA1EF3443A90F163BCBC&cat=5", random="random"]; 
+Hopkins -> LymeOldLyme[label="5.45
+04/22", weight="95", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/Old Lyme, Northfield Mount Hermon			
+Distance: 1500m Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty head and cross wind worsening from 9 to 14mph in the later races, significant chop in the first half of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Several boats missed the turn buoys taking a shortcut through the return lane, so to our regret their final results were disqualified by the chief referee. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1A42F905A7DACA1EF3443A90F163BCBC&cat=5", random="random"]; 
 Taft -> Berkshire[label="5.5
 04/22", weight="95", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1490 M Conditions: Overcast, mid-50s. Variable, gusty wind; crosswind to quartering tail, 10-12 mph; mostly affecting latter half of the course. Comments: Great to have all three programs racing together again for the first time since 2019. Thanks to Choate and Taft for traveling and handling facilities issues.

@@ -1,0 +1,91 @@
+{
+    "comment": "\nDistance: 1250 Conditions: Slight cross tailwind for all races. Comments: Girls 1v: Duxbury caught crab in the last 300m. Girls 2v: Duxbury 2v had to stop to make course correction to avoid bridge abutment. Boys 3v event started 1 length over start line.\r\n\nNone",
+    "day": "April 8, 2023",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "school": "Brookline",
+                    "time": "3:54.31"
+                },
+                {
+                    "school": "Duxbury",
+                    "time": "3:59.01"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "school": "Brookline",
+                    "time": "4:02.45"
+                },
+                {
+                    "school": "Duxbury",
+                    "time": "4:13.84"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "school": "Brookline 3v",
+                    "time": "4:09"
+                },
+                {
+                    "school": "Duxbury",
+                    "time": "4:17"
+                },
+                {
+                    "school": "Brookline 4v",
+                    "time": "4:27"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "school": "Brookline",
+                    "time": "4:30.04"
+                },
+                {
+                    "school": "Duxbury",
+                    "time": "4:47.0"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "school": "Brookline",
+                    "time": "4:55.09"
+                },
+                {
+                    "school": "Duxbury 3v",
+                    "time": "5:15.19"
+                },
+                {
+                    "school": "Duxbury 2v",
+                    "time": "5:40.0"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Eights,Brookline vs. Duxbury",
+    "url": "http://www.row2k.com/results/resultspage.cfm?UID=725E4C4CC432BCB9A050FF17EC53126E&cat=5"
+}

@@ -1,4 +1,4 @@
-digraph girls4eights {EastLyme [URL="girls4eightsEastLyme.html"];Bedford [URL="girls4eightsBedford.html"];Brookline [URL="girls4eightsBrookline.html"];Tabor [URL="girls4eightsTabor.html"];BostonLatin [URL="girls4eightsBostonLatin.html"];StPauls5th [URL="girls4eightsStPauls5th.html"];StPauls4th [URL="girls4eightsStPauls4th.html"];Shrewsbury [URL="girls4eightsShrewsbury.html"];Shrewsbury -> EastLyme[label="7.3
+digraph girls4eights {Bedford [URL="girls4eightsBedford.html"];Deerfield [URL="girls4eightsDeerfield.html"];Shrewsbury [URL="girls4eightsShrewsbury.html"];StPauls4th [URL="girls4eightsStPauls4th.html"];Duxbury [URL="girls4eightsDuxbury.html"];BostonLatin [URL="girls4eightsBostonLatin.html"];Andover [URL="girls4eightsAndover.html"];StPauls5th [URL="girls4eightsStPauls5th.html"];Tabor [URL="girls4eightsTabor.html"];EastLyme [URL="girls4eightsEastLyme.html"];Brookline [URL="girls4eightsBrookline.html"];Shrewsbury -> EastLyme[label="7.3
 04/15", weight="93", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
 Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
@@ -20,6 +20,24 @@ Distance: 1500 meters Conditions: Quartering tailwind which was stronger in the 
 G3 started 4 seats over the line. G4 and G5 started a full length over the line. G1 and G2 started on the line. 
 Thanks to Tabor for making the trip up north to SPS.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9EB742AEB89FEFFE280696305CA36D53&cat=1", random="random"]; 
+Deerfield -> Andover[label="23.1
+04/22", weight="77", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
+Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
+In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
+Thank you to Duxbury, Deerfield, and St. John's Prep for making the drive. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6106BB7A2E3E18B19D2FB62C590A2D45&cat=5", random="random"]; 
+Deerfield -> Duxbury[label="36.9
+04/22", weight="64", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
+Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
+In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
+Thank you to Duxbury, Deerfield, and St. John's Prep for making the drive. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6106BB7A2E3E18B19D2FB62C590A2D45&cat=5", random="random"]; 
+Andover -> Duxbury[label="13.8
+04/22", weight="87", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
+Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
+In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
+Thank you to Duxbury, Deerfield, and St. John's Prep for making the drive. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6106BB7A2E3E18B19D2FB62C590A2D45&cat=5", random="random"]; 
 Bedford -> Shrewsbury[label="39.14
 04/08", weight="61", tooltip="NEIRA Boys & Girls Eights,Shrewsbury Opener: Shrewsbury vs. Bedford vs. St. John's			
 Distance: 1500 Conditions: Cross tail wind gusting to strong at times. Comments: G1V: Shrewsbury & Bedford were even at the 200m mark at which point Shrewsbury caught a boat-stopping crab resulting in a 30-45 sec stoppage. 

@@ -1,4 +1,4 @@
-digraph boys1eights {Salisbury [URL="boys1eightsSalisbury.html"];Stonington [URL="boys1eightsStonington.html"];Brookline [URL="boys1eightsBrookline.html"];StPauls [URL="boys1eightsStPauls.html"];BostonLatin [URL="boys1eightsBostonLatin.html"];Berwick [URL="boys1eightsBerwick.html"];Duxbury [URL="boys1eightsDuxbury.html"];Guilford [URL="boys1eightsGuilford.html"];BCHigh [URL="boys1eightsBCHigh.html"];Andover [URL="boys1eightsAndover.html"];Tabor [URL="boys1eightsTabor.html"];EOSmith [URL="boys1eightsEOSmith.html"];Shrewsbury [URL="boys1eightsShrewsbury.html"];EastLyme [URL="boys1eightsEastLyme.html"];Farmington2 [URL="boys1eightsFarmington2.html"];StJohnsPrep [URL="boys1eightsStJohnsPrep.html"];Hingham [URL="boys1eightsHingham.html"];Glastonbury [URL="boys1eightsGlastonbury.html"];Deerfield [URL="boys1eightsDeerfield.html"];Bedford [URL="boys1eightsBedford.html"];Farmington1 [URL="boys1eightsFarmington1.html"];FairfieldPrep [URL="boys1eightsFairfieldPrep.html"];Salisbury -> Berwick[label="6.7
+digraph boys1eights {FairfieldPrep [URL="boys1eightsFairfieldPrep.html"];Bedford [URL="boys1eightsBedford.html"];Deerfield [URL="boys1eightsDeerfield.html"];Salisbury [URL="boys1eightsSalisbury.html"];Stonington [URL="boys1eightsStonington.html"];EOSmith [URL="boys1eightsEOSmith.html"];Farmington1 [URL="boys1eightsFarmington1.html"];EastLyme [URL="boys1eightsEastLyme.html"];StPauls [URL="boys1eightsStPauls.html"];Hingham [URL="boys1eightsHingham.html"];Duxbury [URL="boys1eightsDuxbury.html"];BostonLatin [URL="boys1eightsBostonLatin.html"];Berwick [URL="boys1eightsBerwick.html"];BCHigh [URL="boys1eightsBCHigh.html"];Shrewsbury [URL="boys1eightsShrewsbury.html"];Glastonbury [URL="boys1eightsGlastonbury.html"];Kent [URL="boys1eightsKent.html"];Tabor [URL="boys1eightsTabor.html"];Guilford [URL="boys1eightsGuilford.html"];Exeter [URL="boys1eightsExeter.html"];Andover [URL="boys1eightsAndover.html"];Farmington2 [URL="boys1eightsFarmington2.html"];StJohnsPrep [URL="boys1eightsStJohnsPrep.html"];Brookline [URL="boys1eightsBrookline.html"];Salisbury -> Berwick[label="6.7
 04/19", weight="94", tooltip="NEIRA Boys Eights,Salisbury vs. Brunswick, the Curtis Trophy			
 Distance: 1500m Conditions: 10-12 mph cross tail wind, choppy in the middle 500m. Comments: Good clean racing for all boats. As always, it was great to host Brunswick for our annual dual meet.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0BE61572BBA9B09014D8134F990CBA56&cat=1", random="random"]; 
@@ -124,6 +124,24 @@ Stonington -> Glastonbury[label="14.9
 04/08", weight="86", tooltip="NEIRA Boys & Girls Eights,Glastonbury vs Stonington			
 Distance: 1500m Conditions: Tailwind picked up through racing and slight tail current. Order of racing was BV1, GV1, BV2 Comments: The Girls 1V race and the Boys 2V race was slightly shorter than 1500 due to crosswind creating difficulty with alignment.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7534FDE7697701A061E81A000D2CD6A0&cat=5", random="random"]; 
+Andover -> StJohnsPrep[label="16.1
+04/22", weight="84", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
+Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
+In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
+Thank you to Duxbury, Deerfield, and St. John's Prep for making the drive. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6106BB7A2E3E18B19D2FB62C590A2D45&cat=5", random="random"]; 
+Andover -> Duxbury[label="20.7
+04/22", weight="80", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
+Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
+In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
+Thank you to Duxbury, Deerfield, and St. John's Prep for making the drive. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6106BB7A2E3E18B19D2FB62C590A2D45&cat=5", random="random"]; 
+StJohnsPrep -> Duxbury[label="4.6
+04/22", weight="96", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
+Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
+In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
+Thank you to Duxbury, Deerfield, and St. John's Prep for making the drive. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6106BB7A2E3E18B19D2FB62C590A2D45&cat=5", random="random"]; 
 StJohnsPrep -> Shrewsbury[label="2.6
 04/08", weight="98", tooltip="NEIRA Boys & Girls Eights,Shrewsbury Opener: Shrewsbury vs. Bedford vs. St. John's			
 Distance: 1500 Conditions: Cross tail wind gusting to strong at times. Comments: G1V: Shrewsbury & Bedford were even at the 200m mark at which point Shrewsbury caught a boat-stopping crab resulting in a 30-45 sec stoppage. 
@@ -147,6 +165,66 @@ Brookline -> BostonLatin[label="2.99
 04/08", weight="98", tooltip="NEIRA Boys Eights,Salvo Cup: Boston Latin School vs. Brookline High School			
 Distance: 1250 Conditions: Slight cross tail wind for all races. Comments: Third Boat was raced as fours.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CA3CE44CF802CECE78B3CDED8C830E14&cat=1", random="random"]; 
+Exeter -> Kent[label="0.4
+04/22", weight="100", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Exeter -> StJohnsPrep[label="15.3
+04/22", weight="85", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Exeter -> Hingham[label="16.9
+04/22", weight="84", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Exeter -> Salisbury[label="23.0
+04/22", weight="77", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Exeter -> Shrewsbury[label="24.4
+04/22", weight="76", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Kent -> StJohnsPrep[label="14.9
+04/22", weight="86", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Kent -> Hingham[label="16.5
+04/22", weight="84", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Kent -> Salisbury[label="22.6
+04/22", weight="78", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Kent -> Shrewsbury[label="24.0
+04/22", weight="76", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+StJohnsPrep -> Hingham[label="1.6
+04/22", weight="99", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+StJohnsPrep -> Salisbury[label="7.7
+04/22", weight="93", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+StJohnsPrep -> Shrewsbury[label="9.1
+04/22", weight="91", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Hingham -> Salisbury[label="6.1
+04/22", weight="94", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Hingham -> Shrewsbury[label="7.5
+04/22", weight="93", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Salisbury -> Shrewsbury[label="1.4
+04/22", weight="99", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
 Farmington1 -> Farmington2[label="10.58
 04/08", weight="90", tooltip="NEIRA Boys & Girls Eights,Farmington vs E.O. Smith			
 Distance: 1,150 Conditions: Moderate head current and moderate head wind with gusts. Conditions remained the same for all racing. Comments: Thank you E.O. Smith for a fun day of racing! Novice events were combined, and E.O. Smith raced a mixed boat. Not for seeding. 3V boats from Farmington raced together. Great racing from all crews.

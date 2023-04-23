@@ -1,0 +1,61 @@
+{
+    "comment": "\nDistance: 1500m Conditions: Tailwind picked up through racing and slight tail current. Order of racing was BV1, GV1, BV2 Comments: The Girls 1V race and the Boys 2V race was slightly shorter than 1500 due to crosswind creating difficulty with alignment.\r\n\nNone",
+    "day": "April 8, 2023",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "school": "Stonington",
+                    "time": "5:04.8"
+                },
+                {
+                    "school": "Glastobury",
+                    "time": "5:19.7"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "school": "Stonington 2V",
+                    "time": "4:43.5"
+                },
+                {
+                    "school": "Glastonbury 2V",
+                    "time": "4:57.4"
+                },
+                {
+                    "school": "Stonington Novice",
+                    "time": "5:25.1"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "school": "Glastonbury 1V",
+                    "time": "5:24.9"
+                },
+                {
+                    "school": "Stonington 1V",
+                    "time": "5:25.9"
+                },
+                {
+                    "school": "Glastonbury 2V",
+                    "time": "5:41.2"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Eights,Glastonbury vs Stonington",
+    "url": "http://www.row2k.com/results/resultspage.cfm?UID=7534FDE7697701A061E81A000D2CD6A0&cat=5"
+}
