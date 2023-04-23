@@ -129,7 +129,7 @@ def genHtml(name, graph):
     target.close()
 
 def modMap(map, name):
-    soup = BeautifulSoup(map)
+    soup = BeautifulSoup(map, features="html.parser")
     soup.map['id'] = name
     soup.map['name'] = name
     for area in soup.map.children:

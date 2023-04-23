@@ -17,7 +17,7 @@ def scrapeRegatta(name, res_url, url):
 
     # Open the url
     html = urllib.request.urlopen(res_url+url)
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html, features="html.parser")
 
     # Get the title of the page
     title = soup.findAll("meta", { "name" : "description"})[0]['content']
@@ -168,8 +168,8 @@ def getDate(string):
 # Returns a list of urls
 def getRaceUrls(res_html):
     urls = []
-    soup = BeautifulSoup(res_html)
-    highschool = soup.findChildren('span', text="High School/Scholastic")
+    soup = BeautifulSoup(res_html, features="html.parser")
+    highschool = soup.findChildren('span', string="High School/Scholastic")
     for bulletList in highschool:
         links = bulletList.parent.parent.find_all("a")
         for link in links:
@@ -183,9 +183,9 @@ def getRaceUrls(res_html):
 
 # expected bug: when program terminates mid-scrape, should redo that url next time
 
-def main(year=2022):
+def main(year):
     res_url = 'http://www.row2k.com'
-    res_html = urllib.request.urlopen(res_url+"/results/index.cfm?league=NEIRA&year=2022")
+    res_html = urllib.request.urlopen(res_url+f"/results/index.cfm?league=NEIRA&year={year}")
 
     urls_scraped = [] #getUrlsScraped()
     import pdb; 
@@ -194,14 +194,19 @@ def main(year=2022):
 
     OVERWRITE = False
 
+    total = len(urls)
+
     if len(urls) > 0:
-        for (race, url) in urls:
+        for i, (race, url) in enumerate(urls):
+            i = i + 1
             uid = re.match( r'.*UID=([0-9|A-Z]+)', url, re.M|re.I).group(1)
             filename = "data/{}.json".format(uid)
             if OVERWRITE or not os.path.isfile(filename):
+                print(f"Scraping {i}/{total}: {race}")
                 race_object = scrapeRegatta(race, res_url, url)
                 with open(filename, "w") as f:
                     f.write(json.dumps(race_object, sort_keys=True, indent=4))
+            print(f"{i}/{total}: Already scraped {race}")
 
 if __name__ == '__main__':
-    main()
+    main(2023)

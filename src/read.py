@@ -36,69 +36,73 @@ def getMargin(time1, time2):
 
 def getTime(time):
     time = cleanTime(time)
-    try:
-        return datetime.datetime.strptime(time, "%M:%S.%f")
-    except:
+    formats = ["%M:%S.%f", "%M.%S.%f", "%M:%S"]
+    for f in formats:
         try:
-            return datetime.datetime.strptime(time, "%M.%S.%f")
+            return datetime.datetime.strptime(time, f)
         except:
-            try:
-                return datetime.datetime.strptime(time, "%M:%S")
-            except:
-                return None
+            continue
+    return None
 
 def cleanTime(string):
-    return string.replace("!", "1").replace(" ", "")
+    res = string.replace("!", "1").replace(" ", "").replace(";", ":").replace("..", ".").replace(",", ".")
+    if ":" in res:
+        parts = res.split(":")
+        res = parts[0] + ":" + ".".join(parts[1:])
+    return res
 
 def main():
     results = []
     for filename in os.listdir('data'):
         with open(f"data/{filename}", "r") as f:
             scraped_json = json.load(f)
-            day = scraped_json["day"]
+        day = scraped_json["day"]
 
-            date = datetime.datetime.strptime(day, "%B %d, %Y")
+        date = datetime.datetime.strptime(day, "%B %d, %Y")
             
-            heats = scraped_json["heats"]
-            regatta_display_name = scraped_json["regatta_display_name"]
-            comment = scraped_json["comment"]
-            url = scraped_json["url"]
+        heats = scraped_json["heats"]
+        regatta_display_name = scraped_json["regatta_display_name"]
+        comment = scraped_json["comment"]
+        url = scraped_json["url"]
 
-            for heat in heats:
-                class_ = heat["class"]
-                gender = heat["gender"]
-                varsity_index = heat["varsity_index"]
-                heat_results = heat["results"]
+        for heat in heats:
+            class_ = heat["class"]
+            gender = heat["gender"]
+            varsity_index = heat["varsity_index"]
+            heat_results = heat["results"]
 
-                boatName = gender + str(varsity_index) + class_
+            boatName = gender + str(varsity_index) + class_
                 
-                for i, fasterBoat in enumerate(heat_results[:-1]):
-                    for slowerBoat in heat_results[i+1:]:
-                        margin = getMargin(fasterBoat["time"], slowerBoat["time"])
-                        fasterSchool, fasterSchoolBoatNum = matchSchool(fasterBoat["school"], boatNum=varsity_index)
-                        slowerSchool, slowerSchoolBoatNum = matchSchool(slowerBoat["school"], boatNum=varsity_index)
-                        if fasterSchool is None or slowerSchool is None:
-                            # This means one of the schools was not recognized as a neira school
-                            continue
-                        fasterSchoolName = fasterSchool
-                        if fasterSchoolBoatNum != varsity_index:
-                            fasterSchoolName += " " + str(fasterSchoolBoatNum)
-                        slowerSchoolName = slowerSchool
-                        if slowerSchoolBoatNum != varsity_index:
-                            slowerSchoolName += " " + str(slowerSchoolBoatNum)
-                        results.append((
-                            date.strftime("%Y-%m-%d"),
-                            gender,
-                            boatName,
-                            fasterSchoolName,
-                            varsity_index,
-                            slowerSchoolName,
-                            varsity_index,
-                            margin,
-                            regatta_display_name,
-                            comment,
-                            url
-                        ))
+            for fasterBoat, slowerBoat in all_pairs(heat_results):
+                margin = getMargin(fasterBoat["time"], slowerBoat["time"])
+                fasterSchool, fasterSchoolBoatNum = matchSchool(fasterBoat["school"], boatNum=varsity_index)
+                slowerSchool, slowerSchoolBoatNum = matchSchool(slowerBoat["school"], boatNum=varsity_index)
+                if fasterSchool is None:
+                    # This means one of the schools was not recognized as a neira school
+                    print(fasterBoat["school"], "was not recognized as a neira school")
+                    continue
+                if slowerSchool is None:
+                    print(slowerBoat["school"], "was not recognized as a neira school")
+                    continue
+                fasterSchoolName = fasterSchool
+                if fasterSchoolBoatNum != varsity_index:
+                    fasterSchoolName += " " + str(fasterSchoolBoatNum)
+                slowerSchoolName = slowerSchool
+                if slowerSchoolBoatNum != varsity_index:
+                    slowerSchoolName += " " + str(slowerSchoolBoatNum)
+                results.append((
+                    date.strftime("%Y-%m-%d"),
+                    gender,
+                    boatName,
+                    fasterSchoolName,
+                    varsity_index,
+                    slowerSchoolName,
+                    varsity_index,
+                    margin,
+                    regatta_display_name,
+                    comment,
+                    url
+                ))
 
     with open("schoolslog.txt", "w") as f:
         print("Matches:", file=f)
@@ -126,10 +130,6 @@ def main():
         edge.url = url
         edge.tooltip = race + "\t\t\t\n" + comment
         orders[boat].append(edge)
-        # orderEntry(orders, fasterSchool, fasterBoat)
-        # orderEntry(orders, slowerSchool, slowerBoat)
-        # orders[fasterSchool][fasterBoat].append(edge)
-        # orders[slowerSchool][slowerBoat].append(edge)
         form = "{boat}: {faster} beat {slower} by {margin} seconds on {date}"
         print(form.format(date=str(date),
                             faster=fasterSchool,
@@ -138,21 +138,16 @@ def main():
                             margin=str(margin)))
 
     for boat in sorted(list(orders.keys()), key=sorter):
-        #edges = removeCycles(orders[boat])
         edges = orders[boat]
         viz(boat, boat, edges)
-        # try:
-        #print("-" * 25)
-        #print(boat + ":")
-        # for school in seed(fromAssociationList(removeCycles(edges))):
-        #     print school
-        # for school in getNodes(edges):
-        #     relevant = []
-        #     for edge in edges:
-        #         if edge.first == school or edge.second == school:
-        #             relevant.append(edge)
-        #             #            viz(boat, boat+school, relevant)
-                    #        print len(allChains(fromAssociationList(removeCycles(edges))))
 
+def make_index():
+    
+
+def all_pairs(my_list):
+    for i in range(len(my_list) - 1):
+        for j in range(i + 1, len(my_list)):
+            yield my_list[i], my_list[j]
+        
 if __name__ == '__main__':
     main()

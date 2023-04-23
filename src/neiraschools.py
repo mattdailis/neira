@@ -39,8 +39,29 @@ def getNeiraSchools():
             'Middletown' : [],
             'Worcester Academy': [],
             'Bedford' : [],
-            'Suffield': []
-        }
+            'Suffield': [],
+
+            # Added 2023:
+            "Andover": [],
+            "Bedford": [],
+            "Berwick": [],
+            "Boston Latin": [],
+            "Brewster Academy": [],
+            "Brookline": [],
+            "Cambridge Ringe and Latin School": ["Cambridge RLS"],
+            "East Lyme": [],
+            "E.O. Smith": [],
+            "Fairfield Prep": [],
+            "Farmington": [],
+            "Glastonbury": [],
+            "Guilford": [],
+            "Hingham": [],
+            "Kent": [],
+            "Salisbury": [],
+            "Shrewsbury": [],
+            "St. John's Prep": [],
+            "Stonington": []
+    }
 
 # If boatNum provided, check if a different number is present in the string.
 # If a different number is present in the string, append that number to the school name
@@ -60,19 +81,22 @@ def getNeiraSchools():
 # What about a boys 3 boat that still wants to be considered a 3rd boat, but races 2nd boats occasionally
 # should those races count? Towards what? Margins????
 def matchSchool(name, boatNum=None):
+    # Preprocess name to remove boat info
+    name_for_score = name.replace("Boys", "").replace("Girls", "").replace("Novice", "")
+    
     neira = getNeiraSchools()
     scores = set([])
     for school in neira:
-        score = compare(school, name)
+        score = compare(school, name_for_score)
         for nick in neira[school]:
-            newscore = compare(name, nick)
+            newscore = compare(name_for_score, nick)
             if newscore > score:
                 score = newscore
         scores.add((school, score))
     (school, score) = max(scores, key=(lambda x_y : x_y[1]))
 
-    if school in ['Exeter', 'Middletown', 'Worcester Academy', 'Bedford', 'Suffield']:
-        return (None, None)
+    # if school in ['Exeter', 'Middletown', 'Worcester Academy', 'Bedford', 'Suffield']:
+#        return (None, None)
 
     if school == 'Greenwich Academy':
         name = name.replace(" A", " Academy ")
@@ -104,7 +128,8 @@ def matchSchool(name, boatNum=None):
         return (school, num)
     else:
         unmatched.add(name)
-        return (None, None)
+        return (name, boatNum)
+        # return (None, None)
 
 def parseNum(num):
     if 'nov' in num:
