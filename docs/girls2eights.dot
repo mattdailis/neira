@@ -1,11 +1,7 @@
-digraph girls2eights {Guilford [URL="girls2eightsGuilford.html"];Bedford [URL="girls2eightsBedford.html"];Deerfield [URL="girls2eightsDeerfield.html"];Shrewsbury [URL="girls2eightsShrewsbury.html"];Salisbury [URL="girls2eightsSalisbury.html"];Duxbury [URL="girls2eightsDuxbury.html"];Exeter [URL="girls2eightsExeter.html"];BostonLatin [URL="girls2eightsBostonLatin.html"];Andover [URL="girls2eightsAndover.html"];Kent [URL="girls2eightsKent.html"];StPauls [URL="girls2eightsStPauls.html"];Tabor [URL="girls2eightsTabor.html"];EastLyme [URL="girls2eightsEastLyme.html"];Brookline [URL="girls2eightsBrookline.html"];Hingham [URL="girls2eightsHingham.html"];Deerfield -> Kent[label="3.3
+digraph girls2eights {Salisbury [URL="girls2eightsSalisbury.html"];BostonLatin [URL="girls2eightsBostonLatin.html"];EastLyme [URL="girls2eightsEastLyme.html"];Duxbury [URL="girls2eightsDuxbury.html"];Hingham [URL="girls2eightsHingham.html"];Guilford [URL="girls2eightsGuilford.html"];Deerfield [URL="girls2eightsDeerfield.html"];Bedford [URL="girls2eightsBedford.html"];Exeter [URL="girls2eightsExeter.html"];StPauls [URL="girls2eightsStPauls.html"];Tabor [URL="girls2eightsTabor.html"];Shrewsbury [URL="girls2eightsShrewsbury.html"];Kent [URL="girls2eightsKent.html"];Brookline [URL="girls2eightsBrookline.html"];Andover [URL="girls2eightsAndover.html"];Deerfield -> Kent[label="3.3
 04/08", weight="97", tooltip="NEIRA Girls Eights,Deerfield vs. Kent			
 Distance: 1680m Conditions: Fair conditions on flat water with a gusting 10mph cross tailwind in the first 500m. Comments: Congratulations to all three Deerfield crews on impressive racing. Thank you to Parker and Meg for launching their inaugural eights season with a race against Kent School.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=99230681DE272C5FECC179DDBE0FB911&cat=1", random="random"]; 
-EastLyme -> EastLyme[label="23.0
-04/01", weight="77", tooltip="NEIRA Boys & Girls Eights,Guilford High School vs East Lyme High School			
-Distance: 1400m Conditions: Tailwind increasing in intensity as the races progressed. Rain throughout. Race Order GN4, G1V, B1V, BN8, G2V Comments: All floating starts. Races are not comparable. Novice races were about 150m shorter. In the Girls 2nd Varsity race, Guilford's steering wire snapped at 900m. They finished with no steering. East Lyme was ahead by open water when it snapped. Thank you East Lyme for a great day of racing
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=576D40DCF411E79F5B1071832A056F2F&cat=5", random="random"]; 
 EastLyme -> Guilford[label="_
 04/01", weight="99", tooltip="NEIRA Boys & Girls Eights,Guilford High School vs East Lyme High School			
 Distance: 1400m Conditions: Tailwind increasing in intensity as the races progressed. Rain throughout. Race Order GN4, G1V, B1V, BN8, G2V Comments: All floating starts. Races are not comparable. Novice races were about 150m shorter. In the Girls 2nd Varsity race, Guilford's steering wire snapped at 900m. They finished with no steering. East Lyme was ahead by open water when it snapped. Thank you East Lyme for a great day of racing
@@ -62,11 +58,6 @@ Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Orde
 In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
 Thank you to Duxbury, Deerfield, and St. John's Prep for making the drive. Great day of racing for all crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6106BB7A2E3E18B19D2FB62C590A2D45&cat=5", random="random"]; 
-Bedford -> Bedford[label="17.24
-04/08", weight="83", tooltip="NEIRA Boys & Girls Eights,Shrewsbury Opener: Shrewsbury vs. Bedford vs. St. John's			
-Distance: 1500 Conditions: Cross tail wind gusting to strong at times. Comments: G1V: Shrewsbury & Bedford were even at the 200m mark at which point Shrewsbury caught a boat-stopping crab resulting in a 30-45 sec stoppage. 
-The Fourth Boat events in both Boy's and Girl's results are for Novice Crews.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B8E319823F5E06EE7205EBA30FA0A509&cat=5", random="random"]; 
 Bedford -> Shrewsbury[label="29.87
 04/08", weight="71", tooltip="NEIRA Boys & Girls Eights,Shrewsbury Opener: Shrewsbury vs. Bedford vs. St. John's			
 Distance: 1500 Conditions: Cross tail wind gusting to strong at times. Comments: G1V: Shrewsbury & Bedford were even at the 200m mark at which point Shrewsbury caught a boat-stopping crab resulting in a 30-45 sec stoppage. 
@@ -83,10 +74,6 @@ Distance: 1250 Conditions: Slight cross tailwind for all races. Comments: Girls 
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=725E4C4CC432BCB9A050FF17EC53126E&cat=5", random="random"]; 
 Brookline -> Duxbury[label="44.91
 04/08", weight="56", tooltip="NEIRA Boys & Girls Eights,Brookline vs. Duxbury			
-Distance: 1250 Conditions: Slight cross tailwind for all races. Comments: Girls 1v: Duxbury caught crab in the last 300m. Girls 2v: Duxbury 2v had to stop to make course correction to avoid bridge abutment. Boys 3v event started 1 length over start line.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=725E4C4CC432BCB9A050FF17EC53126E&cat=5", random="random"]; 
-Duxbury -> Duxbury[label="24.81
-04/08", weight="76", tooltip="NEIRA Boys & Girls Eights,Brookline vs. Duxbury			
 Distance: 1250 Conditions: Slight cross tailwind for all races. Comments: Girls 1v: Duxbury caught crab in the last 300m. Girls 2v: Duxbury 2v had to stop to make course correction to avoid bridge abutment. Boys 3v event started 1 length over start line.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=725E4C4CC432BCB9A050FF17EC53126E&cat=5", random="random"]; 
 Kent -> Exeter[label="3.1

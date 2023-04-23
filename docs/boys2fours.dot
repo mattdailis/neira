@@ -1,4 +1,4 @@
-digraph boys2fours {BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Farmington [URL="boys2foursFarmington.html"];Stonington [URL="boys2foursStonington.html"];EastLyme [URL="boys2foursEastLyme.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Choate [URL="boys2foursChoate.html"];Southfield [URL="boys2foursSouthfield.html"];BelmontHill4 [URL="boys2foursBelmontHill4.html"];Pingree [URL="boys2foursPingree.html"];StMarks [URL="boys2foursStMarks.html"];Berwick [URL="boys2foursBerwick.html"];KentSchool [URL="boys2foursKentSchool.html"];BBN [URL="boys2foursBBN.html"];CambridgeRingeandLatinSchool [URL="boys2foursCambridgeRingeandLatinSchool.html"];Berkshire [URL="boys2foursBerkshire.html"];NMH [URL="boys2foursNMH.html"];Hopkins [URL="boys2foursHopkins.html"];Groton [URL="boys2foursGroton.html"];Taft [URL="boys2foursTaft.html"];BelmontHill3 [URL="boys2foursBelmontHill3.html"];Nobles [URL="boys2foursNobles.html"];Pomfret2 [URL="boys2foursPomfret2.html"];Middlesex [URL="boys2foursMiddlesex.html"];Andover [URL="boys2foursAndover.html"];Brooks [URL="boys2foursBrooks.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Brooks -> StMarks[label="41.0
+digraph boys2fours {Berkshire [URL="boys2foursBerkshire.html"];Pingree [URL="boys2foursPingree.html"];Hopkins [URL="boys2foursHopkins.html"];Farmington [URL="boys2foursFarmington.html"];NMH [URL="boys2foursNMH.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];StMarks [URL="boys2foursStMarks.html"];BelmontHill3 [URL="boys2foursBelmontHill3.html"];Nobles [URL="boys2foursNobles.html"];Berwick [URL="boys2foursBerwick.html"];Choate [URL="boys2foursChoate.html"];Middlesex [URL="boys2foursMiddlesex.html"];Southfield [URL="boys2foursSouthfield.html"];EastLyme [URL="boys2foursEastLyme.html"];Pomfret2 [URL="boys2foursPomfret2.html"];Stonington [URL="boys2foursStonington.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Taft [URL="boys2foursTaft.html"];BBN [URL="boys2foursBBN.html"];Andover [URL="boys2foursAndover.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Groton [URL="boys2foursGroton.html"];CambridgeRingeandLatinSchool [URL="boys2foursCambridgeRingeandLatinSchool.html"];KentSchool [URL="boys2foursKentSchool.html"];Brooks [URL="boys2foursBrooks.html"];BelmontHill4 [URL="boys2foursBelmontHill4.html"];Brooks -> StMarks[label="41.0
 04/22", weight="59", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -72,14 +72,6 @@ Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wi
 The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
 Thanks to BB&N and congratulations to all for a great day of early season racing!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
-BBN -> BBN[label="11.0
-04/15", weight="89", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
-Distance: 1350m Conditions: moderate cross head quartering from port.
-slightly stronger for earlier races Comments: Dexter-Southfield boated a 1st and 2nd boat on the boys side and a 1st boat on the girls.
-BB&N's 4th, 5th and 6th boats on both the boys and girls side raced an exhibition piece against each other prior to the start of head-to-head racing.
-BB&N's 3rd boat boys raced in the shore lane of the 2nd boat race.
-BB&N's 2nd girls boat raced an exhibition against the BB&N 3rd girls.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6CA78FFEA8189C1DC931776413930B44&cat=5", random="random"]; 
 BBN -> Southfield[label="52.0
 04/15", weight="48", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
 Distance: 1350m Conditions: moderate cross head quartering from port.
@@ -105,10 +97,6 @@ Taft -> LymeOldLyme[label="23.85
 04/15", weight="77", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
 Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 
-Taft -> Taft[label="27.49
-04/15", weight="73", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
-Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 
 LymeOldLyme -> Taft[label="3.64
 04/15", weight="97", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
 Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
@@ -128,10 +116,6 @@ Groton -> BBN[label="13.0
 Distance: 1350m Conditions: moderate cross from port, slightly head
 Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]; 
-BelmontHill3 -> BelmontHill4[label="19.1
-04/22", weight="81", tooltip="NEIRA Boys Fours,Pomfret v. Belmont Hill			
-Distance: 1500M Conditions: Light tailwind which seemed to slightly increase during the races. (ESE, approx 8 to 12 MPH. Comments: Tried to match skill levels within races. Order of races: Fourth Boat, First Boat, Second Boat, Third Boat.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B2F202DB1E863BEAA7FCE8F8FE9BAE43&cat=1", random="random"]; 
 BelmontHill3 -> Pomfret2[label="35.3
 04/22", weight="65", tooltip="NEIRA Boys Fours,Pomfret v. Belmont Hill			
 Distance: 1500M Conditions: Light tailwind which seemed to slightly increase during the races. (ESE, approx 8 to 12 MPH. Comments: Tried to match skill levels within races. Order of races: Fourth Boat, First Boat, Second Boat, Third Boat.

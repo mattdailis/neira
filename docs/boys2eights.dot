@@ -1,4 +1,4 @@
-digraph boys2eights {FairfieldPrep [URL="boys2eightsFairfieldPrep.html"];Bedford [URL="boys2eightsBedford.html"];Deerfield [URL="boys2eightsDeerfield.html"];Salisbury [URL="boys2eightsSalisbury.html"];Stonington [URL="boys2eightsStonington.html"];EastLyme [URL="boys2eightsEastLyme.html"];StPauls [URL="boys2eightsStPauls.html"];Hingham [URL="boys2eightsHingham.html"];Duxbury [URL="boys2eightsDuxbury.html"];BostonLatin [URL="boys2eightsBostonLatin.html"];Berwick [URL="boys2eightsBerwick.html"];BCHigh [URL="boys2eightsBCHigh.html"];Shrewsbury [URL="boys2eightsShrewsbury.html"];Glastonbury [URL="boys2eightsGlastonbury.html"];Kent [URL="boys2eightsKent.html"];Tabor [URL="boys2eightsTabor.html"];Guilford [URL="boys2eightsGuilford.html"];Exeter [URL="boys2eightsExeter.html"];Andover [URL="boys2eightsAndover.html"];StJohnsPrep [URL="boys2eightsStJohnsPrep.html"];Brookline [URL="boys2eightsBrookline.html"];Berwick -> Salisbury[label="9.4
+digraph boys2eights {BostonLatin [URL="boys2eightsBostonLatin.html"];Guilford [URL="boys2eightsGuilford.html"];BCHigh [URL="boys2eightsBCHigh.html"];Hingham [URL="boys2eightsHingham.html"];Deerfield [URL="boys2eightsDeerfield.html"];Bedford [URL="boys2eightsBedford.html"];Exeter [URL="boys2eightsExeter.html"];Berwick [URL="boys2eightsBerwick.html"];Shrewsbury [URL="boys2eightsShrewsbury.html"];Salisbury [URL="boys2eightsSalisbury.html"];EastLyme [URL="boys2eightsEastLyme.html"];StJohnsPrep [URL="boys2eightsStJohnsPrep.html"];FairfieldPrep [URL="boys2eightsFairfieldPrep.html"];Tabor [URL="boys2eightsTabor.html"];Stonington [URL="boys2eightsStonington.html"];Kent [URL="boys2eightsKent.html"];Andover [URL="boys2eightsAndover.html"];Duxbury [URL="boys2eightsDuxbury.html"];StPauls [URL="boys2eightsStPauls.html"];Brookline [URL="boys2eightsBrookline.html"];Glastonbury [URL="boys2eightsGlastonbury.html"];Berwick -> Salisbury[label="9.4
 04/19", weight="91", tooltip="NEIRA Boys Eights,Salisbury vs. Brunswick, the Curtis Trophy			
 Distance: 1500m Conditions: 10-12 mph cross tail wind, choppy in the middle 500m. Comments: Good clean racing for all boats. As always, it was great to host Brunswick for our annual dual meet.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0BE61572BBA9B09014D8134F990CBA56&cat=1", random="random"]; 
@@ -96,10 +96,6 @@ Stonington -> Glastonbury[label="13.9
 04/08", weight="87", tooltip="NEIRA Boys & Girls Eights,Glastonbury vs Stonington			
 Distance: 1500m Conditions: Tailwind picked up through racing and slight tail current. Order of racing was BV1, GV1, BV2 Comments: The Girls 1V race and the Boys 2V race was slightly shorter than 1500 due to crosswind creating difficulty with alignment.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7534FDE7697701A061E81A000D2CD6A0&cat=5", random="random"]; 
-Stonington -> Stonington[label="41.6
-04/08", weight="59", tooltip="NEIRA Boys & Girls Eights,Glastonbury vs Stonington			
-Distance: 1500m Conditions: Tailwind picked up through racing and slight tail current. Order of racing was BV1, GV1, BV2 Comments: The Girls 1V race and the Boys 2V race was slightly shorter than 1500 due to crosswind creating difficulty with alignment.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7534FDE7697701A061E81A000D2CD6A0&cat=5", random="random"]; 
 Glastonbury -> Stonington[label="27.7
 04/08", weight="73", tooltip="NEIRA Boys & Girls Eights,Glastonbury vs Stonington			
 Distance: 1500m Conditions: Tailwind picked up through racing and slight tail current. Order of racing was BV1, GV1, BV2 Comments: The Girls 1V race and the Boys 2V race was slightly shorter than 1500 due to crosswind creating difficulty with alignment.
@@ -143,10 +139,6 @@ Distance: 1250 Conditions: Slight cross tailwind for all races. Comments: Girls 
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=725E4C4CC432BCB9A050FF17EC53126E&cat=5", random="random"]; 
 Brookline -> BostonLatin[label="6.46
 04/08", weight="94", tooltip="NEIRA Boys Eights,Salvo Cup: Boston Latin School vs. Brookline High School			
-Distance: 1250 Conditions: Slight cross tail wind for all races. Comments: Third Boat was raced as fours.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CA3CE44CF802CECE78B3CDED8C830E14&cat=1", random="random"]; 
-Brookline -> Brookline[label="18.02
-04/08", weight="82", tooltip="NEIRA Boys Eights,Salvo Cup: Boston Latin School vs. Brookline High School			
 Distance: 1250 Conditions: Slight cross tail wind for all races. Comments: Third Boat was raced as fours.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CA3CE44CF802CECE78B3CDED8C830E14&cat=1", random="random"]; 
 BostonLatin -> Brookline[label="11.56

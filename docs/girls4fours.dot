@@ -1,4 +1,4 @@
-digraph girls4fours {Farmington [URL="girls4foursFarmington.html"];GreenwichAcademy [URL="girls4foursGreenwichAcademy.html"];EastLyme [URL="girls4foursEastLyme.html"];Choate [URL="girls4foursChoate.html"];Choate4 [URL="girls4foursChoate4.html"];Valley [URL="girls4foursValley.html"];StMarks [URL="girls4foursStMarks.html"];BBN [URL="girls4foursBBN.html"];Choate5 [URL="girls4foursChoate5.html"];CambridgeRingeandLatinSchool [URL="girls4foursCambridgeRingeandLatinSchool.html"];Taft [URL="girls4foursTaft.html"];Hopkins [URL="girls4foursHopkins.html"];NMH [URL="girls4foursNMH.html"];Groton [URL="girls4foursGroton.html"];Nobles [URL="girls4foursNobles.html"];timetrialGrotonracedalone [URL="girls4fourstimetrialGrotonracedalone.html"];Middlesex [URL="girls4foursMiddlesex.html"];Brooks [URL="girls4foursBrooks.html"];LymeOldLyme [URL="girls4foursLymeOldLyme.html"];Brooks -> Middlesex[label="17.4
+digraph girls4fours {Hopkins [URL="girls4foursHopkins.html"];Farmington [URL="girls4foursFarmington.html"];NMH [URL="girls4foursNMH.html"];Choate5 [URL="girls4foursChoate5.html"];LymeOldLyme [URL="girls4foursLymeOldLyme.html"];StMarks [URL="girls4foursStMarks.html"];Valley [URL="girls4foursValley.html"];Nobles [URL="girls4foursNobles.html"];Choate4 [URL="girls4foursChoate4.html"];Choate [URL="girls4foursChoate.html"];Middlesex [URL="girls4foursMiddlesex.html"];EastLyme [URL="girls4foursEastLyme.html"];timetrialGrotonracedalone [URL="girls4fourstimetrialGrotonracedalone.html"];Taft [URL="girls4foursTaft.html"];BBN [URL="girls4foursBBN.html"];Groton [URL="girls4foursGroton.html"];CambridgeRingeandLatinSchool [URL="girls4foursCambridgeRingeandLatinSchool.html"];Brooks [URL="girls4foursBrooks.html"];GreenwichAcademy [URL="girls4foursGreenwichAcademy.html"];Brooks -> Middlesex[label="17.4
 04/22", weight="83", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -10,10 +10,6 @@ Middlesex -> StMarks[label="13.3
 04/22", weight="87", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
-Choate -> Choate[label="32.72
-04/12", weight="68", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
-Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=97CDDFE6B0BF0E6715FCA59070425D31&cat=5", random="random"]; 
 Choate -> Hopkins[label="65.19
 04/12", weight="35", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
 Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.
@@ -40,11 +36,6 @@ A special thanks to Paul, all of the coaches, and the parents who made our openi
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
 NMH -> StMarks[label="13.4
 04/15", weight="87", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
-Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
-A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
-Choate -> Choate[label="1.7
-04/15", weight="99", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
@@ -82,30 +73,6 @@ Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at 
 For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
 3V had a delay due to steering breakage with Nobles boat
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=05316B43D68EB96907C1AF50E625F75C&cat=1", random="random"]; 
-BBN -> BBN[label="15.0
-04/15", weight="85", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
-Distance: 1350m Conditions: moderate cross head quartering from port.
-slightly stronger for earlier races Comments: Dexter-Southfield boated a 1st and 2nd boat on the boys side and a 1st boat on the girls.
-BB&N's 4th, 5th and 6th boats on both the boys and girls side raced an exhibition piece against each other prior to the start of head-to-head racing.
-BB&N's 3rd boat boys raced in the shore lane of the 2nd boat race.
-BB&N's 2nd girls boat raced an exhibition against the BB&N 3rd girls.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6CA78FFEA8189C1DC931776413930B44&cat=5", random="random"]; 
-BBN -> BBN[label="30.0
-04/15", weight="70", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
-Distance: 1350m Conditions: moderate cross head quartering from port.
-slightly stronger for earlier races Comments: Dexter-Southfield boated a 1st and 2nd boat on the boys side and a 1st boat on the girls.
-BB&N's 4th, 5th and 6th boats on both the boys and girls side raced an exhibition piece against each other prior to the start of head-to-head racing.
-BB&N's 3rd boat boys raced in the shore lane of the 2nd boat race.
-BB&N's 2nd girls boat raced an exhibition against the BB&N 3rd girls.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6CA78FFEA8189C1DC931776413930B44&cat=5", random="random"]; 
-BBN -> BBN[label="15.0
-04/15", weight="85", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
-Distance: 1350m Conditions: moderate cross head quartering from port.
-slightly stronger for earlier races Comments: Dexter-Southfield boated a 1st and 2nd boat on the boys side and a 1st boat on the girls.
-BB&N's 4th, 5th and 6th boats on both the boys and girls side raced an exhibition piece against each other prior to the start of head-to-head racing.
-BB&N's 3rd boat boys raced in the shore lane of the 2nd boat race.
-BB&N's 2nd girls boat raced an exhibition against the BB&N 3rd girls.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6CA78FFEA8189C1DC931776413930B44&cat=5", random="random"]; 
 Nobles -> Brooks[label="7.6
 04/15", weight="93", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
@@ -133,10 +100,6 @@ Hopkins -> LymeOldLyme[label="_
 04/22", weight="99", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/Old Lyme, Northfield Mount Hermon			
 Distance: 1500m Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty head and cross wind worsening from 9 to 14mph in the later races, significant chop in the first half of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Several boats missed the turn buoys taking a shortcut through the return lane, so to our regret their final results were disqualified by the chief referee. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1A42F905A7DACA1EF3443A90F163BCBC&cat=5", random="random"]; 
-Choate5 -> Choate4[label="5.2
-04/22", weight="95", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
-Distance: 1490 M Conditions: Overcast, mid-50s. Variable, gusty wind; crosswind to quartering tail, 10-12 mph; mostly affecting latter half of the course. Comments: Great to have all three programs racing together again for the first time since 2019. Thanks to Choate and Taft for traveling and handling facilities issues.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=419D79B320ADFC7347A405B1AF3C51F0&cat=5", random="random"]; 
 Choate5 -> Taft[label="27.6
 04/22", weight="73", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1490 M Conditions: Overcast, mid-50s. Variable, gusty wind; crosswind to quartering tail, 10-12 mph; mostly affecting latter half of the course. Comments: Great to have all three programs racing together again for the first time since 2019. Thanks to Choate and Taft for traveling and handling facilities issues.

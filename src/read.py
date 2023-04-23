@@ -84,6 +84,8 @@ def main():
                 if slowerSchool is None:
                     print(slowerBoat["school"], "was not recognized as a neira school")
                     continue
+                if fasterSchool == slowerSchool:
+                    continue
                 fasterSchoolName = fasterSchool
                 if fasterSchoolBoatNum != varsity_index:
                     fasterSchoolName += " " + str(fasterSchoolBoatNum)
