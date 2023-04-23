@@ -92,15 +92,15 @@ def genHtml(name, graph):
 
     #os.system("dot -T gif -O ../bin/"+name+".dot")
     #os.system("dot -T svg -O ../bin/"+name+".dot")
-    os.system('dot -Tcmapx -O ../bin/'+name+'.dot -Tgif -O ../bin/'+name+'.dot')
+    os.system('dot -Tcmapx -O ../docs/'+name+'.dot -Tgif -O ../docs/'+name+'.dot')
 
 
     # modal = open("html\\css\\modal.html", "r")
     # modalStr = modal.read()
     # modal.close()
 
-    target = open("html/"+name+".html", 'w+')
-    map = open("../bin/"+name+".dot.cmapx", "r")
+    target = open("../docs/"+name+".html", 'w+')
+    map = open("../docs/"+name+".dot.cmapx", "r")
     mapTag = map.read()
     map.close()
     mapTag = modMap(mapTag, name)
@@ -114,11 +114,11 @@ def genHtml(name, graph):
     target.write('<link href="css/gui.css" rel="stylesheet">')
     target.write('</head>')
     target.write('<body>')
-    target.write('<a href="../index.html">Back to index</a>')
+    target.write('<a href="./index.html">Back to index</a>')
     if name != graph:
         target.write('<br />')
         target.write('<a href="'+graph+'.html">Back to '+graph+'</a>')
-    target.write('<IMG SRC="../../bin/'+ graphName(name) +'.dot.gif" USEMAP="#'+graphName(name)+'" />')
+    target.write('<IMG SRC="./'+ graphName(name) +'.dot.gif" USEMAP="#'+graphName(name)+'" />')
     # target.write('<IMG SRC="../../bin/'+ graphName(name) +'.dot.gif" />')
     target.write(mapTag)
     # target.write(modalStr)
@@ -141,6 +141,6 @@ def modMap(map, name):
 
 def viz(name, url, orders):
     # genJs("gui.js", name, pairsToDot(name, orders))
-    genDot("../bin/"+graphName(url)+".dot", pairsToDot(name, orders))
+    genDot("../docs/"+graphName(url)+".dot", pairsToDot(name, orders))
     genHtml(graphName(url), name)
     #genPdf("gv/"+nodeName(name)+".gv", "pdf/"+nodeName(name)+".pdf")

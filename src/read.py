@@ -141,9 +141,6 @@ def main():
         edges = orders[boat]
         viz(boat, boat, edges)
 
-def make_index():
-    
-
 def all_pairs(my_list):
     for i in range(len(my_list) - 1):
         for j in range(i + 1, len(my_list)):

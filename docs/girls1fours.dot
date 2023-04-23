@@ -1,0 +1,190 @@
+digraph girls1fours {NewtonCountryDay [URL="girls1foursNewtonCountryDay.html"];Farmington [URL="girls1foursFarmington.html"];CambridgeRingeandLatinSchool [URL="girls1foursCambridgeRingeandLatinSchool.html"];Southfield [URL="girls1foursSouthfield.html"];Stonington [URL="girls1foursStonington.html"];Berwick [URL="girls1foursBerwick.html"];Pingree [URL="girls1foursPingree.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];Berkshire [URL="girls1foursBerkshire.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademy.html"];Andover [URL="girls1foursAndover.html"];BBN [URL="girls1foursBBN.html"];Choate [URL="girls1foursChoate.html"];Lincoln [URL="girls1foursLincoln.html"];Brooks [URL="girls1foursBrooks.html"];Bancroft [URL="girls1foursBancroft.html"];Shrewsbury [URL="girls1foursShrewsbury.html"];Groton [URL="girls1foursGroton.html"];EastLyme [URL="girls1foursEastLyme.html"];NMH [URL="girls1foursNMH.html"];Taft [URL="girls1foursTaft.html"];Nobles [URL="girls1foursNobles.html"];FrederickGunn [URL="girls1foursFrederickGunn.html"];Valley [URL="girls1foursValley.html"];StMarks [URL="girls1foursStMarks.html"];Bedford [URL="girls1foursBedford.html"];Winsor [URL="girls1foursWinsor.html"];GreenwichAcademy [URL="girls1foursGreenwichAcademy.html"];KentSchool [URL="girls1foursKentSchool.html"];Hopkins [URL="girls1foursHopkins.html"];BrewsterAcademy -> Berwick[label="29.6
+04/08", weight="71", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
+Distance: Berwick Conditions: Strong head wind gusts in the first 700 meters of the race creating some chop, but generally clean conditions for early April racing. Slightly increasing wind as races progressed. Comments: Race order was Girls 1V, Boys 2V, Girls 2V*,Boys 3V, & Boys 1V**
+*Please note that the Girls 2V should be considered an exhibition as there were Varsity rowers to fill out the line-ups to give younger rowers the chance to race.
+**Berwick suffered breakage before the race (which could not be mended on the water), so they raced without steering.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1244AED6B039578134601B7558C99C9B&cat=5", random="random"]; 
+BrewsterAcademy -> Pingree[label="14.17
+04/15", weight="86", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
+Conditions: Light headwind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]; 
+BrewsterAcademy -> Berwick[label="15.02
+04/15", weight="85", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
+Conditions: Light headwind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]; 
+Pingree -> Berwick[label="0.85
+04/15", weight="100", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
+Conditions: Light headwind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]; 
+Choate -> Hopkins[label="2.72
+04/12", weight="98", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
+Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=97CDDFE6B0BF0E6715FCA59070425D31&cat=5", random="random"]; 
+KentSchool -> Andover[label="12.2
+04/15", weight="88", tooltip="NEIRA,Kent School vs. Phillips Andover			
+Distance: 1680m Conditions: Conditions varied throughout the afternoon due to a storm system moving into the valley. Slight tail current with headwinds ranging in strength from 91-12 mph in the lower boats and up to 15 mph and gusts over 25 mph in the first boat boy's race. Comments: Thank you to Andover for coming to Kent today for a great day of racing. Kudos go to all athletes for being flexible in the schedule as the threat of bad weather approached. You should not compare times between different races, as each race started at a slightly different point due to the winds.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9D3468EE93AF1496F7E33F761C095EC5&cat=5", random="random"]; 
+NMH -> Choate[label="2.7
+04/15", weight="98", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+NMH -> StMarks[label="8.9
+04/15", weight="92", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+NMH -> FrederickGunn[label="11.7
+04/15", weight="89", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+NMH -> Bancroft[label="79.7
+04/15", weight="21", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+NMH -> WorcesterAcademy[label="119.6
+04/15", weight="-19", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+Choate -> StMarks[label="6.2
+04/15", weight="94", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+Choate -> FrederickGunn[label="9.0
+04/15", weight="91", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+Choate -> Bancroft[label="77.0
+04/15", weight="23", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+Choate -> WorcesterAcademy[label="116.9
+04/15", weight="-16", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+StMarks -> FrederickGunn[label="2.8
+04/15", weight="98", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+StMarks -> Bancroft[label="70.8
+04/15", weight="30", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+StMarks -> WorcesterAcademy[label="110.7
+04/15", weight="-10", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+FrederickGunn -> Bancroft[label="68.0
+04/15", weight="32", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+FrederickGunn -> WorcesterAcademy[label="107.9
+04/15", weight="-7", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+Bancroft -> WorcesterAcademy[label="39.9
+04/15", weight="61", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+CambridgeRingeandLatinSchool -> BBN[label="5.9
+04/08", weight="95", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
+Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
+The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
+Thanks to BB&N and congratulations to all for a great day of early season racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
+Nobles -> Groton[label="8.5
+04/22", weight="92", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
+Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
+For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
+3V had a delay due to steering breakage with Nobles boat
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=05316B43D68EB96907C1AF50E625F75C&cat=1", random="random"]; 
+Nobles -> BBN[label="13.8
+04/22", weight="87", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
+Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
+For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
+3V had a delay due to steering breakage with Nobles boat
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=05316B43D68EB96907C1AF50E625F75C&cat=1", random="random"]; 
+Groton -> BBN[label="5.3
+04/22", weight="95", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
+Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
+For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
+3V had a delay due to steering breakage with Nobles boat
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=05316B43D68EB96907C1AF50E625F75C&cat=1", random="random"]; 
+BBN -> Southfield[label="48.0
+04/15", weight="52", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
+Distance: 1350m Conditions: moderate cross head quartering from port.
+slightly stronger for earlier races Comments: Dexter-Southfield boated a 1st and 2nd boat on the boys side and a 1st boat on the girls.
+BB&N's 4th, 5th and 6th boats on both the boys and girls side raced an exhibition piece against each other prior to the start of head-to-head racing.
+BB&N's 3rd boat boys raced in the shore lane of the 2nd boat race.
+BB&N's 2nd girls boat raced an exhibition against the BB&N 3rd girls.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6CA78FFEA8189C1DC931776413930B44&cat=5", random="random"]; 
+Nobles -> Brooks[label="1.2
+04/15", weight="99", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
+Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
+Good luck Nobles on your season.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
+Winsor -> NewtonCountryDay[label="20.6
+04/22", weight="80", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
+Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]; 
+Bedford -> Shrewsbury[label="13.21
+04/08", weight="87", tooltip="NEIRA Boys & Girls Fours,Shrewsbury Opener: Shrewsbury vs. Bedford NH vs. Worcester Academy			
+Distance: 1000 Conditions: Cross tailwind for all races. Gusty at times & growing in strength as the races progressed. Comments: Events rowed as an exhibition / scrimmage to enable all visiting athletes a chance to compete on the day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4B8E9B0A9FBCF2437CE01792D4CB1428&cat=5", random="random"]; 
+Bedford -> WorcesterAcademy[label="56.7
+04/08", weight="44", tooltip="NEIRA Boys & Girls Fours,Shrewsbury Opener: Shrewsbury vs. Bedford NH vs. Worcester Academy			
+Distance: 1000 Conditions: Cross tailwind for all races. Gusty at times & growing in strength as the races progressed. Comments: Events rowed as an exhibition / scrimmage to enable all visiting athletes a chance to compete on the day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4B8E9B0A9FBCF2437CE01792D4CB1428&cat=5", random="random"]; 
+Shrewsbury -> WorcesterAcademy[label="43.49
+04/08", weight="57", tooltip="NEIRA Boys & Girls Fours,Shrewsbury Opener: Shrewsbury vs. Bedford NH vs. Worcester Academy			
+Distance: 1000 Conditions: Cross tailwind for all races. Gusty at times & growing in strength as the races progressed. Comments: Events rowed as an exhibition / scrimmage to enable all visiting athletes a chance to compete on the day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4B8E9B0A9FBCF2437CE01792D4CB1428&cat=5", random="random"]; 
+EastLyme -> Stonington[label="8.9
+04/22", weight="92", tooltip="NEIRA,Stonington, East Lyme, Farmington			
+Distance: 1500m Conditions: Strong cross wind throughout racing , slight headwind. Tide incoming against course for boys 1v, none for girls 1v and outgoing with course rest of races. Not comparable times across races. Comments: Novice races were 1000m. In the girls 2v race, a Farmington rower’s oar came out of the oarlock in the last 250m of the race. In the boys novice, East Lyme caught a crab off the start. Stonington and East Lyme raced an exhibition 4+ event. 
+Thank you so much to East Lyme and Farmington for making the trip to Mystic!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=25FA49DE911995B33DFB62505A5976D4&cat=5", random="random"]; 
+EastLyme -> Farmington[label="31.8
+04/22", weight="69", tooltip="NEIRA,Stonington, East Lyme, Farmington			
+Distance: 1500m Conditions: Strong cross wind throughout racing , slight headwind. Tide incoming against course for boys 1v, none for girls 1v and outgoing with course rest of races. Not comparable times across races. Comments: Novice races were 1000m. In the girls 2v race, a Farmington rower’s oar came out of the oarlock in the last 250m of the race. In the boys novice, East Lyme caught a crab off the start. Stonington and East Lyme raced an exhibition 4+ event. 
+Thank you so much to East Lyme and Farmington for making the trip to Mystic!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=25FA49DE911995B33DFB62505A5976D4&cat=5", random="random"]; 
+Stonington -> Farmington[label="22.9
+04/22", weight="78", tooltip="NEIRA,Stonington, East Lyme, Farmington			
+Distance: 1500m Conditions: Strong cross wind throughout racing , slight headwind. Tide incoming against course for boys 1v, none for girls 1v and outgoing with course rest of races. Not comparable times across races. Comments: Novice races were 1000m. In the girls 2v race, a Farmington rower’s oar came out of the oarlock in the last 250m of the race. In the boys novice, East Lyme caught a crab off the start. Stonington and East Lyme raced an exhibition 4+ event. 
+Thank you so much to East Lyme and Farmington for making the trip to Mystic!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=25FA49DE911995B33DFB62505A5976D4&cat=5", random="random"]; 
+GreenwichAcademy -> Valley[label="38.0
+04/22", weight="62", tooltip="NEIRA Girls Fours,Greenwich Academy vs. Valley Regional			
+Distance: 1250m Conditions: Windy, with conditions in the last 500m getting progressively choppier through the day. Strong cross-tailwind for all races. Comments: Race order went 3V-1V-2V-4V. Due to high winds, racing was shortened to 1100m for the 2V race and 1000m for the 4V race.
+A big thanks to Valley Regional for making the trip to Greenwich!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F7D27A2768B3A94AA28296B6E17A5936&cat=1", random="random"]; 
+Taft -> Choate[label="1.6
+04/22", weight="99", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
+Distance: 1490 M Conditions: Overcast, mid-50s. Variable, gusty wind; crosswind to quartering tail, 10-12 mph; mostly affecting latter half of the course. Comments: Great to have all three programs racing together again for the first time since 2019. Thanks to Choate and Taft for traveling and handling facilities issues.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=419D79B320ADFC7347A405B1AF3C51F0&cat=5", random="random"]; 
+Taft -> Berkshire[label="37.0
+04/22", weight="63", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
+Distance: 1490 M Conditions: Overcast, mid-50s. Variable, gusty wind; crosswind to quartering tail, 10-12 mph; mostly affecting latter half of the course. Comments: Great to have all three programs racing together again for the first time since 2019. Thanks to Choate and Taft for traveling and handling facilities issues.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=419D79B320ADFC7347A405B1AF3C51F0&cat=5", random="random"]; 
+Choate -> Berkshire[label="35.4
+04/22", weight="65", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
+Distance: 1490 M Conditions: Overcast, mid-50s. Variable, gusty wind; crosswind to quartering tail, 10-12 mph; mostly affecting latter half of the course. Comments: Great to have all three programs racing together again for the first time since 2019. Thanks to Choate and Taft for traveling and handling facilities issues.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=419D79B320ADFC7347A405B1AF3C51F0&cat=5", random="random"]; 
+Groton -> Lincoln[label="36.9
+04/15", weight="64", tooltip="NEIRA Girls Fours,Lincoln at Groton School			
+Distance: 1250m Conditions: Perfect for all races Comments: A beautiful spring day for racing on the mighty Nashua. Thank you, Lincoln!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=68C5B52F48A6DADC2D5F65DF47E51637&cat=1", random="random"]}

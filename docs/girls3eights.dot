@@ -1,0 +1,46 @@
+digraph girls3eights {EastLyme [URL="girls3eightsEastLyme.html"];Guilford [URL="girls3eightsGuilford.html"];Salisbury [URL="girls3eightsSalisbury.html"];Kent [URL="girls3eightsKent.html"];Tabor [URL="girls3eightsTabor.html"];BostonLatin [URL="girls3eightsBostonLatin.html"];StPauls [URL="girls3eightsStPauls.html"];Deerfield [URL="girls3eightsDeerfield.html"];Deerfield -> Kent[label="24.3
+04/08", weight="76", tooltip="NEIRA Girls Eights,Deerfield vs. Kent			
+Distance: 1680m Conditions: Fair conditions on flat water with a gusting 10mph cross tailwind in the first 500m. Comments: Congratulations to all three Deerfield crews on impressive racing. Thank you to Parker and Meg for launching their inaugural eights season with a race against Kent School.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=99230681DE272C5FECC179DDBE0FB911&cat=1", random="random"]; 
+EastLyme -> Guilford[label="15.0
+04/01", weight="85", tooltip="NEIRA Boys & Girls Eights,Guilford High School vs East Lyme High School			
+Distance: 1400m Conditions: Tailwind increasing in intensity as the races progressed. Rain throughout. Race Order GN4, G1V, B1V, BN8, G2V Comments: All floating starts. Races are not comparable. Novice races were about 150m shorter. In the Girls 2nd Varsity race, Guilford's steering wire snapped at 900m. They finished with no steering. East Lyme was ahead by open water when it snapped. Thank you East Lyme for a great day of racing
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=576D40DCF411E79F5B1071832A056F2F&cat=5", random="random"]; 
+EastLyme -> EastLyme[label="61.0
+04/01", weight="39", tooltip="NEIRA Boys & Girls Eights,Guilford High School vs East Lyme High School			
+Distance: 1400m Conditions: Tailwind increasing in intensity as the races progressed. Rain throughout. Race Order GN4, G1V, B1V, BN8, G2V Comments: All floating starts. Races are not comparable. Novice races were about 150m shorter. In the Girls 2nd Varsity race, Guilford's steering wire snapped at 900m. They finished with no steering. East Lyme was ahead by open water when it snapped. Thank you East Lyme for a great day of racing
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=576D40DCF411E79F5B1071832A056F2F&cat=5", random="random"]; 
+Guilford -> EastLyme[label="46.0
+04/01", weight="54", tooltip="NEIRA Boys & Girls Eights,Guilford High School vs East Lyme High School			
+Distance: 1400m Conditions: Tailwind increasing in intensity as the races progressed. Rain throughout. Race Order GN4, G1V, B1V, BN8, G2V Comments: All floating starts. Races are not comparable. Novice races were about 150m shorter. In the Girls 2nd Varsity race, Guilford's steering wire snapped at 900m. They finished with no steering. East Lyme was ahead by open water when it snapped. Thank you East Lyme for a great day of racing
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=576D40DCF411E79F5B1071832A056F2F&cat=5", random="random"]; 
+BostonLatin -> EastLyme[label="22.6
+04/15", weight="78", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
+Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
+BostonLatin -> Tabor[label="26.0
+04/15", weight="74", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
+Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
+BostonLatin -> Salisbury[label="45.1
+04/15", weight="55", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
+Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
+EastLyme -> Tabor[label="3.4
+04/15", weight="97", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
+Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
+EastLyme -> Salisbury[label="22.5
+04/15", weight="78", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
+Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
+Tabor -> Salisbury[label="19.1
+04/15", weight="81", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
+Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
+StPauls -> Tabor[label="44.3
+04/22", weight="56", tooltip="NEIRA Girls Eights,St. Paul's School vs Tabor Academy			
+Distance: 1500 meters Conditions: Quartering tailwind which was stronger in the G3 race and lessened through the racing. Comments: Race order: G3-G2-G1-G4/5
+G3 started 4 seats over the line. G4 and G5 started a full length over the line. G1 and G2 started on the line. 
+Thanks to Tabor for making the trip up north to SPS.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9EB742AEB89FEFFE280696305CA36D53&cat=1", random="random"]}
