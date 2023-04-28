@@ -1,0 +1,33 @@
+digraph girls1foursWorcesterAcademy {Bancroft [URL="girls1foursWorcesterAcademyBancroft.html"];StMarks [URL="girls1foursWorcesterAcademyStMarks.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademyWorcesterAcademy.html"];NMH [URL="girls1foursWorcesterAcademyNMH.html"];Choate [URL="girls1foursWorcesterAcademyChoate.html"];Shrewsbury [URL="girls1foursWorcesterAcademyShrewsbury.html"];Bedford [URL="girls1foursWorcesterAcademyBedford.html"];FrederickGunn [URL="girls1foursWorcesterAcademyFrederickGunn.html"];NMH -> WorcesterAcademy[label="119.6
+04/15", weight="-19", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+Choate -> WorcesterAcademy[label="116.9
+04/15", weight="-16", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+StMarks -> WorcesterAcademy[label="110.7
+04/15", weight="-10", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+FrederickGunn -> WorcesterAcademy[label="107.9
+04/15", weight="-7", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+Bancroft -> WorcesterAcademy[label="39.9
+04/15", weight="61", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+Bedford -> WorcesterAcademy[label="56.7
+04/08", weight="44", tooltip="NEIRA Boys & Girls Fours,Shrewsbury Opener: Shrewsbury vs. Bedford NH vs. Worcester Academy			
+Distance: 1000 Conditions: Cross tailwind for all races. Gusty at times & growing in strength as the races progressed. Comments: Events rowed as an exhibition / scrimmage to enable all visiting athletes a chance to compete on the day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4B8E9B0A9FBCF2437CE01792D4CB1428&cat=5", random="random"]; 
+Shrewsbury -> WorcesterAcademy[label="43.49
+04/08", weight="57", tooltip="NEIRA Boys & Girls Fours,Shrewsbury Opener: Shrewsbury vs. Bedford NH vs. Worcester Academy			
+Distance: 1000 Conditions: Cross tailwind for all races. Gusty at times & growing in strength as the races progressed. Comments: Events rowed as an exhibition / scrimmage to enable all visiting athletes a chance to compete on the day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4B8E9B0A9FBCF2437CE01792D4CB1428&cat=5", random="random"]}

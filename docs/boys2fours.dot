@@ -1,4 +1,4 @@
-digraph boys2fours {Berkshire [URL="boys2foursBerkshire.html"];BBN [URL="boys2foursBBN.html"];Pingree [URL="boys2foursPingree.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Andover [URL="boys2foursAndover.html"];Taft [URL="boys2foursTaft.html"];Hopkins [URL="boys2foursHopkins.html"];Stonington [URL="boys2foursStonington.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Southfield [URL="boys2foursSouthfield.html"];Berwick [URL="boys2foursBerwick.html"];EastLyme [URL="boys2foursEastLyme.html"];KentSchool [URL="boys2foursKentSchool.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Choate [URL="boys2foursChoate.html"];Farmington [URL="boys2foursFarmington.html"];Brooks [URL="boys2foursBrooks.html"];CambridgeRingeandLatinSchool [URL="boys2foursCambridgeRingeandLatinSchool.html"];Middlesex [URL="boys2foursMiddlesex.html"];StMarks [URL="boys2foursStMarks.html"];Groton [URL="boys2foursGroton.html"];NMH [URL="boys2foursNMH.html"];Nobles [URL="boys2foursNobles.html"];Brooks -> StMarks[label="41.0
+digraph boys2fours {BBN [URL="boys2foursBBN.html"];Hopkins [URL="boys2foursHopkins.html"];Berkshire [URL="boys2foursBerkshire.html"];Farmington [URL="boys2foursFarmington.html"];Andover [URL="boys2foursAndover.html"];Choate [URL="boys2foursChoate.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];StMarks [URL="boys2foursStMarks.html"];Southfield [URL="boys2foursSouthfield.html"];NMH [URL="boys2foursNMH.html"];Brooks [URL="boys2foursBrooks.html"];CambridgeRingeandLatinSchool [URL="boys2foursCambridgeRingeandLatinSchool.html"];Stonington [URL="boys2foursStonington.html"];Middlesex [URL="boys2foursMiddlesex.html"];Nobles [URL="boys2foursNobles.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Taft [URL="boys2foursTaft.html"];Groton [URL="boys2foursGroton.html"];Berwick [URL="boys2foursBerwick.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];KentSchool [URL="boys2foursKentSchool.html"];EastLyme [URL="boys2foursEastLyme.html"];Pingree [URL="boys2foursPingree.html"];Brooks -> StMarks[label="41.0
 04/22", weight="59", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -28,21 +28,6 @@ Pingree -> BrewsterAcademy[label="1.71
 04/15", weight="99", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
 Conditions: Light headwind
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]; 
-Nobles -> Groton[label="6.35
-04/22", weight="94", tooltip="NEIRA Boys Fours,BB&N vs Groton, Nobles			
-Distance: Charles River Powerhouse Conditions: moderately strong cross from port, slightly headwind, but since coming from Cambridge side, the racecourse was largely sheltered and the water was good. Comments: BB&N 4th boat's 3 seat popped an oarlock gate and lost their oar about 750m into the race, forcing them to come to a complete stop to replace the oar before continuing.
-A good day of racing, well rowed to Groton and Nobles!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=14D83BD14C341CC276B3C81E6777C0A2&cat=1", random="random"]; 
-Nobles -> BBN[label="19.35
-04/22", weight="81", tooltip="NEIRA Boys Fours,BB&N vs Groton, Nobles			
-Distance: Charles River Powerhouse Conditions: moderately strong cross from port, slightly headwind, but since coming from Cambridge side, the racecourse was largely sheltered and the water was good. Comments: BB&N 4th boat's 3 seat popped an oarlock gate and lost their oar about 750m into the race, forcing them to come to a complete stop to replace the oar before continuing.
-A good day of racing, well rowed to Groton and Nobles!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=14D83BD14C341CC276B3C81E6777C0A2&cat=1", random="random"]; 
-Groton -> BBN[label="13.0
-04/22", weight="87", tooltip="NEIRA Boys Fours,BB&N vs Groton, Nobles			
-Distance: Charles River Powerhouse Conditions: moderately strong cross from port, slightly headwind, but since coming from Cambridge side, the racecourse was largely sheltered and the water was good. Comments: BB&N 4th boat's 3 seat popped an oarlock gate and lost their oar about 750m into the race, forcing them to come to a complete stop to replace the oar before continuing.
-A good day of racing, well rowed to Groton and Nobles!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=14D83BD14C341CC276B3C81E6777C0A2&cat=1", random="random"]; 
 Choate -> Hopkins[label="12.38
 04/12", weight="88", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
 Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.

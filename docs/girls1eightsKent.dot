@@ -1,0 +1,24 @@
+digraph girls1eightsKent {Salisbury [URL="girls1eightsKentSalisbury.html"];Hingham [URL="girls1eightsKentHingham.html"];Kent [URL="girls1eightsKentKent.html"];Exeter [URL="girls1eightsKentExeter.html"];Deerfield [URL="girls1eightsKentDeerfield.html"];Shrewsbury [URL="girls1eightsKentShrewsbury.html"];BostonLatin [URL="girls1eightsKentBostonLatin.html"];Deerfield -> Kent[label="16.8
+04/08", weight="84", tooltip="NEIRA Girls Eights,Deerfield vs. Kent			
+Distance: 1680m Conditions: Fair conditions on flat water with a gusting 10mph cross tailwind in the first 500m. Comments: Congratulations to all three Deerfield crews on impressive racing. Thank you to Parker and Meg for launching their inaugural eights season with a race against Kent School.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=99230681DE272C5FECC179DDBE0FB911&cat=1", random="random"]; 
+Exeter -> Kent[label="14.2
+04/22", weight="86", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+BostonLatin -> Kent[label="4.0
+04/22", weight="96", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Kent -> Salisbury[label="14.7
+04/22", weight="86", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Kent -> Shrewsbury[label="18.1
+04/22", weight="82", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Kent -> Hingham[label="22.3
+04/22", weight="78", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]}

@@ -1,0 +1,24 @@
+digraph boys1foursWorcesterAcademy {Bancroft [URL="boys1foursWorcesterAcademyBancroft.html"];StMarks [URL="boys1foursWorcesterAcademyStMarks.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademyWorcesterAcademy.html"];NMH [URL="boys1foursWorcesterAcademyNMH.html"];Shrewsbury [URL="boys1foursWorcesterAcademyShrewsbury.html"];FrederickGunn [URL="boys1foursWorcesterAcademyFrederickGunn.html"];NMH -> WorcesterAcademy[label="34.69
+04/15", weight="66", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+FrederickGunn -> WorcesterAcademy[label="24.77
+04/15", weight="76", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+StMarks -> WorcesterAcademy[label="12.9
+04/15", weight="88", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+WorcesterAcademy -> Bancroft[label="67.7
+04/15", weight="33", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+Shrewsbury -> WorcesterAcademy[label="4.27
+04/08", weight="96", tooltip="NEIRA Boys & Girls Fours,Shrewsbury Opener: Shrewsbury vs. Bedford NH vs. Worcester Academy			
+Distance: 1000 Conditions: Cross tailwind for all races. Gusty at times & growing in strength as the races progressed. Comments: Events rowed as an exhibition / scrimmage to enable all visiting athletes a chance to compete on the day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4B8E9B0A9FBCF2437CE01792D4CB1428&cat=5", random="random"]}

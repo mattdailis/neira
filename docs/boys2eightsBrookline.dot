@@ -1,0 +1,12 @@
+digraph boys2eightsBrookline {BostonLatin [URL="boys2eightsBrooklineBostonLatin.html"];Brookline [URL="boys2eightsBrooklineBrookline.html"];BCHigh [URL="boys2eightsBrooklineBCHigh.html"];Duxbury [URL="boys2eightsBrooklineDuxbury.html"];BCHigh -> Brookline[label="2.8
+04/19", weight="98", tooltip="NEIRA Boys Eights,Brookline vs. BC High			
+Distance: 1250 Conditions: Blustery conditions, 12-15mph crosswind Comments: Challenging conditions to align boats, as the 3V and 2V races started below the line; times should be compared between races. Lower/novice crews raced in fours. Thanks to Brookline for a spirited morning of racing on the windy Charles!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=57012D86F8D9018705A9C77CE7885D58&cat=1", random="random"]; 
+Brookline -> Duxbury[label="11.39
+04/08", weight="89", tooltip="NEIRA Boys & Girls Eights,Brookline vs. Duxbury			
+Distance: 1250 Conditions: Slight cross tailwind for all races. Comments: Girls 1v: Duxbury caught crab in the last 300m. Girls 2v: Duxbury 2v had to stop to make course correction to avoid bridge abutment. Boys 3v event started 1 length over start line.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=725E4C4CC432BCB9A050FF17EC53126E&cat=5", random="random"]; 
+Brookline -> BostonLatin[label="6.46
+04/08", weight="94", tooltip="NEIRA Boys Eights,Salvo Cup: Boston Latin School vs. Brookline High School			
+Distance: 1250 Conditions: Slight cross tail wind for all races. Comments: Third Boat was raced as fours.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CA3CE44CF802CECE78B3CDED8C830E14&cat=1", random="random"]}

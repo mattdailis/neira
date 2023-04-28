@@ -5,11 +5,15 @@ from bs4 import BeautifulSoup
 from associationList import getNodes
 
 
-def pairsToDot(graph, orders):
+def pairsToDot(graph, orders, links=None):
     nodes = getNodes(orders)
     dot = "digraph "+graphName(graph)+" {"
     for node in nodes:
-        dot += nodeName(node) + ' [URL="'+nodeName(graph)+nodeName(node)+'.html"];'
+        if links is not None and node in links:
+            dot += nodeName(node) + ' [URL="'+links[node]+'.html"];'
+        else:
+            dot += nodeName(node) + ';'
+            
     edges = []
     for edge in orders:
         margin = edge.margin
@@ -120,7 +124,8 @@ def genHtml(name, graph):
         target.write('<a href="'+graph+'.html">Back to '+graph+'</a>')
     target.write('<IMG SRC="./'+ graphName(name) +'.dot.gif" USEMAP="#'+graphName(name)+'" />')
     # target.write('<IMG SRC="../../bin/'+ graphName(name) +'.dot.gif" />')
-    target.write(mapTag)
+    if mapTag is not None:
+        target.write(mapTag)
     # target.write(modalStr)
     target.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>')
     target.write('<script src="js/jquery.maphilight.js"></script>')
@@ -130,6 +135,8 @@ def genHtml(name, graph):
 
 def modMap(map, name):
     soup = BeautifulSoup(map, features="html.parser")
+    if not soup:
+        return
     soup.map['id'] = name
     soup.map['name'] = name
     for area in soup.map.children:
@@ -141,6 +148,10 @@ def modMap(map, name):
 
 def viz(name, url, orders):
     # genJs("gui.js", name, pairsToDot(name, orders))
-    genDot("../docs/"+graphName(url)+".dot", pairsToDot(name, orders))
+    links = {}
+    nodes = getNodes(orders)
+    for node in nodes:
+        links[node] = nodeName(name)+nodeName(node)
+    genDot("../docs/"+graphName(url)+".dot", pairsToDot(name, orders, links=links))
     genHtml(graphName(url), name)
     #genPdf("gv/"+nodeName(name)+".gv", "pdf/"+nodeName(name)+".pdf")

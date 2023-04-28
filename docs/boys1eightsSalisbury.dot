@@ -1,0 +1,56 @@
+digraph boys1eightsSalisbury {Salisbury [URL="boys1eightsSalisburySalisbury.html"];Hingham [URL="boys1eightsSalisburyHingham.html"];Andover [URL="boys1eightsSalisburyAndover.html"];Berwick [URL="boys1eightsSalisburyBerwick.html"];StJohnsPrep [URL="boys1eightsSalisburyStJohnsPrep.html"];Exeter [URL="boys1eightsSalisburyExeter.html"];Kent [URL="boys1eightsSalisburyKent.html"];Deerfield [URL="boys1eightsSalisburyDeerfield.html"];Shrewsbury [URL="boys1eightsSalisburyShrewsbury.html"];EastLyme [URL="boys1eightsSalisburyEastLyme.html"];Stonington [URL="boys1eightsSalisburyStonington.html"];Tabor [URL="boys1eightsSalisburyTabor.html"];Salisbury -> Berwick[label="6.7
+04/19", weight="94", tooltip="NEIRA Boys Eights,Salisbury vs. Brunswick, the Curtis Trophy			
+Distance: 1500m Conditions: 10-12 mph cross tail wind, choppy in the middle 500m. Comments: Good clean racing for all boats. As always, it was great to host Brunswick for our annual dual meet.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0BE61572BBA9B09014D8134F990CBA56&cat=1", random="random"]; 
+Salisbury -> Deerfield[label="4.0
+04/08", weight="96", tooltip="NEIRA Boys Eights,Salisbury, Andover, Deerfield			
+Distance: 1500m Conditions: 10 mph cross-tail for the 2V and 1V races, considerably less for the 3V race. Comments: Order was 2V, 1V, 3V. 
+In the 1V race, Andover steered into Deerfield at the 500m mark when they were level with each other. Both crews lost a stroke or two but recovered well. The coaches did not believe it affected the outcome of the race.
+Despite the aligning difficulties and the collision, it was an exciting and productive first race of the season. It was great to see everyone again--thanks to Andover and Deerfield for making the trip.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F84381F00FFA07BDD859A7C33C0F4F50&cat=1", random="random"]; 
+Salisbury -> Andover[label="10.1
+04/08", weight="90", tooltip="NEIRA Boys Eights,Salisbury, Andover, Deerfield			
+Distance: 1500m Conditions: 10 mph cross-tail for the 2V and 1V races, considerably less for the 3V race. Comments: Order was 2V, 1V, 3V. 
+In the 1V race, Andover steered into Deerfield at the 500m mark when they were level with each other. Both crews lost a stroke or two but recovered well. The coaches did not believe it affected the outcome of the race.
+Despite the aligning difficulties and the collision, it was an exciting and productive first race of the season. It was great to see everyone again--thanks to Andover and Deerfield for making the trip.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F84381F00FFA07BDD859A7C33C0F4F50&cat=1", random="random"]; 
+StJohnsPrep -> Salisbury[label="9.0
+04/15", weight="91", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
+Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
+Stonington -> Salisbury[label="6.2
+04/15", weight="94", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
+Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
+Salisbury -> EastLyme[label="0.8
+04/15", weight="100", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
+Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
+Salisbury -> Shrewsbury[label="3.7
+04/15", weight="97", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
+Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
+Salisbury -> Tabor[label="12.8
+04/15", weight="88", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
+Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
+Exeter -> Salisbury[label="23.0
+04/22", weight="77", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Kent -> Salisbury[label="22.6
+04/22", weight="78", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+StJohnsPrep -> Salisbury[label="7.7
+04/22", weight="93", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Hingham -> Salisbury[label="6.1
+04/22", weight="94", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Salisbury -> Shrewsbury[label="1.4
+04/22", weight="99", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]}

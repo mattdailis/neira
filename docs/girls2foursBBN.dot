@@ -1,0 +1,18 @@
+digraph girls2foursBBN {Nobles [URL="girls2foursBBNNobles.html"];BBN [URL="girls2foursBBNBBN.html"];Groton [URL="girls2foursBBNGroton.html"];CambridgeRingeandLatinSchool [URL="girls2foursBBNCambridgeRingeandLatinSchool.html"];BBN -> CambridgeRingeandLatinSchool[label="29.9
+04/08", weight="71", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
+Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
+The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
+Thanks to BB&N and congratulations to all for a great day of early season racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
+Nobles -> BBN[label="3.6
+04/22", weight="97", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
+Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
+For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
+3V had a delay due to steering breakage with Nobles boat
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=05316B43D68EB96907C1AF50E625F75C&cat=1", random="random"]; 
+BBN -> Groton[label="13.1
+04/22", weight="87", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
+Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
+For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
+3V had a delay due to steering breakage with Nobles boat
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=05316B43D68EB96907C1AF50E625F75C&cat=1", random="random"]}

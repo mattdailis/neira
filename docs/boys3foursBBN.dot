@@ -1,0 +1,16 @@
+digraph boys3foursBBN {Nobles [URL="boys3foursBBNNobles.html"];BBN [URL="boys3foursBBNBBN.html"];Groton [URL="boys3foursBBNGroton.html"];CambridgeRingeandLatinSchool [URL="boys3foursBBNCambridgeRingeandLatinSchool.html"];CambridgeRingeandLatinSchool -> BBN[label="2.5
+04/08", weight="98", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
+Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
+The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
+Thanks to BB&N and congratulations to all for a great day of early season racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
+Nobles -> BBN[label="27.3
+04/22", weight="73", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
+Distance: 1350m Conditions: moderate cross from port, slightly head
+Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]; 
+Groton -> BBN[label="16.63
+04/22", weight="84", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
+Distance: 1350m Conditions: moderate cross from port, slightly head
+Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]}

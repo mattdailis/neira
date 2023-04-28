@@ -1,0 +1,24 @@
+digraph boys2foursBBN {Southfield [URL="boys2foursBBNSouthfield.html"];Groton [URL="boys2foursBBNGroton.html"];CambridgeRingeandLatinSchool [URL="boys2foursBBNCambridgeRingeandLatinSchool.html"];BBN [URL="boys2foursBBNBBN.html"];Nobles [URL="boys2foursBBNNobles.html"];BBN -> CambridgeRingeandLatinSchool[label="8.7
+04/08", weight="92", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
+Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
+The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
+Thanks to BB&N and congratulations to all for a great day of early season racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
+BBN -> Southfield[label="52.0
+04/15", weight="48", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
+Distance: 1350m Conditions: moderate cross head quartering from port.
+slightly stronger for earlier races Comments: Dexter-Southfield boated a 1st and 2nd boat on the boys side and a 1st boat on the girls.
+BB&N's 4th, 5th and 6th boats on both the boys and girls side raced an exhibition piece against each other prior to the start of head-to-head racing.
+BB&N's 3rd boat boys raced in the shore lane of the 2nd boat race.
+BB&N's 2nd girls boat raced an exhibition against the BB&N 3rd girls.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6CA78FFEA8189C1DC931776413930B44&cat=5", random="random"]; 
+Nobles -> BBN[label="19.35
+04/22", weight="81", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
+Distance: 1350m Conditions: moderate cross from port, slightly head
+Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]; 
+Groton -> BBN[label="13.0
+04/22", weight="87", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
+Distance: 1350m Conditions: moderate cross from port, slightly head
+Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]}

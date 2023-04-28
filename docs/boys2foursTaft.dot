@@ -1,0 +1,12 @@
+digraph boys2foursTaft {Choate [URL="boys2foursTaftChoate.html"];Taft [URL="boys2foursTaftTaft.html"];LymeOldLyme [URL="boys2foursTaftLymeOldLyme.html"];Berkshire [URL="boys2foursTaftBerkshire.html"];Taft -> LymeOldLyme[label="23.85
+04/15", weight="77", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
+Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 
+Taft -> Berkshire[label="5.5
+04/22", weight="95", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
+Distance: 1490 M Conditions: Overcast, mid-50s. Variable, gusty wind; crosswind to quartering tail, 10-12 mph; mostly affecting latter half of the course. Comments: Great to have all three programs racing together again for the first time since 2019. Thanks to Choate and Taft for traveling and handling facilities issues.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=419D79B320ADFC7347A405B1AF3C51F0&cat=5", random="random"]; 
+Taft -> Choate[label="31.2
+04/22", weight="69", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
+Distance: 1490 M Conditions: Overcast, mid-50s. Variable, gusty wind; crosswind to quartering tail, 10-12 mph; mostly affecting latter half of the course. Comments: Great to have all three programs racing together again for the first time since 2019. Thanks to Choate and Taft for traveling and handling facilities issues.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=419D79B320ADFC7347A405B1AF3C51F0&cat=5", random="random"]}

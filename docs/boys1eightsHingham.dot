@@ -1,0 +1,24 @@
+digraph boys1eightsHingham {Salisbury [URL="boys1eightsHinghamSalisbury.html"];Hingham [URL="boys1eightsHinghamHingham.html"];StJohnsPrep [URL="boys1eightsHinghamStJohnsPrep.html"];Exeter [URL="boys1eightsHinghamExeter.html"];Kent [URL="boys1eightsHinghamKent.html"];Shrewsbury [URL="boys1eightsHinghamShrewsbury.html"];Exeter -> Hingham[label="16.9
+04/22", weight="84", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Kent -> Hingham[label="16.5
+04/22", weight="84", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+StJohnsPrep -> Hingham[label="1.6
+04/22", weight="99", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Hingham -> Salisbury[label="6.1
+04/22", weight="94", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Hingham -> Shrewsbury[label="7.5
+04/22", weight="93", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
+Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Hingham -> StJohnsPrep[label="10.4
+04/08", weight="90", tooltip="NEIRA Boys Eights,Hingham High School @ St. John’s Prep			
+Distance: Approx 1450 meters Conditions: Racing conditions were calm for the first half of the course and all boats dealt with a significant crosswind the last half of all races. Comments: Thanks to Hingham for making the trip to St. John’s. Great day of racing with colds temps and a strong crosswind. Good start to the year for both crews!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CA9581D726FD3B82392F9B41FE39C94A&cat=1", random="random"]}

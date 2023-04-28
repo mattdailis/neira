@@ -1,0 +1,10 @@
+digraph girls2foursBrewsterAcademy {BrewsterAcademy [URL="girls2foursBrewsterAcademyBrewsterAcademy.html"];Berwick [URL="girls2foursBrewsterAcademyBerwick.html"];BrewsterAcademy -> Berwick[label="97.5
+04/08", weight="3", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
+Distance: Berwick Conditions: Strong head wind gusts in the first 700 meters of the race creating some chop, but generally clean conditions for early April racing. Slightly increasing wind as races progressed. Comments: Race order was Girls 1V, Boys 2V, Girls 2V*,Boys 3V, & Boys 1V**
+*Please note that the Girls 2V should be considered an exhibition as there were Varsity rowers to fill out the line-ups to give younger rowers the chance to race.
+**Berwick suffered breakage before the race (which could not be mended on the water), so they raced without steering.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1244AED6B039578134601B7558C99C9B&cat=5", random="random"]; 
+BrewsterAcademy -> Berwick[label="61.23
+04/15", weight="39", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
+Conditions: Light headwind
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]}

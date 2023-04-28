@@ -1,0 +1,16 @@
+digraph boys3eightsDeerfield {Salisbury [URL="boys3eightsDeerfieldSalisbury.html"];Andover [URL="boys3eightsDeerfieldAndover.html"];Deerfield [URL="boys3eightsDeerfieldDeerfield.html"];Berwick [URL="boys3eightsDeerfieldBerwick.html"];Berwick -> Deerfield[label="2.6
+04/22", weight="98", tooltip="NEIRA Boys Eights,Brunswick vs. Deerfield			
+Distance: 1275m Conditions: All races were against an incoming tide. Stong crosswind created significant chop, especially in the final 500m. Comments: Thank you to Deerfield for rescheduling and making the trip.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CFD71A29710AA7EC335757AC9E330BF1&cat=1", random="random"]; 
+Andover -> Deerfield[label="3.9
+04/08", weight="97", tooltip="NEIRA Boys Eights,Salisbury, Andover, Deerfield			
+Distance: 1500m Conditions: 10 mph cross-tail for the 2V and 1V races, considerably less for the 3V race. Comments: Order was 2V, 1V, 3V. 
+In the 1V race, Andover steered into Deerfield at the 500m mark when they were level with each other. Both crews lost a stroke or two but recovered well. The coaches did not believe it affected the outcome of the race.
+Despite the aligning difficulties and the collision, it was an exciting and productive first race of the season. It was great to see everyone again--thanks to Andover and Deerfield for making the trip.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F84381F00FFA07BDD859A7C33C0F4F50&cat=1", random="random"]; 
+Deerfield -> Salisbury[label="25.7
+04/08", weight="75", tooltip="NEIRA Boys Eights,Salisbury, Andover, Deerfield			
+Distance: 1500m Conditions: 10 mph cross-tail for the 2V and 1V races, considerably less for the 3V race. Comments: Order was 2V, 1V, 3V. 
+In the 1V race, Andover steered into Deerfield at the 500m mark when they were level with each other. Both crews lost a stroke or two but recovered well. The coaches did not believe it affected the outcome of the race.
+Despite the aligning difficulties and the collision, it was an exciting and productive first race of the season. It was great to see everyone again--thanks to Andover and Deerfield for making the trip.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F84381F00FFA07BDD859A7C33C0F4F50&cat=1", random="random"]}

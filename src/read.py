@@ -161,7 +161,6 @@ def main():
         edges = orders[boat]
         viz(boat, boat, edges)
 
-        import pdb; pdb.set_trace()
         schools = {x.first for x in edges}
         schools.update({x.second for x in edges})
 

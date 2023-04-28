@@ -1,0 +1,12 @@
+digraph boys1foursValley {Canterbury [URL="boys1foursValleyCanterbury.html"];Valley [URL="boys1foursValleyValley.html"];LymeOldLyme [URL="boys1foursValleyLymeOldLyme.html"];Taft [URL="boys1foursValleyTaft.html"];LymeOldLyme -> Valley[label="50.83
+04/15", weight="50", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
+Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 
+Taft -> Valley[label="48.21
+04/15", weight="52", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
+Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 
+Canterbury -> Valley[label="0.9
+04/15", weight="100", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
+Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]}
