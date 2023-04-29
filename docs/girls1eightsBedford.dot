@@ -1,5 +1,10 @@
-digraph girls1eightsBedford {Shrewsbury [URL="girls1eightsBedfordShrewsbury.html"];Bedford [URL="girls1eightsBedfordBedford.html"];Bedford -> Shrewsbury[label="43.26
+digraph girls1eightsBedford {Bedford [URL="girls1eightsBedfordBedford.html"];Shrewsbury [URL="girls1eightsBedfordShrewsbury.html"];StPauls [URL="girls1eightsBedfordStPauls.html"];Bedford -> Shrewsbury[label="43.26
 04/08", weight="57", tooltip="NEIRA Boys & Girls Eights,Shrewsbury Opener: Shrewsbury vs. Bedford vs. St. John's			
 Distance: 1500 Conditions: Cross tail wind gusting to strong at times. Comments: G1V: Shrewsbury & Bedford were even at the 200m mark at which point Shrewsbury caught a boat-stopping crab resulting in a 30-45 sec stoppage. 
 The Fourth Boat events in both Boy's and Girl's results are for Novice Crews.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B8E319823F5E06EE7205EBA30FA0A509&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B8E319823F5E06EE7205EBA30FA0A509&cat=5", random="random"]; 
+StPauls -> Bedford[label="24.1
+04/26", weight="76", tooltip="NEIRA Girls Eights,Bedford vs. St. Paul's School			
+Distance: 1500 meters Conditions: Light cross tailwind increasing slightly through the racing. Flat water. Order of racing G4, G3, G2, G1. Comments: In the G3 race, the crews collided after about 10-15 strokes. The race was stopped and crews were realigned where the collision occurred, significantly over the line. Times from this race should not be compared to other races.
+Big thanks to Bedford for making the trip and for great racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=608C1BE9E0197637711B9A078107C71E&cat=1", random="random"]}

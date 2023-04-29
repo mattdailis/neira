@@ -1,4 +1,14 @@
-digraph girls1foursWinsor {NewtonCountryDay [URL="girls1foursWinsorNewtonCountryDay.html"];Winsor [URL="girls1foursWinsorWinsor.html"];Winsor -> NewtonCountryDay[label="20.6
+digraph girls1foursWinsor {Winsor [URL="girls1foursWinsorWinsor.html"];Hopkins [URL="girls1foursWinsorHopkins.html"];BBN [URL="girls1foursWinsorBBN.html"];NewtonCountryDay [URL="girls1foursWinsorNewtonCountryDay.html"];Winsor -> BBN[label="1.9
+04/29", weight="99", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
+Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
+The 5th boat race was in 8's with Winsor and BB&N
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D808E65A5EEBFB&cat=1", random="random"]; 
+Winsor -> Hopkins[label="16.6
+04/29", weight="84", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
+Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
+The 5th boat race was in 8's with Winsor and BB&N
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D808E65A5EEBFB&cat=1", random="random"]; 
+Winsor -> NewtonCountryDay[label="20.6
 04/22", weight="80", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
 Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]}

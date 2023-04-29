@@ -1,0 +1,18 @@
+digraph girls2foursWorcesterAcademy {StMarysLynn [URL="girls2foursWorcesterAcademyStMarysLynn.html"];MarianapolisPrep [URL="girls2foursWorcesterAcademyMarianapolisPrep.html"];EagleHill [URL="girls2foursWorcesterAcademyEagleHill.html"];Derryfield [URL="girls2foursWorcesterAcademyDerryfield.html"];WorcesterAcademy [URL="girls2foursWorcesterAcademyWorcesterAcademy.html"];StMarysLynn -> WorcesterAcademy[label="88.0
+04/26", weight="12", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
+Distance: 1500 meters Conditions: Minimal wind, no chop.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=38305821F0E11F6B4B5BC132E9B3DE79&cat=5", random="random"]; 
+EagleHill -> WorcesterAcademy[label="22.0
+04/26", weight="78", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
+Distance: 1500 meters Conditions: Minimal wind, no chop.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=38305821F0E11F6B4B5BC132E9B3DE79&cat=5", random="random"]; 
+Derryfield -> WorcesterAcademy[label="103.5
+04/23", weight="-3", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
+Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
+A special thanks to Paul Carabillo for refereeing the match.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]; 
+MarianapolisPrep -> WorcesterAcademy[label="60.7
+04/23", weight="40", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
+Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
+A special thanks to Paul Carabillo for refereeing the match.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]}

@@ -1,4 +1,8 @@
-digraph girls2foursLymeOldLyme {Taft [URL="girls2foursLymeOldLymeTaft.html"];NMH [URL="girls2foursLymeOldLymeNMH.html"];Valley [URL="girls2foursLymeOldLymeValley.html"];GreenwichAcademy [URL="girls2foursLymeOldLymeGreenwichAcademy.html"];Hopkins [URL="girls2foursLymeOldLymeHopkins.html"];LymeOldLyme [URL="girls2foursLymeOldLymeLymeOldLyme.html"];GreenwichAcademy -> LymeOldLyme[label="35.9
+digraph girls2foursLymeOldLyme {GreenwichAcademy [URL="girls2foursLymeOldLymeGreenwichAcademy.html"];NMH [URL="girls2foursLymeOldLymeNMH.html"];LymeOldLyme [URL="girls2foursLymeOldLymeLymeOldLyme.html"];Taft [URL="girls2foursLymeOldLymeTaft.html"];Hopkins [URL="girls2foursLymeOldLymeHopkins.html"];Valley [URL="girls2foursLymeOldLymeValley.html"];LymeOldLyme -> Valley[label="17.6
+04/26", weight="83", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
+Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
+GreenwichAcademy -> LymeOldLyme[label="35.9
 04/15", weight="65", tooltip="NEIRA Girls Fours,Taft, Greenwich Academy, Valley, Lyme-Old Lyme, Canterbury			
 Distance: 1500m Conditions: Order of racing: G2, G3/G4 (raced together). 8mph crosswind for the G2 race; 10-12 mph for the G3/G4 race; shifting around to a cross tail wind for the final 350 meters or so in both races. Comments: The G3/G4 race needed three tries to get a clean race going. Good work by novice coxswains to get their boats aligned in a crosswind. During the race, the GA 3V caught a boat-stopping crab with 350 meters left; they were leading all boats until that point in the race. 
 The G1 race was canceled at the starting line because of lightning. 
@@ -16,6 +20,14 @@ Distance: 1500m Conditions: Order of racing: G2, G3/G4 (raced together). 8mph cr
 The G1 race was canceled at the starting line because of lightning. 
 Thank you to all the coaches, coxswains, and rowers for getting twelve shells off the water in record time.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&cat=1", random="random"]; 
+NMH -> LymeOldLyme[label="17.69
+04/22", weight="83", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
+Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&cat=5", random="random"]; 
+LymeOldLyme -> Hopkins[label="10.79
+04/22", weight="90", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
+Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&cat=5", random="random"]; 
 NMH -> LymeOldLyme[label="_
 04/22", weight="99", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/Old Lyme, Northfield Mount Hermon			
 Distance: 1500m Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty head and cross wind worsening from 9 to 14mph in the later races, significant chop in the first half of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Several boats missed the turn buoys taking a shortcut through the return lane, so to our regret their final results were disqualified by the chief referee. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!

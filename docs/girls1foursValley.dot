@@ -1,4 +1,8 @@
-digraph girls1foursValley {Valley [URL="girls1foursValleyValley.html"];GreenwichAcademy [URL="girls1foursValleyGreenwichAcademy.html"];GreenwichAcademy -> Valley[label="38.0
+digraph girls1foursValley {Valley [URL="girls1foursValleyValley.html"];LymeOldLyme [URL="girls1foursValleyLymeOldLyme.html"];GreenwichAcademy [URL="girls1foursValleyGreenwichAcademy.html"];LymeOldLyme -> Valley[label="27.6
+04/26", weight="73", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
+Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
+GreenwichAcademy -> Valley[label="38.0
 04/22", weight="62", tooltip="NEIRA Girls Fours,Greenwich Academy vs. Valley Regional			
 Distance: 1250m Conditions: Windy, with conditions in the last 500m getting progressively choppier through the day. Strong cross-tailwind for all races. Comments: Race order went 3V-1V-2V-4V. Due to high winds, racing was shortened to 1100m for the 2V race and 1000m for the 4V race.
 A big thanks to Valley Regional for making the trip to Greenwich!

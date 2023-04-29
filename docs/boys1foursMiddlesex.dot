@@ -1,8 +1,12 @@
-digraph boys1foursMiddlesex {Brooks [URL="boys1foursMiddlesexBrooks.html"];StMarks [URL="boys1foursMiddlesexStMarks.html"];Middlesex [URL="boys1foursMiddlesexMiddlesex.html"];Brooks -> Middlesex[label="4.0
+digraph boys1foursMiddlesex {StMarks [URL="boys1foursMiddlesexStMarks.html"];BelmontHill [URL="boys1foursMiddlesexBelmontHill.html"];Brooks [URL="boys1foursMiddlesexBrooks.html"];Middlesex [URL="boys1foursMiddlesexMiddlesex.html"];Brooks -> Middlesex[label="4.0
 04/22", weight="96", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
 Middlesex -> StMarks[label="20.0
 04/22", weight="80", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
+BelmontHill -> Middlesex[label="14.9
+04/26", weight="86", tooltip="NEIRA Boys Fours,Middlesex vs. Belmont Hill			
+Distance: 1500m Conditions: Light, variable breeze with flat water. Great racing conditions. Comments: Due to illnesses on the team, Belmont Hill shifted multiple lineups on race day. Thank you Belmont for joining us for a good afternoon of racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E473BAD40172D779EB4C466D13EA851D&cat=1", random="random"]}

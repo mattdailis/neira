@@ -1,8 +1,16 @@
-digraph boys1eightsBCHigh {BostonLatin [URL="boys1eightsBCHighBostonLatin.html"];Brookline [URL="boys1eightsBCHighBrookline.html"];BCHigh [URL="boys1eightsBCHighBCHigh.html"];Brookline -> BCHigh[label="5.9
+digraph boys1eightsBCHigh {StJohnsPrep [URL="boys1eightsBCHighStJohnsPrep.html"];Brookline [URL="boys1eightsBCHighBrookline.html"];BostonLatin [URL="boys1eightsBCHighBostonLatin.html"];StPauls [URL="boys1eightsBCHighStPauls.html"];BCHigh [URL="boys1eightsBCHighBCHigh.html"];Brookline -> BCHigh[label="5.9
 04/19", weight="95", tooltip="NEIRA Boys Eights,Brookline vs. BC High			
 Distance: 1250 Conditions: Blustery conditions, 12-15mph crosswind Comments: Challenging conditions to align boats, as the 3V and 2V races started below the line; times should be compared between races. Lower/novice crews raced in fours. Thanks to Brookline for a spirited morning of racing on the windy Charles!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=57012D86F8D9018705A9C77CE7885D58&cat=1", random="random"]; 
 BCHigh -> BostonLatin[label="5.4
 04/15", weight="95", tooltip="NEIRA Boys Eights,Boston Latin vs. Boston College High School			
 Distance: 1250 m Conditions: Flat water, 3-5mph wind Comments: 3V raced in fours. Thanks to Boston Latin for some great racing!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8B3E6AE7D490430B7EF089F091569178&cat=1", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8B3E6AE7D490430B7EF089F091569178&cat=1", random="random"]; 
+BCHigh -> StJohnsPrep[label="1.3
+04/29", weight="99", tooltip="NEIRA Boys Eights,St. John's Prep vs. BC High			
+Distance: 1250 Conditions: Flat water, slight headwind. Comments: The 4V race started downstream of the start. Thank you to St. John's Prep and Coach Broderick for making the trip and the great racing, especially in the 1V race which came right down to the wire.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B5147A15402A02BEBABC90382120769C&cat=1", random="random"]; 
+StPauls -> BCHigh[label="16.2
+04/26", weight="84", tooltip="NEIRA Boys Eights,St. Paul's vs BC High, Belmont Hill			
+Distance: 1250 m Conditions: Cross/headwind ~10mph Comments: Crews in the 2V, 3V, and 4V races started slightly past the line. Belmont Hill and BC High lower boats raced in eights. Thank you to St. Paul's for making the trip: a great afternoon of racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=142B4941939634305C63425CF5FF798E&cat=1", random="random"]}

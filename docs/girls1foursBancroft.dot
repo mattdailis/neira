@@ -1,4 +1,4 @@
-digraph girls1foursBancroft {Bancroft [URL="girls1foursBancroftBancroft.html"];StMarks [URL="girls1foursBancroftStMarks.html"];WorcesterAcademy [URL="girls1foursBancroftWorcesterAcademy.html"];NMH [URL="girls1foursBancroftNMH.html"];Choate [URL="girls1foursBancroftChoate.html"];FrederickGunn [URL="girls1foursBancroftFrederickGunn.html"];NMH -> Bancroft[label="79.7
+digraph girls1foursBancroft {Choate [URL="girls1foursBancroftChoate.html"];MarianapolisPrep [URL="girls1foursBancroftMarianapolisPrep.html"];Derryfield [URL="girls1foursBancroftDerryfield.html"];NMH [URL="girls1foursBancroftNMH.html"];Bancroft [URL="girls1foursBancroftBancroft.html"];VermontAcademy [URL="girls1foursBancroftVermontAcademy.html"];WorcesterAcademy [URL="girls1foursBancroftWorcesterAcademy.html"];StMarks [URL="girls1foursBancroftStMarks.html"];FrederickGunn [URL="girls1foursBancroftFrederickGunn.html"];NMH -> Bancroft[label="79.7
 04/15", weight="21", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
@@ -22,4 +22,24 @@ Bancroft -> WorcesterAcademy[label="39.9
 04/15", weight="61", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+MarianapolisPrep -> Bancroft[label="38.7
+04/23", weight="62", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
+Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
+A special thanks to Paul Carabillo for refereeing the match.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]; 
+Derryfield -> Bancroft[label="26.5
+04/23", weight="74", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
+Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
+A special thanks to Paul Carabillo for refereeing the match.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]; 
+Bancroft -> WorcesterAcademy[label="17.5
+04/23", weight="83", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
+Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
+A special thanks to Paul Carabillo for refereeing the match.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]; 
+Bancroft -> VermontAcademy[label="18.2
+04/23", weight="82", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
+Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
+A special thanks to Paul Carabillo for refereeing the match.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]}

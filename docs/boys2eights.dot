@@ -1,4 +1,4 @@
-digraph boys2eights {Hingham [URL="boys2eightsHingham.html"];Glastonbury [URL="boys2eightsGlastonbury.html"];Deerfield [URL="boys2eightsDeerfield.html"];Tabor [URL="boys2eightsTabor.html"];Duxbury [URL="boys2eightsDuxbury.html"];StPauls [URL="boys2eightsStPauls.html"];Andover [URL="boys2eightsAndover.html"];BostonLatin [URL="boys2eightsBostonLatin.html"];StJohnsPrep [URL="boys2eightsStJohnsPrep.html"];Kent [URL="boys2eightsKent.html"];Shrewsbury [URL="boys2eightsShrewsbury.html"];Bedford [URL="boys2eightsBedford.html"];Stonington [URL="boys2eightsStonington.html"];Salisbury [URL="boys2eightsSalisbury.html"];Berwick [URL="boys2eightsBerwick.html"];Exeter [URL="boys2eightsExeter.html"];FairfieldPrep [URL="boys2eightsFairfieldPrep.html"];BCHigh [URL="boys2eightsBCHigh.html"];EastLyme [URL="boys2eightsEastLyme.html"];Guilford [URL="boys2eightsGuilford.html"];Brookline [URL="boys2eightsBrookline.html"];Berwick -> Salisbury[label="9.4
+digraph boys2eights {FairfieldPrep [URL="boys2eightsFairfieldPrep.html"];Guilford [URL="boys2eightsGuilford.html"];Tabor [URL="boys2eightsTabor.html"];Duxbury [URL="boys2eightsDuxbury.html"];StPauls [URL="boys2eightsStPauls.html"];Kent [URL="boys2eightsKent.html"];Hingham [URL="boys2eightsHingham.html"];BCHigh [URL="boys2eightsBCHigh.html"];Salisbury [URL="boys2eightsSalisbury.html"];Farmington [URL="boys2eightsFarmington.html"];StJohnsPrep [URL="boys2eightsStJohnsPrep.html"];Stonington [URL="boys2eightsStonington.html"];Glastonbury [URL="boys2eightsGlastonbury.html"];EastLyme [URL="boys2eightsEastLyme.html"];Berwick [URL="boys2eightsBerwick.html"];SacredHeart [URL="boys2eightsSacredHeart.html"];Brookline [URL="boys2eightsBrookline.html"];Deerfield [URL="boys2eightsDeerfield.html"];BostonLatin [URL="boys2eightsBostonLatin.html"];Shrewsbury [URL="boys2eightsShrewsbury.html"];Exeter [URL="boys2eightsExeter.html"];Bedford [URL="boys2eightsBedford.html"];Andover [URL="boys2eightsAndover.html"];Berwick -> Salisbury[label="9.4
 04/19", weight="91", tooltip="NEIRA Boys Eights,Salisbury vs. Brunswick, the Curtis Trophy			
 Distance: 1500m Conditions: 10-12 mph cross tail wind, choppy in the middle 500m. Comments: Good clean racing for all boats. As always, it was great to host Brunswick for our annual dual meet.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0BE61572BBA9B09014D8134F990CBA56&cat=1", random="random"]; 
@@ -52,6 +52,11 @@ BCHigh -> BostonLatin[label="12.3
 04/15", weight="88", tooltip="NEIRA Boys Eights,Boston Latin vs. Boston College High School			
 Distance: 1250 m Conditions: Flat water, 3-5mph wind Comments: 3V raced in fours. Thanks to Boston Latin for some great racing!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=8B3E6AE7D490430B7EF089F091569178&cat=1", random="random"]; 
+FairfieldPrep -> Berwick[label="4.87
+04/29", weight="96", tooltip="NEIRA Boys Eights,Kulaga Cup: Fairfield vs Brunswick			
+Distance: 1400 Conditions: Conditions were difficult. Cross tail wind steady at 15 mph, gusting to 25-30 at times. Outgoing tide. Mid course white caps, the later portion of the course was nearly flat conditions. Comments: Race order was 3,2,1,4. Conditions dictated a shortened course for the 4th boats, they raced 1K. Starting line for all races was approximate, crews were level but times cannot be compared between races at all.
+A challenging day, thank you to Brunswick and Coach Martin for persevering and taking on the conditions. Brunswick retains the Kulaga Cup by winning the 3rd and 1st boat races.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C45F86C4CF4AF837EE39AB3FC39A8736&cat=1", random="random"]; 
 StJohnsPrep -> Stonington[label="1.3
 04/15", weight="99", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
 Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
@@ -129,6 +134,10 @@ Bedford -> Shrewsbury[label="6.15
 Distance: 1500 Conditions: Cross tail wind gusting to strong at times. Comments: G1V: Shrewsbury & Bedford were even at the 200m mark at which point Shrewsbury caught a boat-stopping crab resulting in a 30-45 sec stoppage. 
 The Fourth Boat events in both Boy's and Girl's results are for Novice Crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B8E319823F5E06EE7205EBA30FA0A509&cat=5", random="random"]; 
+BCHigh -> StJohnsPrep[label="8.3
+04/29", weight="92", tooltip="NEIRA Boys Eights,St. John's Prep vs. BC High			
+Distance: 1250 Conditions: Flat water, slight headwind. Comments: The 4V race started downstream of the start. Thank you to St. John's Prep and Coach Broderick for making the trip and the great racing, especially in the 1V race which came right down to the wire.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B5147A15402A02BEBABC90382120769C&cat=1", random="random"]; 
 Brookline -> Duxbury[label="11.39
 04/08", weight="89", tooltip="NEIRA Boys & Girls Eights,Brookline vs. Duxbury			
 Distance: 1250 Conditions: Slight cross tailwind for all races. Comments: Girls 1v: Duxbury caught crab in the last 300m. Girls 2v: Duxbury 2v had to stop to make course correction to avoid bridge abutment. Boys 3v event started 1 length over start line.
@@ -137,6 +146,10 @@ Brookline -> BostonLatin[label="6.46
 04/08", weight="94", tooltip="NEIRA Boys Eights,Salvo Cup: Boston Latin School vs. Brookline High School			
 Distance: 1250 Conditions: Slight cross tail wind for all races. Comments: Third Boat was raced as fours.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CA3CE44CF802CECE78B3CDED8C830E14&cat=1", random="random"]; 
+Farmington -> Guilford[label="38.0
+04/29", weight="62", tooltip="NEIRA Boys & Girls Eights,Guilford High School vs Farmington High School			
+Distance: 1400m Conditions: 7-10mph head/cross wind Comments: All starts were floating starts. Races are not comparable. Race Order G1, B1, G2, BN. Farmington 2V Boys 8, 3V boys 8 and Girls Novice 8 rowed as exhibition boats. Thank you Farmington for a great morning of racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EAD62B2712391FF51E6EC8766B20FC79&cat=5", random="random"]; 
 Exeter -> Kent[label="3.6
 04/22", weight="97", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
 Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
@@ -197,6 +210,14 @@ Salisbury -> Shrewsbury[label="9.3
 04/22", weight="91", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
 Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
+Farmington -> SacredHeart[label="5.31
+04/26", weight="95", tooltip="NEIRA Eights,Farmington vs Sacred Heart Greenwich			
+Distance: 1,150 Conditions: Strong head current, 5-10 mph crosswind. Comments: Race order G1, G2. Thank you to Sacred Heart for a great day of racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2FCC537F649DB7E2C91000C15D90788F&cat=1", random="random"]; 
+BCHigh -> StPauls[label="7.9
+04/26", weight="93", tooltip="NEIRA Boys Eights,St. Paul's vs BC High, Belmont Hill			
+Distance: 1250 m Conditions: Cross/headwind ~10mph Comments: Crews in the 2V, 3V, and 4V races started slightly past the line. Belmont Hill and BC High lower boats raced in eights. Thank you to St. Paul's for making the trip: a great afternoon of racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=142B4941939634305C63425CF5FF798E&cat=1", random="random"]; 
 StJohnsPrep -> Hingham[label="4.9
 04/08", weight="96", tooltip="NEIRA Boys Eights,Hingham High School @ St. John’s Prep			
 Distance: Approx 1450 meters Conditions: Racing conditions were calm for the first half of the course and all boats dealt with a significant crosswind the last half of all races. Comments: Thanks to Hingham for making the trip to St. John’s. Great day of racing with colds temps and a strong crosswind. Good start to the year for both crews!

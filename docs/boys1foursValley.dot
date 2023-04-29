@@ -1,4 +1,8 @@
-digraph boys1foursValley {Canterbury [URL="boys1foursValleyCanterbury.html"];Valley [URL="boys1foursValleyValley.html"];LymeOldLyme [URL="boys1foursValleyLymeOldLyme.html"];Taft [URL="boys1foursValleyTaft.html"];LymeOldLyme -> Valley[label="50.83
+digraph boys1foursValley {Taft [URL="boys1foursValleyTaft.html"];Valley [URL="boys1foursValleyValley.html"];Canterbury [URL="boys1foursValleyCanterbury.html"];LymeOldLyme [URL="boys1foursValleyLymeOldLyme.html"];Valley -> LymeOldLyme[label="21.4
+04/26", weight="79", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
+Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
+LymeOldLyme -> Valley[label="50.83
 04/15", weight="50", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
 Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 

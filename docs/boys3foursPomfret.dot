@@ -1,0 +1,12 @@
+digraph boys3foursPomfret {Berkshire [URL="boys3foursPomfretBerkshire.html"];Pomfret [URL="boys3foursPomfretPomfret.html"];Groton [URL="boys3foursPomfretGroton.html"];Taft [URL="boys3foursPomfretTaft.html"];Berkshire -> Pomfret[label="4.0
+04/26", weight="96", tooltip="NEIRA Boys Fours,Pomfret vs. Berkshire			
+Distance: 1500 Conditions: No current. Slight crossing tailwind to begin (ESE ~6 to 8 MPH) that increased in speed and became more of a solid (S ~10-12 MPH) tail by the last race. Comments: Order of races: B3, B2, B1, B4. There were some girls' races between each.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CB9AFEA5B1B59D6BB2AE6F6222405B5E&cat=1", random="random"]; 
+Groton -> Pomfret[label="68.4
+04/29", weight="32", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
+Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=06436C78C6DB17E1D158607A2B127B2B&cat=1", random="random"]; 
+Taft -> Pomfret[label="21.6
+04/29", weight="79", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
+Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=06436C78C6DB17E1D158607A2B127B2B&cat=1", random="random"]}

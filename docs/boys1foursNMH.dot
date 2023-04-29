@@ -1,4 +1,4 @@
-digraph boys1foursNMH {Bancroft [URL="boys1foursNMHBancroft.html"];StMarks [URL="boys1foursNMHStMarks.html"];WorcesterAcademy [URL="boys1foursNMHWorcesterAcademy.html"];NMH [URL="boys1foursNMHNMH.html"];FrederickGunn [URL="boys1foursNMHFrederickGunn.html"];Hopkins [URL="boys1foursNMHHopkins.html"];LymeOldLyme [URL="boys1foursNMHLymeOldLyme.html"];NMH -> FrederickGunn[label="9.92
+digraph boys1foursNMH {NMH [URL="boys1foursNMHNMH.html"];LymeOldLyme [URL="boys1foursNMHLymeOldLyme.html"];Bancroft [URL="boys1foursNMHBancroft.html"];WorcesterAcademy [URL="boys1foursNMHWorcesterAcademy.html"];StMarks [URL="boys1foursNMHStMarks.html"];FrederickGunn [URL="boys1foursNMHFrederickGunn.html"];Hopkins [URL="boys1foursNMHHopkins.html"];NMH -> FrederickGunn[label="9.92
 04/15", weight="91", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
@@ -18,6 +18,14 @@ NMH -> Bancroft[label="102.39
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+NMH -> LymeOldLyme[label="7.12
+04/22", weight="93", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
+Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&cat=5", random="random"]; 
+NMH -> Hopkins[label="9.96
+04/22", weight="91", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
+Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&cat=5", random="random"]; 
 NMH -> LymeOldLyme[label="7.12
 04/22", weight="93", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/Old Lyme, Northfield Mount Hermon			
 Distance: 1500m Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty head and cross wind worsening from 9 to 14mph in the later races, significant chop in the first half of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Several boats missed the turn buoys taking a shortcut through the return lane, so to our regret their final results were disqualified by the chief referee. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!

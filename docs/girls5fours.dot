@@ -1,4 +1,9 @@
-digraph girls5fours {Nobles [URL="girls5foursNobles.html"];EastLyme [URL="girls5foursEastLyme.html"];Brooks [URL="girls5foursBrooks.html"];Stonington [URL="girls5foursStonington.html"];Nobles -> Brooks[label="11.7
+digraph girls5fours {Stonington [URL="girls5foursStonington.html"];BBN [URL="girls5foursBBN.html"];Brooks [URL="girls5foursBrooks.html"];EastLyme [URL="girls5foursEastLyme.html"];Winsor [URL="girls5foursWinsor.html"];Nobles [URL="girls5foursNobles.html"];Winsor -> BBN[label="12.8
+04/29", weight="88", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
+Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
+The 5th boat race was in 8's with Winsor and BB&N
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D808E65A5EEBFB&cat=1", random="random"]; 
+Nobles -> Brooks[label="11.7
 04/15", weight="89", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.

@@ -1,4 +1,4 @@
-digraph girls2eightsBrookline {BostonLatin [URL="girls2eightsBrooklineBostonLatin.html"];Brookline [URL="girls2eightsBrooklineBrookline.html"];Duxbury [URL="girls2eightsBrooklineDuxbury.html"];Brookline -> Duxbury[label="20.1
+digraph girls2eightsBrookline {Duxbury [URL="girls2eightsBrooklineDuxbury.html"];BostonLatin [URL="girls2eightsBrooklineBostonLatin.html"];Brookline [URL="girls2eightsBrooklineBrookline.html"];Brookline -> Duxbury[label="20.1
 04/08", weight="80", tooltip="NEIRA Boys & Girls Eights,Brookline vs. Duxbury			
 Distance: 1250 Conditions: Slight cross tailwind for all races. Comments: Girls 1v: Duxbury caught crab in the last 300m. Girls 2v: Duxbury 2v had to stop to make course correction to avoid bridge abutment. Boys 3v event started 1 length over start line.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=725E4C4CC432BCB9A050FF17EC53126E&cat=5", random="random"]; 
