@@ -1,4 +1,16 @@
-digraph girls2foursNewtonCountryDay {Winsor [URL="girls2foursNewtonCountryDayWinsor.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDayNewtonCountryDay.html"];Winsor -> NewtonCountryDay[label="29.3
+digraph girls2foursNewtonCountryDay {Winsor [URL="girls2foursNewtonCountryDayWinsor.html"];BrewsterAcademy [URL="girls2foursNewtonCountryDayBrewsterAcademy.html"];StMarks [URL="girls2foursNewtonCountryDayStMarks.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDayNewtonCountryDay.html"];Nobles [URL="girls2foursNewtonCountryDayNobles.html"];Winsor -> NewtonCountryDay[label="29.3
 04/22", weight="71", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
 Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]; 
+Nobles -> NewtonCountryDay[label="29.9
+04/29", weight="71", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
+Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=ECC2D848FD3B652027FAF8EF8C359ADE&cat=5", random="random"]; 
+StMarks -> NewtonCountryDay[label="3.5
+04/29", weight="97", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
+Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=ECC2D848FD3B652027FAF8EF8C359ADE&cat=5", random="random"]; 
+NewtonCountryDay -> BrewsterAcademy[label="18.2
+04/29", weight="82", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
+Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=ECC2D848FD3B652027FAF8EF8C359ADE&cat=5", random="random"]}

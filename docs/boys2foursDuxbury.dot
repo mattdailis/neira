@@ -1,0 +1,20 @@
+digraph boys2foursDuxbury {Brookline [URL="boys2foursDuxburyBrookline.html"];Shrewsbury [URL="boys2foursDuxburyShrewsbury.html"];EastLyme [URL="boys2foursDuxburyEastLyme.html"];Duxbury [URL="boys2foursDuxburyDuxbury.html"];StJohnsPrep [URL="boys2foursDuxburyStJohnsPrep.html"];Salisbury [URL="boys2foursDuxburySalisbury.html"];Brookline -> Duxbury[label="8.8
+04/29", weight="92", tooltip="NEIRA,Quinsigamond Cup			
+Distance: 1500 Meters Conditions: Cross wind from Lane 6 with Variable Head/Tail wind Comments: Races were floating starts, please do no compare times. In the G4, there was a restart about 250 meters over the line. A special thank you to St. John's and Shrewsbury for hosting the day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D682CBC1FCE36890658D2D28FE95424&cat=5", random="random"]; 
+StJohnsPrep -> Duxbury[label="6.0
+04/29", weight="94", tooltip="NEIRA,Quinsigamond Cup			
+Distance: 1500 Meters Conditions: Cross wind from Lane 6 with Variable Head/Tail wind Comments: Races were floating starts, please do no compare times. In the G4, there was a restart about 250 meters over the line. A special thank you to St. John's and Shrewsbury for hosting the day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D682CBC1FCE36890658D2D28FE95424&cat=5", random="random"]; 
+Duxbury -> Shrewsbury[label="20.8
+04/29", weight="80", tooltip="NEIRA,Quinsigamond Cup			
+Distance: 1500 Meters Conditions: Cross wind from Lane 6 with Variable Head/Tail wind Comments: Races were floating starts, please do no compare times. In the G4, there was a restart about 250 meters over the line. A special thank you to St. John's and Shrewsbury for hosting the day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D682CBC1FCE36890658D2D28FE95424&cat=5", random="random"]; 
+Duxbury -> Salisbury[label="21.3
+04/29", weight="79", tooltip="NEIRA,Quinsigamond Cup			
+Distance: 1500 Meters Conditions: Cross wind from Lane 6 with Variable Head/Tail wind Comments: Races were floating starts, please do no compare times. In the G4, there was a restart about 250 meters over the line. A special thank you to St. John's and Shrewsbury for hosting the day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D682CBC1FCE36890658D2D28FE95424&cat=5", random="random"]; 
+Duxbury -> EastLyme[label="23.4
+04/29", weight="77", tooltip="NEIRA,Quinsigamond Cup			
+Distance: 1500 Meters Conditions: Cross wind from Lane 6 with Variable Head/Tail wind Comments: Races were floating starts, please do no compare times. In the G4, there was a restart about 250 meters over the line. A special thank you to St. John's and Shrewsbury for hosting the day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D682CBC1FCE36890658D2D28FE95424&cat=5", random="random"]}

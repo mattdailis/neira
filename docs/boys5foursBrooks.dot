@@ -1,4 +1,8 @@
-digraph boys5foursBrooks {Nobles [URL="boys5foursBrooksNobles.html"];Brooks [URL="boys5foursBrooksBrooks.html"];Nobles -> Brooks[label="22.6
+digraph boys5foursBrooks {Nobles [URL="boys5foursBrooksNobles.html"];Brooks [URL="boys5foursBrooksBrooks.html"];NMH [URL="boys5foursBrooksNMH.html"];Brooks -> NMH[label="11.4
+04/29", weight="89", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
+Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
+Nobles -> Brooks[label="22.6
 04/15", weight="78", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.

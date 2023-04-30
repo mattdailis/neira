@@ -1,4 +1,12 @@
-digraph girls3foursNewtonCountryDay {Winsor [URL="girls3foursNewtonCountryDayWinsor.html"];NewtonCountryDay [URL="girls3foursNewtonCountryDayNewtonCountryDay.html"];Winsor -> NewtonCountryDay[label="24.39
+digraph girls3foursNewtonCountryDay {Winsor [URL="girls3foursNewtonCountryDayWinsor.html"];StMarks [URL="girls3foursNewtonCountryDayStMarks.html"];NewtonCountryDay [URL="girls3foursNewtonCountryDayNewtonCountryDay.html"];Nobles [URL="girls3foursNewtonCountryDayNobles.html"];Winsor -> NewtonCountryDay[label="24.39
 04/22", weight="76", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
 Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]; 
+Nobles -> NewtonCountryDay[label="21.5
+04/29", weight="79", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
+Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=ECC2D848FD3B652027FAF8EF8C359ADE&cat=5", random="random"]; 
+StMarks -> NewtonCountryDay[label="7.7
+04/29", weight="93", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
+Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=ECC2D848FD3B652027FAF8EF8C359ADE&cat=5", random="random"]}

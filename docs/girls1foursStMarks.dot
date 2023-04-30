@@ -1,4 +1,4 @@
-digraph girls1foursStMarks {Choate [URL="girls1foursStMarksChoate.html"];Middlesex [URL="girls1foursStMarksMiddlesex.html"];NMH [URL="girls1foursStMarksNMH.html"];Brooks [URL="girls1foursStMarksBrooks.html"];Bancroft [URL="girls1foursStMarksBancroft.html"];WorcesterAcademy [URL="girls1foursStMarksWorcesterAcademy.html"];StMarks [URL="girls1foursStMarksStMarks.html"];FrederickGunn [URL="girls1foursStMarksFrederickGunn.html"];Brooks -> StMarks[label="15.6
+digraph girls1foursStMarks {WorcesterAcademy [URL="girls1foursStMarksWorcesterAcademy.html"];Bancroft [URL="girls1foursStMarksBancroft.html"];StMarks [URL="girls1foursStMarksStMarks.html"];BrewsterAcademy [URL="girls1foursStMarksBrewsterAcademy.html"];NewtonCountryDay [URL="girls1foursStMarksNewtonCountryDay.html"];NMH [URL="girls1foursStMarksNMH.html"];Middlesex [URL="girls1foursStMarksMiddlesex.html"];Nobles [URL="girls1foursStMarksNobles.html"];Brooks [URL="girls1foursStMarksBrooks.html"];FrederickGunn [URL="girls1foursStMarksFrederickGunn.html"];Choate [URL="girls1foursStMarksChoate.html"];Brooks -> StMarks[label="15.6
 04/22", weight="85", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -30,4 +30,16 @@ StMarks -> WorcesterAcademy[label="110.7
 04/15", weight="-10", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+Nobles -> StMarks[label="18.9
+04/29", weight="82", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
+Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=ECC2D848FD3B652027FAF8EF8C359ADE&cat=5", random="random"]; 
+StMarks -> BrewsterAcademy[label="11.2
+04/29", weight="89", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
+Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=ECC2D848FD3B652027FAF8EF8C359ADE&cat=5", random="random"]; 
+StMarks -> NewtonCountryDay[label="25.0
+04/29", weight="75", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
+Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=ECC2D848FD3B652027FAF8EF8C359ADE&cat=5", random="random"]}

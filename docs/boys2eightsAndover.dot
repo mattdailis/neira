@@ -1,4 +1,12 @@
-digraph boys2eightsAndover {StJohnsPrep [URL="boys2eightsAndoverStJohnsPrep.html"];Deerfield [URL="boys2eightsAndoverDeerfield.html"];Duxbury [URL="boys2eightsAndoverDuxbury.html"];Salisbury [URL="boys2eightsAndoverSalisbury.html"];Andover [URL="boys2eightsAndoverAndover.html"];Deerfield -> Andover[label="6.5
+digraph boys2eightsAndover {Andover [URL="boys2eightsAndoverAndover.html"];HHS [URL="boys2eightsAndoverHHS.html"];Duxbury [URL="boys2eightsAndoverDuxbury.html"];StJohnsPrep [URL="boys2eightsAndoverStJohnsPrep.html"];Deerfield [URL="boys2eightsAndoverDeerfield.html"];Bedford [URL="boys2eightsAndoverBedford.html"];Salisbury [URL="boys2eightsAndoverSalisbury.html"];Andover -> HHS[label="27.9
+04/29", weight="73", tooltip="NEIRA Boys & Girls Eights,Hanover High School vs. Andover vs. Bedford			
+Distance: 1400m Conditions: Rowing upstream. A bit choppy for half of the races. Thank you to the visiting teams for making the trip. Comments: Great day of Racing. Hanover happy to have their first race of the year done!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A72EC75AB47BAC85370264E961636B03&cat=5", random="random"]; 
+Andover -> Bedford[label="36.9
+04/29", weight="64", tooltip="NEIRA Boys & Girls Eights,Hanover High School vs. Andover vs. Bedford			
+Distance: 1400m Conditions: Rowing upstream. A bit choppy for half of the races. Thank you to the visiting teams for making the trip. Comments: Great day of Racing. Hanover happy to have their first race of the year done!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A72EC75AB47BAC85370264E961636B03&cat=5", random="random"]; 
+Deerfield -> Andover[label="6.5
 04/08", weight="94", tooltip="NEIRA Boys Eights,Salisbury, Andover, Deerfield			
 Distance: 1500m Conditions: 10 mph cross-tail for the 2V and 1V races, considerably less for the 3V race. Comments: Order was 2V, 1V, 3V. 
 In the 1V race, Andover steered into Deerfield at the 500m mark when they were level with each other. Both crews lost a stroke or two but recovered well. The coaches did not believe it affected the outcome of the race.

@@ -1,4 +1,12 @@
-digraph girls3foursNMH {Choate [URL="girls3foursNMHChoate.html"];NMH [URL="girls3foursNMHNMH.html"];LymeOldLyme [URL="girls3foursNMHLymeOldLyme.html"];StMarks [URL="girls3foursNMHStMarks.html"];Hopkins [URL="girls3foursNMHHopkins.html"];NMH -> Choate[label="6.3
+digraph girls3foursNMH {StMarks [URL="girls3foursNMHStMarks.html"];CambridgeRingeandLatinSchool [URL="girls3foursNMHCambridgeRingeandLatinSchool.html"];NMH [URL="girls3foursNMHNMH.html"];Hopkins [URL="girls3foursNMHHopkins.html"];Brooks [URL="girls3foursNMHBrooks.html"];LymeOldLyme [URL="girls3foursNMHLymeOldLyme.html"];Choate [URL="girls3foursNMHChoate.html"];NMH -> Brooks[label="9.0
+04/29", weight="91", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
+Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
+NMH -> CambridgeRingeandLatinSchool[label="27.0
+04/29", weight="73", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
+Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
+NMH -> Choate[label="6.3
 04/15", weight="94", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
@@ -15,12 +23,4 @@ None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D
 NMH -> Hopkins[label="79.36
 04/22", weight="21", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
 Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&cat=5", random="random"]; 
-NMH -> LymeOldLyme[label="_
-04/22", weight="99", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/Old Lyme, Northfield Mount Hermon			
-Distance: 1500m Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty head and cross wind worsening from 9 to 14mph in the later races, significant chop in the first half of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Several boats missed the turn buoys taking a shortcut through the return lane, so to our regret their final results were disqualified by the chief referee. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1A42F905A7DACA1EF3443A90F163BCBC&cat=5", random="random"]; 
-NMH -> Hopkins[label="_
-04/22", weight="99", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/Old Lyme, Northfield Mount Hermon			
-Distance: 1500m Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty head and cross wind worsening from 9 to 14mph in the later races, significant chop in the first half of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Several boats missed the turn buoys taking a shortcut through the return lane, so to our regret their final results were disqualified by the chief referee. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1A42F905A7DACA1EF3443A90F163BCBC&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&cat=5", random="random"]}

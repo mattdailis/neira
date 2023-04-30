@@ -1,4 +1,4 @@
-digraph boys2foursBBN {Groton [URL="boys2foursBBNGroton.html"];BBN [URL="boys2foursBBNBBN.html"];CambridgeRingeandLatinSchool [URL="boys2foursBBNCambridgeRingeandLatinSchool.html"];Southfield [URL="boys2foursBBNSouthfield.html"];Nobles [URL="boys2foursBBNNobles.html"];BBN -> CambridgeRingeandLatinSchool[label="8.7
+digraph boys2foursBBN {BelmontHill [URL="boys2foursBBNBelmontHill.html"];CambridgeRingeandLatinSchool [URL="boys2foursBBNCambridgeRingeandLatinSchool.html"];Hopkins [URL="boys2foursBBNHopkins.html"];Groton [URL="boys2foursBBNGroton.html"];Nobles [URL="boys2foursBBNNobles.html"];Southfield [URL="boys2foursBBNSouthfield.html"];BBN [URL="boys2foursBBNBBN.html"];BBN -> CambridgeRingeandLatinSchool[label="8.7
 04/08", weight="92", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
 Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
 The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
@@ -12,6 +12,14 @@ BB&N's 4th, 5th and 6th boats on both the boys and girls side raced an exhibitio
 BB&N's 3rd boat boys raced in the shore lane of the 2nd boat race.
 BB&N's 2nd girls boat raced an exhibition against the BB&N 3rd girls.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6CA78FFEA8189C1DC931776413930B44&cat=5", random="random"]; 
+BelmontHill -> BBN[label="10.22
+04/29", weight="90", tooltip="NEIRA Boys Fours,BB&N vs. Belmont Hill (Ducey Cup) and Hopkins School			
+Distance: 1300 Conditions: Light crossing head wind at the start, stayed consistent for all races. Comments: A good day of racing by all teams. Belmont Hill retained the Ducey Cup vs. BB&N. Thanks to Hopkins for making the trip up to race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=098FB6A7F940591856B933CC2DE13937&cat=1", random="random"]; 
+BBN -> Hopkins[label="31.1
+04/29", weight="69", tooltip="NEIRA Boys Fours,BB&N vs. Belmont Hill (Ducey Cup) and Hopkins School			
+Distance: 1300 Conditions: Light crossing head wind at the start, stayed consistent for all races. Comments: A good day of racing by all teams. Belmont Hill retained the Ducey Cup vs. BB&N. Thanks to Hopkins for making the trip up to race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=098FB6A7F940591856B933CC2DE13937&cat=1", random="random"]; 
 Nobles -> BBN[label="19.35
 04/22", weight="81", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head

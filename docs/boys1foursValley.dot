@@ -1,7 +1,12 @@
-digraph boys1foursValley {Taft [URL="boys1foursValleyTaft.html"];Valley [URL="boys1foursValleyValley.html"];Canterbury [URL="boys1foursValleyCanterbury.html"];LymeOldLyme [URL="boys1foursValleyLymeOldLyme.html"];Valley -> LymeOldLyme[label="21.4
+digraph boys1foursValley {Valley [URL="boys1foursValleyValley.html"];Taft [URL="boys1foursValleyTaft.html"];StMarysLynn [URL="boys1foursValleyStMarysLynn.html"];Canterbury [URL="boys1foursValleyCanterbury.html"];LymeOldLyme [URL="boys1foursValleyLymeOldLyme.html"];Valley -> LymeOldLyme[label="21.4
 04/26", weight="79", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
 Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
+Valley -> StMarysLynn[label="33.2
+04/29", weight="67", tooltip="NEIRA Boys & Girls Fours,Lincoln School vs. St. Mary's-Lynn vs. Valley Regional			
+Distance: 1500m Conditions: Blustery, ENE cross wind 10-18 mph. 2V Girls race shortened due to oars slapping in the first 100m, estimated course 1250m. Comments: Novice 8+ exhibition: NBC - 6:48.9, Valley Regional 7:28.3, St. Mary's 8:48.3
+In the Girls' 1V, NBC participated with a finish time of 7:37.6
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9E3AECE30FC3B92FA1BF2E660EEC9D3B&cat=5", random="random"]; 
 LymeOldLyme -> Valley[label="50.83
 04/15", weight="50", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
 Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.

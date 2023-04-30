@@ -1,4 +1,4 @@
-digraph boys1eightsBerwick {FairfieldPrep [URL="boys1eightsBerwickFairfieldPrep.html"];Salisbury [URL="boys1eightsBerwickSalisbury.html"];Deerfield [URL="boys1eightsBerwickDeerfield.html"];Berwick [URL="boys1eightsBerwickBerwick.html"];Salisbury -> Berwick[label="6.7
+digraph boys1eightsBerwick {Berwick [URL="boys1eightsBerwickBerwick.html"];Deerfield [URL="boys1eightsBerwickDeerfield.html"];Salisbury [URL="boys1eightsBerwickSalisbury.html"];FairfieldPrep [URL="boys1eightsBerwickFairfieldPrep.html"];Salisbury -> Berwick[label="6.7
 04/19", weight="94", tooltip="NEIRA Boys Eights,Salisbury vs. Brunswick, the Curtis Trophy			
 Distance: 1500m Conditions: 10-12 mph cross tail wind, choppy in the middle 500m. Comments: Good clean racing for all boats. As always, it was great to host Brunswick for our annual dual meet.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0BE61572BBA9B09014D8134F990CBA56&cat=1", random="random"]; 

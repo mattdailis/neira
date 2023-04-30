@@ -1,4 +1,4 @@
-digraph boys1foursLymeOldLyme {NMH [URL="boys1foursLymeOldLymeNMH.html"];LymeOldLyme [URL="boys1foursLymeOldLymeLymeOldLyme.html"];Canterbury [URL="boys1foursLymeOldLymeCanterbury.html"];Taft [URL="boys1foursLymeOldLymeTaft.html"];Hopkins [URL="boys1foursLymeOldLymeHopkins.html"];Valley [URL="boys1foursLymeOldLymeValley.html"];Valley -> LymeOldLyme[label="21.4
+digraph boys1foursLymeOldLyme {Valley [URL="boys1foursLymeOldLymeValley.html"];Taft [URL="boys1foursLymeOldLymeTaft.html"];Canterbury [URL="boys1foursLymeOldLymeCanterbury.html"];NMH [URL="boys1foursLymeOldLymeNMH.html"];Hopkins [URL="boys1foursLymeOldLymeHopkins.html"];LymeOldLyme [URL="boys1foursLymeOldLymeLymeOldLyme.html"];Valley -> LymeOldLyme[label="21.4
 04/26", weight="79", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
 Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
@@ -21,12 +21,4 @@ None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3E
 LymeOldLyme -> Valley[label="50.83
 04/15", weight="50", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
 Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 
-NMH -> LymeOldLyme[label="7.12
-04/22", weight="93", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/Old Lyme, Northfield Mount Hermon			
-Distance: 1500m Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty head and cross wind worsening from 9 to 14mph in the later races, significant chop in the first half of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Several boats missed the turn buoys taking a shortcut through the return lane, so to our regret their final results were disqualified by the chief referee. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1A42F905A7DACA1EF3443A90F163BCBC&cat=5", random="random"]; 
-LymeOldLyme -> Hopkins[label="2.84
-04/22", weight="98", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/Old Lyme, Northfield Mount Hermon			
-Distance: 1500m Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty head and cross wind worsening from 9 to 14mph in the later races, significant chop in the first half of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Several boats missed the turn buoys taking a shortcut through the return lane, so to our regret their final results were disqualified by the chief referee. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1A42F905A7DACA1EF3443A90F163BCBC&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]}

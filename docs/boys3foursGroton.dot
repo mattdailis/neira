@@ -1,4 +1,4 @@
-digraph boys3foursGroton {Pomfret [URL="boys3foursGrotonPomfret.html"];Groton [URL="boys3foursGrotonGroton.html"];BBN [URL="boys3foursGrotonBBN.html"];Taft [URL="boys3foursGrotonTaft.html"];Nobles [URL="boys3foursGrotonNobles.html"];Groton -> Taft[label="46.8
+digraph boys3foursGroton {Taft [URL="boys3foursGrotonTaft.html"];Pomfret [URL="boys3foursGrotonPomfret.html"];Groton [URL="boys3foursGrotonGroton.html"];Nobles [URL="boys3foursGrotonNobles.html"];BBN [URL="boys3foursGrotonBBN.html"];Groton -> Taft[label="46.8
 04/29", weight="54", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
 Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=06436C78C6DB17E1D158607A2B127B2B&cat=1", random="random"]; 

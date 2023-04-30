@@ -1,4 +1,8 @@
-digraph boys4foursBelmontHill {BelmontHill [URL="boys4foursBelmontHillBelmontHill.html"];Middlesex [URL="boys4foursBelmontHillMiddlesex.html"];BelmontHill -> Middlesex[label="18.3
+digraph boys4foursBelmontHill {BelmontHill [URL="boys4foursBelmontHillBelmontHill.html"];Middlesex [URL="boys4foursBelmontHillMiddlesex.html"];BBN [URL="boys4foursBelmontHillBBN.html"];BelmontHill -> Middlesex[label="18.3
 04/26", weight="82", tooltip="NEIRA Boys Fours,Middlesex vs. Belmont Hill			
 Distance: 1500m Conditions: Light, variable breeze with flat water. Great racing conditions. Comments: Due to illnesses on the team, Belmont Hill shifted multiple lineups on race day. Thank you Belmont for joining us for a good afternoon of racing.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E473BAD40172D779EB4C466D13EA851D&cat=1", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E473BAD40172D779EB4C466D13EA851D&cat=1", random="random"]; 
+BelmontHill -> BBN[label="17.77
+04/29", weight="83", tooltip="NEIRA Boys Fours,BB&N vs. Belmont Hill (Ducey Cup) and Hopkins School			
+Distance: 1300 Conditions: Light crossing head wind at the start, stayed consistent for all races. Comments: A good day of racing by all teams. Belmont Hill retained the Ducey Cup vs. BB&N. Thanks to Hopkins for making the trip up to race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=098FB6A7F940591856B933CC2DE13937&cat=1", random="random"]}

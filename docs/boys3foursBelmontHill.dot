@@ -1,0 +1,8 @@
+digraph boys3foursBelmontHill {BelmontHill [URL="boys3foursBelmontHillBelmontHill.html"];Hopkins [URL="boys3foursBelmontHillHopkins.html"];BBN [URL="boys3foursBelmontHillBBN.html"];BelmontHill -> BBN[label="22.52
+04/29", weight="78", tooltip="NEIRA Boys Fours,BB&N vs. Belmont Hill (Ducey Cup) and Hopkins School			
+Distance: 1300 Conditions: Light crossing head wind at the start, stayed consistent for all races. Comments: A good day of racing by all teams. Belmont Hill retained the Ducey Cup vs. BB&N. Thanks to Hopkins for making the trip up to race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=098FB6A7F940591856B933CC2DE13937&cat=1", random="random"]; 
+BelmontHill -> Hopkins[label="64.17
+04/29", weight="36", tooltip="NEIRA Boys Fours,BB&N vs. Belmont Hill (Ducey Cup) and Hopkins School			
+Distance: 1300 Conditions: Light crossing head wind at the start, stayed consistent for all races. Comments: A good day of racing by all teams. Belmont Hill retained the Ducey Cup vs. BB&N. Thanks to Hopkins for making the trip up to race.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=098FB6A7F940591856B933CC2DE13937&cat=1", random="random"]}
