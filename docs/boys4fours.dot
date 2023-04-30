@@ -1,4 +1,4 @@
-digraph boys4fours {Brookline [URL="boys4foursBrookline.html"];Shrewsbury [URL="boys4foursShrewsbury.html"];Salisbury [URL="boys4foursSalisbury.html"];StMarks [URL="boys4foursStMarks.html"];BelmontHill [URL="boys4foursBelmontHill.html"];Taft [URL="boys4foursTaft.html"];EastLyme [URL="boys4foursEastLyme.html"];Pomfret [URL="boys4foursPomfret.html"];CambridgeRingeandLatinSchool [URL="boys4foursCambridgeRingeandLatinSchool.html"];NMH [URL="boys4foursNMH.html"];Middlesex [URL="boys4foursMiddlesex.html"];StJohnsPrep [URL="boys4foursStJohnsPrep.html"];Groton [URL="boys4foursGroton.html"];Nobles [URL="boys4foursNobles.html"];Duxbury [URL="boys4foursDuxbury.html"];Brooks [URL="boys4foursBrooks.html"];BBN [URL="boys4foursBBN.html"];Berkshire [URL="boys4foursBerkshire.html"];Brooks -> StMarks[label="66.0
+digraph boys4fours {Pomfret [URL="boys4foursPomfret.html"];Middlesex [URL="boys4foursMiddlesex.html"];Salisbury [URL="boys4foursSalisbury.html"];BelmontHill [URL="boys4foursBelmontHill.html"];Brookline [URL="boys4foursBrookline.html"];Shrewsbury [URL="boys4foursShrewsbury.html"];Groton [URL="boys4foursGroton.html"];StJohnsPrep [URL="boys4foursStJohnsPrep.html"];Brooks [URL="boys4foursBrooks.html"];Berkshire [URL="boys4foursBerkshire.html"];Nobles [URL="boys4foursNobles.html"];StMarks [URL="boys4foursStMarks.html"];CambridgeRingeandLatinSchool [URL="boys4foursCambridgeRingeandLatinSchool.html"];BBN [URL="boys4foursBBN.html"];EastLyme [URL="boys4foursEastLyme.html"];NMH [URL="boys4foursNMH.html"];Taft [URL="boys4foursTaft.html"];Duxbury [URL="boys4foursDuxbury.html"];Brooks -> StMarks[label="66.0
 04/22", weight="34", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -6,15 +6,15 @@ Berkshire -> Pomfret[label="20.4
 04/26", weight="80", tooltip="NEIRA Boys Fours,Pomfret vs. Berkshire			
 Distance: 1500 Conditions: No current. Slight crossing tailwind to begin (ESE ~6 to 8 MPH) that increased in speed and became more of a solid (S ~10-12 MPH) tail by the last race. Comments: Order of races: B3, B2, B1, B4. There were some girls' races between each.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CB9AFEA5B1B59D6BB2AE6F6222405B5E&cat=1", random="random"]; 
-Brooks -> NMH[label="26.5
+Brooks -> NMH[label="26.5 (31.8)
 04/29", weight="74", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
-Brooks -> CambridgeRingeandLatinSchool[label="52.8
+Brooks -> CambridgeRingeandLatinSchool[label="52.8 (63.36)
 04/29", weight="48", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
-NMH -> CambridgeRingeandLatinSchool[label="26.3
+NMH -> CambridgeRingeandLatinSchool[label="26.3 (31.56)
 04/29", weight="74", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
@@ -23,7 +23,7 @@ NMH -> StMarks[label="32.8
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
-BBN -> CambridgeRingeandLatinSchool[label="23.2
+BBN -> CambridgeRingeandLatinSchool[label="23.2 (27.84)
 04/08", weight="77", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
 Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
 The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
@@ -42,21 +42,21 @@ Nobles -> Brooks[label="20.0
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
-BelmontHill -> BBN[label="17.77
+BelmontHill -> BBN[label="17.77 (20.5)
 04/29", weight="83", tooltip="NEIRA Boys Fours,BB&N vs. Belmont Hill (Ducey Cup) and Hopkins School			
 Distance: 1300 Conditions: Light crossing head wind at the start, stayed consistent for all races. Comments: A good day of racing by all teams. Belmont Hill retained the Ducey Cup vs. BB&N. Thanks to Hopkins for making the trip up to race.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=098FB6A7F940591856B933CC2DE13937&cat=1", random="random"]; 
-Nobles -> Groton[label="7.55
+Nobles -> Groton[label="7.55 (8.39)
 04/22", weight="93", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head
 Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]; 
-Nobles -> BBN[label="40.44
+Nobles -> BBN[label="40.44 (44.93)
 04/22", weight="60", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head
 Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]; 
-Groton -> BBN[label="32.89
+Groton -> BBN[label="32.89 (36.54)
 04/22", weight="68", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head
 Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing

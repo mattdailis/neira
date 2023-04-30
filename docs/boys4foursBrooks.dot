@@ -1,12 +1,12 @@
-digraph boys4foursBrooks {StMarks [URL="boys4foursBrooksStMarks.html"];CambridgeRingeandLatinSchool [URL="boys4foursBrooksCambridgeRingeandLatinSchool.html"];NMH [URL="boys4foursBrooksNMH.html"];Nobles [URL="boys4foursBrooksNobles.html"];Brooks [URL="boys4foursBrooksBrooks.html"];Brooks -> StMarks[label="66.0
+digraph boys4foursBrooks {Brooks [URL="boys4foursBrooksBrooks.html"];Nobles [URL="boys4foursBrooksNobles.html"];StMarks [URL="boys4foursBrooksStMarks.html"];CambridgeRingeandLatinSchool [URL="boys4foursBrooksCambridgeRingeandLatinSchool.html"];NMH [URL="boys4foursBrooksNMH.html"];Brooks -> StMarks[label="66.0
 04/22", weight="34", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
-Brooks -> NMH[label="26.5
+Brooks -> NMH[label="26.5 (31.8)
 04/29", weight="74", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
-Brooks -> CambridgeRingeandLatinSchool[label="52.8
+Brooks -> CambridgeRingeandLatinSchool[label="52.8 (63.36)
 04/29", weight="48", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 

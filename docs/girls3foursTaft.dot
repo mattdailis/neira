@@ -1,4 +1,4 @@
-digraph girls3foursTaft {Groton [URL="girls3foursTaftGroton.html"];Choate [URL="girls3foursTaftChoate.html"];GreenwichAcademy [URL="girls3foursTaftGreenwichAcademy.html"];Taft [URL="girls3foursTaftTaft.html"];Groton -> Taft[label="6.0
+digraph girls3foursTaft {Choate [URL="girls3foursTaftChoate.html"];Taft [URL="girls3foursTaftTaft.html"];GreenwichAcademy [URL="girls3foursTaftGreenwichAcademy.html"];Groton [URL="girls3foursTaftGroton.html"];Groton -> Taft[label="6.0
 04/29", weight="94", tooltip="NEIRA Girls Fours,Pomfret vs. Groton, Taft			
 Distance: 1500m Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with boys. Order of girls races: G5, G4, G3, G2, G1. Pomfret's 3rd boat raced in the 5th boat race against Taft's 5th boat.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7D7FC627D5ED48EFA19D099D502CC4FA&cat=1", random="random"]; 
@@ -8,7 +8,7 @@ Distance: 1500m Conditions: Order of racing: G2, G3/G4 (raced together). 8mph cr
 The G1 race was canceled at the starting line because of lightning. 
 Thank you to all the coaches, coxswains, and rowers for getting twelve shells off the water in record time.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&cat=1", random="random"]; 
-Choate -> Taft[label="0.9
+Choate -> Taft[label="0.9 (0.91)
 04/22", weight="100", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1490 M Conditions: Overcast, mid-50s. Variable, gusty wind; crosswind to quartering tail, 10-12 mph; mostly affecting latter half of the course. Comments: Great to have all three programs racing together again for the first time since 2019. Thanks to Choate and Taft for traveling and handling facilities issues.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=419D79B320ADFC7347A405B1AF3C51F0&cat=5", random="random"]}

@@ -1,8 +1,8 @@
-digraph boys1eightsAndover {Andover [URL="boys1eightsAndoverAndover.html"];HHS [URL="boys1eightsAndoverHHS.html"];Duxbury [URL="boys1eightsAndoverDuxbury.html"];StJohnsPrep [URL="boys1eightsAndoverStJohnsPrep.html"];Deerfield [URL="boys1eightsAndoverDeerfield.html"];Bedford [URL="boys1eightsAndoverBedford.html"];Salisbury [URL="boys1eightsAndoverSalisbury.html"];Andover -> HHS[label="19.2
+digraph boys1eightsAndover {Deerfield [URL="boys1eightsAndoverDeerfield.html"];Salisbury [URL="boys1eightsAndoverSalisbury.html"];Bedford [URL="boys1eightsAndoverBedford.html"];StJohnsPrep [URL="boys1eightsAndoverStJohnsPrep.html"];Andover [URL="boys1eightsAndoverAndover.html"];HHS [URL="boys1eightsAndoverHHS.html"];Duxbury [URL="boys1eightsAndoverDuxbury.html"];Andover -> HHS[label="19.2 (20.57)
 04/29", weight="81", tooltip="NEIRA Boys & Girls Eights,Hanover High School vs. Andover vs. Bedford			
 Distance: 1400m Conditions: Rowing upstream. A bit choppy for half of the races. Thank you to the visiting teams for making the trip. Comments: Great day of Racing. Hanover happy to have their first race of the year done!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A72EC75AB47BAC85370264E961636B03&cat=5", random="random"]; 
-Andover -> Bedford[label="25.0
+Andover -> Bedford[label="25.0 (26.79)
 04/29", weight="75", tooltip="NEIRA Boys & Girls Eights,Hanover High School vs. Andover vs. Bedford			
 Distance: 1400m Conditions: Rowing upstream. A bit choppy for half of the races. Thank you to the visiting teams for making the trip. Comments: Great day of Racing. Hanover happy to have their first race of the year done!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A72EC75AB47BAC85370264E961636B03&cat=5", random="random"]; 
@@ -18,13 +18,13 @@ Distance: 1500m Conditions: 10 mph cross-tail for the 2V and 1V races, considera
 In the 1V race, Andover steered into Deerfield at the 500m mark when they were level with each other. Both crews lost a stroke or two but recovered well. The coaches did not believe it affected the outcome of the race.
 Despite the aligning difficulties and the collision, it was an exciting and productive first race of the season. It was great to see everyone again--thanks to Andover and Deerfield for making the trip.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F84381F00FFA07BDD859A7C33C0F4F50&cat=1", random="random"]; 
-Andover -> StJohnsPrep[label="16.1
+Andover -> StJohnsPrep[label="16.1 (14.64)
 04/22", weight="84", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
 Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
 In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
 Thank you to Duxbury, Deerfield, and St. John's Prep for making the drive. Great day of racing for all crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6106BB7A2E3E18B19D2FB62C590A2D45&cat=5", random="random"]; 
-Andover -> Duxbury[label="20.7
+Andover -> Duxbury[label="20.7 (18.82)
 04/22", weight="80", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
 Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
 In the B4 race, Andover and St. John's Prep combined rowers to make an entry.

@@ -21,6 +21,8 @@ def pairsToDot(graph, orders, links=None):
         if marginStr == 'None':
             marginStr = '_'
             margin = 1
+        elif edge.adjusted_margin is not None:
+            marginStr += " (" + str(edge.adjusted_margin) + ")"
         colorStr = ""
         if edge.red:
             colorStr = ', color="red"'

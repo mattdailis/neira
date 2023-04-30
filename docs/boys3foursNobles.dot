@@ -1,14 +1,14 @@
-digraph boys3foursNobles {StMarks [URL="boys3foursNoblesStMarks.html"];BrewsterAcademy [URL="boys3foursNoblesBrewsterAcademy.html"];Groton [URL="boys3foursNoblesGroton.html"];Nobles [URL="boys3foursNoblesNobles.html"];Brooks [URL="boys3foursNoblesBrooks.html"];BBN [URL="boys3foursNoblesBBN.html"];Nobles -> Brooks[label="12.8
+digraph boys3foursNobles {Groton [URL="boys3foursNoblesGroton.html"];Brooks [URL="boys3foursNoblesBrooks.html"];Nobles [URL="boys3foursNoblesNobles.html"];BBN [URL="boys3foursNoblesBBN.html"];StMarks [URL="boys3foursNoblesStMarks.html"];BrewsterAcademy [URL="boys3foursNoblesBrewsterAcademy.html"];Nobles -> Brooks[label="12.8
 04/15", weight="88", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
-Nobles -> Groton[label="10.67
+Nobles -> Groton[label="10.67 (11.86)
 04/22", weight="90", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head
 Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]; 
-Nobles -> BBN[label="27.3
+Nobles -> BBN[label="27.3 (30.33)
 04/22", weight="73", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head
 Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing

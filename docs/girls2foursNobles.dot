@@ -1,10 +1,10 @@
-digraph girls2foursNobles {StMarks [URL="girls2foursNoblesStMarks.html"];BrewsterAcademy [URL="girls2foursNoblesBrewsterAcademy.html"];NewtonCountryDay [URL="girls2foursNoblesNewtonCountryDay.html"];Groton [URL="girls2foursNoblesGroton.html"];Nobles [URL="girls2foursNoblesNobles.html"];Brooks [URL="girls2foursNoblesBrooks.html"];BBN [URL="girls2foursNoblesBBN.html"];Nobles -> BBN[label="3.6
+digraph girls2foursNobles {NewtonCountryDay [URL="girls2foursNoblesNewtonCountryDay.html"];Groton [URL="girls2foursNoblesGroton.html"];Brooks [URL="girls2foursNoblesBrooks.html"];Nobles [URL="girls2foursNoblesNobles.html"];StMarks [URL="girls2foursNoblesStMarks.html"];BBN [URL="girls2foursNoblesBBN.html"];BrewsterAcademy [URL="girls2foursNoblesBrewsterAcademy.html"];Nobles -> BBN[label="3.6 (4.0)
 04/22", weight="97", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
 For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
 3V had a delay due to steering breakage with Nobles boat
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=05316B43D68EB96907C1AF50E625F75C&cat=1", random="random"]; 
-Nobles -> Groton[label="16.7
+Nobles -> Groton[label="16.7 (18.56)
 04/22", weight="84", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
 For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.

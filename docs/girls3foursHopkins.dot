@@ -1,13 +1,13 @@
-digraph girls3foursHopkins {Winsor [URL="girls3foursHopkinsWinsor.html"];NMH [URL="girls3foursHopkinsNMH.html"];Hopkins [URL="girls3foursHopkinsHopkins.html"];LymeOldLyme [URL="girls3foursHopkinsLymeOldLyme.html"];BBN [URL="girls3foursHopkinsBBN.html"];Choate [URL="girls3foursHopkinsChoate.html"];Choate -> Hopkins[label="50.31
+digraph girls3foursHopkins {Winsor [URL="girls3foursHopkinsWinsor.html"];Hopkins [URL="girls3foursHopkinsHopkins.html"];LymeOldLyme [URL="girls3foursHopkinsLymeOldLyme.html"];BBN [URL="girls3foursHopkinsBBN.html"];NMH [URL="girls3foursHopkinsNMH.html"];Choate [URL="girls3foursHopkinsChoate.html"];Choate -> Hopkins[label="50.31 (56.74)
 04/12", weight="50", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
 Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=97CDDFE6B0BF0E6715FCA59070425D31&cat=5", random="random"]; 
-Winsor -> Hopkins[label="47.4
+Winsor -> Hopkins[label="47.4 (52.67)
 04/29", weight="53", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
 The 5th boat race was in 8's with Winsor and BB&N
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D808E65A5EEBFB&cat=1", random="random"]; 
-BBN -> Hopkins[label="34.6
+BBN -> Hopkins[label="34.6 (38.44)
 04/29", weight="66", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
 The 5th boat race was in 8's with Winsor and BB&N

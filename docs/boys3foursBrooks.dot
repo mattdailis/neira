@@ -1,4 +1,4 @@
-digraph boys3foursBrooks {StMarks [URL="boys3foursBrooksStMarks.html"];CambridgeRingeandLatinSchool [URL="boys3foursBrooksCambridgeRingeandLatinSchool.html"];NMH [URL="boys3foursBrooksNMH.html"];Middlesex [URL="boys3foursBrooksMiddlesex.html"];Nobles [URL="boys3foursBrooksNobles.html"];Brooks [URL="boys3foursBrooksBrooks.html"];Brooks -> Middlesex[label="30.0
+digraph boys3foursBrooks {Middlesex [URL="boys3foursBrooksMiddlesex.html"];Brooks [URL="boys3foursBrooksBrooks.html"];Nobles [URL="boys3foursBrooksNobles.html"];StMarks [URL="boys3foursBrooksStMarks.html"];CambridgeRingeandLatinSchool [URL="boys3foursBrooksCambridgeRingeandLatinSchool.html"];NMH [URL="boys3foursBrooksNMH.html"];Brooks -> Middlesex[label="30.0
 04/22", weight="70", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -6,11 +6,11 @@ Brooks -> StMarks[label="41.0
 04/22", weight="59", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
-Brooks -> NMH[label="16.4
+Brooks -> NMH[label="16.4 (19.68)
 04/29", weight="84", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
-Brooks -> CambridgeRingeandLatinSchool[label="27.7
+Brooks -> CambridgeRingeandLatinSchool[label="27.7 (33.24)
 04/29", weight="73", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 

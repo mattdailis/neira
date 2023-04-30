@@ -1,22 +1,22 @@
-digraph girls1foursBBN {Winsor [URL="girls1foursBBNWinsor.html"];CambridgeRingeandLatinSchool [URL="girls1foursBBNCambridgeRingeandLatinSchool.html"];Hopkins [URL="girls1foursBBNHopkins.html"];Groton [URL="girls1foursBBNGroton.html"];Nobles [URL="girls1foursBBNNobles.html"];Southfield [URL="girls1foursBBNSouthfield.html"];BBN [URL="girls1foursBBNBBN.html"];CambridgeRingeandLatinSchool -> BBN[label="5.9
+digraph girls1foursBBN {Winsor [URL="girls1foursBBNWinsor.html"];Hopkins [URL="girls1foursBBNHopkins.html"];Groton [URL="girls1foursBBNGroton.html"];Nobles [URL="girls1foursBBNNobles.html"];BBN [URL="girls1foursBBNBBN.html"];CambridgeRingeandLatinSchool [URL="girls1foursBBNCambridgeRingeandLatinSchool.html"];Southfield [URL="girls1foursBBNSouthfield.html"];CambridgeRingeandLatinSchool -> BBN[label="5.9 (7.08)
 04/08", weight="95", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
 Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
 The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
 Thanks to BB&N and congratulations to all for a great day of early season racing!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
-Nobles -> BBN[label="13.8
+Nobles -> BBN[label="13.8 (15.33)
 04/22", weight="87", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
 For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
 3V had a delay due to steering breakage with Nobles boat
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=05316B43D68EB96907C1AF50E625F75C&cat=1", random="random"]; 
-Groton -> BBN[label="5.3
+Groton -> BBN[label="5.3 (5.89)
 04/22", weight="95", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
 For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
 3V had a delay due to steering breakage with Nobles boat
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=05316B43D68EB96907C1AF50E625F75C&cat=1", random="random"]; 
-BBN -> Southfield[label="48.0
+BBN -> Southfield[label="48.0 (53.33)
 04/15", weight="52", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
 Distance: 1350m Conditions: moderate cross head quartering from port.
 slightly stronger for earlier races Comments: Dexter-Southfield boated a 1st and 2nd boat on the boys side and a 1st boat on the girls.
@@ -24,12 +24,12 @@ BB&N's 4th, 5th and 6th boats on both the boys and girls side raced an exhibitio
 BB&N's 3rd boat boys raced in the shore lane of the 2nd boat race.
 BB&N's 2nd girls boat raced an exhibition against the BB&N 3rd girls.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6CA78FFEA8189C1DC931776413930B44&cat=5", random="random"]; 
-Winsor -> BBN[label="1.9
+Winsor -> BBN[label="1.9 (2.11)
 04/29", weight="99", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
 The 5th boat race was in 8's with Winsor and BB&N
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D808E65A5EEBFB&cat=1", random="random"]; 
-BBN -> Hopkins[label="14.7
+BBN -> Hopkins[label="14.7 (16.33)
 04/29", weight="86", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
 The 5th boat race was in 8's with Winsor and BB&N

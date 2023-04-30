@@ -1,4 +1,4 @@
-digraph boys4eightsStJohnsPrep {Hingham [URL="boys4eightsStJohnsPrepHingham.html"];Shrewsbury [URL="boys4eightsStJohnsPrepShrewsbury.html"];FairfieldPrep [URL="boys4eightsStJohnsPrepFairfieldPrep.html"];BCHigh5V [URL="boys4eightsStJohnsPrepBCHigh5V.html"];Andover [URL="boys4eightsStJohnsPrepAndover.html"];EastLyme [URL="boys4eightsStJohnsPrepEastLyme.html"];Duxbury [URL="boys4eightsStJohnsPrepDuxbury.html"];Exeter [URL="boys4eightsStJohnsPrepExeter.html"];StJohnsPrep [URL="boys4eightsStJohnsPrepStJohnsPrep.html"];BCHigh [URL="boys4eightsStJohnsPrepBCHigh.html"];Stonington [URL="boys4eightsStJohnsPrepStonington.html"];Salisbury [URL="boys4eightsStJohnsPrepSalisbury.html"];FairfieldPrep -> StJohnsPrep[label="_
+digraph boys4eightsStJohnsPrep {BCHigh5V [URL="boys4eightsStJohnsPrepBCHigh5V.html"];Salisbury [URL="boys4eightsStJohnsPrepSalisbury.html"];Stonington [URL="boys4eightsStJohnsPrepStonington.html"];Exeter [URL="boys4eightsStJohnsPrepExeter.html"];Shrewsbury [URL="boys4eightsStJohnsPrepShrewsbury.html"];FairfieldPrep [URL="boys4eightsStJohnsPrepFairfieldPrep.html"];Hingham [URL="boys4eightsStJohnsPrepHingham.html"];StJohnsPrep [URL="boys4eightsStJohnsPrepStJohnsPrep.html"];Andover [URL="boys4eightsStJohnsPrepAndover.html"];EastLyme [URL="boys4eightsStJohnsPrepEastLyme.html"];BCHigh [URL="boys4eightsStJohnsPrepBCHigh.html"];Duxbury [URL="boys4eightsStJohnsPrepDuxbury.html"];FairfieldPrep -> StJohnsPrep[label="_
 04/15", weight="99", tooltip="NEIRA Boys Eights,Fairfield v St. John's Prep			
 Distance: 1400 Conditions: Flat water conditions, outgoing tide, cross tail wind 5-7 mph. Comments: Time cannot be compared between races as the tide made starting at the line each time challenging, so while they were even bows, the line varied.
 Race order was 3rd, 1st, 2nd then 4th. In the 4th boat race crews clashed and had to stop after the start, the race was restarted from that point. St. John's caught a boat stopping crab less than 300 meters from the finish, they recovered and completed the race.
@@ -20,13 +20,13 @@ StJohnsPrep -> Stonington[label="9.3
 04/15", weight="91", tooltip="NEIRA Boys & Girls Eights,Simsbury/Tabor Invitational			
 Distance: 1500 Meters Conditions: Light wind changing throughout the day, starting as a tailwind, then a cross-wind and finishing the day as headwind. Comments: Races were floating starts, please do not compare times. In the B1 race Tabor caught a boat stopping crab at 300 meters down. In the B4, St. John's B had 2 boat stopping crabs. Also in the B4, Stonington B3 raced in this event due to illness. A special thank you to St. John's an Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B556AC071CAC1B11C5C5DB503D2B0FF0&cat=5", random="random"]; 
-Andover -> StJohnsPrep[label="29.9
+Andover -> StJohnsPrep[label="29.9 (27.18)
 04/22", weight="71", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
 Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
 In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
 Thank you to Duxbury, Deerfield, and St. John's Prep for making the drive. Great day of racing for all crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6106BB7A2E3E18B19D2FB62C590A2D45&cat=5", random="random"]; 
-Duxbury -> StJohnsPrep[label="1.2
+Duxbury -> StJohnsPrep[label="1.2 (1.09)
 04/22", weight="99", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
 Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
 In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
@@ -37,11 +37,11 @@ StJohnsPrep -> Shrewsbury[label="12.07
 Distance: 1500 Conditions: Cross tail wind gusting to strong at times. Comments: G1V: Shrewsbury & Bedford were even at the 200m mark at which point Shrewsbury caught a boat-stopping crab resulting in a 30-45 sec stoppage. 
 The Fourth Boat events in both Boy's and Girl's results are for Novice Crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B8E319823F5E06EE7205EBA30FA0A509&cat=5", random="random"]; 
-BCHigh -> StJohnsPrep[label="33.5
+BCHigh -> StJohnsPrep[label="33.5 (40.2)
 04/29", weight="67", tooltip="NEIRA Boys Eights,St. John's Prep vs. BC High			
 Distance: 1250 Conditions: Flat water, slight headwind. Comments: The 4V race started downstream of the start. Thank you to St. John's Prep and Coach Broderick for making the trip and the great racing, especially in the 1V race which came right down to the wire.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B5147A15402A02BEBABC90382120769C&cat=1", random="random"]; 
-BCHigh5V -> StJohnsPrep[label="4.8
+BCHigh5V -> StJohnsPrep[label="4.8 (5.76)
 04/29", weight="96", tooltip="NEIRA Boys Eights,St. John's Prep vs. BC High			
 Distance: 1250 Conditions: Flat water, slight headwind. Comments: The 4V race started downstream of the start. Thank you to St. John's Prep and Coach Broderick for making the trip and the great racing, especially in the 1V race which came right down to the wire.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B5147A15402A02BEBABC90382120769C&cat=1", random="random"]; 
@@ -61,7 +61,7 @@ StJohnsPrep -> Salisbury[label="51.7
 04/22", weight="49", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
 Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
-Hingham -> StJohnsPrep[label="3.3
+Hingham -> StJohnsPrep[label="3.3 (3.41)
 04/08", weight="97", tooltip="NEIRA Boys Eights,Hingham High School @ St. John’s Prep			
 Distance: Approx 1450 meters Conditions: Racing conditions were calm for the first half of the course and all boats dealt with a significant crosswind the last half of all races. Comments: Thanks to Hingham for making the trip to St. John’s. Great day of racing with colds temps and a strong crosswind. Good start to the year for both crews!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CA9581D726FD3B82392F9B41FE39C94A&cat=1", random="random"]}

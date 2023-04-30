@@ -1,13 +1,13 @@
-digraph boys4foursGroton {Groton [URL="boys4foursGrotonGroton.html"];Nobles [URL="boys4foursGrotonNobles.html"];BBN [URL="boys4foursGrotonBBN.html"];Taft [URL="boys4foursGrotonTaft.html"];Groton -> Taft[label="58.6
+digraph boys4foursGroton {BBN [URL="boys4foursGrotonBBN.html"];Taft [URL="boys4foursGrotonTaft.html"];Nobles [URL="boys4foursGrotonNobles.html"];Groton [URL="boys4foursGrotonGroton.html"];Groton -> Taft[label="58.6
 04/29", weight="42", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
 Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=06436C78C6DB17E1D158607A2B127B2B&cat=1", random="random"]; 
-Nobles -> Groton[label="7.55
+Nobles -> Groton[label="7.55 (8.39)
 04/22", weight="93", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head
 Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]; 
-Groton -> BBN[label="32.89
+Groton -> BBN[label="32.89 (36.54)
 04/22", weight="68", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head
 Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing

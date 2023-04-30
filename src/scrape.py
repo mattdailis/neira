@@ -37,6 +37,8 @@ def scrapeRegatta(name, res_url, url):
     if comment == None:
         comment = ""
 
+    import pdb; pdb.set_trace()
+
     # Guess the gender from the name, if possible. Else None
     gender = None
     if "boy" in name.lower() and not "girl" in name.lower():
@@ -192,7 +194,7 @@ def main(year):
     urls = getRaceUrls(res_html)
     count = 0
 
-    OVERWRITE = False
+    OVERWRITE = True
 
     total = len(urls)
 

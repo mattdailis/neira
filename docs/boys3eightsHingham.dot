@@ -1,4 +1,4 @@
-digraph boys3eightsHingham {Hingham [URL="boys3eightsHinghamHingham.html"];Kent [URL="boys3eightsHinghamKent.html"];Exeter [URL="boys3eightsHinghamExeter.html"];StJohnsPrep [URL="boys3eightsHinghamStJohnsPrep.html"];Salisbury [URL="boys3eightsHinghamSalisbury.html"];StJohnsPrep -> Hingham[label="26.2
+digraph boys3eightsHingham {Salisbury [URL="boys3eightsHinghamSalisbury.html"];Exeter [URL="boys3eightsHinghamExeter.html"];Kent [URL="boys3eightsHinghamKent.html"];Hingham [URL="boys3eightsHinghamHingham.html"];StJohnsPrep [URL="boys3eightsHinghamStJohnsPrep.html"];StJohnsPrep -> Hingham[label="26.2
 04/22", weight="74", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
 Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
@@ -14,7 +14,7 @@ Hingham -> Salisbury[label="38.6
 04/22", weight="62", tooltip="NEIRA Boys & Girls Eights,Exeter Invitational			
 Distance: 1500 Conditions: Slight cross-head wind from Lane 6 Comments: Races were floating starts, please do not compare times. G1 started 100 meters over the line, G2 started 100 meters behind the line, G3 started 50 meters behind the line. A special thank you to St. John's and Shrewsbury for hosting the day. Exeter wins the Kent/Exeter point trophy. Kent win the inaugural Southborough Cup between Kent and St. John's in the B1 Race.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=400D210525A078B37DBC3D8532AEBFDB&cat=5", random="random"]; 
-Hingham -> StJohnsPrep[label="74.7
+Hingham -> StJohnsPrep[label="74.7 (77.28)
 04/08", weight="26", tooltip="NEIRA Boys Eights,Hingham High School @ St. John’s Prep			
 Distance: Approx 1450 meters Conditions: Racing conditions were calm for the first half of the course and all boats dealt with a significant crosswind the last half of all races. Comments: Thanks to Hingham for making the trip to St. John’s. Great day of racing with colds temps and a strong crosswind. Good start to the year for both crews!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CA9581D726FD3B82392F9B41FE39C94A&cat=1", random="random"]}

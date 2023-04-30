@@ -1,10 +1,10 @@
-digraph boys1foursBBN {BelmontHill [URL="boys1foursBBNBelmontHill.html"];CambridgeRingeandLatinSchool [URL="boys1foursBBNCambridgeRingeandLatinSchool.html"];Hopkins [URL="boys1foursBBNHopkins.html"];Groton [URL="boys1foursBBNGroton.html"];Nobles [URL="boys1foursBBNNobles.html"];Southfield [URL="boys1foursBBNSouthfield.html"];BBN [URL="boys1foursBBNBBN.html"];BBN -> CambridgeRingeandLatinSchool[label="4.2
+digraph boys1foursBBN {Hopkins [URL="boys1foursBBNHopkins.html"];BelmontHill [URL="boys1foursBBNBelmontHill.html"];Groton [URL="boys1foursBBNGroton.html"];Nobles [URL="boys1foursBBNNobles.html"];BBN [URL="boys1foursBBNBBN.html"];CambridgeRingeandLatinSchool [URL="boys1foursBBNCambridgeRingeandLatinSchool.html"];Southfield [URL="boys1foursBBNSouthfield.html"];BBN -> CambridgeRingeandLatinSchool[label="4.2 (5.04)
 04/08", weight="96", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
 Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
 The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
 Thanks to BB&N and congratulations to all for a great day of early season racing!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
-BBN -> Southfield[label="22.0
+BBN -> Southfield[label="22.0 (24.44)
 04/15", weight="78", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
 Distance: 1350m Conditions: moderate cross head quartering from port.
 slightly stronger for earlier races Comments: Dexter-Southfield boated a 1st and 2nd boat on the boys side and a 1st boat on the girls.
@@ -12,20 +12,20 @@ BB&N's 4th, 5th and 6th boats on both the boys and girls side raced an exhibitio
 BB&N's 3rd boat boys raced in the shore lane of the 2nd boat race.
 BB&N's 2nd girls boat raced an exhibition against the BB&N 3rd girls.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6CA78FFEA8189C1DC931776413930B44&cat=5", random="random"]; 
-BelmontHill -> BBN[label="17.43
+BelmontHill -> BBN[label="17.43 (20.11)
 04/29", weight="83", tooltip="NEIRA Boys Fours,BB&N vs. Belmont Hill (Ducey Cup) and Hopkins School			
 Distance: 1300 Conditions: Light crossing head wind at the start, stayed consistent for all races. Comments: A good day of racing by all teams. Belmont Hill retained the Ducey Cup vs. BB&N. Thanks to Hopkins for making the trip up to race.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=098FB6A7F940591856B933CC2DE13937&cat=1", random="random"]; 
-Hopkins -> BBN[label="1.96
+Hopkins -> BBN[label="1.96 (2.26)
 04/29", weight="99", tooltip="NEIRA Boys Fours,BB&N vs. Belmont Hill (Ducey Cup) and Hopkins School			
 Distance: 1300 Conditions: Light crossing head wind at the start, stayed consistent for all races. Comments: A good day of racing by all teams. Belmont Hill retained the Ducey Cup vs. BB&N. Thanks to Hopkins for making the trip up to race.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=098FB6A7F940591856B933CC2DE13937&cat=1", random="random"]; 
-Nobles -> BBN[label="18.14
+Nobles -> BBN[label="18.14 (20.16)
 04/22", weight="82", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head
 Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5ADF955E3E04E3F90ADAD1AA29C35140&cat=1", random="random"]; 
-Groton -> BBN[label="11.79
+Groton -> BBN[label="11.79 (13.1)
 04/22", weight="89", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head
 Coming from Cambridge meant course was sheltered and had mostly flat water Comments: BB&Ns 4th boat popped an oarlock and lost the oar at about 750m down, forcing them to come to a complete stop to replace the oar before continuing

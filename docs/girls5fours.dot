@@ -1,16 +1,16 @@
-digraph girls5fours {Winsor [URL="girls5foursWinsor.html"];EastLyme [URL="girls5foursEastLyme.html"];CambridgeRingeandLatinSchool [URL="girls5foursCambridgeRingeandLatinSchool.html"];NMH [URL="girls5foursNMH.html"];Nobles [URL="girls5foursNobles.html"];Brooks [URL="girls5foursBrooks.html"];Stonington [URL="girls5foursStonington.html"];BBN [URL="girls5foursBBN.html"];Brooks -> NMH[label="7.0
+digraph girls5fours {Winsor [URL="girls5foursWinsor.html"];Stonington [URL="girls5foursStonington.html"];Brooks [URL="girls5foursBrooks.html"];Nobles [URL="girls5foursNobles.html"];BBN [URL="girls5foursBBN.html"];CambridgeRingeandLatinSchool [URL="girls5foursCambridgeRingeandLatinSchool.html"];EastLyme [URL="girls5foursEastLyme.html"];NMH [URL="girls5foursNMH.html"];Brooks -> NMH[label="7.0 (8.4)
 04/29", weight="93", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
-Brooks -> CambridgeRingeandLatinSchool[label="82.0
+Brooks -> CambridgeRingeandLatinSchool[label="82.0 (98.4)
 04/29", weight="18", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
-NMH -> CambridgeRingeandLatinSchool[label="75.0
+NMH -> CambridgeRingeandLatinSchool[label="75.0 (90.0)
 04/29", weight="25", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
-Winsor -> BBN[label="12.8
+Winsor -> BBN[label="12.8 (14.22)
 04/29", weight="88", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
 The 5th boat race was in 8's with Winsor and BB&N

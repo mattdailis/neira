@@ -1,4 +1,4 @@
-digraph boys1foursWorcesterAcademy {Shrewsbury [URL="boys1foursWorcesterAcademyShrewsbury.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademyWorcesterAcademy.html"];Bancroft [URL="boys1foursWorcesterAcademyBancroft.html"];Derryfield [URL="boys1foursWorcesterAcademyDerryfield.html"];StMarks [URL="boys1foursWorcesterAcademyStMarks.html"];StMarysLynn [URL="boys1foursWorcesterAcademyStMarysLynn.html"];MarianapolisPrep [URL="boys1foursWorcesterAcademyMarianapolisPrep.html"];Thayer [URL="boys1foursWorcesterAcademyThayer.html"];NMH [URL="boys1foursWorcesterAcademyNMH.html"];VermontAcademy [URL="boys1foursWorcesterAcademyVermontAcademy.html"];FrederickGunn [URL="boys1foursWorcesterAcademyFrederickGunn.html"];WorcesterAcademy -> Bancroft[label="31.5
+digraph boys1foursWorcesterAcademy {VermontAcademy [URL="boys1foursWorcesterAcademyVermontAcademy.html"];Bancroft [URL="boys1foursWorcesterAcademyBancroft.html"];Derryfield [URL="boys1foursWorcesterAcademyDerryfield.html"];Shrewsbury [URL="boys1foursWorcesterAcademyShrewsbury.html"];StMarysLynn [URL="boys1foursWorcesterAcademyStMarysLynn.html"];FrederickGunn [URL="boys1foursWorcesterAcademyFrederickGunn.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademyWorcesterAcademy.html"];NMH [URL="boys1foursWorcesterAcademyNMH.html"];StMarks [URL="boys1foursWorcesterAcademyStMarks.html"];MarianapolisPrep [URL="boys1foursWorcesterAcademyMarianapolisPrep.html"];Thayer [URL="boys1foursWorcesterAcademyThayer.html"];WorcesterAcademy -> Bancroft[label="31.5
 04/26", weight="69", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
 Distance: 1500 meters Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=38305821F0E11F6B4B5BC132E9B3DE79&cat=5", random="random"]; 
@@ -50,7 +50,7 @@ WorcesterAcademy -> MarianapolisPrep[label="91.6
 Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
 A special thanks to Paul Carabillo for refereeing the match.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]; 
-Shrewsbury -> WorcesterAcademy[label="4.27
+Shrewsbury -> WorcesterAcademy[label="4.27 (6.4)
 04/08", weight="96", tooltip="NEIRA Boys & Girls Fours,Shrewsbury Opener: Shrewsbury vs. Bedford NH vs. Worcester Academy			
 Distance: 1000 Conditions: Cross tailwind for all races. Gusty at times & growing in strength as the races progressed. Comments: Events rowed as an exhibition / scrimmage to enable all visiting athletes a chance to compete on the day.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4B8E9B0A9FBCF2437CE01792D4CB1428&cat=5", random="random"]}

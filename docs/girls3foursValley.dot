@@ -1,4 +1,4 @@
-digraph girls3foursValley {GreenwichAcademy [URL="girls3foursValleyGreenwichAcademy.html"];Valley [URL="girls3foursValleyValley.html"];Lincoln [URL="girls3foursValleyLincoln.html"];StMarysLynn [URL="girls3foursValleyStMarysLynn.html"];LymeOldLyme [URL="girls3foursValleyLymeOldLyme.html"];Valley -> LymeOldLyme[label="15.1
+digraph girls3foursValley {Lincoln [URL="girls3foursValleyLincoln.html"];StMarysLynn [URL="girls3foursValleyStMarysLynn.html"];Valley [URL="girls3foursValleyValley.html"];LymeOldLyme [URL="girls3foursValleyLymeOldLyme.html"];GreenwichAcademy [URL="girls3foursValleyGreenwichAcademy.html"];Valley -> LymeOldLyme[label="15.1
 04/26", weight="85", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
 Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
@@ -12,7 +12,7 @@ Valley -> StMarysLynn[label="21.6
 Distance: 1500m Conditions: Blustery, ENE cross wind 10-18 mph. 2V Girls race shortened due to oars slapping in the first 100m, estimated course 1250m. Comments: Novice 8+ exhibition: NBC - 6:48.9, Valley Regional 7:28.3, St. Mary's 8:48.3
 In the Girls' 1V, NBC participated with a finish time of 7:37.6
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9E3AECE30FC3B92FA1BF2E660EEC9D3B&cat=5", random="random"]; 
-GreenwichAcademy -> Valley[label="24.0
+GreenwichAcademy -> Valley[label="24.0 (28.8)
 04/22", weight="76", tooltip="NEIRA Girls Fours,Greenwich Academy vs. Valley Regional			
 Distance: 1250m Conditions: Windy, with conditions in the last 500m getting progressively choppier through the day. Strong cross-tailwind for all races. Comments: Race order went 3V-1V-2V-4V. Due to high winds, racing was shortened to 1100m for the 2V race and 1000m for the 4V race.
 A big thanks to Valley Regional for making the trip to Greenwich!

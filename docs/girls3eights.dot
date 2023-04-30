@@ -1,12 +1,12 @@
-digraph girls3eights {Hingham [URL="girls3eightsHingham.html"];Andover [URL="girls3eightsAndover.html"];Kent [URL="girls3eightsKent.html"];StPauls [URL="girls3eightsStPauls.html"];EastLyme [URL="girls3eightsEastLyme.html"];Tabor [URL="girls3eightsTabor.html"];Duxbury [URL="girls3eightsDuxbury.html"];Exeter [URL="girls3eightsExeter.html"];BostonLatin [URL="girls3eightsBostonLatin.html"];Deerfield [URL="girls3eightsDeerfield.html"];Guilford [URL="girls3eightsGuilford.html"];Bedford [URL="girls3eightsBedford.html"];Salisbury [URL="girls3eightsSalisbury.html"];Andover -> Bedford[label="6.3
+digraph girls3eights {Deerfield [URL="girls3eightsDeerfield.html"];Salisbury [URL="girls3eightsSalisbury.html"];Exeter [URL="girls3eightsExeter.html"];Bedford [URL="girls3eightsBedford.html"];Tabor [URL="girls3eightsTabor.html"];Kent [URL="girls3eightsKent.html"];BostonLatin [URL="girls3eightsBostonLatin.html"];Guilford [URL="girls3eightsGuilford.html"];Hingham [URL="girls3eightsHingham.html"];Andover [URL="girls3eightsAndover.html"];EastLyme [URL="girls3eightsEastLyme.html"];Duxbury [URL="girls3eightsDuxbury.html"];StPauls [URL="girls3eightsStPauls.html"];Andover -> Bedford[label="6.3 (6.75)
 04/29", weight="94", tooltip="NEIRA Boys & Girls Eights,Hanover High School vs. Andover vs. Bedford			
 Distance: 1400m Conditions: Rowing upstream. A bit choppy for half of the races. Thank you to the visiting teams for making the trip. Comments: Great day of Racing. Hanover happy to have their first race of the year done!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A72EC75AB47BAC85370264E961636B03&cat=5", random="random"]; 
-Deerfield -> Kent[label="24.3
+Deerfield -> Kent[label="24.3 (21.7)
 04/08", weight="76", tooltip="NEIRA Girls Eights,Deerfield vs. Kent			
 Distance: 1680m Conditions: Fair conditions on flat water with a gusting 10mph cross tailwind in the first 500m. Comments: Congratulations to all three Deerfield crews on impressive racing. Thank you to Parker and Meg for launching their inaugural eights season with a race against Kent School.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=99230681DE272C5FECC179DDBE0FB911&cat=1", random="random"]; 
-EastLyme -> Guilford[label="15.0
+EastLyme -> Guilford[label="15.0 (16.07)
 04/01", weight="85", tooltip="NEIRA Boys & Girls Eights,Guilford High School vs East Lyme High School			
 Distance: 1400m Conditions: Tailwind increasing in intensity as the races progressed. Rain throughout. Race Order GN4, G1V, B1V, BN8, G2V Comments: All floating starts. Races are not comparable. Novice races were about 150m shorter. In the Girls 2nd Varsity race, Guilford's steering wire snapped at 900m. They finished with no steering. East Lyme was ahead by open water when it snapped. Thank you East Lyme for a great day of racing
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=576D40DCF411E79F5B1071832A056F2F&cat=5", random="random"]; 
@@ -40,19 +40,19 @@ Distance: 1500 meters Conditions: Quartering tailwind which was stronger in the 
 G3 started 4 seats over the line. G4 and G5 started a full length over the line. G1 and G2 started on the line. 
 Thanks to Tabor for making the trip up north to SPS.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9EB742AEB89FEFFE280696305CA36D53&cat=1", random="random"]; 
-Deerfield -> Andover[label="19.4
+Deerfield -> Andover[label="19.4 (17.64)
 04/22", weight="81", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
 Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
 In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
 Thank you to Duxbury, Deerfield, and St. John's Prep for making the drive. Great day of racing for all crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6106BB7A2E3E18B19D2FB62C590A2D45&cat=5", random="random"]; 
-Deerfield -> Duxbury[label="50.1
+Deerfield -> Duxbury[label="50.1 (45.55)
 04/22", weight="50", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
 Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
 In the B4 race, Andover and St. John's Prep combined rowers to make an entry.
 Thank you to Duxbury, Deerfield, and St. John's Prep for making the drive. Great day of racing for all crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6106BB7A2E3E18B19D2FB62C590A2D45&cat=5", random="random"]; 
-Andover -> Duxbury[label="30.7
+Andover -> Duxbury[label="30.7 (27.91)
 04/22", weight="70", tooltip="NEIRA Boys & Girls Eights,Phillips Academy Andover vs. Duxbury, St. John's Prep (Boys), Deerfield (Girls)			
 Distance: 1650m Conditions: Following current, 10-15mph headwind. Comments: Order of racing: G2, B3, G1, B2, B1, G3, B4, G4. Times should not be compared as crews were started with a floating start and conditions built throughout the afternoon.
 In the B4 race, Andover and St. John's Prep combined rowers to make an entry.

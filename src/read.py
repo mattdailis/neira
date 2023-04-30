@@ -54,6 +54,7 @@ def cleanTime(string):
 def main():
     results = []
     for filename in os.listdir('data'):
+        print("Processing", filename)
         with open(f"data/{filename}", "r") as f:
             scraped_json = json.load(f)
         day = scraped_json["day"]
@@ -64,6 +65,12 @@ def main():
         regatta_display_name = scraped_json["regatta_display_name"]
         comment = scraped_json["comment"]
         url = scraped_json["url"]
+
+        try:
+            distance = int(comment.split("Distance:")[1].split("Conditions")[0].strip().lower().rstrip(" meters").lstrip("approx. ").replace(",", ""))
+        except Exception as e:
+            print(e)
+            distance = None
 
         for heat in heats:
             class_ = heat["class"]
@@ -91,6 +98,10 @@ def main():
             
             for fasterBoat, slowerBoat in all_pairs(heat_results):
                 margin = getMargin(fasterBoat["time"], slowerBoat["time"])
+                if distance == 1500:
+                    adjusted_margin = None
+                else:
+                    adjusted_margin = round((1500.0 / distance) * margin, 2) if distance is not None and margin is not None else None
                 fasterSchool, fasterSchoolBoatNum = matchSchool(fasterBoat["school"], boatNum=varsity_index)
                 slowerSchool, slowerSchoolBoatNum = matchSchool(slowerBoat["school"], boatNum=varsity_index)
                 if fasterSchool is None:
@@ -119,6 +130,7 @@ def main():
                     slowerSchoolName,
                     varsity_index,
                     margin,
+                    adjusted_margin,
                     regatta_display_name,
                     comment,
                     url
@@ -137,7 +149,7 @@ def main():
     nodes = {}
     
     for row in results:
-        (date, gender, boat, fasterSchool, fasterBoat, slowerSchool, slowerBoat, margin, race, comment, url) = row
+        (date, gender, boat, fasterSchool, fasterBoat, slowerSchool, slowerBoat, margin, adjusted_margin, race, comment, url) = row
         if boat not in orders:
             orders[boat] = []
         date = datetime.datetime.strptime(date, "%Y-%m-%d")
@@ -146,7 +158,7 @@ def main():
         if gender + str(slowerBoat) not in boat:
             slowerSchool = slowerSchool + str(slowerBoat)
 
-        edge = Edge(date, fasterSchool, slowerSchool, margin)
+        edge = Edge(date, fasterSchool, slowerSchool, margin, adjusted_margin)
         edge.url = url
         edge.tooltip = race + "\t\t\t\n" + comment
         orders[boat].append(edge)
@@ -173,4 +185,5 @@ def all_pairs(my_list):
             yield my_list[i], my_list[j]
         
 if __name__ == '__main__':
+    print("starting")
     main()

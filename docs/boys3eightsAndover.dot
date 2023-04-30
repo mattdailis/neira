@@ -1,4 +1,4 @@
-digraph boys3eightsAndover {Salisbury [URL="boys3eightsAndoverSalisbury.html"];Bedford [URL="boys3eightsAndoverBedford.html"];Andover [URL="boys3eightsAndoverAndover.html"];Deerfield [URL="boys3eightsAndoverDeerfield.html"];Andover -> Bedford[label="60.9
+digraph boys3eightsAndover {Bedford [URL="boys3eightsAndoverBedford.html"];Andover [URL="boys3eightsAndoverAndover.html"];Salisbury [URL="boys3eightsAndoverSalisbury.html"];Deerfield [URL="boys3eightsAndoverDeerfield.html"];Andover -> Bedford[label="60.9 (65.25)
 04/29", weight="40", tooltip="NEIRA Boys & Girls Eights,Hanover High School vs. Andover vs. Bedford			
 Distance: 1400m Conditions: Rowing upstream. A bit choppy for half of the races. Thank you to the visiting teams for making the trip. Comments: Great day of Racing. Hanover happy to have their first race of the year done!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A72EC75AB47BAC85370264E961636B03&cat=5", random="random"]; 

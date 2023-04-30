@@ -4,11 +4,12 @@ class Pair():
         self.second = b
 
 class Edge(Pair):
-    def __init__(self, d, o, t, m):
+    def __init__(self, d, o, t, m, am):
         self.date = d
         self.first = o
         self.second = t
         self.margin = m
+        self.adjusted_margin = am
         self.red = False
         self.url = "#"
         self.tooltip = ""
