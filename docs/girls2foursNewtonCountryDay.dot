@@ -1,4 +1,4 @@
-digraph girls2foursNewtonCountryDay {StMarks [URL="girls2foursNewtonCountryDayStMarks.html"];Winsor [URL="girls2foursNewtonCountryDayWinsor.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDayNewtonCountryDay.html"];BrewsterAcademy [URL="girls2foursNewtonCountryDayBrewsterAcademy.html"];Nobles [URL="girls2foursNewtonCountryDayNobles.html"];Winsor -> NewtonCountryDay[label="29.3 (31.39)
+digraph girls2foursNewtonCountryDay {NewtonCountryDay [URL="girls2foursNewtonCountryDayNewtonCountryDay.html"];Nobles [URL="girls2foursNewtonCountryDayNobles.html"];Winsor [URL="girls2foursNewtonCountryDayWinsor.html"];BrewsterAcademy [URL="girls2foursNewtonCountryDayBrewsterAcademy.html"];StMarks [URL="girls2foursNewtonCountryDayStMarks.html"];Winsor -> NewtonCountryDay[label="29.3 (31.39)
 04/22", weight="71", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
 Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]; 

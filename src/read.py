@@ -174,6 +174,8 @@ def main():
                             margin=str(margin)))
 
     for boat in sorted(list(orders.keys()), key=sorter):
+        if "eight" in boat:
+            continue
         edges = orders[boat]
         viz(boat, boat, edges)
 
@@ -236,8 +238,8 @@ def get_next_set(edges, get_first, get_second):
         first = get_first(edge)
         second = get_second(edge)
         has_incoming.add(second)
-        if first in no_incoming:
-            no_incoming.remove(first)
+        if second in no_incoming:
+            no_incoming.remove(second)
         if first not in has_incoming:
             no_incoming.add(first)
     return no_incoming

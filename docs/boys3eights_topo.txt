@@ -1,6 +1,4 @@
-{'Andover', 'Belmont Hill', 'Fairfield Prep', "St. Paul's", 'BC High B (4+)', 'Brookline', 'Berwick'}
-{'Deerfield', 'BC High'}
-{"St. John's Prep"}
-{'Exeter', 'Shrewsbury'}
-{'Kent'}
-{'Hingham'}
+{'Brookline', 'Belmont Hill', 'Berwick', 'Andover', 'BC High B (4+)', "St. Paul's"}
+{'BC High', 'Deerfield', 'Fairfield Prep'}
+Cycle detected
+[("St. John's Prep", 'Tabor', datetime.datetime(2023, 4, 15, 0, 0), 31.7, False), ("St. John's Prep", 'Duxbury', datetime.datetime(2023, 4, 22, 0, 0), 1.6, False), ("St. John's Prep", 'Shrewsbury', datetime.datetime(2023, 4, 8, 0, 0), 39.91, False), ("St. John's Prep", 'Bedford', datetime.datetime(2023, 4, 8, 0, 0), 60.94, False), ('Shrewsbury', 'Bedford', datetime.datetime(2023, 4, 8, 0, 0), 21.03, False), ("St. John's Prep", 'Exeter', datetime.datetime(2023, 4, 22, 0, 0), 0.4, False), ("St. John's Prep", 'Kent', datetime.datetime(2023, 4, 22, 0, 0), 17.6, False), ("St. John's Prep", 'Hingham', datetime.datetime(2023, 4, 22, 0, 0), 26.2, False), ("St. John's Prep", 'Salisbury', datetime.datetime(2023, 4, 22, 0, 0), 64.8, False), ('Exeter', 'Kent', datetime.datetime(2023, 4, 22, 0, 0), 17.2, False), ('Exeter', 'Hingham', datetime.datetime(2023, 4, 22, 0, 0), 25.8, False), ('Exeter', 'Salisbury', datetime.datetime(2023, 4, 22, 0, 0), 64.4, False), ('Kent', 'Hingham', datetime.datetime(2023, 4, 22, 0, 0), 8.6, False), ('Kent', 'Salisbury', datetime.datetime(2023, 4, 22, 0, 0), 47.2, False), ('Hingham', 'Salisbury', datetime.datetime(2023, 4, 22, 0, 0), 38.6, False), ('Hingham', "St. John's Prep", datetime.datetime(2023, 4, 8, 0, 0), 74.7, False)]
