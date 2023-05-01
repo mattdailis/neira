@@ -1,4 +1,4 @@
-digraph girls1foursWorcesterAcademy {Bedford [URL="girls1foursWorcesterAcademyBedford.html"];Choate [URL="girls1foursWorcesterAcademyChoate.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademyWorcesterAcademy.html"];Derryfield [URL="girls1foursWorcesterAcademyDerryfield.html"];StMarks [URL="girls1foursWorcesterAcademyStMarks.html"];Bancroft [URL="girls1foursWorcesterAcademyBancroft.html"];NMH [URL="girls1foursWorcesterAcademyNMH.html"];MarianapolisPrep [URL="girls1foursWorcesterAcademyMarianapolisPrep.html"];VermontAcademy [URL="girls1foursWorcesterAcademyVermontAcademy.html"];StMarysLynn [URL="girls1foursWorcesterAcademyStMarysLynn.html"];Shrewsbury [URL="girls1foursWorcesterAcademyShrewsbury.html"];FrederickGunn [URL="girls1foursWorcesterAcademyFrederickGunn.html"];Thayer [URL="girls1foursWorcesterAcademyThayer.html"];StMarysLynn -> WorcesterAcademy[label="12.8
+digraph girls1foursWorcesterAcademy {FrederickGunn [URL="girls1foursWorcesterAcademyFrederickGunn.html"];NMH [URL="girls1foursWorcesterAcademyNMH.html"];Bancroft [URL="girls1foursWorcesterAcademyBancroft.html"];StMarks [URL="girls1foursWorcesterAcademyStMarks.html"];StMarysLynn [URL="girls1foursWorcesterAcademyStMarysLynn.html"];Shrewsbury [URL="girls1foursWorcesterAcademyShrewsbury.html"];MarianapolisPrep [URL="girls1foursWorcesterAcademyMarianapolisPrep.html"];Choate [URL="girls1foursWorcesterAcademyChoate.html"];Berwick [URL="girls1foursWorcesterAcademyBerwick.html"];Bedford [URL="girls1foursWorcesterAcademyBedford.html"];VermontAcademy [URL="girls1foursWorcesterAcademyVermontAcademy.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademyWorcesterAcademy.html"];Thayer [URL="girls1foursWorcesterAcademyThayer.html"];Derryfield [URL="girls1foursWorcesterAcademyDerryfield.html"];StMarysLynn -> WorcesterAcademy[label="12.8
 04/26", weight="88", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
 Distance: 1500 meters Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=38305821F0E11F6B4B5BC132E9B3DE79&cat=5", random="random"]; 
@@ -6,6 +6,14 @@ WorcesterAcademy -> Thayer[label="23.2
 04/26", weight="77", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
 Distance: 1500 meters Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=38305821F0E11F6B4B5BC132E9B3DE79&cat=5", random="random"]; 
+Derryfield -> WorcesterAcademy[label="37.6
+04/29", weight="63", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
+Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]; 
+Berwick -> WorcesterAcademy[label="15.4
+04/29", weight="85", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
+Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]; 
 NMH -> WorcesterAcademy[label="119.6
 04/15", weight="-19", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo

@@ -1,4 +1,4 @@
-digraph boys1foursBerwick {Berwick [URL="boys1foursBerwickBerwick.html"];BrewsterAcademy [URL="boys1foursBerwickBrewsterAcademy.html"];BrewsterAcademy -> Berwick[label="13.4
+digraph boys1foursBerwick {BrewsterAcademy [URL="boys1foursBerwickBrewsterAcademy.html"];Berwick [URL="boys1foursBerwickBerwick.html"];WorcesterAcademy [URL="boys1foursBerwickWorcesterAcademy.html"];Derryfield [URL="boys1foursBerwickDerryfield.html"];BrewsterAcademy -> Berwick[label="13.4
 04/08", weight="87", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
 Distance: Berwick Conditions: Strong head wind gusts in the first 700 meters of the race creating some chop, but generally clean conditions for early April racing. Slightly increasing wind as races progressed. Comments: Race order was Girls 1V, Boys 2V, Girls 2V*,Boys 3V, & Boys 1V**
 *Please note that the Girls 2V should be considered an exhibition as there were Varsity rowers to fill out the line-ups to give younger rowers the chance to race.
@@ -7,4 +7,12 @@ None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1244AED6B0395781346
 BrewsterAcademy -> Berwick[label="7.87
 04/15", weight="93", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
 Conditions: Light headwind
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]; 
+Berwick -> WorcesterAcademy[label="8.8
+04/29", weight="92", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
+Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]; 
+Berwick -> Derryfield[label="16.3
+04/29", weight="84", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
+Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]}

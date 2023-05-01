@@ -228,8 +228,9 @@ def get_neighbors(edges, x):
             neighbors.append((edge.first, edge.margin))
     return neighbors
             
-def all_paths(edges, x, y):
-    
+# def all_paths(edges, x, y):
+#     neighbors = get_neighbors(x)
+#     if 
             
 def topo_sort(edges):
     nodes = getNodes(edges)
