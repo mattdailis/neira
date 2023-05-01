@@ -213,7 +213,8 @@ def topo_sort(edges):
         edges = [edge for edge in edges if edge.first not in no_incoming]
 
     tail = []
-    if edges and False:
+    if edges:
+        # If we hit a cycle, try doing a topological sort from the bottom as well
         while True:
             # get nodes that have no incoming edges
             no_outgoing = get_next_set(edges, lambda x: x.second, lambda x: x.first) # swap first and second
@@ -227,9 +228,12 @@ def topo_sort(edges):
             # filter out edges that touch these nodes
             edges = [edge for edge in edges if edge.second not in no_outgoing]
 
-    return res, edges, tail
+    remaining_nodes = set()
+    for edge in edges:
+        remaining_nodes.add(edge.first)
+        remaining_nodes.add(edge.second)
+    return res, remaining_nodes, tail
 
-    # QUESTION: If we hit a cycle, should we try to do this in reverse?
 
 def get_next_set(edges, get_first, get_second):
     no_incoming = set()

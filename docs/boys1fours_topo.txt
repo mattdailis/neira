@@ -1,11 +1,13 @@
-{'Belmont Hill 1', 'Stonington', 'Brookline', 'Berkshire', 'Nobles', 'Belmont Hill', 'Kent School'}
-{'Groton', "St. John's Prep", 'Farmington', 'Brooks'}
-{'Middlesex', 'NMH', 'Duxbury'}
+{'Stonington', 'Belmont Hill', 'Belmont Hill 1', 'Berkshire', 'Kent School', 'Brookline', 'Nobles'}
+{"St. John's Prep", 'Groton', 'Farmington', 'Brooks'}
+{'Duxbury', 'Middlesex', 'NMH'}
 {'Frederick Gunn', 'Shrewsbury'}
 {'Salisbury', 'St Marks'}
-{'Worcester Academy', 'Brewster Academy'}
+{'Brewster Academy', 'Worcester Academy'}
 {'Vermont Academy'}
 {'Bancroft'}
-{'Thayer', 'Derryfield'}
+{'Derryfield', 'Thayer'}
 Cycle detected
-[('Valley', 'Lyme/Old Lyme', datetime.datetime(2023, 4, 26, 0, 0), 21.4, False), ('Valley', "St. Mary's-Lynn", datetime.datetime(2023, 4, 29, 0, 0), 33.2, False), ('Hopkins', 'Choate', datetime.datetime(2023, 4, 12, 0, 0), 0.0, False), ('BBN', 'Cambridge Ringe and Latin School', datetime.datetime(2023, 4, 8, 0, 0), 4.2, False), ('BBN', 'Southfield', datetime.datetime(2023, 4, 15, 0, 0), 22.0, False), ('Lyme/Old Lyme', 'Hopkins', datetime.datetime(2023, 4, 22, 0, 0), 2.84, False), ('Taft', 'Pomfret', datetime.datetime(2023, 4, 29, 0, 0), 0.8, False), ('Hopkins', 'BBN', datetime.datetime(2023, 4, 29, 0, 0), 1.96, False), ('Lyme/Old Lyme', 'Taft', datetime.datetime(2023, 4, 15, 0, 0), 2.62, False), ('Lyme/Old Lyme', 'Canterbury', datetime.datetime(2023, 4, 15, 0, 0), 49.93, False), ('Lyme/Old Lyme', 'Valley', datetime.datetime(2023, 4, 15, 0, 0), 50.83, False), ('Taft', 'Canterbury', datetime.datetime(2023, 4, 15, 0, 0), 47.31, False), ('Taft', 'Valley', datetime.datetime(2023, 4, 15, 0, 0), 48.21, False), ('Canterbury', 'Valley', datetime.datetime(2023, 4, 15, 0, 0), 0.9, False), ('Choate', 'Taft', datetime.datetime(2023, 4, 22, 0, 0), 8.6, False)]
+{'Taft', 'Lyme/Old Lyme', 'Valley', 'Choate', 'Hopkins', 'Canterbury'}
+{'BBN'}
+{"St. Mary's-Lynn", 'Pomfret', 'Southfield', 'Cambridge Ringe and Latin School'}

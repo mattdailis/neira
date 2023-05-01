@@ -1,4 +1,4 @@
-digraph boys2foursPingree {BrewsterAcademy [URL="boys2foursPingreeBrewsterAcademy.html"];Pingree [URL="boys2foursPingreePingree.html"];Berwick [URL="boys2foursPingreeBerwick.html"];Berwick -> Pingree[label="0.83
+digraph boys2foursPingree {BrewsterAcademy [URL="boys2foursPingreeBrewsterAcademy.html"];Berwick [URL="boys2foursPingreeBerwick.html"];Pingree [URL="boys2foursPingreePingree.html"];Berwick -> Pingree[label="0.83
 04/15", weight="100", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
 Conditions: Light headwind
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]; 
