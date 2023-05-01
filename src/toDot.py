@@ -139,6 +139,8 @@ def modMap(map, name):
     soup = BeautifulSoup(map, features="html.parser")
     if not soup:
         return
+    if not soup.map:
+        return
     soup.map['id'] = name
     soup.map['name'] = name
     for area in soup.map.children:

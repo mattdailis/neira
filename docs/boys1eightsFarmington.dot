@@ -1,8 +1,8 @@
-digraph boys1eightsFarmington {SacredHeart [URL="boys1eightsFarmingtonSacredHeart.html"];Guilford [URL="boys1eightsFarmingtonGuilford.html"];Farmington [URL="boys1eightsFarmingtonFarmington.html"];Farmington -> Guilford[label="4.0 (4.29)
+digraph boys1eightsFarmington {Farmington [URL="boys1eightsFarmingtonFarmington.html"];SacredHeart [URL="boys1eightsFarmingtonSacredHeart.html"];Guilford [URL="boys1eightsFarmingtonGuilford.html"];Farmington -> Guilford[label="4.0 (4.29)
 04/29", weight="96", tooltip="NEIRA Boys & Girls Eights,Guilford High School vs Farmington High School			
 Distance: 1400m Conditions: 7-10mph head/cross wind Comments: All starts were floating starts. Races are not comparable. Race Order G1, B1, G2, BN. Farmington 2V Boys 8, 3V boys 8 and Girls Novice 8 rowed as exhibition boats. Thank you Farmington for a great morning of racing!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EAD62B2712391FF51E6EC8766B20FC79&cat=5", random="random"]; 
-SacredHeart -> Farmington[label="7.36
+SacredHeart -> Farmington[label="7.36 (9.6)
 04/26", weight="93", tooltip="NEIRA Eights,Farmington vs Sacred Heart Greenwich			
 Distance: 1,150 Conditions: Strong head current, 5-10 mph crosswind. Comments: Race order G1, G2. Thank you to Sacred Heart for a great day of racing!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2FCC537F649DB7E2C91000C15D90788F&cat=1", random="random"]}

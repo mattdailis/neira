@@ -14,12 +14,16 @@ from chains import seed
 from neiraschools import matchSchool, matched, unmatched
 
 def sorter(string):
-    if "boys" in string.lower():
-        return "00" + string.lower()
+    string = string.lower()
+    if "boys" in string:
+        string = "0" + string
     if "girls" in string.lower():
-        return "0" + string.lower()
+        string = "1" + string
+    if "eight" in string:
+        string = "1" + string
     else:
-        return string.lower()
+        string = "0" + string
+    return string
 
 def orderEntry(orders, school, boat):
     if school not in list(orders.keys()):
@@ -178,6 +182,65 @@ def main():
 
         for school in schools:
             viz(boat + school, boat + school, [edge for edge in edges if edge.first == school or edge.second == school])
+
+        with open('../docs/' + boat + '_topo.txt', 'w') as f:
+            res, edges, tail = topo_sort(edges)
+            for x in res:
+                print(x, file=f)
+            
+            if edges:
+                print("Cycle detected", file=f)
+                print(edges, file=f)
+            
+            for x in tail:
+                print(x, file=f)
+
+def topo_sort(edges):
+    res = []
+    while True:
+        # get nodes that have no incoming edges
+        no_incoming = get_next_set(edges, lambda x: x.first, lambda x: x.second)
+        
+        if not no_incoming:
+            break
+        
+        # add those nodes to the list
+        res.append(no_incoming)
+        
+        # filter out edges that touch these nodes
+        edges = [edge for edge in edges if edge.first not in no_incoming]
+
+    tail = []
+    if edges and False:
+        while True:
+            # get nodes that have no incoming edges
+            no_outgoing = get_next_set(edges, lambda x: x.second, lambda x: x.first) # swap first and second
+        
+            if not no_outgoing:
+                break
+        
+            # add those nodes to the list
+            tail.insert(0, no_outgoing)
+        
+            # filter out edges that touch these nodes
+            edges = [edge for edge in edges if edge.second not in no_outgoing]
+
+    return res, edges, tail
+
+    # QUESTION: If we hit a cycle, should we try to do this in reverse?
+
+def get_next_set(edges, get_first, get_second):
+    no_incoming = set()
+    has_incoming = set()
+    for edge in edges:
+        first = get_first(edge)
+        second = get_second(edge)
+        has_incoming.add(second)
+        if first in no_incoming:
+            no_incoming.remove(first)
+        if first not in has_incoming:
+            no_incoming.add(first)
+    return no_incoming
 
 def all_pairs(my_list):
     for i in range(len(my_list) - 1):

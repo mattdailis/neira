@@ -1,4 +1,4 @@
-digraph boys3eightsDeerfield {Deerfield [URL="boys3eightsDeerfieldDeerfield.html"];Berwick [URL="boys3eightsDeerfieldBerwick.html"];Andover [URL="boys3eightsDeerfieldAndover.html"];Salisbury [URL="boys3eightsDeerfieldSalisbury.html"];Berwick -> Deerfield[label="2.6 (3.06)
+digraph boys3eightsDeerfield {Andover [URL="boys3eightsDeerfieldAndover.html"];Deerfield [URL="boys3eightsDeerfieldDeerfield.html"];Salisbury [URL="boys3eightsDeerfieldSalisbury.html"];Berwick [URL="boys3eightsDeerfieldBerwick.html"];Berwick -> Deerfield[label="2.6 (3.06)
 04/22", weight="98", tooltip="NEIRA Boys Eights,Brunswick vs. Deerfield			
 Distance: 1275m Conditions: All races were against an incoming tide. Stong crosswind created significant chop, especially in the final 500m. Comments: Thank you to Deerfield for rescheduling and making the trip.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CFD71A29710AA7EC335757AC9E330BF1&cat=1", random="random"]; 

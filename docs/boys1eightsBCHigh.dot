@@ -1,4 +1,4 @@
-digraph boys1eightsBCHigh {Brookline [URL="boys1eightsBCHighBrookline.html"];BostonLatin [URL="boys1eightsBCHighBostonLatin.html"];StJohnsPrep [URL="boys1eightsBCHighStJohnsPrep.html"];BCHigh [URL="boys1eightsBCHighBCHigh.html"];StPauls [URL="boys1eightsBCHighStPauls.html"];Brookline -> BCHigh[label="5.9 (7.08)
+digraph boys1eightsBCHigh {BCHigh [URL="boys1eightsBCHighBCHigh.html"];StPauls [URL="boys1eightsBCHighStPauls.html"];StJohnsPrep [URL="boys1eightsBCHighStJohnsPrep.html"];Brookline [URL="boys1eightsBCHighBrookline.html"];BostonLatin [URL="boys1eightsBCHighBostonLatin.html"];Brookline -> BCHigh[label="5.9 (7.08)
 04/19", weight="95", tooltip="NEIRA Boys Eights,Brookline vs. BC High			
 Distance: 1250 Conditions: Blustery conditions, 12-15mph crosswind Comments: Challenging conditions to align boats, as the 3V and 2V races started below the line; times should be compared between races. Lower/novice crews raced in fours. Thanks to Brookline for a spirited morning of racing on the windy Charles!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=57012D86F8D9018705A9C77CE7885D58&cat=1", random="random"]; 

@@ -1,0 +1,6 @@
+{'Deerfield', "St. Paul's", 'Brookline', 'Exeter', 'Glastonbury'}
+{'Andover', 'Boston Latin'}
+{'East Lyme', 'Kent', 'Bedford'}
+{'Stonington', 'Guilford'}
+Cycle detected
+[('Shrewsbury', 'Salisbury', datetime.datetime(2023, 4, 15, 0, 0), 5.8, False), ('Shrewsbury', 'Tabor', datetime.datetime(2023, 4, 15, 0, 0), 9.9, False), ('Salisbury', 'Tabor', datetime.datetime(2023, 4, 15, 0, 0), 4.1, False), ('Salisbury', 'Shrewsbury', datetime.datetime(2023, 4, 22, 0, 0), 3.4, False), ('Salisbury', 'Hingham', datetime.datetime(2023, 4, 22, 0, 0), 7.6, False), ('Shrewsbury', 'Hingham', datetime.datetime(2023, 4, 22, 0, 0), 4.2, False)]

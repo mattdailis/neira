@@ -1,4 +1,4 @@
-digraph girls4eightsAndover {Bedford [URL="girls4eightsAndoverBedford.html"];Andover [URL="girls4eightsAndoverAndover.html"];Deerfield [URL="girls4eightsAndoverDeerfield.html"];Duxbury [URL="girls4eightsAndoverDuxbury.html"];Bedford -> Andover[label="1.8 (1.93)
+digraph girls4eightsAndover {Andover [URL="girls4eightsAndoverAndover.html"];Duxbury [URL="girls4eightsAndoverDuxbury.html"];Deerfield [URL="girls4eightsAndoverDeerfield.html"];Bedford [URL="girls4eightsAndoverBedford.html"];Bedford -> Andover[label="1.8 (1.93)
 04/29", weight="99", tooltip="NEIRA Boys & Girls Eights,Hanover High School vs. Andover vs. Bedford			
 Distance: 1400m Conditions: Rowing upstream. A bit choppy for half of the races. Thank you to the visiting teams for making the trip. Comments: Great day of Racing. Hanover happy to have their first race of the year done!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A72EC75AB47BAC85370264E961636B03&cat=5", random="random"]; 
