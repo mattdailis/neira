@@ -197,7 +197,42 @@ def main():
             for x in tail:
                 print(x, file=f)
 
+            #print()
+
+            #print("All pairs weights:")
+
+            #for left, right, weight in all_pairs_weights(edges):
+
+def all_pairs_weights(edges):
+    nodes = getNodes(edges)
+    weights = {}
+    for node1 in nodes:
+        weights[node1] = {}
+        for node2 in nodes:
+            weights[node1][node2] = []
+
+    for edge in edges:
+        weights[edge.first][edge.second].append(edge.margin)
+        weights[edge.second][edge.first].append(-edge.margin)
+
+        # propagate
+        for neighbor in weights[edge.second]:
+            weights[edge.first][neighbor].extend((margin + x) for x in weights[edge.first][edge.second])
+
+def get_neighbors(edges, x):
+    neighbors = []
+    for edge in edges:
+        if edge.first == x:
+            neighbors.append((edge.second, edge.margin))
+        if edge.second == x:
+            neighbors.append((edge.first, edge.margin))
+    return neighbors
+            
+def all_paths(edges, x, y):
+    
+            
 def topo_sort(edges):
+    nodes = getNodes(edges)
     res = []
     while True:
         # get nodes that have no incoming edges
@@ -208,6 +243,7 @@ def topo_sort(edges):
         
         # add those nodes to the list
         res.append(no_incoming)
+        nodes.difference_update(no_incoming)
         
         # filter out edges that touch these nodes
         edges = [edge for edge in edges if edge.first not in no_incoming]
@@ -227,6 +263,8 @@ def topo_sort(edges):
         
             # filter out edges that touch these nodes
             edges = [edge for edge in edges if edge.second not in no_outgoing]
+    else:
+        res.append(nodes)    
 
     remaining_nodes = set()
     for edge in edges:
@@ -236,17 +274,13 @@ def topo_sort(edges):
 
 
 def get_next_set(edges, get_first, get_second):
-    no_incoming = set()
+    all_nodes = set()
     has_incoming = set()
     for edge in edges:
-        first = get_first(edge)
-        second = get_second(edge)
-        has_incoming.add(second)
-        if second in no_incoming:
-            no_incoming.remove(second)
-        if first not in has_incoming:
-            no_incoming.add(first)
-    return no_incoming
+        all_nodes.add(get_first(edge))
+        all_nodes.add(get_second(edge))
+        has_incoming.add(get_second(edge))
+    return all_nodes.difference(has_incoming)
 
 def all_pairs(my_list):
     for i in range(len(my_list) - 1):
