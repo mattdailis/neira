@@ -1,4 +1,4 @@
-digraph girls5fours {EastLyme [URL="girls5foursEastLyme.html"];BBN [URL="girls5foursBBN.html"];Stonington [URL="girls5foursStonington.html"];Nobles [URL="girls5foursNobles.html"];Brooks [URL="girls5foursBrooks.html"];Winsor [URL="girls5foursWinsor.html"];CambridgeRingeandLatinSchool [URL="girls5foursCambridgeRingeandLatinSchool.html"];NMH [URL="girls5foursNMH.html"];Brooks -> NMH[label="7.0 (8.4)
+digraph girls5fours {Nobles [URL="girls5foursNobles.html"];Stonington [URL="girls5foursStonington.html"];BBN [URL="girls5foursBBN.html"];Winsor [URL="girls5foursWinsor.html"];NMH [URL="girls5foursNMH.html"];Brooks [URL="girls5foursBrooks.html"];EastLyme [URL="girls5foursEastLyme.html"];CambridgeRingeandLatinSchool [URL="girls5foursCambridgeRingeandLatinSchool.html"];Brooks -> NMH[label="7.0 (8.4)
 04/29", weight="93", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
