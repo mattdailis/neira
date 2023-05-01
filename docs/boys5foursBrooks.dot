@@ -1,4 +1,4 @@
-digraph boys5foursBrooks {NMH [URL="boys5foursBrooksNMH.html"];Nobles [URL="boys5foursBrooksNobles.html"];Brooks [URL="boys5foursBrooksBrooks.html"];Brooks -> NMH[label="11.4 (13.68)
+digraph boys5foursBrooks {Brooks [URL="boys5foursBrooksBrooks.html"];NMH [URL="boys5foursBrooksNMH.html"];Nobles [URL="boys5foursBrooksNobles.html"];Brooks -> NMH[label="11.4 (13.68)
 04/29", weight="89", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 

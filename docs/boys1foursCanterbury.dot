@@ -1,4 +1,4 @@
-digraph boys1foursCanterbury {Taft [URL="boys1foursCanterburyTaft.html"];Valley [URL="boys1foursCanterburyValley.html"];LymeOldLyme [URL="boys1foursCanterburyLymeOldLyme.html"];Canterbury [URL="boys1foursCanterburyCanterbury.html"];LymeOldLyme -> Canterbury[label="49.93
+digraph boys1foursCanterbury {Canterbury [URL="boys1foursCanterburyCanterbury.html"];Valley [URL="boys1foursCanterburyValley.html"];Taft [URL="boys1foursCanterburyTaft.html"];LymeOldLyme [URL="boys1foursCanterburyLymeOldLyme.html"];LymeOldLyme -> Canterbury[label="49.93
 04/15", weight="51", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
 Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 
