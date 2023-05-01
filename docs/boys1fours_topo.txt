@@ -1,13 +1,12 @@
-{'Stonington', 'Belmont Hill', 'Belmont Hill 1', 'Berkshire', 'Kent School', 'Brookline', 'Nobles'}
+{'Kent School', 'Berkshire', 'Belmont Hill', 'Stonington', 'Belmont Hill 1', 'Brookline', 'Nobles'}
 {"St. John's Prep", 'Groton', 'Farmington', 'Brooks'}
-{'Duxbury', 'Middlesex', 'NMH'}
-{'Frederick Gunn', 'Shrewsbury'}
+{'NMH', 'Duxbury', 'Middlesex'}
+{'Shrewsbury', 'Frederick Gunn'}
 {'Salisbury', 'St Marks'}
 {'Brewster Academy', 'Worcester Academy'}
 {'Vermont Academy'}
 {'Bancroft'}
-{'Derryfield', 'Thayer'}
-Cycle detected
-{'Taft', 'Lyme/Old Lyme', 'Valley', 'Choate', 'Hopkins', 'Canterbury'}
+{'Thayer', 'Derryfield'}
+Cycle detected: {'Taft', 'Hopkins', 'Canterbury', 'Choate', 'Valley', 'Lyme/Old Lyme'}
 {'BBN'}
-{"St. Mary's-Lynn", 'Pomfret', 'Southfield', 'Cambridge Ringe and Latin School'}
+{'Pomfret', 'Southfield', 'Cambridge Ringe and Latin School', "St. Mary's-Lynn"}

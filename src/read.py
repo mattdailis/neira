@@ -191,7 +191,7 @@ def main():
                 print(x, file=f)
             
             if edges:
-                print("Cycle detected", file=f)
+                print("Cycle detected: ", file=f, end="")
                 print(edges, file=f)
             
             for x in tail:
