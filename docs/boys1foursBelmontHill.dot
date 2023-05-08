@@ -1,4 +1,8 @@
-digraph boys1foursBelmontHill {Middlesex [URL="boys1foursBelmontHillMiddlesex.html"];Hopkins [URL="boys1foursBelmontHillHopkins.html"];BelmontHill [URL="boys1foursBelmontHillBelmontHill.html"];BBN [URL="boys1foursBelmontHillBBN.html"];BelmontHill -> Middlesex[label="14.9
+digraph boys1foursBelmontHill {BelmontHill [URL="boys1foursBelmontHillBelmontHill.html"];Hopkins [URL="boys1foursBelmontHillHopkins.html"];Nobles [URL="boys1foursBelmontHillNobles.html"];Middlesex [URL="boys1foursBelmontHillMiddlesex.html"];BBN [URL="boys1foursBelmontHillBBN.html"];BelmontHill -> Nobles[label="5.8 (6.69)
+05/06", weight="95", tooltip="NEIRA Boys Fours,Belmont Hill vs Nobles/The Bassett Cup			
+Distance: 1300m Conditions: Variable wind, mostly tail/cross-tail, fairly strong to start then diminishing throughout the racing (and even changing to a headwind for part of the 1V4 race). Great water throughout. Comments: Thanks to Nobles for a fantastic afternoon of racing. Belmont Hill retains the Bassett Cup by virtue of the win in the 1V4.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A2ED238F671A343384BFA3B092B6419C&cat=1", random="random"]; 
+BelmontHill -> Middlesex[label="14.9
 04/26", weight="86", tooltip="NEIRA Boys Fours,Middlesex vs. Belmont Hill			
 Distance: 1500m Conditions: Light, variable breeze with flat water. Great racing conditions. Comments: Due to illnesses on the team, Belmont Hill shifted multiple lineups on race day. Thank you Belmont for joining us for a good afternoon of racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E473BAD40172D779EB4C466D13EA851D&cat=1", random="random"]; 

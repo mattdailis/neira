@@ -1,7 +1,34 @@
-digraph boys5fours {Nobles [URL="boys5foursNobles.html"];NMH [URL="boys5foursNMH.html"];Brooks [URL="boys5foursBrooks.html"];Brooks -> NMH[label="11.4 (13.68)
+digraph boys5fours {BelmontHill [URL="boys5foursBelmontHill.html"];NMH [URL="boys5foursNMH.html"];Nobles [URL="boys5foursNobles.html"];StPauls [URL="boys5foursStPauls.html"];Andover [URL="boys5foursAndover.html"];Hingham [URL="boys5foursHingham.html"];3V8 [URL="boys5fours3V8.html"];Brooks [URL="boys5foursBrooks.html"];3V8 -> BelmontHill[label="_
+05/06", weight="99", tooltip="NEIRA Boys Fours,Belmont Hill vs Nobles/The Bassett Cup			
+Distance: 1300m Conditions: Variable wind, mostly tail/cross-tail, fairly strong to start then diminishing throughout the racing (and even changing to a headwind for part of the 1V4 race). Great water throughout. Comments: Thanks to Nobles for a fantastic afternoon of racing. Belmont Hill retains the Bassett Cup by virtue of the win in the 1V4.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A2ED238F671A343384BFA3B092B6419C&cat=1", random="random"]; 
+3V8 -> Nobles[label="_
+05/06", weight="99", tooltip="NEIRA Boys Fours,Belmont Hill vs Nobles/The Bassett Cup			
+Distance: 1300m Conditions: Variable wind, mostly tail/cross-tail, fairly strong to start then diminishing throughout the racing (and even changing to a headwind for part of the 1V4 race). Great water throughout. Comments: Thanks to Nobles for a fantastic afternoon of racing. Belmont Hill retains the Bassett Cup by virtue of the win in the 1V4.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A2ED238F671A343384BFA3B092B6419C&cat=1", random="random"]; 
+BelmontHill -> Nobles[label="23.1 (26.65)
+05/06", weight="77", tooltip="NEIRA Boys Fours,Belmont Hill vs Nobles/The Bassett Cup			
+Distance: 1300m Conditions: Variable wind, mostly tail/cross-tail, fairly strong to start then diminishing throughout the racing (and even changing to a headwind for part of the 1V4 race). Great water throughout. Comments: Thanks to Nobles for a fantastic afternoon of racing. Belmont Hill retains the Bassett Cup by virtue of the win in the 1V4.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A2ED238F671A343384BFA3B092B6419C&cat=1", random="random"]; 
+Brooks -> NMH[label="11.4 (13.68)
 04/29", weight="89", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
+Andover -> Hingham[label="15.7 (14.27)
+05/06", weight="85", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
+Andover -> StPauls[label="19.5 (17.73)
+05/06", weight="81", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
+Hingham -> StPauls[label="3.8 (3.45)
+05/06", weight="97", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
 Nobles -> Brooks[label="22.6
 04/15", weight="78", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 

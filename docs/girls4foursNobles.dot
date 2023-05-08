@@ -1,4 +1,4 @@
-digraph girls4foursNobles {Groton [URL="girls4foursNoblesGroton.html"];Nobles [URL="girls4foursNoblesNobles.html"];BBN [URL="girls4foursNoblesBBN.html"];Brooks [URL="girls4foursNoblesBrooks.html"];Nobles -> Groton[label="17.8 (19.78)
+digraph girls4foursNobles {Nobles [URL="girls4foursNoblesNobles.html"];Groton [URL="girls4foursNoblesGroton.html"];Brooks [URL="girls4foursNoblesBrooks.html"];Winsor [URL="girls4foursNoblesWinsor.html"];BBN [URL="girls4foursNoblesBBN.html"];Nobles -> Groton[label="17.8 (19.78)
 04/22", weight="83", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
 For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
@@ -14,4 +14,8 @@ Nobles -> Brooks[label="7.6
 04/15", weight="93", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
+Nobles -> Winsor[label="7.96 (8.84)
+05/06", weight="93", tooltip="NEIRA Girls Fours,Winsor Vs. Nobles			
+Distance: 1350 Conditions: Strong current & crossing tailwind made for fast racing on the Charles. Final race was in eights.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E2CE59D7E281822AAF789887DF39FE0C&cat=1", random="random"]}

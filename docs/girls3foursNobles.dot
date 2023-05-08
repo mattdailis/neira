@@ -1,4 +1,4 @@
-digraph girls3foursNobles {NewtonCountryDay [URL="girls3foursNoblesNewtonCountryDay.html"];Nobles [URL="girls3foursNoblesNobles.html"];StMarks [URL="girls3foursNoblesStMarks.html"];Groton [URL="girls3foursNoblesGroton.html"];Brooks [URL="girls3foursNoblesBrooks.html"];BBN [URL="girls3foursNoblesBBN.html"];Nobles -> Groton[label="6.5 (7.22)
+digraph girls3foursNobles {NewtonCountryDay [URL="girls3foursNoblesNewtonCountryDay.html"];Nobles [URL="girls3foursNoblesNobles.html"];Groton [URL="girls3foursNoblesGroton.html"];Brooks [URL="girls3foursNoblesBrooks.html"];Winsor [URL="girls3foursNoblesWinsor.html"];StMarks [URL="girls3foursNoblesStMarks.html"];BBN [URL="girls3foursNoblesBBN.html"];Nobles -> Groton[label="6.5 (7.22)
 04/22", weight="94", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
 For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
@@ -15,6 +15,10 @@ Nobles -> Brooks[label="29.1
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
+Winsor -> Nobles[label="1.56 (1.73)
+05/06", weight="99", tooltip="NEIRA Girls Fours,Winsor Vs. Nobles			
+Distance: 1350 Conditions: Strong current & crossing tailwind made for fast racing on the Charles. Final race was in eights.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E2CE59D7E281822AAF789887DF39FE0C&cat=1", random="random"]; 
 Nobles -> StMarks[label="13.8
 04/29", weight="87", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
 Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.

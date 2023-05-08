@@ -1,4 +1,4 @@
-digraph boys4fours {Taft [URL="boys4foursTaft.html"];Pomfret [URL="boys4foursPomfret.html"];Nobles [URL="boys4foursNobles.html"];Duxbury [URL="boys4foursDuxbury.html"];NMH [URL="boys4foursNMH.html"];StMarks [URL="boys4foursStMarks.html"];Groton [URL="boys4foursGroton.html"];StJohnsPrep [URL="boys4foursStJohnsPrep.html"];Shrewsbury [URL="boys4foursShrewsbury.html"];Berkshire [URL="boys4foursBerkshire.html"];CambridgeRingeandLatinSchool [URL="boys4foursCambridgeRingeandLatinSchool.html"];BelmontHill [URL="boys4foursBelmontHill.html"];Salisbury [URL="boys4foursSalisbury.html"];EastLyme [URL="boys4foursEastLyme.html"];Brooks [URL="boys4foursBrooks.html"];Middlesex [URL="boys4foursMiddlesex.html"];Brookline [URL="boys4foursBrookline.html"];BBN [URL="boys4foursBBN.html"];Brooks -> StMarks[label="66.0
+digraph boys4fours {Middlesex4 [URL="boys4foursMiddlesex4.html"];StJohnsPrep [URL="boys4foursStJohnsPrep.html"];Berkshire [URL="boys4foursBerkshire.html"];Taft [URL="boys4foursTaft.html"];StMarks [URL="boys4foursStMarks.html"];CambridgeRingeandLatinSchool [URL="boys4foursCambridgeRingeandLatinSchool.html"];StPauls [URL="boys4foursStPauls.html"];Salisbury [URL="boys4foursSalisbury.html"];BBN [URL="boys4foursBBN.html"];BelmontHill [URL="boys4foursBelmontHill.html"];Pomfret [URL="boys4foursPomfret.html"];NMH [URL="boys4foursNMH.html"];Nobles [URL="boys4foursNobles.html"];BBN4 [URL="boys4foursBBN4.html"];Andover [URL="boys4foursAndover.html"];Groton [URL="boys4foursGroton.html"];Brookline [URL="boys4foursBrookline.html"];Duxbury [URL="boys4foursDuxbury.html"];EastLyme [URL="boys4foursEastLyme.html"];Brooks [URL="boys4foursBrooks.html"];Shrewsbury [URL="boys4foursShrewsbury.html"];Middlesex [URL="boys4foursMiddlesex.html"];Brooks -> StMarks[label="66.0
 04/22", weight="34", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -6,6 +6,10 @@ Berkshire -> Pomfret[label="20.4
 04/26", weight="80", tooltip="NEIRA Boys Fours,Pomfret vs. Berkshire			
 Distance: 1500 Conditions: No current. Slight crossing tailwind to begin (ESE ~6 to 8 MPH) that increased in speed and became more of a solid (S ~10-12 MPH) tail by the last race. Comments: Order of races: B3, B2, B1, B4. There were some girls' races between each.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CB9AFEA5B1B59D6BB2AE6F6222405B5E&cat=1", random="random"]; 
+BelmontHill -> Nobles[label="1.9 (2.19)
+05/06", weight="99", tooltip="NEIRA Boys Fours,Belmont Hill vs Nobles/The Bassett Cup			
+Distance: 1300m Conditions: Variable wind, mostly tail/cross-tail, fairly strong to start then diminishing throughout the racing (and even changing to a headwind for part of the 1V4 race). Great water throughout. Comments: Thanks to Nobles for a fantastic afternoon of racing. Belmont Hill retains the Bassett Cup by virtue of the win in the 1V4.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A2ED238F671A343384BFA3B092B6419C&cat=1", random="random"]; 
 Brooks -> NMH[label="26.5 (31.8)
 04/29", weight="74", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
@@ -29,10 +33,19 @@ Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wi
 The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
 Thanks to BB&N and congratulations to all for a great day of early season racing!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
+BBN4 -> Middlesex4[label="34.09 (39.33)
+05/06", weight="66", tooltip="NEIRA Boys Fours,BB&N vs. Middlesex			
+Distance: 1300 Conditions: Considerable cross tailwind throughout racing, slightly diminishing throughout the afternoon. Order of racing was 4, 3 , 2 , 1. During the 4v race, a power boat caused the crews to divert courses slightly and handle a wake, but did not impact overall results.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9F7B1025B4E8D1742BC9A4D1807E25EA&cat=1", random="random"]; 
 BelmontHill -> Middlesex[label="18.3
 04/26", weight="82", tooltip="NEIRA Boys Fours,Middlesex vs. Belmont Hill			
 Distance: 1500m Conditions: Light, variable breeze with flat water. Great racing conditions. Comments: Due to illnesses on the team, Belmont Hill shifted multiple lineups on race day. Thank you Belmont for joining us for a good afternoon of racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E473BAD40172D779EB4C466D13EA851D&cat=1", random="random"]; 
+Andover -> StPauls[label="3.4 (3.09)
+05/06", weight="97", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
 Groton -> Taft[label="58.6
 04/29", weight="42", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
 Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.

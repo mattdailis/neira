@@ -1,4 +1,4 @@
-digraph girls1foursBancroft {FrederickGunn [URL="girls1foursBancroftFrederickGunn.html"];NMH [URL="girls1foursBancroftNMH.html"];Bancroft [URL="girls1foursBancroftBancroft.html"];StMarks [URL="girls1foursBancroftStMarks.html"];MarianapolisPrep [URL="girls1foursBancroftMarianapolisPrep.html"];Choate [URL="girls1foursBancroftChoate.html"];VermontAcademy [URL="girls1foursBancroftVermontAcademy.html"];WorcesterAcademy [URL="girls1foursBancroftWorcesterAcademy.html"];Derryfield [URL="girls1foursBancroftDerryfield.html"];NMH -> Bancroft[label="79.7
+digraph girls1foursBancroft {Derryfield [URL="girls1foursBancroftDerryfield.html"];VermontAcademy [URL="girls1foursBancroftVermontAcademy.html"];NMH [URL="girls1foursBancroftNMH.html"];Bancroft [URL="girls1foursBancroftBancroft.html"];MarianapolisPrep [URL="girls1foursBancroftMarianapolisPrep.html"];FrederickGunn [URL="girls1foursBancroftFrederickGunn.html"];Thayer [URL="girls1foursBancroftThayer.html"];Choate [URL="girls1foursBancroftChoate.html"];StMarks [URL="girls1foursBancroftStMarks.html"];WorcesterAcademy [URL="girls1foursBancroftWorcesterAcademy.html"];NMH -> Bancroft[label="79.7
 04/15", weight="21", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
@@ -42,4 +42,12 @@ Bancroft -> VermontAcademy[label="18.2
 04/23", weight="82", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
 Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
 A special thanks to Paul Carabillo for refereeing the match.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]; 
+Bancroft -> Thayer[label="9.8
+05/03", weight="91", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Thayer, Bancroft			
+Distance: 1500 Conditions: No chop, slight drizzle.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B35E90C6E4674ED433D90CE9C237CF59&cat=5", random="random"]; 
+Bancroft -> WorcesterAcademy[label="16.8
+05/03", weight="84", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Thayer, Bancroft			
+Distance: 1500 Conditions: No chop, slight drizzle.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B35E90C6E4674ED433D90CE9C237CF59&cat=5", random="random"]}

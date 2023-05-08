@@ -1,4 +1,4 @@
-digraph boys2fours {Taft [URL="boys2foursTaft.html"];Nobles [URL="boys2foursNobles.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];Shrewsbury [URL="boys2foursShrewsbury.html"];Stonington [URL="boys2foursStonington.html"];Middlesex [URL="boys2foursMiddlesex.html"];Derryfield [URL="boys2foursDerryfield.html"];BBN [URL="boys2foursBBN.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Valley [URL="boys2foursValley.html"];Pingree [URL="boys2foursPingree.html"];Berwick [URL="boys2foursBerwick.html"];Salisbury [URL="boys2foursSalisbury.html"];KentSchool [URL="boys2foursKentSchool.html"];Duxbury [URL="boys2foursDuxbury.html"];Southfield [URL="boys2foursSouthfield.html"];Pomfret [URL="boys2foursPomfret.html"];NMH [URL="boys2foursNMH.html"];Farmington [URL="boys2foursFarmington.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];StMarks [URL="boys2foursStMarks.html"];Andover [URL="boys2foursAndover.html"];Groton [URL="boys2foursGroton.html"];Berkshire [URL="boys2foursBerkshire.html"];Choate [URL="boys2foursChoate.html"];Brooks [URL="boys2foursBrooks.html"];Hopkins [URL="boys2foursHopkins.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Brookline [URL="boys2foursBrookline.html"];Bancroft [URL="boys2foursBancroft.html"];StJohnsPrep [URL="boys2foursStJohnsPrep.html"];CambridgeRingeandLatinSchool [URL="boys2foursCambridgeRingeandLatinSchool.html"];BelmontHill [URL="boys2foursBelmontHill.html"];EastLyme [URL="boys2foursEastLyme.html"];LymeOldLyme -> Valley[label="10.0
+digraph boys2fours {Hopkins [URL="boys2foursHopkins.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];StJohnsPrep [URL="boys2foursStJohnsPrep.html"];Berkshire [URL="boys2foursBerkshire.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];Pingree [URL="boys2foursPingree.html"];Berwick [URL="boys2foursBerwick.html"];Taft [URL="boys2foursTaft.html"];StMarks [URL="boys2foursStMarks.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Derryfield [URL="boys2foursDerryfield.html"];CambridgeRingeandLatinSchool [URL="boys2foursCambridgeRingeandLatinSchool.html"];StPauls [URL="boys2foursStPauls.html"];Bancroft [URL="boys2foursBancroft.html"];Hingham [URL="boys2foursHingham.html"];Valley [URL="boys2foursValley.html"];Choate [URL="boys2foursChoate.html"];KentSchool [URL="boys2foursKentSchool.html"];Farmington [URL="boys2foursFarmington.html"];Salisbury [URL="boys2foursSalisbury.html"];Stonington [URL="boys2foursStonington.html"];BBN [URL="boys2foursBBN.html"];BelmontHill [URL="boys2foursBelmontHill.html"];Pomfret [URL="boys2foursPomfret.html"];NMH [URL="boys2foursNMH.html"];Nobles [URL="boys2foursNobles.html"];EastLyme [URL="boys2foursEastLyme.html"];Andover [URL="boys2foursAndover.html"];Southfield [URL="boys2foursSouthfield.html"];Groton [URL="boys2foursGroton.html"];Brookline [URL="boys2foursBrookline.html"];Duxbury [URL="boys2foursDuxbury.html"];Brooks [URL="boys2foursBrooks.html"];Shrewsbury [URL="boys2foursShrewsbury.html"];Middlesex [URL="boys2foursMiddlesex.html"];LymeOldLyme -> Valley[label="10.0
 04/26", weight="90", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
 Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
@@ -36,6 +36,10 @@ StMarysLynn -> Bancroft[label="25.9
 04/26", weight="75", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
 Distance: 1500 meters Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=38305821F0E11F6B4B5BC132E9B3DE79&cat=5", random="random"]; 
+Nobles -> BelmontHill[label="3.3 (3.81)
+05/06", weight="97", tooltip="NEIRA Boys Fours,Belmont Hill vs Nobles/The Bassett Cup			
+Distance: 1300m Conditions: Variable wind, mostly tail/cross-tail, fairly strong to start then diminishing throughout the racing (and even changing to a headwind for part of the 1V4 race). Great water throughout. Comments: Thanks to Nobles for a fantastic afternoon of racing. Belmont Hill retains the Bassett Cup by virtue of the win in the 1V4.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A2ED238F671A343384BFA3B092B6419C&cat=1", random="random"]; 
 Brooks -> NMH[label="6.7 (8.04)
 04/29", weight="94", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
@@ -116,6 +120,10 @@ Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wi
 The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
 Thanks to BB&N and congratulations to all for a great day of early season racing!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
+BBN -> Middlesex[label="19.78 (22.82)
+05/06", weight="81", tooltip="NEIRA Boys Fours,BB&N vs. Middlesex			
+Distance: 1300 Conditions: Considerable cross tailwind throughout racing, slightly diminishing throughout the afternoon. Order of racing was 4, 3 , 2 , 1. During the 4v race, a power boat caused the crews to divert courses slightly and handle a wake, but did not impact overall results.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9F7B1025B4E8D1742BC9A4D1807E25EA&cat=1", random="random"]; 
 BBN -> Southfield[label="52.0 (57.78)
 04/15", weight="48", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
 Distance: 1350m Conditions: moderate cross head quartering from port.
@@ -140,6 +148,21 @@ BelmontHill -> Middlesex[label="29.3
 04/26", weight="71", tooltip="NEIRA Boys Fours,Middlesex vs. Belmont Hill			
 Distance: 1500m Conditions: Light, variable breeze with flat water. Great racing conditions. Comments: Due to illnesses on the team, Belmont Hill shifted multiple lineups on race day. Thank you Belmont for joining us for a good afternoon of racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E473BAD40172D779EB4C466D13EA851D&cat=1", random="random"]; 
+Andover -> Hingham[label="7.2 (6.55)
+05/06", weight="93", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
+Andover -> StPauls[label="10.0 (9.09)
+05/06", weight="90", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
+Hingham -> StPauls[label="2.8 (2.55)
+05/06", weight="98", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
 Groton -> Taft[label="18.1
 04/29", weight="82", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
 Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.
@@ -152,11 +175,19 @@ Taft -> Pomfret[label="9.2
 04/29", weight="91", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
 Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=06436C78C6DB17E1D158607A2B127B2B&cat=1", random="random"]; 
+WorcesterAcademy -> Bancroft[label="49.4
+05/03", weight="51", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Thayer, Bancroft			
+Distance: 1500 Conditions: No chop, slight drizzle.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B35E90C6E4674ED433D90CE9C237CF59&cat=5", random="random"]; 
 Nobles -> Brooks[label="3.1
 04/15", weight="97", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
+Groton -> Middlesex[label="12.9 (15.48)
+05/03", weight="88", tooltip="NEIRA Boys Fours,Middlesex at Groton			
+Distance: 1250 m Conditions: Swift current. No wind. Flat water. Comments: Thank you Middlesex for Good racing. Glad we got it in on an AP day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0B4DF495288B6483B51367194F68C48D&cat=1", random="random"]; 
 BelmontHill -> BBN[label="10.22 (11.79)
 04/29", weight="90", tooltip="NEIRA Boys Fours,BB&N vs. Belmont Hill (Ducey Cup) and Hopkins School			
 Distance: 1300 Conditions: Light crossing head wind at the start, stayed consistent for all races. Comments: A good day of racing by all teams. Belmont Hill retained the Ducey Cup vs. BB&N. Thanks to Hopkins for making the trip up to race.

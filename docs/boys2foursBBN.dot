@@ -1,9 +1,13 @@
-digraph boys2foursBBN {Southfield [URL="boys2foursBBNSouthfield.html"];Nobles [URL="boys2foursBBNNobles.html"];Groton [URL="boys2foursBBNGroton.html"];CambridgeRingeandLatinSchool [URL="boys2foursBBNCambridgeRingeandLatinSchool.html"];BelmontHill [URL="boys2foursBBNBelmontHill.html"];Hopkins [URL="boys2foursBBNHopkins.html"];BBN [URL="boys2foursBBNBBN.html"];BBN -> CambridgeRingeandLatinSchool[label="8.7 (10.44)
+digraph boys2foursBBN {BelmontHill [URL="boys2foursBBNBelmontHill.html"];Hopkins [URL="boys2foursBBNHopkins.html"];CambridgeRingeandLatinSchool [URL="boys2foursBBNCambridgeRingeandLatinSchool.html"];Nobles [URL="boys2foursBBNNobles.html"];Southfield [URL="boys2foursBBNSouthfield.html"];Groton [URL="boys2foursBBNGroton.html"];Middlesex [URL="boys2foursBBNMiddlesex.html"];BBN [URL="boys2foursBBNBBN.html"];BBN -> CambridgeRingeandLatinSchool[label="8.7 (10.44)
 04/08", weight="92", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
 Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
 The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
 Thanks to BB&N and congratulations to all for a great day of early season racing!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
+BBN -> Middlesex[label="19.78 (22.82)
+05/06", weight="81", tooltip="NEIRA Boys Fours,BB&N vs. Middlesex			
+Distance: 1300 Conditions: Considerable cross tailwind throughout racing, slightly diminishing throughout the afternoon. Order of racing was 4, 3 , 2 , 1. During the 4v race, a power boat caused the crews to divert courses slightly and handle a wake, but did not impact overall results.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9F7B1025B4E8D1742BC9A4D1807E25EA&cat=1", random="random"]; 
 BBN -> Southfield[label="52.0 (57.78)
 04/15", weight="48", tooltip="NEIRA Boys & Girls Fours,BB&N vs Dexter-Southfield			
 Distance: 1350m Conditions: moderate cross head quartering from port.

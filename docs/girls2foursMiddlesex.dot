@@ -1,4 +1,22 @@
-digraph girls2foursMiddlesex {StMarks [URL="girls2foursMiddlesexStMarks.html"];Middlesex [URL="girls2foursMiddlesexMiddlesex.html"];Brooks [URL="girls2foursMiddlesexBrooks.html"];Brooks -> Middlesex[label="18.4
+digraph girls2foursMiddlesex {NewtonCountryDay [URL="girls2foursMiddlesexNewtonCountryDay.html"];Brooks [URL="girls2foursMiddlesexBrooks.html"];Middlesex [URL="girls2foursMiddlesexMiddlesex.html"];StMarks [URL="girls2foursMiddlesexStMarks.html"];BBN [URL="girls2foursMiddlesexBBN.html"];BBN -> Middlesex[label="9.9
+05/06", weight="91", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
+Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
+THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
+ 2nd boats had a delay due to an ill athlete
+3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
+5,3,2,4 started over the line, 4ht a full length
+2 and First had some close oar clashes, but nothing that stopped a boat.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+Middlesex -> NewtonCountryDay[label="7.7
+05/06", weight="93", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
+Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
+THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
+ 2nd boats had a delay due to an ill athlete
+3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
+5,3,2,4 started over the line, 4ht a full length
+2 and First had some close oar clashes, but nothing that stopped a boat.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+Brooks -> Middlesex[label="18.4
 04/22", weight="82", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 

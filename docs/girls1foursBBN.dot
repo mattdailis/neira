@@ -1,4 +1,22 @@
-digraph girls1foursBBN {Southfield [URL="girls1foursBBNSouthfield.html"];Nobles [URL="girls1foursBBNNobles.html"];Groton [URL="girls1foursBBNGroton.html"];CambridgeRingeandLatinSchool [URL="girls1foursBBNCambridgeRingeandLatinSchool.html"];Winsor [URL="girls1foursBBNWinsor.html"];Hopkins [URL="girls1foursBBNHopkins.html"];BBN [URL="girls1foursBBNBBN.html"];CambridgeRingeandLatinSchool -> BBN[label="5.9 (7.08)
+digraph girls1foursBBN {NewtonCountryDay [URL="girls1foursBBNNewtonCountryDay.html"];Hopkins [URL="girls1foursBBNHopkins.html"];CambridgeRingeandLatinSchool [URL="girls1foursBBNCambridgeRingeandLatinSchool.html"];Nobles [URL="girls1foursBBNNobles.html"];Southfield [URL="girls1foursBBNSouthfield.html"];Groton [URL="girls1foursBBNGroton.html"];Middlesex [URL="girls1foursBBNMiddlesex.html"];Winsor [URL="girls1foursBBNWinsor.html"];BBN [URL="girls1foursBBNBBN.html"];Middlesex -> BBN[label="4.2
+05/06", weight="96", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
+Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
+THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
+ 2nd boats had a delay due to an ill athlete
+3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
+5,3,2,4 started over the line, 4ht a full length
+2 and First had some close oar clashes, but nothing that stopped a boat.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+BBN -> NewtonCountryDay[label="19.1
+05/06", weight="81", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
+Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
+THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
+ 2nd boats had a delay due to an ill athlete
+3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
+5,3,2,4 started over the line, 4ht a full length
+2 and First had some close oar clashes, but nothing that stopped a boat.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+CambridgeRingeandLatinSchool -> BBN[label="5.9 (7.08)
 04/08", weight="95", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
 Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
 The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).

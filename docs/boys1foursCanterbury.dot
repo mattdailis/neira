@@ -1,4 +1,8 @@
-digraph boys1foursCanterbury {LymeOldLyme [URL="boys1foursCanterburyLymeOldLyme.html"];Taft [URL="boys1foursCanterburyTaft.html"];Canterbury [URL="boys1foursCanterburyCanterbury.html"];Valley [URL="boys1foursCanterburyValley.html"];LymeOldLyme -> Canterbury[label="49.93
+digraph boys1foursCanterbury {Forman [URL="boys1foursCanterburyForman.html"];Canterbury [URL="boys1foursCanterburyCanterbury.html"];Valley [URL="boys1foursCanterburyValley.html"];Taft [URL="boys1foursCanterburyTaft.html"];LymeOldLyme [URL="boys1foursCanterburyLymeOldLyme.html"];Canterbury -> Forman[label="32.0
+04/22", weight="68", tooltip="NEIRA,Forman, Canterbury			
+Distance: ~1250m Conditions: Significant chop and headwind in the first 500m, conditions worsened for each race. Comments: Order of racing: BV4, (Mixed) Novice 4s, GV4. Thanks to Forman for hosting, and for helping our novs get their first race in.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=06A158EEDAE8764DDD00C72FEF838CFA&cat=5", random="random"]; 
+LymeOldLyme -> Canterbury[label="49.93
 04/15", weight="51", tooltip="NEIRA Boys Fours,Taft, Lyme/Old Lyme, Canterbury, Valley Regional			
 Distance: 1500 meters Conditions: 7-8mph cross tail wind. Comments: Thanks to Lyme/Old Lyme, Canterbury, and Valley for making the trip to Bantam Lake.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=365F3EBE7EA27CD7F3EF83DD42468130&cat=1", random="random"]; 

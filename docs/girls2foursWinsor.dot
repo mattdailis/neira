@@ -1,4 +1,4 @@
-digraph girls2foursWinsor {NewtonCountryDay [URL="girls2foursWinsorNewtonCountryDay.html"];Hopkins [URL="girls2foursWinsorHopkins.html"];BBN [URL="girls2foursWinsorBBN.html"];Winsor [URL="girls2foursWinsorWinsor.html"];BBN -> Winsor[label="5.8 (6.44)
+digraph girls2foursWinsor {NewtonCountryDay [URL="girls2foursWinsorNewtonCountryDay.html"];Hopkins [URL="girls2foursWinsorHopkins.html"];Nobles [URL="girls2foursWinsorNobles.html"];Winsor [URL="girls2foursWinsorWinsor.html"];BBN [URL="girls2foursWinsorBBN.html"];BBN -> Winsor[label="5.8 (6.44)
 04/29", weight="95", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
 The 5th boat race was in 8's with Winsor and BB&N
@@ -11,4 +11,8 @@ None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D
 Winsor -> NewtonCountryDay[label="29.3 (31.39)
 04/22", weight="71", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
 Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]; 
+Nobles -> Winsor[label="9.54 (10.6)
+05/06", weight="91", tooltip="NEIRA Girls Fours,Winsor Vs. Nobles			
+Distance: 1350 Conditions: Strong current & crossing tailwind made for fast racing on the Charles. Final race was in eights.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E2CE59D7E281822AAF789887DF39FE0C&cat=1", random="random"]}

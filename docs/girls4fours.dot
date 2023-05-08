@@ -1,4 +1,31 @@
-digraph girls4fours {Taft [URL="girls4foursTaft.html"];Nobles [URL="girls4foursNobles.html"];Shrewsbury [URL="girls4foursShrewsbury.html"];Winsor [URL="girls4foursWinsor.html"];Middlesex [URL="girls4foursMiddlesex.html"];BBN [URL="girls4foursBBN.html"];LymeOldLyme [URL="girls4foursLymeOldLyme.html"];NewtonCountryDay [URL="girls4foursNewtonCountryDay.html"];Valley [URL="girls4foursValley.html"];timetrialGrotonracedalone [URL="girls4fourstimetrialGrotonracedalone.html"];Salisbury [URL="girls4foursSalisbury.html"];Duxbury [URL="girls4foursDuxbury.html"];NMH [URL="girls4foursNMH.html"];Farmington [URL="girls4foursFarmington.html"];StMarks [URL="girls4foursStMarks.html"];Groton [URL="girls4foursGroton.html"];Choate [URL="girls4foursChoate.html"];Brooks [URL="girls4foursBrooks.html"];Hopkins [URL="girls4foursHopkins.html"];CambridgeRingeandLatinSchool [URL="girls4foursCambridgeRingeandLatinSchool.html"];EastLyme [URL="girls4foursEastLyme.html"];GreenwichAcademy [URL="girls4foursGreenwichAcademy.html"];Brooks -> Middlesex[label="17.4
+digraph girls4fours {Hopkins [URL="girls4foursHopkins.html"];StPaulsG5 [URL="girls4foursStPaulsG5.html"];LymeOldLyme [URL="girls4foursLymeOldLyme.html"];NewtonCountryDay [URL="girls4foursNewtonCountryDay.html"];GreenwichAcademy [URL="girls4foursGreenwichAcademy.html"];Taft [URL="girls4foursTaft.html"];Winsor [URL="girls4foursWinsor.html"];StMarks [URL="girls4foursStMarks.html"];CambridgeRingeandLatinSchool [URL="girls4foursCambridgeRingeandLatinSchool.html"];StPauls [URL="girls4foursStPauls.html"];Hingham [URL="girls4foursHingham.html"];Valley [URL="girls4foursValley.html"];Choate [URL="girls4foursChoate.html"];Farmington [URL="girls4foursFarmington.html"];timetrialGrotonracedalone [URL="girls4fourstimetrialGrotonracedalone.html"];Salisbury [URL="girls4foursSalisbury.html"];BBN [URL="girls4foursBBN.html"];NMH [URL="girls4foursNMH.html"];Nobles [URL="girls4foursNobles.html"];EastLyme [URL="girls4foursEastLyme.html"];Andover [URL="girls4foursAndover.html"];Groton [URL="girls4foursGroton.html"];Duxbury [URL="girls4foursDuxbury.html"];Brooks [URL="girls4foursBrooks.html"];Shrewsbury [URL="girls4foursShrewsbury.html"];Middlesex [URL="girls4foursMiddlesex.html"];Middlesex -> NewtonCountryDay[label="12.9
+05/06", weight="88", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
+Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
+THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
+ 2nd boats had a delay due to an ill athlete
+3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
+5,3,2,4 started over the line, 4ht a full length
+2 and First had some close oar clashes, but nothing that stopped a boat.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+Middlesex -> BBN[label="27.7
+05/06", weight="73", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
+Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
+THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
+ 2nd boats had a delay due to an ill athlete
+3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
+5,3,2,4 started over the line, 4ht a full length
+2 and First had some close oar clashes, but nothing that stopped a boat.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+NewtonCountryDay -> BBN[label="14.8
+05/06", weight="86", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
+Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
+THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
+ 2nd boats had a delay due to an ill athlete
+3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
+5,3,2,4 started over the line, 4ht a full length
+2 and First had some close oar clashes, but nothing that stopped a boat.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+Brooks -> Middlesex[label="17.4
 04/22", weight="83", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -92,11 +119,45 @@ Hopkins -> LymeOldLyme[label="43.6
 04/22", weight="57", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
 Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&cat=5", random="random"]; 
+StPauls -> Andover[label="7.4 (6.73)
+05/06", weight="93", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
+StPauls -> Hingham[label="14.1 (12.82)
+05/06", weight="86", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
+StPauls -> StPaulsG5[label="19.3 (17.55)
+05/06", weight="81", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
+Andover -> Hingham[label="6.7 (6.09)
+05/06", weight="94", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
+Andover -> StPaulsG5[label="11.9 (10.82)
+05/06", weight="89", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
+Hingham -> StPaulsG5[label="5.2 (4.73)
+05/06", weight="95", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
+Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
+Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
 Nobles -> Brooks[label="7.6
 04/15", weight="93", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
+Nobles -> Winsor[label="7.96 (8.84)
+05/06", weight="93", tooltip="NEIRA Girls Fours,Winsor Vs. Nobles			
+Distance: 1350 Conditions: Strong current & crossing tailwind made for fast racing on the Charles. Final race was in eights.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E2CE59D7E281822AAF789887DF39FE0C&cat=1", random="random"]; 
 NewtonCountryDay -> StMarks[label="11.7
 04/29", weight="89", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
 Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.

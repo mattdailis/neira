@@ -1,4 +1,31 @@
-digraph girls5fours {Nobles [URL="girls5foursNobles.html"];NMH [URL="girls5foursNMH.html"];Brooks [URL="girls5foursBrooks.html"];Stonington [URL="girls5foursStonington.html"];CambridgeRingeandLatinSchool [URL="girls5foursCambridgeRingeandLatinSchool.html"];EastLyme [URL="girls5foursEastLyme.html"];Winsor [URL="girls5foursWinsor.html"];BBN [URL="girls5foursBBN.html"];Brooks -> NMH[label="7.0 (8.4)
+digraph girls5fours {NewtonCountryDay [URL="girls5foursNewtonCountryDay.html"];CambridgeRingeandLatinSchool [URL="girls5foursCambridgeRingeandLatinSchool.html"];NMH [URL="girls5foursNMH.html"];Nobles [URL="girls5foursNobles.html"];EastLyme [URL="girls5foursEastLyme.html"];Stonington [URL="girls5foursStonington.html"];Brooks [URL="girls5foursBrooks.html"];Middlesex [URL="girls5foursMiddlesex.html"];Winsor [URL="girls5foursWinsor.html"];BBN [URL="girls5foursBBN.html"];BBN -> Middlesex[label="22.3
+05/06", weight="78", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
+Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
+THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
+ 2nd boats had a delay due to an ill athlete
+3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
+5,3,2,4 started over the line, 4ht a full length
+2 and First had some close oar clashes, but nothing that stopped a boat.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+BBN -> NewtonCountryDay[label="24.3
+05/06", weight="76", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
+Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
+THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
+ 2nd boats had a delay due to an ill athlete
+3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
+5,3,2,4 started over the line, 4ht a full length
+2 and First had some close oar clashes, but nothing that stopped a boat.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+Middlesex -> NewtonCountryDay[label="2.0
+05/06", weight="98", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
+Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
+THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
+ 2nd boats had a delay due to an ill athlete
+3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
+5,3,2,4 started over the line, 4ht a full length
+2 and First had some close oar clashes, but nothing that stopped a boat.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+Brooks -> NMH[label="7.0 (8.4)
 04/29", weight="93", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
@@ -20,6 +47,10 @@ Nobles -> Brooks[label="11.7
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
+Nobles -> Winsor[label="10.44 (11.6)
+05/06", weight="90", tooltip="NEIRA Girls Fours,Winsor Vs. Nobles			
+Distance: 1350 Conditions: Strong current & crossing tailwind made for fast racing on the Charles. Final race was in eights.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E2CE59D7E281822AAF789887DF39FE0C&cat=1", random="random"]; 
 Stonington -> EastLyme[label="9.6
 04/22", weight="91", tooltip="NEIRA,Stonington, East Lyme, Farmington			
 Distance: 1500m Conditions: Strong cross wind throughout racing , slight headwind. Tide incoming against course for boys 1v, none for girls 1v and outgoing with course rest of races. Not comparable times across races. Comments: Novice races were 1000m. In the girls 2v race, a Farmington rower’s oar came out of the oarlock in the last 250m of the race. In the boys novice, East Lyme caught a crab off the start. Stonington and East Lyme raced an exhibition 4+ event. 

@@ -1,4 +1,4 @@
-digraph boys2foursWorcesterAcademy {NMH [URL="boys2foursWorcesterAcademyNMH.html"];Bancroft [URL="boys2foursWorcesterAcademyBancroft.html"];StMarks [URL="boys2foursWorcesterAcademyStMarks.html"];StMarysLynn [URL="boys2foursWorcesterAcademyStMarysLynn.html"];Berwick [URL="boys2foursWorcesterAcademyBerwick.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademyWorcesterAcademy.html"];Derryfield [URL="boys2foursWorcesterAcademyDerryfield.html"];WorcesterAcademy -> StMarysLynn[label="26.3
+digraph boys2foursWorcesterAcademy {Derryfield [URL="boys2foursWorcesterAcademyDerryfield.html"];Berwick [URL="boys2foursWorcesterAcademyBerwick.html"];NMH [URL="boys2foursWorcesterAcademyNMH.html"];Bancroft [URL="boys2foursWorcesterAcademyBancroft.html"];StMarks [URL="boys2foursWorcesterAcademyStMarks.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademyWorcesterAcademy.html"];StMarysLynn [URL="boys2foursWorcesterAcademyStMarysLynn.html"];WorcesterAcademy -> StMarysLynn[label="26.3
 04/26", weight="74", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
 Distance: 1500 meters Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=38305821F0E11F6B4B5BC132E9B3DE79&cat=5", random="random"]; 
@@ -33,4 +33,8 @@ WorcesterAcademy -> Bancroft[label="59.1
 04/23", weight="41", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
 Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
 A special thanks to Paul Carabillo for refereeing the match.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]; 
+WorcesterAcademy -> Bancroft[label="49.4
+05/03", weight="51", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Thayer, Bancroft			
+Distance: 1500 Conditions: No chop, slight drizzle.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B35E90C6E4674ED433D90CE9C237CF59&cat=5", random="random"]}

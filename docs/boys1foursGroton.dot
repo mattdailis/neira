@@ -1,4 +1,4 @@
-digraph boys1foursGroton {Taft [URL="boys1foursGrotonTaft.html"];Pomfret [URL="boys1foursGrotonPomfret.html"];Nobles [URL="boys1foursGrotonNobles.html"];Groton [URL="boys1foursGrotonGroton.html"];BBN [URL="boys1foursGrotonBBN.html"];Groton -> Taft[label="12.4
+digraph boys1foursGroton {Pomfret [URL="boys1foursGrotonPomfret.html"];Nobles [URL="boys1foursGrotonNobles.html"];Groton [URL="boys1foursGrotonGroton.html"];Taft [URL="boys1foursGrotonTaft.html"];Middlesex [URL="boys1foursGrotonMiddlesex.html"];BBN [URL="boys1foursGrotonBBN.html"];Groton -> Taft[label="12.4
 04/29", weight="88", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
 Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=06436C78C6DB17E1D158607A2B127B2B&cat=1", random="random"]; 
@@ -6,6 +6,10 @@ Groton -> Pomfret[label="13.2
 04/29", weight="87", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
 Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=06436C78C6DB17E1D158607A2B127B2B&cat=1", random="random"]; 
+Groton -> Middlesex[label="0.8 (0.96)
+05/03", weight="100", tooltip="NEIRA Boys Fours,Middlesex at Groton			
+Distance: 1250 m Conditions: Swift current. No wind. Flat water. Comments: Thank you Middlesex for Good racing. Glad we got it in on an AP day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0B4DF495288B6483B51367194F68C48D&cat=1", random="random"]; 
 Nobles -> Groton[label="6.35 (7.06)
 04/22", weight="94", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head

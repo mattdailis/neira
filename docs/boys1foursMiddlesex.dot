@@ -1,4 +1,4 @@
-digraph boys1foursMiddlesex {BelmontHill [URL="boys1foursMiddlesexBelmontHill.html"];StMarks [URL="boys1foursMiddlesexStMarks.html"];Middlesex [URL="boys1foursMiddlesexMiddlesex.html"];Brooks [URL="boys1foursMiddlesexBrooks.html"];Brooks -> Middlesex[label="4.0
+digraph boys1foursMiddlesex {BelmontHill [URL="boys1foursMiddlesexBelmontHill.html"];Groton [URL="boys1foursMiddlesexGroton.html"];Brooks [URL="boys1foursMiddlesexBrooks.html"];Middlesex [URL="boys1foursMiddlesexMiddlesex.html"];StMarks [URL="boys1foursMiddlesexStMarks.html"];BBN [URL="boys1foursMiddlesexBBN.html"];Brooks -> Middlesex[label="4.0
 04/22", weight="96", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -6,7 +6,15 @@ Middlesex -> StMarks[label="20.0
 04/22", weight="80", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
+Middlesex -> BBN[label="15.84 (18.28)
+05/06", weight="85", tooltip="NEIRA Boys Fours,BB&N vs. Middlesex			
+Distance: 1300 Conditions: Considerable cross tailwind throughout racing, slightly diminishing throughout the afternoon. Order of racing was 4, 3 , 2 , 1. During the 4v race, a power boat caused the crews to divert courses slightly and handle a wake, but did not impact overall results.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9F7B1025B4E8D1742BC9A4D1807E25EA&cat=1", random="random"]; 
 BelmontHill -> Middlesex[label="14.9
 04/26", weight="86", tooltip="NEIRA Boys Fours,Middlesex vs. Belmont Hill			
 Distance: 1500m Conditions: Light, variable breeze with flat water. Great racing conditions. Comments: Due to illnesses on the team, Belmont Hill shifted multiple lineups on race day. Thank you Belmont for joining us for a good afternoon of racing.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E473BAD40172D779EB4C466D13EA851D&cat=1", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E473BAD40172D779EB4C466D13EA851D&cat=1", random="random"]; 
+Groton -> Middlesex[label="0.8 (0.96)
+05/03", weight="100", tooltip="NEIRA Boys Fours,Middlesex at Groton			
+Distance: 1250 m Conditions: Swift current. No wind. Flat water. Comments: Thank you Middlesex for Good racing. Glad we got it in on an AP day.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0B4DF495288B6483B51367194F68C48D&cat=1", random="random"]}
