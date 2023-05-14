@@ -1,4 +1,4 @@
-digraph girls1foursWorcesterAcademy {Bancroft [URL="girls1foursWorcesterAcademyBancroft.html"];VermontAcademy [URL="girls1foursWorcesterAcademyVermontAcademy.html"];Choate [URL="girls1foursWorcesterAcademyChoate.html"];Thayer [URL="girls1foursWorcesterAcademyThayer.html"];Derryfield [URL="girls1foursWorcesterAcademyDerryfield.html"];StMarysLynn [URL="girls1foursWorcesterAcademyStMarysLynn.html"];Berwick [URL="girls1foursWorcesterAcademyBerwick.html"];StMarks [URL="girls1foursWorcesterAcademyStMarks.html"];FrederickGunn [URL="girls1foursWorcesterAcademyFrederickGunn.html"];Shrewsbury [URL="girls1foursWorcesterAcademyShrewsbury.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademyWorcesterAcademy.html"];MarianapolisPrep [URL="girls1foursWorcesterAcademyMarianapolisPrep.html"];NMH [URL="girls1foursWorcesterAcademyNMH.html"];Bedford [URL="girls1foursWorcesterAcademyBedford.html"];MarianapolisPrep -> WorcesterAcademy[label="39.0
+digraph girls1foursWorcesterAcademy {MarianapolisPrep [URL="girls1foursWorcesterAcademyMarianapolisPrep.html"];GunnSchool [URL="girls1foursWorcesterAcademyGunnSchool.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademyWorcesterAcademy.html"];Choate [URL="girls1foursWorcesterAcademyChoate.html"];VermontAcademy [URL="girls1foursWorcesterAcademyVermontAcademy.html"];Thayer [URL="girls1foursWorcesterAcademyThayer.html"];StMarysLynn [URL="girls1foursWorcesterAcademyStMarysLynn.html"];Berwick [URL="girls1foursWorcesterAcademyBerwick.html"];Bancroft [URL="girls1foursWorcesterAcademyBancroft.html"];NMH [URL="girls1foursWorcesterAcademyNMH.html"];StMarks [URL="girls1foursWorcesterAcademyStMarks.html"];Derryfield [URL="girls1foursWorcesterAcademyDerryfield.html"];MarianapolisPrep -> WorcesterAcademy[label="39.0
 05/10", weight="61", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, St. Mark's, and Marianapolis			
 Distance: 1500 Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F473318C04D652F4CA3FD3866C15D6C5&cat=5", random="random"]; 
@@ -37,7 +37,7 @@ StMarks -> WorcesterAcademy[label="110.7
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
-FrederickGunn -> WorcesterAcademy[label="107.9
+GunnSchool -> WorcesterAcademy[label="107.9
 04/15", weight="-7", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
@@ -74,12 +74,4 @@ None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B35E90C6E4674ED433D
 Thayer -> WorcesterAcademy[label="7.0
 05/03", weight="93", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Thayer, Bancroft			
 Distance: 1500 Conditions: No chop, slight drizzle.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B35E90C6E4674ED433D90CE9C237CF59&cat=5", random="random"]; 
-Bedford -> WorcesterAcademy[label="56.7 (85.05)
-04/08", weight="44", tooltip="NEIRA Boys & Girls Fours,Shrewsbury Opener: Shrewsbury vs. Bedford NH vs. Worcester Academy			
-Distance: 1000 Conditions: Cross tailwind for all races. Gusty at times & growing in strength as the races progressed. Comments: Events rowed as an exhibition / scrimmage to enable all visiting athletes a chance to compete on the day.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4B8E9B0A9FBCF2437CE01792D4CB1428&cat=5", random="random"]; 
-Shrewsbury -> WorcesterAcademy[label="43.49 (65.23)
-04/08", weight="57", tooltip="NEIRA Boys & Girls Fours,Shrewsbury Opener: Shrewsbury vs. Bedford NH vs. Worcester Academy			
-Distance: 1000 Conditions: Cross tailwind for all races. Gusty at times & growing in strength as the races progressed. Comments: Events rowed as an exhibition / scrimmage to enable all visiting athletes a chance to compete on the day.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4B8E9B0A9FBCF2437CE01792D4CB1428&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B35E90C6E4674ED433D90CE9C237CF59&cat=5", random="random"]}

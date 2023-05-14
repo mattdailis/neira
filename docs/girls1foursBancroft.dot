@@ -1,4 +1,4 @@
-digraph girls1foursBancroft {Bancroft [URL="girls1foursBancroftBancroft.html"];VermontAcademy [URL="girls1foursBancroftVermontAcademy.html"];Choate [URL="girls1foursBancroftChoate.html"];Thayer [URL="girls1foursBancroftThayer.html"];Derryfield [URL="girls1foursBancroftDerryfield.html"];FrederickGunn [URL="girls1foursBancroftFrederickGunn.html"];StMarks [URL="girls1foursBancroftStMarks.html"];WorcesterAcademy [URL="girls1foursBancroftWorcesterAcademy.html"];MarianapolisPrep [URL="girls1foursBancroftMarianapolisPrep.html"];NMH [URL="girls1foursBancroftNMH.html"];MarianapolisPrep -> Bancroft[label="46.0
+digraph girls1foursBancroft {MarianapolisPrep [URL="girls1foursBancroftMarianapolisPrep.html"];WorcesterAcademy [URL="girls1foursBancroftWorcesterAcademy.html"];Choate [URL="girls1foursBancroftChoate.html"];VermontAcademy [URL="girls1foursBancroftVermontAcademy.html"];Thayer [URL="girls1foursBancroftThayer.html"];NMH [URL="girls1foursBancroftNMH.html"];Bancroft [URL="girls1foursBancroftBancroft.html"];StMarks [URL="girls1foursBancroftStMarks.html"];GunnSchool [URL="girls1foursBancroftGunnSchool.html"];Derryfield [URL="girls1foursBancroftDerryfield.html"];MarianapolisPrep -> Bancroft[label="46.0
 05/10", weight="54", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, St. Mark's, and Marianapolis			
 Distance: 1500 Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F473318C04D652F4CA3FD3866C15D6C5&cat=5", random="random"]; 
@@ -21,7 +21,7 @@ StMarks -> Bancroft[label="70.8
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
-FrederickGunn -> Bancroft[label="68.0
+GunnSchool -> Bancroft[label="68.0
 04/15", weight="32", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.

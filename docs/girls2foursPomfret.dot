@@ -1,4 +1,4 @@
-digraph girls2foursPomfret {Groton [URL="girls2foursPomfretGroton.html"];Pomfret [URL="girls2foursPomfretPomfret.html"];Berkshire [URL="girls2foursPomfretBerkshire.html"];FrederickGunn [URL="girls2foursPomfretFrederickGunn.html"];FrederickGunnSchool [URL="girls2foursPomfretFrederickGunnSchool.html"];StMarks [URL="girls2foursPomfretStMarks.html"];MissPorters [URL="girls2foursPomfretMissPorters.html"];GreenwichAcademy [URL="girls2foursPomfretGreenwichAcademy.html"];Taft [URL="girls2foursPomfretTaft.html"];Suffield [URL="girls2foursPomfretSuffield.html"];Winsor [URL="girls2foursPomfretWinsor.html"];Groton -> Pomfret[label="78.1
+digraph girls2foursPomfret {Pomfret [URL="girls2foursPomfretPomfret.html"];MissPorters [URL="girls2foursPomfretMissPorters.html"];BerkshireAcademy [URL="girls2foursPomfretBerkshireAcademy.html"];GreenwichAcademy [URL="girls2foursPomfretGreenwichAcademy.html"];Groton [URL="girls2foursPomfretGroton.html"];StMarks [URL="girls2foursPomfretStMarks.html"];Taft [URL="girls2foursPomfretTaft.html"];GunnSchool [URL="girls2foursPomfretGunnSchool.html"];Winsor [URL="girls2foursPomfretWinsor.html"];Groton -> Pomfret[label="78.1
 04/29", weight="22", tooltip="NEIRA Girls Fours,Pomfret vs. Groton, Taft			
 Distance: 1500m Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with boys. Order of girls races: G5, G4, G3, G2, G1. Pomfret's 3rd boat raced in the 5th boat race against Taft's 5th boat.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7D7FC627D5ED48EFA19D099D502CC4FA&cat=1", random="random"]; 
@@ -9,13 +9,10 @@ None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7D7FC627D5ED48EFA19
 GreenwichAcademy -> Pomfret[label="61.7
 05/07", weight="39", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
-FrederickGunnSchool -> Pomfret[label="27.6
+GunnSchool -> Pomfret[label="27.6
 05/07", weight="73", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
-Suffield -> Pomfret[label="23.2
-05/07", weight="77", tooltip="Founder's Day			
-NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
-Pomfret -> Berkshire[label="6.2
+Pomfret -> BerkshireAcademy[label="6.2
 05/07", weight="94", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 Winsor -> Pomfret[label="84.2
@@ -34,7 +31,7 @@ MissPorters -> Pomfret[label="47.2
 05/13", weight="53", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
 Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
-FrederickGunn -> Pomfret[label="33.9
+GunnSchool -> Pomfret[label="33.9
 05/13", weight="67", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
 Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]}

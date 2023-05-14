@@ -1,4 +1,4 @@
-digraph girls6fours {Groton [URL="girls6foursGroton.html"];BBN [URL="girls6foursBBN.html"];Choate [URL="girls6foursChoate.html"];FrederickGunn [URL="girls6foursFrederickGunn.html"];Nobles [URL="girls6foursNobles.html"];Brooks [URL="girls6foursBrooks.html"];Middlesex [URL="girls6foursMiddlesex.html"];MissPorters [URL="girls6foursMissPorters.html"];Winsor [URL="girls6foursWinsor.html"];Middlesex -> BBN[label="9.6
+digraph girls6fours {Brooks [URL="girls6foursBrooks.html"];Middlesex [URL="girls6foursMiddlesex.html"];MissPorters [URL="girls6foursMissPorters.html"];Choate [URL="girls6foursChoate.html"];Nobles [URL="girls6foursNobles.html"];BBN [URL="girls6foursBBN.html"];Groton [URL="girls6foursGroton.html"];GunnSchool [URL="girls6foursGunnSchool.html"];Winsor [URL="girls6foursWinsor.html"];Middlesex -> BBN[label="9.6
 05/06", weight="91", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
 Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
 THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
@@ -17,7 +17,7 @@ Girls 7:
 Brooks: 5.06
 Groton: 5:40
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C056DFD0326A8B1A82CE215F897C0056&cat=5", random="random"]; 
-Winsor -> FrederickGunn[label="37.1
+Winsor -> GunnSchool[label="37.1
 05/13", weight="63", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
 Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
@@ -25,7 +25,7 @@ Winsor -> MissPorters[label="54.9
 05/13", weight="46", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
 Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
-FrederickGunn -> MissPorters[label="17.8
+GunnSchool -> MissPorters[label="17.8
 05/13", weight="83", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
 Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 

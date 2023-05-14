@@ -1,4 +1,4 @@
-digraph girls2foursBBN {Groton [URL="girls2foursBBNGroton.html"];BBN [URL="girls2foursBBNBBN.html"];CambridgeRingeandLatinSchool [URL="girls2foursBBNCambridgeRingeandLatinSchool.html"];Nobles [URL="girls2foursBBNNobles.html"];Middlesex [URL="girls2foursBBNMiddlesex.html"];NewtonCountryDay [URL="girls2foursBBNNewtonCountryDay.html"];Hopkins [URL="girls2foursBBNHopkins.html"];Winsor [URL="girls2foursBBNWinsor.html"];BBN -> Middlesex[label="9.9
+digraph girls2foursBBN {NewtonCountryDay [URL="girls2foursBBNNewtonCountryDay.html"];Middlesex [URL="girls2foursBBNMiddlesex.html"];CambridgeRLS [URL="girls2foursBBNCambridgeRLS.html"];Nobles [URL="girls2foursBBNNobles.html"];BBN [URL="girls2foursBBNBBN.html"];Hopkins [URL="girls2foursBBNHopkins.html"];Groton [URL="girls2foursBBNGroton.html"];Winsor [URL="girls2foursBBNWinsor.html"];BBN -> Middlesex[label="9.9
 05/06", weight="91", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
 Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
 THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
@@ -16,7 +16,7 @@ THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: 
 5,3,2,4 started over the line, 4ht a full length
 2 and First had some close oar clashes, but nothing that stopped a boat.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
-BBN -> CambridgeRingeandLatinSchool[label="29.9 (35.88)
+BBN -> CambridgeRLS[label="29.9 (35.88)
 04/08", weight="71", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
 Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
 The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).

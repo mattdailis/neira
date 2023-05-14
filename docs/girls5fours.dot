@@ -1,4 +1,4 @@
-digraph girls5fours {Groton [URL="girls5foursGroton.html"];Stonington [URL="girls5foursStonington.html"];BBN [URL="girls5foursBBN.html"];Choate [URL="girls5foursChoate.html"];CambridgeRingeandLatinSchool [URL="girls5foursCambridgeRingeandLatinSchool.html"];Nobles [URL="girls5foursNobles.html"];Brooks [URL="girls5foursBrooks.html"];Middlesex [URL="girls5foursMiddlesex.html"];NewtonCountryDay [URL="girls5foursNewtonCountryDay.html"];EastLyme [URL="girls5foursEastLyme.html"];Taft [URL="girls5foursTaft.html"];CRLS [URL="girls5foursCRLS.html"];Winsor [URL="girls5foursWinsor.html"];NMH [URL="girls5foursNMH.html"];BBN -> Middlesex[label="22.3
+digraph girls5fours {Brooks [URL="girls5foursBrooks.html"];NewtonCountryDay [URL="girls5foursNewtonCountryDay.html"];Middlesex [URL="girls5foursMiddlesex.html"];Choate [URL="girls5foursChoate.html"];CambridgeRLS [URL="girls5foursCambridgeRLS.html"];Nobles [URL="girls5foursNobles.html"];BBN [URL="girls5foursBBN.html"];NMH [URL="girls5foursNMH.html"];Groton [URL="girls5foursGroton.html"];Taft [URL="girls5foursTaft.html"];Winsor [URL="girls5foursWinsor.html"];BBN -> Middlesex[label="22.3
 05/06", weight="78", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
 Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
 THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
@@ -29,15 +29,15 @@ Brooks -> NMH[label="7.0 (8.4)
 04/29", weight="93", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
-Brooks -> CambridgeRingeandLatinSchool[label="82.0 (98.4)
+Brooks -> CambridgeRLS[label="82.0 (98.4)
 04/29", weight="18", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
-NMH -> CambridgeRingeandLatinSchool[label="75.0 (90.0)
+NMH -> CambridgeRLS[label="75.0 (90.0)
 04/29", weight="25", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
-Winsor -> CRLS[label="8.5 (9.81)
+Winsor -> CambridgeRLS[label="8.5 (9.81)
 05/11", weight="92", tooltip="NEIRA Girls Fours,Cambridge Rindge & Latin School vs. Winsor			
 Distance: 1300m Conditions: Flat water, light and variable cross/ cross-tail wind. Short rainshower at the beginning of the Novice 8+ race. Comments: All floating starts. 3V4+, 4V4+, and N8+ all started over the start line by 1-2 lengths so times are not comparable across events. The Charles Riverboat cruised through the 3V race waking both crews, CRLS slightly more than Winsor, but the result was not affected thanks to some steely-nerved coxswains.
 Thank you to Winsor for great racing amid a busy week of AP exams!
@@ -90,9 +90,4 @@ None", URL="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F0219
 Nobles -> Winsor[label="10.44 (11.6)
 05/06", weight="90", tooltip="NEIRA Girls Fours,Winsor Vs. Nobles			
 Distance: 1350 Conditions: Strong current & crossing tailwind made for fast racing on the Charles. Final race was in eights.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E2CE59D7E281822AAF789887DF39FE0C&cat=1", random="random"]; 
-Stonington -> EastLyme[label="9.6
-04/22", weight="91", tooltip="NEIRA,Stonington, East Lyme, Farmington			
-Distance: 1500m Conditions: Strong cross wind throughout racing , slight headwind. Tide incoming against course for boys 1v, none for girls 1v and outgoing with course rest of races. Not comparable times across races. Comments: Novice races were 1000m. In the girls 2v race, a Farmington rowerâ€™s oar came out of the oarlock in the last 250m of the race. In the boys novice, East Lyme caught a crab off the start. Stonington and East Lyme raced an exhibition 4+ event. 
-Thank you so much to East Lyme and Farmington for making the trip to Mystic!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=25FA49DE911995B33DFB62505A5976D4&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=E2CE59D7E281822AAF789887DF39FE0C&cat=1", random="random"]}

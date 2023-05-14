@@ -1,4 +1,4 @@
-digraph girls2foursBrewsterAcademy {StMarks [URL="girls2foursBrewsterAcademyStMarks.html"];Berwick [URL="girls2foursBrewsterAcademyBerwick.html"];Nobles [URL="girls2foursBrewsterAcademyNobles.html"];NewtonCountryDay [URL="girls2foursBrewsterAcademyNewtonCountryDay.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademyBrewsterAcademy.html"];BrewsterAcademy -> Berwick[label="97.5
+digraph girls2foursBrewsterAcademy {NewtonCountryDay [URL="girls2foursBrewsterAcademyNewtonCountryDay.html"];LymeOldLyme [URL="girls2foursBrewsterAcademyLymeOldLyme.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademyBrewsterAcademy.html"];Choate [URL="girls2foursBrewsterAcademyChoate.html"];Nobles [URL="girls2foursBrewsterAcademyNobles.html"];Hopkins [URL="girls2foursBrewsterAcademyHopkins.html"];NMH [URL="girls2foursBrewsterAcademyNMH.html"];Taft [URL="girls2foursBrewsterAcademyTaft.html"];Berwick [URL="girls2foursBrewsterAcademyBerwick.html"];StMarks [URL="girls2foursBrewsterAcademyStMarks.html"];BrewsterAcademy -> Berwick[label="97.5
 04/08", weight="3", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
 Distance: Berwick Conditions: Strong head wind gusts in the first 700 meters of the race creating some chop, but generally clean conditions for early April racing. Slightly increasing wind as races progressed. Comments: Race order was Girls 1V, Boys 2V, Girls 2V*,Boys 3V, & Boys 1V**
 *Please note that the Girls 2V should be considered an exhibition as there were Varsity rowers to fill out the line-ups to give younger rowers the chance to race.
@@ -8,6 +8,21 @@ BrewsterAcademy -> Berwick[label="61.23
 04/15", weight="39", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
 Conditions: Light headwind
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]; 
+Choate -> BrewsterAcademy[label="40.8
+05/07", weight="60", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+NMH -> BrewsterAcademy[label="39.0
+05/07", weight="61", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Taft -> BrewsterAcademy[label="34.5
+05/07", weight="66", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+LymeOldLyme -> BrewsterAcademy[label="22.7
+05/07", weight="78", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+BrewsterAcademy -> Hopkins[label="9.5
+05/07", weight="91", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 Nobles -> BrewsterAcademy[label="48.1
 04/29", weight="52", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
 Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.

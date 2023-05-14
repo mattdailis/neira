@@ -1,8 +1,8 @@
-digraph girls1foursNMH {Bancroft [URL="girls1foursNMHBancroft.html"];Choate [URL="girls1foursNMHChoate.html"];CambridgeRingeandLatinSchool [URL="girls1foursNMHCambridgeRingeandLatinSchool.html"];FrederickGunnSchool [URL="girls1foursNMHFrederickGunnSchool.html"];StMarks [URL="girls1foursNMHStMarks.html"];Brooks [URL="girls1foursNMHBrooks.html"];FrederickGunn [URL="girls1foursNMHFrederickGunn.html"];LymeOldLyme [URL="girls1foursNMHLymeOldLyme.html"];Nobles [URL="girls1foursNMHNobles.html"];GreenwichAcademy [URL="girls1foursNMHGreenwichAcademy.html"];WorcesterAcademy [URL="girls1foursNMHWorcesterAcademy.html"];Taft [URL="girls1foursNMHTaft.html"];Hopkins [URL="girls1foursNMHHopkins.html"];NMH [URL="girls1foursNMHNMH.html"];NMH -> Brooks[label="3.0 (3.6)
+digraph girls1foursNMH {Brooks [URL="girls1foursNMHBrooks.html"];LymeOldLyme [URL="girls1foursNMHLymeOldLyme.html"];Bancroft [URL="girls1foursNMHBancroft.html"];WorcesterAcademy [URL="girls1foursNMHWorcesterAcademy.html"];Choate [URL="girls1foursNMHChoate.html"];GreenwichAcademy [URL="girls1foursNMHGreenwichAcademy.html"];CambridgeRLS [URL="girls1foursNMHCambridgeRLS.html"];Nobles [URL="girls1foursNMHNobles.html"];Hopkins [URL="girls1foursNMHHopkins.html"];NMH [URL="girls1foursNMHNMH.html"];Taft [URL="girls1foursNMHTaft.html"];StMarks [URL="girls1foursNMHStMarks.html"];GunnSchool [URL="girls1foursNMHGunnSchool.html"];NMH -> Brooks[label="3.0 (3.6)
 04/29", weight="97", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
-NMH -> CambridgeRingeandLatinSchool[label="5.0 (6.0)
+NMH -> CambridgeRLS[label="5.0 (6.0)
 04/29", weight="95", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
@@ -18,7 +18,7 @@ NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake
 NMH -> Hopkins[label="16.8
 05/07", weight="84", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
-NMH -> FrederickGunnSchool[label="35.2
+NMH -> GunnSchool[label="35.2
 05/07", weight="65", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 NMH -> Choate[label="2.7
@@ -31,7 +31,7 @@ NMH -> StMarks[label="8.9
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
-NMH -> FrederickGunn[label="11.7
+NMH -> GunnSchool[label="11.7
 04/15", weight="89", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.

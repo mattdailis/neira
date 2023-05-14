@@ -1,4 +1,4 @@
-digraph girls1foursChoate {Bancroft [URL="girls1foursChoateBancroft.html"];Berkshire [URL="girls1foursChoateBerkshire.html"];Choate [URL="girls1foursChoateChoate.html"];FrederickGunn [URL="girls1foursChoateFrederickGunn.html"];FrederickGunnSchool [URL="girls1foursChoateFrederickGunnSchool.html"];StMarks [URL="girls1foursChoateStMarks.html"];Nobles [URL="girls1foursChoateNobles.html"];GreenwichAcademy [URL="girls1foursChoateGreenwichAcademy.html"];WorcesterAcademy [URL="girls1foursChoateWorcesterAcademy.html"];Taft [URL="girls1foursChoateTaft.html"];Hopkins [URL="girls1foursChoateHopkins.html"];NMH [URL="girls1foursChoateNMH.html"];Choate -> Hopkins[label="2.72 (3.07)
+digraph girls1foursChoate {Bancroft [URL="girls1foursChoateBancroft.html"];WorcesterAcademy [URL="girls1foursChoateWorcesterAcademy.html"];Choate [URL="girls1foursChoateChoate.html"];BerkshireAcademy [URL="girls1foursChoateBerkshireAcademy.html"];GreenwichAcademy [URL="girls1foursChoateGreenwichAcademy.html"];Nobles [URL="girls1foursChoateNobles.html"];Hopkins [URL="girls1foursChoateHopkins.html"];NMH [URL="girls1foursChoateNMH.html"];Taft [URL="girls1foursChoateTaft.html"];StMarks [URL="girls1foursChoateStMarks.html"];GunnSchool [URL="girls1foursChoateGunnSchool.html"];Choate -> Hopkins[label="2.72 (3.07)
 04/12", weight="98", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
 Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=97CDDFE6B0BF0E6715FCA59070425D31&cat=5", random="random"]; 
@@ -14,7 +14,7 @@ NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake
 Choate -> Hopkins[label="4.0
 05/07", weight="96", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
-Choate -> FrederickGunnSchool[label="22.4
+Choate -> GunnSchool[label="22.4
 05/07", weight="78", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 NMH -> Choate[label="2.7
@@ -27,7 +27,7 @@ Choate -> StMarks[label="6.2
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
-Choate -> FrederickGunn[label="9.0
+Choate -> GunnSchool[label="9.0
 04/15", weight="91", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
@@ -60,7 +60,7 @@ Taft -> Choate[label="1.6 (1.61)
 04/22", weight="99", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1490 M Conditions: Overcast, mid-50s. Variable, gusty wind; crosswind to quartering tail, 10-12 mph; mostly affecting latter half of the course. Comments: Great to have all three programs racing together again for the first time since 2019. Thanks to Choate and Taft for traveling and handling facilities issues.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=419D79B320ADFC7347A405B1AF3C51F0&cat=5", random="random"]; 
-Choate -> Berkshire[label="35.4 (35.64)
+Choate -> BerkshireAcademy[label="35.4 (35.64)
 04/22", weight="65", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1490 M Conditions: Overcast, mid-50s. Variable, gusty wind; crosswind to quartering tail, 10-12 mph; mostly affecting latter half of the course. Comments: Great to have all three programs racing together again for the first time since 2019. Thanks to Choate and Taft for traveling and handling facilities issues.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=419D79B320ADFC7347A405B1AF3C51F0&cat=5", random="random"]}

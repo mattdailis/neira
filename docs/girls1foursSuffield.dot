@@ -1,12 +1,4 @@
-digraph girls1foursSuffield {MarianapolisPrep1 [URL="girls1foursSuffieldMarianapolisPrep1.html"];MarianapolisPrep2 [URL="girls1foursSuffieldMarianapolisPrep2.html"];Middletown [URL="girls1foursSuffieldMiddletown.html"];Suffield [URL="girls1foursSuffieldSuffield.html"];MarianapolisPrep1 -> Suffield[label="33.83
-05/03", weight="67", tooltip="NEIRA Boys & Girls Fours,Marianapolis and Suffield			
-Distance: 1500 m Conditions: Glass-like conditions throughout.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=450F8F9D037C2B753E12004147BF32C9&cat=5", random="random"]; 
-Suffield -> MarianapolisPrep2[label="14.77
-05/03", weight="86", tooltip="NEIRA Boys & Girls Fours,Marianapolis and Suffield			
-Distance: 1500 m Conditions: Glass-like conditions throughout.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=450F8F9D037C2B753E12004147BF32C9&cat=5", random="random"]; 
-Middletown -> Suffield[label="18.89
+digraph girls1foursSuffield {Middletown [URL="girls1foursSuffieldMiddletown.html"];Suffield [URL="girls1foursSuffieldSuffield.html"];Middletown -> Suffield[label="18.89
 05/13", weight="82", tooltip="NEIRA 4+,Middletown High School & Suffield Academy			
 Distance: 1500 Conditions: Race was down river, floating starts with moderate current, 10mph winds out of the North East, over the port/stern of the boats. Mild chop. Comments: Suffield Boys V3 caught a crab & had to weigh enough for about 3 seconds. Suffield Boys V1 caught a minor crab, but immediately recovered & rowed through it.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=DC53C007BECE6FE3F1A91563CB780560&cat=5", random="random"]}

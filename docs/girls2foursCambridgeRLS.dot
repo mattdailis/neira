@@ -1,0 +1,19 @@
+digraph girls2foursCambridgeRLS {Brooks [URL="girls2foursCambridgeRLSBrooks.html"];CambridgeRLS [URL="girls2foursCambridgeRLSCambridgeRLS.html"];BBN [URL="girls2foursCambridgeRLSBBN.html"];NMH [URL="girls2foursCambridgeRLSNMH.html"];Winsor [URL="girls2foursCambridgeRLSWinsor.html"];Brooks -> CambridgeRLS[label="30.0 (36.0)
+04/29", weight="70", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
+Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
+NMH -> CambridgeRLS[label="21.0 (25.2)
+04/29", weight="79", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
+Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
+BBN -> CambridgeRLS[label="29.9 (35.88)
+04/08", weight="71", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
+Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
+The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
+Thanks to BB&N and congratulations to all for a great day of early season racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
+Winsor -> CambridgeRLS[label="23.2 (26.77)
+05/11", weight="77", tooltip="NEIRA Girls Fours,Cambridge Rindge & Latin School vs. Winsor			
+Distance: 1300m Conditions: Flat water, light and variable cross/ cross-tail wind. Short rainshower at the beginning of the Novice 8+ race. Comments: All floating starts. 3V4+, 4V4+, and N8+ all started over the start line by 1-2 lengths so times are not comparable across events. The Charles Riverboat cruised through the 3V race waking both crews, CRLS slightly more than Winsor, but the result was not affected thanks to some steely-nerved coxswains.
+Thank you to Winsor for great racing amid a busy week of AP exams!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C3AD5F84C851A4FEB8A1DD57712CF3C0&cat=1", random="random"]}

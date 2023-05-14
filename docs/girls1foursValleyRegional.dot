@@ -1,0 +1,23 @@
+digraph girls1foursValleyRegional {LymeOldLyme [URL="girls1foursValleyRegionalLymeOldLyme.html"];ValleyRegional [URL="girls1foursValleyRegionalValleyRegional.html"];GreenwichAcademy [URL="girls1foursValleyRegionalGreenwichAcademy.html"];StMarysLynn [URL="girls1foursValleyRegionalStMarysLynn.html"];Middletown [URL="girls1foursValleyRegionalMiddletown.html"];Lincoln [URL="girls1foursValleyRegionalLincoln.html"];LymeOldLyme -> ValleyRegional[label="27.6
+04/26", weight="73", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
+Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
+Lincoln -> ValleyRegional[label="19.6
+04/29", weight="81", tooltip="NEIRA Boys & Girls Fours,Lincoln School vs. St. Mary's-Lynn vs. Valley Regional			
+Distance: 1500m Conditions: Blustery, ENE cross wind 10-18 mph. 2V Girls race shortened due to oars slapping in the first 100m, estimated course 1250m. Comments: Novice 8+ exhibition: NBC - 6:48.9, Valley Regional 7:28.3, St. Mary's 8:48.3
+In the Girls' 1V, NBC participated with a finish time of 7:37.6
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9E3AECE30FC3B92FA1BF2E660EEC9D3B&cat=5", random="random"]; 
+ValleyRegional -> StMarysLynn[label="7.7
+04/29", weight="93", tooltip="NEIRA Boys & Girls Fours,Lincoln School vs. St. Mary's-Lynn vs. Valley Regional			
+Distance: 1500m Conditions: Blustery, ENE cross wind 10-18 mph. 2V Girls race shortened due to oars slapping in the first 100m, estimated course 1250m. Comments: Novice 8+ exhibition: NBC - 6:48.9, Valley Regional 7:28.3, St. Mary's 8:48.3
+In the Girls' 1V, NBC participated with a finish time of 7:37.6
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9E3AECE30FC3B92FA1BF2E660EEC9D3B&cat=5", random="random"]; 
+ValleyRegional -> Middletown[label="9.49
+05/09", weight="91", tooltip="NEIRA Boys & Girls Fours,Valley Regional HS, Middletown HS, Lewis Mills HS			
+Distance: 1500 Conditions: Race down river, but tide was coming in, moderate downstream current. Mild winds out of the East off the port. Comments: Girls V2 Race included Valley GV2 in first, Valley GV3 in second, & Middletown GV2 in third place.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CF4015A23DE5B075A8FBE1F373D74603&cat=5", random="random"]; 
+GreenwichAcademy -> ValleyRegional[label="38.0 (45.6)
+04/22", weight="62", tooltip="NEIRA Girls Fours,Greenwich Academy vs. Valley Regional			
+Distance: 1250m Conditions: Windy, with conditions in the last 500m getting progressively choppier through the day. Strong cross-tailwind for all races. Comments: Race order went 3V-1V-2V-4V. Due to high winds, racing was shortened to 1100m for the 2V race and 1000m for the 4V race.
+A big thanks to Valley Regional for making the trip to Greenwich!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F7D27A2768B3A94AA28296B6E17A5936&cat=1", random="random"]}

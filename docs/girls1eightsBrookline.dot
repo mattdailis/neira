@@ -1,9 +1,0 @@
-digraph girls1eightsBrookline {BostonLatin [URL="girls1eightsBrooklineBostonLatin.html"];Duxbury [URL="girls1eightsBrooklineDuxbury.html"];Brookline [URL="girls1eightsBrooklineBrookline.html"];Brookline -> Duxbury[label="16.96 (20.35)
-04/08", weight="84", tooltip="NEIRA Boys & Girls Eights,Brookline vs. Duxbury			
-Distance: 1250 Conditions: Slight cross tailwind for all races. Comments: Girls 1v: Duxbury caught crab in the last 300m. Girls 2v: Duxbury 2v had to stop to make course correction to avoid bridge abutment. Boys 3v event started 1 length over start line.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=725E4C4CC432BCB9A050FF17EC53126E&cat=5", random="random"]; 
-BostonLatin -> Brookline[label="8.0 (9.6)
-04/08", weight="92", tooltip="NEIRA Girls Eights,Salvo Cup Girls: Boston Latin School vs. Brookline High School			
-Distance: 1250 Conditions: Great day of racing! Races got a bit faster throughout the day with the tailwind building. 
-To avoid confusion in seeding I put our 3v4+ race into the fourth boat results. We did not race 3V8+s today
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C052030303CD0F4B51A771933CAA5C79&cat=1", random="random"]}

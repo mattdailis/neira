@@ -1,4 +1,4 @@
-digraph girls1foursMarianapolisPrep {Bancroft [URL="girls1foursMarianapolisPrepBancroft.html"];Pomfret [URL="girls1foursMarianapolisPrepPomfret.html"];Berkshire [URL="girls1foursMarianapolisPrepBerkshire.html"];VermontAcademy [URL="girls1foursMarianapolisPrepVermontAcademy.html"];Derryfield [URL="girls1foursMarianapolisPrepDerryfield.html"];WorcesterAcademy [URL="girls1foursMarianapolisPrepWorcesterAcademy.html"];MarianapolisPrep [URL="girls1foursMarianapolisPrepMarianapolisPrep.html"];MarianapolisPrep -> WorcesterAcademy[label="39.0
+digraph girls1foursMarianapolisPrep {MarianapolisPrep [URL="girls1foursMarianapolisPrepMarianapolisPrep.html"];Pomfret [URL="girls1foursMarianapolisPrepPomfret.html"];VermontAcademy [URL="girls1foursMarianapolisPrepVermontAcademy.html"];WorcesterAcademy [URL="girls1foursMarianapolisPrepWorcesterAcademy.html"];BerkshireAcademy [URL="girls1foursMarianapolisPrepBerkshireAcademy.html"];Bancroft [URL="girls1foursMarianapolisPrepBancroft.html"];Derryfield [URL="girls1foursMarianapolisPrepDerryfield.html"];MarianapolisPrep -> WorcesterAcademy[label="39.0
 05/10", weight="61", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, St. Mark's, and Marianapolis			
 Distance: 1500 Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F473318C04D652F4CA3FD3866C15D6C5&cat=5", random="random"]; 
@@ -26,7 +26,7 @@ MarianapolisPrep -> VermontAcademy[label="56.9
 Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
 A special thanks to Paul Carabillo for refereeing the match.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]; 
-MarianapolisPrep -> Berkshire[label="16.7
+MarianapolisPrep -> BerkshireAcademy[label="16.7
 04/26", weight="84", tooltip="NEIRA Girls Fours,Pomfret vs. Marianapolis, Berkshire			
 Distance: 1500m Conditions: No current. Slight crossing tailwind to begin (ESE ~6 to 8 MPH) that increased in speed and became more of a solid (S ~10-12 MPH) tail by the last race. Comments: Order of races: G1, G2. There were some boys races between the races. Pomfret's 3rd boat raced in the 2nd boat category. Marianapolis's second boat caught a boat stopping crab just after the 250m mark.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=DD66D79A1A96726AD149522E161FDE8D&cat=1", random="random"]; 

@@ -1,8 +1,0 @@
-digraph boys2foursPingree {Pingree [URL="boys2foursPingreePingree.html"];Berwick [URL="boys2foursPingreeBerwick.html"];BrewsterAcademy [URL="boys2foursPingreeBrewsterAcademy.html"];Berwick -> Pingree[label="0.83
-04/15", weight="100", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
-Conditions: Light headwind
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]; 
-Pingree -> BrewsterAcademy[label="1.71
-04/15", weight="99", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
-Conditions: Light headwind
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]}

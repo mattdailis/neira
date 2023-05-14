@@ -1,14 +1,14 @@
-digraph girls1foursLymeOldLyme {Pomfret [URL="girls1foursLymeOldLymePomfret.html"];Brewster [URL="girls1foursLymeOldLymeBrewster.html"];Valley [URL="girls1foursLymeOldLymeValley.html"];Berkshire [URL="girls1foursLymeOldLymeBerkshire.html"];LymeOldLyme [URL="girls1foursLymeOldLymeLymeOldLyme.html"];Hopkins [URL="girls1foursLymeOldLymeHopkins.html"];Middletown [URL="girls1foursLymeOldLymeMiddletown.html"];NMH [URL="girls1foursLymeOldLymeNMH.html"];Canterbury [URL="girls1foursLymeOldLymeCanterbury.html"];LymeOldLyme -> Valley[label="27.6
+digraph girls1foursLymeOldLyme {LymeOldLyme [URL="girls1foursLymeOldLymeLymeOldLyme.html"];BrewsterAcademy [URL="girls1foursLymeOldLymeBrewsterAcademy.html"];Pomfret [URL="girls1foursLymeOldLymePomfret.html"];ValleyRegional [URL="girls1foursLymeOldLymeValleyRegional.html"];BerkshireAcademy [URL="girls1foursLymeOldLymeBerkshireAcademy.html"];Canterbury [URL="girls1foursLymeOldLymeCanterbury.html"];NMH [URL="girls1foursLymeOldLymeNMH.html"];Hopkins [URL="girls1foursLymeOldLymeHopkins.html"];Middletown [URL="girls1foursLymeOldLymeMiddletown.html"];LymeOldLyme -> ValleyRegional[label="27.6
 04/26", weight="73", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
 Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
-Brewster -> LymeOldLyme[label="0.6
+BrewsterAcademy -> LymeOldLyme[label="0.6
 05/07", weight="100", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 LymeOldLyme -> Canterbury[label="9.5
 05/07", weight="91", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
-LymeOldLyme -> Berkshire[label="32.4
+LymeOldLyme -> BerkshireAcademy[label="32.4
 05/07", weight="68", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 LymeOldLyme -> Pomfret[label="45.6

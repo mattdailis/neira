@@ -1,9 +1,9 @@
-digraph girls3foursStMarysLynn {Lincoln [URL="girls3foursStMarysLynnLincoln.html"];StMarysLynn [URL="girls3foursStMarysLynnStMarysLynn.html"];Valley [URL="girls3foursStMarysLynnValley.html"];Lincoln -> StMarysLynn[label="41.8
+digraph girls3foursStMarysLynn {StMarysLynn [URL="girls3foursStMarysLynnStMarysLynn.html"];Lincoln [URL="girls3foursStMarysLynnLincoln.html"];ValleyRegional [URL="girls3foursStMarysLynnValleyRegional.html"];Lincoln -> StMarysLynn[label="41.8
 04/29", weight="59", tooltip="NEIRA Boys & Girls Fours,Lincoln School vs. St. Mary's-Lynn vs. Valley Regional			
 Distance: 1500m Conditions: Blustery, ENE cross wind 10-18 mph. 2V Girls race shortened due to oars slapping in the first 100m, estimated course 1250m. Comments: Novice 8+ exhibition: NBC - 6:48.9, Valley Regional 7:28.3, St. Mary's 8:48.3
 In the Girls' 1V, NBC participated with a finish time of 7:37.6
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9E3AECE30FC3B92FA1BF2E660EEC9D3B&cat=5", random="random"]; 
-Valley -> StMarysLynn[label="21.6
+ValleyRegional -> StMarysLynn[label="21.6
 04/29", weight="79", tooltip="NEIRA Boys & Girls Fours,Lincoln School vs. St. Mary's-Lynn vs. Valley Regional			
 Distance: 1500m Conditions: Blustery, ENE cross wind 10-18 mph. 2V Girls race shortened due to oars slapping in the first 100m, estimated course 1250m. Comments: Novice 8+ exhibition: NBC - 6:48.9, Valley Regional 7:28.3, St. Mary's 8:48.3
 In the Girls' 1V, NBC participated with a finish time of 7:37.6

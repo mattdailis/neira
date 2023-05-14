@@ -1,4 +1,4 @@
-digraph girls2foursMiddletown {LymeOldLyme [URL="girls2foursMiddletownLymeOldLyme.html"];Valley [URL="girls2foursMiddletownValley.html"];Middletown [URL="girls2foursMiddletownMiddletown.html"];Valley -> Middletown[label="15.88
+digraph girls2foursMiddletown {Middletown [URL="girls2foursMiddletownMiddletown.html"];LymeOldLyme [URL="girls2foursMiddletownLymeOldLyme.html"];ValleyRegional [URL="girls2foursMiddletownValleyRegional.html"];ValleyRegional -> Middletown[label="15.88
 05/09", weight="85", tooltip="NEIRA Boys & Girls Fours,Valley Regional HS, Middletown HS, Lewis Mills HS			
 Distance: 1500 Conditions: Race down river, but tide was coming in, moderate downstream current. Mild winds out of the East off the port. Comments: Girls V2 Race included Valley GV2 in first, Valley GV3 in second, & Middletown GV2 in third place.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CF4015A23DE5B075A8FBE1F373D74603&cat=5", random="random"]; 

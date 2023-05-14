@@ -1,4 +1,4 @@
-digraph girls3foursGreenwichAcademy {Valley [URL="girls3foursGreenwichAcademyValley.html"];Choate [URL="girls3foursGreenwichAcademyChoate.html"];LymeOldLyme [URL="girls3foursGreenwichAcademyLymeOldLyme.html"];GreenwichAcademy [URL="girls3foursGreenwichAcademyGreenwichAcademy.html"];Taft [URL="girls3foursGreenwichAcademyTaft.html"];Hopkins [URL="girls3foursGreenwichAcademyHopkins.html"];NMH [URL="girls3foursGreenwichAcademyNMH.html"];GreenwichAcademy -> NMH[label="1.9
+digraph girls3foursGreenwichAcademy {LymeOldLyme [URL="girls3foursGreenwichAcademyLymeOldLyme.html"];Choate [URL="girls3foursGreenwichAcademyChoate.html"];ValleyRegional [URL="girls3foursGreenwichAcademyValleyRegional.html"];GreenwichAcademy [URL="girls3foursGreenwichAcademyGreenwichAcademy.html"];Hopkins [URL="girls3foursGreenwichAcademyHopkins.html"];NMH [URL="girls3foursGreenwichAcademyNMH.html"];Taft [URL="girls3foursGreenwichAcademyTaft.html"];GreenwichAcademy -> NMH[label="1.9
 05/07", weight="99", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 GreenwichAcademy -> Taft[label="11.5
@@ -23,7 +23,7 @@ GreenwichAcademy -> Hopkins[label="73.42
 05/13", weight="27", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
 Distance: 1500 M Conditions: Sunny, warm, breezy. 10-12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn's for handling the wind at the starting line efficiently.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&cat=5", random="random"]; 
-GreenwichAcademy -> Valley[label="24.0 (28.8)
+GreenwichAcademy -> ValleyRegional[label="24.0 (28.8)
 04/22", weight="76", tooltip="NEIRA Girls Fours,Greenwich Academy vs. Valley Regional			
 Distance: 1250m Conditions: Windy, with conditions in the last 500m getting progressively choppier through the day. Strong cross-tailwind for all races. Comments: Race order went 3V-1V-2V-4V. Due to high winds, racing was shortened to 1100m for the 2V race and 1000m for the 4V race.
 A big thanks to Valley Regional for making the trip to Greenwich!

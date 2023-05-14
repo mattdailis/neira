@@ -1,14 +1,13 @@
-{'Brewster', 'Kent School', 'Marianapolis Prep 1', 'Kent', 'Marianapolis Prep', "St. Paul's", 'Duxbury', 'NMH', 'Bedford'}
-{'Derryfield', 'Nobles', 'Andover', 'East Lyme'}
-{'Stonington', 'Hotchkiss', 'Brooks', 'Winsor', 'Brookline'}
-{'Groton', 'Cambridge Ringe and Latin School', 'Middlesex', 'Shrewsbury', 'Taft', 'Sacred Heart'}
-{'Lincoln', 'BBN', 'Salisbury', 'Choate'}
-{'Greenwich Academy', 'St Marks'}
-{'Frederick Gunn', 'Brewster Academy', 'Hopkins'}
-{'Pingree', 'Lyme/Old Lyme'}
-{'Berwick', 'Valley', 'Canterbury'}
-{"St. Mary's-Lynn", 'Berkshire', 'Lewis Mills'}
-{'Pomfret', 'Middletown'}
-{'Suffield'}
-Cycle detected: {'Worcester Academy', 'Bancroft', 'Thayer'}
+{'Marianapolis Prep', 'NMH'}
+{'Derryfield', 'Nobles'}
+{'Brooks', 'Winsor'}
+{'Middlesex', 'Cambridge RLS', 'Taft', 'Groton'}
+{'BB&N', 'Lincoln', 'Choate'}
+{'Greenwich Academy', "St. Mark's"}
+{'Brewster Academy', 'Hopkins'}
+{'Lyme/Old Lyme', 'Gunn School', 'Pingree'}
+{'Canterbury', 'Berwick', 'Valley Regional'}
+{'Berkshire Academy', "St. Mary's - Lynn"}
+{'Pomfret'}
+Cycle detected: {'Thayer', 'Worcester Academy', 'Bancroft'}
 {'Vermont Academy'}
