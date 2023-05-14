@@ -1,4 +1,4 @@
-digraph girls6fours {BBN [URL="girls6foursBBN.html"];Middlesex [URL="girls6foursMiddlesex.html"];Middlesex -> BBN[label="9.6
+digraph girls6fours {BBN [URL="girls6foursBBN.html"];Middlesex [URL="girls6foursMiddlesex.html"];Brooks [URL="girls6foursBrooks.html"];Groton [URL="girls6foursGroton.html"];Middlesex -> BBN[label="9.6
 05/06", weight="91", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
 Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
 THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
@@ -6,4 +6,14 @@ THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: 
 3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
 5,3,2,4 started over the line, 4ht a full length
 2 and First had some close oar clashes, but nothing that stopped a boat.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+Brooks -> Groton[label="26.6 (31.92)
+05/10", weight="74", tooltip="NEIRA Boys & Girls Fours,Groton JV vs. Brooks JV			
+Distance: 1250 Meters Conditions: Very little wind or chop. Moderate current. Comments: Also racing were the Boys and Girls 7th boats:
+Boys 7:
+Brooks: 4:53
+Groton: 5:19
+Girls 7:
+Brooks: 5.06
+Groton: 5:40
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C056DFD0326A8B1A82CE215F897C0056&cat=5", random="random"]}

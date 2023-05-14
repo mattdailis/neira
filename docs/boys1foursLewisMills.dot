@@ -1,0 +1,8 @@
+digraph boys1foursLewisMills {Valley [URL="boys1foursLewisMillsValley.html"];LewisMills [URL="boys1foursLewisMillsLewisMills.html"];Middletown [URL="boys1foursLewisMillsMiddletown.html"];Middletown -> LewisMills[label="16.35
+05/09", weight="84", tooltip="NEIRA Boys & Girls Fours,Valley Regional HS, Middletown HS, Lewis Mills HS			
+Distance: 1500 Conditions: Race down river, but tide was coming in, moderate downstream current. Mild winds out of the East off the port. Comments: Girls V2 Race included Valley GV2 in first, Valley GV3 in second, & Middletown GV2 in third place.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CF4015A23DE5B075A8FBE1F373D74603&cat=5", random="random"]; 
+Valley -> LewisMills[label="1.0
+05/09", weight="99", tooltip="NEIRA Boys & Girls Fours,Valley Regional HS, Middletown HS, Lewis Mills HS			
+Distance: 1500 Conditions: Race down river, but tide was coming in, moderate downstream current. Mild winds out of the East off the port. Comments: Girls V2 Race included Valley GV2 in first, Valley GV3 in second, & Middletown GV2 in third place.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CF4015A23DE5B075A8FBE1F373D74603&cat=5", random="random"]}

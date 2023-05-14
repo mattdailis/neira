@@ -1,4 +1,4 @@
-digraph boys3foursMiddlesex {StMarks [URL="boys3foursMiddlesexStMarks.html"];Brooks [URL="boys3foursMiddlesexBrooks.html"];BBN [URL="boys3foursMiddlesexBBN.html"];Middlesex [URL="boys3foursMiddlesexMiddlesex.html"];Brooks -> Middlesex[label="30.0
+digraph boys3foursMiddlesex {Groton [URL="boys3foursMiddlesexGroton.html"];Middlesex [URL="boys3foursMiddlesexMiddlesex.html"];BBN [URL="boys3foursMiddlesexBBN.html"];StMarks [URL="boys3foursMiddlesexStMarks.html"];Brooks [URL="boys3foursMiddlesexBrooks.html"];Brooks -> Middlesex[label="30.0
 04/22", weight="70", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -9,4 +9,9 @@ None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C5444107
 BBN -> Middlesex[label="18.23 (21.03)
 05/06", weight="82", tooltip="NEIRA Boys Fours,BB&N vs. Middlesex			
 Distance: 1300 Conditions: Considerable cross tailwind throughout racing, slightly diminishing throughout the afternoon. Order of racing was 4, 3 , 2 , 1. During the 4v race, a power boat caused the crews to divert courses slightly and handle a wake, but did not impact overall results.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9F7B1025B4E8D1742BC9A4D1807E25EA&cat=1", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9F7B1025B4E8D1742BC9A4D1807E25EA&cat=1", random="random"]; 
+Groton -> Middlesex[label="29.0 (34.8)
+05/08", weight="71", tooltip="NEIRA Boys Fours,Middlesex at Groton			
+Distance: 1250m Conditions: Very nice water, no wind. Current coming down. Comments: Third and fourth boats raced on Monday; first and second boat on the previous Wednesday because of AP exams. 
+It was a great day for racing. Thank you , Middlesex.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=85E7E7E902D7DEAA668825D781F66B2E&cat=1", random="random"]}

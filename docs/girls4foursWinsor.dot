@@ -1,4 +1,9 @@
-digraph girls4foursWinsor {Nobles [URL="girls4foursWinsorNobles.html"];BBN [URL="girls4foursWinsorBBN.html"];Winsor [URL="girls4foursWinsorWinsor.html"];Winsor -> BBN[label="14.2 (15.78)
+digraph girls4foursWinsor {BBN [URL="girls4foursWinsorBBN.html"];Nobles [URL="girls4foursWinsorNobles.html"];CambridgeRingeandLatinSchool [URL="girls4foursWinsorCambridgeRingeandLatinSchool.html"];Winsor [URL="girls4foursWinsorWinsor.html"];Winsor -> CambridgeRingeandLatinSchool[label="37.7 (43.5)
+05/11", weight="63", tooltip="NEIRA Girls Fours,Cambridge Rindge & Latin School vs. Winsor			
+Distance: 1300m Conditions: Flat water, light and variable cross/ cross-tail wind. Short rainshower at the beginning of the Novice 8+ race. Comments: All floating starts. 3V4+, 4V4+, and N8+ all started over the start line by 1-2 lengths so times are not comparable across events. The Charles Riverboat cruised through the 3V race waking both crews, CRLS slightly more than Winsor, but the result was not affected thanks to some steely-nerved coxswains.
+Thank you to Winsor for great racing amid a busy week of AP exams!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C3AD5F84C851A4FEB8A1DD57712CF3C0&cat=1", random="random"]; 
+Winsor -> BBN[label="14.2 (15.78)
 04/29", weight="86", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
 The 5th boat race was in 8's with Winsor and BB&N

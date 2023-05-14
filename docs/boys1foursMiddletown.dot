@@ -1,0 +1,16 @@
+digraph boys1foursMiddletown {LymeOldLyme [URL="boys1foursMiddletownLymeOldLyme.html"];Middletown [URL="boys1foursMiddletownMiddletown.html"];LewisMills [URL="boys1foursMiddletownLewisMills.html"];EastLyme [URL="boys1foursMiddletownEastLyme.html"];Valley [URL="boys1foursMiddletownValley.html"];Middletown -> Valley[label="15.35
+05/09", weight="85", tooltip="NEIRA Boys & Girls Fours,Valley Regional HS, Middletown HS, Lewis Mills HS			
+Distance: 1500 Conditions: Race down river, but tide was coming in, moderate downstream current. Mild winds out of the East off the port. Comments: Girls V2 Race included Valley GV2 in first, Valley GV3 in second, & Middletown GV2 in third place.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CF4015A23DE5B075A8FBE1F373D74603&cat=5", random="random"]; 
+Middletown -> LewisMills[label="16.35
+05/09", weight="84", tooltip="NEIRA Boys & Girls Fours,Valley Regional HS, Middletown HS, Lewis Mills HS			
+Distance: 1500 Conditions: Race down river, but tide was coming in, moderate downstream current. Mild winds out of the East off the port. Comments: Girls V2 Race included Valley GV2 in first, Valley GV3 in second, & Middletown GV2 in third place.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CF4015A23DE5B075A8FBE1F373D74603&cat=5", random="random"]; 
+LymeOldLyme -> Middletown[label="12.38
+05/11", weight="88", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Middletown v East Lyme			
+Distance: 1500 Conditions: The wind was 6 to 9 knots dropping slightly towards the end of the day as a cross headwind. The girls first and second boats both started two length past the starting line. The crosswind at the start was quite challenging and caused a number of issues trying to get off the line cleanly in the girls races. In the 3rd boat race East Lymes steering boke pulling them from the race Comments: Lyme/Old Lyme would like to thank Middletown and east Lyme for coming out and racing. We look forward to see you all on the water again!!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C698035EC81E2CFFF01DA234C5F298E&cat=5", random="random"]; 
+Middletown -> EastLyme[label="45.9
+05/11", weight="55", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Middletown v East Lyme			
+Distance: 1500 Conditions: The wind was 6 to 9 knots dropping slightly towards the end of the day as a cross headwind. The girls first and second boats both started two length past the starting line. The crosswind at the start was quite challenging and caused a number of issues trying to get off the line cleanly in the girls races. In the 3rd boat race East Lymes steering boke pulling them from the race Comments: Lyme/Old Lyme would like to thank Middletown and east Lyme for coming out and racing. We look forward to see you all on the water again!!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C698035EC81E2CFFF01DA234C5F298E&cat=5", random="random"]}

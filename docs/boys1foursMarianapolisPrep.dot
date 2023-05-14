@@ -1,4 +1,8 @@
-digraph boys1foursMarianapolisPrep {Derryfield [URL="boys1foursMarianapolisPrepDerryfield.html"];VermontAcademy [URL="boys1foursMarianapolisPrepVermontAcademy.html"];Bancroft [URL="boys1foursMarianapolisPrepBancroft.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrepMarianapolisPrep.html"];WorcesterAcademy [URL="boys1foursMarianapolisPrepWorcesterAcademy.html"];WorcesterAcademy -> MarianapolisPrep[label="91.6
+digraph boys1foursMarianapolisPrep {VermontAcademy [URL="boys1foursMarianapolisPrepVermontAcademy.html"];WorcesterAcademy [URL="boys1foursMarianapolisPrepWorcesterAcademy.html"];Derryfield [URL="boys1foursMarianapolisPrepDerryfield.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrepMarianapolisPrep.html"];Bancroft [URL="boys1foursMarianapolisPrepBancroft.html"];WorcesterAcademy -> MarianapolisPrep[label="58.3
+05/10", weight="42", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, St. Mark's, and Marianapolis			
+Distance: 1500 Conditions: Minimal wind, no chop.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F473318C04D652F4CA3FD3866C15D6C5&cat=5", random="random"]; 
+WorcesterAcademy -> MarianapolisPrep[label="91.6
 04/23", weight="9", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
 Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
 A special thanks to Paul Carabillo for refereeing the match.

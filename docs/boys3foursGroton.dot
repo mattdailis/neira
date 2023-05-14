@@ -1,4 +1,4 @@
-digraph boys3foursGroton {Pomfret [URL="boys3foursGrotonPomfret.html"];Nobles [URL="boys3foursGrotonNobles.html"];Groton [URL="boys3foursGrotonGroton.html"];Taft [URL="boys3foursGrotonTaft.html"];BBN [URL="boys3foursGrotonBBN.html"];Groton -> Taft[label="46.8
+digraph boys3foursGroton {Groton [URL="boys3foursGrotonGroton.html"];Taft [URL="boys3foursGrotonTaft.html"];Middlesex [URL="boys3foursGrotonMiddlesex.html"];Nobles [URL="boys3foursGrotonNobles.html"];BBN [URL="boys3foursGrotonBBN.html"];Pomfret [URL="boys3foursGrotonPomfret.html"];Groton -> Taft[label="46.8
 04/29", weight="54", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
 Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=06436C78C6DB17E1D158607A2B127B2B&cat=1", random="random"]; 
@@ -6,6 +6,11 @@ Groton -> Pomfret[label="68.4
 04/29", weight="32", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
 Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=06436C78C6DB17E1D158607A2B127B2B&cat=1", random="random"]; 
+Groton -> Middlesex[label="29.0 (34.8)
+05/08", weight="71", tooltip="NEIRA Boys Fours,Middlesex at Groton			
+Distance: 1250m Conditions: Very nice water, no wind. Current coming down. Comments: Third and fourth boats raced on Monday; first and second boat on the previous Wednesday because of AP exams. 
+It was a great day for racing. Thank you , Middlesex.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=85E7E7E902D7DEAA668825D781F66B2E&cat=1", random="random"]; 
 Nobles -> Groton[label="10.67 (11.86)
 04/22", weight="90", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head

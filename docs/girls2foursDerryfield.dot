@@ -1,10 +1,10 @@
-digraph girls2foursDerryfield {Derryfield [URL="girls2foursDerryfieldDerryfield.html"];WorcesterAcademy [URL="girls2foursDerryfieldWorcesterAcademy.html"];MarianapolisPrep [URL="girls2foursDerryfieldMarianapolisPrep.html"];Berwick [URL="girls2foursDerryfieldBerwick.html"];Derryfield -> Berwick[label="57.5
+digraph girls2foursDerryfield {Berwick [URL="girls2foursDerryfieldBerwick.html"];WorcesterAcademy [URL="girls2foursDerryfieldWorcesterAcademy.html"];MarianapolisPrep [URL="girls2foursDerryfieldMarianapolisPrep.html"];Derryfield [URL="girls2foursDerryfieldDerryfield.html"];Derryfield -> Berwick[label="57.5
 04/29", weight="43", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
-Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
+Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul CarabilloÂ for refereeing the race, especially given the weather.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]; 
 Derryfield -> WorcesterAcademy[label="110.9
 04/29", weight="-10", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
-Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
+Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul CarabilloÂ for refereeing the race, especially given the weather.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]; 
 Derryfield -> MarianapolisPrep[label="42.8
 04/23", weight="58", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
