@@ -1,4 +1,4 @@
-digraph boys2foursValley {LymeOldLyme [URL="boys2foursValleyLymeOldLyme.html"];Valley [URL="boys2foursValleyValley.html"];LewisMills [URL="boys2foursValleyLewisMills.html"];Middletown [URL="boys2foursValleyMiddletown.html"];LymeOldLyme -> Valley[label="10.0
+digraph boys2foursValley {Middletown [URL="boys2foursValleyMiddletown.html"];Valley [URL="boys2foursValleyValley.html"];LymeOldLyme [URL="boys2foursValleyLymeOldLyme.html"];LewisMills [URL="boys2foursValleyLewisMills.html"];LymeOldLyme -> Valley[label="10.0
 04/26", weight="90", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
 Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 

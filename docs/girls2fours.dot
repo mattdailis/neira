@@ -1,7 +1,67 @@
-digraph girls2fours {Nobles [URL="girls2foursNobles.html"];NMH [URL="girls2foursNMH.html"];Choate [URL="girls2foursChoate.html"];Valley [URL="girls2foursValley.html"];Groton [URL="girls2foursGroton.html"];Middlesex [URL="girls2foursMiddlesex.html"];Taft [URL="girls2foursTaft.html"];Farmington [URL="girls2foursFarmington.html"];CambridgeRingeandLatinSchool [URL="girls2foursCambridgeRingeandLatinSchool.html"];Brookline [URL="girls2foursBrookline.html"];Lincoln [URL="girls2foursLincoln.html"];Derryfield [URL="girls2foursDerryfield.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDay.html"];StMarks [URL="girls2foursStMarks.html"];EastLyme [URL="girls2foursEastLyme.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];Middletown [URL="girls2foursMiddletown.html"];Salisbury [URL="girls2foursSalisbury.html"];StMarysLynn [URL="girls2foursStMarysLynn.html"];Hopkins [URL="girls2foursHopkins.html"];KentSchool [URL="girls2foursKentSchool.html"];Shrewsbury [URL="girls2foursShrewsbury.html"];MarianapolisPrep [URL="girls2foursMarianapolisPrep.html"];Pomfret [URL="girls2foursPomfret.html"];Brooks [URL="girls2foursBrooks.html"];Berkshire [URL="girls2foursBerkshire.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademy.html"];Berwick [URL="girls2foursBerwick.html"];EagleHill [URL="girls2foursEagleHill.html"];Hingham [URL="girls2foursHingham.html"];StPauls [URL="girls2foursStPauls.html"];WorcesterAcademy [URL="girls2foursWorcesterAcademy.html"];Duxbury [URL="girls2foursDuxbury.html"];BBN [URL="girls2foursBBN.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Andover [URL="girls2foursAndover.html"];FrederickGunn [URL="girls2foursFrederickGunn.html"];Winsor [URL="girls2foursWinsor.html"];LymeOldLyme -> Valley[label="17.6
+digraph girls2fours {Choate [URL="girls2foursChoate.html"];Derryfield [URL="girls2foursDerryfield.html"];Brooks [URL="girls2foursBrooks.html"];MissPorters [URL="girls2foursMissPorters.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDay.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Kent [URL="girls2foursKent.html"];Taft [URL="girls2foursTaft.html"];MarianapolisPrep [URL="girls2foursMarianapolisPrep.html"];Hopkins [URL="girls2foursHopkins.html"];Suffield [URL="girls2foursSuffield.html"];NMH [URL="girls2foursNMH.html"];Hingham [URL="girls2foursHingham.html"];Pomfret [URL="girls2foursPomfret.html"];FrederickGunn [URL="girls2foursFrederickGunn.html"];StMarks [URL="girls2foursStMarks.html"];Hotchkiss [URL="girls2foursHotchkiss.html"];FrederickGunnSchool [URL="girls2foursFrederickGunnSchool.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];KentSchool [URL="girls2foursKentSchool.html"];Lincoln [URL="girls2foursLincoln.html"];StPauls [URL="girls2foursStPauls.html"];EastLyme [URL="girls2foursEastLyme.html"];Brookline [URL="girls2foursBrookline.html"];Groton [URL="girls2foursGroton.html"];Valley [URL="girls2foursValley.html"];CambridgeRingeandLatinSchool [URL="girls2foursCambridgeRingeandLatinSchool.html"];Andover [URL="girls2foursAndover.html"];EagleHill [URL="girls2foursEagleHill.html"];Middletown [URL="girls2foursMiddletown.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademy.html"];SacredHeart [URL="girls2foursSacredHeart.html"];BBN [URL="girls2foursBBN.html"];Berkshire [URL="girls2foursBerkshire.html"];Brewster [URL="girls2foursBrewster.html"];StMarysLynn [URL="girls2foursStMarysLynn.html"];Berwick [URL="girls2foursBerwick.html"];Salisbury [URL="girls2foursSalisbury.html"];Farmington [URL="girls2foursFarmington.html"];Middlesex [URL="girls2foursMiddlesex.html"];Nobles [URL="girls2foursNobles.html"];Shrewsbury [URL="girls2foursShrewsbury.html"];WorcesterAcademy [URL="girls2foursWorcesterAcademy.html"];Duxbury [URL="girls2foursDuxbury.html"];Winsor [URL="girls2foursWinsor.html"];LymeOldLyme -> Valley[label="17.6
 04/26", weight="83", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
 Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
+Kent -> EastLyme[label="21.6
+05/13", weight="79", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Kent -> Salisbury[label="29.5
+05/13", weight="71", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Kent -> Hotchkiss[label="36.1
+05/13", weight="64", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Kent -> SacredHeart[label="43.7
+05/13", weight="57", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Kent -> Farmington[label="57.7
+05/13", weight="43", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+EastLyme -> Salisbury[label="7.9
+05/13", weight="93", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+EastLyme -> Hotchkiss[label="14.5
+05/13", weight="86", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+EastLyme -> SacredHeart[label="22.1
+05/13", weight="78", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+EastLyme -> Farmington[label="36.1
+05/13", weight="64", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Salisbury -> Hotchkiss[label="6.6
+05/13", weight="94", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Salisbury -> SacredHeart[label="14.2
+05/13", weight="86", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Salisbury -> Farmington[label="28.2
+05/13", weight="72", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Hotchkiss -> SacredHeart[label="7.6
+05/13", weight="93", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Hotchkiss -> Farmington[label="21.6
+05/13", weight="79", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+SacredHeart -> Farmington[label="14.0
+05/13", weight="86", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
 BBN -> Middlesex[label="9.9
 05/06", weight="91", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
 Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
@@ -118,6 +178,81 @@ KentSchool -> Andover[label="18.3 (16.34)
 04/15", weight="82", tooltip="NEIRA,Kent School vs. Phillips Andover			
 Distance: 1680m Conditions: Conditions varied throughout the afternoon due to a storm system moving into the valley. Slight tail current with headwinds ranging in strength from 91-12 mph in the lower boats and up to 15 mph and gusts over 25 mph in the first boat boy's race. Comments: Thank you to Andover for coming to Kent today for a great day of racing. Kudos go to all athletes for being flexible in the schedule as the threat of bad weather approached. You should not compare times between different races, as each race started at a slightly different point due to the winds.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9D3468EE93AF1496F7E33F761C095EC5&cat=5", random="random"]; 
+GreenwichAcademy -> FrederickGunnSchool[label="34.1
+05/07", weight="66", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+GreenwichAcademy -> Suffield[label="38.5
+05/07", weight="62", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+GreenwichAcademy -> Pomfret[label="61.7
+05/07", weight="39", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+GreenwichAcademy -> Berkshire[label="67.9
+05/07", weight="33", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+FrederickGunnSchool -> Suffield[label="4.4
+05/07", weight="96", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+FrederickGunnSchool -> Pomfret[label="27.6
+05/07", weight="73", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+FrederickGunnSchool -> Berkshire[label="33.8
+05/07", weight="67", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Suffield -> Pomfret[label="23.2
+05/07", weight="77", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Suffield -> Berkshire[label="29.4
+05/07", weight="71", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Pomfret -> Berkshire[label="6.2
+05/07", weight="94", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Choate -> NMH[label="1.8
+05/07", weight="99", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Choate -> Taft[label="6.3
+05/07", weight="94", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Choate -> LymeOldLyme[label="18.1
+05/07", weight="82", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Choate -> Brewster[label="40.8
+05/07", weight="60", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Choate -> Hopkins[label="50.3
+05/07", weight="50", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+NMH -> Taft[label="4.5
+05/07", weight="96", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+NMH -> LymeOldLyme[label="16.3
+05/07", weight="84", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+NMH -> Brewster[label="39.0
+05/07", weight="61", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+NMH -> Hopkins[label="48.5
+05/07", weight="52", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Taft -> LymeOldLyme[label="11.8
+05/07", weight="89", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Taft -> Brewster[label="34.5
+05/07", weight="66", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Taft -> Hopkins[label="44.0
+05/07", weight="56", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+LymeOldLyme -> Brewster[label="22.7
+05/07", weight="78", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+LymeOldLyme -> Hopkins[label="32.2
+05/07", weight="68", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Brewster -> Hopkins[label="9.5
+05/07", weight="91", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 Derryfield -> Berwick[label="57.5
 04/29", weight="43", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
 Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul CarabilloÂ for refereeing the race, especially given the weather.
@@ -255,6 +390,18 @@ Winsor -> Hopkins[label="24.1 (26.78)
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
 The 5th boat race was in 8's with Winsor and BB&N
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D808E65A5EEBFB&cat=1", random="random"]; 
+Groton -> Brooks[label="8.1 (9.35)
+05/13", weight="92", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
+Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
+Groton -> NewtonCountryDay[label="25.7 (29.65)
+05/13", weight="75", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
+Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
+Brooks -> NewtonCountryDay[label="17.6 (20.31)
+05/13", weight="83", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
+Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
 NMH -> LymeOldLyme[label="17.69
 04/22", weight="83", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
 Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
@@ -267,6 +414,18 @@ LymeOldLyme -> Hopkins[label="10.79
 04/22", weight="90", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
 Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&cat=5", random="random"]; 
+GreenwichAcademy -> Hopkins[label="22.1
+05/13", weight="78", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
+Distance: 1500 M Conditions: Sunny, warm, breezy. 10-12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn's for handling the wind at the starting line efficiently.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&cat=5", random="random"]; 
+GreenwichAcademy -> Berkshire[label="42.08
+05/13", weight="58", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
+Distance: 1500 M Conditions: Sunny, warm, breezy. 10-12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn's for handling the wind at the starting line efficiently.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&cat=5", random="random"]; 
+Hopkins -> Berkshire[label="19.98
+05/13", weight="81", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
+Distance: 1500 M Conditions: Sunny, warm, breezy. 10-12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn's for handling the wind at the starting line efficiently.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&cat=5", random="random"]; 
 StPauls -> Andover[label="5.1 (4.64)
 05/06", weight="95", tooltip="NEIRA,Phillips Academy Andover vs. St. Paul's School, Hingham			
 Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
@@ -282,6 +441,66 @@ Andover -> Hingham[label="6.9 (6.27)
 Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
 Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
+Winsor -> Taft[label="2.8
+05/13", weight="98", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Winsor -> StMarks[label="17.0
+05/13", weight="83", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Winsor -> MissPorters[label="37.0
+05/13", weight="63", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Winsor -> FrederickGunn[label="50.3
+05/13", weight="50", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Winsor -> Pomfret[label="84.2
+05/13", weight="16", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Taft -> StMarks[label="14.2
+05/13", weight="86", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Taft -> MissPorters[label="34.2
+05/13", weight="66", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Taft -> FrederickGunn[label="47.5
+05/13", weight="53", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Taft -> Pomfret[label="81.4
+05/13", weight="19", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+StMarks -> MissPorters[label="20.0
+05/13", weight="80", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+StMarks -> FrederickGunn[label="33.3
+05/13", weight="67", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+StMarks -> Pomfret[label="67.2
+05/13", weight="33", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+MissPorters -> FrederickGunn[label="13.3
+05/13", weight="87", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+MissPorters -> Pomfret[label="47.2
+05/13", weight="53", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+FrederickGunn -> Pomfret[label="33.9
+05/13", weight="67", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
 Nobles -> Brooks[label="6.0
 04/15", weight="94", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
@@ -295,6 +514,27 @@ Winsor -> NewtonCountryDay[label="29.3 (31.39)
 04/22", weight="71", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
 Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]; 
+Nobles -> NMH[label="12.0
+05/13", weight="88", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon vs Nobles and Choate			
+Distance: 1400 m (upriver) Conditions: light current, moderate headwind that lessened for the later races Comments: Race order: B4/G4/B3/G3/B2/G2/B1/G1/B5/G5/G8s/G6/B8s;
+Notes: the third and fourth boat races had stronger headwinds and were disrupted by jet ski wakes; later races had lighter winds and fewer wakes so times should not be compared between races.
+Girls 8s: 1. Choate 7/8 6:46 2. Nobles 8/9 7:36 
+Boys 8s: 1. Nobles 6/7 5:20.6 2. Nobles 8/9 5:46.6
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&cat=5", random="random"]; 
+Nobles -> Choate[label="16.0
+05/13", weight="84", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon vs Nobles and Choate			
+Distance: 1400 m (upriver) Conditions: light current, moderate headwind that lessened for the later races Comments: Race order: B4/G4/B3/G3/B2/G2/B1/G1/B5/G5/G8s/G6/B8s;
+Notes: the third and fourth boat races had stronger headwinds and were disrupted by jet ski wakes; later races had lighter winds and fewer wakes so times should not be compared between races.
+Girls 8s: 1. Choate 7/8 6:46 2. Nobles 8/9 7:36 
+Boys 8s: 1. Nobles 6/7 5:20.6 2. Nobles 8/9 5:46.6
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&cat=5", random="random"]; 
+NMH -> Choate[label="4.0
+05/13", weight="96", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon vs Nobles and Choate			
+Distance: 1400 m (upriver) Conditions: light current, moderate headwind that lessened for the later races Comments: Race order: B4/G4/B3/G3/B2/G2/B1/G1/B5/G5/G8s/G6/B8s;
+Notes: the third and fourth boat races had stronger headwinds and were disrupted by jet ski wakes; later races had lighter winds and fewer wakes so times should not be compared between races.
+Girls 8s: 1. Choate 7/8 6:46 2. Nobles 8/9 7:36 
+Boys 8s: 1. Nobles 6/7 5:20.6 2. Nobles 8/9 5:46.6
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&cat=5", random="random"]; 
 Nobles -> Winsor[label="9.54 (10.6)
 05/06", weight="91", tooltip="NEIRA Girls Fours,Winsor Vs. Nobles			
 Distance: 1350 Conditions: Strong current & crossing tailwind made for fast racing on the Charles. Final race was in eights.

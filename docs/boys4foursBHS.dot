@@ -1,0 +1,8 @@
+digraph boys4foursBHS {Groton [URL="boys4foursBHSGroton.html"];BHS [URL="boys4foursBHSBHS.html"];Brooks [URL="boys4foursBHSBrooks.html"];BHS -> Groton[label="6.4 (7.38)
+05/13", weight="94", tooltip="NEIRA Boys Fours,Belmont Hill vs Brooks & Nobles			
+Distance: 1300m Conditions: Gusty tail/cross-tail, which made for tricky aligning at the start, but great racing conditions. Terrific job by all the coxswains navigating three-across racing on the Powerhouse! Comments: The 2V4 race started slightly over the line. Thanks to Brooks & Groton for an exciting afternoon of tight racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BB257C1BB6B51FDE5ADB9DC0DD1718AB&cat=1", random="random"]; 
+BHS -> Brooks[label="13.9 (16.04)
+05/13", weight="87", tooltip="NEIRA Boys Fours,Belmont Hill vs Brooks & Nobles			
+Distance: 1300m Conditions: Gusty tail/cross-tail, which made for tricky aligning at the start, but great racing conditions. Terrific job by all the coxswains navigating three-across racing on the Powerhouse! Comments: The 2V4 race started slightly over the line. Thanks to Brooks & Groton for an exciting afternoon of tight racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BB257C1BB6B51FDE5ADB9DC0DD1718AB&cat=1", random="random"]}

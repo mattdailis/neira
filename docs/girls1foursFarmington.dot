@@ -1,4 +1,24 @@
-digraph girls1foursFarmington {EastLyme [URL="girls1foursFarmingtonEastLyme.html"];Farmington [URL="girls1foursFarmingtonFarmington.html"];Stonington [URL="girls1foursFarmingtonStonington.html"];EastLyme -> Farmington[label="31.8
+digraph girls1foursFarmington {Stonington [URL="girls1foursFarmingtonStonington.html"];Hotchkiss [URL="girls1foursFarmingtonHotchkiss.html"];Farmington [URL="girls1foursFarmingtonFarmington.html"];Salisbury [URL="girls1foursFarmingtonSalisbury.html"];Kent [URL="girls1foursFarmingtonKent.html"];EastLyme [URL="girls1foursFarmingtonEastLyme.html"];SacredHeart [URL="girls1foursFarmingtonSacredHeart.html"];Kent -> Farmington[label="32.8
+05/13", weight="68", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+EastLyme -> Farmington[label="19.8
+05/13", weight="81", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Hotchkiss -> Farmington[label="17.7
+05/13", weight="83", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+SacredHeart -> Farmington[label="11.6
+05/13", weight="89", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Salisbury -> Farmington[label="4.9
+05/13", weight="96", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+EastLyme -> Farmington[label="31.8
 04/22", weight="69", tooltip="NEIRA,Stonington, East Lyme, Farmington			
 Distance: 1500m Conditions: Strong cross wind throughout racing , slight headwind. Tide incoming against course for boys 1v, none for girls 1v and outgoing with course rest of races. Not comparable times across races. Comments: Novice races were 1000m. In the girls 2v race, a Farmington rowerâ€™s oar came out of the oarlock in the last 250m of the race. In the boys novice, East Lyme caught a crab off the start. Stonington and East Lyme raced an exhibition 4+ event. 
 Thank you so much to East Lyme and Farmington for making the trip to Mystic!

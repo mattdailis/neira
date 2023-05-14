@@ -1,7 +1,22 @@
-digraph girls1foursHopkins {LymeOldLyme [URL="girls1foursHopkinsLymeOldLyme.html"];Choate [URL="girls1foursHopkinsChoate.html"];Hopkins [URL="girls1foursHopkinsHopkins.html"];NMH [URL="girls1foursHopkinsNMH.html"];BBN [URL="girls1foursHopkinsBBN.html"];Winsor [URL="girls1foursHopkinsWinsor.html"];Choate -> Hopkins[label="2.72 (3.07)
+digraph girls1foursHopkins {BBN [URL="girls1foursHopkinsBBN.html"];Berkshire [URL="girls1foursHopkinsBerkshire.html"];Choate [URL="girls1foursHopkinsChoate.html"];FrederickGunnSchool [URL="girls1foursHopkinsFrederickGunnSchool.html"];LymeOldLyme [URL="girls1foursHopkinsLymeOldLyme.html"];GreenwichAcademy [URL="girls1foursHopkinsGreenwichAcademy.html"];Taft [URL="girls1foursHopkinsTaft.html"];Hopkins [URL="girls1foursHopkinsHopkins.html"];Winsor [URL="girls1foursHopkinsWinsor.html"];NMH [URL="girls1foursHopkinsNMH.html"];Canterbury [URL="girls1foursHopkinsCanterbury.html"];Choate -> Hopkins[label="2.72 (3.07)
 04/12", weight="98", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
 Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=97CDDFE6B0BF0E6715FCA59070425D31&cat=5", random="random"]; 
+NMH -> Hopkins[label="16.8
+05/07", weight="84", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Taft -> Hopkins[label="7.2
+05/07", weight="93", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Choate -> Hopkins[label="4.0
+05/07", weight="96", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+GreenwichAcademy -> Hopkins[label="1.6
+05/07", weight="99", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Hopkins -> FrederickGunnSchool[label="18.4
+05/07", weight="82", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 Winsor -> Hopkins[label="16.6 (18.44)
 04/29", weight="84", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
@@ -19,4 +34,16 @@ None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D
 Hopkins -> LymeOldLyme[label="23.98
 04/22", weight="77", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
 Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&cat=5", random="random"]; 
+GreenwichAcademy -> Hopkins[label="6.07
+05/13", weight="94", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
+Distance: 1500 M Conditions: Sunny, warm, breezy. 10-12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn's for handling the wind at the starting line efficiently.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&cat=5", random="random"]; 
+Hopkins -> Canterbury[label="19.86
+05/13", weight="81", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
+Distance: 1500 M Conditions: Sunny, warm, breezy. 10-12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn's for handling the wind at the starting line efficiently.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&cat=5", random="random"]; 
+Hopkins -> Berkshire[label="26.88
+05/13", weight="74", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
+Distance: 1500 M Conditions: Sunny, warm, breezy. 10-12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn's for handling the wind at the starting line efficiently.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&cat=5", random="random"]}

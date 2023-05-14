@@ -1,0 +1,15 @@
+digraph girls2foursBrewster {Brewster [URL="girls2foursBrewsterBrewster.html"];Choate [URL="girls2foursBrewsterChoate.html"];LymeOldLyme [URL="girls2foursBrewsterLymeOldLyme.html"];Taft [URL="girls2foursBrewsterTaft.html"];Hopkins [URL="girls2foursBrewsterHopkins.html"];NMH [URL="girls2foursBrewsterNMH.html"];Choate -> Brewster[label="40.8
+05/07", weight="60", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+NMH -> Brewster[label="39.0
+05/07", weight="61", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Taft -> Brewster[label="34.5
+05/07", weight="66", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+LymeOldLyme -> Brewster[label="22.7
+05/07", weight="78", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Brewster -> Hopkins[label="9.5
+05/07", weight="91", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]}

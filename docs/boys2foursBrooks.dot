@@ -1,4 +1,4 @@
-digraph boys2foursBrooks {Middlesex [URL="boys2foursBrooksMiddlesex.html"];CambridgeRingeandLatinSchool [URL="boys2foursBrooksCambridgeRingeandLatinSchool.html"];Nobles [URL="boys2foursBrooksNobles.html"];NMH [URL="boys2foursBrooksNMH.html"];StMarks [URL="boys2foursBrooksStMarks.html"];Brooks [URL="boys2foursBrooksBrooks.html"];Brooks -> StMarks[label="41.0
+digraph boys2foursBrooks {Groton [URL="boys2foursBrooksGroton.html"];CambridgeRingeandLatinSchool [URL="boys2foursBrooksCambridgeRingeandLatinSchool.html"];StMarks [URL="boys2foursBrooksStMarks.html"];Nobles [URL="boys2foursBrooksNobles.html"];Brooks [URL="boys2foursBrooksBrooks.html"];Middlesex [URL="boys2foursBrooksMiddlesex.html"];BHS [URL="boys2foursBrooksBHS.html"];NMH [URL="boys2foursBrooksNMH.html"];Brooks -> StMarks[label="41.0
 04/22", weight="59", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -14,6 +14,14 @@ Brooks -> CambridgeRingeandLatinSchool[label="_
 04/29", weight="99", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
+BHS -> Brooks[label="2.6 (3.0)
+05/13", weight="98", tooltip="NEIRA Boys Fours,Belmont Hill vs Brooks & Nobles			
+Distance: 1300m Conditions: Gusty tail/cross-tail, which made for tricky aligning at the start, but great racing conditions. Terrific job by all the coxswains navigating three-across racing on the Powerhouse! Comments: The 2V4 race started slightly over the line. Thanks to Brooks & Groton for an exciting afternoon of tight racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BB257C1BB6B51FDE5ADB9DC0DD1718AB&cat=1", random="random"]; 
+Brooks -> Groton[label="7.2 (8.31)
+05/13", weight="93", tooltip="NEIRA Boys Fours,Belmont Hill vs Brooks & Nobles			
+Distance: 1300m Conditions: Gusty tail/cross-tail, which made for tricky aligning at the start, but great racing conditions. Terrific job by all the coxswains navigating three-across racing on the Powerhouse! Comments: The 2V4 race started slightly over the line. Thanks to Brooks & Groton for an exciting afternoon of tight racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BB257C1BB6B51FDE5ADB9DC0DD1718AB&cat=1", random="random"]; 
 Nobles -> Brooks[label="3.1
 04/15", weight="97", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 

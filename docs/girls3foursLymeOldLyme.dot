@@ -1,7 +1,22 @@
-digraph girls3foursLymeOldLyme {LymeOldLyme [URL="girls3foursLymeOldLymeLymeOldLyme.html"];Middletown [URL="girls3foursLymeOldLymeMiddletown.html"];NMH [URL="girls3foursLymeOldLymeNMH.html"];Hopkins [URL="girls3foursLymeOldLymeHopkins.html"];Valley [URL="girls3foursLymeOldLymeValley.html"];Valley -> LymeOldLyme[label="15.1
+digraph girls3foursLymeOldLyme {Valley [URL="girls3foursLymeOldLymeValley.html"];Choate [URL="girls3foursLymeOldLymeChoate.html"];LymeOldLyme [URL="girls3foursLymeOldLymeLymeOldLyme.html"];GreenwichAcademy [URL="girls3foursLymeOldLymeGreenwichAcademy.html"];Taft [URL="girls3foursLymeOldLymeTaft.html"];Hopkins [URL="girls3foursLymeOldLymeHopkins.html"];NMH [URL="girls3foursLymeOldLymeNMH.html"];Middletown [URL="girls3foursLymeOldLymeMiddletown.html"];Valley -> LymeOldLyme[label="15.1
 04/26", weight="85", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
 Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
+GreenwichAcademy -> LymeOldLyme[label="50.0
+05/07", weight="50", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+NMH -> LymeOldLyme[label="48.1
+05/07", weight="52", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Taft -> LymeOldLyme[label="38.5
+05/07", weight="62", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Choate -> LymeOldLyme[label="27.3
+05/07", weight="73", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+LymeOldLyme -> Hopkins[label="13.0
+05/07", weight="87", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 NMH -> LymeOldLyme[label="66.16
 04/22", weight="34", tooltip="NEIRA Boys & Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
 Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!

@@ -1,9 +1,17 @@
-digraph boys4foursBBN {Groton [URL="boys4foursBBNGroton.html"];CambridgeRingeandLatinSchool [URL="boys4foursBBNCambridgeRingeandLatinSchool.html"];Nobles [URL="boys4foursBBNNobles.html"];BBN [URL="boys4foursBBNBBN.html"];BelmontHill [URL="boys4foursBBNBelmontHill.html"];BBN -> CambridgeRingeandLatinSchool[label="23.2 (27.84)
+digraph boys4foursBBN {Groton [URL="boys4foursBBNGroton.html"];BBN [URL="boys4foursBBNBBN.html"];CambridgeRingeandLatinSchool [URL="boys4foursBBNCambridgeRingeandLatinSchool.html"];StMarks [URL="boys4foursBBNStMarks.html"];Nobles [URL="boys4foursBBNNobles.html"];BelmontHill [URL="boys4foursBBNBelmontHill.html"];Taft [URL="boys4foursBBNTaft.html"];BBN -> CambridgeRingeandLatinSchool[label="23.2 (27.84)
 04/08", weight="77", tooltip="NEIRA Boys & Girls Fours,Cambridge Mayor's Cup: CRLS vs. BB&N			
 Distance: 1250 m Conditions: Brisk but bright and sunny, 10-15 mph cross-tail wind, becoming more cross and less tail over the afternoon. Order of races was boys/girls, 4/5V, 3V, 2V, 1V. Comments: All floating starts. Boys' 4/5V race started 1+ length over the line. 
 The Mayor's Cup trophies for the 1V races stay with BB&N (boys) and CRLS (girls).
 Thanks to BB&N and congratulations to all for a great day of early season racing!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F97C64017C4CB0D51F42090A16048CB5&cat=5", random="random"]; 
+BBN -> StMarks[label="25.6
+05/13", weight="75", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+BBN -> Taft[label="38.5
+05/13", weight="62", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
 BelmontHill -> BBN[label="17.77 (20.5)
 04/29", weight="83", tooltip="NEIRA Boys Fours,BB&N vs. Belmont Hill (Ducey Cup) and Hopkins School			
 Distance: 1300 Conditions: Light crossing head wind at the start, stayed consistent for all races. Comments: A good day of racing by all teams. Belmont Hill retained the Ducey Cup vs. BB&N. Thanks to Hopkins for making the trip up to race.

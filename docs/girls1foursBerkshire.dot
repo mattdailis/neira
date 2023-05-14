@@ -1,4 +1,28 @@
-digraph girls1foursBerkshire {Taft [URL="girls1foursBerkshireTaft.html"];Choate [URL="girls1foursBerkshireChoate.html"];MarianapolisPrep [URL="girls1foursBerkshireMarianapolisPrep.html"];Pomfret [URL="girls1foursBerkshirePomfret.html"];Berkshire [URL="girls1foursBerkshireBerkshire.html"];MarianapolisPrep -> Berkshire[label="16.7
+digraph girls1foursBerkshire {Pomfret [URL="girls1foursBerkshirePomfret.html"];Brewster [URL="girls1foursBerkshireBrewster.html"];Berkshire [URL="girls1foursBerkshireBerkshire.html"];Choate [URL="girls1foursBerkshireChoate.html"];LymeOldLyme [URL="girls1foursBerkshireLymeOldLyme.html"];GreenwichAcademy [URL="girls1foursBerkshireGreenwichAcademy.html"];MarianapolisPrep [URL="girls1foursBerkshireMarianapolisPrep.html"];Taft [URL="girls1foursBerkshireTaft.html"];Hopkins [URL="girls1foursBerkshireHopkins.html"];Canterbury [URL="girls1foursBerkshireCanterbury.html"];Brewster -> Berkshire[label="33.0
+05/07", weight="67", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+LymeOldLyme -> Berkshire[label="32.4
+05/07", weight="68", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Canterbury -> Berkshire[label="22.9
+05/07", weight="78", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+Berkshire -> Pomfret[label="13.2
+05/07", weight="87", tooltip="Founder's Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+GreenwichAcademy -> Berkshire[label="32.95
+05/13", weight="68", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
+Distance: 1500 M Conditions: Sunny, warm, breezy. 10-12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn's for handling the wind at the starting line efficiently.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&cat=5", random="random"]; 
+Hopkins -> Berkshire[label="26.88
+05/13", weight="74", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
+Distance: 1500 M Conditions: Sunny, warm, breezy. 10-12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn's for handling the wind at the starting line efficiently.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&cat=5", random="random"]; 
+Canterbury -> Berkshire[label="7.02
+05/13", weight="93", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
+Distance: 1500 M Conditions: Sunny, warm, breezy. 10-12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn's for handling the wind at the starting line efficiently.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&cat=5", random="random"]; 
+MarianapolisPrep -> Berkshire[label="16.7
 04/26", weight="84", tooltip="NEIRA Girls Fours,Pomfret vs. Marianapolis, Berkshire			
 Distance: 1500m Conditions: No current. Slight crossing tailwind to begin (ESE ~6 to 8 MPH) that increased in speed and became more of a solid (S ~10-12 MPH) tail by the last race. Comments: Order of races: G1, G2. There were some boys races between the races. Pomfret's 3rd boat raced in the 2nd boat category. Marianapolis's second boat caught a boat stopping crab just after the 250m mark.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=DD66D79A1A96726AD149522E161FDE8D&cat=1", random="random"]; 

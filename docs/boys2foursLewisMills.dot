@@ -1,4 +1,4 @@
-digraph boys2foursLewisMills {Valley [URL="boys2foursLewisMillsValley.html"];LewisMills [URL="boys2foursLewisMillsLewisMills.html"];Middletown [URL="boys2foursLewisMillsMiddletown.html"];Middletown -> LewisMills[label="29.27
+digraph boys2foursLewisMills {Valley [URL="boys2foursLewisMillsValley.html"];Middletown [URL="boys2foursLewisMillsMiddletown.html"];LewisMills [URL="boys2foursLewisMillsLewisMills.html"];Middletown -> LewisMills[label="29.27
 05/09", weight="71", tooltip="NEIRA Boys & Girls Fours,Valley Regional HS, Middletown HS, Lewis Mills HS			
 Distance: 1500 Conditions: Race down river, but tide was coming in, moderate downstream current. Mild winds out of the East off the port. Comments: Girls V2 Race included Valley GV2 in first, Valley GV3 in second, & Middletown GV2 in third place.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CF4015A23DE5B075A8FBE1F373D74603&cat=5", random="random"]; 

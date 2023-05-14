@@ -1,4 +1,4 @@
-digraph girls1foursWinsor {CambridgeRingeandLatinSchool [URL="girls1foursWinsorCambridgeRingeandLatinSchool.html"];Nobles [URL="girls1foursWinsorNobles.html"];Hopkins [URL="girls1foursWinsorHopkins.html"];BBN [URL="girls1foursWinsorBBN.html"];NewtonCountryDay [URL="girls1foursWinsorNewtonCountryDay.html"];Winsor [URL="girls1foursWinsorWinsor.html"];Winsor -> CambridgeRingeandLatinSchool[label="5.3 (6.12)
+digraph girls1foursWinsor {Pomfret [URL="girls1foursWinsorPomfret.html"];BBN [URL="girls1foursWinsorBBN.html"];CambridgeRingeandLatinSchool [URL="girls1foursWinsorCambridgeRingeandLatinSchool.html"];StMarks [URL="girls1foursWinsorStMarks.html"];FrederickGunn [URL="girls1foursWinsorFrederickGunn.html"];Nobles [URL="girls1foursWinsorNobles.html"];MissPorters [URL="girls1foursWinsorMissPorters.html"];NewtonCountryDay [URL="girls1foursWinsorNewtonCountryDay.html"];Taft [URL="girls1foursWinsorTaft.html"];Hopkins [URL="girls1foursWinsorHopkins.html"];Winsor [URL="girls1foursWinsorWinsor.html"];Winsor -> CambridgeRingeandLatinSchool[label="5.3 (6.12)
 05/11", weight="95", tooltip="NEIRA Girls Fours,Cambridge Rindge & Latin School vs. Winsor			
 Distance: 1300m Conditions: Flat water, light and variable cross/ cross-tail wind. Short rainshower at the beginning of the Novice 8+ race. Comments: All floating starts. 3V4+, 4V4+, and N8+ all started over the start line by 1-2 lengths so times are not comparable across events. The Charles Riverboat cruised through the 3V race waking both crews, CRLS slightly more than Winsor, but the result was not affected thanks to some steely-nerved coxswains.
 Thank you to Winsor for great racing amid a busy week of AP exams!
@@ -13,6 +13,26 @@ Winsor -> Hopkins[label="16.6 (18.44)
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
 The 5th boat race was in 8's with Winsor and BB&N
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D808E65A5EEBFB&cat=1", random="random"]; 
+Winsor -> Taft[label="11.8
+05/13", weight="89", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Winsor -> StMarks[label="28.7
+05/13", weight="72", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Winsor -> FrederickGunn[label="39.3
+05/13", weight="61", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Winsor -> Pomfret[label="56.6
+05/13", weight="44", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Winsor -> MissPorters[label="57.7
+05/13", weight="43", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
 Winsor -> NewtonCountryDay[label="20.6 (22.07)
 04/22", weight="80", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
 Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing

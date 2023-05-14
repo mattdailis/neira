@@ -1,8 +1,12 @@
-digraph boys3foursMiddletown {LymeOldLyme [URL="boys3foursMiddletownLymeOldLyme.html"];EastLyme [URL="boys3foursMiddletownEastLyme.html"];Middletown [URL="boys3foursMiddletownMiddletown.html"];LymeOldLyme -> Middletown[label="24.52
+digraph boys3foursMiddletown {Middletown [URL="boys3foursMiddletownMiddletown.html"];EastLyme [URL="boys3foursMiddletownEastLyme.html"];LymeOldLyme [URL="boys3foursMiddletownLymeOldLyme.html"];Suffield [URL="boys3foursMiddletownSuffield.html"];LymeOldLyme -> Middletown[label="24.52
 05/11", weight="76", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Middletown v East Lyme			
 Distance: 1500 Conditions: The wind was 6 to 9 knots dropping slightly towards the end of the day as a cross headwind. The girls first and second boats both started two length past the starting line. The crosswind at the start was quite challenging and caused a number of issues trying to get off the line cleanly in the girls races. In the 3rd boat race East Lymes steering boke pulling them from the race Comments: Lyme/Old Lyme would like to thank Middletown and east Lyme for coming out and racing. We look forward to see you all on the water again!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C698035EC81E2CFFF01DA234C5F298E&cat=5", random="random"]; 
 Middletown -> EastLyme[label="_
 05/11", weight="99", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Middletown v East Lyme			
 Distance: 1500 Conditions: The wind was 6 to 9 knots dropping slightly towards the end of the day as a cross headwind. The girls first and second boats both started two length past the starting line. The crosswind at the start was quite challenging and caused a number of issues trying to get off the line cleanly in the girls races. In the 3rd boat race East Lymes steering boke pulling them from the race Comments: Lyme/Old Lyme would like to thank Middletown and east Lyme for coming out and racing. We look forward to see you all on the water again!!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C698035EC81E2CFFF01DA234C5F298E&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C698035EC81E2CFFF01DA234C5F298E&cat=5", random="random"]; 
+Middletown -> Suffield[label="53.04
+05/13", weight="47", tooltip="NEIRA 4+,Middletown High School & Suffield Academy			
+Distance: 1500 Conditions: Race was down river, floating starts with moderate current, 10mph winds out of the North East, over the port/stern of the boats. Mild chop. Comments: Suffield Boys V3 caught a crab & had to weigh enough for about 3 seconds. Suffield Boys V1 caught a minor crab, but immediately recovered & rowed through it.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=DC53C007BECE6FE3F1A91563CB780560&cat=5", random="random"]}

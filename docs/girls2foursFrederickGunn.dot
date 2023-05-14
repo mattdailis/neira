@@ -1,4 +1,4 @@
-digraph girls2foursFrederickGunn {NMH [URL="girls2foursFrederickGunnNMH.html"];StMarks [URL="girls2foursFrederickGunnStMarks.html"];Choate [URL="girls2foursFrederickGunnChoate.html"];FrederickGunn [URL="girls2foursFrederickGunnFrederickGunn.html"];Choate -> FrederickGunn[label="38.3
+digraph girls2foursFrederickGunn {Pomfret [URL="girls2foursFrederickGunnPomfret.html"];Choate [URL="girls2foursFrederickGunnChoate.html"];FrederickGunn [URL="girls2foursFrederickGunnFrederickGunn.html"];StMarks [URL="girls2foursFrederickGunnStMarks.html"];MissPorters [URL="girls2foursFrederickGunnMissPorters.html"];Taft [URL="girls2foursFrederickGunnTaft.html"];Winsor [URL="girls2foursFrederickGunnWinsor.html"];NMH [URL="girls2foursFrederickGunnNMH.html"];Choate -> FrederickGunn[label="38.3
 04/15", weight="62", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
@@ -12,4 +12,24 @@ StMarks -> FrederickGunn[label="9.3
 04/15", weight="91", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring '23 season a memorable and enjoyable competition.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&cat=5", random="random"]; 
+Winsor -> FrederickGunn[label="50.3
+05/13", weight="50", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+Taft -> FrederickGunn[label="47.5
+05/13", weight="53", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+StMarks -> FrederickGunn[label="33.3
+05/13", weight="67", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+MissPorters -> FrederickGunn[label="13.3
+05/13", weight="87", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
+FrederickGunn -> Pomfret[label="33.9
+05/13", weight="67", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]}

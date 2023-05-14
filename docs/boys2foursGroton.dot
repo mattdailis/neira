@@ -1,4 +1,12 @@
-digraph boys2foursGroton {Groton [URL="boys2foursGrotonGroton.html"];Taft [URL="boys2foursGrotonTaft.html"];Middlesex [URL="boys2foursGrotonMiddlesex.html"];Nobles [URL="boys2foursGrotonNobles.html"];BBN [URL="boys2foursGrotonBBN.html"];Pomfret [URL="boys2foursGrotonPomfret.html"];Groton -> Taft[label="18.1
+digraph boys2foursGroton {Groton [URL="boys2foursGrotonGroton.html"];Pomfret [URL="boys2foursGrotonPomfret.html"];BBN [URL="boys2foursGrotonBBN.html"];Nobles [URL="boys2foursGrotonNobles.html"];Brooks [URL="boys2foursGrotonBrooks.html"];Middlesex [URL="boys2foursGrotonMiddlesex.html"];BHS [URL="boys2foursGrotonBHS.html"];Taft [URL="boys2foursGrotonTaft.html"];BHS -> Groton[label="9.8 (11.31)
+05/13", weight="91", tooltip="NEIRA Boys Fours,Belmont Hill vs Brooks & Nobles			
+Distance: 1300m Conditions: Gusty tail/cross-tail, which made for tricky aligning at the start, but great racing conditions. Terrific job by all the coxswains navigating three-across racing on the Powerhouse! Comments: The 2V4 race started slightly over the line. Thanks to Brooks & Groton for an exciting afternoon of tight racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BB257C1BB6B51FDE5ADB9DC0DD1718AB&cat=1", random="random"]; 
+Brooks -> Groton[label="7.2 (8.31)
+05/13", weight="93", tooltip="NEIRA Boys Fours,Belmont Hill vs Brooks & Nobles			
+Distance: 1300m Conditions: Gusty tail/cross-tail, which made for tricky aligning at the start, but great racing conditions. Terrific job by all the coxswains navigating three-across racing on the Powerhouse! Comments: The 2V4 race started slightly over the line. Thanks to Brooks & Groton for an exciting afternoon of tight racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BB257C1BB6B51FDE5ADB9DC0DD1718AB&cat=1", random="random"]; 
+Groton -> Taft[label="18.1
 04/29", weight="82", tooltip="NEIRA Boys Fours,Pomfret v. Groton, Taft			
 Distance: 1500M Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with girls. Order of boys races: B3, B4, B5, B2, B1.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=06436C78C6DB17E1D158607A2B127B2B&cat=1", random="random"]; 

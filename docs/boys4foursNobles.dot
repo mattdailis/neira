@@ -1,4 +1,4 @@
-digraph boys4foursNobles {Groton [URL="boys4foursNoblesGroton.html"];Nobles [URL="boys4foursNoblesNobles.html"];BBN [URL="boys4foursNoblesBBN.html"];BelmontHill [URL="boys4foursNoblesBelmontHill.html"];Brooks [URL="boys4foursNoblesBrooks.html"];BelmontHill -> Nobles[label="1.9 (2.19)
+digraph boys4foursNobles {Groton [URL="boys4foursNoblesGroton.html"];BBN [URL="boys4foursNoblesBBN.html"];Choate [URL="boys4foursNoblesChoate.html"];Nobles [URL="boys4foursNoblesNobles.html"];Brooks [URL="boys4foursNoblesBrooks.html"];BelmontHill [URL="boys4foursNoblesBelmontHill.html"];NMH [URL="boys4foursNoblesNMH.html"];BelmontHill -> Nobles[label="1.9 (2.19)
 05/06", weight="99", tooltip="NEIRA Boys Fours,Belmont Hill vs Nobles/The Bassett Cup			
 Distance: 1300m Conditions: Variable wind, mostly tail/cross-tail, fairly strong to start then diminishing throughout the racing (and even changing to a headwind for part of the 1V4 race). Great water throughout. Comments: Thanks to Nobles for a fantastic afternoon of racing. Belmont Hill retains the Bassett Cup by virtue of the win in the 1V4.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A2ED238F671A343384BFA3B092B6419C&cat=1", random="random"]; 
@@ -7,6 +7,20 @@ Nobles -> Brooks[label="20.0
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
+Nobles -> NMH[label="62.1
+05/13", weight="38", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon vs Nobles and Choate			
+Distance: 1400 m (upriver) Conditions: light current, moderate headwind that lessened for the later races Comments: Race order: B4/G4/B3/G3/B2/G2/B1/G1/B5/G5/G8s/G6/B8s;
+Notes: the third and fourth boat races had stronger headwinds and were disrupted by jet ski wakes; later races had lighter winds and fewer wakes so times should not be compared between races.
+Girls 8s: 1. Choate 7/8 6:46 2. Nobles 8/9 7:36 
+Boys 8s: 1. Nobles 6/7 5:20.6 2. Nobles 8/9 5:46.6
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&cat=5", random="random"]; 
+Nobles -> Choate[label="84.2
+05/13", weight="16", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon vs Nobles and Choate			
+Distance: 1400 m (upriver) Conditions: light current, moderate headwind that lessened for the later races Comments: Race order: B4/G4/B3/G3/B2/G2/B1/G1/B5/G5/G8s/G6/B8s;
+Notes: the third and fourth boat races had stronger headwinds and were disrupted by jet ski wakes; later races had lighter winds and fewer wakes so times should not be compared between races.
+Girls 8s: 1. Choate 7/8 6:46 2. Nobles 8/9 7:36 
+Boys 8s: 1. Nobles 6/7 5:20.6 2. Nobles 8/9 5:46.6
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&cat=5", random="random"]; 
 Nobles -> Groton[label="7.55 (8.39)
 04/22", weight="93", tooltip="NEIRA Boys Fours,BB&N boys vs Groton, Nobles			
 Distance: 1350m Conditions: moderate cross from port, slightly head

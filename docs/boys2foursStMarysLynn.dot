@@ -1,4 +1,4 @@
-digraph boys2foursStMarysLynn {StMarysLynn [URL="boys2foursStMarysLynnStMarysLynn.html"];Bancroft [URL="boys2foursStMarysLynnBancroft.html"];WorcesterAcademy [URL="boys2foursStMarysLynnWorcesterAcademy.html"];WorcesterAcademy -> StMarysLynn[label="26.3
+digraph boys2foursStMarysLynn {WorcesterAcademy [URL="boys2foursStMarysLynnWorcesterAcademy.html"];Bancroft [URL="boys2foursStMarysLynnBancroft.html"];StMarysLynn [URL="boys2foursStMarysLynnStMarysLynn.html"];WorcesterAcademy -> StMarysLynn[label="26.3
 04/26", weight="74", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
 Distance: 1500 meters Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=38305821F0E11F6B4B5BC132E9B3DE79&cat=5", random="random"]; 

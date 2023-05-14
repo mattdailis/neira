@@ -1,4 +1,20 @@
-digraph boys2foursSalisbury {Salisbury [URL="boys2foursSalisburySalisbury.html"];Brookline [URL="boys2foursSalisburyBrookline.html"];Duxbury [URL="boys2foursSalisburyDuxbury.html"];StJohnsPrep [URL="boys2foursSalisburyStJohnsPrep.html"];EastLyme [URL="boys2foursSalisburyEastLyme.html"];Shrewsbury [URL="boys2foursSalisburyShrewsbury.html"];Brookline -> Salisbury[label="30.1
+digraph boys2foursSalisbury {Berwick [URL="boys2foursSalisburyBerwick.html"];Hotchkiss [URL="boys2foursSalisburyHotchkiss.html"];Salisbury [URL="boys2foursSalisburySalisbury.html"];Farmington [URL="boys2foursSalisburyFarmington.html"];StJohnsPrep [URL="boys2foursSalisburyStJohnsPrep.html"];Shrewsbury [URL="boys2foursSalisburyShrewsbury.html"];Kent [URL="boys2foursSalisburyKent.html"];Duxbury [URL="boys2foursSalisburyDuxbury.html"];EastLyme [URL="boys2foursSalisburyEastLyme.html"];Brookline [URL="boys2foursSalisburyBrookline.html"];Kent -> Salisbury[label="8.3
+05/13", weight="92", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Berwick -> Salisbury[label="2.7
+05/13", weight="98", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Salisbury -> Farmington[label="22.5
+05/13", weight="78", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Salisbury -> Hotchkiss[label="97.7
+05/13", weight="3", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Brookline -> Salisbury[label="30.1
 04/29", weight="70", tooltip="NEIRA,Quinsigamond Cup			
 Distance: 1500 Meters Conditions: Cross wind from Lane 6 with Variable Head/Tail wind Comments: Races were floating starts, please do no compare times. In the G4, there was a restart about 250 meters over the line. A special thank you to St. John's and Shrewsbury for hosting the day.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D682CBC1FCE36890658D2D28FE95424&cat=5", random="random"]; 

@@ -1,4 +1,4 @@
-digraph girls1foursNewtonCountryDay {Middlesex [URL="girls1foursNewtonCountryDayMiddlesex.html"];Nobles [URL="girls1foursNewtonCountryDayNobles.html"];BBN [URL="girls1foursNewtonCountryDayBBN.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDayNewtonCountryDay.html"];StMarks [URL="girls1foursNewtonCountryDayStMarks.html"];Winsor [URL="girls1foursNewtonCountryDayWinsor.html"];BrewsterAcademy [URL="girls1foursNewtonCountryDayBrewsterAcademy.html"];Middlesex -> NewtonCountryDay[label="23.3
+digraph girls1foursNewtonCountryDay {Groton [URL="girls1foursNewtonCountryDayGroton.html"];BBN [URL="girls1foursNewtonCountryDayBBN.html"];StMarks [URL="girls1foursNewtonCountryDayStMarks.html"];Nobles [URL="girls1foursNewtonCountryDayNobles.html"];Brooks [URL="girls1foursNewtonCountryDayBrooks.html"];Middlesex [URL="girls1foursNewtonCountryDayMiddlesex.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDayNewtonCountryDay.html"];Winsor [URL="girls1foursNewtonCountryDayWinsor.html"];BrewsterAcademy [URL="girls1foursNewtonCountryDayBrewsterAcademy.html"];Middlesex -> NewtonCountryDay[label="23.3
 05/06", weight="77", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
 Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
 THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
@@ -16,6 +16,14 @@ THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: 
 5,3,2,4 started over the line, 4ht a full length
 2 and First had some close oar clashes, but nothing that stopped a boat.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
+Brooks -> NewtonCountryDay[label="21.8 (25.15)
+05/13", weight="79", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
+Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
+Groton -> NewtonCountryDay[label="15.3 (17.65)
+05/13", weight="85", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
+Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
 Winsor -> NewtonCountryDay[label="20.6 (22.07)
 04/22", weight="80", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
 Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing

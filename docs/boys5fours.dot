@@ -1,4 +1,4 @@
-digraph boys5fours {Groton [URL="boys5foursGroton.html"];Hingham [URL="boys5foursHingham.html"];3V8 [URL="boys5fours3V8.html"];StPauls [URL="boys5foursStPauls.html"];Nobles [URL="boys5foursNobles.html"];NMH [URL="boys5foursNMH.html"];BelmontHill [URL="boys5foursBelmontHill.html"];Andover [URL="boys5foursAndover.html"];Brooks [URL="boys5foursBrooks.html"];3V8 -> BelmontHill[label="_
+digraph boys5fours {Groton [URL="boys5foursGroton.html"];3V8 [URL="boys5fours3V8.html"];Nobles [URL="boys5foursNobles.html"];Brooks [URL="boys5foursBrooks.html"];BelmontHill [URL="boys5foursBelmontHill.html"];StPauls [URL="boys5foursStPauls.html"];Duxbury [URL="boys5foursDuxbury.html"];Andover [URL="boys5foursAndover.html"];Taft5 [URL="boys5foursTaft5.html"];BBN5 [URL="boys5foursBBN5.html"];NMH [URL="boys5foursNMH.html"];Hingham [URL="boys5foursHingham.html"];3V8 -> BelmontHill[label="_
 05/06", weight="99", tooltip="NEIRA Boys Fours,Belmont Hill vs Nobles/The Bassett Cup			
 Distance: 1300m Conditions: Variable wind, mostly tail/cross-tail, fairly strong to start then diminishing throughout the racing (and even changing to a headwind for part of the 1V4 race). Great water throughout. Comments: Thanks to Nobles for a fantastic afternoon of racing. Belmont Hill retains the Bassett Cup by virtue of the win in the 1V4.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A2ED238F671A343384BFA3B092B6419C&cat=1", random="random"]; 
@@ -14,6 +14,12 @@ Brooks -> NMH[label="11.4 (13.68)
 04/29", weight="89", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
+Duxbury -> StPauls[label="19.0
+05/13", weight="81", tooltip="NEIRA,Duxbury High School and Hanover High School vs St. Paul's School			
+Distance: 1500m Conditions: 15-18mph headwind and moderate chop. Some stronger gusts made conditions vary significantly between races. Floating starts were all close to the line, but varied slightly. Comments: In the boys' 1st boat race, the race officials brought the crews to the line, switching lanes between Duxbury and Hanover to get the crews to the start quickly and stay clear of the rocks near the start. The coxswains adapted quickly and raced effectively in their reordered lanes.
+In all, the crews handled the challenging conditions well. All of the coxswains and crews were efficient and effective at the start, allowing us to start races safely and fairly. While the conditions were slow, they were consistent across the lanes, making for fair racing.
+Thank you to the Duxbury and Hanover athletes and coaches for making the trip to Concord and for bringing both competitive spirit and sportsmanship to the racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=EE38F0905E1F3F78F1FB366540E55DE8&cat=1", random="random"]; 
 Groton -> Brooks[label="9.98 (11.98)
 05/10", weight="91", tooltip="NEIRA Boys & Girls Fours,Groton JV vs. Brooks JV			
 Distance: 1250 Meters Conditions: Very little wind or chop. Moderate current. Comments: Also racing were the Boys and Girls 7th boats:
@@ -39,8 +45,19 @@ Hingham -> StPauls[label="3.8 (3.45)
 Distance: 1650m Conditions: Strong following current. 10-15mph quartering headwind. Comments: Floating start and strong current - not all crews started exactly on the line. The G4 race started approximately 300m downriver of the start. In the Boys' 5th boat, SPS caught a boat-stopping crab.
 Thank you to St. Paul's and Hingham for making the trip. Great day of racing for all crews.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4EA66BE73D8BBCAC816352DF5FCB56FC&cat=5", random="random"]; 
+BBN5 -> Taft5[label="34.0
+05/13", weight="66", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
+Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 
 Nobles -> Brooks[label="22.6
 04/15", weight="78", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
+Nobles -> NMH[label="43.6
+05/13", weight="57", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon vs Nobles and Choate			
+Distance: 1400 m (upriver) Conditions: light current, moderate headwind that lessened for the later races Comments: Race order: B4/G4/B3/G3/B2/G2/B1/G1/B5/G5/G8s/G6/B8s;
+Notes: the third and fourth boat races had stronger headwinds and were disrupted by jet ski wakes; later races had lighter winds and fewer wakes so times should not be compared between races.
+Girls 8s: 1. Choate 7/8 6:46 2. Nobles 8/9 7:36 
+Boys 8s: 1. Nobles 6/7 5:20.6 2. Nobles 8/9 5:46.6
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&cat=5", random="random"]}

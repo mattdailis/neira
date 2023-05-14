@@ -1,4 +1,4 @@
-digraph boys3foursWorcesterAcademy {Berwick [URL="boys3foursWorcesterAcademyBerwick.html"];WorcesterAcademy [URL="boys3foursWorcesterAcademyWorcesterAcademy.html"];NMH [URL="boys3foursWorcesterAcademyNMH.html"];Derryfield [URL="boys3foursWorcesterAcademyDerryfield.html"];StMarks [URL="boys3foursWorcesterAcademyStMarks.html"];StMarks -> WorcesterAcademy[label="28.22
+digraph boys3foursWorcesterAcademy {Derryfield [URL="boys3foursWorcesterAcademyDerryfield.html"];StMarks [URL="boys3foursWorcesterAcademyStMarks.html"];Berwick [URL="boys3foursWorcesterAcademyBerwick.html"];WorcesterAcademy [URL="boys3foursWorcesterAcademyWorcesterAcademy.html"];NMH [URL="boys3foursWorcesterAcademyNMH.html"];StMarks -> WorcesterAcademy[label="28.22
 05/10", weight="72", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, St. Mark's, and Marianapolis			
 Distance: 1500 Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F473318C04D652F4CA3FD3866C15D6C5&cat=5", random="random"]; 

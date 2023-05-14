@@ -1,4 +1,4 @@
-digraph girls4foursBrooks {Middlesex [URL="girls4foursBrooksMiddlesex.html"];CambridgeRingeandLatinSchool [URL="girls4foursBrooksCambridgeRingeandLatinSchool.html"];Nobles [URL="girls4foursBrooksNobles.html"];NMH [URL="girls4foursBrooksNMH.html"];StMarks [URL="girls4foursBrooksStMarks.html"];Brooks [URL="girls4foursBrooksBrooks.html"];Brooks -> Middlesex[label="17.4
+digraph girls4foursBrooks {Groton [URL="girls4foursBrooksGroton.html"];CambridgeRingeandLatinSchool [URL="girls4foursBrooksCambridgeRingeandLatinSchool.html"];StMarks [URL="girls4foursBrooksStMarks.html"];Nobles [URL="girls4foursBrooksNobles.html"];Brooks [URL="girls4foursBrooksBrooks.html"];Middlesex [URL="girls4foursBrooksMiddlesex.html"];NewtonCountryDay [URL="girls4foursBrooksNewtonCountryDay.html"];NMH [URL="girls4foursBrooksNMH.html"];Brooks -> Middlesex[label="17.4
 04/22", weight="83", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -14,6 +14,14 @@ Brooks -> CambridgeRingeandLatinSchool[label="28.0 (33.6)
 04/29", weight="72", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
+Brooks -> Groton[label="15.9 (18.35)
+05/13", weight="85", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
+Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
+Brooks -> NewtonCountryDay[label="15.9 (18.35)
+05/13", weight="85", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
+Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
 Nobles -> Brooks[label="7.6
 04/15", weight="93", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 

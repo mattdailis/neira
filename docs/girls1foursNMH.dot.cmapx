@@ -1,62 +1,102 @@
 <map id="girls1foursNMH" name="girls1foursNMH">
-<area shape="poly" id="node1" href="girls1foursNMHLymeOldLyme.html" title="LymeOldLyme" alt="" coords="180,165,176,158,164,151,144,146,120,143,93,141,66,143,41,146,22,151,10,158,5,165,10,173,22,179,41,185,66,188,93,189,120,188,144,185,164,179,176,173"/>
-<area shape="poly" id="node2" href="girls1foursNMHCambridgeRingeandLatinSchool.html" title="CambridgeRingeandLatinSchool" alt="" coords="542,165,534,158,510,151,472,146,425,143,373,141,321,143,274,146,236,151,212,158,204,165,212,173,236,179,274,185,321,188,373,189,425,188,472,185,510,179,534,173"/>
-<area shape="poly" id="node3" href="girls1foursNMHWorcesterAcademy.html" title="WorcesterAcademy" alt="" coords="783,165,777,158,762,151,738,146,708,143,674,141,641,143,611,146,587,151,571,158,566,165,571,173,587,179,611,185,641,188,674,189,708,188,738,185,762,179,777,173"/>
-<area shape="poly" id="node4" href="girls1foursNMHChoate.html" title="Choate" alt="" coords="902,165,900,158,893,151,882,146,869,143,854,141,839,143,826,146,816,151,809,158,807,165,809,173,816,179,826,185,839,188,854,189,869,188,882,185,893,179,900,173"/>
-<area shape="poly" id="node5" href="girls1foursNMHNMH.html" title="NMH" alt="" coords="1022,29,1020,22,1014,15,1004,10,993,7,980,5,966,7,955,10,945,15,939,22,937,29,939,37,945,43,955,49,966,52,980,53,993,52,1004,49,1014,43,1020,37"/>
-<area shape="poly" id="edge9" href="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
-Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
-None" alt="" coords="938,36,745,50,619,63,492,80,341,109,192,144,173,148,172,143,191,139,340,103,491,75,618,58,744,45,937,30"/>
-<area shape="rect" id="edge9-label" href="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&amp;cat=5" title="36.88
-04/22" alt="" coords="492,77,533,117"/>
+<area shape="poly" id="node1" href="girls1foursNMHBancroft.html" title="Bancroft" alt="" coords="116,165,114,158,106,151,93,146,78,143,61,141,44,143,28,146,16,151,8,158,5,165,8,173,16,179,28,185,44,188,61,189,78,188,93,185,106,179,114,173"/>
+<area shape="poly" id="node2" href="girls1foursNMHChoate.html" title="Choate" alt="" coords="235,165,233,158,226,151,215,146,202,143,187,141,173,143,159,146,149,151,142,158,140,165,142,173,149,179,159,185,173,188,187,189,202,188,215,185,226,179,233,173"/>
+<area shape="poly" id="node3" href="girls1foursNMHCambridgeRingeandLatinSchool.html" title="CambridgeRingeandLatinSchool" alt="" coords="596,165,588,158,564,151,527,146,480,143,427,141,375,143,328,146,291,151,267,158,258,165,267,173,291,179,328,185,375,188,427,189,480,188,527,185,564,179,588,173"/>
+<area shape="poly" id="node4" href="girls1foursNMHFrederickGunnSchool.html" title="FrederickGunnSchool" alt="" coords="856,165,850,158,833,151,807,146,775,143,738,141,702,143,669,146,643,151,626,158,620,165,626,173,643,179,669,185,702,188,738,189,775,188,807,185,833,179,850,173"/>
+<area shape="poly" id="node5" href="girls1foursNMHStMarks.html" title="StMarks" alt="" coords="989,165,986,158,978,151,966,146,951,143,934,141,917,143,902,146,890,151,882,158,880,165,882,173,890,179,902,185,917,188,934,189,951,188,966,185,978,179,986,173"/>
+<area shape="poly" id="node6" href="girls1foursNMHBrooks.html" title="Brooks" alt="" coords="1109,165,1107,158,1100,151,1089,146,1076,143,1061,141,1046,143,1032,146,1022,151,1015,158,1012,165,1015,173,1022,179,1032,185,1046,188,1061,189,1076,188,1089,185,1100,179,1107,173"/>
+<area shape="poly" id="node7" href="girls1foursNMHFrederickGunn.html" title="FrederickGunn" alt="" coords="1303,165,1299,158,1287,151,1268,146,1244,143,1218,141,1192,143,1168,146,1149,151,1137,158,1133,165,1137,173,1149,179,1168,185,1192,188,1218,189,1244,188,1268,185,1287,179,1299,173"/>
+<area shape="poly" id="node8" href="girls1foursNMHLymeOldLyme.html" title="LymeOldLyme" alt="" coords="1502,165,1497,158,1485,151,1466,146,1441,143,1414,141,1387,143,1363,146,1343,151,1331,158,1327,165,1331,173,1343,179,1363,185,1387,188,1414,189,1441,188,1466,185,1485,179,1497,173"/>
+<area shape="poly" id="node9" href="girls1foursNMHNobles.html" title="Nobles" alt="" coords="1620,165,1618,158,1611,151,1601,146,1588,143,1573,141,1558,143,1545,146,1534,151,1527,158,1525,165,1527,173,1534,179,1545,185,1558,188,1573,189,1588,188,1601,185,1611,179,1618,173"/>
+<area shape="poly" id="node10" href="girls1foursNMHGreenwichAcademy.html" title="GreenwichAcademy" alt="" coords="1866,165,1861,158,1845,151,1821,146,1790,143,1755,141,1721,143,1690,146,1666,151,1650,158,1645,165,1650,173,1666,179,1690,185,1721,188,1755,189,1790,188,1821,185,1845,179,1861,173"/>
+<area shape="poly" id="node11" href="girls1foursNMHWorcesterAcademy.html" title="WorcesterAcademy" alt="" coords="2106,165,2101,158,2086,151,2062,146,2032,143,1998,141,1965,143,1934,146,1910,151,1895,158,1890,165,1895,173,1910,179,1934,185,1965,188,1998,189,2032,188,2062,185,2086,179,2101,173"/>
+<area shape="poly" id="node12" href="girls1foursNMHTaft.html" title="Taft" alt="" coords="2202,165,2200,158,2195,151,2187,146,2177,143,2166,141,2155,143,2145,146,2137,151,2132,158,2130,165,2132,173,2137,179,2145,185,2155,188,2166,189,2177,188,2187,185,2195,179,2200,173"/>
+<area shape="poly" id="node13" href="girls1foursNMHHopkins.html" title="Hopkins" alt="" coords="2333,165,2331,158,2323,151,2311,146,2296,143,2279,141,2263,143,2248,146,2236,151,2228,158,2226,165,2228,173,2236,179,2248,185,2263,188,2279,189,2296,188,2311,185,2323,179,2331,173"/>
+<area shape="poly" id="node14" href="girls1foursNMHNMH.html" title="NMH" alt="" coords="1103,29,1101,22,1095,15,1086,10,1074,7,1061,5,1048,7,1036,10,1026,15,1020,22,1018,29,1020,37,1026,43,1036,49,1048,52,1061,53,1074,52,1086,49,1095,43,1101,37"/>
+<area shape="poly" id="edge11" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester vs. Choate, St. Mark&#39;s, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring &#39;23 season a memorable and enjoyable competition.
+None" alt="" coords="1018,34,821,36,546,43,288,57,195,67,142,80,110,103,84,131,80,128,106,99,140,75,194,62,288,52,546,38,821,31,1018,28"/>
+<area shape="rect" id="edge11-label" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="79.7
+04/15" alt="" coords="141,77,182,117"/>
+<area shape="poly" id="edge4" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="Founder&#39;s Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches." alt="" coords="1018,34,560,48,322,62,242,70,206,79,193,101,188,127,183,126,188,99,203,75,241,65,321,57,560,43,1018,29"/>
+<area shape="rect" id="edge4-label" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="12.8
+05/07" alt="" coords="205,77,246,117"/>
+<area shape="poly" id="edge8" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester vs. Choate, St. Mark&#39;s, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring &#39;23 season a memorable and enjoyable competition.
+None" alt="" coords="1018,34,618,46,404,60,327,69,283,80,272,88,265,97,248,119,226,138,223,134,244,116,260,93,268,84,281,75,326,64,403,54,618,41,1018,29"/>
+<area shape="rect" id="edge8-label" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="2.7
+04/15" alt="" coords="282,77,323,117"/>
+<area shape="poly" id="edge16" href="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Northfield Mount Hermon vs Nobles and Choate			
+Distance: 1400 m (upriver) Conditions: light current, moderate headwind that lessened for the later races Comments: Race order: B4/G4/B3/G3/B2/G2/B1/G1/B5/G5/G8s/G6/B8s;
+Notes: the third and fourth boat races had stronger headwinds and were disrupted by jet ski wakes; later races had lighter winds and fewer wakes so times should not be compared between races.
+Girls 8s: 1. Choate 7/8 6:46 2. Nobles 8/9 7:36 
+Boys 8s: 1. Nobles 6/7 5:20.6 2. Nobles 8/9 5:46.6
+None" alt="" coords="1018,35,887,42,694,59,585,74,471,92,357,115,247,144,238,147,237,142,245,139,356,110,470,87,584,68,694,54,886,36,1018,29"/>
+<area shape="rect" id="edge16-label" href="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&amp;cat=5" title="20.0
+05/13" alt="" coords="533,77,574,117"/>
 <area shape="poly" id="edge2" href="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge &amp; Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
-None" alt="" coords="939,39,830,55,699,80,572,110,458,142,457,137,571,105,698,75,829,50,938,34"/>
+None" alt="" coords="1020,39,908,56,773,80,638,111,517,142,516,137,637,106,772,75,907,50,1019,34"/>
 <area shape="rect" id="edge2-label" href="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&amp;cat=5" title="5.0 (6.0)
-04/29" alt="" coords="698,77,762,117"/>
-<area shape="poly" id="edge7" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester vs. Choate, St. Mark&#39;s, Northfield Mount Hermon, Bancroft			
+04/29" alt="" coords="773,77,837,117"/>
+<area shape="poly" id="edge7" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="Founder&#39;s Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches." alt="" coords="1026,45,934,80,798,139,796,134,932,75,1024,40"/>
+<area shape="rect" id="edge7-label" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="35.2
+05/07" alt="" coords="933,77,974,117"/>
+<area shape="poly" id="edge9" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester vs. Choate, St. Mark&#39;s, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
 A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring &#39;23 season a memorable and enjoyable competition.
-None" alt="" coords="944,45,851,80,728,138,726,134,849,75,942,40"/>
-<area shape="rect" id="edge7-label" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="119.6
-04/15" alt="" coords="850,77,892,117"/>
-<area shape="poly" id="edge3" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester vs. Choate, St. Mark&#39;s, Northfield Mount Hermon, Bancroft			
-Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
-A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring &#39;23 season a memorable and enjoyable competition.
-None" alt="" coords="961,53,935,79,885,134,881,130,931,75,957,49"/>
-<area shape="rect" id="edge3-label" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="2.7
-04/15" alt="" coords="933,77,974,117"/>
-<area shape="poly" id="node6" href="girls1foursNMHHopkins.html" title="Hopkins" alt="" coords="1033,165,1031,158,1023,151,1011,146,996,143,980,141,963,143,948,146,936,151,928,158,926,165,928,173,936,179,948,185,963,188,980,189,996,188,1011,185,1023,179,1031,173"/>
-<area shape="poly" id="edge8" href="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
-Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
-None" alt="" coords="982,54,982,127,977,127,977,54"/>
-<area shape="rect" id="edge8-label" href="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&amp;cat=5" title="12.9
-04/22" alt="" coords="980,77,1021,117"/>
-<area shape="poly" id="node7" href="girls1foursNMHStMarks.html" title="StMarks" alt="" coords="1166,165,1163,158,1156,151,1144,146,1128,143,1112,141,1095,143,1079,146,1067,151,1060,158,1057,165,1060,173,1067,179,1079,185,1095,188,1112,189,1128,188,1144,185,1156,179,1163,173"/>
-<area shape="poly" id="edge4" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester vs. Choate, St. Mark&#39;s, Northfield Mount Hermon, Bancroft			
-Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
-A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring &#39;23 season a memorable and enjoyable competition.
-None" alt="" coords="1001,49,1028,75,1082,131,1079,134,1024,79,998,53"/>
-<area shape="rect" id="edge4-label" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="8.9
-04/15" alt="" coords="1065,77,1106,117"/>
-<area shape="poly" id="node8" href="girls1foursNMHFrederickGunn.html" title="FrederickGunn" alt="" coords="1360,165,1356,158,1344,151,1325,146,1302,143,1276,141,1249,143,1226,146,1207,151,1195,158,1191,165,1195,173,1207,179,1226,185,1249,188,1276,189,1302,188,1325,185,1344,179,1356,173"/>
-<area shape="poly" id="edge5" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester vs. Choate, St. Mark&#39;s, Northfield Mount Hermon, Bancroft			
-Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
-A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring &#39;23 season a memorable and enjoyable competition.
-None" alt="" coords="1017,39,1113,75,1228,134,1226,138,1110,80,1015,44"/>
-<area shape="rect" id="edge5-label" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="11.7
-04/15" alt="" coords="1190,77,1232,117"/>
-<area shape="poly" id="node9" href="girls1foursNMHBancroft.html" title="Bancroft" alt="" coords="1495,165,1492,158,1484,151,1472,146,1457,143,1440,141,1422,143,1407,146,1395,151,1387,158,1384,165,1387,173,1395,179,1407,185,1422,188,1440,189,1457,188,1472,185,1484,179,1492,173"/>
-<area shape="poly" id="edge6" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester vs. Choate, St. Mark&#39;s, Northfield Mount Hermon, Bancroft			
-Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
-A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring &#39;23 season a memorable and enjoyable competition.
-None" alt="" coords="1021,33,1121,48,1238,75,1321,105,1393,137,1391,142,1319,110,1236,80,1120,53,1020,38"/>
-<area shape="rect" id="edge6-label" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="79.7
-04/15" alt="" coords="1340,77,1381,117"/>
-<area shape="poly" id="node10" href="girls1foursNMHBrooks.html" title="Brooks" alt="" coords="1616,165,1614,158,1607,151,1596,146,1583,143,1568,141,1553,143,1539,146,1528,151,1521,158,1519,165,1521,173,1528,179,1539,185,1553,188,1568,189,1583,188,1596,185,1607,179,1614,173"/>
+None" alt="" coords="1042,53,1016,79,965,134,961,130,1012,75,1038,49"/>
+<area shape="rect" id="edge9-label" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="8.9
+04/15" alt="" coords="1014,77,1055,117"/>
 <area shape="poly" id="edge1" href="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge &amp; Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
-None" alt="" coords="1022,28,1093,31,1184,38,1286,52,1387,75,1462,104,1527,137,1524,141,1460,108,1385,80,1285,57,1184,43,1092,36,1022,34"/>
+None" alt="" coords="1063,54,1063,127,1058,127,1058,54"/>
 <area shape="rect" id="edge1-label" href="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&amp;cat=5" title="3.0 (3.6)
-04/29" alt="" coords="1484,77,1548,117"/>
+04/29" alt="" coords="1061,77,1125,117"/>
+<area shape="poly" id="edge10" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester vs. Choate, St. Mark&#39;s, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring &#39;23 season a memorable and enjoyable competition.
+None" alt="" coords="1091,46,1132,75,1189,129,1186,133,1128,79,1087,50"/>
+<area shape="rect" id="edge10-label" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="11.7
+04/15" alt="" coords="1173,77,1214,117"/>
+<area shape="poly" id="edge14" href="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
+Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
+None" alt="" coords="1100,38,1220,75,1294,105,1361,135,1359,140,1292,110,1219,80,1098,43"/>
+<area shape="rect" id="edge14-label" href="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&amp;cat=5" title="36.88
+04/22" alt="" coords="1311,77,1353,117"/>
+<area shape="poly" id="edge15" href="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Northfield Mount Hermon vs Nobles and Choate			
+Distance: 1400 m (upriver) Conditions: light current, moderate headwind that lessened for the later races Comments: Race order: B4/G4/B3/G3/B2/G2/B1/G1/B5/G5/G8s/G6/B8s;
+Notes: the third and fourth boat races had stronger headwinds and were disrupted by jet ski wakes; later races had lighter winds and fewer wakes so times should not be compared between races.
+Girls 8s: 1. Choate 7/8 6:46 2. Nobles 8/9 7:36 
+Boys 8s: 1. Nobles 6/7 5:20.6 2. Nobles 8/9 5:46.6
+None" alt="" coords="1103,32,1219,46,1289,58,1359,75,1449,106,1527,139,1525,144,1447,111,1357,80,1288,64,1218,51,1102,37"/>
+<area shape="rect" id="edge15-label" href="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&amp;cat=5" title="2.0
+05/13" alt="" coords="1466,77,1507,117"/>
+<area shape="poly" id="edge5" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="Founder&#39;s Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches." alt="" coords="1103,29,1283,40,1398,54,1513,75,1610,103,1696,135,1694,140,1609,108,1512,80,1397,59,1282,46,1103,34"/>
+<area shape="rect" id="edge5-label" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="15.2
+05/07" alt="" coords="1641,77,1682,117"/>
+<area shape="poly" id="edge12" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester vs. Choate, St. Mark&#39;s, Northfield Mount Hermon, Bancroft			
+Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo
+A special thanks to Paul, all of the coaches, and the parents who made our opening foray into the Spring &#39;23 season a memorable and enjoyable competition.
+None" alt="" coords="1103,28,1352,38,1519,52,1688,75,1816,104,1928,137,1927,143,1815,109,1687,80,1519,57,1352,43,1103,34"/>
+<area shape="rect" id="edge12-label" href="http://www.row2k.com/results/resultspage.cfm?UID=EACEE7F329205F77F3F7014E85F30C2B&amp;cat=5" title="119.6
+04/15" alt="" coords="1850,77,1891,117"/>
+<area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="Founder&#39;s Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches." alt="" coords="1103,29,1497,43,1728,57,1897,75,2010,100,2119,139,2126,142,2124,147,2117,144,2009,105,1896,80,1728,62,1497,49,1103,34"/>
+<area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="9.6
+05/07" alt="" coords="2051,77,2093,117"/>
+<area shape="poly" id="edge6" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="Founder&#39;s Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches." alt="" coords="1103,28,1304,28,1592,33,1885,47,2007,59,2099,75,2174,102,2238,135,2236,140,2172,107,2097,80,2007,64,1885,52,1592,38,1303,33,1103,33"/>
+<area shape="rect" id="edge6-label" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="16.8
+05/07" alt="" coords="2199,77,2241,117"/>
+<area shape="poly" id="edge13" href="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Hopkins vs. Lyme/OldLyme, Northfield Mount Hermon			
+Distance: 1500 Conditions: Floating start made the overall distance vary slightly. Overcast, with strong gusty cross headwind worsening from 9 to 14 mph in the later races, significant chop in the first third of the course. Comments: Top boats raced first followed by lower boats. Lyme/Old Lyme B3 and G4, Hopkins G3 and G4 boats were novices. Wet launch at 56F water stirred excitement! Challenging conditions caused Hopkins B3 and G3 boats, LOL G2, G3, and G4 to miss the turn buoys and row a shorter course. Thank you, LOL and NMH for coming to our home river. We look forward to hosting you again next year!
+None" alt="" coords="1104,28,1735,40,2077,53,2192,63,2228,69,2248,75,2267,98,2277,126,2272,128,2262,101,2245,80,2227,74,2192,68,2077,59,1735,45,1103,34"/>
+<area shape="rect" id="edge13-label" href="http://www.row2k.com/results/resultspage.cfm?UID=7DACB26F9E928DE698D64A71662AA737&amp;cat=5" title="12.9
+04/22" alt="" coords="2271,77,2313,117"/>
 </map>

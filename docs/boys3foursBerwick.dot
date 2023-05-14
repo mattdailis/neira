@@ -1,4 +1,16 @@
-digraph boys3foursBerwick {Berwick [URL="boys3foursBerwickBerwick.html"];WorcesterAcademy [URL="boys3foursBerwickWorcesterAcademy.html"];Derryfield [URL="boys3foursBerwickDerryfield.html"];BrewsterAcademy [URL="boys3foursBerwickBrewsterAcademy.html"];BrewsterAcademy -> Berwick[label="18.0
+digraph boys3foursBerwick {Derryfield [URL="boys3foursBerwickDerryfield.html"];Berwick [URL="boys3foursBerwickBerwick.html"];Salisbury [URL="boys3foursBerwickSalisbury.html"];Farmington [URL="boys3foursBerwickFarmington.html"];WorcesterAcademy [URL="boys3foursBerwickWorcesterAcademy.html"];Kent [URL="boys3foursBerwickKent.html"];BrewsterAcademy [URL="boys3foursBerwickBrewsterAcademy.html"];Berwick -> Kent[label="18.6
+05/13", weight="82", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Berwick -> Farmington[label="25.7
+05/13", weight="75", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+Berwick -> Salisbury[label="29.3
+05/13", weight="71", tooltip="NEIRA,Kent Invitational			
+Distance: 1500m Conditions: Conditions varied a lot during the races. Mostly a head crosswind, sometimes gusting over 15mph Comments: Great day of racing. The wind changed quite a bit during the day, but it was fair racing in windy conditions. Thank you to all the teams that raced today!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=4A9881B1D8670B3CE7C48DAA19322EE5&cat=5", random="random"]; 
+BrewsterAcademy -> Berwick[label="18.0
 04/08", weight="82", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
 Distance: Berwick Conditions: Strong head wind gusts in the first 700 meters of the race creating some chop, but generally clean conditions for early April racing. Slightly increasing wind as races progressed. Comments: Race order was Girls 1V, Boys 2V, Girls 2V*,Boys 3V, & Boys 1V**
 *Please note that the Girls 2V should be considered an exhibition as there were Varsity rowers to fill out the line-ups to give younger rowers the chance to race.

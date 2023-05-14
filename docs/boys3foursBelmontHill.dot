@@ -1,4 +1,8 @@
-digraph boys3foursBelmontHill {BBN [URL="boys3foursBelmontHillBBN.html"];Nobles [URL="boys3foursBelmontHillNobles.html"];BelmontHill [URL="boys3foursBelmontHillBelmontHill.html"];Hopkins [URL="boys3foursBelmontHillHopkins.html"];Nobles -> BelmontHill[label="1.2 (1.38)
+digraph boys3foursBelmontHill {BBN [URL="boys3foursBelmontHillBBN.html"];CambridgeRingeandLatinSchool [URL="boys3foursBelmontHillCambridgeRingeandLatinSchool.html"];Nobles [URL="boys3foursBelmontHillNobles.html"];BelmontHill [URL="boys3foursBelmontHillBelmontHill.html"];Hopkins [URL="boys3foursBelmontHillHopkins.html"];BelmontHill -> CambridgeRingeandLatinSchool[label="15.7 (18.12)
+05/13", weight="85", tooltip="NEIRA Boys & Girls Fours,NEIRA Cambridge Rindge and Latin vs Thayer Boys and Girls, Belmont Hill 9V			
+Distance: 1300 Conditions: Cross-tailwind consistent for all races Comments: Thanks to Thayer for making it to Cambridge at the last minute and to Belmont Hill 9V for joining in on some fun racing.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F3E40CF56EBACA5850DF8BE2AC2814D4&cat=5", random="random"]; 
+Nobles -> BelmontHill[label="1.2 (1.38)
 05/06", weight="99", tooltip="NEIRA Boys Fours,Belmont Hill vs Nobles/The Bassett Cup			
 Distance: 1300m Conditions: Variable wind, mostly tail/cross-tail, fairly strong to start then diminishing throughout the racing (and even changing to a headwind for part of the 1V4 race). Great water throughout. Comments: Thanks to Nobles for a fantastic afternoon of racing. Belmont Hill retains the Bassett Cup by virtue of the win in the 1V4.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=A2ED238F671A343384BFA3B092B6419C&cat=1", random="random"]; 

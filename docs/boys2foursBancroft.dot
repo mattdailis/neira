@@ -1,4 +1,4 @@
-digraph boys2foursBancroft {StMarysLynn [URL="boys2foursBancroftStMarysLynn.html"];Bancroft [URL="boys2foursBancroftBancroft.html"];Derryfield [URL="boys2foursBancroftDerryfield.html"];WorcesterAcademy [URL="boys2foursBancroftWorcesterAcademy.html"];WorcesterAcademy -> Bancroft[label="60.0
+digraph boys2foursBancroft {Derryfield [URL="boys2foursBancroftDerryfield.html"];WorcesterAcademy [URL="boys2foursBancroftWorcesterAcademy.html"];Bancroft [URL="boys2foursBancroftBancroft.html"];StMarysLynn [URL="boys2foursBancroftStMarysLynn.html"];WorcesterAcademy -> Bancroft[label="60.0
 05/10", weight="40", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, St. Mark's, and Marianapolis			
 Distance: 1500 Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F473318C04D652F4CA3FD3866C15D6C5&cat=5", random="random"]; 
