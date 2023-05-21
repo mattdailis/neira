@@ -1,4 +1,24 @@
-digraph girls1foursChoate {Bancroft [URL="girls1foursChoateBancroft.html"];WorcesterAcademy [URL="girls1foursChoateWorcesterAcademy.html"];Choate [URL="girls1foursChoateChoate.html"];BerkshireAcademy [URL="girls1foursChoateBerkshireAcademy.html"];GreenwichAcademy [URL="girls1foursChoateGreenwichAcademy.html"];Nobles [URL="girls1foursChoateNobles.html"];Hopkins [URL="girls1foursChoateHopkins.html"];NMH [URL="girls1foursChoateNMH.html"];Taft [URL="girls1foursChoateTaft.html"];StMarks [URL="girls1foursChoateStMarks.html"];GunnSchool [URL="girls1foursChoateGunnSchool.html"];Choate -> Hopkins[label="2.72 (3.07)
+digraph girls1foursChoate {StMarks [URL="girls1foursChoateStMarks.html"];BerkshireAcademy [URL="girls1foursChoateBerkshireAcademy.html"];GunnSchool [URL="girls1foursChoateGunnSchool.html"];Nobles [URL="girls1foursChoateNobles.html"];MissPorters [URL="girls1foursChoateMissPorters.html"];Hopkins [URL="girls1foursChoateHopkins.html"];NMH [URL="girls1foursChoateNMH.html"];Bancroft [URL="girls1foursChoateBancroft.html"];Taft [URL="girls1foursChoateTaft.html"];WorcesterAcademy [URL="girls1foursChoateWorcesterAcademy.html"];Choate [URL="girls1foursChoateChoate.html"];GreenwichAcademy [URL="girls1foursChoateGreenwichAcademy.html"];Choate -> Taft[label="1.2
+05/20", weight="99", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> GreenwichAcademy[label="8.3
+05/20", weight="92", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> BerkshireAcademy[label="14.6
+05/20", weight="86", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> GunnSchool[label="18.0
+05/20", weight="82", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> MissPorters[label="41.4
+05/20", weight="59", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> Hopkins[label="2.72 (3.07)
 04/12", weight="98", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
 Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=97CDDFE6B0BF0E6715FCA59070425D31&cat=5", random="random"]; 

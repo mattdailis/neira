@@ -1,4 +1,4 @@
-digraph girls2foursValleyRegional {LymeOldLyme [URL="girls2foursValleyRegionalLymeOldLyme.html"];ValleyRegional [URL="girls2foursValleyRegionalValleyRegional.html"];GreenwichAcademy [URL="girls2foursValleyRegionalGreenwichAcademy.html"];StMarysLynn [URL="girls2foursValleyRegionalStMarysLynn.html"];Taft [URL="girls2foursValleyRegionalTaft.html"];Middletown [URL="girls2foursValleyRegionalMiddletown.html"];Lincoln [URL="girls2foursValleyRegionalLincoln.html"];LymeOldLyme -> ValleyRegional[label="17.6
+digraph girls2foursValleyRegional {Lincoln [URL="girls2foursValleyRegionalLincoln.html"];MissPorters [URL="girls2foursValleyRegionalMissPorters.html"];StMarysLynn [URL="girls2foursValleyRegionalStMarysLynn.html"];ValleyRegional [URL="girls2foursValleyRegionalValleyRegional.html"];Middletown [URL="girls2foursValleyRegionalMiddletown.html"];LymeOldLyme [URL="girls2foursValleyRegionalLymeOldLyme.html"];Taft [URL="girls2foursValleyRegionalTaft.html"];GreenwichAcademy [URL="girls2foursValleyRegionalGreenwichAcademy.html"];LymeOldLyme -> ValleyRegional[label="17.6
 04/26", weight="83", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
 Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
@@ -12,6 +12,10 @@ ValleyRegional -> StMarysLynn[label="46.1
 Distance: 1500m Conditions: Blustery, ENE cross wind 10-18 mph. 2V Girls race shortened due to oars slapping in the first 100m, estimated course 1250m. Comments: Novice 8+ exhibition: NBC - 6:48.9, Valley Regional 7:28.3, St. Mary's 8:48.3
 In the Girls' 1V, NBC participated with a finish time of 7:37.6
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9E3AECE30FC3B92FA1BF2E660EEC9D3B&cat=5", random="random"]; 
+MissPorters -> ValleyRegional[label="7.86 (10.25)
+05/18", weight="93", tooltip="NEIRA Girls Fours,Miss Porter's vs. Valley Regional			
+Distance: 1150 Conditions: Slight tail wing 5-10 mph, floating starts Comments: **V1 MPS injury in last 300m DNF, V2 Valley stopped prior to line
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C67720F7036CC6FC1B7730D20BC9168F&cat=1", random="random"]; 
 ValleyRegional -> Middletown[label="15.88
 05/09", weight="85", tooltip="NEIRA Boys & Girls Fours,Valley Regional HS, Middletown HS, Lewis Mills HS			
 Distance: 1500 Conditions: Race down river, but tide was coming in, moderate downstream current. Mild winds out of the East off the port. Comments: Girls V2 Race included Valley GV2 in first, Valley GV3 in second, & Middletown GV2 in third place.

@@ -1,4 +1,4 @@
-digraph girls2foursBBN {NewtonCountryDay [URL="girls2foursBBNNewtonCountryDay.html"];Middlesex [URL="girls2foursBBNMiddlesex.html"];CambridgeRLS [URL="girls2foursBBNCambridgeRLS.html"];Nobles [URL="girls2foursBBNNobles.html"];BBN [URL="girls2foursBBNBBN.html"];Hopkins [URL="girls2foursBBNHopkins.html"];Groton [URL="girls2foursBBNGroton.html"];Winsor [URL="girls2foursBBNWinsor.html"];BBN -> Middlesex[label="9.9
+digraph girls2foursBBN {Groton [URL="girls2foursBBNGroton.html"];Nobles [URL="girls2foursBBNNobles.html"];Brooks [URL="girls2foursBBNBrooks.html"];StMarysLynn [URL="girls2foursBBNStMarysLynn.html"];BBN [URL="girls2foursBBNBBN.html"];Winsor [URL="girls2foursBBNWinsor.html"];Middlesex [URL="girls2foursBBNMiddlesex.html"];CambridgeRLS [URL="girls2foursBBNCambridgeRLS.html"];NewtonCountryDay [URL="girls2foursBBNNewtonCountryDay.html"];Hopkins [URL="girls2foursBBNHopkins.html"];BBN -> Middlesex[label="9.9
 05/06", weight="91", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
 Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
 THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
@@ -43,4 +43,15 @@ BBN -> Hopkins[label="29.9 (33.22)
 04/29", weight="71", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
 The 5th boat race was in 8's with Winsor and BB&N
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D808E65A5EEBFB&cat=1", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D808E65A5EEBFB&cat=1", random="random"]; 
+Brooks -> BBN[label="5.3
+05/20", weight="95", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N			
+Distance: 1500m Conditions: 6-12 mph direct headwind and rain throughout the racing, both varying considerably making comparisons between races difficult. Strongest wind and rain occurred during the 7th boat races at the end of the race day. 
+BB&N G6 was placed into the 7th boat event after equipment failure; in a different shell the boat suffered two crabs in the choppy water during that race. Comments: Thank you to the coaches and athletes of BB&N for braving the elements and getting in a full afternoon of good racing. Looking forward to more racing before the week is out.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=71363DFE769F0D54ECD297CD2C898F94&cat=5", random="random"]; 
+BBN -> StMarysLynn[label="65.27
+05/17", weight="35", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. BB&N, Brewster, Medford, Bancroft, St. Mary's			
+Distance: 1500 Conditions: Sustained 10 mph wind from NNW with significant gusts. Light chop at start line. Moderate to heavy chop at finish line. Comments: In the GV2 event, BB&N GV2 placed first, BB&N GV4 placed second, and BB&N GV3 placed third. 
+In the BV4 event, Brewster's BV3 completed and placed second. 
+Special thanks to John Quinn for refereeing in less-than-ideal conditions.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B08CEFE7F2A798211AD04136F77F4A00&cat=5", random="random"]}

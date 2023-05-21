@@ -1,4 +1,12 @@
-digraph girls3foursChoate {LymeOldLyme [URL="girls3foursChoateLymeOldLyme.html"];Choate [URL="girls3foursChoateChoate.html"];GreenwichAcademy [URL="girls3foursChoateGreenwichAcademy.html"];Nobles [URL="girls3foursChoateNobles.html"];Hopkins [URL="girls3foursChoateHopkins.html"];NMH [URL="girls3foursChoateNMH.html"];Taft [URL="girls3foursChoateTaft.html"];StMarks [URL="girls3foursChoateStMarks.html"];Choate -> Hopkins[label="50.31 (56.74)
+digraph girls3foursChoate {StMarks [URL="girls3foursChoateStMarks.html"];Nobles [URL="girls3foursChoateNobles.html"];MissPorters [URL="girls3foursChoateMissPorters.html"];Hopkins [URL="girls3foursChoateHopkins.html"];NMH [URL="girls3foursChoateNMH.html"];LymeOldLyme [URL="girls3foursChoateLymeOldLyme.html"];Taft [URL="girls3foursChoateTaft.html"];Choate [URL="girls3foursChoateChoate.html"];GreenwichAcademy [URL="girls3foursChoateGreenwichAcademy.html"];Choate -> Taft[label="26.9
+05/20", weight="74", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> MissPorters[label="34.4
+05/20", weight="66", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> Hopkins[label="50.31 (56.74)
 04/12", weight="50", tooltip="NEIRA Boys & Girls Fours,Choate vs. Hopkins			
 Distance: 1330m Conditions: Gusty headwind. Water remained relatively calm, but strong bursts of wind caused boats to struggle with blade control at times leading to several crabs across most races. Comments: B1 race resulted in a dead tie. We could not resolve the result even with video. Again, most races affected by strong gusts of wind.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=97CDDFE6B0BF0E6715FCA59070425D31&cat=5", random="random"]; 

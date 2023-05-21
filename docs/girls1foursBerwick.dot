@@ -1,9 +1,15 @@
-digraph girls1foursBerwick {BrewsterAcademy [URL="girls1foursBerwickBrewsterAcademy.html"];WorcesterAcademy [URL="girls1foursBerwickWorcesterAcademy.html"];Berwick [URL="girls1foursBerwickBerwick.html"];Derryfield [URL="girls1foursBerwickDerryfield.html"];Pingree [URL="girls1foursBerwickPingree.html"];BrewsterAcademy -> Berwick[label="29.6
+digraph girls1foursBerwick {Pingree [URL="girls1foursBerwickPingree.html"];BrewsterAcademy [URL="girls1foursBerwickBrewsterAcademy.html"];StMarysLynn [URL="girls1foursBerwickStMarysLynn.html"];Berwick [URL="girls1foursBerwickBerwick.html"];Derryfield [URL="girls1foursBerwickDerryfield.html"];WorcesterAcademy [URL="girls1foursBerwickWorcesterAcademy.html"];BrewsterAcademy -> Berwick[label="29.6
 04/08", weight="71", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
 Distance: Berwick Conditions: Strong head wind gusts in the first 700 meters of the race creating some chop, but generally clean conditions for early April racing. Slightly increasing wind as races progressed. Comments: Race order was Girls 1V, Boys 2V, Girls 2V*,Boys 3V, & Boys 1V**
 *Please note that the Girls 2V should be considered an exhibition as there were Varsity rowers to fill out the line-ups to give younger rowers the chance to race.
 **Berwick suffered breakage before the race (which could not be mended on the water), so they raced without steering.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1244AED6B039578134601B7558C99C9B&cat=5", random="random"]; 
+StMarysLynn -> Berwick[label="7.3
+05/20", weight="93", tooltip="NEIRA Boys & Girls Fours,Berwick Vs. Saint Mary's School			
+Distance: 1500 Conditions: Slight tail current and tail wind for the first 3 races as the tide came in. Slack tide for the mixed racing with similar tail wind throughout all racing. Comments: Racing order was Boys 1V, Girls 1V, Boys 2V, and then Mixed Boats. 
+Included in Boys 2V was was also Berwick's 3V, 4V, & 5V.
+Thank you St. Mary's for making the trip to Maine!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=989A2DBFA7A1EFF7C04A5E733B92D721&cat=5", random="random"]; 
 BrewsterAcademy -> Berwick[label="15.02
 04/15", weight="85", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
 Conditions: Light headwind
@@ -14,9 +20,9 @@ Conditions: Light headwind
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]; 
 Derryfield -> Berwick[label="22.2
 04/29", weight="78", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
-Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul CarabilloÂ for refereeing the race, especially given the weather.
+Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]; 
 Berwick -> WorcesterAcademy[label="15.4
 04/29", weight="85", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
-Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul CarabilloÂ for refereeing the race, especially given the weather.
+Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]}

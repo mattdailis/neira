@@ -1,4 +1,4 @@
-digraph girls2foursStMarks {Brooks [URL="girls2foursStMarksBrooks.html"];NewtonCountryDay [URL="girls2foursStMarksNewtonCountryDay.html"];BrewsterAcademy [URL="girls2foursStMarksBrewsterAcademy.html"];MarianapolisPrep [URL="girls2foursStMarksMarianapolisPrep.html"];Pomfret [URL="girls2foursStMarksPomfret.html"];Middlesex [URL="girls2foursStMarksMiddlesex.html"];MissPorters [URL="girls2foursStMarksMissPorters.html"];Choate [URL="girls2foursStMarksChoate.html"];Nobles [URL="girls2foursStMarksNobles.html"];StMarks [URL="girls2foursStMarksStMarks.html"];NMH [URL="girls2foursStMarksNMH.html"];Taft [URL="girls2foursStMarksTaft.html"];GunnSchool [URL="girls2foursStMarksGunnSchool.html"];Winsor [URL="girls2foursStMarksWinsor.html"];Brooks -> StMarks[label="13.0
+digraph girls2foursStMarks {Groton [URL="girls2foursStMarksGroton.html"];Nobles [URL="girls2foursStMarksNobles.html"];GunnSchool [URL="girls2foursStMarksGunnSchool.html"];Brooks [URL="girls2foursStMarksBrooks.html"];MarianapolisPrep [URL="girls2foursStMarksMarianapolisPrep.html"];NMH [URL="girls2foursStMarksNMH.html"];MissPorters [URL="girls2foursStMarksMissPorters.html"];Pomfret [URL="girls2foursStMarksPomfret.html"];NewtonCountryDay [URL="girls2foursStMarksNewtonCountryDay.html"];Taft [URL="girls2foursStMarksTaft.html"];BrewsterAcademy [URL="girls2foursStMarksBrewsterAcademy.html"];Middlesex [URL="girls2foursStMarksMiddlesex.html"];StMarks [URL="girls2foursStMarksStMarks.html"];Winsor [URL="girls2foursStMarksWinsor.html"];Choate [URL="girls2foursStMarksChoate.html"];Brooks -> StMarks[label="13.0
 04/22", weight="87", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -10,6 +10,13 @@ MarianapolisPrep -> StMarks[label="13.0
 05/10", weight="87", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, St. Mark's, and Marianapolis			
 Distance: 1500 Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F473318C04D652F4CA3FD3866C15D6C5&cat=5", random="random"]; 
+Groton -> StMarks[label="13.4 (16.08)
+05/20", weight="87", tooltip="NEIRA Boys & Girls Fours,Cooke Family Cup			
+Distance: 1250m Conditions: As the rain intensified throughout the day, the river gained current. The order of races was G1,B1, G2, B2, G3, B3, G4, B4. Towards the end there was noticeably more current with the crews. Comments: Monsoon conditions after the first boat races. It really rained! A couple of races had crashes at the start and had to be re-started. 3rd boat boys started a length over the line.
+Thank you for the racing ST. Mark's!
+Another great day of racing on the mighty Nashua!
+Groton wins the Cooke Family Cup by winning 7 of the 8 races.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C6A098FB0E6D4DB0D2F142C9E75015A4&cat=5", random="random"]; 
 Choate -> StMarks[label="29.0
 04/15", weight="71", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo

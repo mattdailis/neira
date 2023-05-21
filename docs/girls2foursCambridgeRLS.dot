@@ -1,4 +1,4 @@
-digraph girls2foursCambridgeRLS {Brooks [URL="girls2foursCambridgeRLSBrooks.html"];CambridgeRLS [URL="girls2foursCambridgeRLSCambridgeRLS.html"];BBN [URL="girls2foursCambridgeRLSBBN.html"];NMH [URL="girls2foursCambridgeRLSNMH.html"];Winsor [URL="girls2foursCambridgeRLSWinsor.html"];Brooks -> CambridgeRLS[label="30.0 (36.0)
+digraph girls2foursCambridgeRLS {Brooks [URL="girls2foursCambridgeRLSBrooks.html"];NMH [URL="girls2foursCambridgeRLSNMH.html"];BBN [URL="girls2foursCambridgeRLSBBN.html"];Winsor [URL="girls2foursCambridgeRLSWinsor.html"];CambridgeRLS [URL="girls2foursCambridgeRLSCambridgeRLS.html"];Brooks -> CambridgeRLS[label="30.0 (36.0)
 04/29", weight="70", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 

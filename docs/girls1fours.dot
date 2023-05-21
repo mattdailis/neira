@@ -1,4 +1,64 @@
-digraph girls1fours {MarianapolisPrep [URL="girls1foursMarianapolisPrep.html"];ValleyRegional [URL="girls1foursValleyRegional.html"];BBN [URL="girls1foursBBN.html"];StMarysLynn [URL="girls1foursStMarysLynn.html"];Pingree [URL="girls1foursPingree.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDay.html"];LymeOldLyme [URL="girls1foursLymeOldLyme.html"];Pomfret [URL="girls1foursPomfret.html"];MissPorters [URL="girls1foursMissPorters.html"];BerkshireAcademy [URL="girls1foursBerkshireAcademy.html"];DexterSouthfield [URL="girls1foursDexterSouthfield.html"];Nobles [URL="girls1foursNobles.html"];Canterbury [URL="girls1foursCanterbury.html"];Bancroft [URL="girls1foursBancroft.html"];Groton [URL="girls1foursGroton.html"];Derryfield [URL="girls1foursDerryfield.html"];Winsor [URL="girls1foursWinsor.html"];Middlesex [URL="girls1foursMiddlesex.html"];VermontAcademy [URL="girls1foursVermontAcademy.html"];Choate [URL="girls1foursChoate.html"];GreenwichAcademy [URL="girls1foursGreenwichAcademy.html"];Hopkins [URL="girls1foursHopkins.html"];StMarks [URL="girls1foursStMarks.html"];Taft [URL="girls1foursTaft.html"];GunnSchool [URL="girls1foursGunnSchool.html"];Forman [URL="girls1foursForman.html"];Brooks [URL="girls1foursBrooks.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademy.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];CambridgeRLS [URL="girls1foursCambridgeRLS.html"];Thayer [URL="girls1foursThayer.html"];Berwick [URL="girls1foursBerwick.html"];NMH [URL="girls1foursNMH.html"];Middletown [URL="girls1foursMiddletown.html"];Lincoln [URL="girls1foursLincoln.html"];LymeOldLyme -> ValleyRegional[label="27.6
+digraph girls1fours {Lincoln [URL="girls1foursLincoln.html"];Nobles [URL="girls1foursNobles.html"];Brooks [URL="girls1foursBrooks.html"];Canterbury [URL="girls1foursCanterbury.html"];Forman [URL="girls1foursForman.html"];LymeOldLyme [URL="girls1foursLymeOldLyme.html"];Taft [URL="girls1foursTaft.html"];Choate [URL="girls1foursChoate.html"];MissPorters [URL="girls1foursMissPorters.html"];MarianapolisPrep [URL="girls1foursMarianapolisPrep.html"];NMH [URL="girls1foursNMH.html"];DexterSouthfield [URL="girls1foursDexterSouthfield.html"];StMarysLynn [URL="girls1foursStMarysLynn.html"];Derryfield [URL="girls1foursDerryfield.html"];CambridgeRLS [URL="girls1foursCambridgeRLS.html"];Winsor [URL="girls1foursWinsor.html"];VermontAcademy [URL="girls1foursVermontAcademy.html"];Bancroft [URL="girls1foursBancroft.html"];Hopkins [URL="girls1foursHopkins.html"];BerkshireAcademy [URL="girls1foursBerkshireAcademy.html"];GunnSchool [URL="girls1foursGunnSchool.html"];ValleyRegional [URL="girls1foursValleyRegional.html"];BBN [URL="girls1foursBBN.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDay.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];Pingree [URL="girls1foursPingree.html"];Groton [URL="girls1foursGroton.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademy.html"];Pomfret [URL="girls1foursPomfret.html"];Thayer [URL="girls1foursThayer.html"];Berwick [URL="girls1foursBerwick.html"];Middletown [URL="girls1foursMiddletown.html"];Middlesex [URL="girls1foursMiddlesex.html"];StMarks [URL="girls1foursStMarks.html"];GreenwichAcademy [URL="girls1foursGreenwichAcademy.html"];Choate -> Taft[label="1.2
+05/20", weight="99", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> GreenwichAcademy[label="8.3
+05/20", weight="92", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> BerkshireAcademy[label="14.6
+05/20", weight="86", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> GunnSchool[label="18.0
+05/20", weight="82", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> MissPorters[label="41.4
+05/20", weight="59", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Taft -> GreenwichAcademy[label="7.1
+05/20", weight="93", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Taft -> BerkshireAcademy[label="13.4
+05/20", weight="87", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Taft -> GunnSchool[label="16.8
+05/20", weight="84", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Taft -> MissPorters[label="40.2
+05/20", weight="60", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+GreenwichAcademy -> BerkshireAcademy[label="6.3
+05/20", weight="94", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+GreenwichAcademy -> GunnSchool[label="9.7
+05/20", weight="91", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+GreenwichAcademy -> MissPorters[label="33.1
+05/20", weight="67", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+BerkshireAcademy -> GunnSchool[label="3.4
+05/20", weight="97", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+BerkshireAcademy -> MissPorters[label="26.8
+05/20", weight="74", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+GunnSchool -> MissPorters[label="23.4
+05/20", weight="77", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+LymeOldLyme -> ValleyRegional[label="27.6
 04/26", weight="73", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme vs Valley Regional			
 Distance: 1500 Conditions: Direct headwind throughout 6-8MPH, otherwise a beautiful sunny day! Comments: Lyme/Old Lyme would like to thank Valley Regional for coming out and racing with us. We look forward to racing again this season!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=582C1F5825C73152DB6BED1A1FFD87B1&cat=5", random="random"]; 
@@ -66,6 +126,10 @@ Groton -> Pomfret[label="64.9
 04/29", weight="36", tooltip="NEIRA Girls Fours,Pomfret vs. Groton, Taft			
 Distance: 1500m Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with boys. Order of girls races: G5, G4, G3, G2, G1. Pomfret's 3rd boat raced in the 5th boat race against Taft's 5th boat.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7D7FC627D5ED48EFA19D099D502CC4FA&cat=1", random="random"]; 
+ValleyRegional -> MissPorters[label="_
+05/18", weight="99", tooltip="NEIRA Girls Fours,Miss Porter's vs. Valley Regional			
+Distance: 1150 Conditions: Slight tail wing 5-10 mph, floating starts Comments: **V1 MPS injury in last 300m DNF, V2 Valley stopped prior to line
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C67720F7036CC6FC1B7730D20BC9168F&cat=1", random="random"]; 
 CambridgeRLS -> Thayer[label="13.0 (15.0)
 05/13", weight="87", tooltip="NEIRA Boys & Girls Fours,NEIRA Cambridge Rindge and Latin vs Thayer Boys and Girls, Belmont Hill 9V			
 Distance: 1300 Conditions: Cross-tailwind consistent for all races Comments: Thanks to Thayer for making it to Cambridge at the last minute and to Belmont Hill 9V for joining in on some fun racing.
@@ -86,6 +150,13 @@ ValleyRegional -> Middletown[label="9.49
 05/09", weight="91", tooltip="NEIRA Boys & Girls Fours,Valley Regional HS, Middletown HS, Lewis Mills HS			
 Distance: 1500 Conditions: Race down river, but tide was coming in, moderate downstream current. Mild winds out of the East off the port. Comments: Girls V2 Race included Valley GV2 in first, Valley GV3 in second, & Middletown GV2 in third place.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=CF4015A23DE5B075A8FBE1F373D74603&cat=5", random="random"]; 
+Groton -> StMarks[label="12.2 (14.64)
+05/20", weight="88", tooltip="NEIRA Boys & Girls Fours,Cooke Family Cup			
+Distance: 1250m Conditions: As the rain intensified throughout the day, the river gained current. The order of races was G1,B1, G2, B2, G3, B3, G4, B4. Towards the end there was noticeably more current with the crews. Comments: Monsoon conditions after the first boat races. It really rained! A couple of races had crashes at the start and had to be re-started. 3rd boat boys started a length over the line.
+Thank you for the racing ST. Mark's!
+Another great day of racing on the mighty Nashua!
+Groton wins the Cooke Family Cup by winning 7 of the 8 races.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C6A098FB0E6D4DB0D2F142C9E75015A4&cat=5", random="random"]; 
 StMarysLynn -> WorcesterAcademy[label="12.8
 04/26", weight="88", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
 Distance: 1500 meters Conditions: Minimal wind, no chop.
@@ -98,6 +169,12 @@ WorcesterAcademy -> Thayer[label="23.2
 04/26", weight="77", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
 Distance: 1500 meters Conditions: Minimal wind, no chop.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=38305821F0E11F6B4B5BC132E9B3DE79&cat=5", random="random"]; 
+StMarysLynn -> Berwick[label="7.3
+05/20", weight="93", tooltip="NEIRA Boys & Girls Fours,Berwick Vs. Saint Mary's School			
+Distance: 1500 Conditions: Slight tail current and tail wind for the first 3 races as the tide came in. Slack tide for the mixed racing with similar tail wind throughout all racing. Comments: Racing order was Boys 1V, Girls 1V, Boys 2V, and then Mixed Boats. 
+Included in Boys 2V was was also Berwick's 3V, 4V, & 5V.
+Thank you St. Mary's for making the trip to Maine!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=989A2DBFA7A1EFF7C04A5E733B92D721&cat=5", random="random"]; 
 NMH -> Brooks[label="3.0 (3.6)
 04/29", weight="97", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
@@ -207,15 +284,15 @@ Hopkins -> GunnSchool[label="18.4
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 Derryfield -> Berwick[label="22.2
 04/29", weight="78", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
-Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul CarabilloÂ for refereeing the race, especially given the weather.
+Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]; 
 Derryfield -> WorcesterAcademy[label="37.6
 04/29", weight="63", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
-Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul CarabilloÂ for refereeing the race, especially given the weather.
+Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]; 
 Berwick -> WorcesterAcademy[label="15.4
 04/29", weight="85", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
-Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul CarabilloÂ for refereeing the race, especially given the weather.
+Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]; 
 NMH -> Choate[label="2.7
 04/15", weight="98", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
@@ -523,10 +600,55 @@ LymeOldLyme -> Middletown[label="28.34
 05/11", weight="72", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Middletown v East Lyme			
 Distance: 1500 Conditions: The wind was 6 to 9 knots dropping slightly towards the end of the day as a cross headwind. The girls first and second boats both started two length past the starting line. The crosswind at the start was quite challenging and caused a number of issues trying to get off the line cleanly in the girls races. In the 3rd boat race East Lymes steering boke pulling them from the race Comments: Lyme/Old Lyme would like to thank Middletown and east Lyme for coming out and racing. We look forward to see you all on the water again!!
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9C698035EC81E2CFFF01DA234C5F298E&cat=5", random="random"]; 
+NewtonCountryDay -> Lincoln[label="31.6 (33.86)
+05/20", weight="69", tooltip="NEIRA Girls Fours,NCDS vs Lincoln			
+Distance: 1400 Conditions: G1 - slight tailwind, flat conditions; G3/4 - flat; G2 delayed over an hour, flat conditions, very light tailwind. Comments: Thanks Lincoln for a great morning of racing!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9EB0D31D1AC22F9389EFE22DE95FB172&cat=1", random="random"]; 
 Winsor -> NewtonCountryDay[label="20.6 (22.07)
 04/22", weight="80", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
 Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]; 
+Brooks -> BBN[label="13.1
+05/20", weight="87", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N			
+Distance: 1500m Conditions: 6-12 mph direct headwind and rain throughout the racing, both varying considerably making comparisons between races difficult. Strongest wind and rain occurred during the 7th boat races at the end of the race day. 
+BB&N G6 was placed into the 7th boat event after equipment failure; in a different shell the boat suffered two crabs in the choppy water during that race. Comments: Thank you to the coaches and athletes of BB&N for braving the elements and getting in a full afternoon of good racing. Looking forward to more racing before the week is out.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=71363DFE769F0D54ECD297CD2C898F94&cat=5", random="random"]; 
+BBN -> BrewsterAcademy[label="18.66
+05/17", weight="82", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. BB&N, Brewster, Medford, Bancroft, St. Mary's			
+Distance: 1500 Conditions: Sustained 10 mph wind from NNW with significant gusts. Light chop at start line. Moderate to heavy chop at finish line. Comments: In the GV2 event, BB&N GV2 placed first, BB&N GV4 placed second, and BB&N GV3 placed third. 
+In the BV4 event, Brewster's BV3 completed and placed second. 
+Special thanks to John Quinn for refereeing in less-than-ideal conditions.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B08CEFE7F2A798211AD04136F77F4A00&cat=5", random="random"]; 
+BBN -> StMarysLynn[label="50.43
+05/17", weight="50", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. BB&N, Brewster, Medford, Bancroft, St. Mary's			
+Distance: 1500 Conditions: Sustained 10 mph wind from NNW with significant gusts. Light chop at start line. Moderate to heavy chop at finish line. Comments: In the GV2 event, BB&N GV2 placed first, BB&N GV4 placed second, and BB&N GV3 placed third. 
+In the BV4 event, Brewster's BV3 completed and placed second. 
+Special thanks to John Quinn for refereeing in less-than-ideal conditions.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B08CEFE7F2A798211AD04136F77F4A00&cat=5", random="random"]; 
+BBN -> WorcesterAcademy[label="60.56
+05/17", weight="40", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. BB&N, Brewster, Medford, Bancroft, St. Mary's			
+Distance: 1500 Conditions: Sustained 10 mph wind from NNW with significant gusts. Light chop at start line. Moderate to heavy chop at finish line. Comments: In the GV2 event, BB&N GV2 placed first, BB&N GV4 placed second, and BB&N GV3 placed third. 
+In the BV4 event, Brewster's BV3 completed and placed second. 
+Special thanks to John Quinn for refereeing in less-than-ideal conditions.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B08CEFE7F2A798211AD04136F77F4A00&cat=5", random="random"]; 
+BrewsterAcademy -> StMarysLynn[label="31.77
+05/17", weight="69", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. BB&N, Brewster, Medford, Bancroft, St. Mary's			
+Distance: 1500 Conditions: Sustained 10 mph wind from NNW with significant gusts. Light chop at start line. Moderate to heavy chop at finish line. Comments: In the GV2 event, BB&N GV2 placed first, BB&N GV4 placed second, and BB&N GV3 placed third. 
+In the BV4 event, Brewster's BV3 completed and placed second. 
+Special thanks to John Quinn for refereeing in less-than-ideal conditions.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B08CEFE7F2A798211AD04136F77F4A00&cat=5", random="random"]; 
+BrewsterAcademy -> WorcesterAcademy[label="41.9
+05/17", weight="59", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. BB&N, Brewster, Medford, Bancroft, St. Mary's			
+Distance: 1500 Conditions: Sustained 10 mph wind from NNW with significant gusts. Light chop at start line. Moderate to heavy chop at finish line. Comments: In the GV2 event, BB&N GV2 placed first, BB&N GV4 placed second, and BB&N GV3 placed third. 
+In the BV4 event, Brewster's BV3 completed and placed second. 
+Special thanks to John Quinn for refereeing in less-than-ideal conditions.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B08CEFE7F2A798211AD04136F77F4A00&cat=5", random="random"]; 
+StMarysLynn -> WorcesterAcademy[label="10.13
+05/17", weight="90", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. BB&N, Brewster, Medford, Bancroft, St. Mary's			
+Distance: 1500 Conditions: Sustained 10 mph wind from NNW with significant gusts. Light chop at start line. Moderate to heavy chop at finish line. Comments: In the GV2 event, BB&N GV2 placed first, BB&N GV4 placed second, and BB&N GV3 placed third. 
+In the BV4 event, Brewster's BV3 completed and placed second. 
+Special thanks to John Quinn for refereeing in less-than-ideal conditions.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B08CEFE7F2A798211AD04136F77F4A00&cat=5", random="random"]; 
 NMH -> Nobles[label="2.0
 05/13", weight="98", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon vs Nobles and Choate			
 Distance: 1400 m (upriver) Conditions: light current, moderate headwind that lessened for the later races Comments: Race order: B4/G4/B3/G3/B2/G2/B1/G1/B5/G5/G8s/G6/B8s;
@@ -548,6 +670,11 @@ Notes: the third and fourth boat races had stronger headwinds and were disrupted
 Girls 8s: 1. Choate 7/8 6:46 2. Nobles 8/9 7:36 
 Boys 8s: 1. Nobles 6/7 5:20.6 2. Nobles 8/9 5:46.6
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&cat=5", random="random"]; 
+Nobles -> Brooks[label="28.0 (38.18)
+05/17", weight="72", tooltip="NEIRA Boys & Girls Fours,Brooks JV vs. Nobles JV			
+Distance: 1100m Conditions: Strong and variable tailwind, decreasing slightly over the afternoon. Comments: Order of racing was B7, G8, G7, B5, G6, B6, G5. These are JV boats, so First Boat is really 5th boat, Second Boat is 6th boat, and so on. 
+Thanks to Brooks for making the trip!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5E4975AA80238F6874E0952D6E4A581B&cat=5", random="random"]; 
 MarianapolisPrep -> BerkshireAcademy[label="16.7
 04/26", weight="84", tooltip="NEIRA Girls Fours,Pomfret vs. Marianapolis, Berkshire			
 Distance: 1500m Conditions: No current. Slight crossing tailwind to begin (ESE ~6 to 8 MPH) that increased in speed and became more of a solid (S ~10-12 MPH) tail by the last race. Comments: Order of races: G1, G2. There were some boys races between the races. Pomfret's 3rd boat raced in the 2nd boat category. Marianapolis's second boat caught a boat stopping crab just after the 250m mark.

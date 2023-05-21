@@ -1,4 +1,4 @@
-digraph girls1foursBrewsterAcademy {NewtonCountryDay [URL="girls1foursBrewsterAcademyNewtonCountryDay.html"];LymeOldLyme [URL="girls1foursBrewsterAcademyLymeOldLyme.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademyBrewsterAcademy.html"];Pomfret [URL="girls1foursBrewsterAcademyPomfret.html"];BerkshireAcademy [URL="girls1foursBrewsterAcademyBerkshireAcademy.html"];Nobles [URL="girls1foursBrewsterAcademyNobles.html"];Canterbury [URL="girls1foursBrewsterAcademyCanterbury.html"];Berwick [URL="girls1foursBrewsterAcademyBerwick.html"];StMarks [URL="girls1foursBrewsterAcademyStMarks.html"];Pingree [URL="girls1foursBrewsterAcademyPingree.html"];BrewsterAcademy -> Berwick[label="29.6
+digraph girls1foursBrewsterAcademy {Pingree [URL="girls1foursBrewsterAcademyPingree.html"];BerkshireAcademy [URL="girls1foursBrewsterAcademyBerkshireAcademy.html"];Nobles [URL="girls1foursBrewsterAcademyNobles.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademyBrewsterAcademy.html"];Pomfret [URL="girls1foursBrewsterAcademyPomfret.html"];Canterbury [URL="girls1foursBrewsterAcademyCanterbury.html"];Berwick [URL="girls1foursBrewsterAcademyBerwick.html"];StMarysLynn [URL="girls1foursBrewsterAcademyStMarysLynn.html"];NewtonCountryDay [URL="girls1foursBrewsterAcademyNewtonCountryDay.html"];LymeOldLyme [URL="girls1foursBrewsterAcademyLymeOldLyme.html"];BBN [URL="girls1foursBrewsterAcademyBBN.html"];StMarks [URL="girls1foursBrewsterAcademyStMarks.html"];WorcesterAcademy [URL="girls1foursBrewsterAcademyWorcesterAcademy.html"];BrewsterAcademy -> Berwick[label="29.6
 04/08", weight="71", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
 Distance: Berwick Conditions: Strong head wind gusts in the first 700 meters of the race creating some chop, but generally clean conditions for early April racing. Slightly increasing wind as races progressed. Comments: Race order was Girls 1V, Boys 2V, Girls 2V*,Boys 3V, & Boys 1V**
 *Please note that the Girls 2V should be considered an exhibition as there were Varsity rowers to fill out the line-ups to give younger rowers the chance to race.
@@ -24,6 +24,24 @@ NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake
 BrewsterAcademy -> Pomfret[label="46.2
 05/07", weight="54", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
+BBN -> BrewsterAcademy[label="18.66
+05/17", weight="82", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. BB&N, Brewster, Medford, Bancroft, St. Mary's			
+Distance: 1500 Conditions: Sustained 10 mph wind from NNW with significant gusts. Light chop at start line. Moderate to heavy chop at finish line. Comments: In the GV2 event, BB&N GV2 placed first, BB&N GV4 placed second, and BB&N GV3 placed third. 
+In the BV4 event, Brewster's BV3 completed and placed second. 
+Special thanks to John Quinn for refereeing in less-than-ideal conditions.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B08CEFE7F2A798211AD04136F77F4A00&cat=5", random="random"]; 
+BrewsterAcademy -> StMarysLynn[label="31.77
+05/17", weight="69", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. BB&N, Brewster, Medford, Bancroft, St. Mary's			
+Distance: 1500 Conditions: Sustained 10 mph wind from NNW with significant gusts. Light chop at start line. Moderate to heavy chop at finish line. Comments: In the GV2 event, BB&N GV2 placed first, BB&N GV4 placed second, and BB&N GV3 placed third. 
+In the BV4 event, Brewster's BV3 completed and placed second. 
+Special thanks to John Quinn for refereeing in less-than-ideal conditions.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B08CEFE7F2A798211AD04136F77F4A00&cat=5", random="random"]; 
+BrewsterAcademy -> WorcesterAcademy[label="41.9
+05/17", weight="59", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. BB&N, Brewster, Medford, Bancroft, St. Mary's			
+Distance: 1500 Conditions: Sustained 10 mph wind from NNW with significant gusts. Light chop at start line. Moderate to heavy chop at finish line. Comments: In the GV2 event, BB&N GV2 placed first, BB&N GV4 placed second, and BB&N GV3 placed third. 
+In the BV4 event, Brewster's BV3 completed and placed second. 
+Special thanks to John Quinn for refereeing in less-than-ideal conditions.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B08CEFE7F2A798211AD04136F77F4A00&cat=5", random="random"]; 
 Nobles -> BrewsterAcademy[label="30.1
 04/29", weight="70", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
 Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.

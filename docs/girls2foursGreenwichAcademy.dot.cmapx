@@ -1,59 +1,86 @@
 <map id="girls2foursGreenwichAcademy" name="girls2foursGreenwichAcademy">
-<area shape="poly" id="node1" href="girls2foursGreenwichAcademyLymeOldLyme.html" title="LymeOldLyme" alt="" coords="180,165,176,158,164,151,144,146,120,143,93,141,66,143,41,146,22,151,10,158,5,165,10,173,22,179,41,185,66,188,93,189,120,188,144,185,164,179,176,173"/>
-<area shape="poly" id="node2" href="girls2foursGreenwichAcademyPomfret.html" title="Pomfret" alt="" coords="310,165,307,158,300,151,288,146,273,143,257,141,241,143,226,146,214,151,207,158,204,165,207,173,214,179,226,185,241,188,257,189,273,188,288,185,300,179,307,173"/>
-<area shape="poly" id="node3" href="girls2foursGreenwichAcademyValleyRegional.html" title="ValleyRegional" alt="" coords="508,165,503,158,491,151,472,146,448,143,421,141,394,143,370,146,351,151,338,158,334,165,338,173,351,179,370,185,394,188,421,189,448,188,472,185,491,179,503,173"/>
-<area shape="poly" id="node4" href="girls2foursGreenwichAcademyBerkshireAcademy.html" title="BerkshireAcademy" alt="" coords="743,165,737,158,722,151,699,146,670,143,637,141,604,143,575,146,551,151,536,158,531,165,536,173,551,179,575,185,604,188,637,189,670,188,699,185,722,179,737,173"/>
-<area shape="poly" id="node5" href="girls2foursGreenwichAcademyGreenwichAcademy.html" title="GreenwichAcademy" alt="" coords="820,29,814,22,799,15,774,10,743,7,709,5,675,7,644,10,619,15,603,22,598,29,603,37,619,43,644,49,675,52,709,53,743,52,774,49,799,43,814,37"/>
-<area shape="poly" id="edge5" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="NEIRA Girls Fours,Taft, Greenwich Academy, Valley, Lyme&#45;Old Lyme, Canterbury			
+<area shape="poly" id="node1" href="girls2foursGreenwichAcademyBerkshireAcademy.html" title="BerkshireAcademy" alt="" coords="312,301,307,294,292,287,269,282,239,279,207,277,174,279,145,282,121,287,106,294,101,301,106,309,121,315,145,321,174,324,207,325,239,324,269,321,292,315,307,309"/>
+<area shape="poly" id="node2" href="girls2foursGreenwichAcademyGunnSchool.html" title="GunnSchool" alt="" coords="482,301,479,294,468,287,452,282,432,279,409,277,387,279,367,282,350,287,340,294,337,301,340,309,350,315,367,321,387,324,409,325,432,324,452,321,468,315,479,309"/>
+<area shape="poly" id="node3" href="girls2foursGreenwichAcademyMissPorters.html" title="MissPorters" alt="" coords="648,301,645,294,635,287,619,282,599,279,577,277,555,279,536,282,520,287,510,294,506,301,510,309,520,315,536,321,555,324,577,325,599,324,619,321,635,315,645,309"/>
+<area shape="poly" id="node4" href="girls2foursGreenwichAcademyPomfret.html" title="Pomfret" alt="" coords="778,301,776,294,768,287,756,282,742,279,725,277,709,279,694,282,683,287,675,294,672,301,675,309,683,315,694,321,709,324,725,325,742,324,756,321,768,315,776,309"/>
+<area shape="poly" id="node5" href="girls2foursGreenwichAcademyHopkins.html" title="Hopkins" alt="" coords="910,301,907,294,899,287,888,282,873,279,856,277,839,279,824,282,813,287,805,294,802,301,805,309,813,315,824,321,839,324,856,325,873,324,888,321,899,315,907,309"/>
+<area shape="poly" id="node6" href="girls2foursGreenwichAcademyValleyRegional.html" title="ValleyRegional" alt="" coords="1107,301,1102,294,1090,287,1071,282,1047,279,1020,277,993,279,969,282,950,287,938,294,933,301,938,309,950,315,969,321,993,324,1020,325,1047,324,1071,321,1090,315,1102,309"/>
+<area shape="poly" id="node7" href="girls2foursGreenwichAcademyLymeOldLyme.html" title="LymeOldLyme" alt="" coords="1306,301,1302,294,1289,287,1270,282,1246,279,1219,277,1192,279,1167,282,1148,287,1135,294,1131,301,1135,309,1148,315,1167,321,1192,324,1219,325,1246,324,1270,321,1289,315,1302,309"/>
+<area shape="poly" id="node8" href="girls2foursGreenwichAcademyTaft.html" title="Taft" alt="" coords="77,301,76,294,70,287,62,282,52,279,41,277,30,279,20,282,12,287,7,294,5,301,7,309,12,315,20,321,30,324,41,325,52,324,62,321,70,315,76,309"/>
+<area shape="poly" id="node10" href="girls2foursGreenwichAcademyGreenwichAcademy.html" title="GreenwichAcademy" alt="" coords="592,165,587,158,571,151,547,146,516,143,481,141,447,143,416,146,392,151,376,158,370,165,376,173,392,179,416,185,447,188,481,189,516,188,547,185,571,179,587,173"/>
+<area shape="poly" id="edge2" href="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter&#39;s, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None" alt="" coords="60,279,105,238,139,211,179,198,235,188,362,173,363,178,235,193,180,204,141,216,109,242,63,283"/>
+<area shape="rect" id="edge2-label" href="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&amp;cat=5" title="4.0
+05/20" alt="" coords="140,213,181,253"/>
+<area shape="poly" id="node9" href="girls2foursGreenwichAcademyChoate.html" title="Choate" alt="" coords="529,29,527,22,520,15,509,10,496,7,481,5,467,7,453,10,443,15,436,22,434,29,436,37,443,43,453,49,467,52,481,53,496,52,509,49,520,43,527,37"/>
+<area shape="poly" id="edge1" href="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter&#39;s, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None" alt="" coords="484,54,484,127,479,127,479,54"/>
+<area shape="rect" id="edge1-label" href="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&amp;cat=5" title="10.3
+05/20" alt="" coords="481,77,523,117"/>
+<area shape="poly" id="edge5" href="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter&#39;s, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None" alt="" coords="372,173,318,178,266,186,223,198,197,215,191,225,189,237,192,263,187,264,183,237,186,224,193,211,221,194,265,181,317,173,372,168"/>
+<area shape="rect" id="edge5-label" href="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&amp;cat=5" title="62.5
+05/20" alt="" coords="195,213,236,253"/>
+<area shape="poly" id="edge8" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="Founder&#39;s Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches." alt="" coords="377,176,320,190,293,201,268,215,231,267,227,263,265,211,291,197,319,185,376,171"/>
+<area shape="rect" id="edge8-label" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="67.9
+05/07" alt="" coords="267,213,308,253"/>
+<area shape="poly" id="edge13" href="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
+Distance: 1500 M Conditions: Sunny, warm, breezy. 10&#45;12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn&#39;s for handling the wind at the starting line efficiently.
+None" alt="" coords="419,188,357,216,334,235,310,256,272,276,269,271,306,251,330,231,355,211,417,183"/>
+<area shape="rect" id="edge13-label" href="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&amp;cat=5" title="42.08
+05/13" alt="" coords="356,213,397,253"/>
+<area shape="poly" id="edge4" href="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter&#39;s, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None" alt="" coords="437,190,423,201,413,215,406,238,405,262,400,262,400,237,408,212,420,197,434,186"/>
+<area shape="rect" id="edge4-label" href="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&amp;cat=5" title="30.7
+05/20" alt="" coords="411,213,452,253"/>
+<area shape="poly" id="edge6" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="Founder&#39;s Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches." alt="" coords="479,191,469,222,454,255,444,269,440,266,450,252,464,220,474,189"/>
+<area shape="rect" id="edge6-label" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="34.1
+05/07" alt="" coords="469,213,511,253"/>
+<area shape="poly" id="edge3" href="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter&#39;s, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None" alt="" coords="501,188,518,212,555,264,551,267,514,215,496,191"/>
+<area shape="rect" id="edge3-label" href="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&amp;cat=5" title="17.7
+05/20" alt="" coords="544,213,585,253"/>
+<area shape="poly" id="edge7" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="Founder&#39;s Day			
+NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches." alt="" coords="535,185,592,211,687,270,685,274,589,216,533,189"/>
+<area shape="rect" id="edge7-label" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="61.7
+05/07" alt="" coords="656,213,697,253"/>
+<area shape="poly" id="edge12" href="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
+Distance: 1500 M Conditions: Sunny, warm, breezy. 10&#45;12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn&#39;s for handling the wind at the starting line efficiently.
+None" alt="" coords="573,177,638,191,704,211,764,239,817,270,815,275,762,244,702,216,637,196,572,182"/>
+<area shape="rect" id="edge12-label" href="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&amp;cat=5" title="22.1
+05/13" alt="" coords="781,213,823,253"/>
+<area shape="poly" id="edge11" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="NEIRA Girls Fours,Taft, Greenwich Academy, Valley, Lyme&#45;Old Lyme, Canterbury			
 Distance: 1500m Conditions: Order of racing: G2, G3/G4 (raced together). 8mph crosswind for the G2 race; 10&#45;12 mph for the G3/G4 race; shifting around to a cross tail wind for the final 350 meters or so in both races. Comments: The G3/G4 race needed three tries to get a clean race going. Good work by novice coxswains to get their boats aligned in a crosswind. During the race, the GA 3V caught a boat&#45;stopping crab with 350 meters left; they were leading all boats until that point in the race. 
 The G1 race was canceled at the starting line because of lightning. 
 Thank you to all the coaches, coxswains, and rowers for getting twelve shells off the water in record time.
-None" alt="" coords="597,34,522,38,438,46,350,59,264,80,198,106,140,137,137,133,196,101,263,75,349,54,437,41,522,32,597,28"/>
-<area shape="rect" id="edge5-label" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="35.9
-04/15" alt="" coords="264,77,305,117"/>
-<area shape="poly" id="edge2" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="Founder&#39;s Day			
-NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches." alt="" coords="598,35,488,48,430,61,375,80,329,105,291,136,287,131,326,101,373,75,429,56,487,43,598,30"/>
-<area shape="rect" id="edge2-label" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="61.7
-05/07" alt="" coords="374,77,416,117"/>
-<area shape="poly" id="edge6" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="NEIRA Girls Fours,Taft, Greenwich Academy, Valley, Lyme&#45;Old Lyme, Canterbury			
-Distance: 1500m Conditions: Order of racing: G2, G3/G4 (raced together). 8mph crosswind for the G2 race; 10&#45;12 mph for the G3/G4 race; shifting around to a cross tail wind for the final 350 meters or so in both races. Comments: The G3/G4 race needed three tries to get a clean race going. Good work by novice coxswains to get their boats aligned in a crosswind. During the race, the GA 3V caught a boat&#45;stopping crab with 350 meters left; they were leading all boats until that point in the race. 
-The G1 race was canceled at the starting line because of lightning. 
-Thank you to all the coaches, coxswains, and rowers for getting twelve shells off the water in record time.
-None" alt="" coords="603,39,505,53,466,65,440,79,427,101,422,127,417,126,422,99,436,75,464,60,504,48,602,34"/>
-<area shape="rect" id="edge6-label" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="67.7
-04/15" alt="" coords="438,77,480,117"/>
-<area shape="poly" id="edge9" href="http://www.row2k.com/results/resultspage.cfm?UID=F7D27A2768B3A94AA28296B6E17A5936&amp;cat=1" title="NEIRA Girls Fours,Greenwich Academy vs. Valley Regional			
+None" alt="" coords="588,170,705,184,768,196,829,211,905,239,971,270,969,275,903,243,827,216,766,201,704,190,587,176"/>
+<area shape="rect" id="edge11-label" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="67.7
+04/15" alt="" coords="931,213,972,253"/>
+<area shape="poly" id="edge14" href="http://www.row2k.com/results/resultspage.cfm?UID=F7D27A2768B3A94AA28296B6E17A5936&amp;cat=1" title="NEIRA Girls Fours,Greenwich Academy vs. Valley Regional			
 Distance: 1250m Conditions: Windy, with conditions in the last 500m getting progressively choppier through the day. Strong cross&#45;tailwind for all races. Comments: Race order went 3V&#45;1V&#45;2V&#45;4V. Due to high winds, racing was shortened to 1100m for the 2V race and 1000m for the 4V race.
 A big thanks to Valley Regional for making the trip to Greenwich!
-None" alt="" coords="632,49,588,63,545,80,508,103,462,136,459,132,505,98,542,75,586,57,630,44"/>
-<area shape="rect" id="edge9-label" href="http://www.row2k.com/results/resultspage.cfm?UID=F7D27A2768B3A94AA28296B6E17A5936&amp;cat=1" title="31.0 (37.2)
-04/22" alt="" coords="544,77,625,117"/>
-<area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="Founder&#39;s Day			
-NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches." alt="" coords="665,54,651,65,641,79,633,102,633,126,627,126,628,101,636,76,647,61,661,50"/>
-<area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="67.9
-05/07" alt="" coords="638,77,680,117"/>
-<area shape="poly" id="edge8" href="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
-Distance: 1500 M Conditions: Sunny, warm, breezy. 10&#45;12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn&#39;s for handling the wind at the starting line efficiently.
-None" alt="" coords="706,55,697,86,682,119,672,132,668,129,677,116,692,84,701,53"/>
-<area shape="rect" id="edge8-label" href="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&amp;cat=5" title="42.08
-05/13" alt="" coords="697,77,738,117"/>
-<area shape="poly" id="node6" href="girls2foursGreenwichAcademyHopkins.html" title="Hopkins" alt="" coords="875,165,872,158,864,151,852,146,837,143,821,141,804,143,789,146,777,151,770,158,767,165,770,173,777,179,789,185,804,188,821,189,837,188,852,185,864,179,872,173"/>
-<area shape="poly" id="edge7" href="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Canterbury, Greenwich Academy, Hopkins			
-Distance: 1500 M Conditions: Sunny, warm, breezy. 10&#45;12 mph headwind, strongest in middle 1000 M, abating in the last 250. Comments: Thanks to our visitors for traveling and a for a great day of racing. Thanks to the coxn&#39;s for handling the wind at the starting line efficiently.
-None" alt="" coords="730,52,795,129,791,133,726,55"/>
-<area shape="rect" id="edge7-label" href="http://www.row2k.com/results/resultspage.cfm?UID=2257B9625B2721B3D906D09E14E60F51&amp;cat=5" title="22.1
-05/13" alt="" coords="782,77,824,117"/>
-<area shape="poly" id="node7" href="girls2foursGreenwichAcademyTaft.html" title="Taft" alt="" coords="970,165,968,158,963,151,955,146,945,143,934,141,923,143,913,146,905,151,900,158,898,165,900,173,905,179,913,185,923,188,934,189,945,188,955,185,963,179,968,173"/>
-<area shape="poly" id="edge4" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="NEIRA Girls Fours,Taft, Greenwich Academy, Valley, Lyme&#45;Old Lyme, Canterbury			
+None" alt="" coords="590,169,823,184,923,196,958,203,979,211,1000,234,1013,262,1009,264,996,237,976,216,957,208,922,201,823,189,589,174"/>
+<area shape="rect" id="edge14-label" href="http://www.row2k.com/results/resultspage.cfm?UID=F7D27A2768B3A94AA28296B6E17A5936&amp;cat=1" title="31.0 (37.2)
+04/22" alt="" coords="1007,213,1088,253"/>
+<area shape="poly" id="edge10" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="NEIRA Girls Fours,Taft, Greenwich Academy, Valley, Lyme&#45;Old Lyme, Canterbury			
 Distance: 1500m Conditions: Order of racing: G2, G3/G4 (raced together). 8mph crosswind for the G2 race; 10&#45;12 mph for the G3/G4 race; shifting around to a cross tail wind for the final 350 meters or so in both races. Comments: The G3/G4 race needed three tries to get a clean race going. Good work by novice coxswains to get their boats aligned in a crosswind. During the race, the GA 3V caught a boat&#45;stopping crab with 350 meters left; they were leading all boats until that point in the race. 
 The G1 race was canceled at the starting line because of lightning. 
 Thank you to all the coaches, coxswains, and rowers for getting twelve shells off the water in record time.
-None" alt="" coords="770,47,830,75,871,103,906,133,903,137,868,107,828,80,768,52"/>
-<area shape="rect" id="edge4-label" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="1.2
-04/15" alt="" coords="884,77,925,117"/>
-<area shape="poly" id="node8" href="girls2foursGreenwichAcademyGunnSchool.html" title="GunnSchool" alt="" coords="1140,165,1137,158,1126,151,1110,146,1090,143,1068,141,1045,143,1025,146,1009,151,998,158,995,165,998,173,1009,179,1025,185,1045,188,1068,189,1090,188,1110,185,1126,179,1137,173"/>
-<area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="Founder&#39;s Day			
-NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches." alt="" coords="803,40,867,54,931,75,984,102,1030,132,1027,136,981,106,929,80,865,59,801,45"/>
-<area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF" title="34.1
-05/07" alt="" coords="1004,77,1045,117"/>
+None" alt="" coords="592,166,722,170,866,177,999,191,1053,200,1094,211,1144,236,1186,266,1183,271,1141,240,1092,216,1052,205,998,196,866,183,721,175,592,171"/>
+<area shape="rect" id="edge10-label" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="35.9
+04/15" alt="" coords="1163,213,1204,253"/>
+<area shape="poly" id="edge9" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="NEIRA Girls Fours,Taft, Greenwich Academy, Valley, Lyme&#45;Old Lyme, Canterbury			
+Distance: 1500m Conditions: Order of racing: G2, G3/G4 (raced together). 8mph crosswind for the G2 race; 10&#45;12 mph for the G3/G4 race; shifting around to a cross tail wind for the final 350 meters or so in both races. Comments: The G3/G4 race needed three tries to get a clean race going. Good work by novice coxswains to get their boats aligned in a crosswind. During the race, the GA 3V caught a boat&#45;stopping crab with 350 meters left; they were leading all boats until that point in the race. 
+The G1 race was canceled at the starting line because of lightning. 
+Thank you to all the coaches, coxswains, and rowers for getting twelve shells off the water in record time.
+None" alt="" coords="373,174,174,189,92,201,64,208,50,215,39,237,37,263,32,263,34,236,46,211,62,203,91,195,173,183,373,169"/>
+<area shape="rect" id="edge9-label" href="http://www.row2k.com/results/resultspage.cfm?UID=57767F8BC9B9A1D6D1921A1667A8D6B9&amp;cat=1" title="1.2
+04/15" alt="" coords="48,213,89,253"/>
 </map>

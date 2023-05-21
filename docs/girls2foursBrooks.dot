@@ -1,4 +1,4 @@
-digraph girls2foursBrooks {Brooks [URL="girls2foursBrooksBrooks.html"];NewtonCountryDay [URL="girls2foursBrooksNewtonCountryDay.html"];Middlesex [URL="girls2foursBrooksMiddlesex.html"];CambridgeRLS [URL="girls2foursBrooksCambridgeRLS.html"];Nobles [URL="girls2foursBrooksNobles.html"];Groton [URL="girls2foursBrooksGroton.html"];NMH [URL="girls2foursBrooksNMH.html"];StMarks [URL="girls2foursBrooksStMarks.html"];Brooks -> StMarks[label="13.0
+digraph girls2foursBrooks {Groton [URL="girls2foursBrooksGroton.html"];Nobles [URL="girls2foursBrooksNobles.html"];Brooks [URL="girls2foursBrooksBrooks.html"];NMH [URL="girls2foursBrooksNMH.html"];BBN [URL="girls2foursBrooksBBN.html"];Middlesex [URL="girls2foursBrooksMiddlesex.html"];StMarks [URL="girls2foursBrooksStMarks.html"];CambridgeRLS [URL="girls2foursBrooksCambridgeRLS.html"];NewtonCountryDay [URL="girls2foursBrooksNewtonCountryDay.html"];Brooks -> StMarks[label="13.0
 04/22", weight="87", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -26,4 +26,14 @@ Nobles -> Brooks[label="6.0
 04/15", weight="94", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
+Brooks -> BBN[label="5.3
+05/20", weight="95", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N			
+Distance: 1500m Conditions: 6-12 mph direct headwind and rain throughout the racing, both varying considerably making comparisons between races difficult. Strongest wind and rain occurred during the 7th boat races at the end of the race day. 
+BB&N G6 was placed into the 7th boat event after equipment failure; in a different shell the boat suffered two crabs in the choppy water during that race. Comments: Thank you to the coaches and athletes of BB&N for braving the elements and getting in a full afternoon of good racing. Looking forward to more racing before the week is out.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=71363DFE769F0D54ECD297CD2C898F94&cat=5", random="random"]; 
+Nobles -> Brooks[label="16.0 (21.82)
+05/17", weight="84", tooltip="NEIRA Boys & Girls Fours,Brooks JV vs. Nobles JV			
+Distance: 1100m Conditions: Strong and variable tailwind, decreasing slightly over the afternoon. Comments: Order of racing was B7, G8, G7, B5, G6, B6, G5. These are JV boats, so First Boat is really 5th boat, Second Boat is 6th boat, and so on. 
+Thanks to Brooks for making the trip!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5E4975AA80238F6874E0952D6E4A581B&cat=5", random="random"]}

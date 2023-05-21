@@ -1,4 +1,4 @@
-digraph girls3foursStMarks {Brooks [URL="girls3foursStMarksBrooks.html"];NewtonCountryDay [URL="girls3foursStMarksNewtonCountryDay.html"];Middlesex [URL="girls3foursStMarksMiddlesex.html"];MissPorters [URL="girls3foursStMarksMissPorters.html"];Choate [URL="girls3foursStMarksChoate.html"];Nobles [URL="girls3foursStMarksNobles.html"];NMH [URL="girls3foursStMarksNMH.html"];StMarks [URL="girls3foursStMarksStMarks.html"];Taft [URL="girls3foursStMarksTaft.html"];Winsor [URL="girls3foursStMarksWinsor.html"];Brooks -> StMarks[label="11.1
+digraph girls3foursStMarks {Groton [URL="girls3foursStMarksGroton.html"];Nobles [URL="girls3foursStMarksNobles.html"];Brooks [URL="girls3foursStMarksBrooks.html"];MissPorters [URL="girls3foursStMarksMissPorters.html"];NMH [URL="girls3foursStMarksNMH.html"];NewtonCountryDay [URL="girls3foursStMarksNewtonCountryDay.html"];Taft [URL="girls3foursStMarksTaft.html"];Middlesex [URL="girls3foursStMarksMiddlesex.html"];StMarks [URL="girls3foursStMarksStMarks.html"];Winsor [URL="girls3foursStMarksWinsor.html"];Choate [URL="girls3foursStMarksChoate.html"];Brooks -> StMarks[label="11.1
 04/22", weight="89", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
@@ -6,6 +6,13 @@ StMarks -> Middlesex[label="15.6
 04/22", weight="85", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Brooks and Middlesex			
 Distance: 1500m Conditions: A perfect day at Lake Quinsigamund, just gray enough for no pleasure boats and a tailwind that picked up a bit over the course of the racing period. Comments: Race order was G1-B4-G4-B3-G3-B2-G2-B1. Most races started a length over the line except for G2. Thank you to Brooks and Middlesex for coming to Worcester for some great racing.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=36741E74C58C544410744419A91809EC&cat=5", random="random"]; 
+Groton -> StMarks[label="4.6 (5.52)
+05/20", weight="96", tooltip="NEIRA Boys & Girls Fours,Cooke Family Cup			
+Distance: 1250m Conditions: As the rain intensified throughout the day, the river gained current. The order of races was G1,B1, G2, B2, G3, B3, G4, B4. Towards the end there was noticeably more current with the crews. Comments: Monsoon conditions after the first boat races. It really rained! A couple of races had crashes at the start and had to be re-started. 3rd boat boys started a length over the line.
+Thank you for the racing ST. Mark's!
+Another great day of racing on the mighty Nashua!
+Groton wins the Cooke Family Cup by winning 7 of the 8 races.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C6A098FB0E6D4DB0D2F142C9E75015A4&cat=5", random="random"]; 
 NMH -> StMarks[label="25.0
 04/15", weight="75", tooltip="NEIRA Boys & Girls Fours,Worcester vs. Choate, St. Mark's, Northfield Mount Hermon, Bancroft			
 Distance: Worcester Academy Conditions: Sunny with minimal wind and no chop. Comments: Referee: Paul Carabillo

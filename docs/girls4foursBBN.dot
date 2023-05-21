@@ -1,4 +1,4 @@
-digraph girls4foursBBN {NewtonCountryDay [URL="girls4foursBBNNewtonCountryDay.html"];Middlesex [URL="girls4foursBBNMiddlesex.html"];CambridgeRLS [URL="girls4foursBBNCambridgeRLS.html"];Nobles [URL="girls4foursBBNNobles.html"];BBN [URL="girls4foursBBNBBN.html"];Groton [URL="girls4foursBBNGroton.html"];Winsor [URL="girls4foursBBNWinsor.html"];Middlesex -> BBN[label="27.7
+digraph girls4foursBBN {Groton [URL="girls4foursBBNGroton.html"];Nobles [URL="girls4foursBBNNobles.html"];Brooks [URL="girls4foursBBNBrooks.html"];BBN [URL="girls4foursBBNBBN.html"];Winsor [URL="girls4foursBBNWinsor.html"];Middlesex [URL="girls4foursBBNMiddlesex.html"];CambridgeRLS [URL="girls4foursBBNCambridgeRLS.html"];NewtonCountryDay [URL="girls4foursBBNNewtonCountryDay.html"];Middlesex -> BBN[label="27.7
 05/06", weight="73", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
 Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
 THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
@@ -38,4 +38,9 @@ Winsor -> BBN[label="14.2 (15.78)
 04/29", weight="86", tooltip="NEIRA Girls Fours,Winsor, Hopkins, BB&N hosted			
 Distance: 1350 M Conditions: Light crossing head wind at the start, stayed consistant for all races Comments: A good day of racing by all teams
 The 5th boat race was in 8's with Winsor and BB&N
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D808E65A5EEBFB&cat=1", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3D42D5691D124763C3D808E65A5EEBFB&cat=1", random="random"]; 
+BBN -> Brooks[label="3.2
+05/20", weight="97", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N			
+Distance: 1500m Conditions: 6-12 mph direct headwind and rain throughout the racing, both varying considerably making comparisons between races difficult. Strongest wind and rain occurred during the 7th boat races at the end of the race day. 
+BB&N G6 was placed into the 7th boat event after equipment failure; in a different shell the boat suffered two crabs in the choppy water during that race. Comments: Thank you to the coaches and athletes of BB&N for braving the elements and getting in a full afternoon of good racing. Looking forward to more racing before the week is out.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=71363DFE769F0D54ECD297CD2C898F94&cat=5", random="random"]}

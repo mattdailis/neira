@@ -1,4 +1,4 @@
-digraph girls6foursBrooks {Brooks [URL="girls6foursBrooksBrooks.html"];Groton [URL="girls6foursBrooksGroton.html"];Brooks -> Groton[label="26.6 (31.92)
+digraph girls6foursBrooks {Groton [URL="girls6foursBrooksGroton.html"];Brooks [URL="girls6foursBrooksBrooks.html"];BBN [URL="girls6foursBrooksBBN.html"];Brooks -> Groton[label="26.6 (31.92)
 05/10", weight="74", tooltip="NEIRA Boys & Girls Fours,Groton JV vs. Brooks JV			
 Distance: 1250 Meters Conditions: Very little wind or chop. Moderate current. Comments: Also racing were the Boys and Girls 7th boats:
 Boys 7:
@@ -7,4 +7,9 @@ Groton: 5:19
 Girls 7:
 Brooks: 5.06
 Groton: 5:40
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C056DFD0326A8B1A82CE215F897C0056&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C056DFD0326A8B1A82CE215F897C0056&cat=5", random="random"]; 
+Brooks -> BBN[label="11.0
+05/20", weight="89", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N			
+Distance: 1500m Conditions: 6-12 mph direct headwind and rain throughout the racing, both varying considerably making comparisons between races difficult. Strongest wind and rain occurred during the 7th boat races at the end of the race day. 
+BB&N G6 was placed into the 7th boat event after equipment failure; in a different shell the boat suffered two crabs in the choppy water during that race. Comments: Thank you to the coaches and athletes of BB&N for braving the elements and getting in a full afternoon of good racing. Looking forward to more racing before the week is out.
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=71363DFE769F0D54ECD297CD2C898F94&cat=5", random="random"]}

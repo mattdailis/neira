@@ -1,4 +1,4 @@
-digraph girls3foursNobles {Brooks [URL="girls3foursNoblesBrooks.html"];NewtonCountryDay [URL="girls3foursNoblesNewtonCountryDay.html"];Choate [URL="girls3foursNoblesChoate.html"];Nobles [URL="girls3foursNoblesNobles.html"];BBN [URL="girls3foursNoblesBBN.html"];NMH [URL="girls3foursNoblesNMH.html"];Groton [URL="girls3foursNoblesGroton.html"];StMarks [URL="girls3foursNoblesStMarks.html"];Winsor [URL="girls3foursNoblesWinsor.html"];Nobles -> Groton[label="6.5 (7.22)
+digraph girls3foursNobles {Groton [URL="girls3foursNoblesGroton.html"];Nobles [URL="girls3foursNoblesNobles.html"];Brooks [URL="girls3foursNoblesBrooks.html"];NMH [URL="girls3foursNoblesNMH.html"];NewtonCountryDay [URL="girls3foursNoblesNewtonCountryDay.html"];BBN [URL="girls3foursNoblesBBN.html"];StMarks [URL="girls3foursNoblesStMarks.html"];Winsor [URL="girls3foursNoblesWinsor.html"];Choate [URL="girls3foursNoblesChoate.html"];Nobles -> Groton[label="6.5 (7.22)
 04/22", weight="94", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
 For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
@@ -29,6 +29,11 @@ Notes: the third and fourth boat races had stronger headwinds and were disrupted
 Girls 8s: 1. Choate 7/8 6:46 2. Nobles 8/9 7:36 
 Boys 8s: 1. Nobles 6/7 5:20.6 2. Nobles 8/9 5:46.6
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=652B3C9AB2BB58F02195E68AE982DAB6&cat=5", random="random"]; 
+Nobles -> Brooks[label="5.0 (6.82)
+05/17", weight="95", tooltip="NEIRA Boys & Girls Fours,Brooks JV vs. Nobles JV			
+Distance: 1100m Conditions: Strong and variable tailwind, decreasing slightly over the afternoon. Comments: Order of racing was B7, G8, G7, B5, G6, B6, G5. These are JV boats, so First Boat is really 5th boat, Second Boat is 6th boat, and so on. 
+Thanks to Brooks for making the trip!
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=5E4975AA80238F6874E0952D6E4A581B&cat=5", random="random"]; 
 Winsor -> Nobles[label="1.56 (1.73)
 05/06", weight="99", tooltip="NEIRA Girls Fours,Winsor Vs. Nobles			
 Distance: 1350 Conditions: Strong current & crossing tailwind made for fast racing on the Charles. Final race was in eights.

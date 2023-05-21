@@ -1,4 +1,12 @@
-digraph girls6foursChoate {Nobles [URL="girls6foursChoateNobles.html"];Choate [URL="girls6foursChoateChoate.html"];Nobles -> Choate[label="10.0
+digraph girls6foursChoate {GunnSchool [URL="girls6foursChoateGunnSchool.html"];MissPorters [URL="girls6foursChoateMissPorters.html"];Choate [URL="girls6foursChoateChoate.html"];Nobles [URL="girls6foursChoateNobles.html"];Choate -> GunnSchool[label="26.0
+05/20", weight="74", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Choate -> MissPorters[label="28.0
+05/20", weight="72", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
+Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
+Nobles -> Choate[label="10.0
 05/13", weight="90", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon vs Nobles and Choate			
 Distance: 1400 m (upriver) Conditions: light current, moderate headwind that lessened for the later races Comments: Race order: B4/G4/B3/G3/B2/G2/B1/G1/B5/G5/G8s/G6/B8s;
 Notes: the third and fourth boat races had stronger headwinds and were disrupted by jet ski wakes; later races had lighter winds and fewer wakes so times should not be compared between races.
