@@ -3,7 +3,6 @@ import urllib.request, urllib.error, urllib.parse
 import datetime
 from datetime import date
 import re
-from neiraschools import matchSchool
 import json
 import os
 
@@ -37,7 +36,7 @@ def scrapeRegatta(name, res_url, url):
     if comment == None:
         comment = ""
 
-    import pdb; pdb.set_trace()
+    # import pdb; pdb.set_trace()
 
     # Guess the gender from the name, if possible. Else None
     gender = None
@@ -208,7 +207,8 @@ def main(year):
                 race_object = scrapeRegatta(race, res_url, url)
                 with open(filename, "w") as f:
                     f.write(json.dumps(race_object, sort_keys=True, indent=4))
-            print(f"{i}/{total}: Already scraped {race}")
+            else:
+                print(f"{i}/{total}: Already scraped {race}")
 
 if __name__ == '__main__':
     main(2023)

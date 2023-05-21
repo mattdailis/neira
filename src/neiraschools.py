@@ -4,64 +4,108 @@ matched = set()
 unmatched = set()
 
 def getNeiraSchools():
-    return {'BBN': [],
-            'Bancroft' : [],
-            'Belmont Hill' : [],
-            'Berkshire' : [],
-            'Brooks' : [],
-            'CRLS' : [],
-            'Canterbury' : [],
-            'Choate' : [],
-            'Deerfield' : [],
-            'Derryfield' : [],
-            'Dexter' : [],
-            'Duxbury' : [],
-            'Greenwich Academy' : ['GA', 'Greenwich A', 'Greenwich Acad', 'Greenwich'],
-            'Groton' : [],
-            'Gunnery' : ['The Gunnery'],
-            'Hopkins' : ['Hop'],
-            'Lincoln' : [],
-            'Lyme/Old Lyme' : ['LOL', 'L//OL', 'L/OL'],
-            'Medford' : [],
-            'Middlesex' : [],
-            'Milton' : ['MHS'],
-            'Miss Porters' : ['M Porters', 'MPS'],
-            'Newton Country Day' : ['NCDS'],
-            'Nobles' : [],
-            'Pomfret' : [],
-            'Southfield' : [],
-            'St Marks' : ['Saint Marks'],
-            'Taft' : [],
-            'Valley' : ['Valley Regional'],
-            'Winsor' : [],
-            # NOT ACTUALLY NEIRA, but included to avoid matching one of the above
-            'Exeter' : [],
-            'Middletown' : [],
-            'Worcester Academy': [],
-            'Bedford' : [],
-            'Suffield': [],
-
-            # Added 2023:
-            "Andover": [],
-            "Bedford": [],
-            "Berwick": [],
-            "Boston Latin": [],
-            "Brewster Academy": [],
-            "Brookline": [],
-            "Cambridge Ringe and Latin School": ["Cambridge RLS"],
-            "East Lyme": [],
-            "E.O. Smith": [],
-            "Fairfield Prep": [],
-            "Farmington": [],
-            "Glastonbury": [],
-            "Guilford": [],
-            "Hingham": [],
-            "Kent": [],
-            "Salisbury": [],
-            "Shrewsbury": [],
-            "St. John's Prep": [],
-            "Stonington": []
+    # return {'BBN': ["BB&N"],
+    #         'Bancroft' : [],
+    #         'Belmont Hill' : [],
+    #         'Berkshire' : [],
+    #         'Brooks' : [],
+    #         'CRLS' : [],
+    #         'Canterbury' : [],
+    #         'Choate' : [],
+    #         'Deerfield' : [],
+    #         'Derryfield' : [],
+    #         'Dexter' : [],
+    #         'Duxbury' : [],
+    #         'Greenwich Academy' : ['GA', 'Greenwich A', 'Greenwich Acad', 'Greenwich'],
+    #         'Groton' : [],
+    #         'Gunnery' : ['The Gunnery'],
+    #         'Hopkins' : ['Hop'],
+    #         'Lincoln' : [],
+    #         'Lyme/Old Lyme' : ['LOL', 'L//OL', 'L/OL'],
+    #         'Medford' : [],
+    #         'Middlesex' : [],
+    #         'Milton' : ['MHS'],
+    #         'Miss Porters' : ['M Porters', 'MPS'],
+    #         'Newton Country Day' : ['NCDS'],
+    #         'Nobles' : [],
+    #         'Pomfret' : [],
+    #         'Southfield' : [],
+    #         'St Marks' : ['Saint Marks'],
+    #         'Taft' : [],
+    #         'Valley' : ['Valley Regional'],
+    #         'Winsor' : [],
+    #         # NOT ACTUALLY NEIRA, but included to avoid matching one of the above
+    #         'Exeter' : [],
+    #         'Middletown' : [],
+    #         'Worcester Academy': [],
+    #         'Bedford' : [],
+    #         'Suffield': [],
+    #
+    #         # Added 2023:
+    #         "Andover": [],
+    #         "Bedford": [],
+    #         "Berwick": [],
+    #         "Boston Latin": [],
+    #         "Brewster Academy": [],
+    #         "Brookline": [],
+    #         "Cambridge Ringe and Latin School": ["Cambridge RLS"],
+    #         "East Lyme": [],
+    #         "E.O. Smith": [],
+    #         "Fairfield Prep": [],
+    #         "Farmington": [],
+    #         "Glastonbury": [],
+    #         "Guilford": [],
+    #         "Hingham": [],
+    #         "Kent": [],
+    #         "Salisbury": [],
+    #         "Shrewsbury": [],
+    #         "St. John's Prep": [],
+    #         "Stonington": [],
+    #         "Thayer": ["Thayer 1V"]
+    # },
+    return {
+        "Bancroft": [],
+        "BB&N": ["BBN"],
+        "Berkshire Academy": ["Berkshire"],
+        "Berwick": [],
+        "Brewster Academy": ["Brewster"],
+        "Brooks": [],
+        "Canterbury": [],
+        "Choate": [],
+        "Cambridge RLS": ["Cambridge Ringe and Latin School", "CRLS"],
+        "Derryfield": [],
+        "Dexter-Southfield": ["Dexter"],
+        "Eagle Hill": [],
+        "Forman": [],
+        "Greenwich Academy": ['GA', 'Greenwich A', 'Greenwich Acad', 'Greenwich'],
+        "Groton": [],
+        "Gunn School": ["The Frederick Gunn School", "Gunnery", "The Gunnery", "Gunn", "Frederick Gunn"],
+        "Hopkins": ["Hop"],
+        "Lincoln": [],
+        "Lyme/Old Lyme": ['LOL', 'L//OL', 'L/OL'],
+        "Marianapolis Prep": [],
+        "Medford": [],
+        "Middlesex": [],
+        "Middletown": [],
+        "Miss Porter's": [],
+        "Newton Country Day": ["NCDS"],
+        "Nobles": [],
+        "NMH": ["Northfield Mount Hermon"],
+        "Pingree": [],
+        "Pomfret": [],
+        "St. Mark's": [],
+        "St. Mary's - Lynn": [],
+        "Suffield": [],
+        "Taft": [],
+        "Thayer": [],
+        "Valley Regional": [],
+        "Vermont Academy": ["VA"],
+        "Winsor": [],
+        "Worcester Academy": [],
+        "King School": []
     }
+
+
 
 # If boatNum provided, check if a different number is present in the string.
 # If a different number is present in the string, append that number to the school name
@@ -95,11 +139,11 @@ def matchSchool(name, boatNum=None):
         scores.add((school, score))
     (school, score) = max(scores, key=(lambda x_y : x_y[1]))
 
-    # if school in ['Exeter', 'Middletown', 'Worcester Academy', 'Bedford', 'Suffield']:
-#        return (None, None)
+    if name in ['Exeter', 'Bedford', 'Suffield', "Kent School", "Kent"]:
+       return (None, None)
 
-    if school == 'Greenwich Academy':
-        name = name.replace(" A", " Academy ")
+    # if school == 'Greenwich Academy':
+    #     name = name.replace(" A", " Academy ")
 
     num = boatNum
 
@@ -124,12 +168,14 @@ def matchSchool(name, boatNum=None):
                     pass
 
     if score > 0.7:
+        if (name, school) not in matched and name != school:
+            print(name, "~", school)
         matched.add((name, school))
         return (school, num)
     else:
         unmatched.add(name)
-        return (name, boatNum)
-        # return (None, None)
+        # return (name, boatNum)
+        return (None, None)
 
 def parseNum(num):
     if 'nov' in num:
