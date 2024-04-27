@@ -1,24 +1,20 @@
-digraph girls2foursStMarysLynn {Lincoln [URL="girls2foursStMarysLynnLincoln.html"];ValleyRegional [URL="girls2foursStMarysLynnValleyRegional.html"];StMarysLynn [URL="girls2foursStMarysLynnStMarysLynn.html"];EagleHill [URL="girls2foursStMarysLynnEagleHill.html"];BBN [URL="girls2foursStMarysLynnBBN.html"];WorcesterAcademy [URL="girls2foursStMarysLynnWorcesterAcademy.html"];Lincoln -> StMarysLynn[label="54.4
-04/29", weight="46", tooltip="NEIRA Boys & Girls Fours,Lincoln School vs. St. Mary's-Lynn vs. Valley Regional			
-Distance: 1500m Conditions: Blustery, ENE cross wind 10-18 mph. 2V Girls race shortened due to oars slapping in the first 100m, estimated course 1250m. Comments: Novice 8+ exhibition: NBC - 6:48.9, Valley Regional 7:28.3, St. Mary's 8:48.3
-In the Girls' 1V, NBC participated with a finish time of 7:37.6
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9E3AECE30FC3B92FA1BF2E660EEC9D3B&cat=5", random="random"]; 
-ValleyRegional -> StMarysLynn[label="46.1
-04/29", weight="54", tooltip="NEIRA Boys & Girls Fours,Lincoln School vs. St. Mary's-Lynn vs. Valley Regional			
-Distance: 1500m Conditions: Blustery, ENE cross wind 10-18 mph. 2V Girls race shortened due to oars slapping in the first 100m, estimated course 1250m. Comments: Novice 8+ exhibition: NBC - 6:48.9, Valley Regional 7:28.3, St. Mary's 8:48.3
-In the Girls' 1V, NBC participated with a finish time of 7:37.6
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9E3AECE30FC3B92FA1BF2E660EEC9D3B&cat=5", random="random"]; 
-StMarysLynn -> EagleHill[label="66.0
-04/26", weight="34", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
-Distance: 1500 meters Conditions: Minimal wind, no chop.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=38305821F0E11F6B4B5BC132E9B3DE79&cat=5", random="random"]; 
-StMarysLynn -> WorcesterAcademy[label="88.0
-04/26", weight="12", tooltip="NEIRA,Worcester Academy vs. St. Mary's-Lynn, Thayer, Eagle Hill, and Bancroft			
-Distance: 1500 meters Conditions: Minimal wind, no chop.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=38305821F0E11F6B4B5BC132E9B3DE79&cat=5", random="random"]; 
-BBN -> StMarysLynn[label="65.27
-05/17", weight="35", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. BB&N, Brewster, Medford, Bancroft, St. Mary's			
-Distance: 1500 Conditions: Sustained 10 mph wind from NNW with significant gusts. Light chop at start line. Moderate to heavy chop at finish line. Comments: In the GV2 event, BB&N GV2 placed first, BB&N GV4 placed second, and BB&N GV3 placed third. 
-In the BV4 event, Brewster's BV3 completed and placed second. 
-Special thanks to John Quinn for refereeing in less-than-ideal conditions.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B08CEFE7F2A798211AD04136F77F4A00&cat=5", random="random"]}
+digraph girls2foursStMarysLynn {EagleHill [URL="girls2foursStMarysLynnEagleHill.html"];StMaryAcademyBayView [URL="girls2foursStMarysLynnStMaryAcademyBayView.html"];WorcesterAcademy [URL="girls2foursStMarysLynnWorcesterAcademy.html"];Lincoln [URL="girls2foursStMarysLynnLincoln.html"];StMarysLynn [URL="girls2foursStMarysLynnStMarysLynn.html"];Valley [URL="girls2foursStMarysLynnValley.html"];WorcesterAcademy -> StMarysLynn[label="25.35
+04/24", weight="75", tooltip="NEIRA Boys & Girls Fours,Bancroft School vs Worcester Academy, Medford High School, Eagle Hill, St. Mary's Lynn			
+Distance: 1500m Conditions: All races experienced strong tailwinds. Wind was 15mph with strong gusts. The wind increased as the Boys 2V boat went down the course and the race was paused. Once conditions died back to 15mph races resumed. Once conditions died back down to a 15-17 tail wind, races resumed. Comments: Race order was Boys Novice, Girls Novice/Novice Mix, B3v, B2V, G1V, B1V. For recording purposes Boys Novice will be recorded as the Boys fourth boat. The girls novice/novice mix will be recorded as GV2 (please note the novice mix boat (Eagle Hill) was a mix of talent and more of a friendly race to get rowers to race). Due to wind Boys Novice started at the 1400 mark.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&cat=5", random="random"]; 
+StMarysLynn -> EagleHill[label="-41.99
+04/24", weight="141", tooltip="NEIRA Boys & Girls Fours,Bancroft School vs Worcester Academy, Medford High School, Eagle Hill, St. Mary's Lynn			
+Distance: 1500m Conditions: All races experienced strong tailwinds. Wind was 15mph with strong gusts. The wind increased as the Boys 2V boat went down the course and the race was paused. Once conditions died back to 15mph races resumed. Once conditions died back down to a 15-17 tail wind, races resumed. Comments: Race order was Boys Novice, Girls Novice/Novice Mix, B3v, B2V, G1V, B1V. For recording purposes Boys Novice will be recorded as the Boys fourth boat. The girls novice/novice mix will be recorded as GV2 (please note the novice mix boat (Eagle Hill) was a mix of talent and more of a friendly race to get rowers to race). Due to wind Boys Novice started at the 1400 mark.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&cat=5", random="random"]; 
+Valley -> StMarysLynn[label="57.6
+04/27", weight="43", tooltip="NEIRA Boys & Girls Fours,St. Mary Academy - Bay View, Lincoln, St. Mary's - Lynn, Valley Regional			
+Distance: 1500m Conditions: Mild headwind, slight chop, slack tide for the 1st girls race. Old Saybrook (not in league) also competed. Comments: Old Saybrook (not in league) raced in 2nd boys and 3rd girls events.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1004BB53FFEA236A97E11B8A53F16514&cat=5", random="random"]; 
+Lincoln -> StMarysLynn[label="44.6
+04/27", weight="56", tooltip="NEIRA Boys & Girls Fours,St. Mary Academy - Bay View, Lincoln, St. Mary's - Lynn, Valley Regional			
+Distance: 1500m Conditions: Mild headwind, slight chop, slack tide for the 1st girls race. Old Saybrook (not in league) also competed. Comments: Old Saybrook (not in league) raced in 2nd boys and 3rd girls events.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1004BB53FFEA236A97E11B8A53F16514&cat=5", random="random"]; 
+StMaryAcademyBayView -> StMarysLynn[label="37.0
+04/27", weight="63", tooltip="NEIRA Boys & Girls Fours,St. Mary Academy - Bay View, Lincoln, St. Mary's - Lynn, Valley Regional			
+Distance: 1500m Conditions: Mild headwind, slight chop, slack tide for the 1st girls race. Old Saybrook (not in league) also competed. Comments: Old Saybrook (not in league) raced in 2nd boys and 3rd girls events.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1004BB53FFEA236A97E11B8A53F16514&cat=5", random="random"]}

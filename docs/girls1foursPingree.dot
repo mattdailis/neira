@@ -1,8 +1,4 @@
-digraph girls1foursPingree {Pingree [URL="girls1foursPingreePingree.html"];BrewsterAcademy [URL="girls1foursPingreeBrewsterAcademy.html"];Berwick [URL="girls1foursPingreeBerwick.html"];BrewsterAcademy -> Pingree[label="14.17
-04/15", weight="86", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
-Conditions: Light headwind
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]; 
-Pingree -> Berwick[label="0.85
-04/15", weight="100", tooltip="NEIRA Boys & Girls Fours,Pingree, Berwick, Brewster			
-Conditions: Light headwind
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=2F376EE0860B29D1BF51C1CB9BB6CE32&cat=5", random="random"]}
+digraph girls1foursPingree {Pingree [URL="girls1foursPingreePingree.html"];BUA [URL="girls1foursPingreeBUA.html"];BUA -> Pingree[label="40.0
+04/20", weight="60", tooltip="NEIRA Girls Fours,Pingree School, Boston University Academy			
+Distance: 1500 meters
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F3BA116ED6CBF64FC2111D7DC005C4D7&cat=1", random="random"]}

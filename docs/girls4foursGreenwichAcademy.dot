@@ -1,12 +1,4 @@
-digraph girls4foursGreenwichAcademy {Choate [URL="girls4foursGreenwichAcademyChoate.html"];ValleyRegional [URL="girls4foursGreenwichAcademyValleyRegional.html"];GreenwichAcademy [URL="girls4foursGreenwichAcademyGreenwichAcademy.html"];Taft [URL="girls4foursGreenwichAcademyTaft.html"];Choate -> GreenwichAcademy[label="8.1
-05/20", weight="92", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-GreenwichAcademy -> Taft[label="19.6
-05/20", weight="81", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-GreenwichAcademy -> Taft[label="46.1
+digraph girls4foursGreenwichAcademy {ValleyRegional [URL="girls4foursGreenwichAcademyValleyRegional.html"];GreenwichAcademy [URL="girls4foursGreenwichAcademyGreenwichAcademy.html"];Taft [URL="girls4foursGreenwichAcademyTaft.html"];GreenwichAcademy -> Taft[label="46.1
 04/15", weight="54", tooltip="NEIRA Girls Fours,Taft, Greenwich Academy, Valley, Lyme-Old Lyme, Canterbury			
 Distance: 1500m Conditions: Order of racing: G2, G3/G4 (raced together). 8mph crosswind for the G2 race; 10-12 mph for the G3/G4 race; shifting around to a cross tail wind for the final 350 meters or so in both races. Comments: The G3/G4 race needed three tries to get a clean race going. Good work by novice coxswains to get their boats aligned in a crosswind. During the race, the GA 3V caught a boat-stopping crab with 350 meters left; they were leading all boats until that point in the race. 
 The G1 race was canceled at the starting line because of lightning. 

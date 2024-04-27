@@ -1,46 +1,8 @@
-digraph girls2foursNewtonCountryDay {Lincoln [URL="girls2foursNewtonCountryDayLincoln.html"];Groton [URL="girls2foursNewtonCountryDayGroton.html"];Nobles [URL="girls2foursNewtonCountryDayNobles.html"];Brooks [URL="girls2foursNewtonCountryDayBrooks.html"];BrewsterAcademy [URL="girls2foursNewtonCountryDayBrewsterAcademy.html"];BBN [URL="girls2foursNewtonCountryDayBBN.html"];Middlesex [URL="girls2foursNewtonCountryDayMiddlesex.html"];StMarks [URL="girls2foursNewtonCountryDayStMarks.html"];Winsor [URL="girls2foursNewtonCountryDayWinsor.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDayNewtonCountryDay.html"];BBN -> NewtonCountryDay[label="17.6
-05/06", weight="83", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
-Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
-THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
- 2nd boats had a delay due to an ill athlete
-3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
-5,3,2,4 started over the line, 4ht a full length
-2 and First had some close oar clashes, but nothing that stopped a boat.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
-Middlesex -> NewtonCountryDay[label="7.7
-05/06", weight="93", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
-Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
-THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
- 2nd boats had a delay due to an ill athlete
-3rd boat missed a buoy and crossed in front of another crew, but ahead enough to not interfere in progress of that crew, so margin would be less but result not
-5,3,2,4 started over the line, 4ht a full length
-2 and First had some close oar clashes, but nothing that stopped a boat.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=1D33A387C25F1B12AA6911D5D7B24BBA&cat=1", random="random"]; 
-Groton -> NewtonCountryDay[label="25.7 (29.65)
-05/13", weight="75", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
-Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
-Brooks -> NewtonCountryDay[label="17.6 (20.31)
-05/13", weight="83", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
-Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
-NewtonCountryDay -> Lincoln[label="21.8 (23.36)
-05/20", weight="79", tooltip="NEIRA Girls Fours,NCDS vs Lincoln			
-Distance: 1400 Conditions: G1 - slight tailwind, flat conditions; G3/4 - flat; G2 delayed over an hour, flat conditions, very light tailwind. Comments: Thanks Lincoln for a great morning of racing!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9EB0D31D1AC22F9389EFE22DE95FB172&cat=1", random="random"]; 
-Winsor -> NewtonCountryDay[label="29.3 (31.39)
-04/22", weight="71", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
-Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=15A544E6C9D6D189154C5B828BCC16B8&cat=1", random="random"]; 
-Nobles -> NewtonCountryDay[label="29.9
-04/29", weight="71", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
-Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=ECC2D848FD3B652027FAF8EF8C359ADE&cat=5", random="random"]; 
-StMarks -> NewtonCountryDay[label="3.5
-04/29", weight="97", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
-Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=ECC2D848FD3B652027FAF8EF8C359ADE&cat=5", random="random"]; 
-NewtonCountryDay -> BrewsterAcademy[label="18.2
-04/29", weight="82", tooltip="NEIRA Boys & Girls Fours,St. Marks vs. Nobles, Brewster & NCDS			
-Distance: 1500m Conditions: Great conditions on Lake Q - 8-10mph crosswind at beginning of races, tapering to 6-8mph by end of the racing. Very nice water. Comments: Races were started within 10m of the line (before or after), except for G1 which was over a boat length over the line. Thank you to all the visiting coaches who helped on the water today with timing and marshaling. The rain held off and we had a great afternoon of racing.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=ECC2D848FD3B652027FAF8EF8C359ADE&cat=5", random="random"]}
+digraph girls2foursNewtonCountryDay {StMaryAcademyBayView [URL="girls2foursNewtonCountryDayStMaryAcademyBayView.html"];Lincoln [URL="girls2foursNewtonCountryDayLincoln.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDayNewtonCountryDay.html"];NewtonCountryDay -> Lincoln[label="70.0 (80.77)
+04/20", weight="30", tooltip="NEIRA Girls Fours,Newton Country Day, St. Mary Academy-Bayview, Lincoln School			
+Distance: 1300 Conditions: Conditions the same for all races. Flat, no wind, no chop. Comments: Lincoln 2V4+ had a breakage and could not finish initial race with NCDS and Bayview so raced afterwards against the NCDS 3V4+ and 4V4+.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1541F9124E2FBBF81B1F9CADE55D186&cat=1", random="random"]; 
+NewtonCountryDay -> StMaryAcademyBayView[label="83.0 (95.77)
+04/20", weight="17", tooltip="NEIRA Girls Fours,Newton Country Day, St. Mary Academy-Bayview, Lincoln School			
+Distance: 1300 Conditions: Conditions the same for all races. Flat, no wind, no chop. Comments: Lincoln 2V4+ had a breakage and could not finish initial race with NCDS and Bayview so raced afterwards against the NCDS 3V4+ and 4V4+.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1541F9124E2FBBF81B1F9CADE55D186&cat=1", random="random"]}

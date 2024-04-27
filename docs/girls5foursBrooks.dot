@@ -1,4 +1,4 @@
-digraph girls5foursBrooks {Groton [URL="girls5foursBrooksGroton.html"];Nobles [URL="girls5foursBrooksNobles.html"];Brooks [URL="girls5foursBrooksBrooks.html"];NMH [URL="girls5foursBrooksNMH.html"];BBN [URL="girls5foursBrooksBBN.html"];CambridgeRLS [URL="girls5foursBrooksCambridgeRLS.html"];Brooks -> NMH[label="7.0 (8.4)
+digraph girls5foursBrooks {Brooks [URL="girls5foursBrooksBrooks.html"];CambridgeRLS [URL="girls5foursBrooksCambridgeRLS.html"];Nobles [URL="girls5foursBrooksNobles.html"];NMH [URL="girls5foursBrooksNMH.html"];Groton [URL="girls5foursBrooksGroton.html"];Brooks -> NMH[label="7.0 (8.4)
 04/29", weight="93", tooltip="NEIRA Boys & Girls Fours,Northfield Mount Hermon, Brooks School, Cambridge Rindge & Latin			
 Distance: Approx. 1250 Conditions: Significant head current, course slightly under the full 1500 m. Calm water and occasional drizzle.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6B0B61A81F7CAE8C8A32C8CDB18E91ED&cat=5", random="random"]; 
@@ -20,9 +20,4 @@ Nobles -> Brooks[label="11.7
 04/15", weight="89", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: 1500 Conditions: Moderate headwind throughout (5-8 mph) with some variability from race to race. Light chop. Comments: A beautiful day for early-spring racing. Thanks to a flexible, enthusiastic and impressive Nobles squad for making the trip up to Brooks. Good, clean racing across the board. Note that B4 and B5 were both started with their sterns on the starting line. 
 Good luck Nobles on your season.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]; 
-BBN -> Brooks[label="17.4
-05/20", weight="83", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N			
-Distance: 1500m Conditions: 6-12 mph direct headwind and rain throughout the racing, both varying considerably making comparisons between races difficult. Strongest wind and rain occurred during the 7th boat races at the end of the race day. 
-BB&N G6 was placed into the 7th boat event after equipment failure; in a different shell the boat suffered two crabs in the choppy water during that race. Comments: Thank you to the coaches and athletes of BB&N for braving the elements and getting in a full afternoon of good racing. Looking forward to more racing before the week is out.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=71363DFE769F0D54ECD297CD2C898F94&cat=5", random="random"]}
+None", URL="http://www.row2k.com/results/resultspage.cfm?UID=6A52C3E2752BC9A886C53C3D6E7D2794&cat=5", random="random"]}

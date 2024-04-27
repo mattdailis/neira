@@ -1,12 +1,4 @@
-digraph girls6foursMissPorters {GunnSchool [URL="girls6foursMissPortersGunnSchool.html"];Winsor [URL="girls6foursMissPortersWinsor.html"];MissPorters [URL="girls6foursMissPortersMissPorters.html"];Choate [URL="girls6foursMissPortersChoate.html"];Choate -> MissPorters[label="28.0
-05/20", weight="72", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-GunnSchool -> MissPorters[label="2.0
-05/20", weight="98", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-Winsor -> MissPorters[label="54.9
+digraph girls6foursMissPorters {GunnSchool [URL="girls6foursMissPortersGunnSchool.html"];Winsor [URL="girls6foursMissPortersWinsor.html"];MissPorters [URL="girls6foursMissPortersMissPorters.html"];Winsor -> MissPorters[label="54.9
 05/13", weight="46", tooltip="NEIRA Boys & Girls Fours,du Pont Cup: Pomfret vs. BB&N, Gunn, St. Mark's, Taft, Miss Porter's, Winsor			
 Distance: 1500M Conditions: No current. Very light tailwind to start; switched to a crossing headwind, which grew stronger during the middle of racing. Headwind was approximately 12MPH with variable and occasional gusts of ~17MPH. Winds diminished toward end of racing. Comments: 1st Varsity Boats win 2023 du Pont Cup. Congratulations St. Mark's Boys and Winsor Girls. Order of races: G6, B5/6, G5, B3, G4, B4, G3, B2, G2, B1, G1. Note: In the G3 race, Miss P's caught a boat-stopping crab after the 100M mark; the race continued.
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=BE8584B4BAC0512B230EE3348E6AD50F&cat=5", random="random"]; 

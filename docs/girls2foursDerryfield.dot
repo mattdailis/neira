@@ -1,18 +1,4 @@
-digraph girls2foursDerryfield {WorcesterAcademy [URL="girls2foursDerryfieldWorcesterAcademy.html"];MarianapolisPrep [URL="girls2foursDerryfieldMarianapolisPrep.html"];Derryfield [URL="girls2foursDerryfieldDerryfield.html"];Berwick [URL="girls2foursDerryfieldBerwick.html"];Derryfield -> Berwick[label="57.5
-04/29", weight="43", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
-Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]; 
-Derryfield -> WorcesterAcademy[label="110.9
-04/29", weight="-10", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Berwick Academy, Derryfield School			
-Distance: 1500 Conditions: Overcast, minimal chop, light cross course breeze. Comments: A special thanks to Paul Carabillo for refereeing the race, especially given the weather.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=FAD05B063C858AB1D7B5356918D34288&cat=5", random="random"]; 
-Derryfield -> MarianapolisPrep[label="42.8
-04/23", weight="58", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
-Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
-A special thanks to Paul Carabillo for refereeing the match.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]; 
-Derryfield -> WorcesterAcademy[label="103.5
-04/23", weight="-3", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
-Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
-A special thanks to Paul Carabillo for refereeing the match.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]}
+digraph girls2foursDerryfield {MarianapolisPrep [URL="girls2foursDerryfieldMarianapolisPrep.html"];Derryfield [URL="girls2foursDerryfieldDerryfield.html"];Derryfield -> MarianapolisPrep[label="45.2
+04/17", weight="55", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. Derryfield			
+Distance: 1500m Conditions: Stiff head wind throughout all races, particularly the first 700m. Comments: Thank you, Derryfield, for making the trip down from NH!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&cat=5", random="random"]}

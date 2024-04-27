@@ -1,24 +1,4 @@
-digraph girls2foursBerkshireAcademy {BerkshireAcademy [URL="girls2foursBerkshireAcademyBerkshireAcademy.html"];GunnSchool [URL="girls2foursBerkshireAcademyGunnSchool.html"];MissPorters [URL="girls2foursBerkshireAcademyMissPorters.html"];Pomfret [URL="girls2foursBerkshireAcademyPomfret.html"];Hopkins [URL="girls2foursBerkshireAcademyHopkins.html"];Taft [URL="girls2foursBerkshireAcademyTaft.html"];Choate [URL="girls2foursBerkshireAcademyChoate.html"];GreenwichAcademy [URL="girls2foursBerkshireAcademyGreenwichAcademy.html"];Choate -> BerkshireAcademy[label="72.8
-05/20", weight="28", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-Taft -> BerkshireAcademy[label="66.5
-05/20", weight="34", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-GreenwichAcademy -> BerkshireAcademy[label="62.5
-05/20", weight="38", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-MissPorters -> BerkshireAcademy[label="44.8
-05/20", weight="56", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-GunnSchool -> BerkshireAcademy[label="31.8
-05/20", weight="69", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-GreenwichAcademy -> BerkshireAcademy[label="67.9
+digraph girls2foursBerkshireAcademy {Pomfret [URL="girls2foursBerkshireAcademyPomfret.html"];Choate [URL="girls2foursBerkshireAcademyChoate.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademyBerkshireAcademy.html"];GreenwichAcademy [URL="girls2foursBerkshireAcademyGreenwichAcademy.html"];Hopkins [URL="girls2foursBerkshireAcademyHopkins.html"];Taft [URL="girls2foursBerkshireAcademyTaft.html"];GunnSchool [URL="girls2foursBerkshireAcademyGunnSchool.html"];GreenwichAcademy -> BerkshireAcademy[label="67.9
 05/07", weight="33", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 GunnSchool -> BerkshireAcademy[label="33.8

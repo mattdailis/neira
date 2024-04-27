@@ -1,4 +1,4 @@
-digraph girls3foursNewtonCountryDay {Lincoln [URL="girls3foursNewtonCountryDayLincoln.html"];Groton [URL="girls3foursNewtonCountryDayGroton.html"];Nobles [URL="girls3foursNewtonCountryDayNobles.html"];Brooks [URL="girls3foursNewtonCountryDayBrooks.html"];BBN [URL="girls3foursNewtonCountryDayBBN.html"];Middlesex [URL="girls3foursNewtonCountryDayMiddlesex.html"];StMarks [URL="girls3foursNewtonCountryDayStMarks.html"];Winsor [URL="girls3foursNewtonCountryDayWinsor.html"];NewtonCountryDay [URL="girls3foursNewtonCountryDayNewtonCountryDay.html"];NewtonCountryDay -> Middlesex[label="5.4
+digraph girls3foursNewtonCountryDay {Brooks [URL="girls3foursNewtonCountryDayBrooks.html"];NewtonCountryDay [URL="girls3foursNewtonCountryDayNewtonCountryDay.html"];Middlesex [URL="girls3foursNewtonCountryDayMiddlesex.html"];Nobles [URL="girls3foursNewtonCountryDayNobles.html"];BBN [URL="girls3foursNewtonCountryDayBBN.html"];StMarks [URL="girls3foursNewtonCountryDayStMarks.html"];Groton [URL="girls3foursNewtonCountryDayGroton.html"];Winsor [URL="girls3foursNewtonCountryDayWinsor.html"];NewtonCountryDay -> Middlesex[label="5.4
 05/06", weight="95", tooltip="NEIRA Girls Fours,Middlesex , BBN, NCDS			
 Distance: 1500 Conditions: Slight Head wind, that lessened as races went on, some current and water level dropped during races
 THanks to BBN and NCDS for racing on a sunny day on the Concord River Comments: Race order, 6,5,2,4,3,1 6th had breakage and a restart, and some missed buoys 
@@ -24,10 +24,6 @@ Brooks -> NewtonCountryDay[label="3.6 (4.15)
 05/13", weight="97", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
 Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
 None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
-NewtonCountryDay -> Lincoln[label="31.9 (34.18)
-05/20", weight="69", tooltip="NEIRA Girls Fours,NCDS vs Lincoln			
-Distance: 1400 Conditions: G1 - slight tailwind, flat conditions; G3/4 - flat; G2 delayed over an hour, flat conditions, very light tailwind. Comments: Thanks Lincoln for a great morning of racing!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=9EB0D31D1AC22F9389EFE22DE95FB172&cat=1", random="random"]; 
 Winsor -> NewtonCountryDay[label="24.39 (26.13)
 04/22", weight="76", tooltip="NEIRA Girls Fours,NCDS vs Winsor			
 Distance: 1400 m Conditions: Strong tail wind and light tail current; consistent throughout racing

@@ -1,14 +1,4 @@
-digraph girls2foursMarianapolisPrep {WorcesterAcademy [URL="girls2foursMarianapolisPrepWorcesterAcademy.html"];MarianapolisPrep [URL="girls2foursMarianapolisPrepMarianapolisPrep.html"];Derryfield [URL="girls2foursMarianapolisPrepDerryfield.html"];StMarks [URL="girls2foursMarianapolisPrepStMarks.html"];MarianapolisPrep -> StMarks[label="13.0
-05/10", weight="87", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, St. Mark's, and Marianapolis			
-Distance: 1500 Conditions: Minimal wind, no chop.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=F473318C04D652F4CA3FD3866C15D6C5&cat=5", random="random"]; 
-Derryfield -> MarianapolisPrep[label="42.8
-04/23", weight="58", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
-Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
-A special thanks to Paul Carabillo for refereeing the match.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]; 
-MarianapolisPrep -> WorcesterAcademy[label="60.7
-04/23", weight="40", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Vermont Academy, Marianapolis Prep, Derryfield			
-Distance: 1500 meters Conditions: Overcast with a minimal chop. For all races, a light 5 mph tailwind was present. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed third. 
-A special thanks to Paul Carabillo for refereeing the match.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=0F0DB8DB84CE476062653EC250396511&cat=5", random="random"]}
+digraph girls2foursMarianapolisPrep {MarianapolisPrep [URL="girls2foursMarianapolisPrepMarianapolisPrep.html"];Derryfield [URL="girls2foursMarianapolisPrepDerryfield.html"];Derryfield -> MarianapolisPrep[label="45.2
+04/17", weight="55", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. Derryfield			
+Distance: 1500m Conditions: Stiff head wind throughout all races, particularly the first 700m. Comments: Thank you, Derryfield, for making the trip down from NH!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&cat=5", random="random"]}

@@ -1,35 +1,10 @@
-digraph girls1foursGroton {Lincoln [URL="girls1foursGrotonLincoln.html"];Groton [URL="girls1foursGrotonGroton.html"];Nobles [URL="girls1foursGrotonNobles.html"];Brooks [URL="girls1foursGrotonBrooks.html"];Pomfret [URL="girls1foursGrotonPomfret.html"];BBN [URL="girls1foursGrotonBBN.html"];StMarks [URL="girls1foursGrotonStMarks.html"];NewtonCountryDay [URL="girls1foursGrotonNewtonCountryDay.html"];Groton -> Pomfret[label="64.9
-04/29", weight="36", tooltip="NEIRA Girls Fours,Pomfret vs. Groton, Taft			
-Distance: 1500m Conditions: No current. Occasional gusty cross/side wind of ~8-13 MPH throughout the races. Winds may have picked up just a bit as races progressed but it was variable throughout. Comments: Races alternated with boys. Order of girls races: G5, G4, G3, G2, G1. Pomfret's 3rd boat raced in the 5th boat race against Taft's 5th boat.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=7D7FC627D5ED48EFA19D099D502CC4FA&cat=1", random="random"]; 
-Groton -> StMarks[label="12.2 (14.64)
-05/20", weight="88", tooltip="NEIRA Boys & Girls Fours,Cooke Family Cup			
-Distance: 1250m Conditions: As the rain intensified throughout the day, the river gained current. The order of races was G1,B1, G2, B2, G3, B3, G4, B4. Towards the end there was noticeably more current with the crews. Comments: Monsoon conditions after the first boat races. It really rained! A couple of races had crashes at the start and had to be re-started. 3rd boat boys started a length over the line.
-Thank you for the racing ST. Mark's!
-Another great day of racing on the mighty Nashua!
-Groton wins the Cooke Family Cup by winning 7 of the 8 races.
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=C6A098FB0E6D4DB0D2F142C9E75015A4&cat=5", random="random"]; 
-Nobles -> Groton[label="8.5 (9.44)
-04/22", weight="92", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
-Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
-For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
-3V had a delay due to steering breakage with Nobles boat
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=05316B43D68EB96907C1AF50E625F75C&cat=1", random="random"]; 
-Groton -> BBN[label="5.3 (5.89)
-04/22", weight="95", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
-Distance: 1350 M Conditions: Cool over cast with a cross wind of about 8 MPH at the start, conditions continued to improve. Comments: 4V right after the start Groton veered into BB&N, small clashing, but racing continued
-For the 2V the tour boat was on the course, some slight course corrections were made, did not affect the race outcome.
-3V had a delay due to steering breakage with Nobles boat
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=05316B43D68EB96907C1AF50E625F75C&cat=1", random="random"]; 
-Brooks -> Groton[label="6.5 (7.5)
-05/13", weight="94", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
-Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
-Groton -> NewtonCountryDay[label="15.3 (17.65)
-05/13", weight="85", tooltip="NEIRA Girls Fours,NCDS vs Groton vs Brooks			
-Distance: 1300 m Conditions: Consistent tail current, gusty/ changeable tail to tail-cross wind. All boats started over line: G3 and G1 1L over line; G4 2L over line; G2 4L over line. In G4, mild wake on course in Groton's lane w/300m to go
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=B9806BCD456F74690BCD66431A4C09D5&cat=1", random="random"]; 
-Groton -> Lincoln[label="36.9 (44.28)
-04/15", weight="64", tooltip="NEIRA Girls Fours,Lincoln at Groton School			
-Distance: 1250m Conditions: Perfect for all races Comments: A beautiful spring day for racing on the mighty Nashua. Thank you, Lincoln!
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=68C5B52F48A6DADC2D5F65DF47E51637&cat=1", random="random"]}
+digraph girls1foursGroton {Nobles [URL="girls1foursGrotonNobles.html"];BBN [URL="girls1foursGrotonBBN.html"];Groton [URL="girls1foursGrotonGroton.html"];Nobles -> Groton[label="0.1 (0.11)
+04/20", weight="100", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
+Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
+Girls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=61611297C2B5882317693DAB1794C8C4&cat=1", random="random"]; 
+Groton -> BBN[label="5.5 (6.11)
+04/20", weight="95", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
+Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
+Girls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=61611297C2B5882317693DAB1794C8C4&cat=1", random="random"]}

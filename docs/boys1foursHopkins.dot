@@ -1,0 +1,16 @@
+digraph boys1foursHopkins {NMH [URL="boys1foursHopkinsNMH.html"];KingSchool [URL="boys1foursHopkinsKingSchool.html"];Hopkins [URL="boys1foursHopkinsHopkins.html"];Pomfret [URL="boys1foursHopkinsPomfret.html"];BelmontHill [URL="boys1foursHopkinsBelmontHill.html"];BelmontHill -> Hopkins[label="6.4
+04/20", weight="94", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
+Hopkins -> NMH[label="3.8
+04/20", weight="97", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
+Hopkins -> Pomfret[label="9.3
+04/20", weight="91", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
+Hopkins -> KingSchool[label="6.7 (8.04)
+04/10", weight="94", tooltip="NEIRA Boys Fours,King School vs Hopkins			
+Distance: 1250m Conditions: All races: heavy cross head wind at slack tide Comments: Great racing by all crews!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3D50124C185A4165878004B90B4662FD&cat=1", random="random"]}

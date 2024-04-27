@@ -1,24 +1,4 @@
-digraph girls1foursBerkshireAcademy {BerkshireAcademy [URL="girls1foursBerkshireAcademyBerkshireAcademy.html"];GunnSchool [URL="girls1foursBerkshireAcademyGunnSchool.html"];BrewsterAcademy [URL="girls1foursBerkshireAcademyBrewsterAcademy.html"];MissPorters [URL="girls1foursBerkshireAcademyMissPorters.html"];Pomfret [URL="girls1foursBerkshireAcademyPomfret.html"];Hopkins [URL="girls1foursBerkshireAcademyHopkins.html"];Canterbury [URL="girls1foursBerkshireAcademyCanterbury.html"];MarianapolisPrep [URL="girls1foursBerkshireAcademyMarianapolisPrep.html"];LymeOldLyme [URL="girls1foursBerkshireAcademyLymeOldLyme.html"];Taft [URL="girls1foursBerkshireAcademyTaft.html"];Choate [URL="girls1foursBerkshireAcademyChoate.html"];GreenwichAcademy [URL="girls1foursBerkshireAcademyGreenwichAcademy.html"];Choate -> BerkshireAcademy[label="14.6
-05/20", weight="86", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-Taft -> BerkshireAcademy[label="13.4
-05/20", weight="87", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-GreenwichAcademy -> BerkshireAcademy[label="6.3
-05/20", weight="94", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-BerkshireAcademy -> GunnSchool[label="3.4
-05/20", weight="97", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-BerkshireAcademy -> MissPorters[label="26.8
-05/20", weight="74", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs. Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire			
-Distance: 1500m Conditions: Floating start. Light, consistent crosswind in the first half, giving way to calm water in the second half. Comments: Order of events: G6, G4, B2, B3, G3, G5, B4, G2, B1, G1
-None", URL="http://www.row2k.com/results/resultspage.cfm?UID=3C5AF72F03F8A5713EA3E1083EBCB57B&cat=5", random="random"]; 
-BrewsterAcademy -> BerkshireAcademy[label="33.0
+digraph girls1foursBerkshireAcademy {LymeOldLyme [URL="girls1foursBerkshireAcademyLymeOldLyme.html"];BrewsterAcademy [URL="girls1foursBerkshireAcademyBrewsterAcademy.html"];MarianapolisPrep [URL="girls1foursBerkshireAcademyMarianapolisPrep.html"];Pomfret [URL="girls1foursBerkshireAcademyPomfret.html"];Choate [URL="girls1foursBerkshireAcademyChoate.html"];BerkshireAcademy [URL="girls1foursBerkshireAcademyBerkshireAcademy.html"];GreenwichAcademy [URL="girls1foursBerkshireAcademyGreenwichAcademy.html"];Canterbury [URL="girls1foursBerkshireAcademyCanterbury.html"];Hopkins [URL="girls1foursBerkshireAcademyHopkins.html"];Taft [URL="girls1foursBerkshireAcademyTaft.html"];BrewsterAcademy -> BerkshireAcademy[label="33.0
 05/07", weight="67", tooltip="Founder's Day			
 NEIRA Boys and Girls Fours Conditions: It was a beautiful day for racing on Lake Waramaug. A light breeze prevailed for the majority of the day with a moderately strong headwind for the final 750m at the end of the morning heats. The temperature was 68 to 73 degrees. Many thanks to all the participating teams and their coaches.", URL="https://www.row2k.com/results/resultspage.cfm?UID=09AFDE4AA96F97D9C1939E6DDCBC4CCF", random="random"]; 
 LymeOldLyme -> BerkshireAcademy[label="32.4

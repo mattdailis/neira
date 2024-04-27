@@ -3,8 +3,10 @@ import urllib.request, urllib.error, urllib.parse
 import datetime
 from datetime import date
 import re
+from neiraschools import matchSchool
 import json
 import os
+import requests
 
 def scrapeRegatta(name, res_url, url):
     """
@@ -15,12 +17,18 @@ def scrapeRegatta(name, res_url, url):
     name = name.strip()
 
     # Open the url
-    html = urllib.request.urlopen(res_url+url)
+    html = requests.get(res_url+url).text
     soup = BeautifulSoup(html, features="html.parser")
 
     # Get the title of the page
-    title = soup.findAll("meta", { "name" : "description"})[0]['content']
-    dayString =  ','.join(title.split('-')[-2].split(',')[-2:])
+    try:
+        title = soup.findAll("meta", { "name" : "description"})[0]['content']
+        dayString =  ','.join(title.split('-')[-2].split(',')[-2:])
+    except Exception as e:
+        print(e)
+        #title = soup.findAll("meta", { "name" : "description"})[0]['content']
+        #dayString =  ','.join(title.split('-')[-2].split(',')[-2:])
+        dayString = " ".join((soup.findAll("title")[0].text.split("2024")[0] + "2024").split()[-3:])
 
     # Get the date of the event
     # day = getDate(dayString.strip())
@@ -35,8 +43,6 @@ def scrapeRegatta(name, res_url, url):
         comment += t.replace('<p>', "").replace('</br>', "").replace('</p>', "").strip()
     if comment == None:
         comment = ""
-
-    # import pdb; pdb.set_trace()
 
     # Guess the gender from the name, if possible. Else None
     gender = None
@@ -185,15 +191,16 @@ def getRaceUrls(res_html):
 # expected bug: when program terminates mid-scrape, should redo that url next time
 
 def main(year):
-    res_url = 'http://www.row2k.com'
-    res_html = urllib.request.urlopen(res_url+f"/results/index.cfm?league=NEIRA&year={year}")
+    res_url = 'https://www.row2k.com'
+    res_html = requests.get(res_url+f"/results/index.cfm?league=NEIRA&year={year}").text
+    #res_html = urllib.request.urlopen(res_url+f"/results/index.cfm?league=NEIRA&year={year}")
 
     urls_scraped = [] #getUrlsScraped()
     import pdb; 
     urls = getRaceUrls(res_html)
     count = 0
 
-    OVERWRITE = True
+    OVERWRITE = False
 
     total = len(urls)
 
@@ -211,4 +218,4 @@ def main(year):
                 print(f"{i}/{total}: Already scraped {race}")
 
 if __name__ == '__main__':
-    main(2023)
+    main(2024)
