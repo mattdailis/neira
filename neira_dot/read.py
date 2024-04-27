@@ -185,7 +185,7 @@ def main():
         for school in schools:
             viz(boat + school, boat + school, [edge for edge in edges if edge.first == school or edge.second == school])
 
-        with open('../docs/' + boat + '_topo.txt', 'w') as f:
+        with open('./docs/' + boat + '_topo.txt', 'w') as f:
             res, edges, tail = topo_sort(edges)
             for x in res:
                 print(x, file=f)

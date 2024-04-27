@@ -3,7 +3,6 @@ import urllib.request, urllib.error, urllib.parse
 import datetime
 from datetime import date
 import re
-from neiraschools import matchSchool
 import json
 import os
 import requests
