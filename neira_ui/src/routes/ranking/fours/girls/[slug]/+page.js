@@ -5,6 +5,7 @@ export async function load({ fetch, params }) {
 
 	const res = await fetch(`/dot/girls${params.slug}fours.csv`);
 	if (res.status != 200) error(404, 'Not found');
+
 	return { table: parseCSV(await (res.text())) };
 	// const item = await res.json();
 

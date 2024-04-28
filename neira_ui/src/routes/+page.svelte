@@ -25,7 +25,14 @@
       </div>
   </div>
 
-    <hr>
+  <hr>
+
+  <div class="w3-row-padding w3-margin-bottom">
+    <div class="w3-col s9">
+    <h5>Table pages [experimental]</h5>
+    <a href="{base}/ranking/fours/girls/1">Girls First Boat</a><br>
+    </div>
+</div>
 
     <div class="w3-row-padding w3-margin-bottom">
         <div class="w3-col s9">
