@@ -1,8 +1,8 @@
-digraph boys3foursPomfret {Groton [URL="boys3foursPomfretGroton.html"];BelmontHill [URL="boys3foursPomfretBelmontHill.html"];Taft [URL="boys3foursPomfretTaft.html"];MarianapolisPrep2 [URL="boys3foursPomfretMarianapolisPrep2.html"];Pomfret [URL="boys3foursPomfretPomfret.html"];Berkshire [URL="boys3foursPomfretBerkshire.html"];NMH [URL="boys3foursPomfretNMH.html"];Hopkins [URL="boys3foursPomfretHopkins.html"];BelmontHill -> Pomfret[label="48.5
+digraph boys3foursPomfret {BelmontHill [URL="boys3foursPomfretBelmontHill.html"];Groton [URL="boys3foursPomfretGroton.html"];Pomfret [URL="boys3foursPomfretPomfret.html"];Taft [URL="boys3foursPomfretTaft.html"];Berkshire [URL="boys3foursPomfretBerkshire.html"];Hopkins [URL="boys3foursPomfretHopkins.html"];NorthfieldMountHerman [URL="boys3foursPomfretNorthfieldMountHerman.html"];BelmontHill -> Pomfret[label="48.5
 04/20", weight="52", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
-NMH -> Pomfret[label="11.5
+NorthfieldMountHerman -> Pomfret[label="11.5
 04/20", weight="89", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
@@ -22,9 +22,5 @@ Winds made aligning starts challenging. Commendable job by aligner. B2 crews wer
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&cat=1", random="random"]; 
 Berkshire -> Pomfret[label="9.5
 04/24", weight="91", tooltip="NEIRA Boys Fours,Pomfret v. Berkshire, Marianapolis			
-Distance: 1500M Conditions: Swirling, gusty winds - 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, B4, B3, B2, B1 with girls' races in between.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&cat=1", random="random"]; 
-Pomfret -> MarianapolisPrep2[label="101.4
-04/24", weight="-1", tooltip="NEIRA Boys Fours,Pomfret v. Berkshire, Marianapolis			
 Distance: 1500M Conditions: Swirling, gusty winds - 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, B4, B3, B2, B1 with girls' races in between.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&cat=1", random="random"]}

@@ -1,0 +1,57 @@
+{
+    "comment": "\nDistance: 1500 Conditions: Boys Varsity 1- strong tail current, S winds at 3 mph, moderate chop\nGirls Varsity 2- strong tail current, winds at 5 mph, significant chop\nBoys Varsity 2- strong tail current, wind gusts at 18 mph, significant chop\n\nNone",
+    "day": "April 17, 2024",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "school": "Middletown",
+                    "time": "5:12.2"
+                },
+                {
+                    "school": "Suffield",
+                    "time": "5.20.8"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "school": "Middletown",
+                    "time": "6.10.9"
+                },
+                {
+                    "school": "Suffield",
+                    "time": "6:31.9"
+                },
+                {
+                    "school": "Middletown",
+                    "time": "6:50.2"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "school": "Middletown",
+                    "time": "5:41.3"
+                },
+                {
+                    "school": "Suffield",
+                    "time": "6:32.2"
+                }
+            ],
+            "varsity_index": "3"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys Fours,Suffield Academy and Middletown",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=AC683D5136F31AD9F0E016CDFC3F0E3D&cat=1"
+}
