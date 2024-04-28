@@ -78,6 +78,7 @@ def getNeiraSchools():
         "Eagle Hill": [],
         "Forman": [],
         "Greenwich Academy": ['GA', 'Greenwich A', 'Greenwich Acad', 'Greenwich'],
+        "Greenwich Country Day": [],
         "Groton": [],
         "Gunn School": ["The Frederick Gunn School", "Gunnery", "The Gunnery", "Gunn", "Frederick Gunn"],
         "Hopkins": ["Hop"],
