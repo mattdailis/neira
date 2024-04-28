@@ -1,4 +1,4 @@
-digraph girls2foursGreenwichAcademy {Canterbury [URL="girls2foursGreenwichAcademyCanterbury.html"];MissPorters [URL="girls2foursGreenwichAcademyMissPorters.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademyGreenwichAcademy.html"];LymeOldLyme [URL="girls2foursGreenwichAcademyLymeOldLyme.html"];LymeOldLyme -> GreenwichAcademy[label="8.5
+digraph girls2foursGreenwichAcademy {LymeOldLyme [URL="girls2foursGreenwichAcademyLymeOldLyme.html"];Canterbury [URL="girls2foursGreenwichAcademyCanterbury.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademyGreenwichAcademy.html"];MissPorters [URL="girls2foursGreenwichAcademyMissPorters.html"];LymeOldLyme -> GreenwichAcademy[label="8.5
 04/27", weight="92", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
 Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
