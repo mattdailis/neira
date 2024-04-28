@@ -1,0 +1,16 @@
+digraph girls1foursGreenwichAcademy {MissPorters [URL="girls1foursGreenwichAcademyMissPorters.html"];Canterbury [URL="girls1foursGreenwichAcademyCanterbury.html"];FrederickGunn [URL="girls1foursGreenwichAcademyFrederickGunn.html"];GreenwichAcademy [URL="girls1foursGreenwichAcademyGreenwichAcademy.html"];LymeOldLyme [URL="girls1foursGreenwichAcademyLymeOldLyme.html"];LymeOldLyme -> GreenwichAcademy[label="7.7
+04/27", weight="93", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+FrederickGunn -> GreenwichAcademy[label="5.7
+04/27", weight="95", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+Canterbury -> GreenwichAcademy[label="3.7
+04/27", weight="97", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+GreenwichAcademy -> MissPorters[label="11.7
+04/27", weight="89", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]}

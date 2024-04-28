@@ -1,0 +1,8 @@
+digraph girls2foursEastLyme {Stonington [URL="girls2foursEastLymeStonington.html"];LymeOldLyme [URL="girls2foursEastLymeLymeOldLyme.html"];EastLyme [URL="girls2foursEastLymeEastLyme.html"];Stonington -> EastLyme[label="29.5
+04/20", weight="71", tooltip="Lyme/Old Lyme, Stonington, East Lyme			
+Distance: 1500m - Novice were 1000m Conditions: Rain intermittently. Very flat, very low wind. Slight tail current. Comments: Girls novice 4 ended up being a a little under 1000m with drifting at the start
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=622A605D840C2B57865CD47A05BAB2CD&cat=5", random="random"]; 
+LymeOldLyme -> EastLyme[label="26.3
+04/20", weight="74", tooltip="Lyme/Old Lyme, Stonington, East Lyme			
+Distance: 1500m - Novice were 1000m Conditions: Rain intermittently. Very flat, very low wind. Slight tail current. Comments: Girls novice 4 ended up being a a little under 1000m with drifting at the start
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=622A605D840C2B57865CD47A05BAB2CD&cat=5", random="random"]}

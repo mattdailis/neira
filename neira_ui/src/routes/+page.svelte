@@ -47,12 +47,12 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row-padding w3-margin-bottom">
         <div class="w3-col s9">
         <h3>Girls Fours</h3>
-        <a href="https://mattdailis.github.io/neira/dot/girls1fours.html">First Boat</a> (<a href="https://mattdailis.github.io/neira/dot/girls1fours_topo.txt">topo</a>)<br>
-        <a href="https://mattdailis.github.io/neira/dot/girls2fours.html">Second Boat</a> (<a href="https://mattdailis.github.io/neira/dot/girls2fours_topo.txt">topo</a>)<br>
-        <a href="https://mattdailis.github.io/neira/dot/girls3fours.html">Third Boat</a> (<a href="https://mattdailis.github.io/neira/dot/girls3fours_topo.txt">topo</a>)<br>
-        <a href="https://mattdailis.github.io/neira/dot/girls4fours.html">Fourth Boat</a> (<a href="https://mattdailis.github.io/neira/dot/girls4fours_topo.txt">topo</a>)<br>
-        <a href="https://mattdailis.github.io/neira/dot/girls5fours.html">Fifth Boat</a> (<a href="https://mattdailis.github.io/neira/dot/girls5fours_topo.txt">topo</a>)<br>
-        <a href="https://mattdailis.github.io/neira/dot/girls6fours.html">Sixth Boat</a> (<a href="https://mattdailis.github.io/neira/dot/girls6fours_topo.txt">topo</a>)<br>
+        <a href="{base}/dot/girls1fours.html">First Boat</a> (<a href="{base}/dot/girls1fours_topo.txt">topo</a>)<br>
+        <a href="{base}/dot/girls2fours.html">Second Boat</a> (<a href="{base}/dot/girls2fours_topo.txt">topo</a>)<br>
+        <a href="{base}/dot/girls3fours.html">Third Boat</a> (<a href="{base}/dot/girls3fours_topo.txt">topo</a>)<br>
+        <a href="{base}/dot/girls4fours.html">Fourth Boat</a> (<a href="{base}/dot/girls4fours_topo.txt">topo</a>)<br>
+        <a href="{base}/dot/girls5fours.html">Fifth Boat</a> (<a href="{base}/dot/girls5fours_topo.txt">topo</a>)<br>
+        <a href="{base}/dot/girls6fours.html">Sixth Boat</a> (<a href="{base}/dot/girls6fours_topo.txt">topo</a>)<br>
         </div>
     </div>
 
@@ -63,8 +63,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         <h3>About</h3>
         <h4>Purpose and target audience</h4>
         <p>The purpose of this website is to visualize data from row2k to help
-            the NEIRA seeding committee do their job. At this time it is specifically intended for use
-            by the NEIRA Girls Fours seeding committee, but if there is interest it can be expanded to
+            the NEIRA seeding committee do their job. At this time, it is specifically intended for use
+            by the NEIRA Girls Fours seeding committee, but if there is sufficient interest it can be expanded to
             support other NEIRA committees, coaches, and rowers.
         </p>
 
@@ -74,7 +74,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             <a href="https://www.row2k.com/results/index.cfm?league=NEIRA&year=2024">https://www.row2k.com/results/index.cfm?league=NEIRA&year=2024</a>.
             Any mistakes found in the data should be corrected on the row2k website, since that is the authoritative source of information.
         </p>
-        <p>If you find that row2k is correct, but this site is wrong, please let us know by filing an <a href="https://github.com/mattdailis/neira/issues/new">issue</a>.</p>
+        <p>If you find that row2k is correct, but this site is wrong, please let us know by opening an <a href="https://github.com/mattdailis/neira/issues/new">issue</a>.</p>
     </div>
     </div>
 

@@ -1,0 +1,14 @@
+digraph boys2foursBerkshire {Taft [URL="boys2foursBerkshireTaft.html"];Choate [URL="boys2foursBerkshireChoate.html"];Pomfret [URL="boys2foursBerkshirePomfret.html"];Berkshire [URL="boys2foursBerkshireBerkshire.html"];Taft -> Berkshire[label="2.55
+04/20", weight="98", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
+Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
+Thanks to Taft and Choate for some great racing in ideal conditions.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&cat=5", random="random"]; 
+Berkshire -> Choate[label="12.01
+04/20", weight="88", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
+Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
+Thanks to Taft and Choate for some great racing in ideal conditions.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&cat=5", random="random"]; 
+Pomfret -> Berkshire[label="7.2
+04/24", weight="93", tooltip="NEIRA Boys Fours,Pomfret v. Berkshire, Marianapolis			
+Distance: 1500M Conditions: Swirling, gusty winds - 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, B4, B3, B2, B1 with girls' races in between.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&cat=1", random="random"]}

@@ -1,0 +1,25 @@
+digraph girls1foursLymeOldLyme {MissPorters [URL="girls1foursLymeOldLymeMissPorters.html"];Stonington [URL="girls1foursLymeOldLymeStonington.html"];Canterbury [URL="girls1foursLymeOldLymeCanterbury.html"];FrederickGunn [URL="girls1foursLymeOldLymeFrederickGunn.html"];GreenwichAcademy [URL="girls1foursLymeOldLymeGreenwichAcademy.html"];LymeOldLyme [URL="girls1foursLymeOldLymeLymeOldLyme.html"];Valley [URL="girls1foursLymeOldLymeValley.html"];LymeOldLyme -> Stonington[label="16.6
+04/20", weight="84", tooltip="Lyme/Old Lyme, Stonington, East Lyme			
+Distance: 1500m - Novice were 1000m Conditions: Rain intermittently. Very flat, very low wind. Slight tail current. Comments: Girls novice 4 ended up being a a little under 1000m with drifting at the start
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=622A605D840C2B57865CD47A05BAB2CD&cat=5", random="random"]; 
+LymeOldLyme -> Valley[label="23.4
+04/24", weight="77", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Valley			
+Distance: 1500 Conditions: 4 MPH head wind, ending at a 6mph headwind by the last race (G2V4) Comments: Lyme Old Lyme raced 3 boys varsity 4s but only the 1V4 was against a NEIRA program.
+Lyme Old Lyme also raced a 3V4 girls in the 2V4 race and the time is recorded in the third boat time.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B538421DF95D95D5523F6EF4CB5CD04&cat=5", random="random"]; 
+LymeOldLyme -> FrederickGunn[label="2.0
+04/27", weight="98", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+LymeOldLyme -> Canterbury[label="4.0
+04/27", weight="96", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+LymeOldLyme -> GreenwichAcademy[label="7.7
+04/27", weight="93", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+LymeOldLyme -> MissPorters[label="19.4
+04/27", weight="81", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]}
