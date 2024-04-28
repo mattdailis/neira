@@ -74,7 +74,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             <a href="https://www.row2k.com/results/index.cfm?league=NEIRA&year=2024">https://www.row2k.com/results/index.cfm?league=NEIRA&year=2024</a>.
             Any mistakes found in the data should be corrected on the row2k website, since that is the authoritative source of information.
         </p>
-        <p>If you find that row2k is correct, but this site is wrong, please let us know by filing an <a href="github.com/mattdailis/neira/issues/new">issue</a>.</p>
+        <p>If you find that row2k is correct, but this site is wrong, please let us know by filing an <a href="https://github.com/mattdailis/neira/issues/new">issue</a>.</p>
     </div>
     </div>
 
