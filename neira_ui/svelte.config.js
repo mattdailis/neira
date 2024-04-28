@@ -10,6 +10,9 @@ const config = {
 	},
 	paths: {
 		base: "https://mattdailis.github.io/neira/svelte"
+	},
+	prerender: {
+		handleHttpError: 'warn'
 	}
 };
 

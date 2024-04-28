@@ -98,15 +98,15 @@ def genHtml(name, graph):
 
     #os.system("dot -T gif -O ../bin/"+name+".dot")
     #os.system("dot -T svg -O ../bin/"+name+".dot")
-    os.system('dot -Tcmapx -O ./docs/'+name+'.dot -Tgif -O ./docs/'+name+'.dot')
+    os.system('dot -Tcmapx -O ./dot/'+name+'.dot -Tgif -O ./dot/'+name+'.dot')
 
 
     # modal = open("html\\css\\modal.html", "r")
     # modalStr = modal.read()
     # modal.close()
 
-    target = open("./docs/"+name+".html", 'w+')
-    map = open("./docs/"+name+".dot.cmapx", "r")
+    target = open("./dot/"+name+".html", 'w+')
+    map = open("./dot/"+name+".dot.cmapx", "r")
     mapTag = map.read()
     map.close()
     mapTag = modMap(mapTag, name)
@@ -156,6 +156,6 @@ def viz(name, url, orders):
     nodes = getNodes(orders)
     for node in nodes:
         links[node] = nodeName(name)+nodeName(node)
-    genDot("./docs/"+graphName(url)+".dot", pairsToDot(name, orders, links=links))
+    genDot("./dot/"+graphName(url)+".dot", pairsToDot(name, orders, links=links))
     genHtml(graphName(url), name)
     #genPdf("gv/"+nodeName(name)+".gv", "pdf/"+nodeName(name)+".pdf")

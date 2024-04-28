@@ -1,0 +1,12 @@
+digraph girls3foursBerwickMixedB {BrewsterMixedB [URL="girls3foursBerwickMixedBBrewsterMixedB.html"];BerwickMixedA [URL="girls3foursBerwickMixedBBerwickMixedA.html"];BrewsterMixedA [URL="girls3foursBerwickMixedBBrewsterMixedA.html"];BerwickMixedB [URL="girls3foursBerwickMixedBBerwickMixedB.html"];BrewsterMixedA -> BerwickMixedB[label="18.7
+04/13", weight="82", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
+Distance: 1500 Conditions: Tail Current with a strong tail/cross wind with occasional gusts. Fun conditions for first race of the season! Thank you for Brewster for making the trip. Comments: Mixed boats were exhibition events and a combo of boys and girls of various skill levels - anything to get some new rowers more racing experience!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=193F4296CB862153CF0FD21B95E6AB20&cat=5", random="random"]; 
+BerwickMixedA -> BerwickMixedB[label="4.8
+04/13", weight="96", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
+Distance: 1500 Conditions: Tail Current with a strong tail/cross wind with occasional gusts. Fun conditions for first race of the season! Thank you for Brewster for making the trip. Comments: Mixed boats were exhibition events and a combo of boys and girls of various skill levels - anything to get some new rowers more racing experience!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=193F4296CB862153CF0FD21B95E6AB20&cat=5", random="random"]; 
+BerwickMixedB -> BrewsterMixedB[label="18.6
+04/13", weight="82", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
+Distance: 1500 Conditions: Tail Current with a strong tail/cross wind with occasional gusts. Fun conditions for first race of the season! Thank you for Brewster for making the trip. Comments: Mixed boats were exhibition events and a combo of boys and girls of various skill levels - anything to get some new rowers more racing experience!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=193F4296CB862153CF0FD21B95E6AB20&cat=5", random="random"]}
