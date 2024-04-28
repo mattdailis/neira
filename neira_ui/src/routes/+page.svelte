@@ -15,7 +15,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- Top container -->
 <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
-  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+  <!-- <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button> -->
   <span class="w3-bar-item w3-right">neira</span>
 </div>
 
@@ -45,7 +45,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px;margin-top:43px;">
     <div class="w3-row-padding w3-margin-bottom">
-    <h2>Girls Fours:</h2>
+    <h3>Girls Fours</h3>
     <a href="https://mattdailis.github.io/neira/dot/girls1fours.html">First Boat</a> (<a href="https://mattdailis.github.io/neira/dot/girls1fours_topo.txt">topo</a>)<br>
     <a href="https://mattdailis.github.io/neira/dot/girls2fours.html">Second Boat</a> (<a href="https://mattdailis.github.io/neira/dot/girls2fours_topo.txt">topo</a>)<br>
     <a href="https://mattdailis.github.io/neira/dot/girls3fours.html">Third Boat</a> (<a href="https://mattdailis.github.io/neira/dot/girls3fours_topo.txt">topo</a>)<br>
