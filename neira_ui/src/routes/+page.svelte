@@ -55,6 +55,18 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         <a href="{base}/dot/girls6fours.html">Sixth Boat</a> (<a href="{base}/dot/girls6fours_topo.txt">topo</a>)<br>
         </div>
     </div>
+    
+    <div class="w3-row-padding w3-margin-bottom">
+      <div class="w3-col s9">
+      <h3>Boys Fours</h3>
+      <a href="{base}/dot/boys1fours.html">First Boat</a> (<a href="{base}/dot/boys1fours_topo.txt">topo</a>)<br>
+      <a href="{base}/dot/boys2fours.html">Second Boat</a> (<a href="{base}/dot/boys2fours_topo.txt">topo</a>)<br>
+      <a href="{base}/dot/boys3fours.html">Third Boat</a> (<a href="{base}/dot/boys3fours_topo.txt">topo</a>)<br>
+      <a href="{base}/dot/boys4fours.html">Fourth Boat</a> (<a href="{base}/dot/boys4fours_topo.txt">topo</a>)<br>
+      <a href="{base}/dot/boys5fours.html">Fifth Boat</a> (<a href="{base}/dot/boys5fours_topo.txt">topo</a>)<br>
+      <a href="{base}/dot/boys6fours.html">Sixth Boat</a> (<a href="{base}/dot/boys6fours_topo.txt">topo</a>)<br>
+      </div>
+  </div>
 
     <hr>
 

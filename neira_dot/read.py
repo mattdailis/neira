@@ -93,8 +93,8 @@ def main(data, out):
             heat_results = heat["results"] # assume they're ordered?
 
             # Ignore anything that isn't Girls Fours
-            if gender != "girls":
-                continue
+            # if gender != "girls":
+            #     continue
 
             if class_ != "fours":
                 continue

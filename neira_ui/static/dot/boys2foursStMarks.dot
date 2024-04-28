@@ -1,4 +1,4 @@
-digraph boys2foursStMarks {Middlesex [URL="boys2foursStMarksMiddlesex.html"];Brooks [URL="boys2foursStMarksBrooks.html"];NorthfieldMountHerman [URL="boys2foursStMarksNorthfieldMountHerman.html"];StMarks [URL="boys2foursStMarksStMarks.html"];WorcesterAcademy [URL="boys2foursStMarksWorcesterAcademy.html"];Brooks -> StMarks[label="17.2
+digraph boys2foursStMarks {StMarks [URL="boys2foursStMarksStMarks.html"];Middlesex [URL="boys2foursStMarksMiddlesex.html"];Brooks [URL="boys2foursStMarksBrooks.html"];NMH [URL="boys2foursStMarksNMH.html"];WorcesterAcademy [URL="boys2foursStMarksWorcesterAcademy.html"];Brooks -> StMarks[label="17.2
 04/20", weight="83", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 
@@ -6,7 +6,7 @@ Middlesex -> StMarks[label="0.5
 04/20", weight="100", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 
-NorthfieldMountHerman -> StMarks[label="29.0
+NMH -> StMarks[label="29.0
 04/13", weight="71", tooltip="NEIRA Boys & Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
 Distance: 1500m Conditions: A prevailing 12-14mph crosswind shifting to a cross/tail for some races. Two small short-lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3-G4-B2-G1-B1-G2-G3. There was no B4 race. Races aren't comparable because of very shifty conditions. Boys 2V started 50m over the line.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&cat=5", random="random"]; 

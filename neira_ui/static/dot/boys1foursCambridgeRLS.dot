@@ -1,0 +1,8 @@
+digraph boys1foursCambridgeRLS {Thayer [URL="boys1foursCambridgeRLSThayer.html"];BBN [URL="boys1foursCambridgeRLSBBN.html"];CambridgeRLS [URL="boys1foursCambridgeRLSCambridgeRLS.html"];CambridgeRLS -> BBN[label="0.87 (0.97)
+04/13", weight="100", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
+Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&cat=5", random="random"]; 
+CambridgeRLS -> Thayer[label="40.85 (45.39)
+04/17", weight="60", tooltip="NEIRA Boys Fours,CRLS vs Thayer Academy, BU Academy			
+Distance: 1350 Conditions: Cross headwind for first 2/3 of race, mellowing out in the last 1/3. Comments: Thanks to BU Academy for joining, and thanks to Thayer for making the trip. Excellent effort from all crews.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5AC13C0A039EE6AFC8E97E47C247F44E&cat=1", random="random"]}
