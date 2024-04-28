@@ -7,6 +7,8 @@ import json
 import os
 import requests
 
+import click
+
 def scrapeRegatta(name, res_url, url):
     """
     Given the name of the regatta (From the list of regattas) and the link to the row2k page for that regatta,
@@ -189,7 +191,11 @@ def getRaceUrls(res_html):
 
 # expected bug: when program terminates mid-scrape, should redo that url next time
 
-def main(year):
+@click.command()
+@click.argument("out")
+def main(out):
+    out_dir = out
+    year = 2024
     res_url = 'https://www.row2k.com'
     res_html = requests.get(res_url+f"/results/index.cfm?league=NEIRA&year={year}").text
     #res_html = urllib.request.urlopen(res_url+f"/results/index.cfm?league=NEIRA&year={year}")
@@ -207,7 +213,7 @@ def main(year):
         for i, (race, url) in enumerate(urls):
             i = i + 1
             uid = re.match( r'.*UID=([0-9|A-Z]+)', url, re.M|re.I).group(1)
-            filename = "data/{}.json".format(uid)
+            filename = os.path.join(out_dir, "{}.json".format(uid))
             if OVERWRITE or not os.path.isfile(filename):
                 print(f"Scraping {i}/{total}: {race}")
                 race_object = scrapeRegatta(race, res_url, url)
@@ -217,4 +223,4 @@ def main(year):
                 print(f"{i}/{total}: Already scraped {race}")
 
 if __name__ == '__main__':
-    main(2024)
+    main()

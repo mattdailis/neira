@@ -1,8 +1,16 @@
-digraph boys1foursCambridgeRLS {Thayer [URL="boys1foursCambridgeRLSThayer.html"];BBN [URL="boys1foursCambridgeRLSBBN.html"];CambridgeRLS [URL="boys1foursCambridgeRLSCambridgeRLS.html"];CambridgeRLS -> BBN[label="0.87 (0.97)
+digraph boys1foursCambridgeRLS {Brooks [URL="boys1foursCambridgeRLSBrooks.html"];CambridgeRLS [URL="boys1foursCambridgeRLSCambridgeRLS.html"];Thayer [URL="boys1foursCambridgeRLSThayer.html"];NMH [URL="boys1foursCambridgeRLSNMH.html"];BBN [URL="boys1foursCambridgeRLSBBN.html"];CambridgeRLS -> BBN[label="0.87 (0.97)
 04/13", weight="100", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
 Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&cat=5", random="random"]; 
 CambridgeRLS -> Thayer[label="40.85 (45.39)
 04/17", weight="60", tooltip="NEIRA Boys Fours,CRLS vs Thayer Academy, BU Academy			
 Distance: 1350 Conditions: Cross headwind for first 2/3 of race, mellowing out in the last 1/3. Comments: Thanks to BU Academy for joining, and thanks to Thayer for making the trip. Excellent effort from all crews.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5AC13C0A039EE6AFC8E97E47C247F44E&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5AC13C0A039EE6AFC8E97E47C247F44E&cat=1", random="random"]; 
+Brooks -> CambridgeRLS[label="3.7
+04/27", weight="97", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
+CambridgeRLS -> NMH[label="0.3
+04/27", weight="100", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]}

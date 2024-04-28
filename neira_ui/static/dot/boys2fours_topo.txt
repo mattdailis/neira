@@ -1,7 +1,9 @@
-{'NMH', 'Berwick', 'Nobles', 'King School'}
-{'Hopkins', 'Derryfield', 'Groton', 'Brooks'}
-{'Middlesex', 'Pomfret', 'BB&N'}
-{'Taft', "St. Mark's"}
-{'Berkshire Academy', 'Worcester Academy'}
+{'Nobles', 'NMH', 'Berwick', 'King School', 'Winsor'}
+{'Groton', 'Derryfield', 'Hopkins', 'Brooks'}
+{'Middlesex', 'BB&N'}
+{"St. Mark's"}
+{'Worcester Academy'}
 {'Medford'}
-{'Marianapolis Prep', 'Cambridge RLS', "St. Mary's - Lynn", 'Choate'}
+Cycle detected: {'Pomfret', 'Taft'}
+{'Berkshire Academy'}
+{'Choate'}

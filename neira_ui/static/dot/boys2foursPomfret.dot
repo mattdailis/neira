@@ -1,4 +1,4 @@
-digraph boys2foursPomfret {Hopkins [URL="boys2foursPomfretHopkins.html"];Pomfret [URL="boys2foursPomfretPomfret.html"];Taft [URL="boys2foursPomfretTaft.html"];Groton [URL="boys2foursPomfretGroton.html"];NMH [URL="boys2foursPomfretNMH.html"];BerkshireAcademy [URL="boys2foursPomfretBerkshireAcademy.html"];NMH -> Pomfret[label="22.8
+digraph boys2foursPomfret {Groton [URL="boys2foursPomfretGroton.html"];BerkshireAcademy [URL="boys2foursPomfretBerkshireAcademy.html"];NMH [URL="boys2foursPomfretNMH.html"];Taft [URL="boys2foursPomfretTaft.html"];Hopkins [URL="boys2foursPomfretHopkins.html"];Pomfret [URL="boys2foursPomfretPomfret.html"];NMH -> Pomfret[label="22.8
 04/20", weight="78", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
@@ -6,6 +6,14 @@ Hopkins -> Pomfret[label="2.4
 04/20", weight="98", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
+Groton -> Pomfret[label="69.4
+04/27", weight="31", tooltip="NEIRA,Pomfret vs. Groton, Taft			
+Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&cat=1", random="random"]; 
+Taft -> Pomfret[label="46.9
+04/27", weight="54", tooltip="NEIRA,Pomfret vs. Groton, Taft			
+Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&cat=1", random="random"]; 
 Groton -> Pomfret[label="10.9
 04/27", weight="90", tooltip="NEIRA Boys ,Pomfret v. Groton, Taft			
 Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls' races interspersed).

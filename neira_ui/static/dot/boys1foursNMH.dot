@@ -1,4 +1,4 @@
-digraph boys1foursNMH {Hopkins [URL="boys1foursNMHHopkins.html"];StMarks [URL="boys1foursNMHStMarks.html"];Pomfret [URL="boys1foursNMHPomfret.html"];GunnSchool [URL="boys1foursNMHGunnSchool.html"];Bancroft [URL="boys1foursNMHBancroft.html"];NMH [URL="boys1foursNMHNMH.html"];WorcesterAcademy [URL="boys1foursNMHWorcesterAcademy.html"];Hopkins -> NMH[label="3.8
+digraph boys1foursNMH {WorcesterAcademy [URL="boys1foursNMHWorcesterAcademy.html"];GunnSchool [URL="boys1foursNMHGunnSchool.html"];Brooks [URL="boys1foursNMHBrooks.html"];CambridgeRLS [URL="boys1foursNMHCambridgeRLS.html"];StMarks [URL="boys1foursNMHStMarks.html"];Bancroft [URL="boys1foursNMHBancroft.html"];NMH [URL="boys1foursNMHNMH.html"];Hopkins [URL="boys1foursNMHHopkins.html"];Pomfret [URL="boys1foursNMHPomfret.html"];Hopkins -> NMH[label="3.8
 04/20", weight="97", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
@@ -6,6 +6,14 @@ NMH -> Pomfret[label="5.5
 04/20", weight="95", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
+Brooks -> NMH[label="4.0
+04/27", weight="96", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
+CambridgeRLS -> NMH[label="0.3
+04/27", weight="100", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
 NMH -> StMarks[label="7.0
 04/13", weight="93", tooltip="NEIRA Boys & Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
 Distance: 1500m Conditions: A prevailing 12-14mph crosswind shifting to a cross/tail for some races. Two small short-lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3-G4-B2-G1-B1-G2-G3. There was no B4 race. Races aren't comparable because of very shifty conditions. Boys 2V started 50m over the line.
