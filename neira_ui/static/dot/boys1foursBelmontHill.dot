@@ -1,8 +1,8 @@
-digraph boys1foursBelmontHill {NMH [URL="boys1foursBelmontHillNMH.html"];BelmontHill [URL="boys1foursBelmontHillBelmontHill.html"];Hopkins [URL="boys1foursBelmontHillHopkins.html"];Pomfret [URL="boys1foursBelmontHillPomfret.html"];BelmontHill -> Hopkins[label="6.4
+digraph boys1foursBelmontHill {Pomfret [URL="boys1foursBelmontHillPomfret.html"];NorthfieldMountHerman [URL="boys1foursBelmontHillNorthfieldMountHerman.html"];BelmontHill [URL="boys1foursBelmontHillBelmontHill.html"];Hopkins [URL="boys1foursBelmontHillHopkins.html"];BelmontHill -> Hopkins[label="6.4
 04/20", weight="94", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
-BelmontHill -> NMH[label="10.2
+BelmontHill -> NorthfieldMountHerman[label="10.2
 04/20", weight="90", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 

@@ -92,21 +92,21 @@ def genPdf(src, dst):
     print("dst", dst)
     #os.system("graphviz\\release\\bin\\dot.exe -Tpdf " + src + " -o " + dst)
 
-def genHtml(name, graph):
+def genHtml(out_dir, name, graph):
     print("generating", name)
     #os.system("graphviz\\release\\bin\\dot.exe -Tcmapx -ohtml\\map\\"+name+".map -Tgif -ohtml\\gif\\"+name+".gif gv\\"+name+".gv")
 
     #os.system("dot -T gif -O ../bin/"+name+".dot")
     #os.system("dot -T svg -O ../bin/"+name+".dot")
-    os.system('dot -Tcmapx -O ./dot/'+name+'.dot -Tgif -O ./dot/'+name+'.dot')
+    os.system('dot -Tcmapx -O ' + os.path.join(out_dir, name+'.dot') + ' -Tgif -O ' + os.path.join(out_dir, name+'.dot'))
 
 
     # modal = open("html\\css\\modal.html", "r")
     # modalStr = modal.read()
     # modal.close()
 
-    target = open("./dot/"+name+".html", 'w+')
-    map = open("./dot/"+name+".dot.cmapx", "r")
+    target = open(os.path.join(out_dir, name+".html"), 'w+')
+    map = open(os.path.join(out_dir, name+".dot.cmapx"), "r")
     mapTag = map.read()
     map.close()
     mapTag = modMap(mapTag, name)
@@ -120,7 +120,7 @@ def genHtml(name, graph):
     target.write('<link href="css/gui.css" rel="stylesheet">')
     target.write('</head>')
     target.write('<body>')
-    target.write('<a href="../index.html">Back to index</a>')
+    target.write('<a href="./index.html">Back to index</a>')
     if name != graph:
         target.write('<br />')
         target.write('<a href="'+graph+'.html">Back to '+graph+'</a>')
@@ -150,12 +150,12 @@ def modMap(map, name):
             #area['onclick'] = "alert('"+area['title'].replace('\n', '\\n')+"'); stopPropagation()"
     return soup.prettify().encode('utf-8').decode()
 
-def viz(name, url, orders):
+def viz(out_dir, name, url, orders):
     # genJs("gui.js", name, pairsToDot(name, orders))
     links = {}
     nodes = getNodes(orders)
     for node in nodes:
         links[node] = nodeName(name)+nodeName(node)
-    genDot("./dot/"+graphName(url)+".dot", pairsToDot(name, orders, links=links))
-    genHtml(graphName(url), name)
+    genDot(os.path.join(out_dir, graphName(url)+".dot"), pairsToDot(name, orders, links=links))
+    genHtml(out_dir, graphName(url), name)
     #genPdf("gv/"+nodeName(name)+".gv", "pdf/"+nodeName(name)+".pdf")

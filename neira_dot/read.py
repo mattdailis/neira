@@ -1,17 +1,16 @@
+import datetime
 import json
 import os
-import urllib.request, urllib.parse, urllib.error
 
-from datetime import date
-import datetime
-from toDot import viz
+import numpy as np
+from scipy.linalg import eig
+
 from associationList import Edge
-from associationList import removeCycles
-from associationList import markCycles
 from associationList import getNodes
-from graph import fromAssociationList
-from chains import seed
 from neiraschools import matchSchool, matched, unmatched
+from toDot import viz
+
+import click
 
 def sorter(string):
     string = string.lower()
@@ -55,11 +54,22 @@ def cleanTime(string):
         res = parts[0] + ":" + ".".join(parts[1:])
     return res
 
-def main():
+@click.command()
+@click.argument("data")
+@click.argument("out")
+def main(data, out):
+    """
+    Read data from DATA and write output to OUT
+    """
+    data_dir = data
+    out_dir = out
+    del data
+    del out
+
     results = []
-    for filename in os.listdir('data'):
+    for filename in os.listdir(data_dir):
         print("Processing", filename)
-        with open(f"data/{filename}", "r") as f:
+        with open(os.path.join(data_dir, filename), "r") as f:
             scraped_json = json.load(f)
         day = scraped_json["day"]
 
@@ -81,6 +91,13 @@ def main():
             gender = heat["gender"]
             varsity_index = heat["varsity_index"]
             heat_results = heat["results"] # assume they're ordered?
+
+            # Ignore anything that isn't Girls Fours
+            if gender != "girls":
+                continue
+
+            if class_ != "fours":
+                continue
 
             boatName = gender + str(varsity_index) + class_
 
@@ -121,10 +138,10 @@ def main():
                     continue
                 fasterSchoolName = fasterSchool
                 if fasterSchoolBoatNum != varsity_index:
-                    fasterSchoolName += " " + str(fasterSchoolBoatNum)
+                    continue  # ignore any boats that aren't in the right heat
                 slowerSchoolName = slowerSchool
                 if slowerSchoolBoatNum != varsity_index:
-                    slowerSchoolName += " " + str(slowerSchoolBoatNum)
+                    continue  # ignore any boats that aren't in the right heat
                 results.append((
                     date.strftime("%Y-%m-%d"),
                     gender,
@@ -177,25 +194,29 @@ def main():
         if "eight" in boat:
             continue
         edges = orders[boat]
-        viz(boat, boat, edges)
-
+        viz(out_dir, boat, boat, edges)
+        
         schools = {x.first for x in edges}
         schools.update({x.second for x in edges})
-
+        
         for school in schools:
-            viz(boat + school, boat + school, [edge for edge in edges if edge.first == school or edge.second == school])
-
-        with open('./dot/' + boat + '_topo.txt', 'w') as f:
+            viz(out_dir, boat + school, boat + school, [edge for edge in edges if edge.first == school or edge.second == school])
+        
+        with open(os.path.join(out_dir, boat + '_topo.txt'), 'w') as f:
             res, edges, tail = topo_sort(edges)
             for x in res:
                 print(x, file=f)
-            
+        
             if edges:
                 print("Cycle detected: ", file=f, end="")
                 print(edges, file=f)
-            
+        
             for x in tail:
                 print(x, file=f)
+
+        with open(os.path.join(out_dir, boat + '.csv'), 'w') as f:
+            for row in gen_matrix(orders[boat], None):
+                print(','.join(map(str, row)), file=f)
 
             #print()
 
@@ -225,7 +246,7 @@ def get_neighbors(edges, x):
         if edge.first == x:
             neighbors.append((edge.second, edge.margin))
         if edge.second == x:
-            neighbors.append((edge.first, edge.margin))
+            neighbors.append((edge.first, -edge.margin))
     return neighbors
             
 # def all_paths(edges, x, y):
@@ -273,6 +294,75 @@ def topo_sort(edges):
         remaining_nodes.add(edge.second)
     return res, remaining_nodes, tail
 
+def kruskals(edges):
+    F = []
+    SET = {}
+    def find(x):
+        while x != SET[x]:
+            x = SET[x]
+        return x
+    def union(u, v):
+        SET[find(v)] = SET[find(u)]
+    for v in getNodes(edges):
+        SET[v] = v
+    for edge in sorted(edges, key=lambda edge: edge.date, reverse=True):
+        u = edge.first
+        v = edge.second
+        if find(u) != find(v):
+            F.append(edge)
+            union(u, v)
+    return F
+
+def combine_margins(edges):
+    frontier = ['Canterbury']
+    score = {'Canterbury': 0}
+    while frontier:
+        node = frontier.pop(0)
+        for neighbor, margin in get_neighbors(edges, node):
+            if neighbor not in score:
+                score[neighbor] = score[node] + margin
+                frontier.append(neighbor)
+    return sorted(score.items(), key=lambda x: x[1])
+
+def power_rank(edges):
+    nodes = sorted(list(getNodes(edges)))
+    node_to_index = {}
+    index_to_node = {}
+    for i, node in enumerate(nodes):
+        node_to_index[node] = i
+        index_to_node[i] = node
+    rows = []
+    for node in nodes:
+        margin_per_neighbor = {}
+        for neighbor, margin in get_neighbors(edges, node):
+            if margin > 0:  # We're only interested in losses
+                continue
+            # TODO: should recency factor in here? E.g. scale margin by recency
+            if neighbor not in margin_per_neighbor:
+                margin_per_neighbor[neighbor] = 0
+            margin_per_neighbor[neighbor] += min(60, abs(margin)) # make negative into positive
+
+        total = sum(margin_per_neighbor.values())
+        row = []
+        if total == 0:
+            for node in nodes:
+                row.append(1/len(nodes))
+        else:
+            for node in nodes:
+                if node not in margin_per_neighbor:
+                    row.append(0)
+                else:
+                    row.append(margin_per_neighbor[node] / total)
+        rows.append(row)
+
+    # Matrix A is a square matrix - row i column j holds the summed margin of teams i and j across all times they've competed
+
+    A = np.matrix(rows)
+
+    w, vl, _ = eig(A, left=True)
+    w_index = list(x for x in enumerate(w) if abs(x[1] - 1) < 0.0000000001)[0][0]
+
+    return sorted(zip(nodes, vl[:, w_index]), key=lambda x: x[1])
 
 def get_next_set(edges, get_first, get_second):
     all_nodes = set()
@@ -287,7 +377,59 @@ def all_pairs(my_list):
     for i in range(len(my_list) - 1):
         for j in range(i + 1, len(my_list)):
             yield my_list[i], my_list[j]
-        
+
+school_list = [
+    "NMH",
+    "Nobles",
+    "Brooks",
+    "Winsor",
+    "Cambridge RLS",
+    "Groton",
+    "Middlesex",
+    "BB&N",
+    "Taft",
+    "Choate",
+    "Greenwich Academy",
+    "Hopkins",
+    "St. Mark's",
+    "Brewster Academy",
+    "Lyme/Old Lyme",
+    "Gunn School",
+    "Marianapolis Prep",
+    "Berkshire Academy",
+    "Newton Country Day",
+    "Valley Regional",
+    "Bancroft",
+    "Canterbury"
+]
+
+def gen_matrix(edges, school_list):
+    nodes = sorted(getNodes(edges))
+    res = {}
+    for node in nodes:
+        res[node] = {}
+    for first in nodes:
+        for second in nodes:
+            head_to_heads = sorted((edge for edge in edges if sorted((edge.first, edge.second)) == sorted((first, second))), key=lambda edge: edge.date, reverse=True)
+            if head_to_heads:
+                edge = head_to_heads[0]
+                res[edge.second][edge.first] = edge.adjusted_margin if edge.adjusted_margin is not None else edge.margin
+
+    nodes = sorted(nodes, key=lambda x: sum(map(lambda _: _ if _ is not None else 0, res[x].values())))
+    rows = []
+    rows.append([''] + nodes)
+    for node in nodes:
+        row = [node]
+        for node2 in nodes:
+            if node2 in res[node]:
+                row.append(res[node][node2])
+            else:
+                row.append("")
+        rows.append(row)
+
+    return rows
+
+
 if __name__ == '__main__':
     print("starting")
     main()
