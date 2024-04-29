@@ -1,4 +1,4 @@
-digraph girls1foursBrooks {Middlesex [URL="girls1foursBrooksMiddlesex.html"];Brooks [URL="girls1foursBrooksBrooks.html"];Nobles [URL="girls1foursBrooksNobles.html"];CambridgeRLS [URL="girls1foursBrooksCambridgeRLS.html"];StMarks [URL="girls1foursBrooksStMarks.html"];NMH [URL="girls1foursBrooksNMH.html"];Brooks -> Middlesex[label="9.3
+digraph girls1foursBrooks {Middlesex [URL="girls1foursBrooksMiddlesex.html"];Nobles [URL="girls1foursBrooksNobles.html"];StMarks [URL="girls1foursBrooksStMarks.html"];Brooks [URL="girls1foursBrooksBrooks.html"];NMH [URL="girls1foursBrooksNMH.html"];CambridgeRingeandLatinSchool [URL="girls1foursBrooksCambridgeRingeandLatinSchool.html"];Brooks -> Middlesex[label="9.3
 04/20", weight="91", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 
@@ -6,7 +6,7 @@ Brooks -> StMarks[label="20.9
 04/20", weight="80", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 
-Brooks -> CambridgeRLS[label="12.3
+Brooks -> CambridgeRingeandLatinSchool[label="12.3
 04/27", weight="88", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
 Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 

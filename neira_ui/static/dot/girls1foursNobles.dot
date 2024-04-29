@@ -1,4 +1,4 @@
-digraph girls1foursNobles {Brooks [URL="girls1foursNoblesBrooks.html"];Nobles [URL="girls1foursNoblesNobles.html"];Groton [URL="girls1foursNoblesGroton.html"];NewtonCountryDay [URL="girls1foursNoblesNewtonCountryDay.html"];StMarks [URL="girls1foursNoblesStMarks.html"];BrewsterAcademy [URL="girls1foursNoblesBrewsterAcademy.html"];BBN [URL="girls1foursNoblesBBN.html"];Nobles -> Groton[label="0.1 (0.11)
+digraph girls1foursNobles {Groton [URL="girls1foursNoblesGroton.html"];Brewster [URL="girls1foursNoblesBrewster.html"];Nobles [URL="girls1foursNoblesNobles.html"];Brooks [URL="girls1foursNoblesBrooks.html"];NewtonCountryDay [URL="girls1foursNoblesNewtonCountryDay.html"];StMarks [URL="girls1foursNoblesStMarks.html"];BBN [URL="girls1foursNoblesBBN.html"];Nobles -> Groton[label="0.1 (0.11)
 04/20", weight="100", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
 Girls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.
@@ -16,7 +16,7 @@ Nobles -> StMarks[label="14.6
 04/27", weight="86", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
 Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
-Nobles -> BrewsterAcademy[label="19.3
+Nobles -> Brewster[label="19.3
 04/27", weight="81", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
 Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 

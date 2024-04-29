@@ -1,7 +1,15 @@
-digraph boys4foursNobles {Nobles [URL="boys4foursNoblesNobles.html"];BBN [URL="boys4foursNoblesBBN.html"];Brooks [URL="boys4foursNoblesBrooks.html"];Groton [URL="boys4foursNoblesGroton.html"];Nobles -> Brooks[label="38.0
+digraph boys4foursNobles {Groton [URL="boys4foursNoblesGroton.html"];Brewster [URL="boys4foursNoblesBrewster.html"];Nobles [URL="boys4foursNoblesNobles.html"];Brooks [URL="boys4foursNoblesBrooks.html"];StMarks [URL="boys4foursNoblesStMarks.html"];BBN [URL="boys4foursNoblesBBN.html"];Nobles -> Brooks[label="38.0
 04/13", weight="62", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: ~1500m Conditions: Gusty headwind (15-25 mph) in moderate chop along lee shore. Crews had approximately the same conditions. Lane assignments probably affected times somewhat. Comments: Challenging conditions overcome by the constructive attitudes of all the coaches and race enthusiasm of athletes. Thanks to a strong Nobles team for coming up for some raw weather racing in early April. We were pleased to get the races in.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&cat=5", random="random"]; 
+Nobles -> StMarks[label="65.2
+04/27", weight="35", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
+Nobles -> Brewster[label="91.4
+04/27", weight="9", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
 Nobles -> Groton[label="16.24 (18.04)
 04/20", weight="84", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
 Distance: 1350m Conditions: Excellent conditions.

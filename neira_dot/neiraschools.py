@@ -3,6 +3,7 @@ from difflib import SequenceMatcher as sm
 matched = set()
 unmatched = set()
 
+
 def getNeiraSchools():
     # return {'BBN': ["BB&N"],
     #         'Bancroft' : [],
@@ -63,6 +64,54 @@ def getNeiraSchools():
     #         "Stonington": [],
     #         "Thayer": ["Thayer 1V"]
     # },
+
+    return {
+        # Girls schools
+        "Bancroft": [],
+        "Berkshire": [],
+        "Berwick": [],
+        "Brewster": [],
+        "Brooks": [],
+        "BU Academy": [],
+        "BB&N": [],
+        "CRLS": [],
+        "Canterbury": [],
+        "Choate": [],
+        "Derryfield": [],
+        "DXSF": [],
+        "Eagle Hill": [],
+        "Frederick Gunn": [],
+        "Greenwich Academy": [],
+        "Greenwich CD": [],
+        "Groton": [],
+        "Hopkins": [],
+        "Lincoln": [],
+        "Lyme Old Lyme": ["LOL", "L//OL", "L/OL"],
+        "Marianapolis": [],
+        "Medford": [],
+        "Middlesex": [],
+        "Middletown HS": [],
+        "MPS": [],
+        "NCDS": [],
+        "Nobles": [],
+        "NMH": [],
+        "Pingree": [],
+        "Pomfret": [],
+        "SMS": [],
+        "St. Mary's - Bay View": [],
+        "St. Mary's -Lynn": [],
+        "Suffield": [],
+        "Taft": [],
+        "Thayer": [],
+        "Valley Regional": [],
+        "Vermont Academy": [],
+        "Winsor": [],
+        "Worcester Academy": [],
+        "Worcester HS": [],
+        # Additional boys schools
+        "Belmont Hill": [],
+    }
+
     return {
         "Bancroft": [],
         "BB&N": ["BBN"],
@@ -77,13 +126,19 @@ def getNeiraSchools():
         "Dexter-Southfield": ["Dexter"],
         "Eagle Hill": [],
         "Forman": [],
-        "Greenwich Academy": ['GA', 'Greenwich A', 'Greenwich Acad', 'Greenwich'],
+        "Greenwich Academy": ["GA", "Greenwich A", "Greenwich Acad", "Greenwich"],
         "Greenwich Country Day": [],
         "Groton": [],
-        "Gunn School": ["The Frederick Gunn School", "Gunnery", "The Gunnery", "Gunn", "Frederick Gunn"],
+        "Gunn School": [
+            "The Frederick Gunn School",
+            "Gunnery",
+            "The Gunnery",
+            "Gunn",
+            "Frederick Gunn",
+        ],
         "Hopkins": ["Hop"],
         "Lincoln": [],
-        "Lyme/Old Lyme": ['LOL', 'L//OL', 'L/OL'],
+        "Lyme/Old Lyme": ["LOL", "L//OL", "L/OL"],
         "Marianapolis Prep": [],
         "Medford": [],
         "Middlesex": [],
@@ -103,9 +158,8 @@ def getNeiraSchools():
         "Vermont Academy": ["VA"],
         "Winsor": [],
         "Worcester Academy": [],
-        "King School": []
+        "King School": [],
     }
-
 
 
 # If boatNum provided, check if a different number is present in the string.
@@ -126,9 +180,11 @@ def getNeiraSchools():
 # What about a boys 3 boat that still wants to be considered a 3rd boat, but races 2nd boats occasionally
 # should those races count? Towards what? Margins????
 def matchSchool(name, boatNum=None):
+    if name is None:
+        return (None, None)
     # Preprocess name to remove boat info
     name_for_score = name.replace("Boys", "").replace("Girls", "").replace("Novice", "")
-    
+
     neira = getNeiraSchools()
     scores = set([])
     for school in neira:
@@ -138,10 +194,10 @@ def matchSchool(name, boatNum=None):
             if newscore > score:
                 score = newscore
         scores.add((school, score))
-    (school, score) = max(scores, key=(lambda x_y : x_y[1]))
+    (school, score) = max(scores, key=(lambda x_y: x_y[1]))
 
-    if name in ['Exeter', 'Bedford', 'Suffield', "Kent School", "Kent"]:
-       return (None, None)
+    if name in ["Exeter", "Bedford", "Suffield", "Kent School", "Kent"]:
+        return (None, None)
 
     # if school == 'Greenwich Academy':
     #     name = name.replace(" A", " Academy ")
@@ -149,7 +205,7 @@ def matchSchool(name, boatNum=None):
     num = boatNum
 
     if boatNum != None:
-        if boatNum == 'novice':
+        if boatNum == "novice":
             expectedNum = 0
         else:
             expectedNum = int(boatNum)
@@ -178,13 +234,15 @@ def matchSchool(name, boatNum=None):
         # return (name, boatNum)
         return (None, None)
 
+
 def parseNum(num):
-    if 'nov' in num:
+    if "nov" in num:
         return 0
     if len(num) == 1:
         return int(replaceLetters(num))
     else:
         raise ValueError
+
 
 def replaceLetters(string):
     # n first for novice
@@ -194,8 +252,10 @@ def replaceLetters(string):
         low = low.replace(letter, str(alpha.index(letter)))
     return low
 
+
 def deUnique(string):
-    return list(filter((lambda s : str.isalnum(s) and not s.isdigit()), string.lower()))
+    return list(filter((lambda s: str.isalnum(s) and not s.isdigit()), string.lower()))
+
 
 def compare(school, name):
     return sm(None, deUnique(school), deUnique(name)).ratio()

@@ -1,9 +1,17 @@
-digraph girls6fours {GunnSchool [URL="girls6foursGunnSchool.html"];Canterbury [URL="girls6foursCanterbury.html"];Nobles [URL="girls6foursNobles.html"];BBN [URL="girls6foursBBN.html"];LymeOldLyme [URL="girls6foursLymeOldLyme.html"];Nobles -> BBN[label="13.0 (14.44)
+digraph girls6fours {FrederickGunn [URL="girls6foursFrederickGunn.html"];LymeOldLyme [URL="girls6foursLymeOldLyme.html"];AndoverBedfordComposite [URL="girls6foursAndoverBedfordComposite.html"];Canterbury [URL="girls6foursCanterbury.html"];Hanover [URL="girls6foursHanover.html"];Nobles [URL="girls6foursNobles.html"];BBN [URL="girls6foursBBN.html"];AndoverBedfordComposite -> Hanover[label="5.9 (5.36)
+04/27", weight="95", tooltip="NEIRA,Andover vs. Hanover High School vs. Bedford			
+Distance: 1650 Conditions: Calm conditions to start racing with tailwind building over the course of the afternoon. 5-10mph. Order of racing:
+B3, G5, B4, G4, B2, G2, B5, G1, B1, G6, G3, B6. Comments: Not all races started at the line. Times should not be compared.
+In the G6 race, Hanover cut the turn buoy which is grounds for a disqualification.
+In the B4 race, Hanover caught multiple boat-stopping crabs.
+Thank you to all crews for making the trip. And special thank you to the athletes willing to double up or create composite crews to get everyone on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A21A42AB805198290F7DED1497014168&cat=5", random="random"]; 
+Nobles -> BBN[label="13.0 (14.44)
 04/20", weight="87", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
 Girls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=61611297C2B5882317693DAB1794C8C4&cat=1", random="random"]; 
-LymeOldLyme -> GunnSchool[label="13.3
+LymeOldLyme -> FrederickGunn[label="13.3
 04/27", weight="87", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
 Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
@@ -11,7 +19,7 @@ LymeOldLyme -> Canterbury[label="178.5
 04/27", weight="-78", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
 Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
-GunnSchool -> Canterbury[label="165.2
+FrederickGunn -> Canterbury[label="165.2
 04/27", weight="-65", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
 Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]}

@@ -1,11 +1,27 @@
-digraph girls5fours {Middlesex [URL="girls5foursMiddlesex.html"];Brooks [URL="girls5foursBrooks.html"];Nobles [URL="girls5foursNobles.html"];CambridgeRLS [URL="girls5foursCambridgeRLS.html"];BBN [URL="girls5foursBBN.html"];BBN -> CambridgeRLS[label="30.5 (33.89)
+digraph girls5fours {Middlesex [URL="girls5foursMiddlesex.html"];Andover [URL="girls5foursAndover.html"];Hanover [URL="girls5foursHanover.html"];BrooksandCRLS [URL="girls5foursBrooksandCRLS.html"];Nobles [URL="girls5foursNobles.html"];Brooks [URL="girls5foursBrooks.html"];CambridgeRingeandLatinSchool [URL="girls5foursCambridgeRingeandLatinSchool.html"];BBN [URL="girls5foursBBN.html"];BBN -> CambridgeRingeandLatinSchool[label="30.5 (33.89)
 04/13", weight="70", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
 Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&cat=5", random="random"]; 
+Middlesex -> BrooksandCRLS[label="23.0
+04/27", weight="77", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
 Middlesex -> Brooks[label="32.0
 04/27", weight="68", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
 Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
+BrooksandCRLS -> Brooks[label="9.0
+04/27", weight="91", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
+Andover -> Hanover[label="15.7 (14.27)
+04/27", weight="85", tooltip="NEIRA,Andover vs. Hanover High School vs. Bedford			
+Distance: 1650 Conditions: Calm conditions to start racing with tailwind building over the course of the afternoon. 5-10mph. Order of racing:
+B3, G5, B4, G4, B2, G2, B5, G1, B1, G6, G3, B6. Comments: Not all races started at the line. Times should not be compared.
+In the G6 race, Hanover cut the turn buoy which is grounds for a disqualification.
+In the B4 race, Hanover caught multiple boat-stopping crabs.
+Thank you to all crews for making the trip. And special thank you to the athletes willing to double up or create composite crews to get everyone on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A21A42AB805198290F7DED1497014168&cat=5", random="random"]; 
 Nobles -> BBN[label="17.0 (18.89)
 04/20", weight="83", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
