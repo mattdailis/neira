@@ -1,6 +1,6 @@
-{'Belmont Hill', 'Andover', 'Winsor', 'Medford', 'Berwick', 'Nobles'}
-{'Groton', 'Bancroft', 'Brooks', 'Derryfield'}
-{"St. Mary's-Lynn", "St. Mark's", 'Cambridge RLS'}
+{'Nobles', 'Winsor', 'Andover', 'Belmont Hill', 'Berwick', 'Medford'}
+{'Derryfield', 'Bancroft', 'Groton', 'Brooks'}
+{"St. Mary's-Lynn", 'Cambridge RLS', "St. Mark's"}
 {'NMH'}
-Cycle detected: {'Pomfret', 'Taft'}
-{'Berkshire', 'Hopkins'}
+Cycle detected: {'Taft', 'Pomfret'}
+{'Hopkins', 'Berkshire'}

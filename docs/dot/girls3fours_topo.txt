@@ -1,6 +1,6 @@
-{'Choate', 'Andover', 'Cambridge RLS', 'Derryfield', 'Nobles'}
-{'Taft', "St. Mark's", 'Bedford', 'Groton'}
-Cycle detected: {'Brooks', 'Middlesex'}
+{'Derryfield', 'Nobles', 'Choate', 'Brewster Academy', 'Cambridge RLS', 'Andover'}
+{"St. Mark's", 'Groton', 'Taft', 'Bedford'}
+Cycle detected: {'Middlesex', 'Brooks'}
 {'NMH'}
 {'Hopkins'}
 {'Pomfret'}

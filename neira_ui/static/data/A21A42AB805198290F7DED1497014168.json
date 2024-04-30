@@ -87,21 +87,6 @@
         },
         {
             "class": "fours",
-            "gender": "boys",
-            "results": [
-                {
-                    "school": "Andover",
-                    "time": "5:28.5"
-                },
-                {
-                    "school": null,
-                    "time": "6:17.1"
-                }
-            ],
-            "varsity_index": "6"
-        },
-        {
-            "class": "fours",
             "gender": "girls",
             "results": [
                 {
@@ -190,21 +175,6 @@
                 }
             ],
             "varsity_index": "5"
-        },
-        {
-            "class": "fours",
-            "gender": "girls",
-            "results": [
-                {
-                    "school": null,
-                    "time": "6:12.1"
-                },
-                {
-                    "school": "Hanover",
-                    "time": "6:18.0"
-                }
-            ],
-            "varsity_index": "6"
         }
     ],
     "regatta_display_name": "NEIRA,Andover vs. Hanover High School vs. Bedford",

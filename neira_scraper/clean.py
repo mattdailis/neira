@@ -3,13 +3,14 @@ Input data: one file per page on row2k
 Output data: one file per heat, plus a file for the raceday metadata
 """
 
+from collections import namedtuple
 import json
 import os
 import datetime
 
 from os.path import basename, splitext
 
-from neiraschools import matchSchool
+from neiraschools import matchSchool, get_neira_schools
 
 
 def clean(scraped):
@@ -64,23 +65,50 @@ def clean(scraped):
         for heat in span["heats"]:
             (gender, boatNum, boatSize) = parseBoat(gender, boatSize, heat["heat"])
             school_times = []
+            schools = []
             for x in heat["school_times"]:
                 school = x["school"]
                 time = x["time"]
+
+                cleaned_school = clean_school(school)
+
+                if isinstance(cleaned_school, NonNeira):
+                    if cleaned_school.school is None:
+                        schools.append("Could not match: " + school)
+                    else:
+                        schools.append(cleaned_school.school + " (not neira)")
+                    continue
+
+                schools.append(cleaned_school)
+
                 school_times.append(
                     {
-                        "school": clean_school(school),
+                        "school": cleaned_school,
                         "time": clean_time(time),
                     }
                 )
-            heats.append(
-                {
-                    "class": str(boatSize),
-                    "varsity_index": str(boatNum),
-                    "results": school_times,
-                    "gender": gender,
-                }
-            )
+            if len(school_times) > 1:
+                heats.append(
+                    {
+                        "class": str(boatSize),
+                        "varsity_index": str(boatNum),
+                        "results": school_times,
+                        "gender": gender,
+                    }
+                )
+            else:
+                print(
+                    "Skipping "
+                    + heat["heat"]
+                    + ". Not enough neira schools "
+                    + scraped["name"]
+                    + " "
+                    + scraped["url"]
+                    + "\n"
+                    + "\n".join(map(str, schools))
+                    if len(schools) > 1
+                    else ""
+                )
 
     race_object["heats"] = heats
 
@@ -142,8 +170,15 @@ def clean_time(time):
     return time
 
 
+NonNeira = namedtuple("NonNeira", "school")
+
+
 def clean_school(school):
-    return matchSchool(school)[0]
+    matched = matchSchool(school)[0]
+    if matched in get_neira_schools():
+        return matched
+    else:
+        return NonNeira(matched)
 
 
 def clean_gender(gender):

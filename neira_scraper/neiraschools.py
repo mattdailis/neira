@@ -73,7 +73,6 @@ def get_other_schools():
         "Avon": [],
         "Bedford/Hanover Composite": [],
         "BHS Middle School": [],
-        "Boston University Academy": ["BU Academy", "BUA"],
         "Brooks and CRLS": [],  # wat.
         "CRI": [],
         "Notre Dame": ["Notre Dame 3V"],
@@ -89,12 +88,16 @@ def get_neira_schools():
         "Bedford": [],
         "Belmont Hill": ["BHS"],
         "Berkshire": [],
-        "Berwick": [],
+        "Berwick": ["Berwick Mixed C"],
         "Boston Latin": ["BLS"],
         "Brewster Academy": ["Brewster"],
         "Brookline": [],
         "Brooks": [],
         "Brunswick": [],
+        "Boston University Academy": [
+            "BU Academy",
+            "BUA",
+        ],  # In dad's list but not in dropdown
         "Cambridge RLS": ["Cambridge Ringe and Latin School", "CRLS"],
         "Canterbury": [],
         "Choate": [],
@@ -270,13 +273,10 @@ def matchSchool(name, boatNum=None):
                     pass
 
     if score > 0.7:
-        if (name, school) not in matched and name != school:
-            print(name, "~", school)
+        # if (name, school) not in matched and name != school:
+        #     print(name, "~", school)
         matched.add((name, school))
-        if school in neira_schools:
-            return (school, num)
-        else:
-            return (None, None)
+        return (school, num)
     else:
         unmatched.add(name)
         # return (name, boatNum)

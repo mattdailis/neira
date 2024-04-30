@@ -80,27 +80,8 @@
         },
         {
             "class": "eights",
-            "gender": "boys",
-            "results": [
-                {
-                    "school": "Andover",
-                    "time": "5:16.0"
-                },
-                {
-                    "school": null,
-                    "time": "5:50.0"
-                }
-            ],
-            "varsity_index": "5"
-        },
-        {
-            "class": "eights",
             "gender": "girls",
             "results": [
-                {
-                    "school": null,
-                    "time": "4:47.3"
-                },
                 {
                     "school": "Deerfield",
                     "time": "4:53.3"
@@ -121,10 +102,6 @@
                     "time": "5:11.5"
                 },
                 {
-                    "school": null,
-                    "time": "5:11.7"
-                },
-                {
                     "school": "Andover",
                     "time": "5:12.1"
                 }
@@ -135,10 +112,6 @@
             "class": "eights",
             "gender": "girls",
             "results": [
-                {
-                    "school": null,
-                    "time": "5:17.9"
-                },
                 {
                     "school": "Deerfield",
                     "time": "5:23.8"
@@ -154,10 +127,6 @@
             "class": "eights",
             "gender": "girls",
             "results": [
-                {
-                    "school": null,
-                    "time": "4:50.3"
-                },
                 {
                     "school": "Andover",
                     "time": "5:15.9"

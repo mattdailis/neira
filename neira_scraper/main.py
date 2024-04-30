@@ -38,7 +38,7 @@ def main(out, raw_cache=None, refresh=False):
         )
         cleaned_filename = os.path.join(out_dir, "{}.json".format(downloaded["uid"]))
         if OVERWRITE or not os.path.isfile(cleaned_filename):
-            print(f"Scraping: {downloaded['name']}")
+            # print(f"Scraping: {downloaded['name']}")
             scraped = scrapeRegatta(downloaded["name"], downloaded["html"])
             scraped["url"] = downloaded["url"]
             # with open(scraped_filename, "w") as f:
@@ -46,8 +46,8 @@ def main(out, raw_cache=None, refresh=False):
             race_object = clean.clean(scraped)
             with open(cleaned_filename, "w") as f:
                 f.write(json.dumps(race_object, sort_keys=True, indent=4))
-        else:
-            print(f"Already scraped {downloaded['name']}")
+        # else:
+        #     print(f"Already scraped {downloaded['name']}")
 
     if neiraschools.unmatched:
         print()
