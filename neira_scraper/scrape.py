@@ -8,7 +8,7 @@ import requests
 import click
 
 
-def scrapeRegatta(name, res_url, url):
+def scrapeRegatta(name, html):
     """
     Given the name of the regatta (From the list of regattas) and the link to the row2k page for that regatta,
     return an object representing the important information in that page.
@@ -17,7 +17,6 @@ def scrapeRegatta(name, res_url, url):
     name = name.strip()
 
     # Open the url
-    html = requests.get(res_url + url).text
     soup = BeautifulSoup(html, features="html.parser")
 
     # Get the title of the page
@@ -25,9 +24,6 @@ def scrapeRegatta(name, res_url, url):
         title = soup.findAll("meta", {"name": "description"})[0]["content"]
         date = ",".join(title.split("-")[-2].split(",")[-2:]).strip()
     except Exception as e:
-        print(e)
-        # title = soup.findAll("meta", { "name" : "description"})[0]['content']
-        # dayString =  ','.join(title.split('-')[-2].split(',')[-2:])
         date = " ".join(
             (soup.findAll("title")[0].text.split("2024")[0] + "2024").split()[-3:]
         ).strip()
@@ -76,24 +72,6 @@ def scrapeRegatta(name, res_url, url):
         "name": name,
         "date": date,
         "comment": comment,
-        "url": res_url + url,
     }
 
     return scraped
-
-
-# Returns a list of urls
-def getRaceUrls(res_html):
-    urls = []
-    soup = BeautifulSoup(res_html, features="html.parser")
-    highschool = soup.findChildren("span", string="High School/Scholastic")
-    for bulletList in highschool:
-        links = bulletList.parent.parent.find_all("a")
-        for link in links:
-            if link.get("href").startswith("/results"):
-                raceName = link.text.encode("utf-8")
-                url = link.get("href").encode("utf-8")
-                urls.append((raceName.decode(), url.decode()))
-            else:
-                print((link.get("href"), "could not be scraped"))
-    return urls
