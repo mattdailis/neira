@@ -79,6 +79,9 @@ def clean(scraped):
                         schools.append(cleaned_school.school + " (not neira)")
                     continue
 
+                if cleaned_school in schools:
+                    continue  # Skip subsequent occurrences of a school in a heat
+
                 schools.append(cleaned_school)
 
                 school_times.append(

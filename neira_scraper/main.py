@@ -6,6 +6,8 @@ import click
 from download import download_all
 from scrape import scrapeRegatta
 
+from difflib import unified_diff
+
 import clean
 
 import neiraschools
@@ -43,9 +45,28 @@ def main(out, raw_cache=None, refresh=False):
             scraped["url"] = downloaded["url"]
             # with open(scraped_filename, "w") as f:
             #     f.write(json.dumps(scraped, sort_keys=True, indent=4))
+
             race_object = clean.clean(scraped)
+
+            if not race_object["heats"]:
+                print(
+                    "No heats in "
+                    + race_object["regatta_display_name"]
+                    + " "
+                    + race_object["url"]
+                )
+
+            new_text = json.dumps(race_object, sort_keys=True, indent=4)
+
+            if os.path.exists(cleaned_filename):
+                with open(cleaned_filename, "r") as f:
+                    old_text = f.read()
+                diff = unified_diff(old_text.splitlines(), new_text.splitlines())
+                if diff:
+                    for line in diff:
+                        print(line)
             with open(cleaned_filename, "w") as f:
-                f.write(json.dumps(race_object, sort_keys=True, indent=4))
+                json.dump(race_object, f, sort_keys=True, indent=4)
         # else:
         #     print(f"Already scraped {downloaded['name']}")
 

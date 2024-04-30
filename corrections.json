@@ -1,0 +1,437 @@
+{
+    "00FD5442533029F3F8C5DFD9A3F09907": {
+        "checksum": "1d10bc5891979a7bd079d3e23e413c90",
+        "corrections": []
+    },
+    "02C6B837008230E6665D0C3F19487890": {
+        "checksum": "a57f005c8b0f85e8a7fe8e529cb8fe4c",
+        "corrections": []
+    },
+    "09220DA7336A1394F7FD04227504EAAE": {
+        "checksum": "de2432b37b7081f7230ae0816c27ba16",
+        "corrections": []
+    },
+    "0A06BB5337D4EBAFB4A716F6CCD660BF": {
+        "checksum": "a84cfa2a9406c735ede807e15ef186ff",
+        "corrections": []
+    },
+    "0B538421DF95D95D5523F6EF4CB5CD04": {
+        "checksum": "60df30cad3b31aff58a530e5d9c295d4",
+        "corrections": []
+    },
+    "1004BB53FFEA236A97E11B8A53F16514": {
+        "checksum": "686dcf8d7616fc39afdec2c4f6de3151",
+        "corrections": []
+    },
+    "1212EB177D795078E02FE5D2820D6C1B": {
+        "checksum": "38fd31b008fbeccbd433e72d67e1a882",
+        "corrections": [
+            {
+                "comment": "girls 3 race has deltas",
+                "type": "comment"
+            }
+        ]
+    },
+    "16655D45C19917353A60332C40B27209": {
+        "checksum": "e8b819458c863f7cef9343a60514c481",
+        "corrections": [
+            {
+                "heats": [
+                    "boys 3",
+                    "boys 4",
+                    "boys 5",
+                    "girls 3",
+                    "girls 4",
+                    "girls 5"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "18DCB0511D8588B057AAE05D158887C1": {
+        "checksum": "8a71c56c1ff66170d062f9c9a7dc8994",
+        "corrections": [
+            {
+                "heats": [
+                    "boys 2",
+                    "girls 2"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "193F4296CB862153CF0FD21B95E6AB20": {
+        "checksum": "3ba48d7a21491ec0992dca6037fe6af8",
+        "corrections": [
+            {
+                "heats": [
+                    "boys 3",
+                    "girls 3"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "1EE142EEB12B57D1FE83F46C7DD3118E": {
+        "checksum": "dd7e99ed66ec35a964c7dbe713382d4e",
+        "corrections": []
+    },
+    "20E78FECE0268B5584D1E5BC6689C505": {
+        "checksum": "0183aff1ad0015ef883c8b0c67ae8b7d",
+        "corrections": []
+    },
+    "23CC2067AD3F4FF2DCAAB53A534BC81E": {
+        "checksum": "4d43e702dbe18f5bf72b6532bf2f7dfa",
+        "corrections": []
+    },
+    "25084165812CED4AFD5819AADD12D8EF": {
+        "checksum": "f06b99fbc8acf707cf62582cd01f188a",
+        "corrections": []
+    },
+    "2A4F56FA4FB7C41A0E813337362894A3": {
+        "checksum": "c47d590dd685c6fe1fd473b27af52c2d",
+        "corrections": [
+            {
+                "comment": "boats labeled as Mx",
+                "heats": [
+                    "girls 3"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "2AFDF758778B38E961BC1C1092DCA2B8": {
+        "checksum": "a917320bddf7d4ea62471812cc4c1100",
+        "corrections": []
+    },
+    "2D89FFB1693C84B71BE3E39CB54EABE0": {
+        "checksum": "d7e8c18b37fcb34396b6bc7aea972bf7",
+        "corrections": [
+            {
+                "comment": "marked as novice",
+                "heats": [
+                    "boys 2",
+                    "girls 2"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "31E673C4586D091CFD32824113D00134": {
+        "checksum": "af1944cd2ac5d32ce776913d3b690eb0",
+        "corrections": []
+    },
+    "3710F27F185D74B3D15DF923C787D9E1": {
+        "checksum": "79fdd2ff5fc3603b55ee5d9d694560a2",
+        "corrections": []
+    },
+    "3A64E66B4BAE3F0E58E41D56CC767FFF": {
+        "checksum": "8e38935a09d3fff9f0fc29195579faa9",
+        "corrections": []
+    },
+    "3A9AECAD0028655DE1534F4A0A0DE8B2": {
+        "checksum": "198c254c946ca2ba79eb1ea93e6f0aa6",
+        "corrections": []
+    },
+    "3C4A29E47D98F61F0E48D4228A060005": {
+        "checksum": "01802c585a190a90ce6544f884936e88",
+        "corrections": [
+            {
+                "comment": "Girls 2V race was only 1000 meters",
+                "type": "comment"
+            }
+        ]
+    },
+    "3C7FA9842592DF4262271085CADE97E5": {
+        "checksum": "494a92ba0079e6f196b9e88596c31a9d",
+        "corrections": [
+            {
+                "comment": "girls 3 race has Exeter 4V beating Exeter. Not NEIRA, so not critical",
+                "type": "comment"
+            }
+        ]
+    },
+    "3D50124C185A4165878004B90B4662FD": {
+        "checksum": "347fddff1f4715cc0adcf1e043b3cf94",
+        "corrections": []
+    },
+    "3F962587F5195CAC9807287404512E2B": {
+        "checksum": "add8da1042360841c294808db75ce388",
+        "corrections": []
+    },
+    "429158C8054202FE58813F17E3F2C8B1": {
+        "checksum": "61c10f499deb1906d91befc876025394",
+        "corrections": [
+            {
+                "comment": "girls 2 mentions overhead crab",
+                "type": "comment"
+            }
+        ]
+    },
+    "4B4C574EDD6CC2B9960D17FC0A26DE61": {
+        "checksum": "b1669d72eb235ac9522ffb418a2bc8bf",
+        "corrections": []
+    },
+    "572A866681F1A29F4BC821412ED10F61": {
+        "checksum": "c693e0a7e607295677d6ace6ad66234b",
+        "corrections": []
+    },
+    "574DEA01D736263BF1969B97108094B7": {
+        "checksum": "24d36709b12806bd8f4a60f7b4990e06",
+        "corrections": [
+            {
+                "comment": "girls 3 should only seed Boston Latin and Simsbury",
+                "type": "comment"
+            }
+        ]
+    },
+    "5AC13C0A039EE6AFC8E97E47C247F44E": {
+        "checksum": "a7d8af232a2919e64f88e59850810422",
+        "corrections": []
+    },
+    "5BE52A0B0D2C5D9EFE557E09C6164DD7": {
+        "checksum": "a55ec2dd8c5d0481c42635ceaa85965a",
+        "corrections": [
+            {
+                "comment": "review girls 3. Pomfret 4 beat Pomfret 3. Marianapolis 2was also in this race",
+                "type": "comment"
+            }
+        ]
+    },
+    "61611297C2B5882317693DAB1794C8C4": {
+        "checksum": "030c7e86bd762df3b511bea20d40cc08",
+        "corrections": []
+    },
+    "622A605D840C2B57865CD47A05BAB2CD": {
+        "checksum": "c6ebc5655fcce1a918851fafca0a904f",
+        "corrections": [
+            {
+                "comment": "marked as novice",
+                "heats": [
+                    "boys 2",
+                    "girls 2"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "69233FE8176AF29F759DFFF1815560E8": {
+        "checksum": "c33df1d212115c3ceb23bac605e272fe",
+        "corrections": []
+    },
+    "745C6CCACF8F59AD53DCB188AEF4A1E7": {
+        "checksum": "37273bf097e3c91c62677aaa54288fa7",
+        "corrections": []
+    },
+    "81067D27DF71795C160BB3CEFD091670": {
+        "checksum": "3c1f1543c6284d34f3a7e99a017508df",
+        "corrections": [
+            {
+                "comment": "comment says B4V was novice",
+                "heats": [
+                    "boys 4"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "8C2C44D0D87199862BBA177721B1AC2F": {
+        "checksum": "d92878fe1d6277bbb3f718ee014cb529",
+        "corrections": [
+            {
+                "comment": "marked as novice",
+                "heats": [
+                    "boys 3"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "8CA09990AF4E7132342F748C1880AC86": {
+        "checksum": "64128d4bf0faf9b5c7c7520c7717f6c0",
+        "corrections": []
+    },
+    "8CCAFC10198F257F661CCA17A80627CA": {
+        "checksum": "cca8e167878e739880b310dffb02f6a4",
+        "corrections": []
+    },
+    "947B7F9F873E76F39BBF493ADD420814": {
+        "checksum": "cf9fc441eea5cecb98d75e8273ca6d3c",
+        "corrections": []
+    },
+    "95B6D80715F8274903E678063EA5058A": {
+        "checksum": "087129aa1bd6bb03654178fa656c4409",
+        "corrections": []
+    },
+    "9B17883EC9778AAE80B21096C84870F4": {
+        "checksum": "d6f9474c5d8b9a7a62aeda35722d788e",
+        "corrections": [
+            {
+                "comment": "marked as novice boats",
+                "heats": [
+                    "boys 3",
+                    "girls 3"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "9C1DB7774C31E9EA330687778E1F93EB": {
+        "checksum": "9eb9dc737d3205ffdda3442ba58e1065",
+        "corrections": []
+    },
+    "A21A42AB805198290F7DED1497014168": {
+        "checksum": "f5c022e3549c13d19e6b5b47dfa08211",
+        "corrections": []
+    },
+    "A6F3B0420129EB02E75FD2608D0C3CD5": {
+        "checksum": "c3a3207454fe33af5dd72841113bc207",
+        "corrections": []
+    },
+    "A896173779E41916731A3CD63A0AB4BC": {
+        "checksum": "63e8fbc559b515bf8d0fe0b9fb796209",
+        "corrections": [
+            {
+                "comment": "marked as novice",
+                "heats": [
+                    "boys 5",
+                    "girls 5"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "AA10DB138EF147F33AE358373C69E040": {
+        "checksum": "2efd4ff1811afa6698d03c4b89d69a68",
+        "corrections": [
+            {
+                "comment": "All boats have different numbers",
+                "heats": [
+                    "boys 2"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "AC683D5136F31AD9F0E016CDFC3F0E3D": {
+        "checksum": "44d3f6134e07fa74e265e38f450f3b3e",
+        "corrections": []
+    },
+    "AFA0BDBA7E1FC4103BD3B48DDF77C9D9": {
+        "checksum": "46290c90e50510afaf521ab36b4a1f4e",
+        "corrections": []
+    },
+    "B22AAA979AF5CD66BC6FB376321A25A4": {
+        "checksum": "6e222be39d422543913cba7575e5d418",
+        "corrections": [
+            {
+                "comment": "boys 3 boat has delta times",
+                "type": "comment"
+            }
+        ]
+    },
+    "B2DEAF649BD92E4956E382AFF1E67D1D": {
+        "checksum": "8f4ccae8365ea86304c6554c657898a0",
+        "corrections": []
+    },
+    "C1541F9124E2FBBF81B1F9CADE55D186": {
+        "checksum": "47547d5d4745ccc0856dc2c99b4c775c",
+        "corrections": [
+            {
+                "comment": "Revisit comment - it says Lincoln 2V4 didn't finish, but they have a time: 7:05",
+                "type": "comment"
+            }
+        ]
+    },
+    "CADB8564A7D0BE142DB6C47B0EED613F": {
+        "checksum": "c3df6a6c9089f5d7741a10e210c56b50",
+        "corrections": []
+    },
+    "D2A9D155DC23371178BEBD4E183720CB": {
+        "checksum": "f04e1d1ff54bf0cb59778b3bbaacee5b",
+        "corrections": []
+    },
+    "D6B986013DA22E26BC236F424721DEE8": {
+        "checksum": "cf608190d02c1ec9e8aa8c401f4bfa47",
+        "corrections": [
+            {
+                "comment": "In boys 4, Pomfret 5 beat Pomfret 4",
+                "type": "comment"
+            }
+        ]
+    },
+    "DA7A1EFD458CB4B765258C3FD9635963": {
+        "checksum": "804f112190b9b667d3dc3cdee160a8d9",
+        "corrections": []
+    },
+    "DD67470355C51F0B3378CD2B89283A3A": {
+        "checksum": "fe51c3046b9a864ec02d35e53cfc4cb5",
+        "corrections": []
+    },
+    "DE1377E8919904D6083B1C51335B1F5A": {
+        "checksum": "3ae267083cede61fe966fbc5c4c3052b",
+        "corrections": []
+    },
+    "DE911428BA7DE499F2D28BF6D23E48AA": {
+        "checksum": "fb65ccf01cd171b45b5861fe6de6a439",
+        "corrections": []
+    },
+    "DEEA0E3D46D09665F8C7ECAF148A6CBA": {
+        "checksum": "33d08666d38c030fc73a6b7170db0016",
+        "corrections": [
+            {
+                "comment": "Marked as novice",
+                "heats": [
+                    "boys 4",
+                    "girls 4"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "F2367A51152F8F6EC4B51CCAE18DFD06": {
+        "checksum": "cfe5721dbfc776a8e31b886490c7bdff",
+        "corrections": []
+    },
+    "F2BDD2379584CF678DC6C30959529211": {
+        "checksum": "08ce485c7e7e27db5b6e33d2866739d3",
+        "corrections": []
+    },
+    "F3BA116ED6CBF64FC2111D7DC005C4D7": {
+        "checksum": "82d6def45132e1cf49cf07fc2cfe3ab2",
+        "corrections": []
+    },
+    "F53649D79E043E34EE3AC26D08EB4BB0": {
+        "checksum": "fce2305664221c1c6a1db5896f2f2dae",
+        "corrections": []
+    },
+    "F948FF189D877062CEBEAD4C9A9EE5CF": {
+        "checksum": "1cda90da2d3edd9360ddba3d7a44a453",
+        "corrections": [
+            {
+                "comment": "Marianapolis boys 2 raced in boys 3",
+                "type": "comment"
+            }
+        ]
+    },
+    "FC505734D40BB4653F0FD2256147C467": {
+        "checksum": "ac4f7cb283b3ec08b1adf2e658d24629",
+        "corrections": [
+            {
+                "comment": "girls 3 should be girls 4",
+                "type": "comment"
+            },
+            {
+                "comment": "marked as novice",
+                "heats": [
+                    "girls 2"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "FFB53DA96B577A62FC50202B0BC40DF0": {
+        "checksum": "ffcc7064646a49e42eb58025f1c9180e",
+        "corrections": []
+    }
+}
