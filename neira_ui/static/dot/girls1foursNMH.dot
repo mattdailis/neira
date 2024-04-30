@@ -1,4 +1,4 @@
-digraph girls1foursNMH {Pomfret [URL="girls1foursNMHPomfret.html"];Middlesex [URL="girls1foursNMHMiddlesex.html"];FrederickGunn [URL="girls1foursNMHFrederickGunn.html"];Hopkins [URL="girls1foursNMHHopkins.html"];WorcesterAcademy [URL="girls1foursNMHWorcesterAcademy.html"];StMarks [URL="girls1foursNMHStMarks.html"];Brooks [URL="girls1foursNMHBrooks.html"];NMH [URL="girls1foursNMHNMH.html"];CambridgeRingeandLatinSchool [URL="girls1foursNMHCambridgeRingeandLatinSchool.html"];Choate [URL="girls1foursNMHChoate.html"];Hopkins -> NMH[label="0.8
+digraph girls1foursNMH {StMarks [URL="girls1foursNMHStMarks.html"];Choate [URL="girls1foursNMHChoate.html"];Brooks [URL="girls1foursNMHBrooks.html"];WorcesterAcademy [URL="girls1foursNMHWorcesterAcademy.html"];Middlesex [URL="girls1foursNMHMiddlesex.html"];CambridgeRLS [URL="girls1foursNMHCambridgeRLS.html"];Pomfret [URL="girls1foursNMHPomfret.html"];FrederickGunn [URL="girls1foursNMHFrederickGunn.html"];NMH [URL="girls1foursNMHNMH.html"];Hopkins [URL="girls1foursNMHHopkins.html"];Hopkins -> NMH[label="0.8
 04/20", weight="100", tooltip="NEIRA Girls Fours,Pomfret vs. NMH, Hopkins			
 Distance: 1500m Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout, with a slight tailwind developing in the last race. No current. Comments: Race order: G3, G2, G1, G4/5. Thanks to NMH and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=00FD5442533029F3F8C5DFD9A3F09907&cat=1", random="random"]; 
@@ -10,7 +10,7 @@ Brooks -> NMH[label="29.0
 04/27", weight="71", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
 Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
-CambridgeRingeandLatinSchool -> NMH[label="16.7
+CambridgeRLS -> NMH[label="16.7
 04/27", weight="84", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
 Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 

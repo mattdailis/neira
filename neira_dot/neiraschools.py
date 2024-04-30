@@ -66,50 +66,102 @@ def getNeiraSchools():
     # },
 
     return {
-        # Girls schools
+        "Andover": [],  # Added 2023
+        "Andover/Bedford Composite": [],
+        "Andover/St. John's Prep Composite": [],
+        "Avon": [],
         "Bancroft": [],
-        "Berkshire": [],
-        "Berwick": [],
-        "Brewster": [],
-        "Brooks": [],
-        "BU Academy": [],
         "BB&N": [],
-        "CRLS": [],
+        "BC High": [],
+        "Bedford": [],  # Added 2023
+        "Bedford": [],  # Not NEIRA
+        "Bedford/Hanover Composite": [],
+        "Belmont Hill": [],  # Boys school
+        "Berkshire": [],
+        "Berwick": [],  # Added 2023
+        "BHS Middle School": [],
+        "BHS": [],
+        "Boston Latin": ["BLS"],  # Added 2023
+        "Boston University Academy": ["BU Academy", "BUA"],
+        "Brewster": ["Brewster Academy"],
+        "Brookline": [],  # Added 2023
+        "Brooks and CRLS": [],  # wat.
+        "Brooks": [],
+        "Brunswick": [],
+        "Cambridge Ringe and Latin School": ["Cambridge RLS", "CRLS"],  # Added 2023
         "Canterbury": [],
         "Choate": [],
+        "CRI": [],
         "Derryfield": [],
-        "DXSF": [],
+        "Dexter Southfield": ["DXSF"],
+        "Duxbury": [],
+        "E.O. Smith": [],  # Added 2023
         "Eagle Hill": [],
-        "Frederick Gunn": [],
+        "East Lyme": [],  # Added 2023
+        "Exeter": [],  # Not NEIRA
+        "Fairfield Prep": [],  # Added 2023
+        "Farmington": ["Farmington Novice"],
+        "Farmington": [],  # Added 2023
+        "Frederick Gunn": [
+            "The Frederick Gunn School",
+            "Gunnery",
+            "The Gunnery",
+            "Gunn",
+            "Frederick Gunn",
+            "Gunn School",
+        ],
+        "Glastonbury": ["Glastonbury Novice"],
+        "Glastonbury": [],  # Added 2023
         "Greenwich Academy": [],
-        "Greenwich CD": [],
+        "Greenwich CD": ["GCDS", "Greenwich Country Day"],
         "Groton": [],
+        "Guilford": ["Guilford Novice"],  # Added 2023
+        "Hanover": [],
+        "Hingham": [],  # Added 2023
         "Hopkins": [],
+        "Hotchkiss": ["Hotchkiss N4"],
+        "Kent": [],  # Added 2023
+        "King School": [],
         "Lincoln": [],
         "Lyme Old Lyme": ["LOL", "L//OL", "L/OL"],
         "Marianapolis": [],
         "Medford": [],
-        "Middlesex": [],
-        "Middletown HS": [],
-        "MPS": [],
-        "NCDS": [],
-        "Nobles": [],
+        "Middlesex": ["MX"],
+        "Middletown": ["Middletown HS"],
+        "Miss Porter's": ["MPS"],
+        "Newton Country Day": ["NCDS"],
         "NMH": [],
+        "Nobles": [],
+        "Notre Dame": ["Notre Dame 3V"],
         "Pingree": [],
         "Pomfret": [],
+        "Sacred Heart": [],
+        "Salisbury": [],  # Added 2023
+        "Shrewsbury": [],  # Added 2023
+        "Simsbury": [],
         "SMS": [],
+        "St. John's": ["St. John's Prep"],
+        "St. Mark's": [],
         "St. Mary's - Bay View": [],
-        "St. Mary's -Lynn": [],
+        "St. Mary's - Lynn": [],
+        "St. Paul's": ["St. Paul's-3rd", "St. Paul's-4th"],
+        "Stonington": [
+            "Stonington Novice",
+            "Stonington (exhibition)",
+            "Stonington 2V",
+            "Stonington GN4",
+            "Stonington GV4+",
+        ],
+        "Stonington": [],  # Added 2023
         "Suffield": [],
+        "Tabor": ["Tabor - Exhibition"],
         "Taft": [],
-        "Thayer": [],
+        "Thayer": ["Thayer 1V"],
         "Valley Regional": [],
         "Vermont Academy": [],
         "Winsor": [],
         "Worcester Academy": [],
         "Worcester HS": [],
-        # Additional boys schools
-        "Belmont Hill": [],
     }
 
     return {
@@ -181,7 +233,7 @@ def getNeiraSchools():
 # should those races count? Towards what? Margins????
 def matchSchool(name, boatNum=None):
     if name is None:
-        return (None, None)
+        return None, None
     # Preprocess name to remove boat info
     name_for_score = name.replace("Boys", "").replace("Girls", "").replace("Novice", "")
 

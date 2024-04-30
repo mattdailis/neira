@@ -7,7 +7,7 @@ from scipy.linalg import eig
 
 from associationList import Edge
 from associationList import getNodes
-from neiraschools import matchSchool, matched, unmatched
+from neiraschools import matched, unmatched
 from toDot import viz
 
 import click
@@ -146,12 +146,8 @@ def main(data, out):
                         if distance is not None and margin is not None
                         else None
                     )
-                fasterSchool, fasterSchoolBoatNum = matchSchool(
-                    fasterBoat["school"], boatNum=varsity_index
-                )
-                slowerSchool, slowerSchoolBoatNum = matchSchool(
-                    slowerBoat["school"], boatNum=varsity_index
-                )
+                fasterSchool, fasterSchoolBoatNum = fasterBoat["school"], varsity_index
+                slowerSchool, slowerSchoolBoatNum = slowerBoat["school"], varsity_index
                 if fasterSchool is None:
                     # This means one of the schools was not recognized as a neira school
                     print(fasterBoat["school"], "was not recognized as a neira school")

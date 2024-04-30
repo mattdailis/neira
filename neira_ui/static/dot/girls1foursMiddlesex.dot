@@ -1,4 +1,4 @@
-digraph girls1foursMiddlesex {Middlesex [URL="girls1foursMiddlesexMiddlesex.html"];StMarks [URL="girls1foursMiddlesexStMarks.html"];Brooks [URL="girls1foursMiddlesexBrooks.html"];NMH [URL="girls1foursMiddlesexNMH.html"];CambridgeRingeandLatinSchool [URL="girls1foursMiddlesexCambridgeRingeandLatinSchool.html"];Brooks -> Middlesex[label="9.3
+digraph girls1foursMiddlesex {StMarks [URL="girls1foursMiddlesexStMarks.html"];Brooks [URL="girls1foursMiddlesexBrooks.html"];Middlesex [URL="girls1foursMiddlesexMiddlesex.html"];CambridgeRLS [URL="girls1foursMiddlesexCambridgeRLS.html"];NMH [URL="girls1foursMiddlesexNMH.html"];Brooks -> Middlesex[label="9.3
 04/20", weight="91", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 
@@ -10,7 +10,7 @@ Brooks -> Middlesex[label="15.2
 04/27", weight="85", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
 Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
-CambridgeRingeandLatinSchool -> Middlesex[label="2.9
+CambridgeRLS -> Middlesex[label="2.9
 04/27", weight="98", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
 Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 

@@ -1,0 +1,17 @@
+digraph boys4foursCambridgeRLS {BBN [URL="boys4foursCambridgeRLSBBN.html"];BelmontHill [URL="boys4foursCambridgeRLSBelmontHill.html"];Brooks [URL="boys4foursCambridgeRLSBrooks.html"];CambridgeRLS [URL="boys4foursCambridgeRLSCambridgeRLS.html"];NMH [URL="boys4foursCambridgeRLSNMH.html"];BelmontHill -> CambridgeRLS[label="18.5 (21.35)
+04/24", weight="82", tooltip="NEIRA Boys Fours,Belmont Hill, Middlesex, CRLS			
+Distance: 1300 Conditions: Good water with swirling winds -- sometimes cross-head, sometimes cross-tail, sometimes straight cross, varying race-to-race. Comments: The 3V4 race was action-packed: MX caught an over-the-head, boat-stopping crab just over a minute into the race, while the 3-seat of the BHS crew had his oar pop out of his oarlock not once but twice during the race; these incidents caused stoppages of significant duration for both crews. An oarsman in the CRLS 1V4 tested positive for Covid prior to the race and the crew was thus unable to compete today.
+Thanks to Middlesex and CRLS for a great day of racing on the Charles!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95B6D80715F8274903E678063EA5058A&cat=1", random="random"]; 
+CambridgeRLS -> BBN[label="4.36 (4.84)
+04/13", weight="96", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
+Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&cat=5", random="random"]; 
+Brooks -> CambridgeRLS[label="9.7
+04/27", weight="91", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
+CambridgeRLS -> NMH[label="14.0
+04/27", weight="86", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]}

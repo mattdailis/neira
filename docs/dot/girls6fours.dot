@@ -1,12 +1,4 @@
-digraph girls6fours {FrederickGunn [URL="girls6foursFrederickGunn.html"];LymeOldLyme [URL="girls6foursLymeOldLyme.html"];AndoverBedfordComposite [URL="girls6foursAndoverBedfordComposite.html"];Canterbury [URL="girls6foursCanterbury.html"];Hanover [URL="girls6foursHanover.html"];Nobles [URL="girls6foursNobles.html"];BBN [URL="girls6foursBBN.html"];AndoverBedfordComposite -> Hanover[label="5.9 (5.36)
-04/27", weight="95", tooltip="NEIRA,Andover vs. Hanover High School vs. Bedford			
-Distance: 1650 Conditions: Calm conditions to start racing with tailwind building over the course of the afternoon. 5-10mph. Order of racing:
-B3, G5, B4, G4, B2, G2, B5, G1, B1, G6, G3, B6. Comments: Not all races started at the line. Times should not be compared.
-In the G6 race, Hanover cut the turn buoy which is grounds for a disqualification.
-In the B4 race, Hanover caught multiple boat-stopping crabs.
-Thank you to all crews for making the trip. And special thank you to the athletes willing to double up or create composite crews to get everyone on the water today.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A21A42AB805198290F7DED1497014168&cat=5", random="random"]; 
-Nobles -> BBN[label="13.0 (14.44)
+digraph girls6fours {BBN [URL="girls6foursBBN.html"];Canterbury [URL="girls6foursCanterbury.html"];FrederickGunn [URL="girls6foursFrederickGunn.html"];LymeOldLyme [URL="girls6foursLymeOldLyme.html"];Nobles [URL="girls6foursNobles.html"];Nobles -> BBN[label="13.0 (14.44)
 04/20", weight="87", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
 Girls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.

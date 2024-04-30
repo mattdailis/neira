@@ -1,4 +1,4 @@
-digraph boys2foursEastLyme {LymeOldLyme [URL="boys2foursEastLymeLymeOldLyme.html"];Stonington [URL="boys2foursEastLymeStonington.html"];EastLyme [URL="boys2foursEastLymeEastLyme.html"];LymeOldLyme -> EastLyme[label="31.2
+digraph boys2foursEastLyme {EastLyme [URL="boys2foursEastLymeEastLyme.html"];Stonington [URL="boys2foursEastLymeStonington.html"];LymeOldLyme [URL="boys2foursEastLymeLymeOldLyme.html"];LymeOldLyme -> EastLyme[label="31.2
 04/20", weight="69", tooltip="Lyme/Old Lyme, Stonington, East Lyme			
 Distance: 1500m - Novice were 1000m Conditions: Rain intermittently. Very flat, very low wind. Slight tail current. Comments: Girls novice 4 ended up being a a little under 1000m with drifting at the start
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=622A605D840C2B57865CD47A05BAB2CD&cat=5", random="random"]; 

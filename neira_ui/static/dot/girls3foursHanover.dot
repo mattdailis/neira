@@ -1,5 +1,13 @@
-digraph girls3foursHanover {Andover [URL="girls3foursHanoverAndover.html"];Hanover [URL="girls3foursHanoverHanover.html"];Andover -> Hanover[label="17.9 (16.27)
+digraph girls3foursHanover {Bedford [URL="girls3foursHanoverBedford.html"];Hanover [URL="girls3foursHanoverHanover.html"];Andover [URL="girls3foursHanoverAndover.html"];Andover -> Hanover[label="17.9 (16.27)
 04/27", weight="83", tooltip="NEIRA,Andover vs. Hanover High School vs. Bedford			
+Distance: 1650 Conditions: Calm conditions to start racing with tailwind building over the course of the afternoon. 5-10mph. Order of racing:
+B3, G5, B4, G4, B2, G2, B5, G1, B1, G6, G3, B6. Comments: Not all races started at the line. Times should not be compared.
+In the G6 race, Hanover cut the turn buoy which is grounds for a disqualification.
+In the B4 race, Hanover caught multiple boat-stopping crabs.
+Thank you to all crews for making the trip. And special thank you to the athletes willing to double up or create composite crews to get everyone on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A21A42AB805198290F7DED1497014168&cat=5", random="random"]; 
+Bedford -> Hanover[label="2.6 (2.36)
+04/27", weight="98", tooltip="NEIRA,Andover vs. Hanover High School vs. Bedford			
 Distance: 1650 Conditions: Calm conditions to start racing with tailwind building over the course of the afternoon. 5-10mph. Order of racing:
 B3, G5, B4, G4, B2, G2, B5, G1, B1, G6, G3, B6. Comments: Not all races started at the line. Times should not be compared.
 In the G6 race, Hanover cut the turn buoy which is grounds for a disqualification.

@@ -4,104 +4,111 @@ matched = set()
 unmatched = set()
 
 
-def getNeiraSchools():
-    # return {'BBN': ["BB&N"],
-    #         'Bancroft' : [],
-    #         'Belmont Hill' : [],
-    #         'Berkshire' : [],
-    #         'Brooks' : [],
-    #         'CRLS' : [],
-    #         'Canterbury' : [],
-    #         'Choate' : [],
-    #         'Deerfield' : [],
-    #         'Derryfield' : [],
-    #         'Dexter' : [],
-    #         'Duxbury' : [],
-    #         'Greenwich Academy' : ['GA', 'Greenwich A', 'Greenwich Acad', 'Greenwich'],
-    #         'Groton' : [],
-    #         'Gunnery' : ['The Gunnery'],
-    #         'Hopkins' : ['Hop'],
-    #         'Lincoln' : [],
-    #         'Lyme/Old Lyme' : ['LOL', 'L//OL', 'L/OL'],
-    #         'Medford' : [],
-    #         'Middlesex' : [],
-    #         'Milton' : ['MHS'],
-    #         'Miss Porters' : ['M Porters', 'MPS'],
-    #         'Newton Country Day' : ['NCDS'],
-    #         'Nobles' : [],
-    #         'Pomfret' : [],
-    #         'Southfield' : [],
-    #         'St Marks' : ['Saint Marks'],
-    #         'Taft' : [],
-    #         'Valley' : ['Valley Regional'],
-    #         'Winsor' : [],
-    #         # NOT ACTUALLY NEIRA, but included to avoid matching one of the above
-    #         'Exeter' : [],
-    #         'Middletown' : [],
-    #         'Worcester Academy': [],
-    #         'Bedford' : [],
-    #         'Suffield': [],
-    #
-    #         # Added 2023:
-    #         "Andover": [],
-    #         "Bedford": [],
-    #         "Berwick": [],
-    #         "Boston Latin": [],
-    #         "Brewster Academy": [],
-    #         "Brookline": [],
-    #         "Cambridge Ringe and Latin School": ["Cambridge RLS"],
-    #         "East Lyme": [],
-    #         "E.O. Smith": [],
-    #         "Fairfield Prep": [],
-    #         "Farmington": [],
-    #         "Glastonbury": [],
-    #         "Guilford": [],
-    #         "Hingham": [],
-    #         "Kent": [],
-    #         "Salisbury": [],
-    #         "Shrewsbury": [],
-    #         "St. John's Prep": [],
-    #         "Stonington": [],
-    #         "Thayer": ["Thayer 1V"]
-    # },
+# def getNeiraSchools():
+# return {'BBN': ["BB&N"],
+#         'Bancroft' : [],
+#         'Belmont Hill' : [],
+#         'Berkshire' : [],
+#         'Brooks' : [],
+#         'CRLS' : [],
+#         'Canterbury' : [],
+#         'Choate' : [],
+#         'Deerfield' : [],
+#         'Derryfield' : [],
+#         'Dexter' : [],
+#         'Duxbury' : [],
+#         'Greenwich Academy' : ['GA', 'Greenwich A', 'Greenwich Acad', 'Greenwich'],
+#         'Groton' : [],
+#         'Gunnery' : ['The Gunnery'],
+#         'Hopkins' : ['Hop'],
+#         'Lincoln' : [],
+#         'Lyme/Old Lyme' : ['LOL', 'L//OL', 'L/OL'],
+#         'Medford' : [],
+#         'Middlesex' : [],
+#         'Milton' : ['MHS'],
+#         'Miss Porters' : ['M Porters', 'MPS'],
+#         'Newton Country Day' : ['NCDS'],
+#         'Nobles' : [],
+#         'Pomfret' : [],
+#         'Southfield' : [],
+#         'St Marks' : ['Saint Marks'],
+#         'Taft' : [],
+#         'Valley' : ['Valley Regional'],
+#         'Winsor' : [],
+#         # NOT ACTUALLY NEIRA, but included to avoid matching one of the above
+#         'Exeter' : [],
+#         'Middletown' : [],
+#         'Worcester Academy': [],
+#         'Bedford' : [],
+#         'Suffield': [],
+#
+#         # Added 2023:
+#         "Andover": [],
+#         "Bedford": [],
+#         "Berwick": [],
+#         "Boston Latin": [],
+#         "Brewster Academy": [],
+#         "Brookline": [],
+#         "Cambridge Ringe and Latin School": ["Cambridge RLS"],
+#         "East Lyme": [],
+#         "E.O. Smith": [],
+#         "Fairfield Prep": [],
+#         "Farmington": [],
+#         "Glastonbury": [],
+#         "Guilford": [],
+#         "Hingham": [],
+#         "Kent": [],
+#         "Salisbury": [],
+#         "Shrewsbury": [],
+#         "St. John's Prep": [],
+#         "Stonington": [],
+#         "Thayer": ["Thayer 1V"]
+# },
 
+
+def get_other_schools():
     return {
-        "Andover": [],  # Added 2023
         "Andover/Bedford Composite": [],
         "Andover/St. John's Prep Composite": [],
         "Avon": [],
+        "Bedford/Hanover Composite": [],
+        "BHS Middle School": [],
+        "Boston University Academy": ["BU Academy", "BUA"],
+        "Brooks and CRLS": [],  # wat.
+        "CRI": [],
+        "Notre Dame": ["Notre Dame 3V"],
+    }
+
+
+def get_neira_schools():
+    return {
+        "Andover": [],
         "Bancroft": [],
         "BB&N": [],
         "BC High": [],
-        "Bedford": [],  # Added 2023
-        "Bedford": [],  # Not NEIRA
-        "Bedford/Hanover Composite": [],
-        "Belmont Hill": [],  # Boys school
+        "Bedford": [],
+        "Belmont Hill": ["BHS"],
         "Berkshire": [],
-        "Berwick": [],  # Added 2023
-        "BHS Middle School": [],
-        "BHS": [],
-        "Boston Latin": ["BLS"],  # Added 2023
-        "Boston University Academy": ["BU Academy", "BUA"],
-        "Brewster": ["Brewster Academy"],
-        "Brookline": [],  # Added 2023
-        "Brooks and CRLS": [],  # wat.
+        "Berwick": [],
+        "Boston Latin": ["BLS"],
+        "Brewster Academy": ["Brewster"],
+        "Brookline": [],
         "Brooks": [],
         "Brunswick": [],
-        "Cambridge Ringe and Latin School": ["Cambridge RLS", "CRLS"],  # Added 2023
+        "Cambridge RLS": ["Cambridge Ringe and Latin School", "CRLS"],
         "Canterbury": [],
         "Choate": [],
-        "CRI": [],
+        "Deerfield": [],
         "Derryfield": [],
-        "Dexter Southfield": ["DXSF"],
+        "Dexter-Southfield": ["DXSF"],
         "Duxbury": [],
-        "E.O. Smith": [],  # Added 2023
+        "E.O. Smith": [],
         "Eagle Hill": [],
-        "East Lyme": [],  # Added 2023
-        "Exeter": [],  # Not NEIRA
-        "Fairfield Prep": [],  # Added 2023
-        "Farmington": ["Farmington Novice"],
-        "Farmington": [],  # Added 2023
+        "East Lyme": [],
+        "Exeter": [],
+        "Fairfield Prep": [],
+        "Farmington": [],
+        "Forman": [],
         "Frederick Gunn": [
             "The Frederick Gunn School",
             "Gunnery",
@@ -110,58 +117,50 @@ def getNeiraSchools():
             "Frederick Gunn",
             "Gunn School",
         ],
-        "Glastonbury": ["Glastonbury Novice"],
-        "Glastonbury": [],  # Added 2023
+        "Glastonbury": [],
         "Greenwich Academy": [],
-        "Greenwich CD": ["GCDS", "Greenwich Country Day"],
+        "Greenwich Country Day": ["Greenwich CD", "GCDS"],
         "Groton": [],
-        "Guilford": ["Guilford Novice"],  # Added 2023
+        "Guilford": [],
         "Hanover": [],
-        "Hingham": [],  # Added 2023
+        "Hingham": [],
         "Hopkins": [],
-        "Hotchkiss": ["Hotchkiss N4"],
-        "Kent": [],  # Added 2023
+        "Hotchkiss": [],
+        "Kent": [],
         "King School": [],
         "Lincoln": [],
-        "Lyme Old Lyme": ["LOL", "L//OL", "L/OL"],
-        "Marianapolis": [],
+        "Lyme/Old Lyme": ["Lyme Old Lyme", "LOL", "L//OL", "L/OL"],
+        "Marianapolis Prep": ["Marianapolis"],
         "Medford": [],
         "Middlesex": ["MX"],
         "Middletown": ["Middletown HS"],
+        "Milton": [],
         "Miss Porter's": ["MPS"],
         "Newton Country Day": ["NCDS"],
         "NMH": [],
         "Nobles": [],
-        "Notre Dame": ["Notre Dame 3V"],
         "Pingree": [],
         "Pomfret": [],
         "Sacred Heart": [],
-        "Salisbury": [],  # Added 2023
-        "Shrewsbury": [],  # Added 2023
+        "Salisbury": [],
+        "Shrewsbury": [],
         "Simsbury": [],
-        "SMS": [],
-        "St. John's": ["St. John's Prep"],
+        "St. John's Prep": [],
+        "St. John's": [],
         "St. Mark's": [],
-        "St. Mary's - Bay View": [],
-        "St. Mary's - Lynn": [],
-        "St. Paul's": ["St. Paul's-3rd", "St. Paul's-4th"],
-        "Stonington": [
-            "Stonington Novice",
-            "Stonington (exhibition)",
-            "Stonington 2V",
-            "Stonington GN4",
-            "Stonington GV4+",
-        ],
-        "Stonington": [],  # Added 2023
+        "St. Mary Academy-Bay View": [],
+        "St. Mary's-Lynn": [],
+        "St. Paul's": [],
+        "Stonington": [],
         "Suffield": [],
-        "Tabor": ["Tabor - Exhibition"],
+        "Tabor": [],
         "Taft": [],
-        "Thayer": ["Thayer 1V"],
+        "Thayer": [],
         "Valley Regional": [],
         "Vermont Academy": [],
         "Winsor": [],
         "Worcester Academy": [],
-        "Worcester HS": [],
+        "Worcester Public": ["Worcester HS"],
     }
 
     return {
@@ -235,22 +234,18 @@ def matchSchool(name, boatNum=None):
     # Preprocess name to remove boat info
     name_for_score = name.replace("Boys", "").replace("Girls", "").replace("Novice", "")
 
-    neira = getNeiraSchools()
+    neira_schools = get_neira_schools()
+    other_schools = get_other_schools()
+
     scores = set([])
-    for school in neira:
+    for school, nicks in dict(**other_schools, **neira_schools).items():
         score = compare(school, name_for_score)
-        for nick in neira[school]:
+        for nick in nicks:
             newscore = compare(name_for_score, nick)
             if newscore > score:
                 score = newscore
         scores.add((school, score))
     (school, score) = max(scores, key=(lambda x_y: x_y[1]))
-
-    if name in ["Exeter", "Bedford", "Suffield", "Kent School", "Kent"]:
-        return (None, None)
-
-    # if school == 'Greenwich Academy':
-    #     name = name.replace(" A", " Academy ")
 
     num = boatNum
 
@@ -278,7 +273,10 @@ def matchSchool(name, boatNum=None):
         if (name, school) not in matched and name != school:
             print(name, "~", school)
         matched.add((name, school))
-        return (school, num)
+        if school in neira_schools:
+            return (school, num)
+        else:
+            return (None, None)
     else:
         unmatched.add(name)
         # return (name, boatNum)

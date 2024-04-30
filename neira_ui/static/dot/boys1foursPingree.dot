@@ -1,4 +1,4 @@
-digraph boys1foursPingree {Pingree [URL="boys1foursPingreePingree.html"];BostonUniversityAcademy [URL="boys1foursPingreeBostonUniversityAcademy.html"];Pingree -> BostonUniversityAcademy[label="35.0
+digraph boys1foursPingree {BostonUniversityAcademy [URL="boys1foursPingreeBostonUniversityAcademy.html"];Pingree [URL="boys1foursPingreePingree.html"];Pingree -> BostonUniversityAcademy[label="35.0
 04/20", weight="65", tooltip="NEIRA Boys Fours,Pingree School, Boston University Academy			
 Distance: 1500 meters
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=23CC2067AD3F4FF2DCAAB53A534BC81E&cat=1", random="random"]}

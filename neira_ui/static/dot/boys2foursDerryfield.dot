@@ -1,10 +1,10 @@
-digraph boys2foursDerryfield {Berwick [URL="boys2foursDerryfieldBerwick.html"];Derryfield [URL="boys2foursDerryfieldDerryfield.html"];WorcesterAcademy [URL="boys2foursDerryfieldWorcesterAcademy.html"];Marianapolis [URL="boys2foursDerryfieldMarianapolis.html"];Berwick -> Derryfield[label="26.1
+digraph boys2foursDerryfield {Berwick [URL="boys2foursDerryfieldBerwick.html"];WorcesterAcademy [URL="boys2foursDerryfieldWorcesterAcademy.html"];MarianapolisPrep [URL="boys2foursDerryfieldMarianapolisPrep.html"];Derryfield [URL="boys2foursDerryfieldDerryfield.html"];Berwick -> Derryfield[label="26.1
 04/20", weight="74", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Derryfield School			
 Distance: 1500 Conditions: Light drizzle and grey skies, but flat conditions. Racing in the direction of the incoming tide. Comments: The boys 4V even was a combination of 4V boys with novice boys and served as an intersquad scrimmage. This race was slightly shorter and started around the 1250 mark.
 The girls 3V was a mixed boat event with even gender splits in each boat and represented various skill levels.
 Thank you Derryfield for making the trip and dealing with Maine mud season.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2A4F56FA4FB7C41A0E813337362894A3&cat=5", random="random"]; 
-Derryfield -> Marianapolis[label="103.22
+Derryfield -> MarianapolisPrep[label="103.22
 04/17", weight="-3", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. Derryfield			
 Distance: 1500m Conditions: Stiff head wind throughout all races, particularly the first 700m. Comments: Thank you, Derryfield, for making the trip down from NH!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&cat=5", random="random"]; 

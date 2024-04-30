@@ -57,9 +57,9 @@ def clean(scraped):
 
     heats = []
     for span in scraped["spans"]:
-        if span["name"] and "women" in span["name"]:
+        if span["name"] and "women" in span["name"].lower():
             gender = "girls"
-        elif span["name"] and "men" in span["name"]:
+        elif span["name"] and "men" in span["name"].lower():
             gender = "boys"
         for heat in span["heats"]:
             (gender, boatNum, boatSize) = parseBoat(gender, boatSize, heat["heat"])
