@@ -49,25 +49,6 @@
         },
         {
             "class": "eights",
-            "gender": "boys",
-            "results": [
-                {
-                    "school": "Glastonbury",
-                    "time": "4.22.77"
-                },
-                {
-                    "school": "Farmington",
-                    "time": "4.23.29"
-                },
-                {
-                    "school": "Glastonbury",
-                    "time": "4:41.05"
-                }
-            ],
-            "varsity_index": "4"
-        },
-        {
-            "class": "eights",
             "gender": "girls",
             "results": [
                 {
@@ -110,21 +91,6 @@
                 }
             ],
             "varsity_index": "3"
-        },
-        {
-            "class": "eights",
-            "gender": "girls",
-            "results": [
-                {
-                    "school": "Glastonbury",
-                    "time": "5:08.57"
-                },
-                {
-                    "school": "Farmington",
-                    "time": "5:10.35"
-                }
-            ],
-            "varsity_index": "4"
         }
     ],
     "regatta_display_name": "NEIRA Boys & Girls Eights,Farmington High School vs Glastonbury High School",

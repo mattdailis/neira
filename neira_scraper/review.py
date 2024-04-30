@@ -15,22 +15,21 @@ def review(data_dir):
     with open("corrections.json", "r") as f:
         corrections = json.load(f)
 
-    print("corrections.json")
+    print("Corrections are saved in corrections.json")
 
     for filename in sorted(os.listdir(data_dir)):
         uid = os.path.splitext(os.path.basename(filename))[0]
 
         if uid in corrections:
-            if corrections[uid]["checksum"] == "...":
-                with open(os.path.join(data_dir, filename)) as f:
-                    corrections[uid]["checksum"] = hashlib.md5(
-                        f.read().encode()
-                    ).hexdigest()
+            with open(os.path.join(data_dir, filename)) as f:
+                new_checksum = hashlib.md5(f.read().encode()).hexdigest()
 
-            with open("corrections.json", "w") as f:
-                json.dump(corrections, f, sort_keys=True, indent=4)
-
-            continue
+            if corrections[uid]["checksum"] == new_checksum:
+                continue
+            else:
+                print(uid + " has changed since it was last reviewed")
+        else:
+            print(uid + " has not been reviewed")
 
         with open(os.path.join(data_dir, filename)) as f:
             file_contents = f.read()

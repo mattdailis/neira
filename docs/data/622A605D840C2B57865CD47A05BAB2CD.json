@@ -19,25 +19,6 @@
         },
         {
             "class": "fours",
-            "gender": "boys",
-            "results": [
-                {
-                    "school": "Lyme/Old Lyme",
-                    "time": "3:52.1"
-                },
-                {
-                    "school": "Stonington",
-                    "time": "3:58.2"
-                },
-                {
-                    "school": "East Lyme",
-                    "time": "4:23.3"
-                }
-            ],
-            "varsity_index": "2"
-        },
-        {
-            "class": "fours",
             "gender": "girls",
             "results": [
                 {
@@ -50,25 +31,6 @@
                 }
             ],
             "varsity_index": "1"
-        },
-        {
-            "class": "fours",
-            "gender": "girls",
-            "results": [
-                {
-                    "school": "Stonington",
-                    "time": "4:47.6"
-                },
-                {
-                    "school": "Lyme/Old Lyme",
-                    "time": "4:50.8"
-                },
-                {
-                    "school": "East Lyme",
-                    "time": "5:17.1"
-                }
-            ],
-            "varsity_index": "2"
         }
     ],
     "regatta_display_name": "Lyme/Old Lyme, Stonington, East Lyme",

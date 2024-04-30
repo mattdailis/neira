@@ -64,25 +64,6 @@
         },
         {
             "class": "eights",
-            "gender": "boys",
-            "results": [
-                {
-                    "school": "Duxbury",
-                    "time": "5:02.9"
-                },
-                {
-                    "school": "Hingham",
-                    "time": "5:20.9"
-                },
-                {
-                    "school": "Duxbury",
-                    "time": "5:23.0"
-                }
-            ],
-            "varsity_index": "5"
-        },
-        {
-            "class": "eights",
             "gender": "girls",
             "results": [
                 {
@@ -140,25 +121,6 @@
                 }
             ],
             "varsity_index": "4"
-        },
-        {
-            "class": "eights",
-            "gender": "girls",
-            "results": [
-                {
-                    "school": "Hingham",
-                    "time": "5:43.0"
-                },
-                {
-                    "school": "Duxbury",
-                    "time": "6:01.0"
-                },
-                {
-                    "school": "Hingham",
-                    "time": "6:23.1"
-                }
-            ],
-            "varsity_index": "5"
         }
     ],
     "regatta_display_name": "NEIRA Boys & Girls Eights,Duxbury & Hingham- Salty Bow Sprints",

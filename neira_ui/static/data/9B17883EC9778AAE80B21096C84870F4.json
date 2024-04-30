@@ -38,21 +38,6 @@
         },
         {
             "class": "eights",
-            "gender": "boys",
-            "results": [
-                {
-                    "school": "Stonington",
-                    "time": "3:36.4"
-                },
-                {
-                    "school": "East Lyme",
-                    "time": "4:03.3"
-                }
-            ],
-            "varsity_index": "3"
-        },
-        {
-            "class": "eights",
             "gender": "girls",
             "results": [
                 {
@@ -88,25 +73,6 @@
                 }
             ],
             "varsity_index": "2"
-        },
-        {
-            "class": "eights",
-            "gender": "girls",
-            "results": [
-                {
-                    "school": "Stonington",
-                    "time": "4:22.4"
-                },
-                {
-                    "school": "East Lyme",
-                    "time": "4:36.5"
-                },
-                {
-                    "school": "Lyme/Old Lyme",
-                    "time": "4:52.4"
-                }
-            ],
-            "varsity_index": "3"
         }
     ],
     "regatta_display_name": "NEIRA Boys & Girls Eights,Stonington, East Lyme, Lyme/Old Lyme",

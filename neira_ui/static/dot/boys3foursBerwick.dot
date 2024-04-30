@@ -1,8 +1,4 @@
-digraph boys3foursBerwick {Berwick [URL="boys3foursBerwickBerwick.html"];BrewsterAcademy [URL="boys3foursBerwickBrewsterAcademy.html"];WorcesterAcademy [URL="boys3foursBerwickWorcesterAcademy.html"];BrewsterAcademy -> Berwick[label="47.9
-04/13", weight="53", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
-Distance: 1500 Conditions: Tail Current with a strong tail/cross wind with occasional gusts. Fun conditions for first race of the season! Thank you for Brewster for making the trip. Comments: Mixed boats were exhibition events and a combo of boys and girls of various skill levels - anything to get some new rowers more racing experience!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=193F4296CB862153CF0FD21B95E6AB20&cat=5", random="random"]; 
-Berwick -> WorcesterAcademy[label="157.82
+digraph boys3foursBerwick {Berwick [URL="boys3foursBerwickBerwick.html"];WorcesterAcademy [URL="boys3foursBerwickWorcesterAcademy.html"];Berwick -> WorcesterAcademy[label="157.82
 04/28", weight="-57", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs Bancroft School, Berwick Academy and Derryfield School			
 Distance: 1500 m Conditions: All races experienced a tailwind of approximately 8-10 mph and light chop. Comments: Race order was B1V, G1V, B2V, B3V, BN1/GN1. Notes: In G1V race, Derryfield 2V raced as Derryfield B. In B3 race, Berwick 4V raced as Berwick B. A novice race has been recorded under the B4V event and consisted of Berwick BN1, Derryfield GN1 and Worcester Academy GN1.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&cat=5", random="random"]}
