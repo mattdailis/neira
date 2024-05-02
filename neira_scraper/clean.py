@@ -10,7 +10,7 @@ import datetime
 
 from os.path import basename, splitext
 
-from neiraschools import matchSchool
+from neiraschools import match_school
 
 
 def clean(scraped):
@@ -68,18 +68,10 @@ def clean(scraped):
             schools = []
             for x in heat["school_times"]:
                 school = x["school"]
-                time = x["time"]
 
                 cleaned_school = clean_school(school, boatSize, gender)
 
-                if isinstance(cleaned_school, NonNeira):
-                    if cleaned_school.school is None:
-                        schools.append("Could not match: " + school)
-                    else:
-                        schools.append(cleaned_school.school + " (not neira)")
-                    continue
-
-                if cleaned_school in schools:
+                if cleaned_school is None or cleaned_school in schools:
                     continue  # Skip subsequent occurrences of a school in a heat
 
                 schools.append(cleaned_school)
@@ -190,12 +182,12 @@ NonNeira = namedtuple("NonNeira", "school")
 
 
 def clean_school(school, class_, gender):
-    return matchSchool(school, class_, gender)
+    return match_school(school, class_, gender)
 
 
 def clean_gender(gender):
     if gender not in ("boys", "girls"):
-        raise Exception("Unrecognized gender: " + gender)
+        raise Exception("Unrecognized gender: " + str(gender))
     return gender
 
 
@@ -229,7 +221,7 @@ def parseBoat(gender, boatSize, boatString):
     if gender is None:
         if "g" in boatString.lower().replace("eig", ""):
             gender = "girls"
-        elif "b" in boatString.lower():
+        elif "b" in boatString.lower().replace("boat", ""):
             gender = "boys"
 
     if (

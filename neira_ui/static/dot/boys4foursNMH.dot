@@ -1,4 +1,4 @@
-digraph boys4foursNMH {Pomfret [URL="boys4foursNMHPomfret.html"];CambridgeRLS [URL="boys4foursNMHCambridgeRLS.html"];NMH [URL="boys4foursNMHNMH.html"];Brooks [URL="boys4foursNMHBrooks.html"];Hopkins [URL="boys4foursNMHHopkins.html"];BelmontHill [URL="boys4foursNMHBelmontHill.html"];BelmontHill -> NMH[label="37.7
+digraph boys4foursNMH {Hopkins [URL="boys4foursNMHHopkins.html"];Brooks [URL="boys4foursNMHBrooks.html"];NMH [URL="boys4foursNMHNMH.html"];BelmontHill [URL="boys4foursNMHBelmontHill.html"];CambridgeRLS [URL="boys4foursNMHCambridgeRLS.html"];Pomfret [URL="boys4foursNMHPomfret.html"];BelmontHill -> NMH[label="37.7
 04/20", weight="63", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 

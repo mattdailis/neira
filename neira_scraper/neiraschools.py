@@ -100,7 +100,7 @@ boys_fours = {
     "Bancroft",
     "BB&N",
     "Belmont Hill",
-    "Berkshire",
+    "Berkshire Academy",
     "Berwick",
     "BU Academy",
     "Brewster Academy",
@@ -224,17 +224,36 @@ all_schools = (
 
 
 aliases = {
-    "Notre Dame": ["Notre Dame 3V"],
+    "Andover": [],
+    "Bancroft": [],
+    "BB&N": [],
+    "BC High": [],
+    "Bedford": [],
     "Belmont Hill": ["BHS"],
+    "Berkshire Academy": ["Berkshire"],
     "Berwick": ["Berwick Mixed C"],
     "Boston Latin": ["BLS"],
     "Brewster Academy": ["Brewster"],
+    "Brookline": [],
+    "Brooks": [],
+    "Brunswick": [],
     "BU Academy": [
         "Boston University Academy",
         "BUA",
     ],  # In dad's list but not in dropdown
     "Cambridge RLS": ["Cambridge Ringe and Latin School", "CRLS"],
+    "Canterbury": [],
+    "Choate": [],
+    "Deerfield": [],
+    "Derryfield": [],
     "Dexter-Southfield": ["DXSF"],
+    "Duxbury": [],
+    "E.O. Smith": [],
+    "Eagle Hill": [],
+    "East Lyme": [],
+    "Exeter": [],
+    "Fairfield Prep": [],
+    "Farmington": [],
     "Frederick Gunn": [
         "The Frederick Gunn School",
         "Gunnery",
@@ -243,15 +262,49 @@ aliases = {
         "Frederick Gunn",
         "Gunn School",
     ],
+    "Glastonbury": [],
+    "Greenwich Academy": [],
     "Greenwich Country Day": ["Greenwich CD", "GCDS"],
+    "Groton": [],
+    "Guilford": [],
+    "Hanover": [],
+    "Hingham": [],
+    "Hopkins": [],
+    "Hotchkiss": [],
+    "Kent": [],
+    "King School": [],
+    "Lincoln": [],
     "Lyme/Old Lyme": ["Lyme Old Lyme", "LOL", "L//OL", "L/OL"],
     "Marianapolis Prep": ["Marianapolis"],
+    "Medford": [],
     "Middlesex": ["MX"],
     "Middletown": ["Middletown HS"],
     "Miss Porter's": ["MPS"],
     "Newton Country Day": ["NCDS"],
+    "NMH": [],
+    "Nobles": [],
+    "Notre Dame": ["Notre Dame 3V"],
+    "Pingree": [],
+    "Pomfret": [],
+    "Sacred Heart": [],
+    "Salisbury": [],
+    "Shrewsbury": [],
+    "Simsbury": [],
+    "St. John's Prep": [],
+    "St. John's": [],
+    "St. Mark's": [],
     "St. Mary Academy-Bay View": ["St. Mary Academy - Bay View"],
     "St. Mary's-Lynn": ["St. Mary's - Lynn"],
+    "St. Paul's": [],
+    "Stonington": [],
+    "Suffield": [],
+    "Tabor": [],
+    "Taft": [],
+    "Thayer": [],
+    "Valley Regional": [],
+    "Vermont Academy": ["VA"],
+    "Winsor": [],
+    "Worcester Academy": [],
     "Worcester Public": ["Worcester HS"],
 }
 
@@ -322,15 +375,7 @@ aliases = {
 
 # What about a boys 3 boat that still wants to be considered a 3rd boat, but races 2nd boats occasionally
 # should those races count? Towards what? Margins????
-def matchSchool(name, class_, gender):
-    # sanity check
-    for school in aliases:
-        if school not in all_schools:
-            raise Exception("" + school + " not in any list")
-
-    # Preprocess name to remove boat info
-    name_for_score = name.replace("Boys", "").replace("Girls", "").replace("Novice", "")
-
+def match_school(name, class_, gender):
     if class_ == "eights" and gender == "boys":
         relevant_schools = boys_eights
     elif class_ == "eights" and gender == "girls":
@@ -339,13 +384,21 @@ def matchSchool(name, class_, gender):
         relevant_schools = boys_fours
     elif class_ == "fours" and gender == "girls":
         relevant_schools = girls_fours
+    elif class_ == "eights" and gender == None:
+        relevant_schools = boys_eights.union(girls_eights)
+    elif class_ == "fours" and gender == None:
+        relevant_schools = boys_fours.union(girls_fours)
     else:
         raise Exception("Unhandled class/gender combo: " + repr((class_, gender)))
 
+    # Preprocess name to remove boat info
+    name_for_score = name.replace("Boys", "").replace("Girls", "").replace("Novice", "")
     scores = set()
     for school in all_schools:
         score = compare(school, name_for_score)
-        for alias in aliases.get(school, []):
+        if school in other_schools:
+            continue
+        for alias in aliases[school]:
             new_score = compare(name_for_score, alias)
             if new_score > score:
                 score = new_score
@@ -357,7 +410,21 @@ def matchSchool(name, class_, gender):
         if school in relevant_schools:
             return school
         else:
-            print("Irrelevant school: " + name + " in " + gender + " " + class_)
+            if (
+                (school in girls_eights.union(girls_fours))
+                and not (school in boys_eights.union(boys_fours))
+                and gender == "boys"
+            ):
+                print(school, gender, class_)
+                raise Exception("Wrong gender?")
+
+            if (
+                (school in boys_eights.union(boys_fours))
+                and not (school in girls_eights.union(girls_fours))
+                and gender == "girls"
+            ):
+                print(school, gender, class_)
+                raise Exception("Wrong gender?")
             return None
     else:
         unmatched.add(name)

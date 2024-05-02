@@ -1,5 +1,18 @@
-digraph girls2foursTaft {Taft [URL="girls2foursTaftTaft.html"];Choate [URL="girls2foursTaftChoate.html"];Taft -> Choate[label="0.2
+digraph girls2foursTaft {Taft [URL="girls2foursTaftTaft.html"];BerkshireAcademy [URL="girls2foursTaftBerkshireAcademy.html"];Choate [URL="girls2foursTaftChoate.html"];Groton [URL="girls2foursTaftGroton.html"];Pomfret [URL="girls2foursTaftPomfret.html"];Groton -> Taft[label="22.5
+04/27", weight="78", tooltip="NEIRA,Pomfret vs. Groton, Taft			
+Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&cat=1", random="random"]; 
+Taft -> Pomfret[label="46.9
+04/27", weight="54", tooltip="NEIRA,Pomfret vs. Groton, Taft			
+Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&cat=1", random="random"]; 
+Taft -> Choate[label="0.2
 04/20", weight="100", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
+Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
+Thanks to Taft and Choate for some great racing in ideal conditions.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&cat=5", random="random"]; 
+Taft -> BerkshireAcademy[label="47.4
+04/20", weight="53", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&cat=5", random="random"]}

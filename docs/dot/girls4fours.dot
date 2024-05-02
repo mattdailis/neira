@@ -1,4 +1,4 @@
-digraph girls4fours {Pomfret [URL="girls4foursPomfret.html"];Groton [URL="girls4foursGroton.html"];CambridgeRLS [URL="girls4foursCambridgeRLS.html"];NMH [URL="girls4foursNMH.html"];Choate [URL="girls4foursChoate.html"];NewtonCountryDay [URL="girls4foursNewtonCountryDay.html"];StMarks [URL="girls4foursStMarks.html"];Middlesex [URL="girls4foursMiddlesex.html"];Brooks [URL="girls4foursBrooks.html"];Nobles [URL="girls4foursNobles.html"];BBN [URL="girls4foursBBN.html"];NMH -> Pomfret[label="32.2
+digraph girls4fours {Taft [URL="girls4foursTaft.html"];Winsor [URL="girls4foursWinsor.html"];BBN [URL="girls4foursBBN.html"];Choate [URL="girls4foursChoate.html"];Brooks [URL="girls4foursBrooks.html"];StMarks [URL="girls4foursStMarks.html"];Groton [URL="girls4foursGroton.html"];NMH [URL="girls4foursNMH.html"];Nobles [URL="girls4foursNobles.html"];Middlesex [URL="girls4foursMiddlesex.html"];CambridgeRLS [URL="girls4foursCambridgeRLS.html"];Pomfret [URL="girls4foursPomfret.html"];NewtonCountryDay [URL="girls4foursNewtonCountryDay.html"];NMH -> Pomfret[label="32.2
 04/20", weight="68", tooltip="NEIRA Girls Fours,Pomfret vs. NMH, Hopkins			
 Distance: 1500m Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout, with a slight tailwind developing in the last race. No current. Comments: Race order: G3, G2, G1, G4/5. Thanks to NMH and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=00FD5442533029F3F8C5DFD9A3F09907&cat=1", random="random"]; 
@@ -14,6 +14,18 @@ Middlesex -> Brooks[label="7.3
 04/20", weight="93", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 
+Groton -> Pomfret[label="33.0
+04/27", weight="67", tooltip="NEIRA,Pomfret vs. Groton, Taft			
+Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&cat=1", random="random"]; 
+Groton -> Taft[label="37.9
+04/27", weight="63", tooltip="NEIRA,Pomfret vs. Groton, Taft			
+Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&cat=1", random="random"]; 
+Pomfret -> Taft[label="4.9
+04/27", weight="96", tooltip="NEIRA,Pomfret vs. Groton, Taft			
+Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&cat=1", random="random"]; 
 BBN -> CambridgeRLS[label="18.4 (20.44)
 04/13", weight="82", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
 Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
@@ -84,4 +96,8 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E7
 StMarks -> NewtonCountryDay[label="47.9
 04/27", weight="53", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
 Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
+Winsor -> BBN[label="8.1 (9.35)
+04/27", weight="92", tooltip="NEIRA,The Winsor School vs. BB&N			
+Distance: 1300 Conditions: Flat and equal conditions across all races. Steering in 3V race resulted in both crews finishing off the course with an indistinguishable margin (deemed a tie). 4V crews reversed lanes mid-race, potentially impacting margin but not finish order. 5th and 6th boats were composite to provide a race for all athletes. Thank you to BB&N for a fun race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0A06BB5337D4EBAFB4A716F6CCD660BF&cat=1", random="random"]}

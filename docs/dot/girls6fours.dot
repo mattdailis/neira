@@ -1,4 +1,4 @@
-digraph girls6fours {LymeOldLyme [URL="girls6foursLymeOldLyme.html"];Nobles [URL="girls6foursNobles.html"];BBN [URL="girls6foursBBN.html"];Canterbury [URL="girls6foursCanterbury.html"];FrederickGunn [URL="girls6foursFrederickGunn.html"];Nobles -> BBN[label="13.0 (14.44)
+digraph girls6fours {LymeOldLyme [URL="girls6foursLymeOldLyme.html"];Winsor [URL="girls6foursWinsor.html"];BBN [URL="girls6foursBBN.html"];Nobles [URL="girls6foursNobles.html"];Canterbury [URL="girls6foursCanterbury.html"];FrederickGunn [URL="girls6foursFrederickGunn.html"];Nobles -> BBN[label="13.0 (14.44)
 04/20", weight="87", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
 Girls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.
@@ -14,4 +14,8 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D1
 FrederickGunn -> Canterbury[label="165.2
 04/27", weight="-65", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
 Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+BBN -> Winsor[label="7.7 (8.88)
+04/27", weight="93", tooltip="NEIRA,The Winsor School vs. BB&N			
+Distance: 1300 Conditions: Flat and equal conditions across all races. Steering in 3V race resulted in both crews finishing off the course with an indistinguishable margin (deemed a tie). 4V crews reversed lanes mid-race, potentially impacting margin but not finish order. 5th and 6th boats were composite to provide a race for all athletes. Thank you to BB&N for a fun race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0A06BB5337D4EBAFB4A716F6CCD660BF&cat=1", random="random"]}

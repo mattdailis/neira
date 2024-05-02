@@ -12,8 +12,13 @@
         "corrections": []
     },
     "0A06BB5337D4EBAFB4A716F6CCD660BF": {
-        "checksum": "5112e713c90acadaf8f84517f1b45cc1",
-        "corrections": []
+        "checksum": "c6d6c337bbc875faeff8c76394a9ee64",
+        "corrections": [
+            {
+                "gender": "girls",
+                "type": "set_gender_all_heats"
+            }
+        ]
     },
     "0B538421DF95D95D5523F6EF4CB5CD04": {
         "checksum": "2d16a7cc9fa0466b7dbf159a0357864c",
@@ -33,14 +38,11 @@
         ]
     },
     "16655D45C19917353A60332C40B27209": {
-        "checksum": "809ca096ebda4ba707b14eec1a2f05f9",
+        "checksum": "243e14bbef1c9150ffb78689fe50cd38",
         "corrections": [
             {
                 "heats": [
-                    "boys 3",
-                    "boys 4",
-                    "boys 5",
-                    "girls 3"
+                    "boys 5"
                 ],
                 "type": "ignore_heats"
             }
@@ -71,12 +73,17 @@
         ]
     },
     "1EE142EEB12B57D1FE83F46C7DD3118E": {
-        "checksum": "a95398d58891666b439222d90a6ddc48",
+        "checksum": "ee7a1286a26649bef78bd3e4af91312f",
         "corrections": []
     },
     "20E78FECE0268B5584D1E5BC6689C505": {
-        "checksum": "922953b5a5f63a8ab5bacacec925d242",
-        "corrections": []
+        "checksum": "32425da56985f9adce70a3a5b584edac",
+        "corrections": [
+            {
+                "gender": "boys",
+                "type": "set_gender_all_heats"
+            }
+        ]
     },
     "23CC2067AD3F4FF2DCAAB53A534BC81E": {
         "checksum": "36c380bd6d40c2c59df48cb562908e72",
@@ -132,7 +139,7 @@
         "corrections": []
     },
     "3C4A29E47D98F61F0E48D4228A060005": {
-        "checksum": "154a1a27d4576ec32790208ac6c6caa7",
+        "checksum": "e5fd845e3f68a2b626d0ab942d859249",
         "corrections": [
             {
                 "comment": "Girls 2V race was only 1000 meters",
@@ -167,7 +174,7 @@
         ]
     },
     "4B4C574EDD6CC2B9960D17FC0A26DE61": {
-        "checksum": "d2aa540ec35fd68ed6ee0a17bab6ffe9",
+        "checksum": "bd118dea8afb03b65c53235b376b0078",
         "corrections": []
     },
     "572A866681F1A29F4BC821412ED10F61": {
@@ -175,7 +182,7 @@
         "corrections": []
     },
     "574DEA01D736263BF1969B97108094B7": {
-        "checksum": "1c35097098194b2b98e6a2295cccfd1c",
+        "checksum": "873339dbd192139db2b2e448de660e70",
         "corrections": [
             {
                 "comment": "girls 3 should only seed Boston Latin and Simsbury",
@@ -188,7 +195,7 @@
         "corrections": []
     },
     "5BE52A0B0D2C5D9EFE557E09C6164DD7": {
-        "checksum": "eb78e1a8b3b159939b5fddcf40cd8f0b",
+        "checksum": "da2e15e63606177ffb5d6005bf980655",
         "corrections": [
             {
                 "comment": "review girls 3. Pomfret 4 beat Pomfret 3. Marianapolis 2 was also in this race",
@@ -201,15 +208,11 @@
         "corrections": []
     },
     "622A605D840C2B57865CD47A05BAB2CD": {
-        "checksum": "780657e084caf119429f5c672edb7228",
+        "checksum": "e4a1ee37d4302a231cf91dca89e05040",
         "corrections": [
             {
-                "comment": "marked as novice",
-                "heats": [
-                    "boys 2",
-                    "girls 2"
-                ],
-                "type": "ignore_heats"
+                "comment": "This race does not count, because Stonington competes in eights, while Lyme/Old Lyme competes in fours",
+                "type": "comment"
             }
         ]
     },
@@ -262,7 +265,7 @@
         "corrections": []
     },
     "9B17883EC9778AAE80B21096C84870F4": {
-        "checksum": "b1741ba037786fab06f4ea70c7de6402",
+        "checksum": "2d49a7f5c6c74908fece0554b0f55bb4",
         "corrections": [
             {
                 "comment": "marked as novice boats",
@@ -316,7 +319,7 @@
         "corrections": []
     },
     "AFA0BDBA7E1FC4103BD3B48DDF77C9D9": {
-        "checksum": "ff59a2e8522bc26d56eefd9b10a376c8",
+        "checksum": "7662ed45dbd6ca07488700336adbdebe",
         "corrections": []
     },
     "B22AAA979AF5CD66BC6FB376321A25A4": {
@@ -329,8 +332,13 @@
         ]
     },
     "B2DEAF649BD92E4956E382AFF1E67D1D": {
-        "checksum": "bbe49b2e3460c51fe0ac6cc88333e386",
-        "corrections": []
+        "checksum": "b8fb7108be903b4836d67b223e489353",
+        "corrections": [
+            {
+                "gender": "girls",
+                "type": "set_gender_all_heats"
+            }
+        ]
     },
     "C1541F9124E2FBBF81B1F9CADE55D186": {
         "checksum": "ce25d969f64e417e463dd034b26ca27a",
@@ -342,7 +350,7 @@
         ]
     },
     "CADB8564A7D0BE142DB6C47B0EED613F": {
-        "checksum": "9198e91db5a4597c85a9dafef7ce7b8c",
+        "checksum": "c3d84e52573f69f8ee7e00c91205fd8b",
         "corrections": []
     },
     "D2A9D155DC23371178BEBD4E183720CB": {
@@ -359,7 +367,7 @@
         ]
     },
     "DA7A1EFD458CB4B765258C3FD9635963": {
-        "checksum": "3765563281d56a796d69f4975fb6c90f",
+        "checksum": "d9a3d73141ee6f302282f79373075b1d",
         "corrections": []
     },
     "DD67470355C51F0B3378CD2B89283A3A": {
@@ -404,7 +412,7 @@
         "corrections": []
     },
     "F948FF189D877062CEBEAD4C9A9EE5CF": {
-        "checksum": "b9f018d00a449c1722d752f8d3478729",
+        "checksum": "4564af6ed30728f45cdd6c4b972a2899",
         "corrections": [
             {
                 "comment": "Marianapolis boys 2 raced in boys 3",
@@ -429,7 +437,7 @@
         ]
     },
     "FFB53DA96B577A62FC50202B0BC40DF0": {
-        "checksum": "8f82da62e3848ca129ce8491b2e77376",
+        "checksum": "6b3d57d19afa6b0333b256582b973f79",
         "corrections": []
     }
 }

@@ -1,4 +1,4 @@
-digraph boys1foursThayer {Thayer [URL="boys1foursThayerThayer.html"];CambridgeRLS [URL="boys1foursThayerCambridgeRLS.html"];BUAcademy [URL="boys1foursThayerBUAcademy.html"];CambridgeRLS -> Thayer[label="40.9 (45.44)
+digraph boys1foursThayer {Thayer [URL="boys1foursThayerThayer.html"];BUAcademy [URL="boys1foursThayerBUAcademy.html"];CambridgeRLS [URL="boys1foursThayerCambridgeRLS.html"];CambridgeRLS -> Thayer[label="40.9 (45.44)
 04/17", weight="60", tooltip="NEIRA Boys Fours,CRLS vs Thayer Academy, BU Academy			
 Distance: 1350 Conditions: Cross headwind for first 2/3 of race, mellowing out in the last 1/3. Comments: Thanks to BU Academy for joining, and thanks to Thayer for making the trip. Excellent effort from all crews.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5AC13C0A039EE6AFC8E97E47C247F44E&cat=1", random="random"]; 

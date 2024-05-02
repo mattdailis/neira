@@ -92,37 +92,15 @@
         },
         {
             "class": "eights",
-            "gender": "boys",
-            "results": [
-                {
-                    "margin_from_winner": 0,
-                    "raw_time": "5:16.0",
-                    "school": "Andover"
-                },
-                {
-                    "margin_from_winner": 34.0,
-                    "raw_time": "5:50.0",
-                    "school": null
-                }
-            ],
-            "varsity_index": "5"
-        },
-        {
-            "class": "eights",
             "gender": "girls",
             "results": [
                 {
                     "margin_from_winner": 0,
-                    "raw_time": "4:47.3",
-                    "school": null
-                },
-                {
-                    "margin_from_winner": 6.0,
                     "raw_time": "4:53.3",
                     "school": "Deerfield"
                 },
                 {
-                    "margin_from_winner": 12.7,
+                    "margin_from_winner": 6.7,
                     "raw_time": "5:00.0",
                     "school": "Andover"
                 }
@@ -139,11 +117,6 @@
                     "school": "Deerfield"
                 },
                 {
-                    "margin_from_winner": 0.2,
-                    "raw_time": "5:11.7",
-                    "school": null
-                },
-                {
                     "margin_from_winner": 0.6,
                     "raw_time": "5:12.1",
                     "school": "Andover"
@@ -157,16 +130,11 @@
             "results": [
                 {
                     "margin_from_winner": 0,
-                    "raw_time": "5:17.9",
-                    "school": null
-                },
-                {
-                    "margin_from_winner": 5.9,
                     "raw_time": "5:23.8",
                     "school": "Deerfield"
                 },
                 {
-                    "margin_from_winner": 23.6,
+                    "margin_from_winner": 17.7,
                     "raw_time": "5:41.5",
                     "school": "Andover"
                 }
@@ -179,16 +147,11 @@
             "results": [
                 {
                     "margin_from_winner": 0,
-                    "raw_time": "4:50.3",
-                    "school": null
-                },
-                {
-                    "margin_from_winner": 25.6,
                     "raw_time": "5:15.9",
                     "school": "Andover"
                 },
                 {
-                    "margin_from_winner": 28.3,
+                    "margin_from_winner": 2.7,
                     "raw_time": "5:18.6",
                     "school": "Deerfield"
                 }

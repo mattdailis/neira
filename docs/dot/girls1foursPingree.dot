@@ -1,4 +1,4 @@
-digraph girls1foursPingree {BUAcademy [URL="girls1foursPingreeBUAcademy.html"];Pingree [URL="girls1foursPingreePingree.html"];BUAcademy -> Pingree[label="40.0
+digraph girls1foursPingree {Pingree [URL="girls1foursPingreePingree.html"];BUAcademy [URL="girls1foursPingreeBUAcademy.html"];BUAcademy -> Pingree[label="40.0
 04/20", weight="60", tooltip="NEIRA Girls Fours,Pingree School, Boston University Academy			
 Distance: 1500 meters
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F3BA116ED6CBF64FC2111D7DC005C4D7&cat=1", random="random"]}

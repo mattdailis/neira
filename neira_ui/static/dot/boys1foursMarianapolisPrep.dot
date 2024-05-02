@@ -1,4 +1,4 @@
-digraph boys1foursMarianapolisPrep {Pomfret [URL="boys1foursMarianapolisPrepPomfret.html"];Bancroft [URL="boys1foursMarianapolisPrepBancroft.html"];Derryfield [URL="boys1foursMarianapolisPrepDerryfield.html"];Suffield [URL="boys1foursMarianapolisPrepSuffield.html"];WorcesterAcademy [URL="boys1foursMarianapolisPrepWorcesterAcademy.html"];Berkshire [URL="boys1foursMarianapolisPrepBerkshire.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrepMarianapolisPrep.html"];WorcesterAcademy -> MarianapolisPrep[label="47.9
+digraph boys1foursMarianapolisPrep {Suffield [URL="boys1foursMarianapolisPrepSuffield.html"];BerkshireAcademy [URL="boys1foursMarianapolisPrepBerkshireAcademy.html"];Derryfield [URL="boys1foursMarianapolisPrepDerryfield.html"];WorcesterAcademy [URL="boys1foursMarianapolisPrepWorcesterAcademy.html"];Bancroft [URL="boys1foursMarianapolisPrepBancroft.html"];Pomfret [URL="boys1foursMarianapolisPrepPomfret.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrepMarianapolisPrep.html"];WorcesterAcademy -> MarianapolisPrep[label="47.9
 04/21", weight="53", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft and Marianapolis Prep			
 Distance: 1500 meters Conditions: Steady 10-12 mph tail/cross wind throughout the races. Minimal chop. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed second. A friendly mixed Novice 4+ was also held with Bancroft vs. Worcester Academy.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE1377E8919904D6083B1C51335B1F5A&cat=5", random="random"]; 
@@ -15,7 +15,7 @@ Derryfield -> MarianapolisPrep[label="81.2
 04/17", weight="19", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. Derryfield			
 Distance: 1500m Conditions: Stiff head wind throughout all races, particularly the first 700m. Comments: Thank you, Derryfield, for making the trip down from NH!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&cat=5", random="random"]; 
-Berkshire -> MarianapolisPrep[label="92.7
+BerkshireAcademy -> MarianapolisPrep[label="92.7
 04/24", weight="8", tooltip="NEIRA Boys Fours,Pomfret v. Berkshire, Marianapolis			
 Distance: 1500M Conditions: Swirling, gusty winds - 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, B4, B3, B2, B1 with girls' races in between.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&cat=1", random="random"]; 

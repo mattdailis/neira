@@ -65,23 +65,6 @@
         },
         {
             "class": "eights",
-            "gender": "boys",
-            "results": [
-                {
-                    "margin_from_winner": 0,
-                    "raw_time": "3:27.4",
-                    "school": "Fairfield Prep"
-                },
-                {
-                    "margin_from_winner": -2.8,
-                    "raw_time": "3:24.6",
-                    "school": null
-                }
-            ],
-            "varsity_index": "4"
-        },
-        {
-            "class": "eights",
             "gender": "girls",
             "results": [
                 {
@@ -96,23 +79,6 @@
                 }
             ],
             "varsity_index": "1"
-        },
-        {
-            "class": "eights",
-            "gender": "girls",
-            "results": [
-                {
-                    "margin_from_winner": 0,
-                    "raw_time": "3:45.9",
-                    "school": "Farmington"
-                },
-                {
-                    "margin_from_winner": -8.5,
-                    "raw_time": "3:37.4",
-                    "school": null
-                }
-            ],
-            "varsity_index": "2"
         }
     ],
     "regatta_display_name": "NEIRA Boys & Girls Eights,Stonington vs Fairfield Prep vs Farmington",

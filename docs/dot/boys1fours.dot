@@ -1,4 +1,4 @@
-digraph boys1fours {Bancroft [URL="boys1foursBancroft.html"];NMH [URL="boys1foursNMH.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];NotreDame [URL="boys1foursNotreDame.html"];StMarks [URL="boys1foursStMarks.html"];Hopkins [URL="boys1foursHopkins.html"];Pingree [URL="boys1foursPingree.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];CambridgeRLS [URL="boys1foursCambridgeRLS.html"];Suffield [URL="boys1foursSuffield.html"];Choate [URL="boys1foursChoate.html"];Brooks [URL="boys1foursBrooks.html"];BBN [URL="boys1foursBBN.html"];Berkshire [URL="boys1foursBerkshire.html"];Middletown [URL="boys1foursMiddletown.html"];Pomfret [URL="boys1foursPomfret.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];Derryfield [URL="boys1foursDerryfield.html"];Middlesex [URL="boys1foursMiddlesex.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Nobles [URL="boys1foursNobles.html"];KingSchool [URL="boys1foursKingSchool.html"];Thayer [URL="boys1foursThayer.html"];Taft [URL="boys1foursTaft.html"];Medford [URL="boys1foursMedford.html"];EagleHill [URL="boys1foursEagleHill.html"];BUAcademy [URL="boys1foursBUAcademy.html"];Groton [URL="boys1foursGroton.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Canterbury [URL="boys1foursCanterbury.html"];Berwick [URL="boys1foursBerwick.html"];ValleyRegional [URL="boys1foursValleyRegional.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];BelmontHill [URL="boys1foursBelmontHill.html"];Berwick -> BrewsterAcademy[label="8.3
+digraph boys1fours {BUAcademy [URL="boys1foursBUAcademy.html"];Hopkins [URL="boys1foursHopkins.html"];KingSchool [URL="boys1foursKingSchool.html"];BBN [URL="boys1foursBBN.html"];Brooks [URL="boys1foursBrooks.html"];StMarks [URL="boys1foursStMarks.html"];Middletown [URL="boys1foursMiddletown.html"];NMH [URL="boys1foursNMH.html"];BelmontHill [URL="boys1foursBelmontHill.html"];NotreDame [URL="boys1foursNotreDame.html"];Nobles [URL="boys1foursNobles.html"];Middlesex [URL="boys1foursMiddlesex.html"];Thayer [URL="boys1foursThayer.html"];Derryfield [URL="boys1foursDerryfield.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Choate [URL="boys1foursChoate.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];Medford [URL="boys1foursMedford.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Pomfret [URL="boys1foursPomfret.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];Suffield [URL="boys1foursSuffield.html"];Berwick [URL="boys1foursBerwick.html"];Groton [URL="boys1foursGroton.html"];ValleyRegional [URL="boys1foursValleyRegional.html"];CambridgeRLS [URL="boys1foursCambridgeRLS.html"];Canterbury [URL="boys1foursCanterbury.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];Pingree [URL="boys1foursPingree.html"];Taft [URL="boys1foursTaft.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];EagleHill [URL="boys1foursEagleHill.html"];Bancroft [URL="boys1foursBancroft.html"];Berwick -> BrewsterAcademy[label="8.3
 04/13", weight="92", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
 Distance: 1500 Conditions: Tail Current with a strong tail/cross wind with occasional gusts. Fun conditions for first race of the season! Thank you for Brewster for making the trip. Comments: Mixed boats were exhibition events and a combo of boys and girls of various skill levels - anything to get some new rowers more racing experience!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=193F4296CB862153CF0FD21B95E6AB20&cat=5", random="random"]; 
@@ -75,10 +75,6 @@ LymeOldLyme -> ValleyRegional[label="39.5
 Distance: 1500 Conditions: 4 MPH head wind, ending at a 6mph headwind by the last race (G2V4) Comments: Lyme Old Lyme raced 3 boys varsity 4s but only the 1V4 was against a NEIRA program.
 Lyme Old Lyme also raced a 3V4 girls in the 2V4 race and the time is recorded in the third boat time.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B538421DF95D95D5523F6EF4CB5CD04&cat=5", random="random"]; 
-Groton -> Pomfret[label="37.3
-04/27", weight="63", tooltip="NEIRA,Pomfret vs. Groton, Taft			
-Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&cat=1", random="random"]; 
 CambridgeRLS -> BBN[label="0.9 (1.0)
 04/13", weight="100", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
 Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
@@ -125,12 +121,12 @@ Hopkins -> KingSchool[label="6.7 (8.04)
 04/10", weight="94", tooltip="NEIRA Boys Fours,King School vs Hopkins			
 Distance: 1250m Conditions: All races: heavy cross head wind at slack tide Comments: Great racing by all crews!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3D50124C185A4165878004B90B4662FD&cat=1", random="random"]; 
-Berkshire -> Taft[label="8.0
+BerkshireAcademy -> Taft[label="8.0
 04/20", weight="92", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&cat=5", random="random"]; 
-Berkshire -> Choate[label="11.2
+BerkshireAcademy -> Choate[label="11.2
 04/20", weight="89", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.
@@ -303,11 +299,11 @@ ValleyRegional -> StMarysLynn[label="23.0
 04/27", weight="77", tooltip="NEIRA Boys & Girls Fours,St. Mary Academy - Bay View, Lincoln, St. Mary's - Lynn, Valley Regional			
 Distance: 1500m Conditions: Mild headwind, slight chop, slack tide for the 1st girls race. Old Saybrook (not in league) also competed. Comments: Old Saybrook (not in league) raced in 2nd boys and 3rd girls events.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1004BB53FFEA236A97E11B8A53F16514&cat=5", random="random"]; 
-Berkshire -> Pomfret[label="4.9
+BerkshireAcademy -> Pomfret[label="4.9
 04/24", weight="96", tooltip="NEIRA Boys Fours,Pomfret v. Berkshire, Marianapolis			
 Distance: 1500M Conditions: Swirling, gusty winds - 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, B4, B3, B2, B1 with girls' races in between.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&cat=1", random="random"]; 
-Berkshire -> MarianapolisPrep[label="92.7
+BerkshireAcademy -> MarianapolisPrep[label="92.7
 04/24", weight="8", tooltip="NEIRA Boys Fours,Pomfret v. Berkshire, Marianapolis			
 Distance: 1500M Conditions: Swirling, gusty winds - 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, B4, B3, B2, B1 with girls' races in between.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&cat=1", random="random"]; 

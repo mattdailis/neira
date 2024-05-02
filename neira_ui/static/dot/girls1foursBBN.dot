@@ -1,4 +1,4 @@
-digraph girls1foursBBN {CambridgeRLS [URL="girls1foursBBNCambridgeRLS.html"];BBN [URL="girls1foursBBNBBN.html"];Nobles [URL="girls1foursBBNNobles.html"];Groton [URL="girls1foursBBNGroton.html"];BBN -> CambridgeRLS[label="9.8 (10.89)
+digraph girls1foursBBN {Winsor [URL="girls1foursBBNWinsor.html"];BBN [URL="girls1foursBBNBBN.html"];Groton [URL="girls1foursBBNGroton.html"];Nobles [URL="girls1foursBBNNobles.html"];CambridgeRLS [URL="girls1foursBBNCambridgeRLS.html"];BBN -> CambridgeRLS[label="9.8 (10.89)
 04/13", weight="91", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
 Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&cat=5", random="random"]; 
@@ -11,4 +11,8 @@ Groton -> BBN[label="5.5 (6.11)
 04/20", weight="95", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
 Girls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=61611297C2B5882317693DAB1794C8C4&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=61611297C2B5882317693DAB1794C8C4&cat=1", random="random"]; 
+BBN -> Winsor[label="6.4 (7.38)
+04/27", weight="94", tooltip="NEIRA,The Winsor School vs. BB&N			
+Distance: 1300 Conditions: Flat and equal conditions across all races. Steering in 3V race resulted in both crews finishing off the course with an indistinguishable margin (deemed a tie). 4V crews reversed lanes mid-race, potentially impacting margin but not finish order. 5th and 6th boats were composite to provide a race for all athletes. Thank you to BB&N for a fun race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0A06BB5337D4EBAFB4A716F6CCD660BF&cat=1", random="random"]}
