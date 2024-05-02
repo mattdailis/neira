@@ -1,4 +1,4 @@
-![](https://github.com/mattdailis/neira/reno-rowing.gif)
+![](https://github.com/mattdailis/neira/blob/28a5e4077755117a01b9d18e1101e82c54cf05dc/remo-rowing.gif)
 
 # neira
 http://mattdailis.github.io/neira/
