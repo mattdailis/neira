@@ -1,22 +1,25 @@
 {
     "comment": "\nDistance: 1300 Conditions: Conditions the same for all races. Flat, no wind, no chop. Comments: Lincoln 2V4+ had a breakage and could not finish initial race with NCDS and Bayview so raced afterwards against the NCDS 3V4+ and 4V4+.\n\nNone",
-    "day": "April 20, 2024",
+    "day": "2024-04-20",
     "heats": [
         {
             "class": "fours",
             "gender": "girls",
             "results": [
                 {
-                    "school": "Newton Country Day",
-                    "time": "5:40"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:40",
+                    "school": "Newton Country Day"
                 },
                 {
-                    "school": "Lincoln",
-                    "time": "5:57"
+                    "margin_from_winner": 17.0,
+                    "raw_time": "5:57",
+                    "school": "Lincoln"
                 },
                 {
-                    "school": "St. Mary Academy-Bay View",
-                    "time": "6:01"
+                    "margin_from_winner": 21.0,
+                    "raw_time": "6:01",
+                    "school": "St. Mary Academy-Bay View"
                 }
             ],
             "varsity_index": "1"
@@ -26,16 +29,19 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Newton Country Day",
-                    "time": "5:55"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:55",
+                    "school": "Newton Country Day"
                 },
                 {
-                    "school": "Lincoln",
-                    "time": "7:05"
+                    "margin_from_winner": 70.0,
+                    "raw_time": "7:05",
+                    "school": "Lincoln"
                 },
                 {
-                    "school": "St. Mary Academy-Bay View",
-                    "time": "7:18"
+                    "margin_from_winner": 83.0,
+                    "raw_time": "7:18",
+                    "school": "St. Mary Academy-Bay View"
                 }
             ],
             "varsity_index": "2"

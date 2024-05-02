@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500 meters\n\nNone",
-    "day": "April 20, 2024",
+    "day": "2024-04-20",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Pingree",
-                    "time": "6:25"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:25",
+                    "school": "Pingree"
                 },
                 {
-                    "school": "Boston University Academy",
-                    "time": "7:00"
+                    "margin_from_winner": 35.0,
+                    "raw_time": "7:00",
+                    "school": "BU Academy"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Pingree",
-                    "time": "7:50"
+                    "margin_from_winner": 0,
+                    "raw_time": "7:50",
+                    "school": "Pingree"
                 },
                 {
-                    "school": "Boston University Academy",
-                    "time": "8:05"
+                    "margin_from_winner": 15.0,
+                    "raw_time": "8:05",
+                    "school": "BU Academy"
                 }
             ],
             "varsity_index": "2"

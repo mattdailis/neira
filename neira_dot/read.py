@@ -85,7 +85,7 @@ def main(data, out):
             scraped_json = json.load(f)
         day = scraped_json["day"]
 
-        date = datetime.datetime.strptime(day, "%B %d, %Y")
+        date = datetime.datetime.strptime(day, "%Y-%m-%d")
 
         heats = scraped_json["heats"]
         regatta_display_name = scraped_json["regatta_display_name"]
@@ -137,7 +137,17 @@ def main(data, out):
             del school
 
             for fasterBoat, slowerBoat in all_pairs(heat_results):
-                margin = getMargin(fasterBoat["time"], slowerBoat["time"])
+                if (
+                    slowerBoat["margin_from_winner"] is not None
+                    and fasterBoat["margin_from_winner"] is not None
+                ):
+                    margin = round(
+                        slowerBoat["margin_from_winner"]
+                        - fasterBoat["margin_from_winner"],
+                        1,
+                    )
+                else:
+                    margin = None
                 if distance == 1500:
                     adjusted_margin = None
                 else:

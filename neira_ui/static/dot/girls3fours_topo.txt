@@ -1,8 +1,7 @@
-{'Choate', 'Nobles', 'Cambridge RLS', 'Andover'}
-{'Taft', "St. Mark's", 'Bedford', 'Groton'}
-Cycle detected: {'Brooks', 'Middlesex'}
+{'Cambridge RLS', 'Nobles', 'Choate'}
+{"St. Mark's", 'Groton'}
+Cycle detected: {'Middlesex', 'Brooks'}
 {'NMH'}
 {'Hopkins'}
 {'Pomfret'}
-{'Berkshire'}
 {'Marianapolis Prep'}

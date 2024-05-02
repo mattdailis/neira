@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1250 Conditions: increasing cross tail with consistent tail current. Events alternated boys and girls, ordered from 3Vs to 1Vs Comments: *At about the half way mark, Brookline Girls 2V caught an overhead crab while ahead of Duxbury by about 1/4 length.\nThanks to Duxbury for a great season opener.\n\nNone",
-    "day": "April 6, 2024",
+    "day": "2024-04-06",
     "heats": [
         {
             "class": "eights",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Brookline",
-                    "time": "3:40.54"
+                    "margin_from_winner": 0,
+                    "raw_time": "3:40.54",
+                    "school": "Brookline"
                 },
                 {
-                    "school": "Duxbury",
-                    "time": "3:41.09"
+                    "margin_from_winner": 0.55,
+                    "raw_time": "3:41.09",
+                    "school": "Duxbury"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Brookline",
-                    "time": "3:52.68"
+                    "margin_from_winner": 0,
+                    "raw_time": "3:52.68",
+                    "school": "Brookline"
                 },
                 {
-                    "school": "Duxbury",
-                    "time": "3:59.46"
+                    "margin_from_winner": 6.78,
+                    "raw_time": "3:59.46",
+                    "school": "Duxbury"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +41,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Brookline",
-                    "time": "3:59.77"
+                    "margin_from_winner": 0,
+                    "raw_time": "3:59.77",
+                    "school": "Brookline"
                 },
                 {
-                    "school": "Duxbury",
-                    "time": "4:21.29"
+                    "margin_from_winner": 21.52,
+                    "raw_time": "4:21.29",
+                    "school": "Duxbury"
                 }
             ],
             "varsity_index": "3"
@@ -52,12 +58,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Duxbury",
-                    "time": "4:07.45"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:07.45",
+                    "school": "Duxbury"
                 },
                 {
-                    "school": "Brookline",
-                    "time": "4:08.92"
+                    "margin_from_winner": 1.47,
+                    "raw_time": "4:08.92",
+                    "school": "Brookline"
                 }
             ],
             "varsity_index": "1"
@@ -67,12 +75,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Duxbury",
-                    "time": "4:22.52"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:22.52",
+                    "school": "Duxbury"
                 },
                 {
-                    "school": "Brookline",
-                    "time": "4:48.61*"
+                    "margin_from_winner": null,
+                    "raw_time": "4:48.61*",
+                    "school": "Brookline"
                 }
             ],
             "varsity_index": "2"
@@ -82,12 +92,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Duxbury",
-                    "time": "4:23.07"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:23.07",
+                    "school": "Duxbury"
                 },
                 {
-                    "school": "Brookline",
-                    "time": "4:39.19"
+                    "margin_from_winner": 16.12,
+                    "raw_time": "4:39.19",
+                    "school": "Brookline"
                 }
             ],
             "varsity_index": "3"

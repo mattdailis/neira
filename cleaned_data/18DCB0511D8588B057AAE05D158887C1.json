@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1400m Conditions: 15-20 mph headwind. Race Order BN8, GN8, G1V, B2V Comments: All floating starts. Races are not comparable. In the boys novice race, Guilford stopped twice 150m and with a crab with 350m left in the race. In the girls novice race, the 7 seat for East Lyme jumped her slide with 600m to go and rowed without it the race of the way. Thank you East Lyme for a great day of racing.\n\nNone",
-    "day": "March 30, 2024",
+    "day": "2024-03-30",
     "heats": [
         {
             "class": "eights",
             "gender": "boys",
             "results": [
                 {
-                    "school": "East Lyme",
-                    "time": "5:29.5"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:29.5",
+                    "school": "East Lyme"
                 },
                 {
-                    "school": "Guilford",
-                    "time": "5:41.2"
+                    "margin_from_winner": 11.7,
+                    "raw_time": "5:41.2",
+                    "school": "Guilford"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "East Lyme",
-                    "time": "6:13.3"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:13.3",
+                    "school": "East Lyme"
                 },
                 {
-                    "school": "Guilford",
-                    "time": "6:41.6"
+                    "margin_from_winner": 28.3,
+                    "raw_time": "6:41.6",
+                    "school": "Guilford"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +41,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "East Lyme",
-                    "time": "6:19.8"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:19.8",
+                    "school": "East Lyme"
                 },
                 {
-                    "school": "Guilford",
-                    "time": "6:31.3"
+                    "margin_from_winner": 11.5,
+                    "raw_time": "6:31.3",
+                    "school": "Guilford"
                 }
             ],
             "varsity_index": "1"
@@ -52,12 +58,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Guilford",
-                    "time": "7:37.6"
+                    "margin_from_winner": 0,
+                    "raw_time": "7:37.6",
+                    "school": "Guilford"
                 },
                 {
-                    "school": "East Lyme",
-                    "time": "8:19.1"
+                    "margin_from_winner": 41.5,
+                    "raw_time": "8:19.1",
+                    "school": "East Lyme"
                 }
             ],
             "varsity_index": "2"

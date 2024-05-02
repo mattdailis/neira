@@ -1,34 +1,40 @@
 {
     "comment": "\nDistance: 1500 Meters Conditions: Variable tail-crosswind from Lane 1 with strong gusts throughout the day. Comments: Races were floating starts, please do not compare times. The G3 started at approximately 1250 meter mark. In the B2 Shrewsbury crabbed at 750 meters down, an oar came out and the athletes was able to recover the oar. In the G3, Stonington raced a Novice 8, Tabor and East Lyme raced a mix of athletes. Only Latin and Simsbury should count toward seeding. A special thank you to St. John's and Shrewsbury for hosting the day. Simsbury wins the Simsbury/Tabor Pincombe Cup.\n\nNone",
-    "day": "April 13, 2024",
+    "day": "2024-04-13",
     "heats": [
         {
             "class": "eights",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Stonington",
-                    "time": "5:00.5"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:00.5",
+                    "school": "Stonington"
                 },
                 {
-                    "school": "St. John's",
-                    "time": "5:15.3"
+                    "margin_from_winner": 14.8,
+                    "raw_time": "5:15.3",
+                    "school": "St. John's"
                 },
                 {
-                    "school": "Shrewsbury",
-                    "time": "5:16.9"
+                    "margin_from_winner": 16.4,
+                    "raw_time": "5:16.9",
+                    "school": "Shrewsbury"
                 },
                 {
-                    "school": "East Lyme",
-                    "time": "5:20.6"
+                    "margin_from_winner": 20.1,
+                    "raw_time": "5:20.6",
+                    "school": "East Lyme"
                 },
                 {
-                    "school": "Tabor",
-                    "time": "5:21.8"
+                    "margin_from_winner": 21.3,
+                    "raw_time": "5:21.8",
+                    "school": "Tabor"
                 },
                 {
-                    "school": "Simsbury",
-                    "time": "5:41.6"
+                    "margin_from_winner": 41.1,
+                    "raw_time": "5:41.6",
+                    "school": "Simsbury"
                 }
             ],
             "varsity_index": "1"
@@ -38,24 +44,29 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "St. John's",
-                    "time": "5:01.6"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:01.6",
+                    "school": "St. John's"
                 },
                 {
-                    "school": "Stonington",
-                    "time": "5:01.8"
+                    "margin_from_winner": 0.2,
+                    "raw_time": "5:01.8",
+                    "school": "Stonington"
                 },
                 {
-                    "school": "Tabor",
-                    "time": "5:17.9"
+                    "margin_from_winner": 16.3,
+                    "raw_time": "5:17.9",
+                    "school": "Tabor"
                 },
                 {
-                    "school": "Shrewsbury",
-                    "time": "5:22.2"
+                    "margin_from_winner": 20.6,
+                    "raw_time": "5:22.2",
+                    "school": "Shrewsbury"
                 },
                 {
-                    "school": "Simsbury",
-                    "time": "5:37.0"
+                    "margin_from_winner": 35.4,
+                    "raw_time": "5:37.0",
+                    "school": "Simsbury"
                 }
             ],
             "varsity_index": "2"
@@ -65,20 +76,24 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "St. John's",
-                    "time": "5:40.2"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:40.2",
+                    "school": "St. John's"
                 },
                 {
-                    "school": "Stonington",
-                    "time": "6:19.0"
+                    "margin_from_winner": 38.8,
+                    "raw_time": "6:19.0",
+                    "school": "Stonington"
                 },
                 {
-                    "school": "Simsbury",
-                    "time": "6:54.9"
+                    "margin_from_winner": 74.7,
+                    "raw_time": "6:54.9",
+                    "school": "Simsbury"
                 },
                 {
-                    "school": "Tabor",
-                    "time": "7:45.1"
+                    "margin_from_winner": 124.9,
+                    "raw_time": "7:45.1",
+                    "school": "Tabor"
                 }
             ],
             "varsity_index": "3"
@@ -88,28 +103,34 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Boston Latin",
-                    "time": "5:20.8"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:20.8",
+                    "school": "Boston Latin"
                 },
                 {
-                    "school": "Stonington",
-                    "time": "5:42.7"
+                    "margin_from_winner": 21.9,
+                    "raw_time": "5:42.7",
+                    "school": "Stonington"
                 },
                 {
-                    "school": "Simsbury",
-                    "time": "5:45.5"
+                    "margin_from_winner": 24.7,
+                    "raw_time": "5:45.5",
+                    "school": "Simsbury"
                 },
                 {
-                    "school": "East Lyme",
-                    "time": "5:51.6"
+                    "margin_from_winner": 30.8,
+                    "raw_time": "5:51.6",
+                    "school": "East Lyme"
                 },
                 {
-                    "school": "Tabor",
-                    "time": "5:55.4"
+                    "margin_from_winner": 34.6,
+                    "raw_time": "5:55.4",
+                    "school": "Tabor"
                 },
                 {
-                    "school": "Shrewsbury",
-                    "time": "6:04.1"
+                    "margin_from_winner": 43.3,
+                    "raw_time": "6:04.1",
+                    "school": "Shrewsbury"
                 }
             ],
             "varsity_index": "1"
@@ -119,20 +140,24 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Boston Latin",
-                    "time": "5:50.4"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:50.4",
+                    "school": "Boston Latin"
                 },
                 {
-                    "school": "Simsbury",
-                    "time": "6:18.1"
+                    "margin_from_winner": 27.7,
+                    "raw_time": "6:18.1",
+                    "school": "Simsbury"
                 },
                 {
-                    "school": "Tabor",
-                    "time": "6:26.6"
+                    "margin_from_winner": 36.2,
+                    "raw_time": "6:26.6",
+                    "school": "Tabor"
                 },
                 {
-                    "school": "Shrewsbury",
-                    "time": "6:26.9"
+                    "margin_from_winner": 36.5,
+                    "raw_time": "6:26.9",
+                    "school": "Shrewsbury"
                 }
             ],
             "varsity_index": "2"
@@ -142,16 +167,24 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Boston Latin",
-                    "time": "6:06.2"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:06.2",
+                    "school": "Boston Latin"
                 },
                 {
-                    "school": "Stonington",
-                    "time": "6:27.6"
+                    "margin_from_winner": 21.4,
+                    "raw_time": "6:27.6",
+                    "school": "Stonington"
                 },
                 {
-                    "school": "Simsbury",
-                    "time": "6:48.0"
+                    "margin_from_winner": 24.2,
+                    "raw_time": "6:30.4",
+                    "school": null
+                },
+                {
+                    "margin_from_winner": 41.8,
+                    "raw_time": "6:48.0",
+                    "school": "Simsbury"
                 }
             ],
             "varsity_index": "3"

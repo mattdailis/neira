@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500m Conditions: Moderate crosswind that turned to moderate headwind over the course of the racing. Slight chop and partly cloudy skies. All in all, a good day to race. All races were floating starts, and all races started pretty much on the starting line. Comments: The crews were well prepared, and all three races were cleanly contested. Thank you to Tabor athletes and coaches for making the trip up to Turkey Pond.\n\nNone",
-    "day": "April 20, 2024",
+    "day": "2024-04-20",
     "heats": [
         {
             "class": "eights",
             "gender": "boys",
             "results": [
                 {
-                    "school": "St. Paul's",
-                    "time": "4:44.6"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:44.6",
+                    "school": "St. Paul's"
                 },
                 {
-                    "school": "Tabor",
-                    "time": "5:04.3"
+                    "margin_from_winner": 19.7,
+                    "raw_time": "5:04.3",
+                    "school": "Tabor"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "St. Paul's",
-                    "time": "5:04.9"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:04.9",
+                    "school": "St. Paul's"
                 },
                 {
-                    "school": "Tabor",
-                    "time": "5:23.2"
+                    "margin_from_winner": 18.3,
+                    "raw_time": "5:23.2",
+                    "school": "Tabor"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +41,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "St. Paul's",
-                    "time": "5:11.6"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:11.6",
+                    "school": "St. Paul's"
                 },
                 {
-                    "school": "Tabor",
-                    "time": "5:52.7"
+                    "margin_from_winner": 41.1,
+                    "raw_time": "5:52.7",
+                    "school": "Tabor"
                 }
             ],
             "varsity_index": "3"

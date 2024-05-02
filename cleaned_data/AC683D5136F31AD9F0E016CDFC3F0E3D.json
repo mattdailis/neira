@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500 Conditions: Boys Varsity 1- strong tail current, S winds at 3 mph, moderate chop\nGirls Varsity 2- strong tail current, winds at 5 mph, significant chop\nBoys Varsity 2- strong tail current, wind gusts at 18 mph, significant chop\n\nNone",
-    "day": "April 17, 2024",
+    "day": "2024-04-17",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Middletown",
-                    "time": "5:12.2"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:12.2",
+                    "school": "Middletown"
                 },
                 {
-                    "school": "Suffield",
-                    "time": "5.20.8"
+                    "margin_from_winner": 8.6,
+                    "raw_time": "5.20.8",
+                    "school": "Suffield"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Middletown",
-                    "time": "6.10.9"
+                    "margin_from_winner": 0,
+                    "raw_time": "6.10.9",
+                    "school": "Middletown"
                 },
                 {
-                    "school": "Suffield",
-                    "time": "6:31.9"
+                    "margin_from_winner": 21.0,
+                    "raw_time": "6:31.9",
+                    "school": "Suffield"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +41,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Middletown",
-                    "time": "5:41.3"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:41.3",
+                    "school": "Middletown"
                 },
                 {
-                    "school": "Suffield",
-                    "time": "6:32.2"
+                    "margin_from_winner": 50.9,
+                    "raw_time": "6:32.2",
+                    "school": "Suffield"
                 }
             ],
             "varsity_index": "3"

@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500m Conditions: Mild headwind, slight chop, slack tide for the 1st girls race. Old Saybrook (not in league) also competed. Comments: Old Saybrook (not in league) raced in 2nd boys and 3rd girls events.\n\nNone",
-    "day": "April 27, 2024",
+    "day": "2024-04-27",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Valley Regional",
-                    "time": "6:11.0"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:11.0",
+                    "school": "Valley Regional"
                 },
                 {
-                    "school": "St. Mary's-Lynn",
-                    "time": "6:34.0"
+                    "margin_from_winner": 23.0,
+                    "raw_time": "6:34.0",
+                    "school": "St. Mary's-Lynn"
                 }
             ],
             "varsity_index": "1"
@@ -22,20 +24,24 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Valley Regional",
-                    "time": "6:47.0"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:47.0",
+                    "school": "Valley Regional"
                 },
                 {
-                    "school": "St. Mary's-Lynn",
-                    "time": "6:48.8"
+                    "margin_from_winner": 1.8,
+                    "raw_time": "6:48.8",
+                    "school": "St. Mary's-Lynn"
                 },
                 {
-                    "school": "St. Mary Academy-Bay View",
-                    "time": "6:54.0"
+                    "margin_from_winner": 7.0,
+                    "raw_time": "6:54.0",
+                    "school": "St. Mary Academy-Bay View"
                 },
                 {
-                    "school": "Lincoln",
-                    "time": "7:01.3"
+                    "margin_from_winner": 14.3,
+                    "raw_time": "7:01.3",
+                    "school": "Lincoln"
                 }
             ],
             "varsity_index": "1"
@@ -45,20 +51,24 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Valley Regional",
-                    "time": "7:27.0"
+                    "margin_from_winner": 0,
+                    "raw_time": "7:27.0",
+                    "school": "Valley Regional"
                 },
                 {
-                    "school": "Lincoln",
-                    "time": "7:40.0"
+                    "margin_from_winner": 13.0,
+                    "raw_time": "7:40.0",
+                    "school": "Lincoln"
                 },
                 {
-                    "school": "St. Mary Academy-Bay View",
-                    "time": "7:47.6"
+                    "margin_from_winner": 20.6,
+                    "raw_time": "7:47.6",
+                    "school": "St. Mary Academy-Bay View"
                 },
                 {
-                    "school": "St. Mary's-Lynn",
-                    "time": "8:24.6"
+                    "margin_from_winner": 57.6,
+                    "raw_time": "8:24.6",
+                    "school": "St. Mary's-Lynn"
                 }
             ],
             "varsity_index": "2"

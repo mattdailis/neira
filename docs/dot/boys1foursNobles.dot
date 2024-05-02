@@ -1,4 +1,4 @@
-digraph boys1foursNobles {Nobles [URL="boys1foursNoblesNobles.html"];StMarks [URL="boys1foursNoblesStMarks.html"];BrewsterAcademy [URL="boys1foursNoblesBrewsterAcademy.html"];Groton [URL="boys1foursNoblesGroton.html"];Brooks [URL="boys1foursNoblesBrooks.html"];BBN [URL="boys1foursNoblesBBN.html"];Nobles -> Brooks[label="15.0
+digraph boys1foursNobles {Groton [URL="boys1foursNoblesGroton.html"];BrewsterAcademy [URL="boys1foursNoblesBrewsterAcademy.html"];StMarks [URL="boys1foursNoblesStMarks.html"];Brooks [URL="boys1foursNoblesBrooks.html"];Nobles [URL="boys1foursNoblesNobles.html"];BBN [URL="boys1foursNoblesBBN.html"];Nobles -> Brooks[label="15.0
 04/13", weight="85", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: ~1500m Conditions: Gusty headwind (15-25 mph) in moderate chop along lee shore. Crews had approximately the same conditions. Lane assignments probably affected times somewhat. Comments: Challenging conditions overcome by the constructive attitudes of all the coaches and race enthusiasm of athletes. Thanks to a strong Nobles team for coming up for some raw weather racing in early April. We were pleased to get the races in.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&cat=5", random="random"]; 
@@ -10,7 +10,7 @@ Nobles -> BrewsterAcademy[label="59.8
 04/27", weight="41", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
 Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
-Groton -> Nobles[label="2.08 (2.31)
+Groton -> Nobles[label="2.1 (2.33)
 04/20", weight="98", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
 Distance: 1350m Conditions: Excellent conditions.
 Cloudy and cool
@@ -24,7 +24,7 @@ Nobles: 2:22.3
 BB&N: 2:30.1
 many thanks to all crews and coaches for a great day of racing for full teams.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]; 
-Nobles -> BBN[label="6.39 (7.1)
+Nobles -> BBN[label="6.4 (7.11)
 04/20", weight="94", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
 Distance: 1350m Conditions: Excellent conditions.
 Cloudy and cool

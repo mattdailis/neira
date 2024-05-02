@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1250 Conditions: Fair conditions with slight gusts during racing. Comments: Brookline raced a 3v/4v in the 2v event. 2v event started a touch over the start line.\n\nNone",
-    "day": "April 14, 2024",
+    "day": "2024-04-14",
     "heats": [
         {
             "class": "eights",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Brookline",
-                    "time": "3:57.12"
+                    "margin_from_winner": 0,
+                    "raw_time": "3:57.12",
+                    "school": "Brookline"
                 },
                 {
-                    "school": "Boston Latin",
-                    "time": "4:00.90"
+                    "margin_from_winner": 3.78,
+                    "raw_time": "4:00.90",
+                    "school": "Boston Latin"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Brookline",
-                    "time": "3:57.37"
+                    "margin_from_winner": 0,
+                    "raw_time": "3:57.37",
+                    "school": "Brookline"
                 },
                 {
-                    "school": "Boston Latin",
-                    "time": "4:12.17"
+                    "margin_from_winner": 14.8,
+                    "raw_time": "4:12.17",
+                    "school": "Boston Latin"
                 }
             ],
             "varsity_index": "2"

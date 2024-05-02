@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500 meters\n\nNone",
-    "day": "April 20, 2024",
+    "day": "2024-04-20",
     "heats": [
         {
             "class": "fours",
             "gender": "girls",
             "results": [
                 {
-                    "school": "Boston University Academy",
-                    "time": "7:25"
+                    "margin_from_winner": 0,
+                    "raw_time": "7:25",
+                    "school": "BU Academy"
                 },
                 {
-                    "school": "Pingree",
-                    "time": "8:05"
+                    "margin_from_winner": 40.0,
+                    "raw_time": "8:05",
+                    "school": "Pingree"
                 }
             ],
             "varsity_index": "1"

@@ -1,4 +1,4 @@
-digraph boys5foursNobles {Nobles [URL="boys5foursNoblesNobles.html"];BBN [URL="boys5foursNoblesBBN.html"];Nobles -> BBN[label="36.0 (40.0)
+digraph boys5foursNobles {BBN [URL="boys5foursNoblesBBN.html"];Nobles [URL="boys5foursNoblesNobles.html"];Nobles -> BBN[label="36.0 (40.0)
 04/20", weight="64", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
 Distance: 1350m Conditions: Excellent conditions.
 Cloudy and cool

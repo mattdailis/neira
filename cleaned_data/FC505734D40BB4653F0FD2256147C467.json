@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1300m Conditions: Clear sunny day, great racing conditions. Slight wind picked up for GN8 and G4\n\nNone",
-    "day": "April 27, 2024",
+    "day": "2024-04-27",
     "heats": [
         {
             "class": "eights",
             "gender": "girls",
             "results": [
                 {
-                    "school": "Boston Latin",
-                    "time": "4:49"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:49",
+                    "school": "Boston Latin"
                 },
                 {
-                    "school": "Stonington",
-                    "time": "5:00"
+                    "margin_from_winner": 11.0,
+                    "raw_time": "5:00",
+                    "school": "Stonington"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Stonington",
-                    "time": "6:09"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:09",
+                    "school": "Stonington"
                 },
                 {
-                    "school": "Boston Latin",
-                    "time": "6:41"
+                    "margin_from_winner": 32.0,
+                    "raw_time": "6:41",
+                    "school": "Boston Latin"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +41,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Boston Latin",
-                    "time": "5:43"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:43",
+                    "school": "Boston Latin"
                 },
                 {
-                    "school": "Stonington",
-                    "time": "5:57"
+                    "margin_from_winner": 14.0,
+                    "raw_time": "5:57",
+                    "school": "Stonington"
                 }
             ],
             "varsity_index": "3"

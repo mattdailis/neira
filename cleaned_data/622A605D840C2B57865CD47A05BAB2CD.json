@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500m - Novice were 1000m Conditions: Rain intermittently. Very flat, very low wind. Slight tail current. Comments: Girls novice 4 ended up being a a little under 1000m with drifting at the start\n\nNone",
-    "day": "April 20, 2024",
+    "day": "2024-04-20",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "5:13.0"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:13.0",
+                    "school": "Lyme/Old Lyme"
                 },
                 {
-                    "school": "Stonington",
-                    "time": "5:28.8"
+                    "margin_from_winner": 15.8,
+                    "raw_time": "5:28.8",
+                    "school": null
                 }
             ],
             "varsity_index": "1"
@@ -22,16 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "3:52.1"
+                    "margin_from_winner": 0,
+                    "raw_time": "3:52.1",
+                    "school": "Lyme/Old Lyme"
                 },
                 {
-                    "school": "Stonington",
-                    "time": "3:58.2"
-                },
-                {
-                    "school": "East Lyme",
-                    "time": "4:23.3"
+                    "margin_from_winner": 6.1,
+                    "raw_time": "3:58.2",
+                    "school": null
                 }
             ],
             "varsity_index": "2"
@@ -41,12 +41,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "6:17.6"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:17.6",
+                    "school": "Lyme/Old Lyme"
                 },
                 {
-                    "school": "Stonington",
-                    "time": "6:34.2"
+                    "margin_from_winner": 16.6,
+                    "raw_time": "6:34.2",
+                    "school": null
                 }
             ],
             "varsity_index": "1"
@@ -56,16 +58,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Stonington",
-                    "time": "4:47.6"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:47.6",
+                    "school": null
                 },
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "4:50.8"
-                },
-                {
-                    "school": "East Lyme",
-                    "time": "5:17.1"
+                    "margin_from_winner": 3.2,
+                    "raw_time": "4:50.8",
+                    "school": "Lyme/Old Lyme"
                 }
             ],
             "varsity_index": "2"

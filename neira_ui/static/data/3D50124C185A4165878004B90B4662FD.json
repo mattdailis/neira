@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1250m Conditions: All races: heavy cross head wind at slack tide Comments: Great racing by all crews!\n\nNone",
-    "day": "April 10, 2024",
+    "day": "2024-04-10",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Hopkins",
-                    "time": "4:58.4"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:58.4",
+                    "school": "Hopkins"
                 },
                 {
-                    "school": "King School",
-                    "time": "5:05.1"
+                    "margin_from_winner": 6.7,
+                    "raw_time": "5:05.1",
+                    "school": "King School"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "King School",
-                    "time": "5:34.5"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:34.5",
+                    "school": "King School"
                 },
                 {
-                    "school": "Hopkins",
-                    "time": "5:39.6"
+                    "margin_from_winner": 5.1,
+                    "raw_time": "5:39.6",
+                    "school": "Hopkins"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +41,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Hopkins",
-                    "time": "5:47.4"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:47.4",
+                    "school": "Hopkins"
                 },
                 {
-                    "school": "King School",
-                    "time": "5:54.7"
+                    "margin_from_winner": 7.3,
+                    "raw_time": "5:54.7",
+                    "school": "King School"
                 }
             ],
             "varsity_index": "3"

@@ -1,22 +1,30 @@
 {
     "comment": "\nDistance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.\n\nNone",
-    "day": "April 27, 2024",
+    "day": "2024-04-27",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "5:01.7"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:00.5",
+                    "school": "Notre Dame"
                 },
                 {
-                    "school": "Frederick Gunn",
-                    "time": "5:17.5"
+                    "margin_from_winner": 1.2,
+                    "raw_time": "5:01.7",
+                    "school": "Lyme/Old Lyme"
                 },
                 {
-                    "school": "Canterbury",
-                    "time": "5:59.4"
+                    "margin_from_winner": 17.0,
+                    "raw_time": "5:17.5",
+                    "school": "Frederick Gunn"
+                },
+                {
+                    "margin_from_winner": 58.9,
+                    "raw_time": "5:59.4",
+                    "school": "Canterbury"
                 }
             ],
             "varsity_index": "1"
@@ -26,16 +34,36 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "5:50.0"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:22.9",
+                    "school": "Notre Dame"
                 },
                 {
-                    "school": "Frederick Gunn",
-                    "time": "6:53.8"
+                    "margin_from_winner": 4.2,
+                    "raw_time": "5:27.1",
+                    "school": "Lyme/Old Lyme"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:50.0",
+                    "school": "Lyme/Old Lyme"
                 },
                 {
-                    "school": "Canterbury",
-                    "time": "6:55.6"
+                    "margin_from_winner": 63.8,
+                    "raw_time": "6:53.8",
+                    "school": "Frederick Gunn"
+                },
+                {
+                    "margin_from_winner": 65.6,
+                    "raw_time": "6:55.6",
+                    "school": "Canterbury"
                 }
             ],
             "varsity_index": "6"
@@ -45,24 +73,29 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "5:45.2"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:45.2",
+                    "school": "Lyme/Old Lyme"
                 },
                 {
-                    "school": "Frederick Gunn",
-                    "time": "5:47.2"
+                    "margin_from_winner": 2.0,
+                    "raw_time": "5:47.2",
+                    "school": "Frederick Gunn"
                 },
                 {
-                    "school": "Canterbury",
-                    "time": "5:49.2"
+                    "margin_from_winner": 4.0,
+                    "raw_time": "5:49.2",
+                    "school": "Canterbury"
                 },
                 {
-                    "school": "Greenwich Academy",
-                    "time": "5:52.9"
+                    "margin_from_winner": 7.7,
+                    "raw_time": "5:52.9",
+                    "school": "Greenwich Academy"
                 },
                 {
-                    "school": "Miss Porter's",
-                    "time": "6:04.6"
+                    "margin_from_winner": 19.4,
+                    "raw_time": "6:04.6",
+                    "school": "Miss Porter's"
                 }
             ],
             "varsity_index": "1"
@@ -72,20 +105,24 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "6:10.3"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:10.3",
+                    "school": "Lyme/Old Lyme"
                 },
                 {
-                    "school": "Greenwich Academy",
-                    "time": "6:18.8"
+                    "margin_from_winner": 8.5,
+                    "raw_time": "6:18.8",
+                    "school": "Greenwich Academy"
                 },
                 {
-                    "school": "Miss Porter's",
-                    "time": "6:20.7"
+                    "margin_from_winner": 10.4,
+                    "raw_time": "6:20.7",
+                    "school": "Miss Porter's"
                 },
                 {
-                    "school": "Canterbury",
-                    "time": "7:11.8"
+                    "margin_from_winner": 61.5,
+                    "raw_time": "7:11.8",
+                    "school": "Canterbury"
                 }
             ],
             "varsity_index": "2"
@@ -95,16 +132,19 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "6:49.9"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:49.9",
+                    "school": "Lyme/Old Lyme"
                 },
                 {
-                    "school": "Frederick Gunn",
-                    "time": "7:03.2"
+                    "margin_from_winner": 13.3,
+                    "raw_time": "7:03.2",
+                    "school": "Frederick Gunn"
                 },
                 {
-                    "school": "Canterbury",
-                    "time": "9:48.4"
+                    "margin_from_winner": 178.5,
+                    "raw_time": "9:48.4",
+                    "school": "Canterbury"
                 }
             ],
             "varsity_index": "6"

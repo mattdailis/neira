@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1250m Conditions: Moderate cross / head wind - 15-18mph Comments: BC High 2V raced \"up\" in the 1V race and BC High 3V and 4V raced Boston Latin 2V. Thank you to Boston Latin for a great morning of racing in blustery conditions.\n\nNone",
-    "day": "April 13, 2024",
+    "day": "2024-04-13",
     "heats": [
         {
             "class": "eights",
             "gender": "boys",
             "results": [
                 {
-                    "school": "BC High",
-                    "time": "3:56.0"
+                    "margin_from_winner": 0,
+                    "raw_time": "3:56.0",
+                    "school": "BC High"
                 },
                 {
-                    "school": "Boston Latin",
-                    "time": "4:12.4"
+                    "margin_from_winner": 16.4,
+                    "raw_time": "4:12.4",
+                    "school": "Boston Latin"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "BC High",
-                    "time": "4:20.9"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:20.9",
+                    "school": "BC High"
                 },
                 {
-                    "school": "Boston Latin",
-                    "time": "4:26.6"
+                    "margin_from_winner": 5.7,
+                    "raw_time": "4:26.6",
+                    "school": "Boston Latin"
                 }
             ],
             "varsity_index": "2"

@@ -66,154 +66,243 @@ unmatched = set()
 # },
 
 
-def get_other_schools():
-    return {
-        "Andover/Bedford Composite": [],
-        "Andover/St. John's Prep Composite": [],
-        "Avon": [],
-        "Bedford/Hanover Composite": [],
-        "BHS Middle School": [],
-        "Brooks and CRLS": [],  # wat.
-        "CRI": [],
-        "Notre Dame": ["Notre Dame 3V"],
-    }
+boys_eights = {
+    "Andover",
+    "BC High",
+    "Bedford",
+    "Boston Latin",
+    "Brookline",
+    "Brunswick",
+    "Deerfield",
+    "Duxbury",
+    "East Lyme",
+    "E.O. Smith",
+    "Exeter",
+    "Fairfield Prep",
+    "Farmington",
+    "Glastonbury",
+    "Guilford",
+    "Hanover",
+    "Hingham",
+    "Hotchkiss",
+    "Kent",
+    "Salisbury",
+    "Shrewsbury",
+    "Simsbury",
+    "St. John's",
+    "St. John's Prep",
+    "St. Paul's",
+    "Stonington",
+    "Tabor",
+}
+
+boys_fours = {
+    "Bancroft",
+    "BB&N",
+    "Belmont Hill",
+    "Berkshire",
+    "Berwick",
+    "BU Academy",
+    "Brewster Academy",
+    "Brooks",
+    "Canterbury",
+    "Choate",
+    "Cambridge RLS",
+    "Derryfield",
+    "Dexter-Southfield",
+    "Eagle Hill",
+    "Frederick Gunn",
+    "Greenwich Country Day",
+    "Groton",
+    "Hopkins",
+    "King School",
+    "Lyme/Old Lyme",
+    "Marianapolis Prep",
+    "Medford",
+    "Middlesex",
+    "Middletown",
+    "Nobles",
+    "NMH",
+    "Notre Dame",
+    "Pingree",
+    "Pomfret",
+    "St. Mark's",
+    "St. Mary's-Lynn",
+    "Suffield",
+    "Taft",
+    "Thayer",
+    "Valley Regional",
+    "Vermont Academy",
+    "Worcester Academy",
+}
+
+girls_eights = {
+    "Andover",
+    "Bedford",
+    "Boston Latin",
+    "Brookline",
+    "Deerfield",
+    "Duxbury",
+    "E.O. Smith",
+    "East Lyme",
+    "Exeter",
+    "Farmington",
+    "Glastonbury",
+    "Guilford",
+    "Hanover",
+    "Hingham",
+    "Hotchkiss",
+    "Kent",
+    "Sacred Heart",
+    "Shrewsbury",
+    "Simsbury",
+    "St. Paul's",
+    "Stonington",
+    "Tabor",
+}
+
+girls_fours = {
+    "Bancroft",
+    "BB&N",
+    "Berkshire Academy",
+    "Berwick",
+    "BU Academy",
+    "Brewster Academy",
+    "Brooks",
+    "Canterbury",
+    "Choate",
+    "Cambridge RLS",
+    "Derryfield",
+    "Dexter-Southfield",
+    "Eagle Hill",
+    "Greenwich Academy",
+    "Greenwich Country Day",
+    "Groton",
+    "Frederick Gunn",
+    "Hopkins",
+    "Lincoln",
+    "Lyme/Old Lyme",
+    "Marianapolis Prep",
+    "Medford",
+    "Middlesex",
+    "Middletown",
+    "Miss Porter's",
+    "Newton Country Day",
+    "Nobles",
+    "NMH",
+    "Pingree",
+    "Pomfret",
+    "St. Mark's",
+    "St. Mary Academy-Bay View",
+    "St. Mary's-Lynn",
+    "Suffield",
+    "Taft",
+    "Thayer",
+    "Valley Regional",
+    "Vermont Academy",
+    "Winsor",
+    "Worcester Academy",
+}
+
+other_schools = {
+    "Andover/Bedford Composite",
+    "Andover/St. John's Prep Composite",
+    "Avon",
+    "Bedford/Hanover Composite",
+    "BHS Middle School",
+    "Brooks and CRLS",
+    "CRI",
+    "Worcester Public",
+}
+
+all_schools = (
+    boys_eights.union(boys_fours)
+    .union(girls_eights)
+    .union(girls_fours)
+    .union(other_schools)
+)
 
 
-def get_neira_schools():
-    return {
-        "Andover": [],
-        "Bancroft": [],
-        "BB&N": [],
-        "BC High": [],
-        "Bedford": [],
-        "Belmont Hill": ["BHS"],
-        "Berkshire": [],
-        "Berwick": ["Berwick Mixed C"],
-        "Boston Latin": ["BLS"],
-        "Brewster Academy": ["Brewster"],
-        "Brookline": [],
-        "Brooks": [],
-        "Brunswick": [],
-        "Boston University Academy": [
-            "BU Academy",
-            "BUA",
-        ],  # In dad's list but not in dropdown
-        "Cambridge RLS": ["Cambridge Ringe and Latin School", "CRLS"],
-        "Canterbury": [],
-        "Choate": [],
-        "Deerfield": [],
-        "Derryfield": [],
-        "Dexter-Southfield": ["DXSF"],
-        "Duxbury": [],
-        "E.O. Smith": [],
-        "Eagle Hill": [],
-        "East Lyme": [],
-        "Exeter": [],
-        "Fairfield Prep": [],
-        "Farmington": [],
-        "Forman": [],
-        "Frederick Gunn": [
-            "The Frederick Gunn School",
-            "Gunnery",
-            "The Gunnery",
-            "Gunn",
-            "Frederick Gunn",
-            "Gunn School",
-        ],
-        "Glastonbury": [],
-        "Greenwich Academy": [],
-        "Greenwich Country Day": ["Greenwich CD", "GCDS"],
-        "Groton": [],
-        "Guilford": [],
-        "Hanover": [],
-        "Hingham": [],
-        "Hopkins": [],
-        "Hotchkiss": [],
-        "Kent": [],
-        "King School": [],
-        "Lincoln": [],
-        "Lyme/Old Lyme": ["Lyme Old Lyme", "LOL", "L//OL", "L/OL"],
-        "Marianapolis Prep": ["Marianapolis"],
-        "Medford": [],
-        "Middlesex": ["MX"],
-        "Middletown": ["Middletown HS"],
-        "Milton": [],
-        "Miss Porter's": ["MPS"],
-        "Newton Country Day": ["NCDS"],
-        "NMH": [],
-        "Nobles": [],
-        "Pingree": [],
-        "Pomfret": [],
-        "Sacred Heart": [],
-        "Salisbury": [],
-        "Shrewsbury": [],
-        "Simsbury": [],
-        "St. John's Prep": [],
-        "St. John's": [],
-        "St. Mark's": [],
-        "St. Mary Academy-Bay View": [],
-        "St. Mary's-Lynn": [],
-        "St. Paul's": [],
-        "Stonington": [],
-        "Suffield": [],
-        "Tabor": [],
-        "Taft": [],
-        "Thayer": [],
-        "Valley Regional": [],
-        "Vermont Academy": [],
-        "Winsor": [],
-        "Worcester Academy": [],
-        "Worcester Public": ["Worcester HS"],
-    }
+aliases = {
+    "Notre Dame": ["Notre Dame 3V"],
+    "Belmont Hill": ["BHS"],
+    "Berwick": ["Berwick Mixed C"],
+    "Boston Latin": ["BLS"],
+    "Brewster Academy": ["Brewster"],
+    "BU Academy": [
+        "Boston University Academy",
+        "BUA",
+    ],  # In dad's list but not in dropdown
+    "Cambridge RLS": ["Cambridge Ringe and Latin School", "CRLS"],
+    "Dexter-Southfield": ["DXSF"],
+    "Frederick Gunn": [
+        "The Frederick Gunn School",
+        "Gunnery",
+        "The Gunnery",
+        "Gunn",
+        "Frederick Gunn",
+        "Gunn School",
+    ],
+    "Greenwich Country Day": ["Greenwich CD", "GCDS"],
+    "Lyme/Old Lyme": ["Lyme Old Lyme", "LOL", "L//OL", "L/OL"],
+    "Marianapolis Prep": ["Marianapolis"],
+    "Middlesex": ["MX"],
+    "Middletown": ["Middletown HS"],
+    "Miss Porter's": ["MPS"],
+    "Newton Country Day": ["NCDS"],
+    "St. Mary Academy-Bay View": ["St. Mary Academy - Bay View"],
+    "St. Mary's-Lynn": ["St. Mary's - Lynn"],
+    "Worcester Public": ["Worcester HS"],
+}
 
-    return {
-        "Bancroft": [],
-        "BB&N": ["BBN"],
-        "Berkshire Academy": ["Berkshire"],
-        "Berwick": [],
-        "Brewster Academy": ["Brewster"],
-        "Brooks": [],
-        "Canterbury": [],
-        "Choate": [],
-        "Cambridge RLS": ["Cambridge Ringe and Latin School", "CRLS"],
-        "Derryfield": [],
-        "Dexter-Southfield": ["Dexter"],
-        "Eagle Hill": [],
-        "Forman": [],
-        "Greenwich Academy": ["GA", "Greenwich A", "Greenwich Acad", "Greenwich"],
-        "Greenwich Country Day": [],
-        "Groton": [],
-        "Gunn School": [
-            "The Frederick Gunn School",
-            "Gunnery",
-            "The Gunnery",
-            "Gunn",
-            "Frederick Gunn",
-        ],
-        "Hopkins": ["Hop"],
-        "Lincoln": [],
-        "Lyme/Old Lyme": ["LOL", "L//OL", "L/OL"],
-        "Marianapolis Prep": [],
-        "Medford": [],
-        "Middlesex": [],
-        "Middletown": [],
-        "Miss Porter's": [],
-        "Newton Country Day": ["NCDS"],
-        "Nobles": [],
-        "NMH": ["Northfield Mount Hermon"],
-        "Pingree": [],
-        "Pomfret": [],
-        "St. Mark's": [],
-        "St. Mary's - Lynn": [],
-        "Suffield": [],
-        "Taft": [],
-        "Thayer": [],
-        "Valley Regional": [],
-        "Vermont Academy": ["VA"],
-        "Winsor": [],
-        "Worcester Academy": [],
-        "King School": [],
-    }
+# return {
+#     "Bancroft": [],
+#     "BB&N": ["BBN"],
+#     "Berkshire Academy": ["Berkshire"],
+#     "Berwick": [],
+#     "Brewster Academy": ["Brewster"],
+#     "Brooks": [],
+#     "Canterbury": [],
+#     "Choate": [],
+#     "Cambridge RLS": ["Cambridge Ringe and Latin School", "CRLS"],
+#     "Derryfield": [],
+#     "Dexter-Southfield": ["Dexter"],
+#     "Eagle Hill": [],
+#     "Forman": [],
+#     "Greenwich Academy": ["GA", "Greenwich A", "Greenwich Acad", "Greenwich"],
+#     "Greenwich Country Day": [],
+#     "Groton": [],
+#     "Gunn School": [
+#         "The Frederick Gunn School",
+#         "Gunnery",
+#         "The Gunnery",
+#         "Gunn",
+#         "Frederick Gunn",
+#     ],
+#     "Hopkins": ["Hop"],
+#     "Lincoln": [],
+#     "Lyme/Old Lyme": ["LOL", "L//OL", "L/OL"],
+#     "Marianapolis Prep": [],
+#     "Medford": [],
+#     "Middlesex": [],
+#     "Middletown": [],
+#     "Miss Porter's": [],
+#     "Newton Country Day": ["NCDS"],
+#     "Nobles": [],
+#     "NMH": ["Northfield Mount Hermon"],
+#     "Pingree": [],
+#     "Pomfret": [],
+#     "St. Mark's": [],
+#     "St. Mary's - Lynn": [],
+#     "Suffield": [],
+#     "Taft": [],
+#     "Thayer": [],
+#     "Valley Regional": [],
+#     "Vermont Academy": ["VA"],
+#     "Winsor": [],
+#     "Worcester Academy": [],
+#     "King School": [],
+# }
 
 
 # If boatNum provided, check if a different number is present in the string.
@@ -233,54 +322,47 @@ def get_neira_schools():
 
 # What about a boys 3 boat that still wants to be considered a 3rd boat, but races 2nd boats occasionally
 # should those races count? Towards what? Margins????
-def matchSchool(name, boatNum=None):
+def matchSchool(name, class_, gender):
+    # sanity check
+    for school in aliases:
+        if school not in all_schools:
+            raise Exception("" + school + " not in any list")
+
     # Preprocess name to remove boat info
     name_for_score = name.replace("Boys", "").replace("Girls", "").replace("Novice", "")
 
-    neira_schools = get_neira_schools()
-    other_schools = get_other_schools()
+    if class_ == "eights" and gender == "boys":
+        relevant_schools = boys_eights
+    elif class_ == "eights" and gender == "girls":
+        relevant_schools = girls_eights
+    elif class_ == "fours" and gender == "boys":
+        relevant_schools = boys_fours
+    elif class_ == "fours" and gender == "girls":
+        relevant_schools = girls_fours
+    else:
+        raise Exception("Unhandled class/gender combo: " + repr((class_, gender)))
 
-    scores = set([])
-    for school, nicks in dict(**other_schools, **neira_schools).items():
+    scores = set()
+    for school in all_schools:
         score = compare(school, name_for_score)
-        for nick in nicks:
-            newscore = compare(name_for_score, nick)
-            if newscore > score:
-                score = newscore
+        for alias in aliases.get(school, []):
+            new_score = compare(name_for_score, alias)
+            if new_score > score:
+                score = new_score
         scores.add((school, score))
     (school, score) = max(scores, key=(lambda x_y: x_y[1]))
 
-    num = boatNum
-
-    if boatNum != None:
-        if boatNum == "novice":
-            expectedNum = 0
-        else:
-            expectedNum = int(boatNum)
-
-        # Check for the boat number. Ex: "Hopkins 4"
-        if len(name.split(" ")) > 1:
-            numStrings = name.replace("/", " ").split(" ")
-            for numString in numStrings:
-                try:
-                    num = parseNum(numString)
-                    # if expectedNum != num:
-                    #     if num == 0:
-                    #         num = "novice"
-                    #         school += " " + str(num)
-                    break
-                except ValueError:
-                    pass
-
     if score > 0.7:
-        # if (name, school) not in matched and name != school:
-        #     print(name, "~", school)
         matched.add((name, school))
-        return (school, num)
+        if school in relevant_schools:
+            return school
+        else:
+            print("Irrelevant school: " + name + " in " + gender + " " + class_)
+            return None
     else:
         unmatched.add(name)
         # return (name, boatNum)
-        return (None, None)
+        return None
 
 
 def parseNum(num):

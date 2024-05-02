@@ -1,4 +1,4 @@
-digraph boys1foursGroton {Nobles [URL="boys1foursGrotonNobles.html"];Groton [URL="boys1foursGrotonGroton.html"];Taft [URL="boys1foursGrotonTaft.html"];Pomfret [URL="boys1foursGrotonPomfret.html"];BBN [URL="boys1foursGrotonBBN.html"];Groton -> Pomfret[label="37.3
+digraph boys1foursGroton {Groton [URL="boys1foursGrotonGroton.html"];Pomfret [URL="boys1foursGrotonPomfret.html"];Nobles [URL="boys1foursGrotonNobles.html"];BBN [URL="boys1foursGrotonBBN.html"];Taft [URL="boys1foursGrotonTaft.html"];Groton -> Pomfret[label="37.3
 04/27", weight="63", tooltip="NEIRA,Pomfret vs. Groton, Taft			
 Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&cat=1", random="random"]; 
@@ -12,7 +12,7 @@ Groton -> Taft[label="11.1
 Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls' races interspersed).
 Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&cat=1", random="random"]; 
-Groton -> Nobles[label="2.08 (2.31)
+Groton -> Nobles[label="2.1 (2.33)
 04/20", weight="98", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
 Distance: 1350m Conditions: Excellent conditions.
 Cloudy and cool
@@ -26,7 +26,7 @@ Nobles: 2:22.3
 BB&N: 2:30.1
 many thanks to all crews and coaches for a great day of racing for full teams.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]; 
-Groton -> BBN[label="8.47 (9.41)
+Groton -> BBN[label="8.5 (9.44)
 04/20", weight="92", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
 Distance: 1350m Conditions: Excellent conditions.
 Cloudy and cool

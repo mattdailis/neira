@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500 Conditions: Variety Girls 1\ncoxed 4s\nstrong tail current, modern head wind, moderate chop.\n\nNone",
-    "day": "April 18, 2024",
+    "day": "2024-04-18",
     "heats": [
         {
             "class": "fours",
             "gender": "girls",
             "results": [
                 {
-                    "school": "Middletown",
-                    "time": "6:10.9"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:10.9",
+                    "school": "Middletown"
                 },
                 {
-                    "school": "Suffield",
-                    "time": "6:31.9"
+                    "margin_from_winner": 21.0,
+                    "raw_time": "6:31.9",
+                    "school": "Suffield"
                 }
             ],
             "varsity_index": "1"

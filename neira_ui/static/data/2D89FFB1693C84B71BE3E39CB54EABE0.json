@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1400m Conditions: 3mph tailwind Comments: All starts were floating starts. Races are not comparable. Race Order G1, B1, GN, BN. Thank you Farmington for a great morning of racing!\n\nNone",
-    "day": "April 20, 2024",
+    "day": "2024-04-20",
     "heats": [
         {
             "class": "eights",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Farmington",
-                    "time": "4:45.0"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:45.0",
+                    "school": "Farmington"
                 },
                 {
-                    "school": "Guilford",
-                    "time": "4:57.6"
+                    "margin_from_winner": 12.6,
+                    "raw_time": "4:57.6",
+                    "school": "Guilford"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Guilford",
-                    "time": "5:20.0"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:20.0",
+                    "school": "Guilford"
                 },
                 {
-                    "school": "Farmington",
-                    "time": "5:21.1"
+                    "margin_from_winner": 1.1,
+                    "raw_time": "5:21.1",
+                    "school": "Farmington"
                 }
             ],
             "varsity_index": "1"

@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500 Conditions: 4 MPH head wind, ending at a 6mph headwind by the last race (G2V4) Comments: Lyme Old Lyme raced 3 boys varsity 4s but only the 1V4 was against a NEIRA program.\nLyme Old Lyme also raced a 3V4 girls in the 2V4 race and the time is recorded in the third boat time.\n\nNone",
-    "day": "April 24, 2024",
+    "day": "2024-04-24",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "5:22.96"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:22.96",
+                    "school": "Lyme/Old Lyme"
                 },
                 {
-                    "school": "Valley Regional",
-                    "time": "6:02.44"
+                    "margin_from_winner": 39.48,
+                    "raw_time": "6:02.44",
+                    "school": "Valley Regional"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "6:11.76"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:11.76",
+                    "school": "Lyme/Old Lyme"
                 },
                 {
-                    "school": "Valley Regional",
-                    "time": "6:35.16"
+                    "margin_from_winner": 23.4,
+                    "raw_time": "6:35.16",
+                    "school": "Valley Regional"
                 }
             ],
             "varsity_index": "1"
@@ -37,12 +41,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Lyme/Old Lyme",
-                    "time": "6:30.00"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:30.00",
+                    "school": "Lyme/Old Lyme"
                 },
                 {
-                    "school": "Valley Regional",
-                    "time": "7:02.38"
+                    "margin_from_winner": 32.38,
+                    "raw_time": "7:02.38",
+                    "school": "Valley Regional"
                 }
             ],
             "varsity_index": "2"

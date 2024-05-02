@@ -1,4 +1,4 @@
-digraph boys6foursBBN {Winsor [URL="boys6foursBBNWinsor.html"];Nobles [URL="boys6foursBBNNobles.html"];BelmontHill [URL="boys6foursBBNBelmontHill.html"];BBN [URL="boys6foursBBNBBN.html"];BelmontHill -> BBN[label="17.0 (19.62)
+digraph boys6foursBBN {BBN [URL="boys6foursBBNBBN.html"];BelmontHill [URL="boys6foursBBNBelmontHill.html"];Nobles [URL="boys6foursBBNNobles.html"];BelmontHill -> BBN[label="17.0 (19.62)
 04/27", weight="83", tooltip="NEIRA Boys Fours,Belmont Hill vs BBN/The Ducey Cup, including JV races			
 Distance: 1300m Conditions: Great water. Modest wind, shifting over the course of the racing from calm & tail to calm & head. Race order was from 4V8-1V4 Comments: A beautiful day on the Chalres and great racing by all of the crews! Belmont Hill retains the Ducey Cup by virtue of winning the 1V4 race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&cat=1", random="random"]; 
@@ -15,8 +15,4 @@ Times for this race were:
 Nobles: 2:22.3
 BB&N: 2:30.1
 many thanks to all crews and coaches for a great day of racing for full teams.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]; 
-BBN -> Winsor[label="7.71 (8.9)
-04/27", weight="93", tooltip="NEIRA,The Winsor School vs. BB&N			
-Distance: 1300 Conditions: Flat and equal conditions across all races. Steering in 3V race resulted in both crews finishing off the course with an indistinguishable margin (deemed a tie). 4V crews reversed lanes mid-race, potentially impacting margin but not finish order. 5th and 6th boats were composite to provide a race for all athletes. Thank you to BB&N for a fun race!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0A06BB5337D4EBAFB4A716F6CCD660BF&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]}

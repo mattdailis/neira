@@ -1,22 +1,25 @@
 {
     "comment": "\nDistance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.\nGirls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.\n\nNone",
-    "day": "April 20, 2024",
+    "day": "2024-04-20",
     "heats": [
         {
             "class": "fours",
             "gender": "girls",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "4:32.3"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:32.3",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "Groton",
-                    "time": "4:32.4"
+                    "margin_from_winner": 0.1,
+                    "raw_time": "4:32.4",
+                    "school": "Groton"
                 },
                 {
-                    "school": "BB&N",
-                    "time": "4:37.9"
+                    "margin_from_winner": 5.6,
+                    "raw_time": "4:37.9",
+                    "school": "BB&N"
                 }
             ],
             "varsity_index": "1"
@@ -26,16 +29,19 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "4:53.6"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:53.6",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "Groton",
-                    "time": "4:54.6"
+                    "margin_from_winner": 1.0,
+                    "raw_time": "4:54.6",
+                    "school": "Groton"
                 },
                 {
-                    "school": "BB&N",
-                    "time": "5:13.9"
+                    "margin_from_winner": 20.3,
+                    "raw_time": "5:13.9",
+                    "school": "BB&N"
                 }
             ],
             "varsity_index": "2"
@@ -45,16 +51,19 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "5:04.8"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:04.8",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "Groton",
-                    "time": "5:16.1"
+                    "margin_from_winner": 11.3,
+                    "raw_time": "5:16.1",
+                    "school": "Groton"
                 },
                 {
-                    "school": "BB&N",
-                    "time": "5:16.8"
+                    "margin_from_winner": 12.0,
+                    "raw_time": "5:16.8",
+                    "school": "BB&N"
                 }
             ],
             "varsity_index": "3"
@@ -64,16 +73,19 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "5:17.4"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:17.4",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "BB&N",
-                    "time": "5:31.2"
+                    "margin_from_winner": 13.8,
+                    "raw_time": "5:31.2",
+                    "school": "BB&N"
                 },
                 {
-                    "school": "Groton",
-                    "time": "5:31.6"
+                    "margin_from_winner": 14.2,
+                    "raw_time": "5:31.6",
+                    "school": "Groton"
                 }
             ],
             "varsity_index": "4"
@@ -83,12 +95,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "5:29"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:29",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "BB&N",
-                    "time": "5:46"
+                    "margin_from_winner": 17.0,
+                    "raw_time": "5:46",
+                    "school": "BB&N"
                 }
             ],
             "varsity_index": "5"
@@ -98,12 +112,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "5:26"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:26",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "BB&N",
-                    "time": "5:39"
+                    "margin_from_winner": 13.0,
+                    "raw_time": "5:39",
+                    "school": "BB&N"
                 }
             ],
             "varsity_index": "6"

@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1400 Conditions: Severe chop at the start and severe tail wind. Shift to light tail/starboard wind for the last 1100 meters.\nMore wind and chop at the start as the day progressed (more for girls 4, more for boys varsity 2)\n\nNone",
-    "day": "April 29, 2024",
+    "day": "2024-04-29",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Suffield",
-                    "time": "5:55"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:55",
+                    "school": "Suffield"
                 },
                 {
-                    "school": "Marianapolis Prep",
-                    "time": "7:59"
+                    "margin_from_winner": 124.0,
+                    "raw_time": "7:59",
+                    "school": "Marianapolis Prep"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Suffield",
-                    "time": "7:14"
+                    "margin_from_winner": 0,
+                    "raw_time": "7:14",
+                    "school": "Suffield"
                 },
                 {
-                    "school": "Marianapolis Prep",
-                    "time": "9:30"
+                    "margin_from_winner": 136.0,
+                    "raw_time": "9:30",
+                    "school": "Marianapolis Prep"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +41,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Marianapolis Prep",
-                    "time": "7:18"
+                    "margin_from_winner": 0,
+                    "raw_time": "7:18",
+                    "school": "Marianapolis Prep"
                 },
                 {
-                    "school": "Suffield",
-                    "time": "7:40"
+                    "margin_from_winner": 22.0,
+                    "raw_time": "7:40",
+                    "school": "Suffield"
                 }
             ],
             "varsity_index": "1"

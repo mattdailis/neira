@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500m Conditions: Stiff head wind throughout all races, particularly the first 700m. Comments: Thank you, Derryfield, for making the trip down from NH!\n\nNone",
-    "day": "April 17, 2024",
+    "day": "2024-04-17",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Derryfield",
-                    "time": "6:30.54"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:30.54",
+                    "school": "Derryfield"
                 },
                 {
-                    "school": "Marianapolis Prep",
-                    "time": "7:51.78"
+                    "margin_from_winner": 81.24,
+                    "raw_time": "7:51.78",
+                    "school": "Marianapolis Prep"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Derryfield",
-                    "time": "6:46.42"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:46.42",
+                    "school": "Derryfield"
                 },
                 {
-                    "school": "Marianapolis Prep",
-                    "time": "8:29.64"
+                    "margin_from_winner": 103.22,
+                    "raw_time": "8:29.64",
+                    "school": "Marianapolis Prep"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +41,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Marianapolis Prep",
-                    "time": "6:38.17"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:38.17",
+                    "school": "Marianapolis Prep"
                 },
                 {
-                    "school": "Derryfield",
-                    "time": "6:45.44"
+                    "margin_from_winner": 7.27,
+                    "raw_time": "6:45.44",
+                    "school": "Derryfield"
                 }
             ],
             "varsity_index": "1"
@@ -52,12 +58,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Derryfield",
-                    "time": "7:18.4"
+                    "margin_from_winner": 0,
+                    "raw_time": "7:18.4",
+                    "school": "Derryfield"
                 },
                 {
-                    "school": "Marianapolis Prep",
-                    "time": "8:03.60"
+                    "margin_from_winner": 45.2,
+                    "raw_time": "8:03.60",
+                    "school": "Marianapolis Prep"
                 }
             ],
             "varsity_index": "2"

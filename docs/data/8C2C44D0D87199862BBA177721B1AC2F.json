@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1300m Conditions: Tail current, slight headwind on last ~700m of course\n\nNone",
-    "day": "April 27, 2024",
+    "day": "2024-04-27",
     "heats": [
         {
             "class": "eights",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Stonington",
-                    "time": "4:13"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:13",
+                    "school": "Stonington"
                 },
                 {
-                    "school": "Boston Latin",
-                    "time": "4:16"
+                    "margin_from_winner": 3.0,
+                    "raw_time": "4:16",
+                    "school": "Boston Latin"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Stonington",
-                    "time": "4:23"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:23",
+                    "school": "Stonington"
                 },
                 {
-                    "school": "Boston Latin",
-                    "time": "4:31"
+                    "margin_from_winner": 8.0,
+                    "raw_time": "4:31",
+                    "school": "Boston Latin"
                 }
             ],
             "varsity_index": "2"

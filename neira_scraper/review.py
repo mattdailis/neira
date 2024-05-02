@@ -45,7 +45,12 @@ def review(data_dir):
         with open("corrections.json", "r") as f:
             corrections = json.load(f)
 
-        contents = b"[]"
+        contents = (
+            json.dumps(corrections[uid]["corrections"], indent=4).encode()
+            if uid in corrections
+            else b"[]"
+        )
+
         while True:
             contents = editor.edit(contents=contents)
             try:

@@ -1,18 +1,25 @@
 {
     "comment": "\nDistance: 1300 Conditions: Cross tailwind around 5 mph, very slight chop with some gusts. Floating start, race times should not be compared. Comments: All starts were floating with a variable gusts, race times should not be compared.\nThird boats were Novice 8+'s and fourth and fifth boats were 4+'s.\nGlastonbury 3V8+ caught a crab about 150m into the race. Hotchkiss 2V8 had an oarlock pop open for around 200m before stopping and fixing it.\nThank you to Avon, Middletown and Hotchkiss for coming down for a great day of racing. Hotchkiss wins the Mahoney Cup, Glastonbury wins the Carstens Cup.\n\nNone",
-    "day": "April 21, 2024",
+    "day": "2024-04-21",
     "heats": [
         {
             "class": "eights",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Hotchkiss",
-                    "time": "4:09.89"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:09.89",
+                    "school": "Hotchkiss"
                 },
                 {
-                    "school": "Glastonbury",
-                    "time": "4:13.23"
+                    "margin_from_winner": 3.34,
+                    "raw_time": "4:13.23",
+                    "school": "Glastonbury"
+                },
+                {
+                    "margin_from_winner": 15.35,
+                    "raw_time": "4:25.24",
+                    "school": null
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +29,19 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Glastonbury",
-                    "time": "4:37.43"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:37.43",
+                    "school": "Glastonbury"
                 },
                 {
-                    "school": "Hotchkiss",
-                    "time": "4:53.11"
+                    "margin_from_winner": 11.77,
+                    "raw_time": "4:49.20",
+                    "school": null
+                },
+                {
+                    "margin_from_winner": 15.68,
+                    "raw_time": "4:53.11",
+                    "school": "Hotchkiss"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +51,19 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Glastonbury",
-                    "time": "4:36.60"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:36.60",
+                    "school": "Glastonbury"
                 },
                 {
-                    "school": "Hotchkiss",
-                    "time": "4:52.23"
+                    "margin_from_winner": 15.63,
+                    "raw_time": "4:52.23",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "margin_from_winner": 37.41,
+                    "raw_time": "5:14.01",
+                    "school": null
                 }
             ],
             "varsity_index": "1"
@@ -52,12 +73,19 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Glastonbury",
-                    "time": "4:47.91"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:47.91",
+                    "school": "Glastonbury"
                 },
                 {
-                    "school": "Hotchkiss",
-                    "time": "5:12.31"
+                    "margin_from_winner": 24.4,
+                    "raw_time": "5:12.31",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "margin_from_winner": 47.04,
+                    "raw_time": "5:34.95",
+                    "school": null
                 }
             ],
             "varsity_index": "2"

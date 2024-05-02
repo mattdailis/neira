@@ -1,22 +1,25 @@
 {
     "comment": "\nDistance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!\n\nNone",
-    "day": "April 27, 2024",
+    "day": "2024-04-27",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "5:37.4"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:37.4",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "St. Mark's",
-                    "time": "5:57.3"
+                    "margin_from_winner": 19.9,
+                    "raw_time": "5:57.3",
+                    "school": "St. Mark's"
                 },
                 {
-                    "school": "Brewster Academy",
-                    "time": "6:37.2"
+                    "margin_from_winner": 59.8,
+                    "raw_time": "6:37.2",
+                    "school": "Brewster Academy"
                 }
             ],
             "varsity_index": "1"
@@ -26,16 +29,19 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "5:51.6"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:51.6",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "St. Mark's",
-                    "time": "6:23.7"
+                    "margin_from_winner": 32.1,
+                    "raw_time": "6:23.7",
+                    "school": "St. Mark's"
                 },
                 {
-                    "school": "Brewster Academy",
-                    "time": "6:52.6"
+                    "margin_from_winner": 61.0,
+                    "raw_time": "6:52.6",
+                    "school": "Brewster Academy"
                 }
             ],
             "varsity_index": "2"
@@ -45,12 +51,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "5:48.4"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:48.4",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "St. Mark's",
-                    "time": "6:24.3"
+                    "margin_from_winner": 35.9,
+                    "raw_time": "6:24.3",
+                    "school": "St. Mark's"
                 }
             ],
             "varsity_index": "3"
@@ -60,16 +68,19 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "5:47.7"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:47.7",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "St. Mark's",
-                    "time": "6:52.9"
+                    "margin_from_winner": 65.2,
+                    "raw_time": "6:52.9",
+                    "school": "St. Mark's"
                 },
                 {
-                    "school": "Brewster Academy",
-                    "time": "7:19.1"
+                    "margin_from_winner": 91.4,
+                    "raw_time": "7:19.1",
+                    "school": "Brewster Academy"
                 }
             ],
             "varsity_index": "4"
@@ -79,20 +90,24 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "6:19.7"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:19.7",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "St. Mark's",
-                    "time": "6:34.3"
+                    "margin_from_winner": 14.6,
+                    "raw_time": "6:34.3",
+                    "school": "St. Mark's"
                 },
                 {
-                    "school": "Brewster Academy",
-                    "time": "6:39.0"
+                    "margin_from_winner": 19.3,
+                    "raw_time": "6:39.0",
+                    "school": "Brewster Academy"
                 },
                 {
-                    "school": "Newton Country Day",
-                    "time": "7:31.2"
+                    "margin_from_winner": 71.5,
+                    "raw_time": "7:31.2",
+                    "school": "Newton Country Day"
                 }
             ],
             "varsity_index": "1"
@@ -102,20 +117,24 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "6:21.7"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:21.7",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "St. Mark's",
-                    "time": "6:48.8"
+                    "margin_from_winner": 27.1,
+                    "raw_time": "6:48.8",
+                    "school": "St. Mark's"
                 },
                 {
-                    "school": "Newton Country Day",
-                    "time": "7:14.4"
+                    "margin_from_winner": 52.7,
+                    "raw_time": "7:14.4",
+                    "school": "Newton Country Day"
                 },
                 {
-                    "school": "Brewster Academy",
-                    "time": "7:34.5"
+                    "margin_from_winner": 72.8,
+                    "raw_time": "7:34.5",
+                    "school": "Brewster Academy"
                 }
             ],
             "varsity_index": "2"
@@ -125,16 +144,19 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "6:50.6"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:50.6",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "St. Mark's",
-                    "time": "7:14.8"
+                    "margin_from_winner": 24.2,
+                    "raw_time": "7:14.8",
+                    "school": "St. Mark's"
                 },
                 {
-                    "school": "Newton Country Day",
-                    "time": "7:25.9"
+                    "margin_from_winner": 35.3,
+                    "raw_time": "7:25.9",
+                    "school": "Newton Country Day"
                 }
             ],
             "varsity_index": "3"
@@ -144,16 +166,19 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Nobles",
-                    "time": "6:48.9"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:48.9",
+                    "school": "Nobles"
                 },
                 {
-                    "school": "St. Mark's",
-                    "time": "7:29.5"
+                    "margin_from_winner": 40.6,
+                    "raw_time": "7:29.5",
+                    "school": "St. Mark's"
                 },
                 {
-                    "school": "Newton Country Day",
-                    "time": "8:17.4"
+                    "margin_from_winner": 88.5,
+                    "raw_time": "8:17.4",
+                    "school": "Newton Country Day"
                 }
             ],
             "varsity_index": "4"

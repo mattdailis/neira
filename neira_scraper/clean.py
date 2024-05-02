@@ -10,7 +10,7 @@ import datetime
 
 from os.path import basename, splitext
 
-from neiraschools import matchSchool, get_neira_schools
+from neiraschools import matchSchool
 
 
 def clean(scraped):
@@ -70,7 +70,7 @@ def clean(scraped):
                 school = x["school"]
                 time = x["time"]
 
-                cleaned_school = clean_school(school)
+                cleaned_school = clean_school(school, boatSize, gender)
 
                 if isinstance(cleaned_school, NonNeira):
                     if cleaned_school.school is None:
@@ -84,12 +84,25 @@ def clean(scraped):
 
                 schools.append(cleaned_school)
 
-                school_times.append(
-                    {
-                        "school": cleaned_school,
-                        "time": clean_time(time),
-                    }
-                )
+                if school_times:
+                    school_times.append(
+                        {
+                            "school": cleaned_school,
+                            "raw_time": x["time"],
+                            "margin_from_winner": getMargin(
+                                school_times[0]["raw_time"], x["time"]
+                            ),
+                        }
+                    )
+                else:
+                    school_times.append(
+                        {
+                            "school": cleaned_school,
+                            "raw_time": x["time"],
+                            "margin_from_winner": 0,
+                        }
+                    )
+
             if len(school_times) > 1:
                 heats.append(
                     {
@@ -176,12 +189,8 @@ def clean_time(time):
 NonNeira = namedtuple("NonNeira", "school")
 
 
-def clean_school(school):
-    matched = matchSchool(school)[0]
-    if matched in get_neira_schools():
-        return matched
-    else:
-        return NonNeira(matched)
+def clean_school(school, class_, gender):
+    return matchSchool(school, class_, gender)
 
 
 def clean_gender(gender):
@@ -203,7 +212,7 @@ def clean_class(class_):
 
 
 def clean_date(date):
-    return date
+    return datetime.datetime.strptime(date, "%B %d, %Y").strftime("%Y-%m-%d")
 
 
 # string to date object
@@ -273,6 +282,39 @@ def parseBoat(gender, boatSize, boatString):
         boatSize = "eights"
 
     return (gender, number, boatSize)
+
+
+def getMargin(time1, time2):
+    time1 = getTime(time1)
+    time2 = getTime(time2)
+    if time1 == None or time2 == None:
+        return None
+    return (time2 - time1).total_seconds()
+
+
+def getTime(time):
+    time = cleanTime(time)
+    formats = ["%M:%S.%f", "%M.%S.%f", "%M:%S"]
+    for f in formats:
+        try:
+            return datetime.datetime.strptime(time, f)
+        except:
+            continue
+    return None
+
+
+def cleanTime(string):
+    res = (
+        string.replace("!", "1")
+        .replace(" ", "")
+        .replace(";", ":")
+        .replace("..", ".")
+        .replace(",", ".")
+    )
+    if ":" in res:
+        parts = res.split(":")
+        res = parts[0] + ":" + ".".join(parts[1:])
+    return res
 
 
 if __name__ == "__main__":

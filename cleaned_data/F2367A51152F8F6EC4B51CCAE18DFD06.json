@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500 meters Conditions: Order of racing G3, G2, G1. Light cross headwind with some gusts for G3, shifting to a stronger headwind as the racing went on. Comments: Many thanks to the Tabor crews and coaches for a great afternoon of racing!\n\nNone",
-    "day": "April 20, 2024",
+    "day": "2024-04-20",
     "heats": [
         {
             "class": "eights",
             "gender": "girls",
             "results": [
                 {
-                    "school": "St. Paul's",
-                    "time": "5:35.2"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:35.2",
+                    "school": "St. Paul's"
                 },
                 {
-                    "school": "Tabor",
-                    "time": "6:03.0"
+                    "margin_from_winner": 27.8,
+                    "raw_time": "6:03.0",
+                    "school": "Tabor"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "St. Paul's",
-                    "time": "5:49.0"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:49.0",
+                    "school": "St. Paul's"
                 },
                 {
-                    "school": "Tabor",
-                    "time": "6:24.7"
+                    "margin_from_winner": 35.7,
+                    "raw_time": "6:24.7",
+                    "school": "Tabor"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +41,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "St. Paul's",
-                    "time": "6:01.1"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:01.1",
+                    "school": "St. Paul's"
                 },
                 {
-                    "school": "Tabor",
-                    "time": "6:36.5"
+                    "margin_from_winner": 35.4,
+                    "raw_time": "6:36.5",
+                    "school": "Tabor"
                 }
             ],
             "varsity_index": "3"

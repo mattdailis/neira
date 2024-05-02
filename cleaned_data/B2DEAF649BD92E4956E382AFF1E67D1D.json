@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.\n\nNone",
-    "day": "April 27, 2024",
+    "day": "2024-04-27",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Groton",
-                    "time": "5:44.0"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:44.0",
+                    "school": "Groton"
                 },
                 {
-                    "school": "Pomfret",
-                    "time": "6:21.3"
+                    "margin_from_winner": 37.3,
+                    "raw_time": "6:21.3",
+                    "school": "Pomfret"
                 }
             ],
             "varsity_index": "1"
@@ -22,16 +24,19 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Groton",
-                    "time": "5:34.3"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:34.3",
+                    "school": "Groton"
                 },
                 {
-                    "school": "Taft",
-                    "time": "5:56.8"
+                    "margin_from_winner": 22.5,
+                    "raw_time": "5:56.8",
+                    "school": "Taft"
                 },
                 {
-                    "school": "Pomfret",
-                    "time": "6:43.7"
+                    "margin_from_winner": 69.4,
+                    "raw_time": "6:43.7",
+                    "school": "Pomfret"
                 }
             ],
             "varsity_index": "2"
@@ -41,16 +46,19 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Groton",
-                    "time": "6:03.2"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:03.2",
+                    "school": "Groton"
                 },
                 {
-                    "school": "Taft",
-                    "time": "6:14.7"
+                    "margin_from_winner": 11.5,
+                    "raw_time": "6:14.7",
+                    "school": "Taft"
                 },
                 {
-                    "school": "Pomfret",
-                    "time": "7:01.2"
+                    "margin_from_winner": 58.0,
+                    "raw_time": "7:01.2",
+                    "school": "Pomfret"
                 }
             ],
             "varsity_index": "3"
@@ -60,16 +68,19 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Groton",
-                    "time": "6:07.6"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:07.6",
+                    "school": "Groton"
                 },
                 {
-                    "school": "Pomfret",
-                    "time": "6:40.6"
+                    "margin_from_winner": 33.0,
+                    "raw_time": "6:40.6",
+                    "school": "Pomfret"
                 },
                 {
-                    "school": "Taft",
-                    "time": "6:45.5"
+                    "margin_from_winner": 37.9,
+                    "raw_time": "6:45.5",
+                    "school": "Taft"
                 }
             ],
             "varsity_index": "4"

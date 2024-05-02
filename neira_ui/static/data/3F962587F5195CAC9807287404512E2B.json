@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1250m Conditions: head current increased\n\nNone",
-    "day": "April 11, 2024",
+    "day": "2024-04-11",
     "heats": [
         {
             "class": "fours",
             "gender": "girls",
             "results": [
                 {
-                    "school": "Hopkins",
-                    "time": "5:42.9"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:42.9",
+                    "school": "Hopkins"
                 },
                 {
-                    "school": "Greenwich Country Day",
-                    "time": "6:37.5"
+                    "margin_from_winner": 54.6,
+                    "raw_time": "6:37.5",
+                    "school": "Greenwich Country Day"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Hopkins",
-                    "time": "6:22.3"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:22.3",
+                    "school": "Hopkins"
                 },
                 {
-                    "school": "Greenwich Country Day",
-                    "time": "6:42.5"
+                    "margin_from_winner": 20.2,
+                    "raw_time": "6:42.5",
+                    "school": "Greenwich Country Day"
                 }
             ],
             "varsity_index": "2"

@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1400m Conditions: Variable, moderate headwind; outgoing tide; some mild chop, especially in the first 1000m.\n2V and 3V races started about a length below the starting line. Comments: Thank you to Deerfield for making the trip!\n\nNone",
-    "day": "April 20, 2024",
+    "day": "2024-04-20",
     "heats": [
         {
             "class": "eights",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Brunswick",
-                    "time": "4:34.0"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:34.0",
+                    "school": "Brunswick"
                 },
                 {
-                    "school": "Deerfield",
-                    "time": "4:35.0"
+                    "margin_from_winner": 1.0,
+                    "raw_time": "4:35.0",
+                    "school": "Deerfield"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Deerfield",
-                    "time": "4:38.57"
+                    "margin_from_winner": 0,
+                    "raw_time": "4:38.57",
+                    "school": "Deerfield"
                 },
                 {
-                    "school": "Brunswick",
-                    "time": "4:54.51"
+                    "margin_from_winner": 15.94,
+                    "raw_time": "4:54.51",
+                    "school": "Brunswick"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +41,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Deerfield",
-                    "time": "5:03.00"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:03.00",
+                    "school": "Deerfield"
                 },
                 {
-                    "school": "Brunswick",
-                    "time": "5:08.55"
+                    "margin_from_winner": 5.55,
+                    "raw_time": "5:08.55",
+                    "school": "Brunswick"
                 }
             ],
             "varsity_index": "3"

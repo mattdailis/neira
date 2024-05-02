@@ -1,22 +1,25 @@
 {
     "comment": "\nDistance: 1500m Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout, with a slight tailwind developing in the last race. No current. Comments: Race order: G3, G2, G1, G4/5. Thanks to NMH and Hopkins for a great day of racing.\n\nNone",
-    "day": "April 20, 2024",
+    "day": "2024-04-20",
     "heats": [
         {
             "class": "fours",
             "gender": "girls",
             "results": [
                 {
-                    "school": "Hopkins",
-                    "time": "5:49.4"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:49.4",
+                    "school": "Hopkins"
                 },
                 {
-                    "school": "NMH",
-                    "time": "5:50.2"
+                    "margin_from_winner": 0.8,
+                    "raw_time": "5:50.2",
+                    "school": "NMH"
                 },
                 {
-                    "school": "Pomfret",
-                    "time": "6:21.4"
+                    "margin_from_winner": 32.0,
+                    "raw_time": "6:21.4",
+                    "school": "Pomfret"
                 }
             ],
             "varsity_index": "1"
@@ -26,16 +29,19 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "NMH",
-                    "time": "6:05.7"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:05.7",
+                    "school": "NMH"
                 },
                 {
-                    "school": "Hopkins",
-                    "time": "6:21.9"
+                    "margin_from_winner": 16.2,
+                    "raw_time": "6:21.9",
+                    "school": "Hopkins"
                 },
                 {
-                    "school": "Pomfret",
-                    "time": "6:48.6"
+                    "margin_from_winner": 42.9,
+                    "raw_time": "6:48.6",
+                    "school": "Pomfret"
                 }
             ],
             "varsity_index": "2"
@@ -45,16 +51,19 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "NMH",
-                    "time": "6:28.3"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:28.3",
+                    "school": "NMH"
                 },
                 {
-                    "school": "Hopkins",
-                    "time": "6:48.6"
+                    "margin_from_winner": 20.3,
+                    "raw_time": "6:48.6",
+                    "school": "Hopkins"
                 },
                 {
-                    "school": "Pomfret",
-                    "time": "6:59.3"
+                    "margin_from_winner": 31.0,
+                    "raw_time": "6:59.3",
+                    "school": "Pomfret"
                 }
             ],
             "varsity_index": "3"
@@ -64,12 +73,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "NMH",
-                    "time": "6:16.5"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:16.5",
+                    "school": "NMH"
                 },
                 {
-                    "school": "Pomfret",
-                    "time": "6:48.7"
+                    "margin_from_winner": 32.2,
+                    "raw_time": "6:48.7",
+                    "school": "Pomfret"
                 }
             ],
             "varsity_index": "4"

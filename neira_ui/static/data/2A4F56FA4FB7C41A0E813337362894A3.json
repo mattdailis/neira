@@ -1,18 +1,20 @@
 {
     "comment": "\nDistance: 1500 Conditions: Light drizzle and grey skies, but flat conditions. Racing in the direction of the incoming tide. Comments: The boys \"4V\" even was a combination of 4V boys with novice boys and served as an intersquad scrimmage. This race was slightly shorter and started around the 1250 mark.\nThe girls \"3V\" was a mixed boat event with even gender splits in each boat and represented various skill levels.\nThank you Derryfield for making the trip and dealing with Maine mud season.\n\nNone",
-    "day": "April 20, 2024",
+    "day": "2024-04-20",
     "heats": [
         {
             "class": "fours",
             "gender": "boys",
             "results": [
                 {
-                    "school": "Berwick",
-                    "time": "5:12"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:12",
+                    "school": "Berwick"
                 },
                 {
-                    "school": "Derryfield",
-                    "time": "5:50"
+                    "margin_from_winner": 38.0,
+                    "raw_time": "5:50",
+                    "school": "Derryfield"
                 }
             ],
             "varsity_index": "1"
@@ -22,12 +24,14 @@
             "gender": "boys",
             "results": [
                 {
-                    "school": "Berwick",
-                    "time": "5:35.8"
+                    "margin_from_winner": 0,
+                    "raw_time": "5:35.8",
+                    "school": "Berwick"
                 },
                 {
-                    "school": "Derryfield",
-                    "time": "6:01.9"
+                    "margin_from_winner": 26.1,
+                    "raw_time": "6:01.9",
+                    "school": "Derryfield"
                 }
             ],
             "varsity_index": "2"
@@ -37,12 +41,14 @@
             "gender": "girls",
             "results": [
                 {
-                    "school": "Derryfield",
-                    "time": "6:20.8"
+                    "margin_from_winner": 0,
+                    "raw_time": "6:20.8",
+                    "school": "Derryfield"
                 },
                 {
-                    "school": "Berwick",
-                    "time": "7:04.6"
+                    "margin_from_winner": 43.8,
+                    "raw_time": "7:04.6",
+                    "school": "Berwick"
                 }
             ],
             "varsity_index": "1"

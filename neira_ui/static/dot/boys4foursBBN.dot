@@ -1,4 +1,4 @@
-digraph boys4foursBBN {Nobles [URL="boys4foursBBNNobles.html"];Groton [URL="boys4foursBBNGroton.html"];Winsor [URL="boys4foursBBNWinsor.html"];CambridgeRLS [URL="boys4foursBBNCambridgeRLS.html"];BelmontHill [URL="boys4foursBBNBelmontHill.html"];BBN [URL="boys4foursBBNBBN.html"];CambridgeRLS -> BBN[label="4.36 (4.84)
+digraph boys4foursBBN {Groton [URL="boys4foursBBNGroton.html"];CambridgeRLS [URL="boys4foursBBNCambridgeRLS.html"];Nobles [URL="boys4foursBBNNobles.html"];BBN [URL="boys4foursBBNBBN.html"];BelmontHill [URL="boys4foursBBNBelmontHill.html"];CambridgeRLS -> BBN[label="4.4 (4.89)
 04/13", weight="96", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
 Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&cat=5", random="random"]; 
@@ -6,7 +6,7 @@ BelmontHill -> BBN[label="23.3 (26.88)
 04/27", weight="77", tooltip="NEIRA Boys Fours,Belmont Hill vs BBN/The Ducey Cup, including JV races			
 Distance: 1300m Conditions: Great water. Modest wind, shifting over the course of the racing from calm & tail to calm & head. Race order was from 4V8-1V4 Comments: A beautiful day on the Chalres and great racing by all of the crews! Belmont Hill retains the Ducey Cup by virtue of winning the 1V4 race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&cat=1", random="random"]; 
-Nobles -> BBN[label="32.73 (36.37)
+Nobles -> BBN[label="32.7 (36.33)
 04/20", weight="68", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
 Distance: 1350m Conditions: Excellent conditions.
 Cloudy and cool
@@ -20,7 +20,7 @@ Nobles: 2:22.3
 BB&N: 2:30.1
 many thanks to all crews and coaches for a great day of racing for full teams.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]; 
-Groton -> BBN[label="16.49 (18.32)
+Groton -> BBN[label="16.5 (18.33)
 04/20", weight="84", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
 Distance: 1350m Conditions: Excellent conditions.
 Cloudy and cool
@@ -33,8 +33,4 @@ Times for this race were:
 Nobles: 2:22.3
 BB&N: 2:30.1
 many thanks to all crews and coaches for a great day of racing for full teams.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]; 
-Winsor -> BBN[label="8.13 (9.38)
-04/27", weight="92", tooltip="NEIRA,The Winsor School vs. BB&N			
-Distance: 1300 Conditions: Flat and equal conditions across all races. Steering in 3V race resulted in both crews finishing off the course with an indistinguishable margin (deemed a tie). 4V crews reversed lanes mid-race, potentially impacting margin but not finish order. 5th and 6th boats were composite to provide a race for all athletes. Thank you to BB&N for a fun race!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0A06BB5337D4EBAFB4A716F6CCD660BF&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]}
