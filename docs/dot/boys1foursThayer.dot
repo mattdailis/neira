@@ -1,4 +1,4 @@
-digraph boys1foursThayer {CambridgeRLS [URL="boys1foursThayerCambridgeRLS.html"];Thayer [URL="boys1foursThayerThayer.html"];BUAcademy [URL="boys1foursThayerBUAcademy.html"];Medford [URL="boys1foursThayerMedford.html"];Thayer -> Medford[label="7.5 (11.25)
+digraph boys1foursThayer {Thayer [URL="boys1foursThayerThayer.html"];Medford [URL="boys1foursThayerMedford.html"];CambridgeRLS [URL="boys1foursThayerCambridgeRLS.html"];BUAcademy [URL="boys1foursThayerBUAcademy.html"];Thayer -> Medford[label="7.5 (11.25)
 05/01", weight="93", tooltip="NEIRA Boys & Girls Fours,Neponset Rowing Club vs Thayer vs Medford High School vs Dexter Southfield			
 Distance: 1000m Conditions: Calm with slight tailwind for all races Comments: Thank you to Neponset Rowing Club for hosting.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A0D8E23B33FA4A1CD9EE0595C6E7A2A5&cat=5", random="random"]; 
