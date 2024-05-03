@@ -4,10 +4,10 @@ import os
 import numpy as np
 from scipy.linalg import eig
 
-from associationList import Edge
-from associationList import getNodes
+from neira.dot.associationList import Edge
+from neira.dot.associationList import getNodes
 from neira.data_provider import data_provider
-from toDot import viz
+from neira.dot.toDot import viz
 
 import click
 
@@ -65,9 +65,6 @@ def cleanTime(string):
     return res
 
 
-@click.command()
-@click.argument("data")
-@click.argument("out")
 def main(data, out):
     """
     Read data from DATA and write output to OUT

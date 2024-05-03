@@ -26,11 +26,11 @@ Data is updated following this process:
 Here are the commands needed for the above process. See the Corrections documentation for help with the review process.
 
 ```bash
-neira scrape data/1_cleaned --raw-cache=data/0_raw
-neira review data/1_cleaned 
-neira apply-corrections corrections.json data/1_cleaned data/2_reviewed
+neira scrape
+neira review
+neira apply-corrections
 
-python neira/dot/read.py data/2_reviewed neira_ui/static/dot
+neira dot data/2_reviewed neira_ui/static/dot
 
 cd neira_ui
 npm run build

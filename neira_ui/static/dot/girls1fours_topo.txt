@@ -1,11 +1,11 @@
-{'Lyme/Old Lyme', 'Choate', 'Nobles', 'BU Academy', 'Hopkins'}
-{'Groton', 'Valley Regional', 'Frederick Gunn', 'Brooks', 'Middletown', 'Taft'}
-{'BB&N', 'Berkshire Academy', "St. Mary's-Lynn", 'Canterbury'}
+{'Hopkins', 'BU Academy', 'Choate', 'Lyme/Old Lyme', 'Nobles'}
+{'Taft', 'Frederick Gunn', 'Brooks', 'Middletown', 'Valley Regional', 'Groton'}
+{'Berkshire Academy', 'BB&N', 'Canterbury', "St. Mary's-Lynn"}
 {'Greenwich Academy', 'Cambridge RLS'}
-{'Middlesex', 'Winsor'}
+{'Winsor', 'Middlesex'}
 {'NMH'}
 {'Pomfret', "St. Mark's"}
-{'Brewster Academy', 'Marianapolis Prep'}
+{'Marianapolis Prep', 'Brewster Academy'}
 {'Derryfield', 'Newton Country Day'}
 {'Berwick'}
-Cycle detected: {'Lincoln', 'St. Mary Academy-Bay View'}
+Cycle detected: {'St. Mary Academy-Bay View', 'Lincoln'}

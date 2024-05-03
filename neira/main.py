@@ -1,6 +1,8 @@
+import pprint
 import warnings
 
 import neira.scraper.apply_corrections
+import neira.dot.read
 
 warnings.filterwarnings("ignore")
 
@@ -20,18 +22,25 @@ import neira.scraper.neiraschools as neiraschools
 
 import neira.scraper.review
 
+CONFIG = None
+
 
 @click.group()
 def cli():
-    pass
+    global CONFIG
+    with open("neira.config.json", "r") as f:
+        CONFIG = json.load(f)
 
 
 @cli.command()
-@click.argument("out")
-@click.option("--raw-cache", type=str)
+# @click.argument("out")
+# @click.option("--raw-cache", type=str)
 @click.option("--refresh/--use-cache")
-def scrape(out, raw_cache=None, refresh=False):
-    out_dir = out
+def scrape(refresh=False):
+    global CONFIG
+    out_dir = CONFIG["cleaned_dir"]
+    raw_cache = CONFIG.get("raw_dir", None)
+
     OVERWRITE = True
 
     if refresh and raw_cache:
@@ -99,19 +108,30 @@ def read_from_cache(cache_dir):
 
 
 @cli.command
-@click.argument("data_dir")
-def review(data_dir):
+# @click.argument("data_dir")
+def review():
+    data_dir = CONFIG["cleaned_dir"]
     neira.scraper.review.review(data_dir)
 
 
 @cli.command()
-@click.argument("corrections_file")
-@click.argument("input_dir")
-@click.argument("output_dir")
-def apply_corrections(corrections_file, input_dir, output_dir):
+# @click.argument("corrections_file")
+# @click.argument("input_dir")
+# @click.argument("output_dir")
+def apply_corrections():  # corrections_file, input_dir, output_dir):
+    corrections_file = CONFIG["corrections_file"]
+    input_dir = CONFIG["cleaned_dir"]
+    output_dir = CONFIG["reviewed_dir"]
     neira.scraper.apply_corrections.apply_corrections(
         corrections_file, input_dir, output_dir
     )
+
+
+@cli.command()
+@click.argument("data")
+@click.argument("out")
+def dot(data, out):
+    neira.dot.read.main(data, out)
 
 
 if __name__ == "__main__":
