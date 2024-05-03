@@ -30,6 +30,9 @@ def apply_corrections(corrections_file, input_dir, output_dir):
             elif correction["type"] == "set_gender_all_heats":
                 for heat in race_object["heats"]:
                     heat["gender"] = correction["gender"]
+            elif correction["type"] == "set_class_all_heats":
+                for heat in race_object["heats"]:
+                    heat["class"] = correction["class"]
             elif correction["type"] == "comment":
                 pass
             else:
@@ -37,7 +40,9 @@ def apply_corrections(corrections_file, input_dir, output_dir):
 
         for heat in race_object["heats"]:
             if heat["gender"] not in ("boys", "girls"):
-                raise Exception("Unrecognized gender: " + heat["gender"])
+                raise Exception("Unrecognized gender: " + str(heat["gender"]))
+            if heat["class"] not in ("eights", "fours"):
+                raise Exception("Unrecognized boat class: " + str(heat["class"]))
         with open(os.path.join(output_dir, uid + ".json"), "w") as f:
             json.dump(race_object, f, sort_keys=True, indent=4)
 

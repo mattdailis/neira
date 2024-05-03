@@ -1,0 +1,113 @@
+{
+    "comment": "\nDistance: 1300 Conditions: Conditions remained the same through all races. Flat water, no wind. Comments: 5th boat race ran a shorter course due to novice coxswains and rowers (~1100m)\n\nNone",
+    "day": "2024-05-01",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": null,
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:46",
+                    "school": "Cambridge RLS"
+                },
+                {
+                    "margin_from_winner": 4.0,
+                    "raw_time": "4:50",
+                    "school": "Winsor"
+                },
+                {
+                    "margin_from_winner": 25.0,
+                    "raw_time": "5:11",
+                    "school": "Newton Country Day"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": null,
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:01",
+                    "school": "Cambridge RLS"
+                },
+                {
+                    "margin_from_winner": 6.0,
+                    "raw_time": "5:07",
+                    "school": "Winsor"
+                },
+                {
+                    "margin_from_winner": 31.0,
+                    "raw_time": "5:32",
+                    "school": "Newton Country Day"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": null,
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:06",
+                    "school": "Winsor"
+                },
+                {
+                    "margin_from_winner": 9.0,
+                    "raw_time": "5:15",
+                    "school": "Cambridge RLS"
+                },
+                {
+                    "margin_from_winner": 16.0,
+                    "raw_time": "5:22",
+                    "school": "Newton Country Day"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "fours",
+            "gender": null,
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:11",
+                    "school": "Winsor"
+                },
+                {
+                    "margin_from_winner": 37.0,
+                    "raw_time": "5:48",
+                    "school": "Cambridge RLS"
+                },
+                {
+                    "margin_from_winner": 39.0,
+                    "raw_time": "5:50",
+                    "school": "Newton Country Day"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": "fours",
+            "gender": null,
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:10",
+                    "school": "Winsor"
+                },
+                {
+                    "margin_from_winner": 3.0,
+                    "raw_time": "5:13",
+                    "school": "Cambridge RLS"
+                }
+            ],
+            "varsity_index": "5"
+        }
+    ],
+    "regatta_display_name": "NEIRA Fours,NCDS, Winsor, CRLS",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=C55D042DC8DE58BCD614F6CCB55D1228&cat=1"
+}

@@ -1,0 +1,76 @@
+{
+    "comment": "\nDistance: 1500m Conditions: Great racing conditions for all races. Flat water, no wind and little current. Comments: Thank you to Groton for a great afternoon of racing. Well rowed by all crews!\n\nNone",
+    "day": "2024-05-01",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:01.5",
+                    "school": "Middlesex"
+                },
+                {
+                    "margin_from_winner": 2.6,
+                    "raw_time": "5:04.1",
+                    "school": "Groton"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:18.9",
+                    "school": "Groton"
+                },
+                {
+                    "margin_from_winner": 12.3,
+                    "raw_time": "5:31.2",
+                    "school": "Middlesex"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:28.8",
+                    "school": "Groton"
+                },
+                {
+                    "margin_from_winner": 19.7,
+                    "raw_time": "5:48.5",
+                    "school": "Middlesex"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:36.6",
+                    "school": "Groton"
+                },
+                {
+                    "margin_from_winner": 21.8,
+                    "raw_time": "5:58.4",
+                    "school": "Middlesex"
+                }
+            ],
+            "varsity_index": "4"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys Fours,Groton vs. Middlesex",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&cat=1"
+}

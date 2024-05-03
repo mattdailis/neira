@@ -1,4 +1,8 @@
-digraph boys1fours {BUAcademy [URL="boys1foursBUAcademy.html"];Hopkins [URL="boys1foursHopkins.html"];KingSchool [URL="boys1foursKingSchool.html"];BBN [URL="boys1foursBBN.html"];Brooks [URL="boys1foursBrooks.html"];StMarks [URL="boys1foursStMarks.html"];Middletown [URL="boys1foursMiddletown.html"];NMH [URL="boys1foursNMH.html"];BelmontHill [URL="boys1foursBelmontHill.html"];NotreDame [URL="boys1foursNotreDame.html"];Nobles [URL="boys1foursNobles.html"];Middlesex [URL="boys1foursMiddlesex.html"];Thayer [URL="boys1foursThayer.html"];Derryfield [URL="boys1foursDerryfield.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Choate [URL="boys1foursChoate.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];Medford [URL="boys1foursMedford.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Pomfret [URL="boys1foursPomfret.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];Suffield [URL="boys1foursSuffield.html"];Berwick [URL="boys1foursBerwick.html"];Groton [URL="boys1foursGroton.html"];ValleyRegional [URL="boys1foursValleyRegional.html"];CambridgeRLS [URL="boys1foursCambridgeRLS.html"];Canterbury [URL="boys1foursCanterbury.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];Pingree [URL="boys1foursPingree.html"];Taft [URL="boys1foursTaft.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];EagleHill [URL="boys1foursEagleHill.html"];Bancroft [URL="boys1foursBancroft.html"];Berwick -> BrewsterAcademy[label="8.3
+digraph boys1fours {Berwick [URL="boys1foursBerwick.html"];KingSchool [URL="boys1foursKingSchool.html"];Taft [URL="boys1foursTaft.html"];Suffield [URL="boys1foursSuffield.html"];Thayer [URL="boys1foursThayer.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];ValleyRegional [URL="boys1foursValleyRegional.html"];Pomfret [URL="boys1foursPomfret.html"];Nobles [URL="boys1foursNobles.html"];BBN [URL="boys1foursBBN.html"];Choate [URL="boys1foursChoate.html"];Canterbury [URL="boys1foursCanterbury.html"];Derryfield [URL="boys1foursDerryfield.html"];Groton [URL="boys1foursGroton.html"];CambridgeRLS [URL="boys1foursCambridgeRLS.html"];Middletown [URL="boys1foursMiddletown.html"];BelmontHill [URL="boys1foursBelmontHill.html"];Hopkins [URL="boys1foursHopkins.html"];Medford [URL="boys1foursMedford.html"];EagleHill [URL="boys1foursEagleHill.html"];Brooks [URL="boys1foursBrooks.html"];Bancroft [URL="boys1foursBancroft.html"];NotreDame [URL="boys1foursNotreDame.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];StMarks [URL="boys1foursStMarks.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];Middlesex [URL="boys1foursMiddlesex.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];Pingree [URL="boys1foursPingree.html"];BUAcademy [URL="boys1foursBUAcademy.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];NMH [URL="boys1foursNMH.html"];Middlesex -> Groton[label="2.6
+05/01", weight="98", tooltip="NEIRA Boys Fours,Groton vs. Middlesex			
+Distance: 1500m Conditions: Great racing conditions for all races. Flat water, no wind and little current. Comments: Thank you to Groton for a great afternoon of racing. Well rowed by all crews!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&cat=1", random="random"]; 
+Berwick -> BrewsterAcademy[label="8.3
 04/13", weight="92", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
 Distance: 1500 Conditions: Tail Current with a strong tail/cross wind with occasional gusts. Fun conditions for first race of the season! Thank you for Brewster for making the trip. Comments: Mixed boats were exhibition events and a combo of boys and girls of various skill levels - anything to get some new rowers more racing experience!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=193F4296CB862153CF0FD21B95E6AB20&cat=5", random="random"]; 
@@ -30,6 +34,16 @@ Brooks -> StMarks[label="11.7
 04/20", weight="89", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 
+Thayer -> Medford[label="7.5 (11.25)
+05/01", weight="93", tooltip="NEIRA Boys & Girls Fours,Neponset Rowing Club vs Thayer vs Medford High School vs Dexter Southfield			
+Distance: 1000m Conditions: Calm with slight tailwind for all races Comments: Thank you to Neponset Rowing Club for hosting.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A0D8E23B33FA4A1CD9EE0595C6E7A2A5&cat=5", random="random"]; 
+LymeOldLyme -> Middletown[label="4.7
+05/01", weight="96", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Middletown V Mills			
+Distance: 1500 Conditions: It was a partly cloudy day when all three crews got out into the lake, there was a constant 6-8 mph head wind that ran straight up the course for all races. Comments: One race worth noting is the G2V4 Lyme/old Lyme launched their G3V4 to participate in the race as well.
+Lyme/Old Lyme would like thank Middletown and Mills for coming out to race on our lake. We are always excited to have teams come and visit and enjoy our facility with us.
+Thank you for a great day of racing and we look forward to seeing you all again soon!!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B21A566F53808695C158764AE049824A&cat=5", random="random"]; 
 Suffield -> MarianapolisPrep[label="124.0 (132.86)
 04/29", weight="-24", tooltip="NEIRA Boys & Girls Fours,Suffield Academy vs. Marianapolis			
 Distance: 1400 Conditions: Severe chop at the start and severe tail wind. Shift to light tail/starboard wind for the last 1100 meters.
@@ -91,6 +105,18 @@ Thayer -> BUAcademy[label="17.1 (19.0)
 04/17", weight="83", tooltip="NEIRA Boys Fours,CRLS vs Thayer Academy, BU Academy			
 Distance: 1350 Conditions: Cross headwind for first 2/3 of race, mellowing out in the last 1/3. Comments: Thanks to BU Academy for joining, and thanks to Thayer for making the trip. Excellent effort from all crews.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5AC13C0A039EE6AFC8E97E47C247F44E&cat=1", random="random"]; 
+StMarysLynn -> EagleHill[label="7.0
+05/01", weight="93", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
+Distance: 1500m Conditions: Very little chop
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 
+StMarysLynn -> MarianapolisPrep[label="30.4
+05/01", weight="70", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
+Distance: 1500m Conditions: Very little chop
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 
+EagleHill -> MarianapolisPrep[label="23.4
+05/01", weight="77", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
+Distance: 1500m Conditions: Very little chop
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 
 Berwick -> Derryfield[label="38.0
 04/20", weight="62", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Derryfield School			
 Distance: 1500 Conditions: Light drizzle and grey skies, but flat conditions. Racing in the direction of the incoming tide. Comments: The boys 4V even was a combination of 4V boys with novice boys and served as an intersquad scrimmage. This race was slightly shorter and started around the 1250 mark.

@@ -1,7 +1,86 @@
 {
     "comment": "\nDistance: 1500m - Novice were 1000m Conditions: Rain intermittently. Very flat, very low wind. Slight tail current. Comments: Girls novice 4 ended up being a a little under 1000m with drifting at the start\n\nNone",
     "day": "2024-04-20",
-    "heats": [],
+    "heats": [
+        {
+            "class": null,
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:13.0",
+                    "school": "Lyme/Old Lyme"
+                },
+                {
+                    "margin_from_winner": 15.8,
+                    "raw_time": "5:28.8",
+                    "school": "Stonington"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": null,
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "3:52.1",
+                    "school": "Lyme/Old Lyme"
+                },
+                {
+                    "margin_from_winner": 6.1,
+                    "raw_time": "3:58.2",
+                    "school": "Stonington"
+                },
+                {
+                    "margin_from_winner": 31.2,
+                    "raw_time": "4:23.3",
+                    "school": "East Lyme"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": null,
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:17.6",
+                    "school": "Lyme/Old Lyme"
+                },
+                {
+                    "margin_from_winner": 16.6,
+                    "raw_time": "6:34.2",
+                    "school": "Stonington"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": null,
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:47.6",
+                    "school": "Stonington"
+                },
+                {
+                    "margin_from_winner": 3.2,
+                    "raw_time": "4:50.8",
+                    "school": "Lyme/Old Lyme"
+                },
+                {
+                    "margin_from_winner": 29.5,
+                    "raw_time": "5:17.1",
+                    "school": "East Lyme"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
     "regatta_display_name": "Lyme/Old Lyme, Stonington, East Lyme",
     "url": "https://www.row2k.com/results/resultspage.cfm?UID=622A605D840C2B57865CD47A05BAB2CD&cat=5"
 }

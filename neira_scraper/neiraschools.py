@@ -376,20 +376,19 @@ aliases = {
 # What about a boys 3 boat that still wants to be considered a 3rd boat, but races 2nd boats occasionally
 # should those races count? Towards what? Margins????
 def match_school(name, class_, gender):
-    if class_ == "eights" and gender == "boys":
-        relevant_schools = boys_eights
-    elif class_ == "eights" and gender == "girls":
-        relevant_schools = girls_eights
-    elif class_ == "fours" and gender == "boys":
-        relevant_schools = boys_fours
-    elif class_ == "fours" and gender == "girls":
-        relevant_schools = girls_fours
-    elif class_ == "eights" and gender == None:
-        relevant_schools = boys_eights.union(girls_eights)
-    elif class_ == "fours" and gender == None:
-        relevant_schools = boys_fours.union(girls_fours)
-    else:
-        raise Exception("Unhandled class/gender combo: " + repr((class_, gender)))
+    relevant_schools = all_schools
+    if class_ == "eights":
+        relevant_schools = relevant_schools.intersection(
+            boys_eights.union(girls_eights)
+        )
+    if class_ == "fours":
+        relevant_schools = relevant_schools.intersection(boys_fours.union(girls_fours))
+    if gender == "boys":
+        relevant_schools = relevant_schools.intersection(boys_fours.union(boys_eights))
+    if gender == "girls":
+        relevant_schools = relevant_schools.intersection(
+            girls_fours.union(girls_eights)
+        )
 
     # Preprocess name to remove boat info
     name_for_score = name.replace("Boys", "").replace("Girls", "").replace("Novice", "")

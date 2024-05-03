@@ -1,4 +1,10 @@
-digraph girls1foursLymeOldLyme {LymeOldLyme [URL="girls1foursLymeOldLymeLymeOldLyme.html"];MissPorters [URL="girls1foursLymeOldLymeMissPorters.html"];ValleyRegional [URL="girls1foursLymeOldLymeValleyRegional.html"];GreenwichAcademy [URL="girls1foursLymeOldLymeGreenwichAcademy.html"];Canterbury [URL="girls1foursLymeOldLymeCanterbury.html"];FrederickGunn [URL="girls1foursLymeOldLymeFrederickGunn.html"];LymeOldLyme -> ValleyRegional[label="23.4
+digraph girls1foursLymeOldLyme {LymeOldLyme [URL="girls1foursLymeOldLymeLymeOldLyme.html"];Canterbury [URL="girls1foursLymeOldLymeCanterbury.html"];GreenwichAcademy [URL="girls1foursLymeOldLymeGreenwichAcademy.html"];MissPorters [URL="girls1foursLymeOldLymeMissPorters.html"];Middletown [URL="girls1foursLymeOldLymeMiddletown.html"];FrederickGunn [URL="girls1foursLymeOldLymeFrederickGunn.html"];ValleyRegional [URL="girls1foursLymeOldLymeValleyRegional.html"];LymeOldLyme -> Middletown[label="13.8
+05/01", weight="87", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Middletown V Mills			
+Distance: 1500 Conditions: It was a partly cloudy day when all three crews got out into the lake, there was a constant 6-8 mph head wind that ran straight up the course for all races. Comments: One race worth noting is the G2V4 Lyme/old Lyme launched their G3V4 to participate in the race as well.
+Lyme/Old Lyme would like thank Middletown and Mills for coming out to race on our lake. We are always excited to have teams come and visit and enjoy our facility with us.
+Thank you for a great day of racing and we look forward to seeing you all again soon!!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B21A566F53808695C158764AE049824A&cat=5", random="random"]; 
+LymeOldLyme -> ValleyRegional[label="23.4
 04/24", weight="77", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Valley			
 Distance: 1500 Conditions: 4 MPH head wind, ending at a 6mph headwind by the last race (G2V4) Comments: Lyme Old Lyme raced 3 boys varsity 4s but only the 1V4 was against a NEIRA program.
 Lyme Old Lyme also raced a 3V4 girls in the 2V4 race and the time is recorded in the third boat time.

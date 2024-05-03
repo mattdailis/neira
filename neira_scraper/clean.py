@@ -42,7 +42,7 @@ def clean(scraped):
 
     # Guess the boat size from the name. Else "fours"
     # TODO take into account what schools are participating - we know which ones row fours or eights
-    boatSize = "fours"  # assume fours
+    boatSize = None  # assume fours
     if (
         "eight" in name.lower()
         or "8" in name
@@ -98,7 +98,7 @@ def clean(scraped):
             if len(school_times) > 1:
                 heats.append(
                     {
-                        "class": str(boatSize),
+                        "class": boatSize,
                         "varsity_index": str(boatNum),
                         "results": school_times,
                         "gender": gender,

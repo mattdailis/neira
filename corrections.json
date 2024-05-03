@@ -12,11 +12,15 @@
         "corrections": []
     },
     "0A06BB5337D4EBAFB4A716F6CCD660BF": {
-        "checksum": "c6d6c337bbc875faeff8c76394a9ee64",
+        "checksum": "e6b7929bddd45f52263dc82fdb8d5cbb",
         "corrections": [
             {
                 "gender": "girls",
                 "type": "set_gender_all_heats"
+            },
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
             }
         ]
     },
@@ -72,16 +76,28 @@
             }
         ]
     },
+    "194ECDDCE8F3CBCE6A1EEDAACD36E22D": {
+        "checksum": "f4e7351d1cb423aa64d03e3cbd7b9d98",
+        "corrections": []
+    },
+    "1D76E2C55B685887DE5F5F56885001A6": {
+        "checksum": "67b2c4efa08ca22d326b89dfd542209e",
+        "corrections": []
+    },
     "1EE142EEB12B57D1FE83F46C7DD3118E": {
         "checksum": "ee7a1286a26649bef78bd3e4af91312f",
         "corrections": []
     },
     "20E78FECE0268B5584D1E5BC6689C505": {
-        "checksum": "32425da56985f9adce70a3a5b584edac",
+        "checksum": "9272db427f3713c8df2fe7726a81259a",
         "corrections": [
             {
                 "gender": "boys",
                 "type": "set_gender_all_heats"
+            },
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
             }
         ]
     },
@@ -161,8 +177,13 @@
         "corrections": []
     },
     "3F962587F5195CAC9807287404512E2B": {
-        "checksum": "03b8054adde779298b4a445fdb1671d5",
-        "corrections": []
+        "checksum": "4a65ea0788f6d69fec586dccd8d9dcf9",
+        "corrections": [
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            }
+        ]
     },
     "429158C8054202FE58813F17E3F2C8B1": {
         "checksum": "a588b4f2a801df96c3e89024623ba13c",
@@ -208,11 +229,24 @@
         "corrections": []
     },
     "622A605D840C2B57865CD47A05BAB2CD": {
-        "checksum": "e4a1ee37d4302a231cf91dca89e05040",
+        "checksum": "bb112d991e57617cf2948123f18386a5",
         "corrections": [
             {
                 "comment": "This race does not count, because Stonington competes in eights, while Lyme/Old Lyme competes in fours",
                 "type": "comment"
+            },
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            },
+            {
+                "heats": [
+                    "boys 1",
+                    "boys 2",
+                    "girls 1",
+                    "girls 2"
+                ],
+                "type": "ignore_heats"
             }
         ]
     },
@@ -222,6 +256,14 @@
     },
     "745C6CCACF8F59AD53DCB188AEF4A1E7": {
         "checksum": "7b4f1d77f319a15c73b37631f3e482ba",
+        "corrections": []
+    },
+    "76E3EDF2C6F7CD5FEBCC72CEE9D056A7": {
+        "checksum": "c9e4cedf65f6fc0c32d4b8378947cd4d",
+        "corrections": []
+    },
+    "7F0159CF3B59800CD4DF105B51503B4D": {
+        "checksum": "4c70e14594eaf0b53aabff4181a37a04",
         "corrections": []
     },
     "81067D27DF71795C160BB3CEFD091670": {
@@ -281,9 +323,37 @@
         "checksum": "0eb842d88f9908c3893e293120204d97",
         "corrections": []
     },
-    "A21A42AB805198290F7DED1497014168": {
-        "checksum": "6804805a14a253255dd327fb04f8f105",
+    "9D91D12A05312FA648CB069922388668": {
+        "checksum": "48849d9780e9b60dd423bc55f44182bf",
+        "corrections": [
+            {
+                "comment": "wrong class causes all heats to be discarded here",
+                "type": "comment"
+            },
+            {
+                "class": "eights",
+                "type": "set_class_all_heats"
+            },
+            {
+                "heats": [
+                    "girls 4"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "A0D8E23B33FA4A1CD9EE0595C6E7A2A5": {
+        "checksum": "a77a591f00e6ebaa63d884701f32e175",
         "corrections": []
+    },
+    "A21A42AB805198290F7DED1497014168": {
+        "checksum": "76552c1acb0714eb9d361ab9521a8ef2",
+        "corrections": [
+            {
+                "class": "eights",
+                "type": "set_class_all_heats"
+            }
+        ]
     },
     "A6F3B0420129EB02E75FD2608D0C3CD5": {
         "checksum": "fe0694f033a2a6aacfaef032a74717c1",
@@ -322,21 +392,33 @@
         "checksum": "7662ed45dbd6ca07488700336adbdebe",
         "corrections": []
     },
+    "B21A566F53808695C158764AE049824A": {
+        "checksum": "13ec076310931bcdfea97b87b0aa9ffe",
+        "corrections": []
+    },
     "B22AAA979AF5CD66BC6FB376321A25A4": {
-        "checksum": "0c094ada56ff234b14353ef3d578d767",
+        "checksum": "e040657ffbc72ff71910e9b490b59d21",
         "corrections": [
             {
                 "comment": "boys 3 boat has delta times",
                 "type": "comment"
+            },
+            {
+                "class": "eights",
+                "type": "set_class_all_heats"
             }
         ]
     },
     "B2DEAF649BD92E4956E382AFF1E67D1D": {
-        "checksum": "b8fb7108be903b4836d67b223e489353",
+        "checksum": "c6d824c873f1c292a1c0615ab34b0e84",
         "corrections": [
             {
                 "gender": "girls",
                 "type": "set_gender_all_heats"
+            },
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
             }
         ]
     },
@@ -349,6 +431,15 @@
             }
         ]
     },
+    "C55D042DC8DE58BCD614F6CCB55D1228": {
+        "checksum": "479f975c26b908cfcdcf238c178f11a2",
+        "corrections": [
+            {
+                "gender": "girls",
+                "type": "set_gender_all_heats"
+            }
+        ]
+    },
     "CADB8564A7D0BE142DB6C47B0EED613F": {
         "checksum": "c3d84e52573f69f8ee7e00c91205fd8b",
         "corrections": []
@@ -357,12 +448,20 @@
         "checksum": "13ba05c874ac1fa7742e1a843e95f0d4",
         "corrections": []
     },
+    "D6A6DD149CC032FE3C0A5DADE25EF871": {
+        "checksum": "ec1449db67bc553be1a4cd531c229b75",
+        "corrections": []
+    },
     "D6B986013DA22E26BC236F424721DEE8": {
-        "checksum": "9435b2ce2e0402dae11de6d00a43914c",
+        "checksum": "f9d5f4820a7b7f02973958e9b893422a",
         "corrections": [
             {
                 "comment": "In boys 4, Pomfret 5 beat Pomfret 4",
                 "type": "comment"
+            },
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
             }
         ]
     },
@@ -379,8 +478,13 @@
         "corrections": []
     },
     "DE911428BA7DE499F2D28BF6D23E48AA": {
-        "checksum": "23eb759912547882bfe5c0b6d939fb1e",
-        "corrections": []
+        "checksum": "a3791323c7fa63695eecf14ff551d4ca",
+        "corrections": [
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            }
+        ]
     },
     "DEEA0E3D46D09665F8C7ECAF148A6CBA": {
         "checksum": "37525950236388416e6da41fcec69016",

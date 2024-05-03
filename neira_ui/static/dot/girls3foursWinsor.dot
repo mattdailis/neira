@@ -1,4 +1,12 @@
-digraph girls3foursWinsor {BBN [URL="girls3foursWinsorBBN.html"];Winsor [URL="girls3foursWinsorWinsor.html"];Winsor -> BBN[label="0.0 (0.0)
+digraph girls3foursWinsor {BBN [URL="girls3foursWinsorBBN.html"];Winsor [URL="girls3foursWinsorWinsor.html"];CambridgeRLS [URL="girls3foursWinsorCambridgeRLS.html"];NewtonCountryDay [URL="girls3foursWinsorNewtonCountryDay.html"];Winsor -> CambridgeRLS[label="9.0 (10.38)
+05/01", weight="91", tooltip="NEIRA Fours,NCDS, Winsor, CRLS			
+Distance: 1300 Conditions: Conditions remained the same through all races. Flat water, no wind. Comments: 5th boat race ran a shorter course due to novice coxswains and rowers (~1100m)
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C55D042DC8DE58BCD614F6CCB55D1228&cat=1", random="random"]; 
+Winsor -> NewtonCountryDay[label="16.0 (18.46)
+05/01", weight="84", tooltip="NEIRA Fours,NCDS, Winsor, CRLS			
+Distance: 1300 Conditions: Conditions remained the same through all races. Flat water, no wind. Comments: 5th boat race ran a shorter course due to novice coxswains and rowers (~1100m)
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C55D042DC8DE58BCD614F6CCB55D1228&cat=1", random="random"]; 
+Winsor -> BBN[label="0.0 (0.0)
 04/27", weight="100", tooltip="NEIRA,The Winsor School vs. BB&N			
 Distance: 1300 Conditions: Flat and equal conditions across all races. Steering in 3V race resulted in both crews finishing off the course with an indistinguishable margin (deemed a tie). 4V crews reversed lanes mid-race, potentially impacting margin but not finish order. 5th and 6th boats were composite to provide a race for all athletes. Thank you to BB&N for a fun race!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0A06BB5337D4EBAFB4A716F6CCD660BF&cat=1", random="random"]}

@@ -1,0 +1,42 @@
+{
+    "comment": "\nDistance: 1500 Conditions: Both races conducted with same conditions, moderate tail current Comments: All the races were floating starts and the times should not be compared.\n\nNone",
+    "day": "2024-05-01",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "3:57.6",
+                    "school": "Salisbury"
+                },
+                {
+                    "margin_from_winner": 8.0,
+                    "raw_time": "4:05.6",
+                    "school": "Glastonbury"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:15.15",
+                    "school": "Salisbury"
+                },
+                {
+                    "margin_from_winner": 15.15,
+                    "raw_time": "4:30.3",
+                    "school": "Glastonbury"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys Eights,Glastonbury High School vs. Salisbury",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=1D76E2C55B685887DE5F5F56885001A6&cat=1"
+}
