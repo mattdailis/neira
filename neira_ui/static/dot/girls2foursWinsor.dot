@@ -1,4 +1,4 @@
-digraph girls2foursWinsor {BBN [URL="girls2foursWinsorBBN.html"];Winsor [URL="girls2foursWinsorWinsor.html"];CambridgeRLS [URL="girls2foursWinsorCambridgeRLS.html"];NewtonCountryDay [URL="girls2foursWinsorNewtonCountryDay.html"];CambridgeRLS -> Winsor[label="6.0 (6.92)
+digraph girls2foursWinsor {CambridgeRLS [URL="girls2foursWinsorCambridgeRLS.html"];NewtonCountryDay [URL="girls2foursWinsorNewtonCountryDay.html"];Winsor [URL="girls2foursWinsorWinsor.html"];BBN [URL="girls2foursWinsorBBN.html"];CambridgeRLS -> Winsor[label="6.0 (6.92)
 05/01", weight="94", tooltip="NEIRA Fours,NCDS, Winsor, CRLS			
 Distance: 1300 Conditions: Conditions remained the same through all races. Flat water, no wind. Comments: 5th boat race ran a shorter course due to novice coxswains and rowers (~1100m)
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C55D042DC8DE58BCD614F6CCB55D1228&cat=1", random="random"]; 
