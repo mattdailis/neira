@@ -215,12 +215,9 @@ other_schools = {
     "Worcester Public",
 }
 
-all_schools = (
-    boys_eights.union(boys_fours)
-    .union(girls_eights)
-    .union(girls_fours)
-    .union(other_schools)
-)
+neira_schools = boys_eights.union(boys_fours).union(girls_eights).union(girls_fours)
+
+all_schools = neira_schools.union(other_schools)
 
 
 aliases = {
@@ -376,7 +373,7 @@ aliases = {
 # What about a boys 3 boat that still wants to be considered a 3rd boat, but races 2nd boats occasionally
 # should those races count? Towards what? Margins????
 def match_school(name, class_, gender):
-    relevant_schools = all_schools
+    relevant_schools = neira_schools
     if class_ == "eights":
         relevant_schools = relevant_schools.intersection(
             boys_eights.union(girls_eights)
