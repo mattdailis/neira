@@ -1,4 +1,4 @@
-digraph boys1foursEagleHill {Medford [URL="boys1foursEagleHillMedford.html"];EagleHill [URL="boys1foursEagleHillEagleHill.html"];WorcesterAcademy [URL="boys1foursEagleHillWorcesterAcademy.html"];MarianapolisPrep [URL="boys1foursEagleHillMarianapolisPrep.html"];StMarysLynn [URL="boys1foursEagleHillStMarysLynn.html"];Bancroft [URL="boys1foursEagleHillBancroft.html"];StMarysLynn -> EagleHill[label="7.0
+digraph boys1foursEagleHill {WorcesterAcademy [URL="boys1foursEagleHillWorcesterAcademy.html"];Bancroft [URL="boys1foursEagleHillBancroft.html"];StMarysLynn [URL="boys1foursEagleHillStMarysLynn.html"];MarianapolisPrep [URL="boys1foursEagleHillMarianapolisPrep.html"];EagleHill [URL="boys1foursEagleHillEagleHill.html"];Medford [URL="boys1foursEagleHillMedford.html"];StMarysLynn -> EagleHill[label="7.0
 05/01", weight="93", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
 Distance: 1500m Conditions: Very little chop
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 

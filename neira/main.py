@@ -1,23 +1,36 @@
+import warnings
+
+import neira.scraper.apply_corrections
+
+warnings.filterwarnings("ignore")
+
 import json
 import os
 
 import click
 
-from download import download_all
-from scrape import scrapeRegatta
+from neira.scraper.download import download_all
+from neira.scraper.scrape import scrapeRegatta
 
 from difflib import unified_diff
 
-import clean
+import neira.scraper.clean as clean
 
-import neiraschools
+import neira.scraper.neiraschools as neiraschools
+
+import neira.scraper.review
 
 
-@click.command()
+@click.group()
+def cli():
+    pass
+
+
+@cli.command()
 @click.argument("out")
 @click.option("--raw-cache", type=str)
 @click.option("--refresh/--use-cache")
-def main(out, raw_cache=None, refresh=False):
+def scrape(out, raw_cache=None, refresh=False):
     out_dir = out
     OVERWRITE = True
 
@@ -85,5 +98,21 @@ def read_from_cache(cache_dir):
         yield res
 
 
+@cli.command
+@click.argument("data_dir")
+def review(data_dir):
+    neira.scraper.review.review(data_dir)
+
+
+@cli.command()
+@click.argument("corrections_file")
+@click.argument("input_dir")
+@click.argument("output_dir")
+def apply_corrections(corrections_file, input_dir, output_dir):
+    neira.scraper.apply_corrections.apply_corrections(
+        corrections_file, input_dir, output_dir
+    )
+
+
 if __name__ == "__main__":
-    main()
+    cli()

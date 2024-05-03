@@ -1,11 +1,4 @@
 from bs4 import BeautifulSoup
-import datetime
-import re
-import json
-import os
-import requests
-
-import click
 
 
 def scrapeRegatta(name, html):

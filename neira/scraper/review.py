@@ -1,16 +1,11 @@
 import json
 import os
-import tempfile
 
-import click
 import editor
-
 
 import hashlib
 
 
-@click.command
-@click.argument("data_dir")
 def review(data_dir):
     with open("corrections.json", "r") as f:
         corrections = json.load(f)

@@ -1,5 +1,4 @@
 import datetime
-import json
 import os
 
 import numpy as np
@@ -7,7 +6,7 @@ from scipy.linalg import eig
 
 from associationList import Edge
 from associationList import getNodes
-from neiraschools import matched, unmatched
+from neira.data_provider import data_provider
 from toDot import viz
 
 import click
@@ -78,131 +77,8 @@ def main(data, out):
     del data
     del out
 
-    results = []
-    for filename in os.listdir(data_dir):
-        print("Processing", filename)
-        with open(os.path.join(data_dir, filename), "r") as f:
-            scraped_json = json.load(f)
-        day = scraped_json["day"]
-
-        date = datetime.datetime.strptime(day, "%Y-%m-%d")
-
-        heats = scraped_json["heats"]
-        regatta_display_name = scraped_json["regatta_display_name"]
-        comment = scraped_json["comment"]
-        url = scraped_json["url"]
-
-        try:
-            distance = int(
-                comment.split("Distance:")[1]
-                .split("Conditions")[0]
-                .strip()
-                .lower()
-                .rstrip(" meters")
-                .lstrip("approx. ")
-                .replace(",", "")
-            )
-        except Exception as e:
-            print(e)
-            distance = None
-
-        for heat in heats:
-            class_ = heat["class"]
-            gender = heat["gender"]
-            varsity_index = heat["varsity_index"]
-            heat_results = heat["results"]  # assume they're ordered?
-
-            # Ignore anything that isn't Girls Fours
-            # if gender != "girls":
-            #     continue
-
-            if class_ != "fours":
-                continue
-
-            boatName = gender + str(varsity_index) + class_
-
-            # take only fastest result by a given school
-            new_heat_results = []
-            seen_schools = set()
-            for entry in heat_results:
-                school = entry["school"]
-                if school not in seen_schools:
-                    seen_schools.add(school)
-                    new_heat_results.append(entry)
-                else:
-                    continue
-            heat_results = new_heat_results
-            del new_heat_results
-            del entry
-            del school
-
-            for fasterBoat, slowerBoat in all_pairs(heat_results):
-                if (
-                    slowerBoat["margin_from_winner"] is not None
-                    and fasterBoat["margin_from_winner"] is not None
-                ):
-                    margin = round(
-                        slowerBoat["margin_from_winner"]
-                        - fasterBoat["margin_from_winner"],
-                        1,
-                    )
-                else:
-                    margin = None
-                if distance == 1500:
-                    adjusted_margin = None
-                else:
-                    adjusted_margin = (
-                        round((1500.0 / distance) * margin, 2)
-                        if distance is not None and margin is not None
-                        else None
-                    )
-                fasterSchool, fasterSchoolBoatNum = fasterBoat["school"], varsity_index
-                slowerSchool, slowerSchoolBoatNum = slowerBoat["school"], varsity_index
-                if fasterSchool is None:
-                    # This means one of the schools was not recognized as a neira school
-                    print(fasterBoat["school"], "was not recognized as a neira school")
-                    continue
-                if slowerSchool is None:
-                    print(slowerBoat["school"], "was not recognized as a neira school")
-                    continue
-                if fasterSchool == slowerSchool:
-                    continue
-                if fasterSchoolBoatNum != slowerSchoolBoatNum:
-                    continue
-                fasterSchoolName = fasterSchool
-                if fasterSchoolBoatNum != varsity_index:
-                    continue  # ignore any boats that aren't in the right heat
-                slowerSchoolName = slowerSchool
-                if slowerSchoolBoatNum != varsity_index:
-                    continue  # ignore any boats that aren't in the right heat
-                results.append(
-                    (
-                        date.strftime("%Y-%m-%d"),
-                        gender,
-                        boatName,
-                        fasterSchoolName,
-                        varsity_index,
-                        slowerSchoolName,
-                        varsity_index,
-                        margin,
-                        adjusted_margin,
-                        regatta_display_name,
-                        comment,
-                        url,
-                    )
-                )
-
-    with open("schoolslog.txt", "w") as f:
-        print("Matches:", file=f)
-        for name, school in sorted(matched, key=lambda x: x[1]):
-            print(f"{school} {name}", file=f)
-        print("-" * 25)
-        print("Could not be matched:", file=f)
-        for name in sorted(unmatched):
-            print(name, file=f)
-
+    results = data_provider.get(data_dir, class_="fours")
     orders = {}
-    nodes = {}
 
     for row in results:
         (
@@ -278,12 +154,6 @@ def main(data, out):
         with open(os.path.join(out_dir, boat + ".csv"), "w") as f:
             for row in gen_matrix(orders[boat], None):
                 print(",".join(map(str, row)), file=f)
-
-            # print()
-
-            # print("All pairs weights:")
-
-            # for left, right, weight in all_pairs_weights(edges):
 
 
 def all_pairs_weights(edges):
@@ -450,12 +320,6 @@ def get_next_set(edges, get_first, get_second):
         all_nodes.add(get_second(edge))
         has_incoming.add(get_second(edge))
     return all_nodes.difference(has_incoming)
-
-
-def all_pairs(my_list):
-    for i in range(len(my_list) - 1):
-        for j in range(i + 1, len(my_list)):
-            yield my_list[i], my_list[j]
 
 
 school_list = [

@@ -11,7 +11,7 @@ This is a project to help coaches and rowers keep track of how their school is d
 
 # Installation process
 1. Make a virtualenv
-2. In that environment, pip install -r requirements.txt
+2. In that environment, pip install -e .
 3. cd neira_ui
 4. npm install
 
@@ -26,9 +26,9 @@ Data is updated following this process:
 Here are the commands needed for the above process. See the Corrections documentation for help with the review process.
 
 ```bash
-python neira/scraper/main.py data/1_cleaned --raw-cache=data/0_raw --refresh
-python neira/scraper/review.py data/1_cleaned
-python neira/scraper/apply_corrections.py corrections.json data/1_cleaned data/2_reviewed
+neira scrape data/1_cleaned --raw-cache=data/0_raw
+neira review data/1_cleaned 
+neira apply-corrections corrections.json data/1_cleaned data/2_reviewed
 
 python neira/dot/read.py data/2_reviewed neira_ui/static/dot
 
@@ -102,8 +102,8 @@ Example:
 This website is hosted on GitHub Pages. GitHub Pages allows for two options for hosting: dedicate a branch to be the hosted branch, or host from the `docs` folder of your main branch. This website is hosted from the `docs` folder.
 
 # Architecture
-- `neira_scrape`: a python package responsible for downloading data from row2k and cleaning it
-- `neira_dot`: python program that generates graphviz visualizations based on downloaded data
+- `neira/scrape`: a python package responsible for downloading data from row2k and cleaning it
+- `neira/dot`: python program that generates graphviz visualizations based on downloaded data
 - `neira_ui`: user interface code, using svelte framework
 
 # Glossary

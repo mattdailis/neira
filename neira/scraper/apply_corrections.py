@@ -1,12 +1,7 @@
 import json
 import os
-import click
 
 
-@click.command()
-@click.argument("corrections_file")
-@click.argument("input_dir")
-@click.argument("output_dir")
 def apply_corrections(corrections_file, input_dir, output_dir):
     with open(corrections_file, "r") as f:
         all_corrections = json.load(f)

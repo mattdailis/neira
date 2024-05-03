@@ -10,7 +10,7 @@ import datetime
 
 from os.path import basename, splitext
 
-from neiraschools import match_school
+from neira.scraper.neiraschools import match_school
 
 
 def clean(scraped):

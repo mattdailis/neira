@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "neira"
+version = "0.0.1"
+authors = [
+  { name="Matt Dailis", email="" },
+]
+description = "Tools for analyzing NEIRA data from row2k"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://mattdailis.github.io/neira"
+Issues = "https://github.com/mattdailis/neira/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["neira"]
+
+[project.scripts]
+neira = "neira.main:cli"
