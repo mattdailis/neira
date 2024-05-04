@@ -1,4 +1,4 @@
-digraph girls3foursMiddlesex {StMarks [URL="girls3foursMiddlesexStMarks.html"];Brooks [URL="girls3foursMiddlesexBrooks.html"];CambridgeRLS [URL="girls3foursMiddlesexCambridgeRLS.html"];Middlesex [URL="girls3foursMiddlesexMiddlesex.html"];NMH [URL="girls3foursMiddlesexNMH.html"];StMarks -> Middlesex[label="_
+digraph girls3foursMiddlesex {CambridgeRLS [URL="girls3foursMiddlesexCambridgeRLS.html"];NewtonCountryDay [URL="girls3foursMiddlesexNewtonCountryDay.html"];Brooks [URL="girls3foursMiddlesexBrooks.html"];NMH [URL="girls3foursMiddlesexNMH.html"];StMarks [URL="girls3foursMiddlesexStMarks.html"];Middlesex [URL="girls3foursMiddlesexMiddlesex.html"];BBN [URL="girls3foursMiddlesexBBN.html"];StMarks -> Middlesex[label="_
 04/20", weight="99", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 
@@ -6,6 +6,14 @@ Middlesex -> Brooks[label="_
 04/20", weight="99", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 
+BBN -> Middlesex[label="2.6 (2.89)
+05/04", weight="98", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
+Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
+Middlesex -> NewtonCountryDay[label="12.9 (14.33)
+05/04", weight="88", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
+Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
 CambridgeRLS -> Middlesex[label="14.9
 04/27", weight="86", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
 Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.

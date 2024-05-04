@@ -1,4 +1,4 @@
-digraph girls1foursNewtonCountryDay {StMarks [URL="girls1foursNewtonCountryDayStMarks.html"];BrewsterAcademy [URL="girls1foursNewtonCountryDayBrewsterAcademy.html"];CambridgeRLS [URL="girls1foursNewtonCountryDayCambridgeRLS.html"];Nobles [URL="girls1foursNewtonCountryDayNobles.html"];Winsor [URL="girls1foursNewtonCountryDayWinsor.html"];StMaryAcademyBayView [URL="girls1foursNewtonCountryDayStMaryAcademyBayView.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDayNewtonCountryDay.html"];Lincoln [URL="girls1foursNewtonCountryDayLincoln.html"];NewtonCountryDay -> Lincoln[label="17.0 (19.62)
+digraph girls1foursNewtonCountryDay {BrewsterAcademy [URL="girls1foursNewtonCountryDayBrewsterAcademy.html"];CambridgeRLS [URL="girls1foursNewtonCountryDayCambridgeRLS.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDayNewtonCountryDay.html"];Lincoln [URL="girls1foursNewtonCountryDayLincoln.html"];Winsor [URL="girls1foursNewtonCountryDayWinsor.html"];StMarks [URL="girls1foursNewtonCountryDayStMarks.html"];StMaryAcademyBayView [URL="girls1foursNewtonCountryDayStMaryAcademyBayView.html"];Middlesex [URL="girls1foursNewtonCountryDayMiddlesex.html"];Nobles [URL="girls1foursNewtonCountryDayNobles.html"];BBN [URL="girls1foursNewtonCountryDayBBN.html"];NewtonCountryDay -> Lincoln[label="17.0 (19.62)
 04/20", weight="83", tooltip="NEIRA Girls Fours,Newton Country Day, St. Mary Academy-Bayview, Lincoln School			
 Distance: 1300 Conditions: Conditions the same for all races. Flat, no wind, no chop. Comments: Lincoln 2V4+ had a breakage and could not finish initial race with NCDS and Bayview so raced afterwards against the NCDS 3V4+ and 4V4+.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1541F9124E2FBBF81B1F9CADE55D186&cat=1", random="random"]; 
@@ -6,6 +6,14 @@ NewtonCountryDay -> StMaryAcademyBayView[label="21.0 (24.23)
 04/20", weight="79", tooltip="NEIRA Girls Fours,Newton Country Day, St. Mary Academy-Bayview, Lincoln School			
 Distance: 1300 Conditions: Conditions the same for all races. Flat, no wind, no chop. Comments: Lincoln 2V4+ had a breakage and could not finish initial race with NCDS and Bayview so raced afterwards against the NCDS 3V4+ and 4V4+.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1541F9124E2FBBF81B1F9CADE55D186&cat=1", random="random"]; 
+BBN -> NewtonCountryDay[label="36.5 (40.56)
+05/04", weight="64", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
+Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
+Middlesex -> NewtonCountryDay[label="34.6 (38.44)
+05/04", weight="66", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
+Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
 CambridgeRLS -> NewtonCountryDay[label="25.0 (28.85)
 05/01", weight="75", tooltip="NEIRA Fours,NCDS, Winsor, CRLS			
 Distance: 1300 Conditions: Conditions remained the same through all races. Flat water, no wind. Comments: 5th boat race ran a shorter course due to novice coxswains and rowers (~1100m)

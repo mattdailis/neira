@@ -1,4 +1,8 @@
 {
+    "00841B9320232058185E0FBD16468B00": {
+        "checksum": "804284200865e796a5ee24ec21370587",
+        "corrections": []
+    },
     "00FD5442533029F3F8C5DFD9A3F09907": {
         "checksum": "17129ba25b0d0c4e379b1b20e646a3ab",
         "corrections": []
@@ -298,6 +302,19 @@
         "checksum": "b9fc57a6198e73f55f2dacaee4aecf7e",
         "corrections": []
     },
+    "8FA4B72699D2163ED86519848FFC5337": {
+        "checksum": "3577a763babb7831be009d98fd3939b2",
+        "corrections": [
+            {
+                "gender": "girls",
+                "type": "set_gender_all_heats"
+            },
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            }
+        ]
+    },
     "947B7F9F873E76F39BBF493ADD420814": {
         "checksum": "e6883df16cce129d8c4e6f166551343c",
         "corrections": []
@@ -430,6 +447,10 @@
                 "type": "comment"
             }
         ]
+    },
+    "C38D2219403C5AD1A2866DA2111E888A": {
+        "checksum": "ee7ed8e47fb92662b932be526311e9d7",
+        "corrections": []
     },
     "C55D042DC8DE58BCD614F6CCB55D1228": {
         "checksum": "479f975c26b908cfcdcf238c178f11a2",

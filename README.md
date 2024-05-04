@@ -32,6 +32,8 @@ neira apply-corrections
 
 neira dot data/2_reviewed neira_ui/static/dot
 
+neira head-to-head neira_ui/static/tables
+
 cd neira_ui
 npm run build
 cd ..

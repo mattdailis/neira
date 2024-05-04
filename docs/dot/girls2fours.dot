@@ -1,4 +1,4 @@
-digraph girls2fours {GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];CambridgeRLS [URL="girls2foursCambridgeRLS.html"];Winsor [URL="girls2foursWinsor.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];Middletown [URL="girls2foursMiddletown.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];NMH [URL="girls2foursNMH.html"];Derryfield [URL="girls2foursDerryfield.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademy.html"];MissPorters [URL="girls2foursMissPorters.html"];Canterbury [URL="girls2foursCanterbury.html"];Groton [URL="girls2foursGroton.html"];GreenwichCountryDay [URL="girls2foursGreenwichCountryDay.html"];Lincoln [URL="girls2foursLincoln.html"];Pomfret [URL="girls2foursPomfret.html"];StMarks [URL="girls2foursStMarks.html"];EagleHill [URL="girls2foursEagleHill.html"];ValleyRegional [URL="girls2foursValleyRegional.html"];Middlesex [URL="girls2foursMiddlesex.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDay.html"];StMaryAcademyBayView [URL="girls2foursStMaryAcademyBayView.html"];StMarysLynn [URL="girls2foursStMarysLynn.html"];Choate [URL="girls2foursChoate.html"];Nobles [URL="girls2foursNobles.html"];Hopkins [URL="girls2foursHopkins.html"];Taft [URL="girls2foursTaft.html"];Brooks [URL="girls2foursBrooks.html"];BBN [URL="girls2foursBBN.html"];MarianapolisPrep [URL="girls2foursMarianapolisPrep.html"];WorcesterAcademy [URL="girls2foursWorcesterAcademy.html"];NMH -> Hopkins[label="16.2
+digraph girls2fours {StMarysLynn [URL="girls2foursStMarysLynn.html"];Derryfield [URL="girls2foursDerryfield.html"];Choate [URL="girls2foursChoate.html"];StMaryAcademyBayView [URL="girls2foursStMaryAcademyBayView.html"];EagleHill [URL="girls2foursEagleHill.html"];BBN [URL="girls2foursBBN.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDay.html"];Pomfret [URL="girls2foursPomfret.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];CambridgeRLS [URL="girls2foursCambridgeRLS.html"];Groton [URL="girls2foursGroton.html"];Middletown [URL="girls2foursMiddletown.html"];Winsor [URL="girls2foursWinsor.html"];MissPorters [URL="girls2foursMissPorters.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademy.html"];WorcesterAcademy [URL="girls2foursWorcesterAcademy.html"];NMH [URL="girls2foursNMH.html"];Taft [URL="girls2foursTaft.html"];MarianapolisPrep [URL="girls2foursMarianapolisPrep.html"];StMarks [URL="girls2foursStMarks.html"];Canterbury [URL="girls2foursCanterbury.html"];Nobles [URL="girls2foursNobles.html"];Brooks [URL="girls2foursBrooks.html"];Lincoln [URL="girls2foursLincoln.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];ValleyRegional [URL="girls2foursValleyRegional.html"];Middlesex [URL="girls2foursMiddlesex.html"];GreenwichCountryDay [URL="girls2foursGreenwichCountryDay.html"];Hopkins [URL="girls2foursHopkins.html"];NMH -> Hopkins[label="16.2
 04/20", weight="84", tooltip="NEIRA Girls Fours,Pomfret vs. NMH, Hopkins			
 Distance: 1500m Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout, with a slight tailwind developing in the last race. No current. Comments: Race order: G3, G2, G1, G4/5. Thanks to NMH and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=00FD5442533029F3F8C5DFD9A3F09907&cat=1", random="random"]; 
@@ -40,6 +40,18 @@ Distance: 1500 Conditions: It was a partly cloudy day when all three crews got o
 Lyme/Old Lyme would like thank Middletown and Mills for coming out to race on our lake. We are always excited to have teams come and visit and enjoy our facility with us.
 Thank you for a great day of racing and we look forward to seeing you all again soon!!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B21A566F53808695C158764AE049824A&cat=5", random="random"]; 
+BBN -> Middlesex[label="3.7 (4.11)
+05/04", weight="97", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
+Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
+BBN -> NewtonCountryDay[label="11.8 (13.11)
+05/04", weight="89", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
+Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
+Middlesex -> NewtonCountryDay[label="8.1 (9.0)
+05/04", weight="92", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
+Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
 LymeOldLyme -> ValleyRegional[label="32.4
 04/24", weight="68", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Valley			
 Distance: 1500 Conditions: 4 MPH head wind, ending at a 6mph headwind by the last race (G2V4) Comments: Lyme Old Lyme raced 3 boys varsity 4s but only the 1V4 was against a NEIRA program.
@@ -124,6 +136,10 @@ Hopkins -> GreenwichCountryDay[label="20.2 (24.24)
 04/11", weight="80", tooltip="NEIRA,GCDS vs Hopkins			
 Distance: 1250m Conditions: head current increased
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3F962587F5195CAC9807287404512E2B&cat=5", random="random"]; 
+GreenwichAcademy -> GreenwichCountryDay[label="9.4 (11.28)
+05/04", weight="91", tooltip="NEIRA Girls Fours, Greenwich Academy vs. Greenwich Country Day School			
+Distance: 1250m Conditions: 1V race saw a light tailwind shifting to a cross tail in the final 500m. For the 2V, winds stayed directionally consistent, but picked up slightly in intensity. Clear skies, and aside from some mildly inconvenient wakes in the first race, smooth waters. Comments: Thanks to GCDS for helping organize and run a great race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=00841B9320232058185E0FBD16468B00&cat=1", random="random"]; 
 Nobles -> Groton[label="1.0 (1.11)
 04/20", weight="99", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.

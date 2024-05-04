@@ -74,7 +74,7 @@ def main(data, out):
     del data
     del out
 
-    results = data_provider.get(data_dir, class_="fours")
+    results = data_provider.get_head_to_head(data_dir, class_="fours")
     orders = {}
 
     for row in results:

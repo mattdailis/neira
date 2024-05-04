@@ -1,65 +1,99 @@
 <script>
-	import { base } from "$app/paths";
+	import { base } from '$app/paths';
 </script>
-    <div class="w3-row-padding w3-margin-bottom">
-        <div class="w3-col s9">
-        <h3>Girls Fours</h3>
-        <a href="{base}/dot/girls1fours.html">First Boat</a> (<a href="{base}/dot/girls1fours_topo.txt">topo</a>)<br>
-        <a href="{base}/dot/girls2fours.html">Second Boat</a> (<a href="{base}/dot/girls2fours_topo.txt">topo</a>)<br>
-        <a href="{base}/dot/girls3fours.html">Third Boat</a> (<a href="{base}/dot/girls3fours_topo.txt">topo</a>)<br>
-        <a href="{base}/dot/girls4fours.html">Fourth Boat</a> (<a href="{base}/dot/girls4fours_topo.txt">topo</a>)<br>
-        <a href="{base}/dot/girls5fours.html">Fifth Boat</a> (<a href="{base}/dot/girls5fours_topo.txt">topo</a>)<br>
-        <a href="{base}/dot/girls6fours.html">Sixth Boat</a> (<a href="{base}/dot/girls6fours_topo.txt">topo</a>)<br>
-        </div>
-    </div>
-    
-    <div class="w3-row-padding w3-margin-bottom">
-      <div class="w3-col s9">
-      <h3>Boys Fours</h3>
-      <a href="{base}/dot/boys1fours.html">First Boat</a> (<a href="{base}/dot/boys1fours_topo.txt">topo</a>)<br>
-      <a href="{base}/dot/boys2fours.html">Second Boat</a> (<a href="{base}/dot/boys2fours_topo.txt">topo</a>)<br>
-      <a href="{base}/dot/boys3fours.html">Third Boat</a> (<a href="{base}/dot/boys3fours_topo.txt">topo</a>)<br>
-      <a href="{base}/dot/boys4fours.html">Fourth Boat</a> (<a href="{base}/dot/boys4fours_topo.txt">topo</a>)<br>
-      <a href="{base}/dot/boys5fours.html">Fifth Boat</a> (<a href="{base}/dot/boys5fours_topo.txt">topo</a>)<br>
-      <a href="{base}/dot/boys6fours.html">Sixth Boat</a> (<a href="{base}/dot/boys6fours_topo.txt">topo</a>)<br>
-      </div>
-  </div>
 
-  <hr>
-
-  <div class="w3-row-padding w3-margin-bottom">
-    <div class="w3-col s9">
-    <h5>Table pages [experimental]</h5>
-    <a href="{base}/ranking/fours/girls/1">Girls First Boat</a><br>
-    </div>
+<div class="w3-row-padding w3-margin-bottom">
+	<div class="w3-col s9">
+		<h3>Girls Fours</h3>
+		<a href="{base}/dot/girls1fours.html">First Boat</a> (<a href="{base}/dot/girls1fours_topo.txt"
+			>topo</a
+		>)<br />
+		<a href="{base}/dot/girls2fours.html">Second Boat</a> (<a href="{base}/dot/girls2fours_topo.txt"
+			>topo</a
+		>)<br />
+		<a href="{base}/dot/girls3fours.html">Third Boat</a> (<a href="{base}/dot/girls3fours_topo.txt"
+			>topo</a
+		>)<br />
+		<a href="{base}/dot/girls4fours.html">Fourth Boat</a> (<a href="{base}/dot/girls4fours_topo.txt"
+			>topo</a
+		>)<br />
+		<a href="{base}/dot/girls5fours.html">Fifth Boat</a> (<a href="{base}/dot/girls5fours_topo.txt"
+			>topo</a
+		>)<br />
+		<a href="{base}/dot/girls6fours.html">Sixth Boat</a> (<a href="{base}/dot/girls6fours_topo.txt"
+			>topo</a
+		>)<br />
+		<br />
+		<a href="{base}/tables/fours-girls.html">Girls Fours Sheet</a>
+	</div>
 </div>
 
-    <div class="w3-row-padding w3-margin-bottom">
-        <div class="w3-col s9">
-        <h3>About</h3>
-        <h4>Purpose and target audience</h4>
-        <p>The purpose of this website is to visualize data from row2k to help
-            the NEIRA seeding committee do their job. At this time, it is specifically intended for use
-            by the NEIRA Girls Fours seeding committee, but if there is sufficient interest it can be expanded to
-            support other NEIRA committees, coaches, and rowers.
-        </p>
+<div class="w3-row-padding w3-margin-bottom">
+	<div class="w3-col s9">
+		<h3>Boys Fours</h3>
+		<a href="{base}/dot/boys1fours.html">First Boat</a> (<a href="{base}/dot/boys1fours_topo.txt"
+			>topo</a
+		>)<br />
+		<a href="{base}/dot/boys2fours.html">Second Boat</a> (<a href="{base}/dot/boys2fours_topo.txt"
+			>topo</a
+		>)<br />
+		<a href="{base}/dot/boys3fours.html">Third Boat</a> (<a href="{base}/dot/boys3fours_topo.txt"
+			>topo</a
+		>)<br />
+		<a href="{base}/dot/boys4fours.html">Fourth Boat</a> (<a href="{base}/dot/boys4fours_topo.txt"
+			>topo</a
+		>)<br />
+		<a href="{base}/dot/boys5fours.html">Fifth Boat</a> (<a href="{base}/dot/boys5fours_topo.txt"
+			>topo</a
+		>)<br />
+		<a href="{base}/dot/boys6fours.html">Sixth Boat</a> (<a href="{base}/dot/boys6fours_topo.txt"
+			>topo</a
+		>)<br />
+	</div>
+</div>
 
-        <h4>Data sources</h4>
-        <p>
-            All data presented here comes from 
-            <a href="https://www.row2k.com/results/index.cfm?league=NEIRA&year=2024">https://www.row2k.com/results/index.cfm?league=NEIRA&year=2024</a>.
-            Any mistakes found in the data should be corrected on the row2k website, since that is the authoritative source of information.
-        </p>
-        <p>If you find that row2k is correct, but this site is wrong, please let us know by opening an <a href="https://github.com/mattdailis/neira/issues/new">issue</a>.</p>
-    </div>
-    </div>
+<hr />
 
-  <!-- Header -->
-  <!-- <header class="w3-container" style="padding-top:22px">
+<div class="w3-row-padding w3-margin-bottom">
+	<div class="w3-col s9">
+		<h5>Table pages [experimental]</h5>
+		<a href="{base}/ranking/fours/girls/1">Girls First Boat</a><br />
+	</div>
+</div>
+
+<div class="w3-row-padding w3-margin-bottom">
+	<div class="w3-col s9">
+		<h3>About</h3>
+		<h4>Purpose and target audience</h4>
+		<p>
+			The purpose of this website is to visualize data from row2k to help the NEIRA seeding
+			committee do their job. At this time, it is specifically intended for use by the NEIRA Girls
+			Fours seeding committee, but if there is sufficient interest it can be expanded to support
+			other NEIRA committees, coaches, and rowers.
+		</p>
+
+		<h4>Data sources</h4>
+		<p>
+			All data presented here comes from
+			<a href="https://www.row2k.com/results/index.cfm?league=NEIRA&year=2024"
+				>https://www.row2k.com/results/index.cfm?league=NEIRA&year=2024</a
+			>. Any mistakes found in the data should be corrected on the row2k website, since that is the
+			authoritative source of information.
+		</p>
+		<p>
+			If you find that row2k is correct, but this site is wrong, please let us know by opening an <a
+				href="https://github.com/mattdailis/neira/issues/new">issue</a
+			>.
+		</p>
+	</div>
+</div>
+
+<!-- Header -->
+<!-- <header class="w3-container" style="padding-top:22px">
     <h5><b><i class="fa fa-dashboard"></i> My Dashboard</b></h5>
   </header> -->
 
-  <!-- <div class="w3-row-padding w3-margin-bottom">
+<!-- <div class="w3-row-padding w3-margin-bottom">
     <div class="w3-quarter">
       <div class="w3-container w3-red w3-padding-16">
         <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
@@ -102,7 +136,7 @@
     </div>
   </div> -->
 
-  <!-- <div class="w3-panel">
+<!-- <div class="w3-panel">
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-third">
         <h5>Regions</h5>
@@ -150,8 +184,8 @@
       </div>
     </div>
   </div> -->
-  <hr>
-  <!-- <div class="w3-container">
+<hr />
+<!-- <div class="w3-container">
     <h5>General Stats</h5>
     <p>New Visitors</p>
     <div class="w3-grey">
@@ -168,9 +202,9 @@
       <div class="w3-container w3-center w3-padding w3-red" style="width:75%">75%</div>
     </div>
   </div> -->
-  <hr>
+<hr />
 
-  <!-- <div class="w3-container">
+<!-- <div class="w3-container">
     <h5>Countries</h5>
     <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
       <tr>
@@ -200,9 +234,9 @@
     </table><br>
     <button class="w3-button w3-dark-grey">More Countries  <i class="fa fa-arrow-right"></i></button>
   </div> -->
-  <hr>
+<hr />
 
-  <!-- <div class="w3-container">
+<!-- <div class="w3-container">
     <h5>Recent Comments</h5>
     <div class="w3-row">
       <div class="w3-col m2 text-center">
@@ -224,8 +258,8 @@
       </div>
     </div>
   </div> -->
-  <br>
-  <!-- <div class="w3-container w3-dark-grey w3-padding-32">
+<br />
+<!-- <div class="w3-container w3-dark-grey w3-padding-32">
     <div class="w3-row">
       <div class="w3-container w3-third">
         <h5 class="w3-bottombar w3-border-green">Demographic</h5>
@@ -249,10 +283,10 @@
     </div>
   </div> -->
 
-  <!-- Footer -->
-  <!-- <footer class="w3-container w3-padding-16 w3-light-grey">
+<!-- Footer -->
+<!-- <footer class="w3-container w3-padding-16 w3-light-grey">
     <h4>FOOTER</h4>
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
   </footer> -->
 
-  <!-- End page content -->
+<!-- End page content -->

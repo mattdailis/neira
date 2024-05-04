@@ -1,6 +1,8 @@
 import pprint
 import warnings
 
+import neira.head_to_head
+import neira.head_to_head.head_to_head
 import neira.scraper.apply_corrections
 import neira.dot.read
 
@@ -132,6 +134,12 @@ def apply_corrections():  # corrections_file, input_dir, output_dir):
 @click.argument("out")
 def dot(data, out):
     neira.dot.read.main(data, out)
+
+
+@cli.command()
+@click.argument("html_dir")
+def head_to_head(html_dir):
+    neira.head_to_head.head_to_head.head_to_head(CONFIG["reviewed_dir"], html_dir)
 
 
 if __name__ == "__main__":

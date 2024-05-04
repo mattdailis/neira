@@ -1,0 +1,42 @@
+{
+    "comment": "\nDistance: 1250m Conditions: 1V race saw a light tailwind shifting to a cross tail in the final 500m. For the 2V, winds stayed directionally consistent, but picked up slightly in intensity. Clear skies, and aside from some mildly inconvenient wakes in the first race, smooth waters. Comments: Thanks to GCDS for helping organize and run a great race.\n\nNone",
+    "day": "2024-05-04",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:48.7",
+                    "school": "Greenwich Academy"
+                },
+                {
+                    "margin_from_winner": 24.2,
+                    "raw_time": "5:12.9",
+                    "school": "Greenwich Country Day"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:48.9",
+                    "school": "Greenwich Academy"
+                },
+                {
+                    "margin_from_winner": 9.4,
+                    "raw_time": "4:58.3",
+                    "school": "Greenwich Country Day"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA Girls Fours, Greenwich Academy vs. Greenwich Country Day School",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=00841B9320232058185E0FBD16468B00&cat=1"
+}

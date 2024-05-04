@@ -1,4 +1,12 @@
-digraph girls3foursNewtonCountryDay {StMarks [URL="girls3foursNewtonCountryDayStMarks.html"];CambridgeRLS [URL="girls3foursNewtonCountryDayCambridgeRLS.html"];Winsor [URL="girls3foursNewtonCountryDayWinsor.html"];NewtonCountryDay [URL="girls3foursNewtonCountryDayNewtonCountryDay.html"];Nobles [URL="girls3foursNewtonCountryDayNobles.html"];Winsor -> NewtonCountryDay[label="16.0 (18.46)
+digraph girls3foursNewtonCountryDay {CambridgeRLS [URL="girls3foursNewtonCountryDayCambridgeRLS.html"];NewtonCountryDay [URL="girls3foursNewtonCountryDayNewtonCountryDay.html"];Winsor [URL="girls3foursNewtonCountryDayWinsor.html"];StMarks [URL="girls3foursNewtonCountryDayStMarks.html"];Middlesex [URL="girls3foursNewtonCountryDayMiddlesex.html"];Nobles [URL="girls3foursNewtonCountryDayNobles.html"];BBN [URL="girls3foursNewtonCountryDayBBN.html"];BBN -> NewtonCountryDay[label="15.5 (17.22)
+05/04", weight="85", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
+Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
+Middlesex -> NewtonCountryDay[label="12.9 (14.33)
+05/04", weight="88", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
+Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
+Winsor -> NewtonCountryDay[label="16.0 (18.46)
 05/01", weight="84", tooltip="NEIRA Fours,NCDS, Winsor, CRLS			
 Distance: 1300 Conditions: Conditions remained the same through all races. Flat water, no wind. Comments: 5th boat race ran a shorter course due to novice coxswains and rowers (~1100m)
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C55D042DC8DE58BCD614F6CCB55D1228&cat=1", random="random"]; 

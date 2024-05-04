@@ -1,7 +1,7 @@
-{'Winsor', 'Nobles', 'Choate'}
+{'Choate', 'Nobles', 'Winsor'}
 {'BB&N', 'NMH'}
-{'Groton', "St. Mark's"}
+{"St. Mark's", 'Groton'}
 {'Pomfret'}
-Cycle detected: {'Brooks', 'Middlesex'}
+Cycle detected: {'Middlesex', 'Brooks'}
 {'Cambridge RLS'}
 {'Newton Country Day'}

@@ -1,9 +1,40 @@
+from collections import namedtuple
 import datetime
 import json
 import os
+from typing import List
 
 
-def get(data_dir, class_=None, gender=None):
+Datum = namedtuple(
+    "Datum",
+    "date gender boatName faster_boat faster_varsity_index slower_boat slower_varsity_index margin adjusted_margin regatta_display_name comment url",
+)
+
+
+def get(data_dir):
+    all_heats = {}  # key: "class-gender-varsity_index"
+    for class_ in ("eights", "fours"):
+        for gender in ("girls", "boys"):
+            for varsity_index in ("1", "2", "3", "4", "5", "6"):
+                all_heats["-".join((class_, gender, varsity_index))] = []
+    for filename in os.listdir(data_dir):
+        with open(os.path.join(data_dir, filename), "r") as f:
+            scraped_json = json.load(f)
+
+        heats = scraped_json["heats"]
+        for heat in heats:
+            heat["url"] = scraped_json["url"]
+            heat["regatta_display_name"] = scraped_json["regatta_display_name"]
+            heat["comment"] = scraped_json["comment"]
+            heat["date"] = scraped_json["day"]
+            all_heats[
+                "-".join((heat["class"], heat["gender"], heat["varsity_index"]))
+            ].append(heat)
+
+    return all_heats
+
+
+def get_head_to_head(data_dir, class_=None, gender=None) -> List[Datum]:
     filter_class = class_
     filter_gender = gender
     del class_, gender
@@ -85,7 +116,7 @@ def get(data_dir, class_=None, gender=None):
                     )
 
                 results.append(
-                    (
+                    Datum(
                         date.strftime("%Y-%m-%d"),
                         gender,
                         boatName,
