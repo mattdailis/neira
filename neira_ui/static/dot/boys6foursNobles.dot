@@ -1,4 +1,4 @@
-digraph boys6foursNobles {BelmontHill [URL="boys6foursNoblesBelmontHill.html"];BBN [URL="boys6foursNoblesBBN.html"];Nobles [URL="boys6foursNoblesNobles.html"];Nobles -> BelmontHill[label="1.1 (1.27)
+digraph boys6foursNobles {BelmontHill [URL="boys6foursNoblesBelmontHill.html"];Nobles [URL="boys6foursNoblesNobles.html"];BBN [URL="boys6foursNoblesBBN.html"];Nobles -> BelmontHill[label="1.1 (1.27)
 05/04", weight="99", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&cat=1", random="random"]; 

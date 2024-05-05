@@ -53,6 +53,25 @@
             {
                 "comment": "girls 3 race has deltas",
                 "type": "comment"
+            },
+            {
+                "comment": "Assuming that margins are all from the winner, and not between boats...?",
+                "heat": "girls 3",
+                "margins": [
+                    {
+                        "margin_from_winner": 0,
+                        "school": "St. Mark's"
+                    },
+                    {
+                        "margin_from_winner": 1.3,
+                        "school": "Middlesex"
+                    },
+                    {
+                        "margin_from_winner": 6.5,
+                        "school": "Brooks"
+                    }
+                ],
+                "type": "set_margins"
             }
         ]
     },
@@ -229,11 +248,11 @@
                 "type": "comment"
             },
             {
-                "type": "exclude_schools_from_heat",
                 "heat": "girls 3",
                 "schools": [
                     "Stonington"
-                ]
+                ],
+                "type": "exclude_schools_from_heat"
             }
         ]
     },
@@ -406,7 +425,7 @@
         "checksum": "a6653170109baee198c1546d1a2a3869",
         "corrections": [
             {
-                "comment": "definitely revisit boys 6. The automation cieaned it correctly, I think, but it still violates some assumptions.",
+                "comment": "definitely revisit boys 6. The automation cleaned it correctly, I think, but it still violates some assumptions.",
                 "type": "comment"
             }
         ]
@@ -484,6 +503,13 @@
             {
                 "comment": "Revisit comment - it says Lincoln 2V4 didn't finish, but they have a time: 7:05",
                 "type": "comment"
+            },
+            {
+                "heat": "girls 2",
+                "schools": [
+                    "Lincoln"
+                ],
+                "type": "exclude_schools_from_heat"
             }
         ]
     },
@@ -537,6 +563,10 @@
                 "type": "set_class_all_heats"
             }
         ]
+    },
+    "D6D52D54154A8C5187F60A8C03258D60": {
+        "checksum": "373cca0fbf77e5b3ef96e665fa2b9243",
+        "corrections": []
     },
     "DA7A1EFD458CB4B765258C3FD9635963": {
         "checksum": "d9a3d73141ee6f302282f79373075b1d",
@@ -594,6 +624,11 @@
             {
                 "comment": "Marianapolis boys 2 raced in boys 3",
                 "type": "comment"
+            },
+            {
+                "heat": "boys 3",
+                "schools": "Marianapolis Prep",
+                "type": "exclude_schools_from_heat"
             }
         ]
     },
@@ -610,6 +645,11 @@
                     "girls 2"
                 ],
                 "type": "ignore_heats"
+            },
+            {
+                "from": "girls 3",
+                "to": "girls 4",
+                "type": "rename_heat"
             }
         ]
     },
