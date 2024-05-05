@@ -1,4 +1,4 @@
-digraph girls1foursGreenwichCountryDay {Hopkins [URL="girls1foursGreenwichCountryDayHopkins.html"];GreenwichCountryDay [URL="girls1foursGreenwichCountryDayGreenwichCountryDay.html"];GreenwichAcademy [URL="girls1foursGreenwichCountryDayGreenwichAcademy.html"];Hopkins -> GreenwichCountryDay[label="54.6 (65.52)
+digraph girls1foursGreenwichCountryDay {GreenwichCountryDay [URL="girls1foursGreenwichCountryDayGreenwichCountryDay.html"];GreenwichAcademy [URL="girls1foursGreenwichCountryDayGreenwichAcademy.html"];Hopkins [URL="girls1foursGreenwichCountryDayHopkins.html"];Hopkins -> GreenwichCountryDay[label="54.6 (65.52)
 04/11", weight="46", tooltip="NEIRA,GCDS vs Hopkins			
 Distance: 1250m Conditions: head current increased
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3F962587F5195CAC9807287404512E2B&cat=5", random="random"]; 

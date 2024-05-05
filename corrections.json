@@ -219,6 +219,17 @@
             }
         ]
     },
+    "4017F721E0B781D4519575CF35F6F897": {
+        "checksum": "470ada008d2f73daea0b24a8c31ee99a",
+        "corrections": [
+            {
+                "heats": [
+                    "boys 4"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
     "429158C8054202FE58813F17E3F2C8B1": {
         "checksum": "a588b4f2a801df96c3e89024623ba13c",
         "corrections": [
@@ -231,6 +242,15 @@
     "4B4C574EDD6CC2B9960D17FC0A26DE61": {
         "checksum": "bd118dea8afb03b65c53235b376b0078",
         "corrections": []
+    },
+    "52B6EAAD7825CCDC8215D8B539CFC674": {
+        "checksum": "9e0374da5c1e51fc9ebb7279872672cd",
+        "corrections": [
+            {
+                "class": "eights",
+                "type": "set_class_all_heats"
+            }
+        ]
     },
     "5642DF6E89C66EA51756ECDA7F7C907D": {
         "checksum": "4aa7f7ca2f9d47ef8fd1007eff1f615c",
@@ -481,6 +501,21 @@
             {
                 "class": "eights",
                 "type": "set_class_all_heats"
+            },
+            {
+                "comment": "Assuming that margins are all from the winner, and not between boats...?",
+                "heat": "boys 3",
+                "margins": [
+                    {
+                        "margin_from_winner": 0,
+                        "school": "Andover"
+                    },
+                    {
+                        "margin_from_winner": 8.3,
+                        "school": "Kent"
+                    }
+                ],
+                "type": "set_margins"
             }
         ]
     },
@@ -501,10 +536,7 @@
         "checksum": "ce25d969f64e417e463dd034b26ca27a",
         "corrections": [
             {
-                "comment": "Revisit comment - it says Lincoln 2V4 didn't finish, but they have a time: 7:05",
-                "type": "comment"
-            },
-            {
+                "comment": "Comment says Lincoln 2V4 didn't finish. The 7:05 time is from a different heat, and cannot be used for seeding.",
                 "heat": "girls 2",
                 "schools": [
                     "Lincoln"

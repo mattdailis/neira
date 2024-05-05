@@ -100,6 +100,36 @@ Example:
 }
 ```
 
+## "type": "exclude_schools_from_heat"
+
+If a heat includes a school that should not be included for seeding, this corrections can remove it.
+
+Example:
+```json
+{
+    "type": "exclude_schools_from_heat",
+    "heat": "boys 2",
+    "schools": ["Stonington", "BB&N"]
+}
+```
+
+## "type": "set_margins"
+
+If the timings for a heat are specified in a non-standard way, it's possible to override the computed margins. This correction does not support changing the order of the schools - if any school is out of order or missing, the application of this correction will raise an exception.
+
+Example:
+```json
+{
+    "type": "set_margins",
+    "heat": "girls 4",
+    "margins": [
+        { "school": "Groton", "margin_from_winner": 0 },
+        { "school": "Berkshire Academy", "margin_from_winner": 2.3 },
+        { "school": "Thayer", "margin_from_winner": 4.1 },
+    ]
+}
+```
+
 # Hosting
 This website is hosted on GitHub Pages. GitHub Pages allows for two options for hosting: dedicate a branch to be the hosted branch, or host from the `docs` folder of your main branch. This website is hosted from the `docs` folder.
 

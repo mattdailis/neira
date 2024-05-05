@@ -1,4 +1,4 @@
-digraph boys3foursNobles {StMarks [URL="boys3foursNoblesStMarks.html"];BBN [URL="boys3foursNoblesBBN.html"];BelmontHill [URL="boys3foursNoblesBelmontHill.html"];Groton [URL="boys3foursNoblesGroton.html"];Nobles [URL="boys3foursNoblesNobles.html"];Brooks [URL="boys3foursNoblesBrooks.html"];BelmontHill -> Nobles[label="8.8 (10.15)
+digraph boys3foursNobles {Brooks [URL="boys3foursNoblesBrooks.html"];BBN [URL="boys3foursNoblesBBN.html"];Groton [URL="boys3foursNoblesGroton.html"];BelmontHill [URL="boys3foursNoblesBelmontHill.html"];Nobles [URL="boys3foursNoblesNobles.html"];StMarks [URL="boys3foursNoblesStMarks.html"];BelmontHill -> Nobles[label="8.8 (10.15)
 05/04", weight="92", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&cat=1", random="random"]; 

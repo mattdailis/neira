@@ -1,4 +1,4 @@
-digraph boys1foursBUAcademy {BUAcademy [URL="boys1foursBUAcademyBUAcademy.html"];Thayer [URL="boys1foursBUAcademyThayer.html"];Pingree [URL="boys1foursBUAcademyPingree.html"];CambridgeRLS [URL="boys1foursBUAcademyCambridgeRLS.html"];Pingree -> BUAcademy[label="35.0
+digraph boys1foursBUAcademy {BUAcademy [URL="boys1foursBUAcademyBUAcademy.html"];CambridgeRLS [URL="boys1foursBUAcademyCambridgeRLS.html"];Thayer [URL="boys1foursBUAcademyThayer.html"];Pingree [URL="boys1foursBUAcademyPingree.html"];Pingree -> BUAcademy[label="35.0
 04/20", weight="65", tooltip="NEIRA Boys Fours,Pingree School, Boston University Academy			
 Distance: 1500 meters
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=23CC2067AD3F4FF2DCAAB53A534BC81E&cat=1", random="random"]; 
