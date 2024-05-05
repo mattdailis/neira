@@ -1,0 +1,42 @@
+{
+    "comment": "\nDistance: 1400 Conditions: 5-10 mph tail wind Comments: All floating starts. Races are not comparable. Thank you Avon and Stonington for a great afternoon of racing.\n\nNone",
+    "day": "2024-05-04",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:19.9",
+                    "school": "Stonington"
+                },
+                {
+                    "margin_from_winner": 9.4,
+                    "raw_time": "4:29.3",
+                    "school": "Guilford"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:05.6",
+                    "school": "Stonington"
+                },
+                {
+                    "margin_from_winner": 5.0,
+                    "raw_time": "5:10.6",
+                    "school": "Guilford"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Eights,Guilford High School vs Stonington High School vs Avon High School",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=A58162E41E15D75AA018510B94843814&cat=5"
+}

@@ -1,4 +1,8 @@
-digraph boys4foursNobles {BrewsterAcademy [URL="boys4foursNoblesBrewsterAcademy.html"];Groton [URL="boys4foursNoblesGroton.html"];Brooks [URL="boys4foursNoblesBrooks.html"];StMarks [URL="boys4foursNoblesStMarks.html"];Nobles [URL="boys4foursNoblesNobles.html"];BBN [URL="boys4foursNoblesBBN.html"];Nobles -> Brooks[label="38.0
+digraph boys4foursNobles {Groton [URL="boys4foursNoblesGroton.html"];BrewsterAcademy [URL="boys4foursNoblesBrewsterAcademy.html"];Nobles [URL="boys4foursNoblesNobles.html"];BBN [URL="boys4foursNoblesBBN.html"];Brooks [URL="boys4foursNoblesBrooks.html"];StMarks [URL="boys4foursNoblesStMarks.html"];BelmontHill [URL="boys4foursNoblesBelmontHill.html"];BelmontHill -> Nobles[label="4.6 (5.31)
+05/04", weight="96", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
+Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&cat=1", random="random"]; 
+Nobles -> Brooks[label="38.0
 04/13", weight="62", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: ~1500m Conditions: Gusty headwind (15-25 mph) in moderate chop along lee shore. Crews had approximately the same conditions. Lane assignments probably affected times somewhat. Comments: Challenging conditions overcome by the constructive attitudes of all the coaches and race enthusiasm of athletes. Thanks to a strong Nobles team for coming up for some raw weather racing in early April. We were pleased to get the races in.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&cat=5", random="random"]; 

@@ -1,87 +1,226 @@
 <map id="boys2fours" name="boys2fours">
-<area shape="poly" id="node1" href="boys2foursStMarysLynn.html" title="StMarysLynn" alt="" coords="1127,1149,1123,1142,1111,1135,1093,1130,1070,1127,1044,1125,1018,1127,995,1130,977,1135,965,1142,961,1149,965,1157,977,1163,995,1169,1018,1172,1044,1173,1070,1172,1093,1169,1111,1163,1123,1157"/>
-<area shape="poly" id="node19" href="boys2foursMarianapolisPrep.html" title="MarianapolisPrep" alt="" coords="1147,1289,1142,1282,1127,1275,1104,1270,1076,1267,1044,1265,1012,1267,984,1270,961,1275,946,1282,941,1289,946,1297,961,1303,984,1309,1012,1312,1044,1313,1076,1312,1104,1309,1127,1303,1142,1297"/>
-<area shape="poly" id="edge20" href="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Marianapolis vs. St. Mary&#39;s&#45;Lynn, Eagle Hill			
-Distance: 1500m Conditions: Very little chop
-None" alt="" coords="1047,1174,1047,1250,1041,1250,1041,1174"/>
-<area shape="rect" id="edge20-label" href="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&amp;cat=5" title="54.0
-05/01" alt="" coords="1044,1197,1085,1241"/>
-<area shape="poly" id="node2" href="boys2foursDerryfield.html" title="Derryfield" alt="" coords="1240,729,1237,722,1228,715,1213,710,1195,707,1175,705,1154,707,1136,710,1121,715,1112,722,1109,729,1112,737,1121,743,1136,749,1154,752,1175,753,1195,752,1213,749,1228,743,1237,737"/>
-<area shape="poly" id="node17" href="boys2foursWorcesterAcademy.html" title="WorcesterAcademy" alt="" coords="1157,869,1151,862,1135,855,1110,850,1079,847,1044,845,1009,847,978,850,953,855,937,862,931,869,937,877,953,883,978,889,1009,892,1044,893,1079,892,1110,889,1135,883,1151,877"/>
-<area shape="poly" id="edge38" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester Academy vs Bancroft School, Berwick Academy and Derryfield School			
-Distance: 1500 m Conditions: All races experienced a tailwind of approximately 8&#45;10 mph and light chop. Comments: Race order was B1V, G1V, B2V, B3V, BN1/GN1. Notes: In G1V race, Derryfield 2V raced as Derryfield B. In B3 race, Berwick 4V raced as Berwick B. A novice race has been recorded under the B4V event and consisted of Berwick BN1, Derryfield GN1 and Worcester Academy GN1.
-None" alt="" coords="1156,755,1078,836,1074,833,1152,751"/>
-<area shape="rect" id="edge38-label" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="20.5
-04/28" alt="" coords="1128,777,1169,821"/>
-<area shape="poly" id="edge26" href="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Marianapolis vs. Derryfield			
-Distance: 1500m Conditions: Stiff head wind throughout all races, particularly the first 700m. Comments: Thank you, Derryfield, for making the trip down from NH!
-None" alt="" coords="1129,750,1103,756,1037,759,927,760,820,765,781,771,761,780,735,797,705,811,680,827,673,839,670,854,672,874,682,901,700,934,728,976,816,1086,956,1239,981,1259,977,1263,953,1243,812,1090,724,979,696,937,677,903,667,876,664,854,668,837,676,824,702,806,733,793,759,775,780,766,819,760,927,755,1037,753,1102,751,1128,744"/>
-<area shape="rect" id="edge26-label" href="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&amp;cat=5" title="103.2
-04/17" alt="" coords="768,987,809,1031"/>
-<area shape="poly" id="node3" href="boys2foursPingree.html" title="Pingree" alt="" coords="1372,29,1370,22,1362,15,1351,10,1336,7,1320,5,1304,7,1289,10,1278,15,1270,22,1268,29,1270,37,1278,43,1289,49,1304,52,1320,53,1336,52,1351,49,1362,43,1370,37"/>
-<area shape="poly" id="node21" href="boys2foursBUAcademy.html" title="BUAcademy" alt="" coords="1399,169,1396,162,1384,155,1367,150,1345,147,1320,145,1295,147,1273,150,1256,155,1244,162,1241,169,1244,177,1256,183,1273,189,1295,192,1320,193,1345,192,1367,189,1384,183,1396,177"/>
+<area shape="poly" id="node1" href="boys2foursPingree.html" title="Pingree" alt="" coords="137,29,134,22,127,15,115,10,101,7,85,5,69,7,54,10,43,15,35,22,33,29,35,37,43,43,54,49,69,52,85,53,101,52,115,49,127,43,134,37"/>
+<area shape="poly" id="node17" href="boys2foursBUAcademy.html" title="BUAcademy" alt="" coords="164,169,160,162,149,155,131,150,109,147,85,145,60,147,38,150,20,155,9,162,5,169,9,177,20,183,38,189,60,192,85,193,109,192,131,189,149,183,160,177"/>
 <area shape="poly" id="edge2" href="https://www.row2k.com/results/resultspage.cfm?UID=23CC2067AD3F4FF2DCAAB53A534BC81E&amp;cat=1" title="NEIRA Boys Fours,Pingree School, Boston University Academy			
 Distance: 1500 meters
-None" alt="" coords="1323,54,1323,130,1317,130,1317,54"/>
+None" alt="" coords="87,54,87,130,82,130,82,54"/>
 <area shape="rect" id="edge2-label" href="https://www.row2k.com/results/resultspage.cfm?UID=23CC2067AD3F4FF2DCAAB53A534BC81E&amp;cat=1" title="15.0
-04/20" alt="" coords="1320,77,1361,121"/>
-<area shape="poly" id="node4" href="boys2foursChoate.html" title="Choate" alt="" coords="416,869,414,862,407,855,396,850,382,847,367,845,351,847,338,850,327,855,320,862,317,869,320,877,327,883,338,889,351,892,367,893,382,892,396,889,407,883,414,877"/>
-<area shape="poly" id="node5" href="boys2foursBBN.html" title="BBN" alt="" coords="534,309,533,302,527,295,518,290,507,287,495,285,482,287,471,290,462,295,457,302,455,309,457,317,462,323,471,329,482,332,495,333,507,332,518,329,527,323,533,317"/>
-<area shape="poly" id="node9" href="boys2foursCambridgeRLS.html" title="CambridgeRLS" alt="" coords="912,449,908,442,895,435,874,430,849,427,820,425,791,427,766,430,745,435,732,442,728,449,732,457,745,463,766,469,791,472,820,473,849,472,874,469,895,463,908,457"/>
-<area shape="poly" id="edge19" href="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,BB&amp;N CRLS			
-Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
-None" alt="" coords="527,322,548,331,759,420,757,425,546,336,525,327"/>
-<area shape="rect" id="edge19-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&amp;cat=5" title="3.0 (3.33)
-04/13" alt="" coords="703,357,775,401"/>
-<area shape="poly" id="node27" href="boys2foursMiddlesex.html" title="Middlesex" alt="" coords="679,589,676,582,666,575,651,570,633,567,612,565,591,567,573,570,558,575,548,582,545,589,548,597,558,603,573,609,591,612,612,613,633,612,651,609,666,603,676,597"/>
-<area shape="poly" id="edge48" href="https://www.row2k.com/results/resultspage.cfm?UID=C38D2219403C5AD1A2866DA2111E888A&amp;cat=1" title="NEIRA Boys Fours,Middlesex vs. BB&amp;N			
-Distance: 1500m Conditions: Variable light headwind with flat water. Comments: Thank you BB&amp;N for a good afternoon of racing!
-None" alt="" coords="502,333,518,397,544,472,566,515,590,552,585,555,561,517,539,474,513,398,497,334"/>
-<area shape="rect" id="edge48-label" href="https://www.row2k.com/results/resultspage.cfm?UID=C38D2219403C5AD1A2866DA2111E888A&amp;cat=1" title="21.4
-05/04" alt="" coords="543,427,584,471"/>
-<area shape="poly" id="node6" href="boys2foursBerkshireAcademy.html" title="BerkshireAcademy" alt="" coords="477,729,471,722,456,715,431,710,401,707,367,705,333,707,302,710,278,715,262,722,257,729,262,737,278,743,302,749,333,752,367,753,401,752,431,749,456,743,471,737"/>
+04/20" alt="" coords="85,77,126,121"/>
+<area shape="poly" id="node2" href="boys2foursPomfret.html" title="Pomfret" alt="" coords="581,449,578,442,570,435,558,430,543,427,526,425,509,427,494,430,482,435,474,442,471,449,474,457,482,463,494,469,509,472,526,473,543,472,558,469,570,463,578,457"/>
+<area shape="poly" id="node6" href="boys2foursTaft.html" title="Taft" alt="" coords="562,589,560,582,555,575,547,570,537,567,526,565,515,567,505,570,497,575,492,582,490,589,492,597,497,603,505,609,515,612,526,613,537,612,547,609,555,603,560,597"/>
+<area shape="poly" id="edge49" href="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&amp;cat=1" title="NEIRA Boys ,Pomfret v. Groton, Taft			
+Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls&#39; races interspersed).
+Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
+None" alt="" coords="529,474,529,550,523,550,523,474"/>
+<area shape="rect" id="edge49-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&amp;cat=1" title="0.4
+04/27" alt="" coords="526,497,567,541"/>
+<area shape="poly" id="node25" href="boys2foursBerkshireAcademy.html" title="BerkshireAcademy" alt="" coords="527,729,521,722,506,715,481,710,451,707,417,705,383,707,352,710,328,715,312,722,307,729,312,737,328,743,352,749,383,752,417,753,451,752,481,749,506,743,521,737"/>
+<area shape="poly" id="edge51" href="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&amp;cat=1" title="NEIRA Boys Fours,Pomfret v. Berkshire, Marianapolis			
+Distance: 1500M Conditions: Swirling, gusty winds &#45; 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, B4, B3, B2, B1 with girls&#39; races in between.
+None" alt="" coords="506,473,471,514,453,539,440,566,429,598,423,630,419,690,413,690,418,630,424,596,435,564,449,537,466,511,502,470"/>
+<area shape="rect" id="edge51-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&amp;cat=1" title="7.2
+04/24" alt="" coords="438,567,479,611"/>
+<area shape="poly" id="node3" href="boys2foursMarianapolisPrep.html" title="MarianapolisPrep" alt="" coords="1198,1429,1193,1422,1178,1415,1156,1410,1127,1407,1095,1405,1064,1407,1035,1410,1012,1415,998,1422,993,1429,998,1437,1012,1443,1035,1449,1064,1452,1095,1453,1127,1452,1156,1449,1178,1443,1193,1437"/>
+<area shape="poly" id="node4" href="boys2foursNMH.html" title="NMH" alt="" coords="879,169,877,162,871,155,861,150,849,147,835,145,822,147,810,150,800,155,794,162,791,169,794,177,800,183,810,189,822,192,835,193,849,192,861,189,871,183,877,177"/>
+<area shape="poly" id="edge18" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None" alt="" coords="792,175,721,187,683,200,649,219,622,251,593,303,543,412,538,410,588,300,618,248,646,215,681,195,719,182,791,170"/>
+<area shape="rect" id="edge18-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="22.8
+04/20" alt="" coords="599,287,640,331"/>
+<area shape="poly" id="node10" href="boys2foursStMarks.html" title="StMarks" alt="" coords="990,869,987,862,979,855,966,850,950,847,933,845,915,847,899,850,887,855,879,862,876,869,879,877,887,883,899,889,915,892,933,893,950,892,966,889,979,883,987,877"/>
+<area shape="poly" id="edge41" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
+Distance: 1500m Conditions: A prevailing 12&#45;14mph crosswind shifting to a cross/tail for some races. Two small short&#45;lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3&#45;G4&#45;B2&#45;G1&#45;B1&#45;G2&#45;G3. There was no B4 race. Races aren&#39;t comparable because of very shifty conditions. Boys 2V started 50m over the line.
+None" alt="" coords="832,194,817,254,802,340,794,440,795,491,801,541,816,623,833,686,857,746,896,820,905,833,901,836,892,823,853,749,828,688,811,624,796,542,790,491,789,440,797,340,812,253,826,193"/>
+<area shape="rect" id="edge41-label" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="29.0
+04/13" alt="" coords="798,497,839,541"/>
+<area shape="poly" id="node11" href="boys2foursCambridgeRLS.html" title="CambridgeRLS" alt="" coords="1244,589,1239,582,1226,575,1206,570,1180,567,1151,565,1123,567,1097,570,1077,575,1064,582,1059,589,1064,597,1077,603,1097,609,1123,612,1151,613,1180,612,1206,609,1226,603,1239,597"/>
+<area shape="poly" id="edge24" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12&#45;15 mph cross headwind with significant chop in the middle 500m. Races were 4&#45;3&#45;2&#45;1&#45;5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None" alt="" coords="872,182,905,197,941,220,974,248,1000,284,1006,309,1001,334,994,347,988,358,982,381,982,390,987,400,1002,411,1019,413,1038,414,1058,423,1087,452,1110,485,1141,550,1136,552,1105,488,1083,455,1055,428,1037,419,1018,418,1000,416,983,403,977,391,976,380,983,356,989,344,996,332,1001,309,996,286,971,252,938,224,902,202,870,186"/>
+<area shape="rect" id="edge24-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="17.8
+04/27" alt="" coords="985,357,1026,401"/>
+<area shape="poly" id="node12" href="boys2foursHopkins.html" title="Hopkins" alt="" coords="489,309,486,302,478,295,466,290,450,287,433,285,415,287,400,290,387,295,379,302,377,309,379,317,387,323,400,329,415,332,433,333,450,332,466,329,478,323,486,317"/>
+<area shape="poly" id="edge17" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None" alt="" coords="791,173,708,174,608,180,517,194,482,205,458,219,442,243,435,271,430,270,437,241,454,215,479,200,516,189,608,175,708,169,791,167"/>
+<area shape="rect" id="edge17-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="20.4
+04/20" alt="" coords="457,217,498,261"/>
+<area shape="poly" id="node24" href="boys2foursBrooks.html" title="Brooks" alt="" coords="1044,449,1042,442,1035,435,1023,430,1010,427,994,425,979,427,965,430,954,435,946,442,944,449,946,457,954,463,965,469,979,472,994,473,1010,472,1023,469,1035,463,1042,457"/>
+<area shape="poly" id="edge23" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12&#45;15 mph cross headwind with significant chop in the middle 500m. Races were 4&#45;3&#45;2&#45;1&#45;5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None" alt="" coords="845,192,884,287,914,345,951,400,964,415,960,418,947,403,909,348,879,290,840,194"/>
+<area shape="rect" id="edge23-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="2.5
+04/27" alt="" coords="903,287,944,331"/>
+<area shape="poly" id="node27" href="boys2foursWorcesterAcademy.html" title="WorcesterAcademy" alt="" coords="1208,1009,1203,1002,1187,995,1162,990,1130,987,1095,985,1061,987,1029,990,1004,995,988,1002,983,1009,988,1017,1004,1023,1029,1029,1061,1032,1095,1033,1130,1032,1162,1029,1187,1023,1203,1017"/>
+<area shape="poly" id="edge42" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
+Distance: 1500m Conditions: A prevailing 12&#45;14mph crosswind shifting to a cross/tail for some races. Two small short&#45;lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3&#45;G4&#45;B2&#45;G1&#45;B1&#45;G2&#45;G3. There was no B4 race. Races aren&#39;t comparable because of very shifty conditions. Boys 2V started 50m over the line.
+None" alt="" coords="823,193,810,218,802,251,798,286,778,378,759,450,753,485,750,522,751,564,758,613,773,698,789,764,800,794,816,824,865,892,898,922,935,947,974,967,1013,983,1011,988,972,972,932,952,894,926,861,895,811,827,795,796,784,765,768,699,753,614,746,564,745,522,748,484,754,449,773,377,793,285,797,250,805,216,818,191"/>
+<area shape="rect" id="edge42-label" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="72.0
+04/13" alt="" coords="755,567,796,611"/>
+<area shape="poly" id="node5" href="boys2foursNotreDame.html" title="NotreDame" alt="" coords="1504,869,1500,862,1490,855,1474,850,1454,847,1431,845,1409,847,1389,850,1373,855,1362,862,1359,869,1362,877,1373,883,1389,889,1409,892,1431,893,1454,892,1474,889,1490,883,1500,877"/>
+<area shape="poly" id="node14" href="boys2foursLymeOldLyme.html" title="LymeOldLyme" alt="" coords="1523,1009,1519,1002,1506,995,1485,990,1460,987,1431,985,1403,987,1378,990,1357,995,1344,1002,1340,1009,1344,1017,1357,1023,1378,1029,1403,1032,1431,1033,1460,1032,1485,1029,1506,1023,1519,1017"/>
+<area shape="poly" id="edge33" href="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8&#45;18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None" alt="" coords="1434,894,1434,970,1429,970,1429,894"/>
+<area shape="rect" id="edge33-label" href="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&amp;cat=5" title="4.2
+04/27" alt="" coords="1431,917,1472,961"/>
 <area shape="poly" id="edge30" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Taft &amp; Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate&#39;s lane in the last 250 M. Did not change placement, but Berkshire&#39;s margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.
-None" alt="" coords="369,754,369,830,364,830,364,754"/>
-<area shape="rect" id="edge30-label" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="12.0
-04/20" alt="" coords="367,777,408,821"/>
-<area shape="poly" id="node7" href="boys2foursPomfret.html" title="Pomfret" alt="" coords="425,449,423,442,415,435,403,430,388,427,371,425,354,427,338,430,326,435,319,442,316,449,319,457,326,463,338,469,354,472,371,473,388,472,403,469,415,463,423,457"/>
-<area shape="poly" id="edge49" href="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&amp;cat=1" title="NEIRA Boys Fours,Pomfret v. Berkshire, Marianapolis			
-Distance: 1500M Conditions: Swirling, gusty winds &#45; 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, B4, B3, B2, B1 with girls&#39; races in between.
-None" alt="" coords="373,474,370,690,365,690,368,474"/>
-<area shape="rect" id="edge49-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&amp;cat=1" title="7.2
-04/24" alt="" coords="369,567,410,611"/>
-<area shape="poly" id="node20" href="boys2foursTaft.html" title="Taft" alt="" coords="268,589,266,582,261,575,253,570,243,567,232,565,221,567,211,570,203,575,198,582,196,589,198,597,203,603,211,609,221,612,232,613,243,612,253,609,261,603,266,597"/>
+None" alt="" coords="512,613,446,695,442,692,508,609"/>
+<area shape="rect" id="edge30-label" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="2.5
+04/20" alt="" coords="489,637,530,681"/>
+<area shape="poly" id="node26" href="boys2foursChoate.html" title="Choate" alt="" coords="466,869,464,862,457,855,446,850,432,847,417,845,401,847,388,850,377,855,370,862,367,869,370,877,377,883,388,889,401,892,417,893,432,892,446,889,457,883,464,877"/>
+<area shape="poly" id="edge31" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Taft &amp; Choate			
+Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate&#39;s lane in the last 250 M. Did not change placement, but Berkshire&#39;s margin over Choate might have been larger without the interference.
+Thanks to Taft and Choate for some great racing in ideal conditions.
+None" alt="" coords="537,613,545,642,551,678,551,717,542,754,526,782,506,806,461,844,458,840,502,802,522,779,537,752,546,716,546,678,540,643,532,614"/>
+<area shape="rect" id="edge31-label" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="14.6
+04/20" alt="" coords="550,707,591,751"/>
+<area shape="poly" id="node7" href="boys2foursKingSchool.html" title="KingSchool" alt="" coords="425,169,421,162,411,155,394,150,374,147,351,145,329,147,308,150,292,155,282,162,278,169,282,177,292,183,308,189,329,192,351,193,374,192,394,189,411,183,421,177"/>
+<area shape="poly" id="edge29" href="https://www.row2k.com/results/resultspage.cfm?UID=3D50124C185A4165878004B90B4662FD&amp;cat=1" title="NEIRA Boys Fours,King School vs Hopkins			
+Distance: 1250m Conditions: All races: heavy cross head wind at slack tide Comments: Great racing by all crews!
+None" alt="" coords="348,194,346,227,349,244,355,260,365,273,379,284,376,288,362,277,350,263,344,246,341,227,343,193"/>
+<area shape="rect" id="edge29-label" href="https://www.row2k.com/results/resultspage.cfm?UID=3D50124C185A4165878004B90B4662FD&amp;cat=1" title="5.1 (6.12)
+04/10" alt="" coords="353,217,425,261"/>
+<area shape="poly" id="node8" href="boys2foursDerryfield.html" title="Derryfield" alt="" coords="1292,869,1289,862,1279,855,1265,850,1246,847,1226,845,1206,847,1187,850,1173,855,1164,862,1160,869,1164,877,1173,883,1187,889,1206,892,1226,893,1246,892,1265,889,1279,883,1289,877"/>
+<area shape="poly" id="edge27" href="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Marianapolis vs. Derryfield			
+Distance: 1500m Conditions: Stiff head wind throughout all races, particularly the first 700m. Comments: Thank you, Derryfield, for making the trip down from NH!
+None" alt="" coords="1232,894,1238,967,1239,1073,1235,1133,1227,1195,1213,1256,1192,1314,1166,1360,1133,1397,1129,1394,1161,1357,1188,1312,1208,1255,1221,1194,1230,1133,1234,1073,1233,967,1226,894"/>
+<area shape="rect" id="edge27-label" href="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&amp;cat=5" title="103.2
+04/17" alt="" coords="1233,1127,1274,1171"/>
+<area shape="poly" id="edge40" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester Academy vs Bancroft School, Berwick Academy and Derryfield School			
+Distance: 1500 m Conditions: All races experienced a tailwind of approximately 8&#45;10 mph and light chop. Comments: Race order was B1V, G1V, B2V, B3V, BN1/GN1. Notes: In G1V race, Derryfield 2V raced as Derryfield B. In B3 race, Berwick 4V raced as Berwick B. A novice race has been recorded under the B4V event and consisted of Berwick BN1, Derryfield GN1 and Worcester Academy GN1.
+None" alt="" coords="1207,895,1129,976,1125,973,1203,891"/>
+<area shape="rect" id="edge40-label" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="20.5
+04/28" alt="" coords="1179,917,1220,961"/>
+<area shape="poly" id="node9" href="boys2foursMiddletown.html" title="Middletown" alt="" coords="1507,1149,1503,1142,1492,1135,1476,1130,1455,1127,1431,1125,1408,1127,1387,1130,1370,1135,1360,1142,1356,1149,1360,1157,1370,1163,1387,1169,1408,1172,1431,1173,1455,1172,1476,1169,1492,1163,1503,1157"/>
+<area shape="poly" id="node20" href="boys2foursSuffield.html" title="Suffield" alt="" coords="1486,1289,1483,1282,1475,1275,1463,1270,1448,1267,1431,1265,1415,1267,1400,1270,1388,1275,1380,1282,1377,1289,1380,1297,1388,1303,1400,1309,1415,1312,1431,1313,1448,1312,1463,1309,1475,1303,1483,1297"/>
+<area shape="poly" id="edge12" href="https://www.row2k.com/results/resultspage.cfm?UID=AC683D5136F31AD9F0E016CDFC3F0E3D&amp;cat=1" title="NEIRA Boys Fours,Suffield Academy and Middletown			
+Distance: 1500 Conditions: Boys Varsity 1&#45; strong tail current, S winds at 3 mph, moderate chop
+Girls Varsity 2&#45; strong tail current, winds at 5 mph, significant chop
+Boys Varsity 2&#45; strong tail current, wind gusts at 18 mph, significant chop
+None" alt="" coords="1434,1174,1434,1250,1429,1250,1429,1174"/>
+<area shape="rect" id="edge12-label" href="https://www.row2k.com/results/resultspage.cfm?UID=AC683D5136F31AD9F0E016CDFC3F0E3D&amp;cat=1" title="21.0
+04/17" alt="" coords="1431,1197,1472,1241"/>
+<area shape="poly" id="node21" href="boys2foursBrewsterAcademy.html" title="BrewsterAcademy" alt="" coords="805,1009,800,1002,784,995,761,990,731,987,698,985,665,987,635,990,612,995,597,1002,591,1009,597,1017,612,1023,635,1029,665,1032,698,1033,731,1032,761,1029,784,1023,800,1017"/>
+<area shape="poly" id="edge46" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None" alt="" coords="902,892,750,981,747,976,899,887"/>
+<area shape="rect" id="edge46-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="28.9
+04/27" alt="" coords="850,917,891,961"/>
+<area shape="poly" id="edge43" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
+Distance: 1500m Conditions: A prevailing 12&#45;14mph crosswind shifting to a cross/tail for some races. Two small short&#45;lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3&#45;G4&#45;B2&#45;G1&#45;B1&#45;G2&#45;G3. There was no B4 race. Races aren&#39;t comparable because of very shifty conditions. Boys 2V started 50m over the line.
+None" alt="" coords="957,890,1037,959,1056,974,1053,978,1034,963,954,894"/>
+<area shape="rect" id="edge43-label" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="43.0
+04/13" alt="" coords="1035,917,1076,961"/>
+<area shape="poly" id="node19" href="boys2foursMiddlesex.html" title="Middlesex" alt="" coords="1218,729,1215,722,1206,715,1191,710,1172,707,1151,705,1131,707,1112,710,1097,715,1088,722,1084,729,1088,737,1097,743,1112,749,1131,752,1151,753,1172,752,1191,749,1206,743,1215,737"/>
+<area shape="poly" id="edge11" href="https://www.row2k.com/results/resultspage.cfm?UID=95B6D80715F8274903E678063EA5058A&amp;cat=1" title="NEIRA Boys Fours,Belmont Hill, Middlesex, CRLS			
+Distance: 1300 Conditions: Good water with swirling winds &#45;&#45; sometimes cross&#45;head, sometimes cross&#45;tail, sometimes straight cross, varying race&#45;to&#45;race. Comments: The 3V4 race was action&#45;packed: MX caught an over&#45;the&#45;head, boat&#45;stopping crab just over a minute into the race, while the 3&#45;seat of the BHS crew had his oar pop out of his oarlock not once but twice during the race; these incidents caused stoppages of significant duration for both crews. An oarsman in the CRLS 1V4 tested positive for Covid prior to the race and the crew was thus unable to compete today.
+Thanks to Middlesex and CRLS for a great day of racing on the Charles!
+None" alt="" coords="1154,614,1154,690,1149,690,1149,614"/>
+<area shape="rect" id="edge11-label" href="https://www.row2k.com/results/resultspage.cfm?UID=95B6D80715F8274903E678063EA5058A&amp;cat=1" title="5.4 (6.23)
+04/24" alt="" coords="1151,637,1223,681"/>
+<area shape="poly" id="edge19" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None" alt="" coords="440,333,451,366,469,400,486,418,482,422,464,403,446,368,435,334"/>
+<area shape="rect" id="edge19-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="2.4
+04/20" alt="" coords="467,357,508,401"/>
+<area shape="poly" id="node13" href="boys2foursGroton.html" title="Groton" alt="" coords="1183,309,1181,302,1174,295,1163,290,1149,287,1134,285,1119,287,1105,290,1094,295,1087,302,1085,309,1087,317,1094,323,1105,329,1119,332,1134,333,1149,332,1163,329,1174,323,1181,317"/>
 <area shape="poly" id="edge47" href="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&amp;cat=1" title="NEIRA Boys ,Pomfret v. Groton, Taft			
 Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls&#39; races interspersed).
 Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
-None" alt="" coords="343,472,309,499,258,556,254,553,305,495,339,468"/>
-<area shape="rect" id="edge47-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&amp;cat=1" title="0.4
-04/27" alt="" coords="308,497,349,541"/>
-<area shape="poly" id="node8" href="boys2foursLymeOldLyme.html" title="LymeOldLyme" alt="" coords="1478,869,1474,862,1461,855,1441,850,1415,847,1387,845,1358,847,1333,850,1313,855,1299,862,1295,869,1299,877,1313,883,1333,889,1358,892,1387,893,1415,892,1441,889,1461,883,1474,877"/>
-<area shape="poly" id="node12" href="boys2foursMiddletown.html" title="Middletown" alt="" coords="1462,1009,1458,1002,1448,995,1431,990,1410,987,1387,985,1363,987,1342,990,1326,995,1315,1002,1311,1009,1315,1017,1326,1023,1342,1029,1363,1032,1387,1033,1410,1032,1431,1029,1448,1023,1458,1017"/>
+None" alt="" coords="1103,330,1064,359,1055,371,1051,382,1045,393,1033,404,975,414,857,425,595,446,595,440,856,420,974,408,1030,399,1040,390,1046,380,1051,368,1061,355,1100,326"/>
+<area shape="rect" id="edge47-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&amp;cat=1" title="10.9
+04/27" alt="" coords="1062,357,1103,401"/>
+<area shape="poly" id="edge48" href="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&amp;cat=1" title="NEIRA Boys ,Pomfret v. Groton, Taft			
+Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls&#39; races interspersed).
+Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
+None" alt="" coords="1136,335,1127,370,1118,388,1105,403,1077,420,1051,426,1025,425,999,420,948,412,921,415,892,428,876,440,865,454,853,484,840,515,829,530,811,544,786,557,763,564,721,567,678,564,625,568,574,579,573,573,624,563,678,559,721,561,762,559,784,552,809,539,825,526,835,513,848,482,860,451,872,436,889,423,919,410,948,407,1000,415,1025,420,1050,421,1075,415,1102,399,1114,385,1122,369,1130,333"/>
+<area shape="rect" id="edge48-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&amp;cat=1" title="11.3
+04/27" alt="" coords="890,427,931,471"/>
+<area shape="poly" id="edge13" href="https://www.row2k.com/results/resultspage.cfm?UID=CF11D4E6381F0019C765544CCA920DEE&amp;cat=5" title="NEIRA,Cambridge Rindge and Latin HS at Groton			
+Distance: 1225 m. Conditions: Very little current. Flat water. Beginning with the second boats, a slight amount of headwind. Race order G4, B4, G3, B3, G2, B2, G1, B1 Comments: Great racing conditions and great racing by the crews.
+In the G2, the start was strokes on the line instead of bow balls.
+Thank you CRLS for an excellent afternoon.
+None" alt="" coords="1138,334,1152,550,1146,550,1133,334"/>
+<area shape="rect" id="edge13-label" href="https://www.row2k.com/results/resultspage.cfm?UID=CF11D4E6381F0019C765544CCA920DEE&amp;cat=5" title="12.0
+05/04" alt="" coords="1143,427,1184,471"/>
+<area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&amp;cat=1" title="NEIRA Boys Fours,Groton vs. Middlesex			
+Distance: 1500m Conditions: Great racing conditions for all races. Flat water, no wind and little current. Comments: Thank you to Groton for a great afternoon of racing. Well rowed by all crews!
+None" alt="" coords="1176,320,1279,355,1320,383,1334,400,1346,424,1353,465,1352,517,1343,571,1328,615,1307,646,1279,672,1247,693,1215,709,1213,704,1245,688,1276,668,1303,643,1324,612,1338,570,1346,517,1348,465,1341,426,1329,403,1316,387,1277,360,1175,325"/>
+<area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&amp;cat=1" title="12.3
+05/01" alt="" coords="1350,497,1391,541"/>
+<area shape="poly" id="node23" href="boys2foursBBN.html" title="BBN" alt="" coords="1331,449,1329,442,1324,435,1315,430,1304,427,1291,425,1279,427,1268,430,1259,435,1254,442,1252,449,1254,457,1259,463,1268,469,1279,472,1291,473,1304,472,1315,469,1324,463,1329,457"/>
+<area shape="poly" id="edge54" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="NEIRA,Buckingham, Browne &amp; Nichols vs Nobles, Groton			
+Distance: 1350m Conditions: Excellent conditions.
+Cloudy and cool
+Mostly flat water.
+A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&amp;N clashed blades for roughly the first 20 strokes due to Groton moving into BB&amp;N&#39;s lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
+5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
+NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
+BB&amp;N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
+Times for this race were:
+Nobles: 2:22.3
+BB&amp;N: 2:30.1
+many thanks to all crews and coaches for a great day of racing for full teams.
+None" alt="" coords="1153,331,1172,356,1186,379,1202,399,1246,427,1243,431,1199,403,1182,382,1168,359,1149,334"/>
+<area shape="rect" id="edge54-label" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="2.5 (2.78)
+04/20" alt="" coords="1201,357,1273,401"/>
 <area shape="poly" id="edge7" href="https://www.row2k.com/results/resultspage.cfm?UID=B21A566F53808695C158764AE049824A&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Lyme/Old Lyme v Middletown V Mills			
 Distance: 1500 Conditions: It was a partly cloudy day when all three crews got out into the lake, there was a constant 6&#45;8 mph head wind that ran straight up the course for all races. Comments: One race worth noting is the G2V4 Lyme/old Lyme launched their G3V4 to participate in the race as well.
 Lyme/Old Lyme would like thank Middletown and Mills for coming out to race on our lake. We are always excited to have teams come and visit and enjoy our facility with us.
 Thank you for a great day of racing and we look forward to seeing you all again soon!!
-None" alt="" coords="1389,894,1389,970,1384,970,1384,894"/>
+None" alt="" coords="1434,1034,1434,1110,1429,1110,1429,1034"/>
 <area shape="rect" id="edge7-label" href="https://www.row2k.com/results/resultspage.cfm?UID=B21A566F53808695C158764AE049824A&amp;cat=5" title="12.6
-05/01" alt="" coords="1387,917,1428,961"/>
-<area shape="poly" id="edge11" href="https://www.row2k.com/results/resultspage.cfm?UID=95B6D80715F8274903E678063EA5058A&amp;cat=1" title="NEIRA Boys Fours,Belmont Hill, Middlesex, CRLS			
-Distance: 1300 Conditions: Good water with swirling winds &#45;&#45; sometimes cross&#45;head, sometimes cross&#45;tail, sometimes straight cross, varying race&#45;to&#45;race. Comments: The 3V4 race was action&#45;packed: MX caught an over&#45;the&#45;head, boat&#45;stopping crab just over a minute into the race, while the 3&#45;seat of the BHS crew had his oar pop out of his oarlock not once but twice during the race; these incidents caused stoppages of significant duration for both crews. An oarsman in the CRLS 1V4 tested positive for Covid prior to the race and the crew was thus unable to compete today.
-Thanks to Middlesex and CRLS for a great day of racing on the Charles!
-None" alt="" coords="738,463,697,477,659,499,644,521,629,553,624,550,640,518,656,495,694,472,737,458"/>
-<area shape="rect" id="edge11-label" href="https://www.row2k.com/results/resultspage.cfm?UID=95B6D80715F8274903E678063EA5058A&amp;cat=1" title="5.4 (6.23)
-04/24" alt="" coords="657,497,729,541"/>
-<area shape="poly" id="node10" href="boys2foursKingSchool.html" title="KingSchool" alt="" coords="625,169,622,162,611,155,595,150,575,147,552,145,529,147,509,150,493,155,482,162,479,169,482,177,493,183,509,189,529,192,552,193,575,192,595,189,611,183,622,177"/>
-<area shape="poly" id="node28" href="boys2foursHopkins.html" title="Hopkins" alt="" coords="671,309,668,302,660,295,648,290,632,287,615,285,597,287,582,290,569,295,561,302,558,309,561,317,569,323,582,329,597,332,615,333,632,332,648,329,660,323,668,317"/>
-<area shape="poly" id="edge27" href="https://www.row2k.com/results/resultspage.cfm?UID=3D50124C185A4165878004B90B4662FD&amp;cat=1" title="NEIRA Boys Fours,King School vs Hopkins			
-Distance: 1250m Conditions: All races: heavy cross head wind at slack tide Comments: Great racing by all crews!
-None" alt="" coords="562,193,589,260,595,271,590,274,584,262,557,195"/>
-<area shape="rect" id="edge27-label" href="https://www.row2k.com/results/resultspage.cfm?UID=3D50124C185A4165878004B90B4662FD&amp;cat=1" title="5.1 (6.12)
-04/10" alt="" coords="587,217,659,261"/>
-<area shape="poly" id="node11" href="boys2foursGroton.html" title="Groton" alt="" coords="205,169,203,162,196,155,185,150,171,147,156,145,141,147,127,150,116,155,109,162,107,169,109,177,116,183,127,189,141,192,156,193,171,192,185,189,196,183,203,177"/>
+05/01" alt="" coords="1431,1057,1472,1101"/>
+<area shape="poly" id="node15" href="boys2foursMedford.html" title="Medford" alt="" coords="1154,1149,1151,1142,1142,1135,1130,1130,1113,1127,1095,1125,1077,1127,1061,1130,1048,1135,1040,1142,1037,1149,1040,1157,1048,1163,1061,1169,1077,1172,1095,1173,1113,1172,1130,1169,1142,1163,1151,1157"/>
+<area shape="poly" id="node18" href="boys2foursStMarysLynn.html" title="StMarysLynn" alt="" coords="1178,1289,1174,1282,1162,1275,1144,1270,1121,1267,1095,1265,1070,1267,1047,1270,1028,1275,1017,1282,1013,1289,1017,1297,1028,1303,1047,1309,1070,1312,1095,1313,1121,1312,1144,1309,1162,1303,1174,1297"/>
+<area shape="poly" id="edge37" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Bancroft School vs Worcester Academy, Medford High School, Eagle Hill, St. Mary&#39;s Lynn			
+Distance: 1500m Conditions: All races experienced strong tailwinds. Wind was 15mph with strong gusts. The wind increased as the Boys 2V boat went down the course and the race was paused. Once conditions died back to 15mph races resumed. Once conditions died back down to a 15&#45;17 tail wind, races resumed. Comments: Race order was Boys Novice, Girls Novice/Novice Mix, B3v, B2V, G1V, B1V. For recording purposes Boys Novice will be recorded as the Boys fourth boat. The girls novice/novice mix will be recorded as GV2 (please note the novice mix boat (Eagle Hill) was a mix of talent and more of a friendly race to get rowers to race). Due to wind Boys Novice started at the 1400 mark.
+None" alt="" coords="1098,1174,1098,1250,1093,1250,1093,1174"/>
+<area shape="rect" id="edge37-label" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="8.4
+04/24" alt="" coords="1095,1197,1136,1241"/>
+<area shape="poly" id="node16" href="boys2foursBerwick.html" title="Berwick" alt="" coords="1354,729,1351,722,1344,715,1331,710,1315,707,1298,705,1281,707,1265,710,1253,715,1245,722,1242,729,1245,737,1253,743,1265,749,1281,752,1298,753,1315,752,1331,749,1344,743,1351,737"/>
+<area shape="poly" id="edge22" href="https://www.row2k.com/results/resultspage.cfm?UID=2A4F56FA4FB7C41A0E813337362894A3&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berwick Academy vs. Derryfield School			
+Distance: 1500 Conditions: Light drizzle and grey skies, but flat conditions. Racing in the direction of the incoming tide. Comments: The boys 4V even was a combination of 4V boys with novice boys and served as an intersquad scrimmage. This race was slightly shorter and started around the 1250 mark.
+The girls 3V was a mixed boat event with even gender splits in each boat and represented various skill levels.
+Thank you Derryfield for making the trip and dealing with Maine mud season.
+None" alt="" coords="1296,755,1287,788,1271,823,1262,836,1257,833,1266,820,1282,786,1291,753"/>
+<area shape="rect" id="edge22-label" href="https://www.row2k.com/results/resultspage.cfm?UID=2A4F56FA4FB7C41A0E813337362894A3&amp;cat=5" title="26.1
+04/20" alt="" coords="1286,777,1327,821"/>
+<area shape="poly" id="edge38" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester Academy vs Bancroft School, Berwick Academy and Derryfield School			
+Distance: 1500 m Conditions: All races experienced a tailwind of approximately 8&#45;10 mph and light chop. Comments: Race order was B1V, G1V, B2V, B3V, BN1/GN1. Notes: In G1V race, Derryfield 2V raced as Derryfield B. In B3 race, Berwick 4V raced as Berwick B. A novice race has been recorded under the B4V event and consisted of Berwick BN1, Derryfield GN1 and Worcester Academy GN1.
+None" alt="" coords="1259,748,1239,761,1225,779,1218,804,1219,830,1213,830,1212,803,1220,776,1236,757,1256,744"/>
+<area shape="rect" id="edge38-label" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="19.3
+04/28" alt="" coords="1222,777,1263,821"/>
+<area shape="poly" id="edge39" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester Academy vs Bancroft School, Berwick Academy and Derryfield School			
+Distance: 1500 m Conditions: All races experienced a tailwind of approximately 8&#45;10 mph and light chop. Comments: Race order was B1V, G1V, B2V, B3V, BN1/GN1. Notes: In G1V race, Derryfield 2V raced as Derryfield B. In B3 race, Berwick 4V raced as Berwick B. A novice race has been recorded under the B4V event and consisted of Berwick BN1, Derryfield GN1 and Worcester Academy GN1.
+None" alt="" coords="1262,750,1173,797,1134,823,1110,847,1098,877,1092,909,1092,970,1087,970,1086,909,1092,875,1105,844,1130,819,1170,792,1259,745"/>
+<area shape="rect" id="edge39-label" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="39.8
+04/28" alt="" coords="1107,847,1148,891"/>
+<area shape="poly" id="edge21" href="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Marianapolis vs. St. Mary&#39;s&#45;Lynn, Eagle Hill			
+Distance: 1500m Conditions: Very little chop
+None" alt="" coords="1098,1314,1098,1390,1093,1390,1093,1314"/>
+<area shape="rect" id="edge21-label" href="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&amp;cat=5" title="54.0
+05/01" alt="" coords="1095,1337,1136,1381"/>
+<area shape="poly" id="edge6" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Brooks and Middlesex			
+Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross&#45;wind to cross&#45;tail 8&#45;12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren&#39;t started until about 650m in, so we got margins only.
+None" alt="" coords="1103,749,1070,762,1037,780,998,808,965,838,962,834,995,804,1034,775,1068,758,1101,744"/>
+<area shape="rect" id="edge6-label" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="0.5
+04/20" alt="" coords="1035,777,1076,821"/>
+<area shape="poly" id="edge8" href="https://www.row2k.com/results/resultspage.cfm?UID=8CCAFC10198F257F661CCA17A80627CA&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Suffield Academy vs. Marianapolis			
+Distance: 1400 Conditions: Severe chop at the start and severe tail wind. Shift to light tail/starboard wind for the last 1100 meters.
+More wind and chop at the start as the day progressed (more for girls 4, more for boys varsity 2)
+None" alt="" coords="1400,1311,1331,1347,1248,1384,1176,1409,1174,1404,1246,1379,1329,1342,1398,1306"/>
+<area shape="rect" id="edge8-label" href="https://www.row2k.com/results/resultspage.cfm?UID=8CCAFC10198F257F661CCA17A80627CA&amp;cat=5" title="136.0 (145.71)
+04/29" alt="" coords="1338,1337,1446,1381"/>
+<area shape="poly" id="node22" href="boys2foursNobles.html" title="Nobles" alt="" coords="1018,169,1016,162,1009,155,998,150,984,147,969,145,953,147,940,150,929,155,922,162,919,169,922,177,929,183,940,189,953,192,969,193,984,192,998,189,1009,183,1016,177"/>
+<area shape="poly" id="edge44" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None" alt="" coords="949,193,912,234,893,259,878,286,863,323,856,354,850,426,848,483,851,542,869,656,896,756,921,830,916,832,891,758,864,658,845,543,842,483,845,425,851,353,858,322,873,284,889,257,907,231,945,189"/>
+<area shape="rect" id="edge44-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="32.1
+04/27" alt="" coords="847,497,888,541"/>
 <area shape="poly" id="edge52" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="NEIRA,Buckingham, Browne &amp; Nichols vs Nobles, Groton			
 Distance: 1350m Conditions: Excellent conditions.
 Cloudy and cool
@@ -94,243 +233,116 @@ Times for this race were:
 Nobles: 2:22.3
 BB&amp;N: 2:30.1
 many thanks to all crews and coaches for a great day of racing for full teams.
-None" alt="" coords="201,178,240,193,278,215,288,227,293,239,298,249,308,259,340,276,374,289,440,302,439,307,372,294,337,281,305,263,294,252,289,241,284,230,274,219,237,198,199,183"/>
-<area shape="rect" id="edge52-label" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="2.5 (2.78)
-04/20" alt="" coords="307,217,379,261"/>
-<area shape="poly" id="edge45" href="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&amp;cat=1" title="NEIRA Boys ,Pomfret v. Groton, Taft			
-Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls&#39; races interspersed).
-Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
-None" alt="" coords="175,191,346,412,342,416,171,194"/>
-<area shape="rect" id="edge45-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&amp;cat=1" title="10.9
-04/27" alt="" coords="281,287,322,331"/>
-<area shape="poly" id="edge46" href="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&amp;cat=1" title="NEIRA Boys ,Pomfret v. Groton, Taft			
-Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls&#39; races interspersed).
-Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
-None" alt="" coords="142,194,118,233,95,285,87,313,82,343,82,372,88,400,110,447,140,491,172,528,201,558,197,561,168,532,135,494,106,450,83,402,77,373,77,342,81,312,90,283,114,231,138,191"/>
-<area shape="rect" id="edge46-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&amp;cat=1" title="11.3
-04/27" alt="" coords="87,357,128,401"/>
-<area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&amp;cat=1" title="NEIRA Boys Fours,Groton vs. Middlesex			
-Distance: 1500m Conditions: Great racing conditions for all races. Flat water, no wind and little current. Comments: Thank you to Groton for a great afternoon of racing. Well rowed by all crews!
-None" alt="" coords="151,194,142,236,136,289,140,347,147,374,160,400,184,425,221,450,269,474,324,497,442,538,545,568,543,573,440,543,323,502,267,479,219,454,180,429,155,403,142,376,135,348,131,289,137,235,146,193"/>
-<area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&amp;cat=1" title="12.3
-05/01" alt="" coords="159,357,200,401"/>
-<area shape="poly" id="node13" href="boys2foursSuffield.html" title="Suffield" alt="" coords="1441,1149,1438,1142,1430,1135,1418,1130,1403,1127,1387,1125,1370,1127,1355,1130,1343,1135,1335,1142,1333,1149,1335,1157,1343,1163,1355,1169,1370,1172,1387,1173,1403,1172,1418,1169,1430,1163,1438,1157"/>
-<area shape="poly" id="edge12" href="https://www.row2k.com/results/resultspage.cfm?UID=AC683D5136F31AD9F0E016CDFC3F0E3D&amp;cat=1" title="NEIRA Boys Fours,Suffield Academy and Middletown			
-Distance: 1500 Conditions: Boys Varsity 1&#45; strong tail current, S winds at 3 mph, moderate chop
-Girls Varsity 2&#45; strong tail current, winds at 5 mph, significant chop
-Boys Varsity 2&#45; strong tail current, wind gusts at 18 mph, significant chop
-None" alt="" coords="1389,1034,1389,1110,1384,1110,1384,1034"/>
-<area shape="rect" id="edge12-label" href="https://www.row2k.com/results/resultspage.cfm?UID=AC683D5136F31AD9F0E016CDFC3F0E3D&amp;cat=1" title="21.0
-04/17" alt="" coords="1387,1057,1428,1101"/>
-<area shape="poly" id="edge8" href="https://www.row2k.com/results/resultspage.cfm?UID=8CCAFC10198F257F661CCA17A80627CA&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Suffield Academy vs. Marianapolis			
-Distance: 1400 Conditions: Severe chop at the start and severe tail wind. Shift to light tail/starboard wind for the last 1100 meters.
-More wind and chop at the start as the day progressed (more for girls 4, more for boys varsity 2)
-None" alt="" coords="1348,1169,1109,1265,1107,1260,1346,1164"/>
-<area shape="rect" id="edge8-label" href="https://www.row2k.com/results/resultspage.cfm?UID=8CCAFC10198F257F661CCA17A80627CA&amp;cat=5" title="136.0 (145.71)
-04/29" alt="" coords="1265,1197,1373,1241"/>
-<area shape="poly" id="node14" href="boys2foursNotreDame.html" title="NotreDame" alt="" coords="1459,729,1456,722,1445,715,1429,710,1409,707,1387,705,1364,707,1344,710,1328,715,1318,722,1314,729,1318,737,1328,743,1344,749,1364,752,1387,753,1409,752,1429,749,1445,743,1456,737"/>
-<area shape="poly" id="edge31" href="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
-Distance: 1500m Conditions: Tailwind throughout the day 8&#45;18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
-None" alt="" coords="1389,754,1389,830,1384,830,1384,754"/>
-<area shape="rect" id="edge31-label" href="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&amp;cat=5" title="4.2
-04/27" alt="" coords="1387,777,1428,821"/>
-<area shape="poly" id="node15" href="boys2foursMedford.html" title="Medford" alt="" coords="1102,1009,1099,1002,1091,995,1078,990,1062,987,1044,985,1026,987,1010,990,997,995,989,1002,986,1009,989,1017,997,1023,1010,1029,1026,1032,1044,1033,1062,1032,1078,1029,1091,1023,1099,1017"/>
-<area shape="poly" id="edge35" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Bancroft School vs Worcester Academy, Medford High School, Eagle Hill, St. Mary&#39;s Lynn			
-Distance: 1500m Conditions: All races experienced strong tailwinds. Wind was 15mph with strong gusts. The wind increased as the Boys 2V boat went down the course and the race was paused. Once conditions died back to 15mph races resumed. Once conditions died back down to a 15&#45;17 tail wind, races resumed. Comments: Race order was Boys Novice, Girls Novice/Novice Mix, B3v, B2V, G1V, B1V. For recording purposes Boys Novice will be recorded as the Boys fourth boat. The girls novice/novice mix will be recorded as GV2 (please note the novice mix boat (Eagle Hill) was a mix of talent and more of a friendly race to get rowers to race). Due to wind Boys Novice started at the 1400 mark.
-None" alt="" coords="1047,1034,1047,1110,1041,1110,1041,1034"/>
-<area shape="rect" id="edge35-label" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="8.4
-04/24" alt="" coords="1044,1057,1085,1101"/>
-<area shape="poly" id="node16" href="boys2foursBrewsterAcademy.html" title="BrewsterAcademy" alt="" coords="293,869,288,862,273,855,249,850,220,847,187,845,154,847,124,850,100,855,85,862,80,869,85,877,100,883,124,889,154,892,187,893,220,892,249,889,273,883,288,877"/>
-<area shape="poly" id="edge34" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Bancroft School vs Worcester Academy, Medford High School, Eagle Hill, St. Mary&#39;s Lynn			
-Distance: 1500m Conditions: All races experienced strong tailwinds. Wind was 15mph with strong gusts. The wind increased as the Boys 2V boat went down the course and the race was paused. Once conditions died back to 15mph races resumed. Once conditions died back down to a 15&#45;17 tail wind, races resumed. Comments: Race order was Boys Novice, Girls Novice/Novice Mix, B3v, B2V, G1V, B1V. For recording purposes Boys Novice will be recorded as the Boys fourth boat. The girls novice/novice mix will be recorded as GV2 (please note the novice mix boat (Eagle Hill) was a mix of talent and more of a friendly race to get rowers to race). Due to wind Boys Novice started at the 1400 mark.
-None" alt="" coords="1073,891,1093,916,1110,946,1119,972,1121,1000,1117,1034,1110,1070,1093,1103,1082,1117,1078,1113,1088,1100,1105,1068,1112,1033,1116,1000,1114,973,1105,948,1088,919,1068,895"/>
-<area shape="rect" id="edge34-label" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="42.1
-04/24" alt="" coords="1119,987,1160,1031"/>
-<area shape="poly" id="edge33" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Bancroft School vs Worcester Academy, Medford High School, Eagle Hill, St. Mary&#39;s Lynn			
-Distance: 1500m Conditions: All races experienced strong tailwinds. Wind was 15mph with strong gusts. The wind increased as the Boys 2V boat went down the course and the race was paused. Once conditions died back to 15mph races resumed. Once conditions died back down to a 15&#45;17 tail wind, races resumed. Comments: Race order was Boys Novice, Girls Novice/Novice Mix, B3v, B2V, G1V, B1V. For recording purposes Boys Novice will be recorded as the Boys fourth boat. The girls novice/novice mix will be recorded as GV2 (please note the novice mix boat (Eagle Hill) was a mix of talent and more of a friendly race to get rowers to race). Due to wind Boys Novice started at the 1400 mark.
-None" alt="" coords="1047,894,1047,970,1041,970,1041,894"/>
-<area shape="rect" id="edge33-label" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="33.7
-04/24" alt="" coords="1044,917,1085,961"/>
+None" alt="" coords="994,189,1100,276,1097,281,991,193"/>
+<area shape="rect" id="edge52-label" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="7.8 (8.67)
+04/20" alt="" coords="1075,217,1147,261"/>
+<area shape="poly" id="edge45" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None" alt="" coords="933,188,910,202,889,219,788,324,748,370,715,416,690,464,671,519,660,582,657,658,657,871,659,897,665,923,682,970,677,972,660,925,654,898,651,871,651,658,655,582,666,517,685,462,711,413,744,367,784,320,886,215,907,198,931,184"/>
+<area shape="rect" id="edge45-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="61.0
+04/27" alt="" coords="661,567,702,611"/>
+<area shape="poly" id="edge53" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="NEIRA,Buckingham, Browne &amp; Nichols vs Nobles, Groton			
+Distance: 1350m Conditions: Excellent conditions.
+Cloudy and cool
+Mostly flat water.
+A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&amp;N clashed blades for roughly the first 20 strokes due to Groton moving into BB&amp;N&#39;s lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
+5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
+NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
+BB&amp;N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
+Times for this race were:
+Nobles: 2:22.3
+BB&amp;N: 2:30.1
+many thanks to all crews and coaches for a great day of racing for full teams.
+None" alt="" coords="1018,172,1085,186,1121,198,1154,215,1188,242,1209,268,1227,297,1253,332,1265,343,1275,356,1285,383,1291,409,1286,410,1280,384,1270,359,1261,346,1249,335,1222,300,1204,271,1184,245,1151,220,1119,203,1083,191,1017,177"/>
+<area shape="rect" id="edge53-label" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="10.3 (11.44)
+04/20" alt="" coords="1250,287,1340,331"/>
+<area shape="poly" id="edge34" href="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. Nobles			
+Distance: ~1500m Conditions: Gusty headwind (15&#45;25 mph) in moderate chop along lee shore. Crews had approximately the same conditions. Lane assignments probably affected times somewhat. Comments: Challenging conditions overcome by the constructive attitudes of all the coaches and race enthusiasm of athletes. Thanks to a strong Nobles team for coming up for some raw weather racing in early April. We were pleased to get the races in.
+None" alt="" coords="966,194,960,234,955,286,956,344,966,401,971,413,966,415,961,402,950,344,949,286,954,233,961,193"/>
+<area shape="rect" id="edge34-label" href="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&amp;cat=5" title="9.0
+04/13" alt="" coords="951,287,992,331"/>
+<area shape="poly" id="edge20" href="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,BB&amp;N CRLS			
+Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
+None" alt="" coords="1259,465,1229,479,1203,499,1182,525,1168,553,1163,550,1178,522,1199,495,1227,475,1256,460"/>
+<area shape="rect" id="edge20-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&amp;cat=5" title="3.0 (3.33)
+04/13" alt="" coords="1201,497,1273,541"/>
+<area shape="poly" id="edge50" href="https://www.row2k.com/results/resultspage.cfm?UID=C38D2219403C5AD1A2866DA2111E888A&amp;cat=1" title="NEIRA Boys Fours,Middlesex vs. BB&amp;N			
+Distance: 1500m Conditions: Variable light headwind with flat water. Comments: Thank you BB&amp;N for a good afternoon of racing!
+None" alt="" coords="1294,474,1291,517,1282,572,1263,630,1249,658,1231,683,1207,704,1203,700,1227,680,1244,655,1258,628,1276,571,1286,516,1289,474"/>
+<area shape="rect" id="edge50-label" href="https://www.row2k.com/results/resultspage.cfm?UID=C38D2219403C5AD1A2866DA2111E888A&amp;cat=1" title="21.4
+05/04" alt="" coords="1279,567,1320,611"/>
+<area shape="poly" id="edge5" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Brooks and Middlesex			
+Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross&#45;wind to cross&#45;tail 8&#45;12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren&#39;t started until about 650m in, so we got margins only.
+None" alt="" coords="989,474,983,498,967,591,954,684,938,830,933,829,948,683,961,590,978,497,984,473"/>
+<area shape="rect" id="edge5-label" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="17.2
+04/20" alt="" coords="957,637,998,681"/>
+<area shape="poly" id="edge25" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12&#45;15 mph cross headwind with significant chop in the middle 500m. Races were 4&#45;3&#45;2&#45;1&#45;5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None" alt="" coords="1003,473,1018,507,1042,539,1077,563,1074,567,1038,543,1013,509,998,475"/>
+<area shape="rect" id="edge25-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="15.3
+04/27" alt="" coords="1039,497,1080,541"/>
+<area shape="poly" id="edge4" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Brooks and Middlesex			
+Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross&#45;wind to cross&#45;tail 8&#45;12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren&#39;t started until about 650m in, so we got margins only.
+None" alt="" coords="993,474,990,539,996,577,1009,612,1027,639,1050,663,1101,700,1098,704,1047,667,1023,642,1004,615,991,578,985,539,988,474"/>
+<area shape="rect" id="edge4-label" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="16.7
+04/20" alt="" coords="1006,567,1047,611"/>
+<area shape="poly" id="edge32" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Taft &amp; Choate			
+Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate&#39;s lane in the last 250 M. Did not change placement, but Berkshire&#39;s margin over Choate might have been larger without the interference.
+Thanks to Taft and Choate for some great racing in ideal conditions.
+None" alt="" coords="419,754,419,830,414,830,414,754"/>
+<area shape="rect" id="edge32-label" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="12.0
+04/20" alt="" coords="417,777,458,821"/>
 <area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=DE1377E8919904D6083B1C51335B1F5A&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester Academy vs. Bancroft and Marianapolis Prep			
 Distance: 1500 meters Conditions: Steady 10&#45;12 mph tail/cross wind throughout the races. Minimal chop. Comments: In the BV2 event, Worcester Academy&#39;s BV2 shell placed first and BV3 shell placed second. A friendly mixed Novice 4+ was also held with Bancroft vs. Worcester Academy.
-None" alt="" coords="1029,895,996,946,963,1015,950,1054,943,1094,943,1134,952,1172,962,1195,976,1217,1009,1254,1005,1257,972,1220,958,1198,947,1174,938,1134,938,1093,945,1052,958,1013,992,943,1024,892"/>
+None" alt="" coords="1080,1035,1048,1086,1014,1155,1002,1194,995,1234,995,1274,1003,1312,1014,1335,1028,1357,1060,1394,1056,1397,1024,1360,1009,1338,998,1314,989,1274,989,1233,997,1192,1009,1153,1043,1083,1076,1032"/>
 <area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DE1377E8919904D6083B1C51335B1F5A&amp;cat=5" title="77.6
-04/21" alt="" coords="945,1057,986,1101"/>
-<area shape="poly" id="node18" href="boys2foursNMH.html" title="NMH" alt="" coords="1055,169,1052,162,1046,155,1036,150,1024,147,1011,145,997,147,985,150,975,155,969,162,967,169,969,177,975,183,985,189,997,192,1011,193,1024,192,1036,189,1046,183,1052,177"/>
-<area shape="poly" id="edge17" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
-Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
-None" alt="" coords="979,189,959,196,926,204,899,207,873,210,841,220,731,287,708,312,684,335,659,349,633,360,598,383,561,404,498,425,437,440,436,434,496,420,559,399,595,378,631,355,657,344,681,331,705,308,728,283,839,215,872,205,899,201,925,198,958,191,977,184"/>
-<area shape="rect" id="edge17-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="22.8
-04/20" alt="" coords="731,287,772,331"/>
-<area shape="poly" id="edge23" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs NMH, Middlesex and CRLS			
-Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12&#45;15 mph cross headwind with significant chop in the middle 500m. Races were 4&#45;3&#45;2&#45;1&#45;5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
-None" alt="" coords="1001,194,941,304,906,362,878,403,863,418,860,414,874,400,902,359,936,302,997,192"/>
-<area shape="rect" id="edge23-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="17.8
-04/27" alt="" coords="947,287,988,331"/>
-<area shape="poly" id="edge40" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
-Distance: 1500m Conditions: A prevailing 12&#45;14mph crosswind shifting to a cross/tail for some races. Two small short&#45;lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3&#45;G4&#45;B2&#45;G1&#45;B1&#45;G2&#45;G3. There was no B4 race. Races aren&#39;t comparable because of very shifty conditions. Boys 2V started 50m over the line.
-None" alt="" coords="1023,192,1155,480,1255,705,1260,730,1254,754,1240,780,1223,796,1176,824,1126,847,1124,842,1173,819,1219,792,1235,777,1250,752,1254,730,1249,706,1150,482,1018,194"/>
-<area shape="rect" id="edge40-label" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="72.0
-04/13" alt="" coords="1177,497,1218,541"/>
-<area shape="poly" id="node22" href="boys2foursStMarks.html" title="StMarks" alt="" coords="669,729,666,722,658,715,645,710,630,707,612,705,594,707,579,710,566,715,558,722,555,729,558,737,566,743,579,749,594,752,612,753,630,752,645,749,658,743,666,737"/>
-<area shape="poly" id="edge39" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
-Distance: 1500m Conditions: A prevailing 12&#45;14mph crosswind shifting to a cross/tail for some races. Two small short&#45;lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3&#45;G4&#45;B2&#45;G1&#45;B1&#45;G2&#45;G3. There was no B4 race. Races aren&#39;t comparable because of very shifty conditions. Boys 2V started 50m over the line.
-None" alt="" coords="1013,194,1013,308,1013,591,1011,604,1003,617,977,640,937,659,889,677,781,704,681,721,680,716,780,699,888,672,935,654,974,635,999,614,1006,602,1008,590,1008,308,1008,194"/>
-<area shape="rect" id="edge39-label" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="29.0
-04/13" alt="" coords="1011,427,1052,471"/>
-<area shape="poly" id="node25" href="boys2foursBrooks.html" title="Brooks" alt="" coords="883,309,881,302,874,295,863,290,849,287,833,285,818,287,804,290,793,295,786,302,783,309,786,317,793,323,804,329,818,332,833,333,849,332,863,329,874,323,881,317"/>
-<area shape="poly" id="edge22" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs NMH, Middlesex and CRLS			
-Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12&#45;15 mph cross headwind with significant chop in the middle 500m. Races were 4&#45;3&#45;2&#45;1&#45;5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
-None" alt="" coords="976,186,949,196,908,203,892,208,874,219,856,244,844,272,839,270,851,241,871,215,889,203,907,198,947,191,974,181"/>
-<area shape="rect" id="edge22-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="2.5
-04/27" alt="" coords="872,217,913,261"/>
+04/21" alt="" coords="997,1197,1038,1241"/>
+<area shape="poly" id="edge35" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Bancroft School vs Worcester Academy, Medford High School, Eagle Hill, St. Mary&#39;s Lynn			
+Distance: 1500m Conditions: All races experienced strong tailwinds. Wind was 15mph with strong gusts. The wind increased as the Boys 2V boat went down the course and the race was paused. Once conditions died back to 15mph races resumed. Once conditions died back down to a 15&#45;17 tail wind, races resumed. Comments: Race order was Boys Novice, Girls Novice/Novice Mix, B3v, B2V, G1V, B1V. For recording purposes Boys Novice will be recorded as the Boys fourth boat. The girls novice/novice mix will be recorded as GV2 (please note the novice mix boat (Eagle Hill) was a mix of talent and more of a friendly race to get rowers to race). Due to wind Boys Novice started at the 1400 mark.
+None" alt="" coords="1098,1034,1098,1110,1093,1110,1093,1034"/>
+<area shape="rect" id="edge35-label" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="33.7
+04/24" alt="" coords="1095,1057,1136,1101"/>
+<area shape="poly" id="edge36" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Bancroft School vs Worcester Academy, Medford High School, Eagle Hill, St. Mary&#39;s Lynn			
+Distance: 1500m Conditions: All races experienced strong tailwinds. Wind was 15mph with strong gusts. The wind increased as the Boys 2V boat went down the course and the race was paused. Once conditions died back to 15mph races resumed. Once conditions died back down to a 15&#45;17 tail wind, races resumed. Comments: Race order was Boys Novice, Girls Novice/Novice Mix, B3v, B2V, G1V, B1V. For recording purposes Boys Novice will be recorded as the Boys fourth boat. The girls novice/novice mix will be recorded as GV2 (please note the novice mix boat (Eagle Hill) was a mix of talent and more of a friendly race to get rowers to race). Due to wind Boys Novice started at the 1400 mark.
+None" alt="" coords="1124,1031,1144,1056,1161,1089,1169,1125,1173,1159,1171,1187,1161,1213,1144,1243,1134,1257,1130,1253,1140,1240,1156,1211,1165,1186,1167,1159,1163,1126,1156,1091,1140,1059,1120,1035"/>
+<area shape="rect" id="edge36-label" href="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&amp;cat=5" title="42.1
+04/24" alt="" coords="1170,1127,1211,1171"/>
+<area shape="poly" id="node28" href="boys2foursBelmontHill.html" title="BelmontHill" alt="" coords="1045,29,1042,22,1031,15,1014,10,992,7,969,5,945,7,924,10,907,15,896,22,892,29,896,37,907,43,924,49,945,52,969,53,992,52,1014,49,1031,43,1042,37"/>
 <area shape="poly" id="edge16" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
-None" alt="" coords="977,187,949,196,898,201,834,203,770,207,744,212,724,220,714,229,709,239,704,251,694,263,665,285,662,281,690,259,699,248,704,237,710,225,722,215,742,207,769,202,833,197,898,196,947,191,976,182"/>
-<area shape="rect" id="edge16-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="20.4
-04/20" alt="" coords="724,217,765,261"/>
-<area shape="poly" id="edge29" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Taft &amp; Choate			
-Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate&#39;s lane in the last 250 M. Did not change placement, but Berkshire&#39;s margin over Choate might have been larger without the interference.
-Thanks to Taft and Choate for some great racing in ideal conditions.
-None" alt="" coords="225,614,206,677,202,715,206,753,217,790,226,804,242,819,257,830,271,834,306,843,315,846,313,851,305,848,270,839,255,835,238,823,222,808,213,793,200,754,196,715,200,676,220,612"/>
-<area shape="rect" id="edge29-label" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="14.6
-04/20" alt="" coords="204,707,245,751"/>
-<area shape="poly" id="edge28" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Taft &amp; Choate			
-Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate&#39;s lane in the last 250 M. Did not change placement, but Berkshire&#39;s margin over Choate might have been larger without the interference.
-Thanks to Taft and Choate for some great racing in ideal conditions.
-None" alt="" coords="249,610,276,644,309,679,326,694,322,698,305,683,272,647,245,613"/>
-<area shape="rect" id="edge28-label" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="2.5
-04/20" alt="" coords="308,637,349,681"/>
-<area shape="poly" id="edge44" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Nobles, Brewster, NCDS			
-Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
-None" alt="" coords="562,743,490,756,441,761,403,762,367,766,321,780,269,807,225,838,222,834,267,802,319,775,366,761,403,757,441,756,489,751,561,738"/>
-<area shape="rect" id="edge44-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="28.9
-04/27" alt="" coords="321,777,362,821"/>
-<area shape="poly" id="edge41" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
-Distance: 1500m Conditions: A prevailing 12&#45;14mph crosswind shifting to a cross/tail for some races. Two small short&#45;lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3&#45;G4&#45;B2&#45;G1&#45;B1&#45;G2&#45;G3. There was no B4 race. Races aren&#39;t comparable because of very shifty conditions. Boys 2V started 50m over the line.
-None" alt="" coords="657,742,969,841,968,847,656,747"/>
-<area shape="rect" id="edge41-label" href="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&amp;cat=5" title="43.0
-04/13" alt="" coords="891,777,932,821"/>
-<area shape="poly" id="node23" href="boys2foursBelmontHill.html" title="BelmontHill" alt="" coords="1087,29,1084,22,1073,15,1056,10,1034,7,1011,5,987,7,966,10,949,15,938,22,934,29,938,37,949,43,966,49,987,52,1011,53,1034,52,1056,49,1073,43,1084,37"/>
-<area shape="poly" id="edge25" href="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&amp;cat=1" title="NEIRA Boys Fours,Belmont Hill vs BBN/The Ducey Cup, including JV races			
-Distance: 1300m Conditions: Great water. Modest wind, shifting over the course of the racing from calm &amp; tail to calm &amp; head. Race order was from 4V8&#45;1V4 Comments: A beautiful day on the Chalres and great racing by all of the crews! Belmont Hill retains the Ducey Cup by virtue of winning the 1V4 race.
-None" alt="" coords="960,50,866,89,814,116,765,147,752,159,744,171,735,183,722,196,706,204,692,208,679,211,664,219,653,230,647,241,639,252,627,264,606,274,588,279,547,288,540,291,539,286,546,283,587,274,604,269,624,259,635,249,642,238,649,227,661,215,677,206,691,203,704,199,718,191,731,179,740,168,748,156,762,143,811,111,863,84,958,45"/>
-<area shape="rect" id="edge25-label" href="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&amp;cat=1" title="12.4 (14.31)
-04/27" alt="" coords="764,147,854,191"/>
-<area shape="poly" id="edge15" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+None" alt="" coords="903,45,825,65,734,99,688,122,644,149,604,181,570,219,556,241,545,265,531,316,526,367,526,410,520,410,520,366,526,315,540,263,551,238,566,216,600,178,641,145,685,117,731,94,823,60,902,39"/>
+<area shape="rect" id="edge16-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="25.8
+04/20" alt="" coords="569,217,610,261"/>
+<area shape="poly" id="edge14" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
-None" alt="" coords="938,40,818,53,679,75,612,90,551,107,502,126,468,147,443,176,422,208,406,243,394,280,379,351,374,410,368,409,374,350,389,279,401,241,417,206,439,172,465,143,500,121,550,102,610,85,678,70,818,48,937,34"/>
-<area shape="rect" id="edge15-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="25.8
-04/20" alt="" coords="415,217,456,261"/>
+None" alt="" coords="948,55,924,79,867,138,863,135,920,75,945,51"/>
+<area shape="rect" id="edge14-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="3.0
+04/20" alt="" coords="922,77,963,121"/>
 <area shape="poly" id="edge9" href="https://www.row2k.com/results/resultspage.cfm?UID=95B6D80715F8274903E678063EA5058A&amp;cat=1" title="NEIRA Boys Fours,Belmont Hill, Middlesex, CRLS			
 Distance: 1300 Conditions: Good water with swirling winds &#45;&#45; sometimes cross&#45;head, sometimes cross&#45;tail, sometimes straight cross, varying race&#45;to&#45;race. Comments: The 3V4 race was action&#45;packed: MX caught an over&#45;the&#45;head, boat&#45;stopping crab just over a minute into the race, while the 3&#45;seat of the BHS crew had his oar pop out of his oarlock not once but twice during the race; these incidents caused stoppages of significant duration for both crews. An oarsman in the CRLS 1V4 tested positive for Covid prior to the race and the crew was thus unable to compete today.
 Thanks to Middlesex and CRLS for a great day of racing on the Charles!
-None" alt="" coords="1040,50,1060,76,1081,126,1089,169,1083,212,1065,262,1050,291,1030,317,984,362,932,398,883,424,881,420,929,393,980,358,1026,313,1045,288,1060,260,1078,211,1083,169,1076,127,1055,79,1036,54"/>
+None" alt="" coords="1016,46,1088,81,1177,132,1223,164,1267,200,1308,240,1343,284,1390,352,1410,384,1424,415,1432,446,1432,478,1421,510,1399,543,1388,551,1372,557,1333,563,1261,568,1237,573,1236,568,1260,563,1332,557,1371,552,1385,547,1395,539,1416,507,1426,477,1427,447,1419,417,1405,386,1386,355,1339,287,1304,243,1264,204,1220,168,1174,137,1086,85,1013,51"/>
 <area shape="rect" id="edge9-label" href="https://www.row2k.com/results/resultspage.cfm?UID=95B6D80715F8274903E678063EA5058A&amp;cat=1" title="20.6 (23.77)
-04/24" alt="" coords="1079,217,1169,261"/>
-<area shape="poly" id="edge13" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+04/24" alt="" coords="1373,287,1463,331"/>
+<area shape="poly" id="edge15" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
-None" alt="" coords="1013,54,1013,130,1008,130,1008,54"/>
-<area shape="rect" id="edge13-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="3.0
-04/20" alt="" coords="1011,77,1052,121"/>
+None" alt="" coords="892,33,726,36,626,42,524,52,426,66,340,86,271,113,246,129,227,147,216,169,218,190,231,211,253,230,311,263,374,287,372,292,309,268,249,234,227,214,213,192,211,168,223,144,242,125,269,108,338,81,425,61,524,46,626,37,726,31,892,27"/>
+<area shape="rect" id="edge15-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="23.4
+04/20" alt="" coords="226,147,267,191"/>
 <area shape="poly" id="edge10" href="https://www.row2k.com/results/resultspage.cfm?UID=95B6D80715F8274903E678063EA5058A&amp;cat=1" title="NEIRA Boys Fours,Belmont Hill, Middlesex, CRLS			
 Distance: 1300 Conditions: Good water with swirling winds &#45;&#45; sometimes cross&#45;head, sometimes cross&#45;tail, sometimes straight cross, varying race&#45;to&#45;race. Comments: The 3V4 race was action&#45;packed: MX caught an over&#45;the&#45;head, boat&#45;stopping crab just over a minute into the race, while the 3&#45;seat of the BHS crew had his oar pop out of his oarlock not once but twice during the race; these incidents caused stoppages of significant duration for both crews. An oarsman in the CRLS 1V4 tested positive for Covid prior to the race and the crew was thus unable to compete today.
 Thanks to Middlesex and CRLS for a great day of racing on the Charles!
-None" alt="" coords="1051,48,1087,75,1134,120,1171,161,1183,183,1189,207,1187,233,1177,263,925,476,902,484,881,487,844,486,809,486,789,490,768,500,756,509,750,520,743,532,731,543,679,571,677,566,728,539,739,528,745,517,752,506,765,495,788,485,808,480,844,481,881,482,901,479,923,471,1172,260,1182,232,1183,207,1178,185,1166,164,1130,123,1084,79,1048,53"/>
+None" alt="" coords="1045,28,1205,35,1298,43,1391,55,1476,73,1546,96,1573,111,1593,128,1607,147,1611,168,1611,592,1218,711,1216,706,1607,589,1606,168,1602,149,1590,131,1570,116,1544,101,1475,78,1390,61,1298,48,1205,40,1045,34"/>
 <area shape="rect" id="edge10-label" href="https://www.row2k.com/results/resultspage.cfm?UID=95B6D80715F8274903E678063EA5058A&amp;cat=1" title="26.0 (30.0)
-04/24" alt="" coords="1145,287,1226,331"/>
-<area shape="poly" id="edge14" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
-Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
-None" alt="" coords="995,55,928,134,891,172,860,196,836,205,815,209,777,207,739,206,719,210,697,220,685,229,677,238,661,263,647,278,643,274,657,260,673,235,681,225,695,215,718,205,739,201,777,202,815,204,835,200,857,191,887,168,924,130,991,51"/>
-<area shape="rect" id="edge14-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="23.4
-04/20" alt="" coords="912,147,953,191"/>
-<area shape="poly" id="node24" href="boys2foursNobles.html" title="Nobles" alt="" coords="292,29,290,22,283,15,272,10,258,7,243,5,227,7,214,10,203,15,196,22,193,29,196,37,203,43,214,49,227,52,243,53,258,52,272,49,283,43,290,37"/>
-<area shape="poly" id="edge51" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="NEIRA,Buckingham, Browne &amp; Nichols vs Nobles, Groton			
-Distance: 1350m Conditions: Excellent conditions.
-Cloudy and cool
-Mostly flat water.
-A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&amp;N clashed blades for roughly the first 20 strokes due to Groton moving into BB&amp;N&#39;s lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
-5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
-NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
-BB&amp;N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
-Times for this race were:
-Nobles: 2:22.3
-BB&amp;N: 2:30.1
-many thanks to all crews and coaches for a great day of racing for full teams.
-None" alt="" coords="260,51,347,169,418,259,452,284,449,288,414,263,342,172,256,54"/>
-<area shape="rect" id="edge51-label" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="10.3 (11.44)
-04/20" alt="" coords="361,147,451,191"/>
-<area shape="poly" id="edge50" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="NEIRA,Buckingham, Browne &amp; Nichols vs Nobles, Groton			
-Distance: 1350m Conditions: Excellent conditions.
-Cloudy and cool
-Mostly flat water.
-A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&amp;N clashed blades for roughly the first 20 strokes due to Groton moving into BB&amp;N&#39;s lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
-5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
-NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
-BB&amp;N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
-Times for this race were:
-Nobles: 2:22.3
-BB&amp;N: 2:30.1
-many thanks to all crews and coaches for a great day of racing for full teams.
-None" alt="" coords="201,44,175,58,154,79,147,103,148,130,142,130,141,103,150,76,172,54,199,39"/>
-<area shape="rect" id="edge50-label" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="7.8 (8.67)
-04/20" alt="" coords="152,77,224,121"/>
-<area shape="poly" id="edge43" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Nobles, Brewster, NCDS			
-Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
-None" alt="" coords="196,39,137,52,76,76,49,93,27,114,13,139,8,168,8,731,10,750,17,768,41,798,75,823,112,841,109,846,72,827,37,802,12,770,5,751,3,731,3,168,8,137,23,111,46,89,73,72,136,47,195,34"/>
-<area shape="rect" id="edge43-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="61.0
-04/27" alt="" coords="5,427,46,471"/>
-<area shape="poly" id="edge42" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Nobles, Brewster, NCDS			
-Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
-None" alt="" coords="244,54,238,155,235,299,237,373,242,441,252,499,266,540,284,561,312,584,390,629,479,671,558,704,556,709,476,676,387,634,309,588,280,565,262,543,246,500,237,442,231,373,229,299,232,155,238,54"/>
-<area shape="rect" id="edge42-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="32.1
-04/27" alt="" coords="236,357,277,401"/>
-<area shape="poly" id="edge32" href="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. Nobles			
-Distance: ~1500m Conditions: Gusty headwind (15&#45;25 mph) in moderate chop along lee shore. Crews had approximately the same conditions. Lane assignments probably affected times somewhat. Comments: Challenging conditions overcome by the constructive attitudes of all the coaches and race enthusiasm of athletes. Thanks to a strong Nobles team for coming up for some raw weather racing in early April. We were pleased to get the races in.
-None" alt="" coords="292,32,364,43,454,63,549,95,596,117,639,143,651,156,658,168,664,180,675,191,700,201,723,202,746,204,772,215,799,241,819,271,814,274,795,245,769,220,745,209,722,208,699,206,672,196,660,183,653,171,647,159,636,147,593,122,547,100,452,68,363,48,291,38"/>
-<area shape="rect" id="edge32-label" href="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&amp;cat=5" title="9.0
-04/13" alt="" coords="675,147,716,191"/>
-<area shape="poly" id="edge24" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs NMH, Middlesex and CRLS			
-Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12&#45;15 mph cross headwind with significant chop in the middle 500m. Races were 4&#45;3&#45;2&#45;1&#45;5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
-None" alt="" coords="834,334,826,410,821,410,828,334"/>
-<area shape="rect" id="edge24-label" href="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&amp;cat=5" title="15.3
-04/27" alt="" coords="829,357,870,401"/>
-<area shape="poly" id="edge5" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Brooks and Middlesex			
-Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross&#45;wind to cross&#45;tail 8&#45;12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren&#39;t started until about 650m in, so we got margins only.
-None" alt="" coords="797,329,778,336,757,341,740,342,725,346,711,359,707,369,707,378,712,401,711,438,713,453,718,472,728,484,737,496,742,519,737,542,724,585,708,617,661,683,648,698,644,695,657,680,704,614,719,583,732,541,736,519,732,498,723,487,714,475,708,454,706,438,707,402,702,378,702,368,707,356,722,342,739,337,756,336,777,331,795,324"/>
-<area shape="rect" id="edge5-label" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="17.2
-04/20" alt="" coords="740,497,781,541"/>
-<area shape="poly" id="edge4" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Brooks and Middlesex			
-Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross&#45;wind to cross&#45;tail 8&#45;12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren&#39;t started until about 650m in, so we got margins only.
-None" alt="" coords="794,327,766,336,739,341,717,343,696,347,674,359,654,378,639,400,628,425,620,451,612,504,612,550,606,550,607,503,615,450,623,423,634,397,650,374,670,355,694,342,716,338,738,336,765,331,793,322"/>
-<area shape="rect" id="edge4-label" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="16.7
-04/20" alt="" coords="624,427,665,471"/>
-<area shape="poly" id="node26" href="boys2foursBerwick.html" title="Berwick" alt="" coords="1160,589,1157,582,1149,575,1137,570,1121,567,1104,565,1087,567,1071,570,1059,575,1051,582,1048,589,1051,597,1059,603,1071,609,1087,612,1104,613,1121,612,1137,609,1149,603,1157,597"/>
-<area shape="poly" id="edge21" href="https://www.row2k.com/results/resultspage.cfm?UID=2A4F56FA4FB7C41A0E813337362894A3&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berwick Academy vs. Derryfield School			
-Distance: 1500 Conditions: Light drizzle and grey skies, but flat conditions. Racing in the direction of the incoming tide. Comments: The boys 4V even was a combination of 4V boys with novice boys and served as an intersquad scrimmage. This race was slightly shorter and started around the 1250 mark.
-The girls 3V was a mixed boat event with even gender splits in each boat and represented various skill levels.
-Thank you Derryfield for making the trip and dealing with Maine mud season.
-None" alt="" coords="1101,614,1099,647,1101,664,1107,680,1124,700,1119,703,1102,683,1096,665,1093,647,1096,614"/>
-<area shape="rect" id="edge21-label" href="https://www.row2k.com/results/resultspage.cfm?UID=2A4F56FA4FB7C41A0E813337362894A3&amp;cat=5" title="26.1
-04/20" alt="" coords="1104,637,1145,681"/>
-<area shape="poly" id="edge36" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester Academy vs Bancroft School, Berwick Academy and Derryfield School			
-Distance: 1500 m Conditions: All races experienced a tailwind of approximately 8&#45;10 mph and light chop. Comments: Race order was B1V, G1V, B2V, B3V, BN1/GN1. Notes: In G1V race, Derryfield 2V raced as Derryfield B. In B3 race, Berwick 4V raced as Berwick B. A novice race has been recorded under the B4V event and consisted of Berwick BN1, Derryfield GN1 and Worcester Academy GN1.
-None" alt="" coords="1128,610,1148,636,1160,663,1169,690,1164,691,1155,665,1143,639,1124,614"/>
-<area shape="rect" id="edge36-label" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="19.3
-04/28" alt="" coords="1163,637,1204,681"/>
-<area shape="poly" id="edge37" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Worcester Academy vs Bancroft School, Berwick Academy and Derryfield School			
-Distance: 1500 m Conditions: All races experienced a tailwind of approximately 8&#45;10 mph and light chop. Comments: Race order was B1V, G1V, B2V, B3V, BN1/GN1. Notes: In G1V race, Derryfield 2V raced as Derryfield B. In B3 race, Berwick 4V raced as Berwick B. A novice race has been recorded under the B4V event and consisted of Berwick BN1, Derryfield GN1 and Worcester Academy GN1.
-None" alt="" coords="1095,614,1075,656,1059,706,1049,771,1046,830,1041,830,1044,771,1054,705,1070,654,1090,612"/>
-<area shape="rect" id="edge37-label" href="https://www.row2k.com/results/resultspage.cfm?UID=81067D27DF71795C160BB3CEFD091670&amp;cat=5" title="39.8
-04/28" alt="" coords="1056,707,1097,751"/>
-<area shape="poly" id="edge6" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Brooks and Middlesex			
-Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross&#45;wind to cross&#45;tail 8&#45;12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren&#39;t started until about 650m in, so we got margins only.
-None" alt="" coords="615,614,615,690,609,690,609,614"/>
-<area shape="rect" id="edge6-label" href="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&amp;cat=5" title="0.5
-04/20" alt="" coords="612,637,653,681"/>
-<area shape="poly" id="edge18" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
-Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
-None" alt="" coords="579,330,520,360,414,423,412,418,518,355,576,325"/>
-<area shape="rect" id="edge18-label" href="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&amp;cat=1" title="2.4
-04/20" alt="" coords="520,357,561,401"/>
+04/24" alt="" coords="1609,357,1690,401"/>
+<area shape="poly" id="edge28" href="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&amp;cat=1" title="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
+Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
+None" alt="" coords="971,54,971,130,966,130,966,54"/>
+<area shape="rect" id="edge28-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&amp;cat=1" title="1.9 (2.19)
+05/04" alt="" coords="969,77,1041,121"/>
+<area shape="poly" id="edge26" href="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&amp;cat=1" title="NEIRA Boys Fours,Belmont Hill vs BBN/The Ducey Cup, including JV races			
+Distance: 1300m Conditions: Great water. Modest wind, shifting over the course of the racing from calm &amp; tail to calm &amp; head. Race order was from 4V8&#45;1V4 Comments: A beautiful day on the Chalres and great racing by all of the crews! Belmont Hill retains the Ducey Cup by virtue of winning the 1V4 race.
+None" alt="" coords="1046,27,1137,29,1238,36,1329,50,1365,61,1390,75,1423,103,1450,132,1472,162,1486,193,1494,225,1494,260,1485,296,1468,335,1443,369,1410,396,1375,418,1341,434,1339,429,1372,413,1407,392,1439,365,1464,332,1480,294,1488,259,1488,226,1481,194,1467,164,1446,135,1419,107,1387,80,1362,66,1328,56,1237,41,1137,34,1046,32"/>
+<area shape="rect" id="edge26-label" href="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&amp;cat=1" title="12.4 (14.31)
+04/27" alt="" coords="1491,217,1581,261"/>
 </map>

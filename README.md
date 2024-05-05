@@ -26,7 +26,7 @@ Data is updated following this process:
 Here are the commands needed for the above process. See the Corrections documentation for help with the review process.
 
 ```bash
-neira scrape
+neira scrape --refresh
 neira review
 neira apply-corrections
 

@@ -1,4 +1,4 @@
-digraph boys2fours {StMarysLynn [URL="boys2foursStMarysLynn.html"];Derryfield [URL="boys2foursDerryfield.html"];Pingree [URL="boys2foursPingree.html"];Choate [URL="boys2foursChoate.html"];BBN [URL="boys2foursBBN.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];Pomfret [URL="boys2foursPomfret.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];CambridgeRLS [URL="boys2foursCambridgeRLS.html"];KingSchool [URL="boys2foursKingSchool.html"];Groton [URL="boys2foursGroton.html"];Middletown [URL="boys2foursMiddletown.html"];Suffield [URL="boys2foursSuffield.html"];NotreDame [URL="boys2foursNotreDame.html"];Medford [URL="boys2foursMedford.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];NMH [URL="boys2foursNMH.html"];MarianapolisPrep [URL="boys2foursMarianapolisPrep.html"];Taft [URL="boys2foursTaft.html"];BUAcademy [URL="boys2foursBUAcademy.html"];StMarks [URL="boys2foursStMarks.html"];BelmontHill [URL="boys2foursBelmontHill.html"];Nobles [URL="boys2foursNobles.html"];Brooks [URL="boys2foursBrooks.html"];Berwick [URL="boys2foursBerwick.html"];Middlesex [URL="boys2foursMiddlesex.html"];Hopkins [URL="boys2foursHopkins.html"];Groton -> Middlesex[label="12.3
+digraph boys2fours {Pingree [URL="boys2foursPingree.html"];Pomfret [URL="boys2foursPomfret.html"];MarianapolisPrep [URL="boys2foursMarianapolisPrep.html"];NMH [URL="boys2foursNMH.html"];NotreDame [URL="boys2foursNotreDame.html"];Taft [URL="boys2foursTaft.html"];KingSchool [URL="boys2foursKingSchool.html"];Derryfield [URL="boys2foursDerryfield.html"];Middletown [URL="boys2foursMiddletown.html"];StMarks [URL="boys2foursStMarks.html"];CambridgeRLS [URL="boys2foursCambridgeRLS.html"];Hopkins [URL="boys2foursHopkins.html"];Groton [URL="boys2foursGroton.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Medford [URL="boys2foursMedford.html"];Berwick [URL="boys2foursBerwick.html"];BUAcademy [URL="boys2foursBUAcademy.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];Middlesex [URL="boys2foursMiddlesex.html"];Suffield [URL="boys2foursSuffield.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Nobles [URL="boys2foursNobles.html"];BBN [URL="boys2foursBBN.html"];Brooks [URL="boys2foursBrooks.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];Choate [URL="boys2foursChoate.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];BelmontHill [URL="boys2foursBelmontHill.html"];Groton -> Middlesex[label="12.3
 05/01", weight="88", tooltip="NEIRA Boys Fours,Groton vs. Middlesex			
 Distance: 1500m Conditions: Great racing conditions for all races. Flat water, no wind and little current. Comments: Thank you to Groton for a great afternoon of racing. Well rowed by all crews!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&cat=1", random="random"]; 
@@ -54,6 +54,12 @@ Distance: 1500 Conditions: Boys Varsity 1- strong tail current, S winds at 3 mph
 Girls Varsity 2- strong tail current, winds at 5 mph, significant chop
 Boys Varsity 2- strong tail current, wind gusts at 18 mph, significant chop
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AC683D5136F31AD9F0E016CDFC3F0E3D&cat=1", random="random"]; 
+Groton -> CambridgeRLS[label="12.0
+05/04", weight="88", tooltip="NEIRA,Cambridge Rindge and Latin HS at Groton			
+Distance: 1225 m. Conditions: Very little current. Flat water. Beginning with the second boats, a slight amount of headwind. Race order G4, B4, G3, B3, G2, B2, G1, B1 Comments: Great racing conditions and great racing by the crews.
+In the G2, the start was strokes on the line instead of bow balls.
+Thank you CRLS for an excellent afternoon.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CF11D4E6381F0019C765544CCA920DEE&cat=5", random="random"]; 
 BelmontHill -> NMH[label="3.0
 04/20", weight="97", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
@@ -112,6 +118,10 @@ Derryfield -> MarianapolisPrep[label="103.2
 04/17", weight="-3", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. Derryfield			
 Distance: 1500m Conditions: Stiff head wind throughout all races, particularly the first 700m. Comments: Thank you, Derryfield, for making the trip down from NH!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&cat=5", random="random"]; 
+BelmontHill -> Nobles[label="1.9 (2.19)
+05/04", weight="99", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
+Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&cat=1", random="random"]; 
 KingSchool -> Hopkins[label="5.1 (6.12)
 04/10", weight="95", tooltip="NEIRA Boys Fours,King School vs Hopkins			
 Distance: 1250m Conditions: All races: heavy cross head wind at slack tide Comments: Great racing by all crews!

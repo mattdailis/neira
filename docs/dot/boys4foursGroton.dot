@@ -1,7 +1,13 @@
-digraph boys4foursGroton {Groton [URL="boys4foursGrotonGroton.html"];Taft [URL="boys4foursGrotonTaft.html"];Middlesex [URL="boys4foursGrotonMiddlesex.html"];Nobles [URL="boys4foursGrotonNobles.html"];BBN [URL="boys4foursGrotonBBN.html"];Pomfret [URL="boys4foursGrotonPomfret.html"];Groton -> Middlesex[label="21.8
+digraph boys4foursGroton {Groton [URL="boys4foursGrotonGroton.html"];Taft [URL="boys4foursGrotonTaft.html"];Nobles [URL="boys4foursGrotonNobles.html"];BBN [URL="boys4foursGrotonBBN.html"];Pomfret [URL="boys4foursGrotonPomfret.html"];Middlesex [URL="boys4foursGrotonMiddlesex.html"];CambridgeRLS [URL="boys4foursGrotonCambridgeRLS.html"];Groton -> Middlesex[label="21.8
 05/01", weight="79", tooltip="NEIRA Boys Fours,Groton vs. Middlesex			
 Distance: 1500m Conditions: Great racing conditions for all races. Flat water, no wind and little current. Comments: Thank you to Groton for a great afternoon of racing. Well rowed by all crews!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&cat=1", random="random"]; 
+Groton -> CambridgeRLS[label="10.1
+05/04", weight="90", tooltip="NEIRA,Cambridge Rindge and Latin HS at Groton			
+Distance: 1225 m. Conditions: Very little current. Flat water. Beginning with the second boats, a slight amount of headwind. Race order G4, B4, G3, B3, G2, B2, G1, B1 Comments: Great racing conditions and great racing by the crews.
+In the G2, the start was strokes on the line instead of bow balls.
+Thank you CRLS for an excellent afternoon.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CF11D4E6381F0019C765544CCA920DEE&cat=5", random="random"]; 
 Groton -> Taft[label="9.1
 04/27", weight="91", tooltip="NEIRA Boys ,Pomfret v. Groton, Taft			
 Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls' races interspersed).

@@ -1,4 +1,10 @@
-digraph boys1foursCambridgeRLS {CambridgeRLS [URL="boys1foursCambridgeRLSCambridgeRLS.html"];Brooks [URL="boys1foursCambridgeRLSBrooks.html"];NMH [URL="boys1foursCambridgeRLSNMH.html"];BUAcademy [URL="boys1foursCambridgeRLSBUAcademy.html"];Thayer [URL="boys1foursCambridgeRLSThayer.html"];BBN [URL="boys1foursCambridgeRLSBBN.html"];CambridgeRLS -> BBN[label="0.9 (1.0)
+digraph boys1foursCambridgeRLS {Groton [URL="boys1foursCambridgeRLSGroton.html"];BBN [URL="boys1foursCambridgeRLSBBN.html"];Brooks [URL="boys1foursCambridgeRLSBrooks.html"];BUAcademy [URL="boys1foursCambridgeRLSBUAcademy.html"];Thayer [URL="boys1foursCambridgeRLSThayer.html"];NMH [URL="boys1foursCambridgeRLSNMH.html"];CambridgeRLS [URL="boys1foursCambridgeRLSCambridgeRLS.html"];Groton -> CambridgeRLS[label="9.5
+05/04", weight="91", tooltip="NEIRA,Cambridge Rindge and Latin HS at Groton			
+Distance: 1225 m. Conditions: Very little current. Flat water. Beginning with the second boats, a slight amount of headwind. Race order G4, B4, G3, B3, G2, B2, G1, B1 Comments: Great racing conditions and great racing by the crews.
+In the G2, the start was strokes on the line instead of bow balls.
+Thank you CRLS for an excellent afternoon.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CF11D4E6381F0019C765544CCA920DEE&cat=5", random="random"]; 
+CambridgeRLS -> BBN[label="0.9 (1.0)
 04/13", weight="100", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
 Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&cat=5", random="random"]; 

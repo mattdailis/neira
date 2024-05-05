@@ -11,6 +11,17 @@
         "checksum": "9ed22d26c4145034070fcaf6ba7a1638",
         "corrections": []
     },
+    "04A0E710667843CC6B974150865EFE56": {
+        "checksum": "692dad34f5c2cf8e4ddb9ab863b9e1ea",
+        "corrections": [
+            {
+                "heats": [
+                    "girls 5"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
     "09220DA7336A1394F7FD04227504EAAE": {
         "checksum": "103b8bc4d51b3de241cbabbec0771140",
         "corrections": []
@@ -202,6 +213,10 @@
         "checksum": "bd118dea8afb03b65c53235b376b0078",
         "corrections": []
     },
+    "5642DF6E89C66EA51756ECDA7F7C907D": {
+        "checksum": "4aa7f7ca2f9d47ef8fd1007eff1f615c",
+        "corrections": []
+    },
     "572A866681F1A29F4BC821412ED10F61": {
         "checksum": "89c36c7d868259fe29f09150c830a7e0",
         "corrections": []
@@ -372,6 +387,23 @@
             }
         ]
     },
+    "A465B93D1EE686E490EE830AFB03A036": {
+        "checksum": "f79e41a7c571307de989575419e7ada1",
+        "corrections": []
+    },
+    "A58162E41E15D75AA018510B94843814": {
+        "checksum": "6278a5f092df160a5f74e150d44e5790",
+        "corrections": []
+    },
+    "A5B89B2E3F4229F69333FE91D686A8AC": {
+        "checksum": "a6653170109baee198c1546d1a2a3869",
+        "corrections": [
+            {
+                "comment": "definitely revisit boys 6. The automation cieaned it correctly, I think, but it still violates some assumptions.",
+                "type": "comment"
+            }
+        ]
+    },
     "A6F3B0420129EB02E75FD2608D0C3CD5": {
         "checksum": "fe0694f033a2a6aacfaef032a74717c1",
         "corrections": []
@@ -452,6 +484,10 @@
         "checksum": "ee7ed8e47fb92662b932be526311e9d7",
         "corrections": []
     },
+    "C46433DB2A5914B7AB78526EF332CDE9": {
+        "checksum": "317705dd2896fb9faaa27a246e1a0700",
+        "corrections": []
+    },
     "C55D042DC8DE58BCD614F6CCB55D1228": {
         "checksum": "479f975c26b908cfcdcf238c178f11a2",
         "corrections": [
@@ -464,6 +500,15 @@
     "CADB8564A7D0BE142DB6C47B0EED613F": {
         "checksum": "c3d84e52573f69f8ee7e00c91205fd8b",
         "corrections": []
+    },
+    "CF11D4E6381F0019C765544CCA920DEE": {
+        "checksum": "415979cfe6be6ef412dc4ade76e2b307",
+        "corrections": [
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            }
+        ]
     },
     "D2A9D155DC23371178BEBD4E183720CB": {
         "checksum": "13ba05c874ac1fa7742e1a843e95f0d4",

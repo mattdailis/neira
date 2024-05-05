@@ -1,4 +1,9 @@
-digraph girls3foursWinsor {BBN [URL="girls3foursWinsorBBN.html"];CambridgeRLS [URL="girls3foursWinsorCambridgeRLS.html"];Winsor [URL="girls3foursWinsorWinsor.html"];NewtonCountryDay [URL="girls3foursWinsorNewtonCountryDay.html"];Winsor -> CambridgeRLS[label="9.0 (10.38)
+digraph girls3foursWinsor {Winsor [URL="girls3foursWinsorWinsor.html"];Nobles [URL="girls3foursWinsorNobles.html"];BBN [URL="girls3foursWinsorBBN.html"];CambridgeRLS [URL="girls3foursWinsorCambridgeRLS.html"];NewtonCountryDay [URL="girls3foursWinsorNewtonCountryDay.html"];Nobles -> Winsor[label="6.8 (7.85)
+05/04", weight="94", tooltip="NEIRA Girls Fours, The Winsor School vs. Nobles			
+Distance: 1300 Conditions: Thank you Nobles for a great race!
+Steady crossing head wind for all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=04A0E710667843CC6B974150865EFE56&cat=1", random="random"]; 
+Winsor -> CambridgeRLS[label="9.0 (10.38)
 05/01", weight="91", tooltip="NEIRA Fours,NCDS, Winsor, CRLS			
 Distance: 1300 Conditions: Conditions remained the same through all races. Flat water, no wind. Comments: 5th boat race ran a shorter course due to novice coxswains and rowers (~1100m)
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C55D042DC8DE58BCD614F6CCB55D1228&cat=1", random="random"]; 

@@ -1,4 +1,8 @@
-digraph boys5foursBelmontHill {BBN [URL="boys5foursBelmontHillBBN.html"];BelmontHill [URL="boys5foursBelmontHillBelmontHill.html"];BelmontHill -> BBN[label="32.0 (36.92)
+digraph boys5foursBelmontHill {BBN [URL="boys5foursBelmontHillBBN.html"];BelmontHill [URL="boys5foursBelmontHillBelmontHill.html"];Nobles [URL="boys5foursBelmontHillNobles.html"];BelmontHill -> BBN[label="32.0 (36.92)
 04/27", weight="68", tooltip="NEIRA Boys Fours,Belmont Hill vs BBN/The Ducey Cup, including JV races			
 Distance: 1300m Conditions: Great water. Modest wind, shifting over the course of the racing from calm & tail to calm & head. Race order was from 4V8-1V4 Comments: A beautiful day on the Chalres and great racing by all of the crews! Belmont Hill retains the Ducey Cup by virtue of winning the 1V4 race.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&cat=1", random="random"]; 
+Nobles -> BelmontHill[label="6.7 (7.73)
+05/04", weight="94", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
+Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&cat=1", random="random"]}

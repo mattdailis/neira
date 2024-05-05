@@ -1,4 +1,9 @@
-digraph girls3fours {CambridgeRLS [URL="girls3foursCambridgeRLS.html"];NewtonCountryDay [URL="girls3foursNewtonCountryDay.html"];NMH [URL="girls3foursNMH.html"];Pomfret [URL="girls3foursPomfret.html"];Brooks [URL="girls3foursBrooks.html"];Groton [URL="girls3foursGroton.html"];Taft [URL="girls3foursTaft.html"];Winsor [URL="girls3foursWinsor.html"];MarianapolisPrep [URL="girls3foursMarianapolisPrep.html"];StMarks [URL="girls3foursStMarks.html"];Choate [URL="girls3foursChoate.html"];Middlesex [URL="girls3foursMiddlesex.html"];Nobles [URL="girls3foursNobles.html"];BBN [URL="girls3foursBBN.html"];BerkshireAcademy [URL="girls3foursBerkshireAcademy.html"];Hopkins [URL="girls3foursHopkins.html"];NMH -> Hopkins[label="20.3
+digraph girls3fours {Groton [URL="girls3foursGroton.html"];Taft [URL="girls3foursTaft.html"];Winsor [URL="girls3foursWinsor.html"];Nobles [URL="girls3foursNobles.html"];BBN [URL="girls3foursBBN.html"];Brooks [URL="girls3foursBrooks.html"];BerkshireAcademy [URL="girls3foursBerkshireAcademy.html"];NewtonCountryDay [URL="girls3foursNewtonCountryDay.html"];Pomfret [URL="girls3foursPomfret.html"];Middlesex [URL="girls3foursMiddlesex.html"];NMH [URL="girls3foursNMH.html"];StMarks [URL="girls3foursStMarks.html"];CambridgeRLS [URL="girls3foursCambridgeRLS.html"];Choate [URL="girls3foursChoate.html"];MarianapolisPrep [URL="girls3foursMarianapolisPrep.html"];Hopkins [URL="girls3foursHopkins.html"];Nobles -> Winsor[label="6.8 (7.85)
+05/04", weight="94", tooltip="NEIRA Girls Fours, The Winsor School vs. Nobles			
+Distance: 1300 Conditions: Thank you Nobles for a great race!
+Steady crossing head wind for all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=04A0E710667843CC6B974150865EFE56&cat=1", random="random"]; 
+NMH -> Hopkins[label="20.3
 04/20", weight="80", tooltip="NEIRA Girls Fours,Pomfret vs. NMH, Hopkins			
 Distance: 1500m Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout, with a slight tailwind developing in the last race. No current. Comments: Race order: G3, G2, G1, G4/5. Thanks to NMH and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=00FD5442533029F3F8C5DFD9A3F09907&cat=1", random="random"]; 
@@ -22,6 +27,12 @@ Middlesex -> Brooks[label="_
 04/20", weight="99", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 
+Groton -> CambridgeRLS[label="3.6
+05/04", weight="97", tooltip="NEIRA,Cambridge Rindge and Latin HS at Groton			
+Distance: 1225 m. Conditions: Very little current. Flat water. Beginning with the second boats, a slight amount of headwind. Race order G4, B4, G3, B3, G2, B2, G1, B1 Comments: Great racing conditions and great racing by the crews.
+In the G2, the start was strokes on the line instead of bow balls.
+Thank you CRLS for an excellent afternoon.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CF11D4E6381F0019C765544CCA920DEE&cat=5", random="random"]; 
 BBN -> Middlesex[label="2.6 (2.89)
 05/04", weight="98", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
 Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.

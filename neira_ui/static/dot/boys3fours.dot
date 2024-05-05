@@ -1,4 +1,4 @@
-digraph boys3fours {StMarysLynn [URL="boys3foursStMarysLynn.html"];Choate [URL="boys3foursChoate.html"];EagleHill [URL="boys3foursEagleHill.html"];BBN [URL="boys3foursBBN.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Pomfret [URL="boys3foursPomfret.html"];LymeOldLyme [URL="boys3foursLymeOldLyme.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];KingSchool [URL="boys3foursKingSchool.html"];Groton [URL="boys3foursGroton.html"];Middletown [URL="boys3foursMiddletown.html"];Suffield [URL="boys3foursSuffield.html"];Medford [URL="boys3foursMedford.html"];WorcesterAcademy [URL="boys3foursWorcesterAcademy.html"];NMH [URL="boys3foursNMH.html"];Taft [URL="boys3foursTaft.html"];MarianapolisPrep [URL="boys3foursMarianapolisPrep.html"];StMarks [URL="boys3foursStMarks.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Nobles [URL="boys3foursNobles.html"];Brooks [URL="boys3foursBrooks.html"];Berwick [URL="boys3foursBerwick.html"];Middlesex [URL="boys3foursMiddlesex.html"];Hopkins [URL="boys3foursHopkins.html"];Groton -> Middlesex[label="19.7
+digraph boys3fours {EagleHill [URL="boys3foursEagleHill.html"];Pomfret [URL="boys3foursPomfret.html"];NMH [URL="boys3foursNMH.html"];MarianapolisPrep [URL="boys3foursMarianapolisPrep.html"];Taft [URL="boys3foursTaft.html"];KingSchool [URL="boys3foursKingSchool.html"];Middletown [URL="boys3foursMiddletown.html"];StMarks [URL="boys3foursStMarks.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];Hopkins [URL="boys3foursHopkins.html"];Groton [URL="boys3foursGroton.html"];LymeOldLyme [URL="boys3foursLymeOldLyme.html"];Medford [URL="boys3foursMedford.html"];Berwick [URL="boys3foursBerwick.html"];StMarysLynn [URL="boys3foursStMarysLynn.html"];Middlesex [URL="boys3foursMiddlesex.html"];Suffield [URL="boys3foursSuffield.html"];Nobles [URL="boys3foursNobles.html"];BBN [URL="boys3foursBBN.html"];Brooks [URL="boys3foursBrooks.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Choate [URL="boys3foursChoate.html"];WorcesterAcademy [URL="boys3foursWorcesterAcademy.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Groton -> Middlesex[label="19.7
 05/01", weight="81", tooltip="NEIRA Boys Fours,Groton vs. Middlesex			
 Distance: 1500m Conditions: Great racing conditions for all races. Flat water, no wind and little current. Comments: Thank you to Groton for a great afternoon of racing. Well rowed by all crews!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&cat=1", random="random"]; 
@@ -33,6 +33,12 @@ Distance: 1500 Conditions: Boys Varsity 1- strong tail current, S winds at 3 mph
 Girls Varsity 2- strong tail current, winds at 5 mph, significant chop
 Boys Varsity 2- strong tail current, wind gusts at 18 mph, significant chop
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AC683D5136F31AD9F0E016CDFC3F0E3D&cat=1", random="random"]; 
+Groton -> CambridgeRLS[label="8.4
+05/04", weight="92", tooltip="NEIRA,Cambridge Rindge and Latin HS at Groton			
+Distance: 1225 m. Conditions: Very little current. Flat water. Beginning with the second boats, a slight amount of headwind. Race order G4, B4, G3, B3, G2, B2, G1, B1 Comments: Great racing conditions and great racing by the crews.
+In the G2, the start was strokes on the line instead of bow balls.
+Thank you CRLS for an excellent afternoon.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CF11D4E6381F0019C765544CCA920DEE&cat=5", random="random"]; 
 BelmontHill -> NMH[label="37.0
 04/20", weight="63", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
@@ -81,6 +87,10 @@ BelmontHill -> BBN[label="13.0 (15.0)
 04/27", weight="87", tooltip="NEIRA Boys Fours,Belmont Hill vs BBN/The Ducey Cup, including JV races			
 Distance: 1300m Conditions: Great water. Modest wind, shifting over the course of the racing from calm & tail to calm & head. Race order was from 4V8-1V4 Comments: A beautiful day on the Chalres and great racing by all of the crews! Belmont Hill retains the Ducey Cup by virtue of winning the 1V4 race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&cat=1", random="random"]; 
+BelmontHill -> Nobles[label="8.8 (10.15)
+05/04", weight="92", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
+Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&cat=1", random="random"]; 
 Hopkins -> KingSchool[label="7.3 (8.76)
 04/10", weight="93", tooltip="NEIRA Boys Fours,King School vs Hopkins			
 Distance: 1250m Conditions: All races: heavy cross head wind at slack tide Comments: Great racing by all crews!
