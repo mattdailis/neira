@@ -227,6 +227,13 @@
             {
                 "comment": "girls 3 should only seed Boston Latin and Simsbury",
                 "type": "comment"
+            },
+            {
+                "type": "exclude_schools_from_heat",
+                "heat": "girls 3",
+                "schools": [
+                    "Stonington"
+                ]
             }
         ]
     },

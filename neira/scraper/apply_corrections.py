@@ -28,6 +28,22 @@ def apply_corrections(corrections_file, input_dir, output_dir):
             elif correction["type"] == "set_class_all_heats":
                 for heat in race_object["heats"]:
                     heat["class"] = correction["class"]
+            elif correction["type"] == "exclude_schools_from_heat":
+                entry = correction["heat"]
+                gender, varsity_index = entry.split()
+                for i, heat in enumerate(race_object["heats"]):
+                    if (
+                        heat["gender"] == gender
+                        and heat["varsity_index"] == varsity_index
+                    ):
+                        results = []
+                        for result in heat["results"]:
+                            if result["school"] not in correction["schools"]:
+                                results.append(result)
+                        heat["results"] = results
+                        break
+                else:
+                    raise Exception("No heat matched " + entry + " in " + uid)
             elif correction["type"] == "comment":
                 pass
             else:
