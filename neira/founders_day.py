@@ -30,8 +30,6 @@ def founders_day():
             else:
                 row_1 = row_2
 
-    print(json.dumps(data, indent=2))
-
     heats = []
     for datum in data:
         if "H" in datum["Boat"]:
@@ -49,7 +47,6 @@ def founders_day():
         varsity_index = str(int(datum["Boat"][1]))
 
         results = []
-        # TODO sort
 
         # Pick one arbitrarily to use as reference
         # Get all margins relative to it
@@ -76,6 +73,7 @@ def founders_day():
             else:
                 return 1000
 
+        # Re-zero the margins, since it's likely that our reference point was not the winner
         results.sort(key=margin)
         min_margin = min(map(margin, results))
         for result in results:
@@ -123,21 +121,118 @@ def founders_day():
                 "varsity_index": varsity_index,
                 "results": new_results,
                 "heat_or_final": heat_or_final,
+                "Boat": datum["Boat"],
             }
         )
 
-    print(json.dumps(heats, indent=2))
+    comment = (
+        "Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.",
+    )
+    day = "2024-05-05"
+    url = "https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6"
 
     with open("founders-day.json", "w") as f:
         json.dump(
             {
-                "comment": "Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.",
-                "day": "2024-05-05",
+                "comment": comment,
+                "day": day,
                 "regatta_display_name": "Founder's Day Regatta",
-                "url": "https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6",
+                "url": url,
                 "heats": heats,
             },
             f,
             indent=4,
             sort_keys=True,
         )
+
+    all_head_to_head = []
+    for gender in ("boys", "girls"):
+        for varsity_index in ("1", "2", "3", "4", "5", "6"):
+            print(gender + " " + varsity_index)
+            head_to_head = []
+            recorded_pairs = set()
+            for heat in heats:
+                if heat["gender"] != gender or heat["varsity_index"] != varsity_index:
+                    continue
+                if heat["heat_or_final"] == "final":
+                    print("Processing " + heat["Boat"])
+                    new = process_heat(recorded_pairs, heat)
+                    for x in new:
+                        print(
+                            x["school1"]
+                            + " beat "
+                            + x["school2"]
+                            + " by "
+                            + str(x["margin"])
+                            + " seconds"
+                        )
+                    head_to_head.extend(new)
+
+            for heat in heats:
+                if heat["gender"] != gender or heat["varsity_index"] != varsity_index:
+                    continue
+                if heat["heat_or_final"] == "heat":
+                    print("Processing " + heat["Boat"])
+                    new = process_heat(recorded_pairs, heat)
+                    for x in new:
+                        print(
+                            x["school1"]
+                            + " beat "
+                            + x["school2"]
+                            + " by "
+                            + str(x["margin"])
+                            + " seconds"
+                        )
+                    head_to_head.extend(new)
+
+            all_head_to_head.append(
+                {
+                    "class": "fours",
+                    "gender": gender,
+                    "varsity_index": varsity_index,
+                    "results": head_to_head,
+                }
+            )
+    # write founders-day-head-to-head.json
+    with open("founders-day-head-to-head.json", "w") as f:
+        json.dump(
+            {
+                "comment": comment,
+                "day": day,
+                "regatta_display_name": "Founder's Day Regatta",
+                "url": url,
+                "head_to_head": all_head_to_head,
+            },
+            f,
+            indent=4,
+            sort_keys=True,
+        )
+
+
+def process_heat(recorded_pairs, heat):
+    heat_head_to_head = []
+    for result1 in heat["results"]:
+        for result2 in heat["results"]:
+            pair = tuple(sorted((result1["school"], result2["school"])))
+            if result1 is not result2 and pair not in recorded_pairs:
+                recorded_pairs.add(
+                    tuple(sorted((result1["school"], result2["school"])))
+                )
+                margin = result1["margin_from_winner"] - result2["margin_from_winner"]
+                if margin > 0:
+                    heat_head_to_head.append(
+                        {
+                            "school1": result2["school"],
+                            "school2": result1["school"],
+                            "margin": round(margin, 2),
+                        }
+                    )
+                else:
+                    heat_head_to_head.append(
+                        {
+                            "school1": result1["school"],
+                            "school2": result2["school"],
+                            "margin": -round(margin, 2),
+                        }
+                    )
+    return heat_head_to_head

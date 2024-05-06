@@ -34,7 +34,7 @@ def get(data_dir):
     return all_heats
 
 
-def get_head_to_head(data_dir, class_=None, gender=None) -> List[Datum]:
+def get_head_to_head_tuples(data_dir, class_=None, gender=None) -> List[Datum]:
     filter_class = class_
     filter_gender = gender
     del class_, gender

@@ -1,8 +1,11 @@
 {
-    "comment": "Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.",
+    "comment": [
+        "Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3."
+    ],
     "day": "2024-05-05",
     "heats": [
         {
+            "Boat": "G4 H1",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "heat",
@@ -21,6 +24,7 @@
             "varsity_index": "4"
         },
         {
+            "Boat": "G4 H2",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "heat",
@@ -44,6 +48,7 @@
             "varsity_index": "4"
         },
         {
+            "Boat": "B4 H1",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "heat",
@@ -77,6 +82,7 @@
             "varsity_index": "4"
         },
         {
+            "Boat": "B4 H2",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "heat",
@@ -100,6 +106,7 @@
             "varsity_index": "4"
         },
         {
+            "Boat": "G3 H1",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "heat",
@@ -118,6 +125,7 @@
             "varsity_index": "3"
         },
         {
+            "Boat": "G3 H2",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "heat",
@@ -146,6 +154,7 @@
             "varsity_index": "3"
         },
         {
+            "Boat": "B3 H1",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "heat",
@@ -174,6 +183,7 @@
             "varsity_index": "3"
         },
         {
+            "Boat": "B3 H2",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "heat",
@@ -202,6 +212,7 @@
             "varsity_index": "3"
         },
         {
+            "Boat": "G2 H1",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "heat",
@@ -240,6 +251,7 @@
             "varsity_index": "2"
         },
         {
+            "Boat": "G2 H2",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "heat",
@@ -273,6 +285,7 @@
             "varsity_index": "2"
         },
         {
+            "Boat": "B2 H1",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "heat",
@@ -301,6 +314,7 @@
             "varsity_index": "2"
         },
         {
+            "Boat": "B2 H2",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "heat",
@@ -329,6 +343,7 @@
             "varsity_index": "2"
         },
         {
+            "Boat": "G1 H1",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "heat",
@@ -367,6 +382,7 @@
             "varsity_index": "1"
         },
         {
+            "Boat": "G1 H2",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "heat",
@@ -405,6 +421,7 @@
             "varsity_index": "1"
         },
         {
+            "Boat": "B1 H1",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "heat",
@@ -438,6 +455,7 @@
             "varsity_index": "1"
         },
         {
+            "Boat": "B1 H2",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "heat",
@@ -476,6 +494,7 @@
             "varsity_index": "1"
         },
         {
+            "Boat": "G4",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "final",
@@ -499,6 +518,7 @@
             "varsity_index": "4"
         },
         {
+            "Boat": "B4",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "final",
@@ -532,6 +552,7 @@
             "varsity_index": "4"
         },
         {
+            "Boat": "G3",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "final",
@@ -565,6 +586,7 @@
             "varsity_index": "3"
         },
         {
+            "Boat": "B3",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "final",
@@ -598,6 +620,7 @@
             "varsity_index": "3"
         },
         {
+            "Boat": "G2V-P",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "final",
@@ -636,6 +659,7 @@
             "varsity_index": "2"
         },
         {
+            "Boat": "B2V-P",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "final",
@@ -659,6 +683,7 @@
             "varsity_index": "2"
         },
         {
+            "Boat": "G2V-G",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "final",
@@ -692,6 +717,7 @@
             "varsity_index": "2"
         },
         {
+            "Boat": "B2V-G",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "final",
@@ -725,6 +751,7 @@
             "varsity_index": "2"
         },
         {
+            "Boat": "G1V-P",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "final",
@@ -763,6 +790,7 @@
             "varsity_index": "1"
         },
         {
+            "Boat": "B1V-P",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "final",
@@ -796,6 +824,7 @@
             "varsity_index": "1"
         },
         {
+            "Boat": "G1V-G",
             "class": "fours",
             "gender": "girls",
             "heat_or_final": "final",
@@ -834,6 +863,7 @@
             "varsity_index": "1"
         },
         {
+            "Boat": "B1V-G",
             "class": "fours",
             "gender": "boys",
             "heat_or_final": "final",
