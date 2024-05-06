@@ -286,6 +286,14 @@
             {
                 "comment": "review girls 3. Pomfret 4 beat Pomfret 3. Marianapolis 2 was also in this race",
                 "type": "comment"
+            },
+            {
+                "comment": "Marianapolis 2 competed in G3 race",
+                "heat": "girls 3",
+                "schools": [
+                    "Marianapolis Prep"
+                ],
+                "type": "exclude_schools_from_heat"
             }
         ]
     },

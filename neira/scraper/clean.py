@@ -81,7 +81,7 @@ def clean(scraped):
                         {
                             "school": cleaned_school,
                             "raw_time": x["time"],
-                            "margin_from_winner": getMargin(
+                            "margin_from_winner": get_margin(
                                 school_times[0]["raw_time"], x["time"]
                             ),
                         }
@@ -276,7 +276,7 @@ def parseBoat(gender, boatSize, boatString):
     return (gender, number, boatSize)
 
 
-def getMargin(time1, time2):
+def get_margin(time1, time2):
     time1 = getTime(time1)
     time2 = getTime(time2)
     if time1 == None or time2 == None:

@@ -1,6 +1,7 @@
 import pprint
 import warnings
 
+import neira.founders_day
 import neira.head_to_head
 import neira.head_to_head.head_to_head
 import neira.scraper.apply_corrections
@@ -140,6 +141,12 @@ def dot(data, out):
 @click.argument("html_dir")
 def head_to_head(html_dir):
     neira.head_to_head.head_to_head.head_to_head(CONFIG["reviewed_dir"], html_dir)
+
+
+@cli.command()
+# @click.argument("html_dir")
+def founders_day():
+    neira.founders_day.founders_day()
 
 
 if __name__ == "__main__":
