@@ -144,9 +144,14 @@ flowchart LR
     download --> c(scrape)
     c --> autoclean(autoclean)
     autoclean --> r(review)
-    r --> a(analyze)
+    r --> dp[data provider]
+    dp --> a(analyze)
     a --> u(upload)
     u --> m(mattdailis.github.io/neira)
+
+    fpdf[founders day pdf] --> |Transcribe by hand\nusing Google Sheets| fcsv[founders day csv]
+    fcsv --> fjson[founders day json]
+    fjson --> |identify head-to-head\nmatchups| dp
 ```
 
 ### row2k
