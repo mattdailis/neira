@@ -1,4 +1,4 @@
-digraph boys1foursGroton {Pomfret [URL="boys1foursGrotonPomfret.html"];CambridgeRLS [URL="boys1foursGrotonCambridgeRLS.html"];Nobles [URL="boys1foursGrotonNobles.html"];Groton [URL="boys1foursGrotonGroton.html"];BBN [URL="boys1foursGrotonBBN.html"];Taft [URL="boys1foursGrotonTaft.html"];Middlesex [URL="boys1foursGrotonMiddlesex.html"];Middlesex -> Groton[label="2.6
+digraph boys1foursGroton {CambridgeRLS [URL="boys1foursGrotonCambridgeRLS.html"];Groton [URL="boys1foursGrotonGroton.html"];Nobles [URL="boys1foursGrotonNobles.html"];Pomfret [URL="boys1foursGrotonPomfret.html"];Middlesex [URL="boys1foursGrotonMiddlesex.html"];Taft [URL="boys1foursGrotonTaft.html"];BBN [URL="boys1foursGrotonBBN.html"];Middlesex -> Groton[label="2.6
 05/01", weight="98", tooltip="NEIRA Boys Fours,Groton vs. Middlesex			
 Distance: 1500m Conditions: Great racing conditions for all races. Flat water, no wind and little current. Comments: Thank you to Groton for a great afternoon of racing. Well rowed by all crews!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&cat=1", random="random"]; 

@@ -1,4 +1,4 @@
-digraph girls4foursNobles {Brooks [URL="girls4foursNoblesBrooks.html"];NewtonCountryDay [URL="girls4foursNoblesNewtonCountryDay.html"];Nobles [URL="girls4foursNoblesNobles.html"];Winsor [URL="girls4foursNoblesWinsor.html"];Groton [URL="girls4foursNoblesGroton.html"];BBN [URL="girls4foursNoblesBBN.html"];StMarks [URL="girls4foursNoblesStMarks.html"];Nobles -> Winsor[label="1.4 (1.62)
+digraph girls4foursNobles {Winsor [URL="girls4foursNoblesWinsor.html"];Brooks [URL="girls4foursNoblesBrooks.html"];Groton [URL="girls4foursNoblesGroton.html"];Nobles [URL="girls4foursNoblesNobles.html"];StMarks [URL="girls4foursNoblesStMarks.html"];NewtonCountryDay [URL="girls4foursNoblesNewtonCountryDay.html"];BBN [URL="girls4foursNoblesBBN.html"];Nobles -> Winsor[label="1.4 (1.62)
 05/04", weight="99", tooltip="NEIRA Girls Fours, The Winsor School vs. Nobles			
 Distance: 1300 Conditions: Thank you Nobles for a great race!
 Steady crossing head wind for all races.

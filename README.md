@@ -50,6 +50,16 @@ automated cleaning process is complete. Corrections are made by adding an entry 
 is the uid of the race (found in the url of the race on row2k), and the value includes a `corrections` list, as well
 as a `checksum` to be used to determine whether any races need to be re-reviewed due to upstream changes.
 
+For example, when the results on row2k are `[* corrected *]`, the script will display the following:
+
+```
+D6D52D54154A8C5187F60A8C03258D60 has changed since it was last reviewed
+NEIRA Boys Eights, Koshivos Cup
+https://www.row2k.com/results/resultspage.cfm?UID=D6D52D54154A8C5187F60A8C03258D60&cat=1
+data/1_cleaned/D6D52D54154A8C5187F60A8C03258D60.json
+Press Enter to edit corrections...
+```
+
 The `corrections` list contains a list of json objects, each of which has a `type` member. The value of `type` determines what other members are expected.
 
 ## "type": "comment"
