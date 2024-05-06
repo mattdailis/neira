@@ -1,4 +1,4 @@
-digraph girls1foursBBN {BBN [URL="girls1foursBBNBBN.html"];CambridgeRLS [URL="girls1foursBBNCambridgeRLS.html"];NewtonCountryDay [URL="girls1foursBBNNewtonCountryDay.html"];Groton [URL="girls1foursBBNGroton.html"];Middlesex [URL="girls1foursBBNMiddlesex.html"];Winsor [URL="girls1foursBBNWinsor.html"];Nobles [URL="girls1foursBBNNobles.html"];BBN -> Middlesex[label="1.9 (2.11)
+digraph girls1foursBBN {BBN [URL="girls1foursBBNBBN.html"];Winsor [URL="girls1foursBBNWinsor.html"];Nobles [URL="girls1foursBBNNobles.html"];CambridgeRLS [URL="girls1foursBBNCambridgeRLS.html"];NewtonCountryDay [URL="girls1foursBBNNewtonCountryDay.html"];Groton [URL="girls1foursBBNGroton.html"];Middlesex [URL="girls1foursBBNMiddlesex.html"];BBN -> Middlesex[label="1.9 (2.11)
 05/04", weight="99", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
 Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
