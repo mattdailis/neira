@@ -149,16 +149,16 @@ flowchart LR
     u --> m(mattdailis.github.io/neira)
 ```
 
-## row2k
+### row2k
 Coaches input race results into row2k
 
-## download
+### download
 Save a local copy to disk for further analysis
 
-## scrape
+### scrape
 Identify the pertinent information in the downloaded html. This does not interpret the data, but pulls it out into a non-html form
 
-## autoclean
+### autoclean
 Auto cleaning does the most interpretation of any other step. Its primary functions are:
 - Identify the schools in each heat. This includes fuzzy matching against a list of known schools
 - Remove any non-NEIRA schools from the heat. This data is only meant for NEIRA seeding
@@ -168,16 +168,16 @@ Auto cleaning does the most interpretation of any other step. Its primary functi
 - Identify whether this is a fours heat or an eights heat. This is always done by looking at the title. If that information is not in the title, leave it as "unknown" and expect it to be provided in the "review" step
 - Compute the margins between schools in a heat. Clients of data should use the margins rather than the raw times, although both are provided
 
-## review
+### review
 After autoclean, all data is reviewed by a human. The primary task here is to read the coach's comment, and determine of any heats should be ignored, or schools should be disqualified. The reviewer is also expected to specify "boys" or "girls", and "fours" or "eights", if autoclean couldn't determine this. This is typically done by looking at the schools that competed, and checking neiraschools.py to see if those schools compete in "fours" or "eights", and if any of the schools compete only in "boys" or "girls" categories.
 
-## analyze
+### analyze
 Once the data has been scraped, cleaned, and reviewed, it is considered ready for analysis. This may involve building table views, or graphs.
 
-## upload
+### upload
 The data is uploaded to mattdailis.github.io/neira for display.
 
-# Founders Day
+## Founders Day
 Founders day is different from other races for two reasons:
 1. Its data is provided in a pdf, rather than the standard row2k form
 2. It has seprate heats and finals, which impact seeding in a nuanced way
