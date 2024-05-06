@@ -138,6 +138,55 @@ This website is hosted on GitHub Pages. GitHub Pages allows for two options for 
 - `neira/dot`: python program that generates graphviz visualizations based on downloaded data
 - `neira_ui`: user interface code, using svelte framework
 
+```mermaid
+flowchart LR
+    row2k --> download(download)
+    download --> c(scrape)
+    c --> autoclean(autoclean)
+    autoclean --> r(review)
+    r --> a(analyze)
+    a --> u(upload)
+    u --> m(mattdailis.github.io/neira)
+```
+
+## row2k
+Coaches input race results into row2k
+
+## download
+Save a local copy to disk for further analysis
+
+## scrape
+Identify the pertinent information in the downloaded html. This does not interpret the data, but pulls it out into a non-html form
+
+## autoclean
+Auto cleaning does the most interpretation of any other step. Its primary functions are:
+- Identify the schools in each heat. This includes fuzzy matching against a list of known schools
+- Remove any non-NEIRA schools from the heat. This data is only meant for NEIRA seeding
+- If the same school appears in a heat twice, take the better time. This is usually (but not always) enough to remove cases where a school races both their 2nd and 3rd boats in the same heat.
+- Identify whether this is a boys heat or a girls heat - this is either done by looking at the title (which may say "NEIRA Boys Fours"), or by looking at the html ("Mens Racing" and "Womens Racing")
+  - Sometimes, neither of those strategies works. The clean step may give up and say that the gender is unknown - it is expected to be provided in the "review" step
+- Identify whether this is a fours heat or an eights heat. This is always done by looking at the title. If that information is not in the title, leave it as "unknown" and expect it to be provided in the "review" step
+- Compute the margins between schools in a heat. Clients of data should use the margins rather than the raw times, although both are provided
+
+## review
+After autoclean, all data is reviewed by a human. The primary task here is to read the coach's comment, and determine of any heats should be ignored, or schools should be disqualified. The reviewer is also expected to specify "boys" or "girls", and "fours" or "eights", if autoclean couldn't determine this. This is typically done by looking at the schools that competed, and checking neiraschools.py to see if those schools compete in "fours" or "eights", and if any of the schools compete only in "boys" or "girls" categories.
+
+## analyze
+Once the data has been scraped, cleaned, and reviewed, it is considered ready for analysis. This may involve building table views, or graphs.
+
+## upload
+The data is uploaded to mattdailis.github.io/neira for display.
+
+# Founders Day
+Founders day is different from other races for two reasons:
+1. Its data is provided in a pdf, rather than the standard row2k form
+2. It has seprate heats and finals, which impact seeding in a nuanced way
+
+This is the policy for how Founders Day data is accounted for in seeding:
+> We consider all head-to-head matchups between all pairs of neira schools except: when two schools raced each other twice, the heat is ignored and only the final counts for seeding
+> 
+> Consequently, we do not compare any schools that did not race head to head. E.g. if school A from heat 1 made the finals, and school B from heat 2 did not make the finals, we cannot compare school A to school B because they did not race head to head
+
 # Glossary
 - **varsity index**: A number from 1 to 6, referring to a school's "first boat" through "sixth boat".
 - **gender**: Either `boys` or `girls`
