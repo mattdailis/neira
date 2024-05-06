@@ -149,6 +149,7 @@ flowchart LR
     a --> u(upload)
     u --> m(mattdailis.github.io/neira)
 
+    row2k --> fpdf
     fpdf[founders day pdf] --> |Transcribe by hand\nusing Google Sheets| fcsv[founders day csv]
     fcsv --> fjson[founders day json]
     fjson --> |identify head-to-head\nmatchups| dp
