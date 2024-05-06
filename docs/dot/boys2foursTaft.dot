@@ -1,4 +1,4 @@
-digraph boys2foursTaft {Choate [URL="boys2foursTaftChoate.html"];Pomfret [URL="boys2foursTaftPomfret.html"];Taft [URL="boys2foursTaftTaft.html"];BerkshireAcademy [URL="boys2foursTaftBerkshireAcademy.html"];Groton [URL="boys2foursTaftGroton.html"];Taft -> BerkshireAcademy[label="2.5
+digraph boys2foursTaft {Hopkins [URL="boys2foursTaftHopkins.html"];Pomfret [URL="boys2foursTaftPomfret.html"];BerkshireAcademy [URL="boys2foursTaftBerkshireAcademy.html"];LymeOldLyme [URL="boys2foursTaftLymeOldLyme.html"];Groton [URL="boys2foursTaftGroton.html"];Taft [URL="boys2foursTaftTaft.html"];Choate [URL="boys2foursTaftChoate.html"];NMH [URL="boys2foursTaftNMH.html"];Taft -> BerkshireAcademy[label="2.5
 04/20", weight="98", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.
@@ -17,4 +17,19 @@ Pomfret -> Taft[label="0.4
 04/27", weight="100", tooltip="NEIRA Boys ,Pomfret v. Groton, Taft			
 Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls' races interspersed).
 Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&cat=1", random="random"]; 
+NMH -> Taft[label="19.8
+05/05", weight="81", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BerkshireAcademy -> Taft[label="10.55
+05/05", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Hopkins -> Taft[label="4.59
+05/05", weight="96", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> Taft[label="1.26
+05/05", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Taft -> Choate[label="7.29
+05/05", weight="93", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

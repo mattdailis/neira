@@ -1,4 +1,4 @@
-digraph girls3foursChoate {Choate [URL="girls3foursChoateChoate.html"];NMH [URL="girls3foursChoateNMH.html"];Taft [URL="girls3foursChoateTaft.html"];BerkshireAcademy [URL="girls3foursChoateBerkshireAcademy.html"];StMarks [URL="girls3foursChoateStMarks.html"];Choate -> Taft[label="18.9
+digraph girls3foursChoate {Pomfret [URL="girls3foursChoatePomfret.html"];BerkshireAcademy [URL="girls3foursChoateBerkshireAcademy.html"];LymeOldLyme [URL="girls3foursChoateLymeOldLyme.html"];Taft [URL="girls3foursChoateTaft.html"];Choate [URL="girls3foursChoateChoate.html"];StMarks [URL="girls3foursChoateStMarks.html"];NMH [URL="girls3foursChoateNMH.html"];Choate -> Taft[label="18.9
 04/20", weight="82", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.
@@ -15,4 +15,16 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA33
 Choate -> NMH[label="16.0
 04/13", weight="84", tooltip="NEIRA Boys & Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
 Distance: 1500m Conditions: A prevailing 12-14mph crosswind shifting to a cross/tail for some races. Two small short-lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3-G4-B2-G1-B1-G2-G3. There was no B4 race. Races aren't comparable because of very shifty conditions. Boys 2V started 50m over the line.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&cat=5", random="random"]; 
+Choate -> NMH[label="6.28
+05/05", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Choate -> Taft[label="10.24
+05/05", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Choate -> Pomfret[label="68.36
+05/05", weight="32", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Choate -> LymeOldLyme[label="62.56
+05/05", weight="38", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

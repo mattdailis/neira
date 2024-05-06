@@ -1,4 +1,4 @@
-digraph girls1foursLymeOldLyme {FrederickGunn [URL="girls1foursLymeOldLymeFrederickGunn.html"];GreenwichAcademy [URL="girls1foursLymeOldLymeGreenwichAcademy.html"];LymeOldLyme [URL="girls1foursLymeOldLymeLymeOldLyme.html"];Middletown [URL="girls1foursLymeOldLymeMiddletown.html"];MissPorters [URL="girls1foursLymeOldLymeMissPorters.html"];ValleyRegional [URL="girls1foursLymeOldLymeValleyRegional.html"];Canterbury [URL="girls1foursLymeOldLymeCanterbury.html"];LymeOldLyme -> Middletown[label="13.8
+digraph girls1foursLymeOldLyme {ValleyRegional [URL="girls1foursLymeOldLymeValleyRegional.html"];Middletown [URL="girls1foursLymeOldLymeMiddletown.html"];Hopkins [URL="girls1foursLymeOldLymeHopkins.html"];FrederickGunn [URL="girls1foursLymeOldLymeFrederickGunn.html"];LymeOldLyme [URL="girls1foursLymeOldLymeLymeOldLyme.html"];Suffield [URL="girls1foursLymeOldLymeSuffield.html"];MissPorters [URL="girls1foursLymeOldLymeMissPorters.html"];Taft [URL="girls1foursLymeOldLymeTaft.html"];GreenwichAcademy [URL="girls1foursLymeOldLymeGreenwichAcademy.html"];Canterbury [URL="girls1foursLymeOldLymeCanterbury.html"];Choate [URL="girls1foursLymeOldLymeChoate.html"];NMH [URL="girls1foursLymeOldLymeNMH.html"];LymeOldLyme -> Middletown[label="13.8
 05/01", weight="87", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Middletown V Mills			
 Distance: 1500 Conditions: It was a partly cloudy day when all three crews got out into the lake, there was a constant 6-8 mph head wind that ran straight up the course for all races. Comments: One race worth noting is the G2V4 Lyme/old Lyme launched their G3V4 to participate in the race as well.
 Lyme/Old Lyme would like thank Middletown and Mills for coming out to race on our lake. We are always excited to have teams come and visit and enjoy our facility with us.
@@ -24,4 +24,28 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D1
 LymeOldLyme -> MissPorters[label="19.4
 04/27", weight="81", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
 Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+Taft -> LymeOldLyme[label="15.72
+05/05", weight="85", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Choate -> LymeOldLyme[label="13.22
+05/05", weight="87", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Hopkins -> LymeOldLyme[label="10.3
+05/05", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+FrederickGunn -> LymeOldLyme[label="1.92
+05/05", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> GreenwichAcademy[label="2.33
+05/05", weight="98", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> NMH[label="2.38
+05/05", weight="98", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> Canterbury[label="6.85
+05/05", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> Suffield[label="61.85
+05/05", weight="39", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

@@ -1,4 +1,4 @@
-digraph girls2foursBrewsterAcademy {NewtonCountryDay [URL="girls2foursBrewsterAcademyNewtonCountryDay.html"];StMarks [URL="girls2foursBrewsterAcademyStMarks.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademyBrewsterAcademy.html"];Nobles [URL="girls2foursBrewsterAcademyNobles.html"];Nobles -> BrewsterAcademy[label="72.8
+digraph girls2foursBrewsterAcademy {GreenwichCountryDay [URL="girls2foursBrewsterAcademyGreenwichCountryDay.html"];Pomfret [URL="girls2foursBrewsterAcademyPomfret.html"];NewtonCountryDay [URL="girls2foursBrewsterAcademyNewtonCountryDay.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademyBrewsterAcademy.html"];Nobles [URL="girls2foursBrewsterAcademyNobles.html"];BerkshireAcademy [URL="girls2foursBrewsterAcademyBerkshireAcademy.html"];LymeOldLyme [URL="girls2foursBrewsterAcademyLymeOldLyme.html"];Taft [URL="girls2foursBrewsterAcademyTaft.html"];Choate [URL="girls2foursBrewsterAcademyChoate.html"];StMarks [URL="girls2foursBrewsterAcademyStMarks.html"];NMH [URL="girls2foursBrewsterAcademyNMH.html"];Nobles -> BrewsterAcademy[label="72.8
 04/27", weight="28", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
 Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
@@ -9,4 +9,25 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E7
 NewtonCountryDay -> BrewsterAcademy[label="20.1
 04/27", weight="80", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
 Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
+Choate -> BrewsterAcademy[label="41.36
+05/05", weight="59", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> BrewsterAcademy[label="40.23
+05/05", weight="60", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Taft -> BrewsterAcademy[label="37.79
+05/05", weight="63", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> BrewsterAcademy[label="22.87
+05/05", weight="78", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BrewsterAcademy -> BerkshireAcademy[label="12.5
+05/05", weight="88", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BrewsterAcademy -> Pomfret[label="14.33
+05/05", weight="86", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BrewsterAcademy -> GreenwichCountryDay[label="1.15
+05/05", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

@@ -1,4 +1,4 @@
-digraph boys3fours {Suffield [URL="boys3foursSuffield.html"];Pingree [URL="boys3foursPingree.html"];NMH [URL="boys3foursNMH.html"];LymeOldLyme [URL="boys3foursLymeOldLyme.html"];Middletown [URL="boys3foursMiddletown.html"];Hopkins [URL="boys3foursHopkins.html"];BBN [URL="boys3foursBBN.html"];Brooks [URL="boys3foursBrooks.html"];StMarks [URL="boys3foursStMarks.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Medford [URL="boys3foursMedford.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];WorcesterAcademy [URL="boys3foursWorcesterAcademy.html"];Taft [URL="boys3foursTaft.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];Groton [URL="boys3foursGroton.html"];Middlesex [URL="boys3foursMiddlesex.html"];Berwick [URL="boys3foursBerwick.html"];EagleHill [URL="boys3foursEagleHill.html"];Choate [URL="boys3foursChoate.html"];Pomfret [URL="boys3foursPomfret.html"];StMarysLynn [URL="boys3foursStMarysLynn.html"];Nobles [URL="boys3foursNobles.html"];KingSchool [URL="boys3foursKingSchool.html"];Groton -> Middlesex[label="19.7
+digraph boys3fours {CambridgeRLS [URL="boys3foursCambridgeRLS.html"];LymeOldLyme [URL="boys3foursLymeOldLyme.html"];WorcesterAcademy [URL="boys3foursWorcesterAcademy.html"];Brooks [URL="boys3foursBrooks.html"];Middletown [URL="boys3foursMiddletown.html"];BelmontHill [URL="boys3foursBelmontHill.html"];BBN [URL="boys3foursBBN.html"];Taft [URL="boys3foursTaft.html"];Medford [URL="boys3foursMedford.html"];Choate [URL="boys3foursChoate.html"];NMH [URL="boys3foursNMH.html"];Middlesex [URL="boys3foursMiddlesex.html"];Hopkins [URL="boys3foursHopkins.html"];FrederickGunn [URL="boys3foursFrederickGunn.html"];Nobles [URL="boys3foursNobles.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];EagleHill [URL="boys3foursEagleHill.html"];Pingree [URL="boys3foursPingree.html"];Pomfret [URL="boys3foursPomfret.html"];KingSchool [URL="boys3foursKingSchool.html"];Berwick [URL="boys3foursBerwick.html"];Groton [URL="boys3foursGroton.html"];Suffield [URL="boys3foursSuffield.html"];StMarks [URL="boys3foursStMarks.html"];StMarysLynn [URL="boys3foursStMarysLynn.html"];Groton -> Middlesex[label="19.7
 05/01", weight="81", tooltip="NEIRA Boys Fours,Groton vs. Middlesex			
 Distance: 1500m Conditions: Great racing conditions for all races. Flat water, no wind and little current. Comments: Thank you to Groton for a great afternoon of racing. Well rowed by all crews!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&cat=1", random="random"]; 
@@ -206,4 +206,58 @@ Times for this race were:
 Nobles: 2:22.3
 BB&N: 2:30.1
 many thanks to all crews and coaches for a great day of racing for full teams.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]; 
+LymeOldLyme -> BerkshireAcademy[label="0.51
+05/05", weight="100", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> NMH[label="1.51
+05/05", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> Pomfret[label="6.15
+05/05", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> Taft[label="6.65
+05/05", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BerkshireAcademy -> NMH[label="1.0
+05/05", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BerkshireAcademy -> Pomfret[label="5.64
+05/05", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BerkshireAcademy -> Taft[label="6.14
+05/05", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> Pomfret[label="4.64
+05/05", weight="96", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> Taft[label="5.14
+05/05", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Pomfret -> Taft[label="0.5
+05/05", weight="100", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Pomfret -> Hopkins[label="15.23
+05/05", weight="85", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Pomfret -> FrederickGunn[label="44.15
+05/05", weight="56", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> Hopkins[label="11.5
+05/05", weight="89", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> FrederickGunn[label="40.42
+05/05", weight="60", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Hopkins -> FrederickGunn[label="28.92
+05/05", weight="72", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BerkshireAcademy -> Choate[label="44.89
+05/05", weight="56", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> Choate[label="41.05
+05/05", weight="59", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Taft -> Choate[label="37.71
+05/05", weight="63", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

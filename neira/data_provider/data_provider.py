@@ -34,6 +34,32 @@ def get(data_dir):
     return all_heats
 
 
+def founders_day_head_to_head_tuples():
+    with open("founders-day-head-to-head.json", "r") as f:
+        founders_day_head_to_head = json.load(f)
+    results = []
+    for entry in founders_day_head_to_head["head_to_head"]:
+        for head_to_head in entry["results"]:
+            results.append(
+                Datum(
+                    founders_day_head_to_head["day"],
+                    entry["gender"],
+                    entry["gender"] + entry["varsity_index"] + entry["class"],
+                    head_to_head["school1"],
+                    entry["varsity_index"],
+                    head_to_head["school2"],
+                    entry["varsity_index"],
+                    head_to_head["margin"],
+                    None,
+                    founders_day_head_to_head["regatta_display_name"],
+                    founders_day_head_to_head["comment"],
+                    founders_day_head_to_head["url"],
+                )
+            )
+
+    return results
+
+
 def get_head_to_head_tuples(data_dir, class_=None, gender=None) -> List[Datum]:
     filter_class = class_
     filter_gender = gender
@@ -131,6 +157,7 @@ def get_head_to_head_tuples(data_dir, class_=None, gender=None) -> List[Datum]:
                         url,
                     )
                 )
+    results.extend(founders_day_head_to_head_tuples())
     return results
 
 

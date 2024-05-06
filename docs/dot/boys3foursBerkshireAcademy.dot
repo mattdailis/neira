@@ -1,4 +1,4 @@
-digraph boys3foursBerkshireAcademy {BerkshireAcademy [URL="boys3foursBerkshireAcademyBerkshireAcademy.html"];Pomfret [URL="boys3foursBerkshireAcademyPomfret.html"];Taft [URL="boys3foursBerkshireAcademyTaft.html"];Choate [URL="boys3foursBerkshireAcademyChoate.html"];Taft -> BerkshireAcademy[label="3.7
+digraph boys3foursBerkshireAcademy {Pomfret [URL="boys3foursBerkshireAcademyPomfret.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademyBerkshireAcademy.html"];LymeOldLyme [URL="boys3foursBerkshireAcademyLymeOldLyme.html"];Taft [URL="boys3foursBerkshireAcademyTaft.html"];Choate [URL="boys3foursBerkshireAcademyChoate.html"];NMH [URL="boys3foursBerkshireAcademyNMH.html"];Taft -> BerkshireAcademy[label="3.7
 04/20", weight="97", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.
@@ -11,4 +11,19 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142D
 BerkshireAcademy -> Pomfret[label="9.5
 04/24", weight="91", tooltip="NEIRA Boys Fours,Pomfret v. Berkshire, Marianapolis			
 Distance: 1500M Conditions: Swirling, gusty winds - 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, B4, B3, B2, B1 with girls' races in between.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&cat=1", random="random"]; 
+LymeOldLyme -> BerkshireAcademy[label="0.51
+05/05", weight="100", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BerkshireAcademy -> NMH[label="1.0
+05/05", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BerkshireAcademy -> Pomfret[label="5.64
+05/05", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BerkshireAcademy -> Taft[label="6.14
+05/05", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BerkshireAcademy -> Choate[label="44.89
+05/05", weight="56", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

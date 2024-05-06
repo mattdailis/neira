@@ -125,9 +125,8 @@ def founders_day():
             }
         )
 
-    comment = (
-        "Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.",
-    )
+    comment = "Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3."
+
     day = "2024-05-05"
     url = "https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6"
 

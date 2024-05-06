@@ -1,9 +1,6 @@
 {'Choate', 'Nobles'}
-{'Winsor', 'Groton', "St. Mark's"}
-{'Taft', 'Cambridge RLS'}
+{'Winsor', "St. Mark's", 'Groton'}
+{'Cambridge RLS'}
 {'BB&N'}
-Cycle detected: {'Brooks', 'Middlesex'}
-{'NMH'}
-{'Hopkins'}
-{'Pomfret'}
-{'Berkshire Academy', 'Newton Country Day'}
+Cycle detected: {'Brooks', 'Hopkins', 'Pomfret', 'Lyme/Old Lyme', 'Taft', 'NMH', 'Middlesex'}
+{'Newton Country Day', 'Berkshire Academy'}

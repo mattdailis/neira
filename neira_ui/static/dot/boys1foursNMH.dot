@@ -1,4 +1,4 @@
-digraph boys1foursNMH {WorcesterAcademy [URL="boys1foursNMHWorcesterAcademy.html"];Pomfret [URL="boys1foursNMHPomfret.html"];NMH [URL="boys1foursNMHNMH.html"];FrederickGunn [URL="boys1foursNMHFrederickGunn.html"];Hopkins [URL="boys1foursNMHHopkins.html"];CambridgeRLS [URL="boys1foursNMHCambridgeRLS.html"];Brooks [URL="boys1foursNMHBrooks.html"];Bancroft [URL="boys1foursNMHBancroft.html"];StMarks [URL="boys1foursNMHStMarks.html"];BelmontHill [URL="boys1foursNMHBelmontHill.html"];BelmontHill -> NMH[label="10.2
+digraph boys1foursNMH {Brooks [URL="boys1foursNMHBrooks.html"];Hopkins [URL="boys1foursNMHHopkins.html"];Pomfret [URL="boys1foursNMHPomfret.html"];BelmontHill [URL="boys1foursNMHBelmontHill.html"];CambridgeRLS [URL="boys1foursNMHCambridgeRLS.html"];FrederickGunn [URL="boys1foursNMHFrederickGunn.html"];BerkshireAcademy [URL="boys1foursNMHBerkshireAcademy.html"];BrewsterAcademy [URL="boys1foursNMHBrewsterAcademy.html"];LymeOldLyme [URL="boys1foursNMHLymeOldLyme.html"];StMarks [URL="boys1foursNMHStMarks.html"];WorcesterAcademy [URL="boys1foursNMHWorcesterAcademy.html"];Taft [URL="boys1foursNMHTaft.html"];Bancroft [URL="boys1foursNMHBancroft.html"];NMH [URL="boys1foursNMHNMH.html"];BelmontHill -> NMH[label="10.2
 04/20", weight="90", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
 Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
@@ -33,4 +33,25 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA33
 NMH -> Bancroft[label="109.0
 04/13", weight="-9", tooltip="NEIRA Boys & Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
 Distance: 1500m Conditions: A prevailing 12-14mph crosswind shifting to a cross/tail for some races. Two small short-lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3-G4-B2-G1-B1-G2-G3. There was no B4 race. Races aren't comparable because of very shifty conditions. Boys 2V started 50m over the line.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&cat=5", random="random"]; 
+BerkshireAcademy -> NMH[label="4.69
+05/05", weight="96", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Hopkins -> NMH[label="0.39
+05/05", weight="100", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> LymeOldLyme[label="0.77
+05/05", weight="100", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> FrederickGunn[label="13.05
+05/05", weight="87", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> Taft[label="6.59
+05/05", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> Pomfret[label="1.57
+05/05", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> BrewsterAcademy[label="19.66
+05/05", weight="81", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}
