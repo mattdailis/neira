@@ -1,0 +1,59 @@
+{
+    "comment": "\nDistance: 1310m Conditions: Incoming tide for all races, minor cross-tail wind consistent through all races. Thanks for coming out, Brunswick!\n\nNone",
+    "day": "2024-05-04",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "3:55.6",
+                    "school": "Brunswick"
+                },
+                {
+                    "margin_from_winner": 4.6,
+                    "raw_time": "4:00.2",
+                    "school": "Fairfield Prep"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:13.7",
+                    "school": "Brunswick"
+                },
+                {
+                    "margin_from_winner": 15.2,
+                    "raw_time": "4:28.9",
+                    "school": "Fairfield Prep"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:18.1",
+                    "school": "Brunswick"
+                },
+                {
+                    "margin_from_winner": 21.0,
+                    "raw_time": "4:39.1",
+                    "school": "Fairfield Prep"
+                }
+            ],
+            "varsity_index": "3"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys Eights: Brunswick vs. Fairfield Prep (Kulaga Cup)",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=CF5BF629DAB06E53DAF7D5909DDE71F8&cat=1"
+}

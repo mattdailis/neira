@@ -1,4 +1,31 @@
-digraph boys4foursTaft {Canterbury [URL="boys4foursTaftCanterbury.html"];Groton [URL="boys4foursTaftGroton.html"];Pomfret [URL="boys4foursTaftPomfret.html"];BrewsterAcademy [URL="boys4foursTaftBrewsterAcademy.html"];Taft [URL="boys4foursTaftTaft.html"];NMH [URL="boys4foursTaftNMH.html"];BerkshireAcademy [URL="boys4foursTaftBerkshireAcademy.html"];Hopkins [URL="boys4foursTaftHopkins.html"];LymeOldLyme [URL="boys4foursTaftLymeOldLyme.html"];Taft -> BerkshireAcademy[label="39.3
+digraph boys4foursTaft {BrewsterAcademy [URL="boys4foursTaftBrewsterAcademy.html"];StMarks [URL="boys4foursTaftStMarks.html"];Pomfret [URL="boys4foursTaftPomfret.html"];BBN [URL="boys4foursTaftBBN.html"];Canterbury [URL="boys4foursTaftCanterbury.html"];Groton [URL="boys4foursTaftGroton.html"];LymeOldLyme [URL="boys4foursTaftLymeOldLyme.html"];NMH [URL="boys4foursTaftNMH.html"];BerkshireAcademy [URL="boys4foursTaftBerkshireAcademy.html"];Taft [URL="boys4foursTaftTaft.html"];Hopkins [URL="boys4foursTaftHopkins.html"];BBN -> Taft[label="15.1
+05/11", weight="85", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Taft -> Pomfret[label="0.7
+05/11", weight="100", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Taft -> StMarks[label="5.1
+05/11", weight="95", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Taft -> BerkshireAcademy[label="39.3
 04/20", weight="61", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.

@@ -1,4 +1,4 @@
-digraph girls1foursMarianapolisPrep {WorcesterAcademy [URL="girls1foursMarianapolisPrepWorcesterAcademy.html"];Derryfield [URL="girls1foursMarianapolisPrepDerryfield.html"];Pomfret [URL="girls1foursMarianapolisPrepPomfret.html"];StMarysLynn [URL="girls1foursMarianapolisPrepStMarysLynn.html"];MarianapolisPrep [URL="girls1foursMarianapolisPrepMarianapolisPrep.html"];Suffield [URL="girls1foursMarianapolisPrepSuffield.html"];BerkshireAcademy [URL="girls1foursMarianapolisPrepBerkshireAcademy.html"];MarianapolisPrep -> WorcesterAcademy[label="46.5
+digraph girls1foursMarianapolisPrep {Pingree [URL="girls1foursMarianapolisPrepPingree.html"];WorcesterAcademy [URL="girls1foursMarianapolisPrepWorcesterAcademy.html"];Pomfret [URL="girls1foursMarianapolisPrepPomfret.html"];StMarysLynn [URL="girls1foursMarianapolisPrepStMarysLynn.html"];Derryfield [URL="girls1foursMarianapolisPrepDerryfield.html"];BerkshireAcademy [URL="girls1foursMarianapolisPrepBerkshireAcademy.html"];MarianapolisPrep [URL="girls1foursMarianapolisPrepMarianapolisPrep.html"];Suffield [URL="girls1foursMarianapolisPrepSuffield.html"];MarianapolisPrep -> WorcesterAcademy[label="46.5
 04/21", weight="54", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft and Marianapolis Prep			
 Distance: 1500 meters Conditions: Steady 10-12 mph tail/cross wind throughout the races. Minimal chop. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed second. A friendly mixed Novice 4+ was also held with Bancroft vs. Worcester Academy.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE1377E8919904D6083B1C51335B1F5A&cat=5", random="random"]; 
@@ -11,6 +11,10 @@ StMarysLynn -> MarianapolisPrep[label="21.2
 05/01", weight="79", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
 Distance: 1500m Conditions: Very little chop
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 
+MarianapolisPrep -> Pingree[label="131.0
+05/11", weight="-31", tooltip="NEIRA Boys & Girls Fours,Pingree, Marianapolis Prep			
+Distance: 1500 meters Conditions: Significant chop from direct 12 kt headwind, gusting to 15 kt. Conditions were the same for all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DB29F5D60E0038080A5EDB5951FAE5BA&cat=5", random="random"]; 
 MarianapolisPrep -> Derryfield[label="7.3
 04/17", weight="93", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. Derryfield			
 Distance: 1500m Conditions: Stiff head wind throughout all races, particularly the first 700m. Comments: Thank you, Derryfield, for making the trip down from NH!

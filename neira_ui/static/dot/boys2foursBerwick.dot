@@ -1,4 +1,8 @@
-digraph boys2foursBerwick {WorcesterAcademy [URL="boys2foursBerwickWorcesterAcademy.html"];Berwick [URL="boys2foursBerwickBerwick.html"];Derryfield [URL="boys2foursBerwickDerryfield.html"];Berwick -> Derryfield[label="26.1
+digraph boys2foursBerwick {Berwick [URL="boys2foursBerwickBerwick.html"];WorcesterAcademy [URL="boys2foursBerwickWorcesterAcademy.html"];Derryfield [URL="boys2foursBerwickDerryfield.html"];Medford [URL="boys2foursBerwickMedford.html"];Berwick -> Medford[label="74.0 (80.73)
+05/11", weight="26", tooltip="NEIRA, Medford High School and Berwick Academy			
+Distance: 1375 Conditions: extremely chop for the race. Current increased throughout the day; pushing boats to starboard. Because of the wind, we started all races via floating, quick starts Comments: Thank you to Berwick Academy for coming down and racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BAA317D9E8DD93E01874D25E90000546&cat=1", random="random"]; 
+Berwick -> Derryfield[label="26.1
 04/20", weight="74", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Derryfield School			
 Distance: 1500 Conditions: Light drizzle and grey skies, but flat conditions. Racing in the direction of the incoming tide. Comments: The boys 4V even was a combination of 4V boys with novice boys and served as an intersquad scrimmage. This race was slightly shorter and started around the 1250 mark.
 The girls 3V was a mixed boat event with even gender splits in each boat and represented various skill levels.

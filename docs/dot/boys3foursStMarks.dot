@@ -1,4 +1,31 @@
-digraph boys3foursStMarks {Brooks [URL="boys3foursStMarksBrooks.html"];WorcesterAcademy [URL="boys3foursStMarksWorcesterAcademy.html"];Nobles [URL="boys3foursStMarksNobles.html"];StMarks [URL="boys3foursStMarksStMarks.html"];NMH [URL="boys3foursStMarksNMH.html"];Pingree [URL="boys3foursStMarksPingree.html"];Brooks -> StMarks[label="24.8
+digraph boys3foursStMarks {Brooks [URL="boys3foursStMarksBrooks.html"];Pingree [URL="boys3foursStMarksPingree.html"];WorcesterAcademy [URL="boys3foursStMarksWorcesterAcademy.html"];StMarks [URL="boys3foursStMarksStMarks.html"];Nobles [URL="boys3foursStMarksNobles.html"];Pomfret [URL="boys3foursStMarksPomfret.html"];BBN [URL="boys3foursStMarksBBN.html"];NMH [URL="boys3foursStMarksNMH.html"];Taft [URL="boys3foursStMarksTaft.html"];BBN -> StMarks[label="18.0
+05/11", weight="82", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Taft -> StMarks[label="3.0
+05/11", weight="97", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+StMarks -> Pomfret[label="14.9
+05/11", weight="86", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Brooks -> StMarks[label="24.8
 04/20", weight="76", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 

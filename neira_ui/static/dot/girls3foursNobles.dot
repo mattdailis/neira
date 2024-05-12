@@ -1,8 +1,12 @@
-digraph girls3foursNobles {Winsor [URL="girls3foursNoblesWinsor.html"];Brooks [URL="girls3foursNoblesBrooks.html"];Groton [URL="girls3foursNoblesGroton.html"];Nobles [URL="girls3foursNoblesNobles.html"];StMarks [URL="girls3foursNoblesStMarks.html"];NewtonCountryDay [URL="girls3foursNoblesNewtonCountryDay.html"];BBN [URL="girls3foursNoblesBBN.html"];Nobles -> Winsor[label="6.8 (7.85)
+digraph girls3foursNobles {Brooks [URL="girls3foursNoblesBrooks.html"];Nobles [URL="girls3foursNoblesNobles.html"];StMarks [URL="girls3foursNoblesStMarks.html"];BBN [URL="girls3foursNoblesBBN.html"];Groton [URL="girls3foursNoblesGroton.html"];NMH [URL="girls3foursNoblesNMH.html"];NewtonCountryDay [URL="girls3foursNoblesNewtonCountryDay.html"];Winsor [URL="girls3foursNoblesWinsor.html"];Nobles -> Winsor[label="6.8 (7.85)
 05/04", weight="94", tooltip="NEIRA Girls Fours, The Winsor School vs. Nobles			
 Distance: 1300 Conditions: Thank you Nobles for a great race!
 Steady crossing head wind for all races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=04A0E710667843CC6B974150865EFE56&cat=1", random="random"]; 
+Nobles -> NMH[label="31.0
+05/11", weight="69", tooltip="NEIRA Boys & Girls Fours,NMH vs Nobles and Deerfield			
+Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&cat=5", random="random"]; 
 Nobles -> Groton[label="11.3 (12.56)
 04/20", weight="89", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.

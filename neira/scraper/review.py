@@ -12,7 +12,10 @@ def review(data_dir):
 
     print("Corrections are saved in corrections.json")
 
-    for filename in sorted(os.listdir(data_dir)):
+    filenames = sorted(os.listdir(data_dir))
+
+    to_review = []
+    for i, filename in enumerate(filenames):
         uid = os.path.splitext(os.path.basename(filename))[0]
 
         if uid in corrections:
@@ -22,9 +25,28 @@ def review(data_dir):
             if corrections[uid]["checksum"] == new_checksum:
                 continue
             else:
-                print(uid + " has changed since it was last reviewed")
+                to_review.append(
+                    (filename, (uid + " has changed since it was last reviewed"))
+                )
         else:
-            print(uid + " has not been reviewed")
+            to_review.append((filename, (uid + " has not been reviewed")))
+
+    for i, (filename, message) in enumerate(to_review):
+        print(str(len(to_review) - i) + " to go...")
+
+        print(message)
+        uid = os.path.splitext(os.path.basename(filename))[0]
+
+        # if uid in corrections:
+        #     with open(os.path.join(data_dir, filename)) as f:
+        #         new_checksum = hashlib.md5(f.read().encode()).hexdigest()
+
+        #     if corrections[uid]["checksum"] == new_checksum:
+        #         continue
+        #     else:
+        #         print(uid + " has changed since it was last reviewed")
+        # else:
+        #     print(uid + " has not been reviewed")
 
         with open(os.path.join(data_dir, filename)) as f:
             file_contents = f.read()

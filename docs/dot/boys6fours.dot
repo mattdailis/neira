@@ -1,7 +1,38 @@
-digraph boys6fours {FrederickGunn [URL="boys6foursFrederickGunn.html"];Canterbury [URL="boys6foursCanterbury.html"];Nobles [URL="boys6foursNobles.html"];BelmontHill [URL="boys6foursBelmontHill.html"];BBN [URL="boys6foursBBN.html"];LymeOldLyme [URL="boys6foursLymeOldLyme.html"];BelmontHill -> BBN[label="17.0 (19.62)
+digraph boys6fours {Brooks [URL="boys6foursBrooks.html"];StMarks [URL="boys6foursStMarks.html"];Nobles [URL="boys6foursNobles.html"];BBN [URL="boys6foursBBN.html"];Canterbury [URL="boys6foursCanterbury.html"];Groton [URL="boys6foursGroton.html"];BelmontHill [URL="boys6foursBelmontHill.html"];LymeOldLyme [URL="boys6foursLymeOldLyme.html"];NMH [URL="boys6foursNMH.html"];Taft [URL="boys6foursTaft.html"];FrederickGunn [URL="boys6foursFrederickGunn.html"];BBN -> Taft[label="27.8
+05/11", weight="73", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+BBN -> StMarks[label="51.9
+05/11", weight="49", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Taft -> StMarks[label="24.1
+05/11", weight="76", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+BelmontHill -> BBN[label="17.0 (19.62)
 04/27", weight="83", tooltip="NEIRA Boys Fours,Belmont Hill vs BBN/The Ducey Cup, including JV races			
 Distance: 1300m Conditions: Great water. Modest wind, shifting over the course of the racing from calm & tail to calm & head. Race order was from 4V8-1V4 Comments: A beautiful day on the Chalres and great racing by all of the crews! Belmont Hill retains the Ducey Cup by virtue of winning the 1V4 race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&cat=1", random="random"]; 
+NMH -> Nobles[label="1.7
+05/11", weight="99", tooltip="NEIRA Boys & Girls Fours,NMH vs Nobles and Deerfield			
+Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&cat=5", random="random"]; 
 Nobles -> BelmontHill[label="1.1 (1.27)
 05/04", weight="99", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
@@ -31,4 +62,8 @@ Times for this race were:
 Nobles: 2:22.3
 BB&N: 2:30.1
 many thanks to all crews and coaches for a great day of racing for full teams.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]; 
+Groton -> Brooks[label="5.5 (6.6)
+05/08", weight="95", tooltip="NEIRA,Groton JV vs. Brooks JV			
+Distance: 1250m Conditions: Conditions were stable throughout the early part of the afternoon, with little wind and a low-to-moderate current. Regrettably, 5th and 8th boats did not get to race after the onset of a thunderstorm forced all boats off the water. Comments: Also racing were girls 7th boats. Brooks won the G7 race with a time of 4:59. Groton's time was 5:07.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=526B69B04917E518F05719AC1F06A71E&cat=5", random="random"]}

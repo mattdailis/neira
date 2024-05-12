@@ -1,8 +1,12 @@
-digraph girls2foursNobles {Winsor [URL="girls2foursNoblesWinsor.html"];Brooks [URL="girls2foursNoblesBrooks.html"];Groton [URL="girls2foursNoblesGroton.html"];Nobles [URL="girls2foursNoblesNobles.html"];BrewsterAcademy [URL="girls2foursNoblesBrewsterAcademy.html"];StMarks [URL="girls2foursNoblesStMarks.html"];NewtonCountryDay [URL="girls2foursNoblesNewtonCountryDay.html"];BBN [URL="girls2foursNoblesBBN.html"];Nobles -> Winsor[label="15.5 (17.88)
+digraph girls2foursNobles {Brooks [URL="girls2foursNoblesBrooks.html"];BrewsterAcademy [URL="girls2foursNoblesBrewsterAcademy.html"];Nobles [URL="girls2foursNoblesNobles.html"];StMarks [URL="girls2foursNoblesStMarks.html"];BBN [URL="girls2foursNoblesBBN.html"];Groton [URL="girls2foursNoblesGroton.html"];NMH [URL="girls2foursNoblesNMH.html"];NewtonCountryDay [URL="girls2foursNoblesNewtonCountryDay.html"];Winsor [URL="girls2foursNoblesWinsor.html"];Nobles -> Winsor[label="15.5 (17.88)
 05/04", weight="85", tooltip="NEIRA Girls Fours, The Winsor School vs. Nobles			
 Distance: 1300 Conditions: Thank you Nobles for a great race!
 Steady crossing head wind for all races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=04A0E710667843CC6B974150865EFE56&cat=1", random="random"]; 
+Nobles -> NMH[label="22.0
+05/11", weight="78", tooltip="NEIRA Boys & Girls Fours,NMH vs Nobles and Deerfield			
+Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&cat=5", random="random"]; 
 Nobles -> Groton[label="1.0 (1.11)
 04/20", weight="99", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
 Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.

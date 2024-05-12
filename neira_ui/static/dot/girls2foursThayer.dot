@@ -1,0 +1,8 @@
+digraph girls2foursThayer {Thayer [URL="girls2foursThayerThayer.html"];BrewsterAcademy [URL="girls2foursThayerBrewsterAcademy.html"];Derryfield [URL="girls2foursThayerDerryfield.html"];BrewsterAcademy -> Thayer[label="32.9
+05/08", weight="68", tooltip="NEIRA Boys & Girls Fours,Davison Cup: Bedford, Brewster Academy, Derryfield, Thayer			
+Distance: 1500m Conditions: Calm conditions, tail current. Comments: Bedford racing as non-NEIRA school for this event (because they race 8+s at NEIRA's). Thayer fielded only a G2 boat for the event.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6C4883C3BF2AE2404F975527F674C4D4&cat=5", random="random"]; 
+Derryfield -> Thayer[label="16.4
+05/08", weight="84", tooltip="NEIRA Boys & Girls Fours,Davison Cup: Bedford, Brewster Academy, Derryfield, Thayer			
+Distance: 1500m Conditions: Calm conditions, tail current. Comments: Bedford racing as non-NEIRA school for this event (because they race 8+s at NEIRA's). Thayer fielded only a G2 boat for the event.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6C4883C3BF2AE2404F975527F674C4D4&cat=5", random="random"]}

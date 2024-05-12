@@ -1,4 +1,8 @@
-digraph boys1foursMedford {WorcesterAcademy [URL="boys1foursMedfordWorcesterAcademy.html"];Thayer [URL="boys1foursMedfordThayer.html"];EagleHill [URL="boys1foursMedfordEagleHill.html"];Bancroft [URL="boys1foursMedfordBancroft.html"];Medford [URL="boys1foursMedfordMedford.html"];StMarysLynn [URL="boys1foursMedfordStMarysLynn.html"];Thayer -> Medford[label="7.5 (11.25)
+digraph boys1foursMedford {Berwick [URL="boys1foursMedfordBerwick.html"];WorcesterAcademy [URL="boys1foursMedfordWorcesterAcademy.html"];Thayer [URL="boys1foursMedfordThayer.html"];Medford [URL="boys1foursMedfordMedford.html"];StMarysLynn [URL="boys1foursMedfordStMarysLynn.html"];Bancroft [URL="boys1foursMedfordBancroft.html"];EagleHill [URL="boys1foursMedfordEagleHill.html"];Berwick -> Medford[label="40.3 (43.96)
+05/11", weight="60", tooltip="NEIRA, Medford High School and Berwick Academy			
+Distance: 1375 Conditions: extremely chop for the race. Current increased throughout the day; pushing boats to starboard. Because of the wind, we started all races via floating, quick starts Comments: Thank you to Berwick Academy for coming down and racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BAA317D9E8DD93E01874D25E90000546&cat=1", random="random"]; 
+Thayer -> Medford[label="7.5 (11.25)
 05/01", weight="93", tooltip="NEIRA Boys & Girls Fours,Neponset Rowing Club vs Thayer vs Medford High School vs Dexter Southfield			
 Distance: 1000m Conditions: Calm with slight tailwind for all races Comments: Thank you to Neponset Rowing Club for hosting.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A0D8E23B33FA4A1CD9EE0595C6E7A2A5&cat=5", random="random"]; 

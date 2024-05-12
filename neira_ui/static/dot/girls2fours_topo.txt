@@ -1,8 +1,10 @@
-{'Worcester Academy', 'Derryfield', 'Nobles'}
-{'Brooks', 'Groton'}
-Cycle detected: {'Cambridge RLS', 'Winsor', 'Berkshire Academy', 'Greenwich Academy', 'Pomfret', 'Brewster Academy', 'Middlesex', "St. Mark's", 'NMH', 'Taft', 'Newton Country Day', 'Choate', 'BB&N', 'Hopkins', 'Lyme/Old Lyme'}
+{'Worcester Academy', 'Nobles'}
+{'Groton'}
+{'Brooks'}
+Cycle detected: {'Brewster Academy', "St. Mark's", 'Greenwich Academy', 'Lyme/Old Lyme', 'Middlesex', 'Choate', 'Newton Country Day', 'Pomfret', 'BB&N', 'Cambridge RLS', "Miss Porter's", 'NMH', 'Berkshire Academy', 'Taft', 'Winsor', 'Hopkins'}
+{'Middletown'}
 {'Valley Regional'}
 {'Lincoln'}
 {'St. Mary Academy-Bay View'}
-{'Greenwich Country Day', "Miss Porter's", "St. Mary's-Lynn"}
-{'Middletown', 'Canterbury', 'Marianapolis Prep', 'Eagle Hill'}
+{"St. Mary's-Lynn", 'Greenwich Country Day', 'Derryfield'}
+{'Canterbury', 'Thayer', 'Marianapolis Prep', 'Eagle Hill'}

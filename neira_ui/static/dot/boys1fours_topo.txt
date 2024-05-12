@@ -1,17 +1,14 @@
-{'Berkshire Academy', 'Belmont Hill', 'Berwick', 'Notre Dame'}
-{'Hopkins', 'Middlesex'}
-{'Groton'}
-{'Nobles'}
-{'Brooks'}
-{'Cambridge RLS'}
-{'NMH', 'Thayer'}
-{"St. Mark's", 'Lyme/Old Lyme'}
-{'Middletown', 'Pingree', 'Valley Regional'}
-Cycle detected: {'Pomfret', 'Taft'}
-{'Frederick Gunn'}
-{'Worcester Academy'}
-{'Medford'}
-{'Suffield', "St. Mary's-Lynn", 'Derryfield'}
-{'Choate', 'Bancroft'}
-{'Eagle Hill', 'Brewster Academy'}
-{'Canterbury', 'Marianapolis Prep'}
+{'Berwick', 'Berkshire Academy', 'Belmont Hill'}
+{'Middlesex'}
+Cycle detected: {'Brooks', "St. Mark's", 'Nobles', 'King School', 'Pomfret', 'Notre Dame', 'Groton', 'Cambridge RLS', 'Lyme/Old Lyme', 'NMH', 'Taft', 'Hopkins'}
+{'Frederick Gunn', 'Middletown'}
+{'Suffield'}
+{'Choate'}
+{'Worcester Academy', 'Brewster Academy'}
+{'Derryfield'}
+{'Thayer'}
+{'Medford', 'Valley Regional'}
+{"St. Mary's-Lynn"}
+{'Bancroft'}
+{'Pingree', 'Eagle Hill'}
+{'BU Academy', 'Canterbury', 'Marianapolis Prep', 'BB&N'}

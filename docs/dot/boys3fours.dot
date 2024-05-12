@@ -1,7 +1,80 @@
-digraph boys3fours {Middletown [URL="boys3foursMiddletown.html"];WorcesterAcademy [URL="boys3foursWorcesterAcademy.html"];Groton [URL="boys3foursGroton.html"];StMarysLynn [URL="boys3foursStMarysLynn.html"];NMH [URL="boys3foursNMH.html"];Taft [URL="boys3foursTaft.html"];BBN [URL="boys3foursBBN.html"];Hopkins [URL="boys3foursHopkins.html"];EagleHill [URL="boys3foursEagleHill.html"];Pomfret [URL="boys3foursPomfret.html"];Suffield [URL="boys3foursSuffield.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];LymeOldLyme [URL="boys3foursLymeOldLyme.html"];Pingree [URL="boys3foursPingree.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Medford [URL="boys3foursMedford.html"];Choate [URL="boys3foursChoate.html"];Berwick [URL="boys3foursBerwick.html"];KingSchool [URL="boys3foursKingSchool.html"];Brooks [URL="boys3foursBrooks.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];FrederickGunn [URL="boys3foursFrederickGunn.html"];Nobles [URL="boys3foursNobles.html"];Middlesex [URL="boys3foursMiddlesex.html"];StMarks [URL="boys3foursStMarks.html"];Groton -> Middlesex[label="19.7
+digraph boys3fours {StMarks [URL="boys3foursStMarks.html"];Medford [URL="boys3foursMedford.html"];BBN [URL="boys3foursBBN.html"];EagleHill [URL="boys3foursEagleHill.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];NMH [URL="boys3foursNMH.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Taft [URL="boys3foursTaft.html"];FrederickGunn [URL="boys3foursFrederickGunn.html"];Hopkins [URL="boys3foursHopkins.html"];Brooks [URL="boys3foursBrooks.html"];Berwick [URL="boys3foursBerwick.html"];WorcesterAcademy [URL="boys3foursWorcesterAcademy.html"];Middletown [URL="boys3foursMiddletown.html"];Middlesex [URL="boys3foursMiddlesex.html"];Pomfret [URL="boys3foursPomfret.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Nobles [URL="boys3foursNobles.html"];Choate [URL="boys3foursChoate.html"];LymeOldLyme [URL="boys3foursLymeOldLyme.html"];Suffield [URL="boys3foursSuffield.html"];Pingree [URL="boys3foursPingree.html"];KingSchool [URL="boys3foursKingSchool.html"];StMarysLynn [URL="boys3foursStMarysLynn.html"];NotreDame [URL="boys3foursNotreDame.html"];Groton [URL="boys3foursGroton.html"];BelmontHill -> Brooks[label="24.1
+05/11", weight="76", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
+Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
+Choate did not race a B3 and NCDS did not race a G4 today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=37A62C22F94B1C2C6EAD9807BFDFECD3&cat=5", random="random"]; 
+BelmontHill -> Groton[label="24.1
+05/11", weight="76", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
+Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
+Choate did not race a B3 and NCDS did not race a G4 today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=37A62C22F94B1C2C6EAD9807BFDFECD3&cat=5", random="random"]; 
+Brooks -> Groton[label="0.0
+05/11", weight="100", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
+Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
+Choate did not race a B3 and NCDS did not race a G4 today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=37A62C22F94B1C2C6EAD9807BFDFECD3&cat=5", random="random"]; 
+Groton -> Middlesex[label="19.7
 05/01", weight="81", tooltip="NEIRA Boys Fours,Groton vs. Middlesex			
 Distance: 1500m Conditions: Great racing conditions for all races. Flat water, no wind and little current. Comments: Thank you to Groton for a great afternoon of racing. Well rowed by all crews!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&cat=1", random="random"]; 
+Berwick -> Medford[label="3.8 (4.15)
+05/11", weight="97", tooltip="NEIRA, Medford High School and Berwick Academy			
+Distance: 1375 Conditions: extremely chop for the race. Current increased throughout the day; pushing boats to starboard. Because of the wind, we started all races via floating, quick starts Comments: Thank you to Berwick Academy for coming down and racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BAA317D9E8DD93E01874D25E90000546&cat=1", random="random"]; 
+BBN -> Taft[label="15.0
+05/11", weight="85", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+BBN -> StMarks[label="18.0
+05/11", weight="82", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+BBN -> Pomfret[label="32.9
+05/11", weight="68", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Taft -> StMarks[label="3.0
+05/11", weight="97", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Taft -> Pomfret[label="17.9
+05/11", weight="83", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+StMarks -> Pomfret[label="14.9
+05/11", weight="86", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
 Brooks -> StMarks[label="24.8
 04/20", weight="76", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
@@ -87,6 +160,10 @@ BelmontHill -> BBN[label="13.0 (15.0)
 04/27", weight="87", tooltip="NEIRA Boys Fours,Belmont Hill vs BBN/The Ducey Cup, including JV races			
 Distance: 1300m Conditions: Great water. Modest wind, shifting over the course of the racing from calm & tail to calm & head. Race order was from 4V8-1V4 Comments: A beautiful day on the Chalres and great racing by all of the crews! Belmont Hill retains the Ducey Cup by virtue of winning the 1V4 race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&cat=1", random="random"]; 
+Nobles -> NMH[label="27.7
+05/11", weight="73", tooltip="NEIRA Boys & Girls Fours,NMH vs Nobles and Deerfield			
+Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&cat=5", random="random"]; 
 BelmontHill -> Nobles[label="8.8 (10.15)
 05/04", weight="92", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
@@ -99,6 +176,18 @@ Hopkins -> KingSchool[label="7.3 (8.76)
 04/10", weight="93", tooltip="NEIRA Boys Fours,King School vs Hopkins			
 Distance: 1250m Conditions: All races: heavy cross head wind at slack tide Comments: Great racing by all crews!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3D50124C185A4165878004B90B4662FD&cat=1", random="random"]; 
+BerkshireAcademy -> LymeOldLyme[label="3.4
+05/11", weight="97", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
+BerkshireAcademy -> Hopkins[label="14.9
+05/11", weight="86", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
+LymeOldLyme -> Hopkins[label="11.5
+05/11", weight="89", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
 Taft -> BerkshireAcademy[label="3.7
 04/20", weight="97", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
@@ -114,6 +203,17 @@ BerkshireAcademy -> Choate[label="9.9
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&cat=5", random="random"]; 
+CambridgeRLS -> Middlesex[label="12.8
+05/11", weight="88", tooltip="NEIRA Boys & Girls Fours,Middlesex vs. Cambridge Rindge and Latin School			
+Distance: 1500m Conditions: Variable headwind. Strongest during the Girls and Boys 2nd boat races. Water was mostly flat in the middle third of the course, with more chop in the first and last 500m. Again strongest during the 2nd boat races. Comments: Good job by the coxswains and the aligner working with some tricky wind at the starting line. Race order G4-B4-G3-B3-G2-B2-G1-B1. Finish order in the G3 race confirmed by camera at the finish line. Well rowed by all crews. Thank you CRLS for joining us for a great afternoon of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=61A86E8629F7DAFB0E0306631556FC20&cat=5", random="random"]; 
+KingSchool -> NotreDame[label="12.4
+05/11", weight="88", tooltip="NEIRA Boys Fours, King School vs Notre Dame West Haven			
+Distance: 1500 Conditions: Gusty head wind with an incoming tide, racing was against the river current.
+Slight chop in areas on the race course but for the most part flat water. Comments: Close racing across all events.
+In the 1V race King and Notre Dame were even with 350 meters to go when ND 1V caught a boat stopping crab.
+The King 4V raced in the 3V event.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2E6E8A1044F05A33E020958ED412AA3&cat=1", random="random"]; 
 Nobles -> Brooks[label="19.0
 04/13", weight="81", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: ~1500m Conditions: Gusty headwind (15-25 mph) in moderate chop along lee shore. Crews had approximately the same conditions. Lane assignments probably affected times somewhat. Comments: Challenging conditions overcome by the constructive attitudes of all the coaches and race enthusiasm of athletes. Thanks to a strong Nobles team for coming up for some raw weather racing in early April. We were pleased to get the races in.

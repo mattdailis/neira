@@ -1,4 +1,8 @@
-digraph boys2foursMedford {WorcesterAcademy [URL="boys2foursMedfordWorcesterAcademy.html"];Medford [URL="boys2foursMedfordMedford.html"];StMarysLynn [URL="boys2foursMedfordStMarysLynn.html"];WorcesterAcademy -> Medford[label="33.7
+digraph boys2foursMedford {Berwick [URL="boys2foursMedfordBerwick.html"];StMarysLynn [URL="boys2foursMedfordStMarysLynn.html"];WorcesterAcademy [URL="boys2foursMedfordWorcesterAcademy.html"];Medford [URL="boys2foursMedfordMedford.html"];Berwick -> Medford[label="74.0 (80.73)
+05/11", weight="26", tooltip="NEIRA, Medford High School and Berwick Academy			
+Distance: 1375 Conditions: extremely chop for the race. Current increased throughout the day; pushing boats to starboard. Because of the wind, we started all races via floating, quick starts Comments: Thank you to Berwick Academy for coming down and racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BAA317D9E8DD93E01874D25E90000546&cat=1", random="random"]; 
+WorcesterAcademy -> Medford[label="33.7
 04/24", weight="67", tooltip="NEIRA Boys & Girls Fours,Bancroft School vs Worcester Academy, Medford High School, Eagle Hill, St. Mary's Lynn			
 Distance: 1500m Conditions: All races experienced strong tailwinds. Wind was 15mph with strong gusts. The wind increased as the Boys 2V boat went down the course and the race was paused. Once conditions died back to 15mph races resumed. Once conditions died back down to a 15-17 tail wind, races resumed. Comments: Race order was Boys Novice, Girls Novice/Novice Mix, B3v, B2V, G1V, B1V. For recording purposes Boys Novice will be recorded as the Boys fourth boat. The girls novice/novice mix will be recorded as GV2 (please note the novice mix boat (Eagle Hill) was a mix of talent and more of a friendly race to get rowers to race). Due to wind Boys Novice started at the 1400 mark.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3A9AECAD0028655DE1534F4A0A0DE8B2&cat=5", random="random"]; 

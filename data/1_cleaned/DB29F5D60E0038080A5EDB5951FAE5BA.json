@@ -1,0 +1,59 @@
+{
+    "comment": "\nDistance: 1500 meters Conditions: Significant chop from direct 12 kt headwind, gusting to 15 kt. Conditions were the same for all races.\n\nNone",
+    "day": "2024-05-11",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:18",
+                    "school": "Pingree"
+                },
+                {
+                    "margin_from_winner": 54.0,
+                    "raw_time": "7:12",
+                    "school": "Marianapolis Prep"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "7:41",
+                    "school": "Marianapolis Prep"
+                },
+                {
+                    "margin_from_winner": 10.0,
+                    "raw_time": "7:51",
+                    "school": "Pingree"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "7:32",
+                    "school": "Marianapolis Prep"
+                },
+                {
+                    "margin_from_winner": 131.0,
+                    "raw_time": "9:43",
+                    "school": "Pingree"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Fours,Pingree, Marianapolis Prep",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=DB29F5D60E0038080A5EDB5951FAE5BA&cat=5"
+}

@@ -1,4 +1,14 @@
-digraph girls4foursBrooks {Brooks [URL="girls4foursBrooksBrooks.html"];CambridgeRLS [URL="girls4foursBrooksCambridgeRLS.html"];Nobles [URL="girls4foursBrooksNobles.html"];StMarks [URL="girls4foursBrooksStMarks.html"];Middlesex [URL="girls4foursBrooksMiddlesex.html"];NMH [URL="girls4foursBrooksNMH.html"];StMarks -> Brooks[label="11.4
+digraph girls4foursBrooks {Brooks [URL="girls4foursBrooksBrooks.html"];StMarks [URL="girls4foursBrooksStMarks.html"];Nobles [URL="girls4foursBrooksNobles.html"];Middlesex [URL="girls4foursBrooksMiddlesex.html"];Choate [URL="girls4foursBrooksChoate.html"];Groton [URL="girls4foursBrooksGroton.html"];CambridgeRLS [URL="girls4foursBrooksCambridgeRLS.html"];NMH [URL="girls4foursBrooksNMH.html"];Brooks -> Groton[label="10.0
+05/11", weight="90", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
+Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
+Choate did not race a B3 and NCDS did not race a G4 today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=37A62C22F94B1C2C6EAD9807BFDFECD3&cat=5", random="random"]; 
+Brooks -> Choate[label="16.0
+05/11", weight="84", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
+Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
+Choate did not race a B3 and NCDS did not race a G4 today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=37A62C22F94B1C2C6EAD9807BFDFECD3&cat=5", random="random"]; 
+StMarks -> Brooks[label="11.4
 04/20", weight="89", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks and Middlesex			
 Distance: 1500m Conditions: Partly cloudy, with variable winds switching from cross-wind to cross-tail 8-12mph. Quite calm for 4th boat races, picked up during 1V and 2V races. Comments: Times for G3 weren't started until about 650m in, so we got margins only.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1212EB177D795078E02FE5D2820D6C1B&cat=5", random="random"]; 

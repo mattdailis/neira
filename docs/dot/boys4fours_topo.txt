@@ -1,9 +1,9 @@
-{'Belmont Hill', 'Medford'}
-{'Bancroft', 'Nobles'}
-{'Brooks', 'Groton', "St. Mary's-Lynn"}
-{'Cambridge RLS', "St. Mark's", 'Taft'}
+{'Berwick', 'Belmont Hill'}
+{'Nobles', 'Medford'}
+{'Brooks', 'Bancroft'}
+{"St. Mary's-Lynn", 'Groton'}
+{'Cambridge RLS'}
 {'BB&N'}
-Cycle detected: {'NMH', 'Pomfret'}
-{'Brewster Academy'}
-{'Hopkins', 'Lyme/Old Lyme'}
-{'Berkshire Academy', 'Middletown', 'Canterbury'}
+{'Taft'}
+Cycle detected: {'Brewster Academy', "St. Mark's", 'Pomfret', 'Lyme/Old Lyme', 'NMH', 'Berkshire Academy', 'Hopkins'}
+{'Canterbury', 'Middletown'}

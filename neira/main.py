@@ -149,5 +149,11 @@ def founders_day():
     neira.founders_day.founders_day()
 
 
+@cli.command()
+@click.argument("data_dir")
+def ranking(data_dir):
+    neira.head_to_head.head_to_head.rank_by_most_recent_head_to_head(data_dir)
+
+
 if __name__ == "__main__":
     cli()

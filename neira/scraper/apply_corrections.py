@@ -10,14 +10,10 @@ def apply_corrections(corrections_file, input_dir, output_dir):
             race_object = json.load(f)
         print(uid, corrections)
         for correction in corrections["corrections"]:
-            if correction["type"] == "ignore_heats":
+            if correction["type"] == "comment":
+                pass
+            elif correction["type"] == "ignore_heats":
                 ignore_heats(race_object, correction)
-            elif correction["type"] == "set_gender_all_heats":
-                for heat in race_object["heats"]:
-                    heat["gender"] = correction["gender"]
-            elif correction["type"] == "set_class_all_heats":
-                for heat in race_object["heats"]:
-                    heat["class"] = correction["class"]
             elif correction["type"] == "exclude_schools_from_heat":
                 exclude_schools_from_heat(race_object, correction)
             elif correction["type"] == "rename_heat":
@@ -30,10 +26,18 @@ def apply_corrections(corrections_file, input_dir, output_dir):
                     ):
                         heat["gender"] = new_gender
                         heat["varsity_index"] = new_varsity_index
+            elif correction["type"] == "set_class_all_heats":
+                for heat in race_object["heats"]:
+                    heat["class"] = correction["class"]
+            elif correction["type"] == "set_gender_all_heats":
+                for heat in race_object["heats"]:
+                    heat["gender"] = correction["gender"]
             elif correction["type"] == "set_margins":
                 set_margins(race_object, correction)
-            elif correction["type"] == "comment":
-                pass
+            elif correction["type"] == "set_varsity_index":
+                race_object["heats"][correction["heat_index"]]["varsity_index"] = (
+                    correction["varsity_index"]
+                )
             else:
                 raise Exception("Unhandled correction type: " + correction["type"])
 

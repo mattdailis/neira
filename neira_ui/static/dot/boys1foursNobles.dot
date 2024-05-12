@@ -1,4 +1,8 @@
-digraph boys1foursNobles {Brooks [URL="boys1foursNoblesBrooks.html"];Groton [URL="boys1foursNoblesGroton.html"];Nobles [URL="boys1foursNoblesNobles.html"];BelmontHill [URL="boys1foursNoblesBelmontHill.html"];BrewsterAcademy [URL="boys1foursNoblesBrewsterAcademy.html"];StMarks [URL="boys1foursNoblesStMarks.html"];BBN [URL="boys1foursNoblesBBN.html"];BelmontHill -> Nobles[label="1.8 (2.08)
+digraph boys1foursNobles {Brooks [URL="boys1foursNoblesBrooks.html"];BrewsterAcademy [URL="boys1foursNoblesBrewsterAcademy.html"];StMarks [URL="boys1foursNoblesStMarks.html"];Nobles [URL="boys1foursNoblesNobles.html"];BBN [URL="boys1foursNoblesBBN.html"];Groton [URL="boys1foursNoblesGroton.html"];BelmontHill [URL="boys1foursNoblesBelmontHill.html"];NMH [URL="boys1foursNoblesNMH.html"];Nobles -> NMH[label="7.2
+05/11", weight="93", tooltip="NEIRA Boys & Girls Fours,NMH vs Nobles and Deerfield			
+Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&cat=5", random="random"]; 
+BelmontHill -> Nobles[label="1.8 (2.08)
 05/04", weight="99", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&cat=1", random="random"]; 

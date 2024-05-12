@@ -1,4 +1,4 @@
-digraph boys3foursPingree {StMarks [URL="boys3foursPingreeStMarks.html"];Pingree [URL="boys3foursPingreePingree.html"];Pingree -> StMarks[label="6.0
+digraph boys3foursPingree {Pingree [URL="boys3foursPingreePingree.html"];StMarks [URL="boys3foursPingreeStMarks.html"];Pingree -> StMarks[label="6.0
 05/05", weight="94", tooltip="NEIRA Boys & Girls Fours,Pingree, St. Mary's, Dublin, Lowell High			
 Distance: 1500 meters
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1FC84CA27BD452269AD455A4A9687A9D&cat=5", random="random"]}

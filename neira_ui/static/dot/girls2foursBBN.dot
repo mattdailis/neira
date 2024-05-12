@@ -1,4 +1,4 @@
-digraph girls2foursBBN {CambridgeRLS [URL="girls2foursBBNCambridgeRLS.html"];Winsor [URL="girls2foursBBNWinsor.html"];Groton [URL="girls2foursBBNGroton.html"];Nobles [URL="girls2foursBBNNobles.html"];Middlesex [URL="girls2foursBBNMiddlesex.html"];NewtonCountryDay [URL="girls2foursBBNNewtonCountryDay.html"];BBN [URL="girls2foursBBNBBN.html"];BBN -> Middlesex[label="3.7 (4.11)
+digraph girls2foursBBN {Nobles [URL="girls2foursBBNNobles.html"];Middlesex [URL="girls2foursBBNMiddlesex.html"];StMaryAcademyBayView [URL="girls2foursBBNStMaryAcademyBayView.html"];BBN [URL="girls2foursBBNBBN.html"];Lincoln [URL="girls2foursBBNLincoln.html"];Groton [URL="girls2foursBBNGroton.html"];CambridgeRLS [URL="girls2foursBBNCambridgeRLS.html"];NewtonCountryDay [URL="girls2foursBBNNewtonCountryDay.html"];Winsor [URL="girls2foursBBNWinsor.html"];BBN -> Middlesex[label="3.7 (4.11)
 05/04", weight="97", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
 Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
@@ -6,6 +6,16 @@ BBN -> NewtonCountryDay[label="11.8 (13.11)
 05/04", weight="89", tooltip="NEIRA, NCDS, Middlesex, BB&N (hosted)			
 Distance: 1350 M Conditions: Conditions stayed consistent for the races, A slight crossing head wind from Cambridge to Boston. Comments: A good day of racing, well done by all boats. Thanks to MDX and NCDS for making it easy.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8FA4B72699D2163ED86519848FFC5337&cat=1", random="random"]; 
+BBN -> Lincoln[label="36.3 (40.33)
+05/11", weight="64", tooltip="NEIRA, BB&N, Bay View, Lincoln			
+Distance: 1350 M Conditions: 2V race slight crossing head wind
+Pretty neutral for the 1V Comments: A bit chilly but good conditions, well done by all boats. Thanks to Lincoln and Bay View for making the trip.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BA150C07F46A8CF05BDF8F6CF54794E7&cat=1", random="random"]; 
+BBN -> StMaryAcademyBayView[label="61.9 (68.78)
+05/11", weight="39", tooltip="NEIRA, BB&N, Bay View, Lincoln			
+Distance: 1350 M Conditions: 2V race slight crossing head wind
+Pretty neutral for the 1V Comments: A bit chilly but good conditions, well done by all boats. Thanks to Lincoln and Bay View for making the trip.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BA150C07F46A8CF05BDF8F6CF54794E7&cat=1", random="random"]; 
 CambridgeRLS -> BBN[label="15.3 (17.0)
 04/13", weight="85", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
 Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.

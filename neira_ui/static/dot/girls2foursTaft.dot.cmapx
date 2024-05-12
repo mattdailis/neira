@@ -1,63 +1,86 @@
 <map id="girls2foursTaft" name="girls2foursTaft">
-<area shape="poly" id="node1" href="girls2foursTaftCanterbury.html" title="Canterbury" alt="" coords="145,309,142,302,132,295,116,290,97,287,75,285,54,287,34,290,19,295,9,302,5,309,9,317,19,323,34,329,54,332,75,333,97,332,116,329,132,323,142,317"/>
-<area shape="poly" id="node2" href="girls2foursTaftGroton.html" title="Groton" alt="" coords="975,29,973,22,966,15,955,10,941,7,926,5,911,7,897,10,886,15,879,22,876,29,879,37,886,43,897,49,911,52,926,53,941,52,955,49,966,43,973,37"/>
-<area shape="poly" id="node7" href="girls2foursTaftTaft.html" title="Taft" alt="" coords="1079,169,1077,162,1072,155,1064,150,1054,147,1043,145,1032,147,1022,150,1014,155,1009,162,1007,169,1009,177,1014,183,1022,189,1032,192,1043,193,1054,192,1064,189,1072,183,1077,177"/>
-<area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&amp;cat=1" title="NEIRA,Pomfret vs. Groton, Taft			
-Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys&#39; races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft&#39;s 1st boat was a late scratch.
-None" alt="" coords="944,51,999,120,1015,136,1011,140,995,123,940,54"/>
-<area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&amp;cat=1" title="22.5
-04/27" alt="" coords="997,77,1038,121"/>
-<area shape="poly" id="node3" href="girls2foursTaftHopkins.html" title="Hopkins" alt="" coords="282,309,279,302,271,295,259,290,243,287,226,285,208,287,193,290,180,295,172,302,170,309,172,317,180,323,193,329,208,332,226,333,243,332,259,329,271,323,279,317"/>
-<area shape="poly" id="node4" href="girls2foursTaftGreenwichAcademy.html" title="GreenwichAcademy" alt="" coords="538,309,532,302,516,295,490,290,458,287,422,285,386,287,354,290,328,295,311,302,306,309,311,317,328,323,354,329,386,332,422,333,458,332,490,329,516,323,532,317"/>
-<area shape="poly" id="node5" href="girls2foursTaftPomfret.html" title="Pomfret" alt="" coords="671,309,669,302,661,295,649,290,633,287,617,285,600,287,584,290,572,295,564,302,562,309,564,317,572,323,584,329,600,332,617,333,633,332,649,329,661,323,669,317"/>
-<area shape="poly" id="node6" href="girls2foursTaftBrewsterAcademy.html" title="BrewsterAcademy" alt="" coords="909,309,903,302,888,295,865,290,835,287,802,285,769,287,739,290,716,295,700,302,695,309,700,317,716,323,739,329,769,332,802,333,835,332,865,329,888,323,903,317"/>
-<area shape="poly" id="edge11" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="1007,174,656,186,450,200,364,209,300,220,207,249,127,284,125,279,205,244,299,215,364,204,449,195,656,181,1007,169"/>
-<area shape="rect" id="edge11-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="98.66
-05/05" alt="" coords="301,217,342,261"/>
-<area shape="poly" id="edge10" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="1007,173,915,175,787,182,640,196,492,220,377,252,280,288,278,283,376,247,491,215,640,191,787,177,915,170,1007,168"/>
-<area shape="rect" id="edge10-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="22.29
-05/05" alt="" coords="493,217,534,261"/>
+<area shape="poly" id="node1" href="girls2foursTaftBrewsterAcademy.html" title="BrewsterAcademy" alt="" coords="341,309,336,302,321,295,297,290,268,287,235,285,202,287,172,290,148,295,133,302,128,309,133,317,148,323,172,329,202,332,235,333,268,332,297,329,321,323,336,317"/>
+<area shape="poly" id="node2" href="girls2foursTaftStMarks.html" title="StMarks" alt="" coords="480,309,477,302,469,295,456,290,440,287,423,285,405,287,389,290,377,295,369,302,366,309,369,317,377,323,389,329,405,332,423,333,440,332,456,329,469,323,477,317"/>
+<area shape="poly" id="node3" href="girls2foursTaftLymeOldLyme.html" title="LymeOldLyme" alt="" coords="686,309,682,302,669,295,649,290,623,287,595,285,566,287,541,290,521,295,508,302,503,309,508,317,521,323,541,329,566,332,595,333,623,332,649,329,669,323,682,317"/>
+<area shape="poly" id="node4" href="girls2foursTaftGreenwichAcademy.html" title="GreenwichAcademy" alt="" coords="943,309,937,302,921,295,895,290,863,287,827,285,791,287,758,290,733,295,716,302,710,309,716,317,733,323,758,329,791,332,827,333,863,332,895,329,921,323,937,317"/>
+<area shape="poly" id="node5" href="girls2foursTaftChoate.html" title="Choate" alt="" coords="104,309,102,302,95,295,84,290,70,287,55,285,39,287,26,290,15,295,8,302,5,309,8,317,15,323,26,329,39,332,55,333,70,332,84,329,95,323,102,317"/>
+<area shape="poly" id="node12" href="girls2foursTaftTaft.html" title="Taft" alt="" coords="631,169,629,162,624,155,616,150,606,147,595,145,584,147,574,150,566,155,560,162,559,169,560,177,566,183,574,189,584,192,595,193,606,192,616,189,624,183,629,177"/>
 <area shape="poly" id="edge9" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="1007,175,862,189,771,202,679,220,576,250,486,284,484,279,574,245,678,215,770,196,862,183,1007,170"/>
-<area shape="rect" id="edge9-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="16.62
-05/05" alt="" coords="679,217,720,261"/>
-<area shape="poly" id="edge2" href="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&amp;cat=1" title="NEIRA,Pomfret vs. Groton, Taft			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="89,289,179,252,290,215,358,199,427,187,543,173,544,178,427,193,359,204,292,220,181,257,91,294"/>
+<area shape="rect" id="edge9-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="3.57
+05/05" alt="" coords="292,217,333,261"/>
+<area shape="poly" id="node6" href="girls2foursTaftPomfret.html" title="Pomfret" alt="" coords="1076,309,1073,302,1066,295,1054,290,1038,287,1021,285,1004,287,989,290,977,295,969,302,967,309,969,317,977,323,989,329,1004,332,1021,333,1038,332,1054,329,1066,323,1073,317"/>
+<area shape="poly" id="node7" href="girls2foursTaftCanterbury.html" title="Canterbury" alt="" coords="1239,309,1236,302,1226,295,1210,290,1191,287,1169,285,1148,287,1128,290,1113,295,1103,302,1100,309,1103,317,1113,323,1128,329,1148,332,1169,333,1191,332,1210,329,1226,323,1236,317"/>
+<area shape="poly" id="node8" href="girls2foursTaftGroton.html" title="Groton" alt="" coords="527,29,524,22,517,15,506,10,493,7,477,5,462,7,448,10,437,15,430,22,428,29,430,37,437,43,448,49,462,52,477,53,493,52,506,49,517,43,524,37"/>
+<area shape="poly" id="edge5" href="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&amp;cat=1" title="NEIRA,Pomfret vs. Groton, Taft			
 Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys&#39; races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft&#39;s 1st boat was a late scratch.
-None" alt="" coords="1009,180,932,196,842,220,749,253,668,287,666,283,747,248,840,215,930,191,1008,174"/>
-<area shape="rect" id="edge2-label" href="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&amp;cat=1" title="46.9
-04/27" alt="" coords="842,217,883,261"/>
-<area shape="poly" id="edge8" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="1018,188,854,281,851,277,1015,184"/>
-<area shape="rect" id="edge8-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="37.79
-05/05" alt="" coords="959,217,1000,261"/>
-<area shape="poly" id="node9" href="girls2foursTaftBerkshireAcademy.html" title="BerkshireAcademy" alt="" coords="1153,309,1148,302,1132,295,1108,290,1077,287,1043,285,1009,287,978,290,954,295,938,302,933,309,938,317,954,323,978,329,1009,332,1043,333,1077,332,1108,329,1132,323,1148,317"/>
-<area shape="poly" id="edge4" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Taft &amp; Choate			
+None" alt="" coords="495,51,550,120,566,136,562,140,546,123,491,54"/>
+<area shape="rect" id="edge5-label" href="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&amp;cat=1" title="22.5
+04/27" alt="" coords="549,77,590,121"/>
+<area shape="poly" id="node9" href="girls2foursTaftMissPorters.html" title="MissPorters" alt="" coords="1411,309,1408,302,1397,295,1381,290,1360,287,1337,285,1315,287,1294,290,1278,295,1267,302,1263,309,1267,317,1278,323,1294,329,1315,332,1337,333,1360,332,1381,329,1397,323,1408,317"/>
+<area shape="poly" id="node10" href="girls2foursTaftNMH.html" title="NMH" alt="" coords="639,29,636,22,630,15,620,10,608,7,595,5,581,7,569,10,559,15,553,22,551,29,553,37,559,43,569,49,581,52,595,53,608,52,620,49,630,43,636,37"/>
+<area shape="poly" id="edge10" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="597,54,597,130,592,130,592,54"/>
+<area shape="rect" id="edge10-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="2.44
+05/05" alt="" coords="595,77,636,121"/>
+<area shape="poly" id="node11" href="girls2foursTaftBerkshireAcademy.html" title="BerkshireAcademy" alt="" coords="1655,309,1650,302,1634,295,1610,290,1579,287,1545,285,1511,287,1481,290,1456,295,1441,302,1435,309,1441,317,1456,323,1481,329,1511,332,1545,333,1579,332,1610,329,1634,323,1650,317"/>
+<area shape="poly" id="edge12" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="562,182,439,220,362,251,292,283,290,278,360,246,437,215,560,177"/>
+<area shape="rect" id="edge12-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="37.79
+05/05" alt="" coords="439,217,480,261"/>
+<area shape="poly" id="edge2" href="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&amp;cat=1" title="NEIRA Girls Fours, du Pont Cup: Pomfret vs. BB&amp;N, Gunn, Miss Porter&#39;s, St. Mark&#39;s, Taft, Winsor			
+Distance: 1500m Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (G1). Comments: Alternated races with boys races. Order of girls races: G&#45;Novice, G4, G3, G5, G2, G1. The novice boat race is listed in the sixth boat category. Crossing wind pushed almost all boats at least one lane to port. Several referee calls for boats to move to starboard in the lower boat races. Congratulations to Taft G1 for winning the 2024 du Pont Cup.
+None" alt="" coords="574,191,462,280,459,276,571,187"/>
+<area shape="rect" id="edge2-label" href="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&amp;cat=1" title="8.7
+05/11" alt="" coords="535,217,576,261"/>
+<area shape="poly" id="edge11" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="597,194,597,270,592,270,592,194"/>
+<area shape="rect" id="edge11-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="14.92
+05/05" alt="" coords="595,217,636,261"/>
+<area shape="poly" id="edge13" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="622,184,778,276,775,281,619,188"/>
+<area shape="rect" id="edge13-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="16.62
+05/05" alt="" coords="744,217,785,261"/>
+<area shape="poly" id="edge7" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Taft &amp; Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate&#39;s lane in the last 250 M. Did not change placement, but Berkshire&#39;s margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.
-None" alt="" coords="1046,194,1046,270,1041,270,1041,194"/>
-<area shape="rect" id="edge4-label" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="47.4
-04/20" alt="" coords="1043,217,1084,261"/>
-<area shape="poly" id="node10" href="girls2foursTaftChoate.html" title="Choate" alt="" coords="1277,309,1274,302,1267,295,1256,290,1242,287,1227,285,1212,287,1198,290,1187,295,1180,302,1178,309,1180,317,1187,323,1198,329,1212,332,1227,333,1242,332,1256,329,1267,323,1274,317"/>
-<area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Taft &amp; Choate			
+None" alt="" coords="558,174,293,187,158,201,110,210,85,219,68,242,60,271,54,269,63,240,81,215,109,204,157,195,293,182,558,169"/>
+<area shape="rect" id="edge7-label" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="0.2
+04/20" alt="" coords="84,217,125,261"/>
+<area shape="poly" id="edge4" href="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&amp;cat=1" title="NEIRA Girls Fours, du Pont Cup: Pomfret vs. BB&amp;N, Gunn, Miss Porter&#39;s, St. Mark&#39;s, Taft, Winsor			
+Distance: 1500m Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (G1). Comments: Alternated races with boys races. Order of girls races: G&#45;Novice, G4, G3, G5, G2, G1. The novice boat race is listed in the sixth boat category. Crossing wind pushed almost all boats at least one lane to port. Several referee calls for boats to move to starboard in the lower boat races. Congratulations to Taft G1 for winning the 2024 du Pont Cup.
+None" alt="" coords="630,175,704,191,791,215,888,249,971,283,969,288,886,254,790,220,703,196,629,180"/>
+<area shape="rect" id="edge4-label" href="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&amp;cat=1" title="33.6
+05/11" alt="" coords="911,217,952,261"/>
+<area shape="poly" id="edge6" href="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&amp;cat=1" title="NEIRA,Pomfret vs. Groton, Taft			
+Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys&#39; races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft&#39;s 1st boat was a late scratch.
+None" alt="" coords="631,169,804,181,895,194,932,204,959,215,987,240,1007,270,1003,273,983,244,956,220,930,209,894,199,804,186,631,174"/>
+<area shape="rect" id="edge6-label" href="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&amp;cat=1" title="46.9
+04/27" alt="" coords="997,217,1038,261"/>
+<area shape="poly" id="edge15" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="631,169,844,183,961,196,1009,205,1045,215,1095,242,1137,274,1134,278,1092,246,1043,220,1008,210,960,201,844,188,631,175"/>
+<area shape="rect" id="edge15-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="98.66
+05/05" alt="" coords="1115,217,1156,261"/>
+<area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&amp;cat=1" title="NEIRA Girls Fours, du Pont Cup: Pomfret vs. BB&amp;N, Gunn, Miss Porter&#39;s, St. Mark&#39;s, Taft, Winsor			
+Distance: 1500m Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (G1). Comments: Alternated races with boys races. Order of girls races: G&#45;Novice, G4, G3, G5, G2, G1. The novice boat race is listed in the sixth boat category. Crossing wind pushed almost all boats at least one lane to port. Several referee calls for boats to move to starboard in the lower boat races. Congratulations to Taft G1 for winning the 2024 du Pont Cup.
+None" alt="" coords="631,169,899,183,1052,196,1115,205,1162,215,1234,243,1295,277,1292,282,1231,248,1161,220,1114,210,1051,201,899,188,631,174"/>
+<area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&amp;cat=1" title="19.8
+05/11" alt="" coords="1259,217,1300,261"/>
+<area shape="poly" id="edge8" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire v. Taft &amp; Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate&#39;s lane in the last 250 M. Did not change placement, but Berkshire&#39;s margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.
-None" alt="" coords="1064,188,1138,259,1179,283,1176,288,1135,263,1061,192"/>
-<area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="0.2
-04/20" alt="" coords="1137,217,1178,261"/>
-<area shape="poly" id="node11" href="girls2foursTaftLymeOldLyme.html" title="LymeOldLyme" alt="" coords="1484,309,1480,302,1467,295,1446,290,1421,287,1393,285,1364,287,1339,290,1318,295,1305,302,1301,309,1305,317,1318,323,1339,329,1364,332,1393,333,1421,332,1446,329,1467,323,1480,317"/>
-<area shape="poly" id="edge7" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="1079,172,1162,186,1210,198,1256,215,1309,243,1355,275,1352,279,1307,248,1254,220,1208,203,1161,191,1078,177"/>
-<area shape="rect" id="edge7-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="14.92
-05/05" alt="" coords="1329,217,1370,261"/>
-<area shape="poly" id="node8" href="girls2foursTaftNMH.html" title="NMH" alt="" coords="1087,29,1085,22,1079,15,1069,10,1057,7,1043,5,1030,7,1017,10,1008,15,1001,22,999,29,1001,37,1008,43,1017,49,1030,52,1043,53,1057,52,1069,49,1079,43,1085,37"/>
-<area shape="poly" id="edge6" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="1046,54,1046,130,1041,130,1041,54"/>
-<area shape="rect" id="edge6-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="2.44
-05/05" alt="" coords="1043,77,1084,121"/>
-<area shape="poly" id="edge5" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="1218,286,1202,252,1190,234,1176,219,1136,195,1092,181,1094,176,1138,191,1179,215,1194,231,1206,249,1223,284"/>
-<area shape="rect" id="edge5-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="3.57
-05/05" alt="" coords="1209,217,1250,261"/>
+None" alt="" coords="631,169,966,183,1163,196,1244,205,1306,215,1404,244,1489,278,1487,283,1402,249,1305,220,1244,210,1162,201,966,188,631,174"/>
+<area shape="rect" id="edge8-label" href="https://www.row2k.com/results/resultspage.cfm?UID=CADB8564A7D0BE142DB6C47B0EED613F&amp;cat=5" title="47.4
+04/20" alt="" coords="1437,217,1478,261"/>
+<area shape="poly" id="node14" href="girls2foursTaftHopkins.html" title="Hopkins" alt="" coords="1792,309,1789,302,1781,295,1769,290,1753,287,1736,285,1719,287,1703,290,1691,295,1683,302,1680,309,1683,317,1691,323,1703,329,1719,332,1736,333,1753,332,1769,329,1781,323,1789,317"/>
+<area shape="poly" id="edge14" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="Founder&#39;s Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="631,168,1050,180,1301,194,1406,203,1485,215,1540,228,1594,246,1686,282,1684,287,1592,251,1538,233,1484,220,1405,208,1300,199,1049,185,631,174"/>
+<area shape="rect" id="edge14-label" href="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&amp;cat=6" title="22.29
+05/05" alt="" coords="1623,217,1664,261"/>
+<area shape="poly" id="node13" href="girls2foursTaftWinsor.html" title="Winsor" alt="" coords="764,29,762,22,754,15,743,10,729,7,713,5,698,7,684,10,672,15,665,22,663,29,665,37,672,43,684,49,698,52,713,53,729,52,743,49,754,43,762,37"/>
+<area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&amp;cat=1" title="NEIRA Girls Fours, du Pont Cup: Pomfret vs. BB&amp;N, Gunn, Miss Porter&#39;s, St. Mark&#39;s, Taft, Winsor			
+Distance: 1500m Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (G1). Comments: Alternated races with boys races. Order of girls races: G&#45;Novice, G4, G3, G5, G2, G1. The novice boat race is listed in the sixth boat category. Crossing wind pushed almost all boats at least one lane to port. Several referee calls for boats to move to starboard in the lower boat races. Congratulations to Taft G1 for winning the 2024 du Pont Cup.
+None" alt="" coords="699,54,643,123,627,140,624,136,639,120,695,51"/>
+<area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&amp;cat=1" title="2.2
+05/11" alt="" coords="677,77,718,121"/>
 </map>
