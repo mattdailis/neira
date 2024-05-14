@@ -1,4 +1,4 @@
-digraph boys1foursKingSchool {NotreDame [URL="boys1foursKingSchoolNotreDame.html"];KingSchool [URL="boys1foursKingSchoolKingSchool.html"];Hopkins [URL="boys1foursKingSchoolHopkins.html"];Hopkins -> KingSchool[label="6.7 (8.04)
+digraph boys1foursKingSchool {Hopkins [URL="boys1foursKingSchoolHopkins.html"];NotreDame [URL="boys1foursKingSchoolNotreDame.html"];KingSchool [URL="boys1foursKingSchoolKingSchool.html"];Hopkins -> KingSchool[label="6.7 (8.04)
 04/10", weight="94", tooltip="NEIRA Boys Fours,King School vs Hopkins			
 Distance: 1250m Conditions: All races: heavy cross head wind at slack tide Comments: Great racing by all crews!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3D50124C185A4165878004B90B4662FD&cat=1", random="random"]; 

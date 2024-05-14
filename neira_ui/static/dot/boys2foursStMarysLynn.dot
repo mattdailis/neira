@@ -1,4 +1,16 @@
-digraph boys2foursStMarysLynn {StMarysLynn [URL="boys2foursStMarysLynnStMarysLynn.html"];WorcesterAcademy [URL="boys2foursStMarysLynnWorcesterAcademy.html"];Medford [URL="boys2foursStMarysLynnMedford.html"];MarianapolisPrep [URL="boys2foursStMarysLynnMarianapolisPrep.html"];StMarysLynn -> MarianapolisPrep[label="54.0
+digraph boys2foursStMarysLynn {Medford [URL="boys2foursStMarysLynnMedford.html"];StMarysLynn [URL="boys2foursStMarysLynnStMarysLynn.html"];BrewsterAcademy [URL="boys2foursStMarysLynnBrewsterAcademy.html"];WorcesterAcademy [URL="boys2foursStMarysLynnWorcesterAcademy.html"];MarianapolisPrep [URL="boys2foursStMarysLynnMarianapolisPrep.html"];Berwick [URL="boys2foursStMarysLynnBerwick.html"];Berwick -> StMarysLynn[label="24.4 (26.14)
+05/11", weight="76", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+BrewsterAcademy -> StMarysLynn[label="20.0 (21.43)
+05/11", weight="80", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+StMarysLynn -> Medford[label="49.9 (53.46)
+05/11", weight="51", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+StMarysLynn -> MarianapolisPrep[label="54.0
 05/01", weight="46", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
 Distance: 1500m Conditions: Very little chop
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 

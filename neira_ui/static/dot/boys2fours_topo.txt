@@ -1,16 +1,12 @@
-{'Berwick', 'King School', 'Belmont Hill'}
-{'Notre Dame', 'Nobles'}
-{'NMH', 'Groton'}
-{'Brooks', 'BB&N'}
+{'Berwick', 'Belmont Hill', 'King School'}
+{'Nobles', 'Notre Dame'}
+{'Groton', 'NMH'}
+{'BB&N', 'Brooks'}
 {'Cambridge RLS'}
 {'Middlesex'}
-Cycle detected: {'Pomfret', 'Lyme/Old Lyme', 'Berkshire Academy', 'Taft', 'Hopkins'}
-{'Choate', "St. Mark's"}
-{'Brewster Academy'}
-{'Derryfield'}
-{'Worcester Academy'}
-{'Medford', 'Middletown'}
-{"St. Mary's-Lynn", 'Suffield'}
+Cycle detected: {'Lyme/Old Lyme', "St. Mary's-Lynn", 'Pomfret', 'Hopkins', 'Taft', 'Brewster Academy', 'Worcester Academy', 'Berkshire Academy', "St. Mark's", 'Derryfield', 'Medford', 'Choate'}
+{'Middletown'}
+{'Suffield'}
 {'Marianapolis Prep'}
 {'Pingree'}
 {'BU Academy'}

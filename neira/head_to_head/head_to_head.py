@@ -140,8 +140,9 @@ def rank_by_most_recent_head_to_head(data_dir):
 
     for class_ in ("fours",):
         for gender in ("girls",):
-            for varsity_index in ("1", "2", "3"):
+            for varsity_index in ("4",):  # "1", "2", "3",
                 boatName = gender + varsity_index + class_
+                print(boatName)
                 filtered_tuples = [x for x in tuples if x.boatName == boatName]
 
                 schools = set()
@@ -198,7 +199,7 @@ def rank_by_most_recent_head_to_head(data_dir):
                     Problem(best_ranking, head_to_head, meets_minimum_races)
                 )
 
-                for _ in tqdm(range(750)):
+                for _ in tqdm(range(300)):
                     schools_copy = list(schools)
                     shuffle(schools_copy)
                     problem = Problem(schools_copy, head_to_head, meets_minimum_races)
@@ -281,116 +282,125 @@ def rank_by_most_recent_head_to_head(data_dir):
                 # for i, tier in enumerate(tiers):
                 #     print(str(i + 1) + ": " + ", ".join(sorted(tier)))
 
-                beat = {school: [] for school in schools}
-                for (school1, school2), (date, margin) in head_to_head.items():
-                    if margin > 0:
-                        beat[school1].append((school2, margin))
-                    if margin < 0:
-                        beat[school2].append((school1, -margin))
+                def fiddle():
+                    beat = {school: [] for school in schools}
+                    for (school1, school2), (date, margin) in head_to_head.items():
+                        if margin > 0:
+                            beat[school1].append((school2, margin))
+                        if margin < 0:
+                            beat[school2].append((school1, -margin))
 
-                potential_energy = get_potential_energy(best_ranking, beat)
+                    potential_energy = get_potential_energy(best_ranking, beat)
 
-                for i, school in enumerate(best_ranking):
-                    print(
-                        str(i + 1)
-                        + ": "
-                        + school
-                        + " ("
-                        + str(round(potential_energy[school], 2))
-                        + ") "
-                        + repr(beat[school])
-                    )
+                    for i, school in enumerate(best_ranking):
+                        print(
+                            str(i + 1)
+                            + ": "
+                            + school
+                            + " ("
+                            + str(round(potential_energy[school], 2))
+                            + ") "
+                            + repr(beat[school])
+                        )
 
-                conflicts = set(conflicts)
+                    conflicts = set(conflicts)
 
-                total_potential_energy = sum(potential_energy.values())
+                    total_potential_energy = sum(potential_energy.values())
 
-                current_ranking = best_ranking
-                previous_ranking = None
-                while previous_ranking != current_ranking:
-                    previous_ranking = current_ranking
-                    for school, _ in sorted(
-                        potential_energy.items(), key=lambda x: -x[1]
-                    ):
-                        school_index = current_ranking.index(school)
-                        if school_index == 0:
-                            continue
-                        new_ranking = list(current_ranking)
-                        new_ranking[school_index] = new_ranking[school_index - 1]
-                        new_ranking[school_index - 1] = school
-
-                        new_potential_energy = get_potential_energy(new_ranking, beat)
-
-                        if sum(new_potential_energy.values()) >= total_potential_energy:
-                            continue
-
-                        if (
-                            objective_function(
-                                Problem(new_ranking, head_to_head, meets_minimum_races)
-                            )
-                            < best_objective
+                    current_ranking = best_ranking
+                    previous_ranking = None
+                    while previous_ranking != current_ranking:
+                        previous_ranking = current_ranking
+                        for school, _ in sorted(
+                            potential_energy.items(), key=lambda x: -x[1]
                         ):
-                            continue
+                            school_index = current_ranking.index(school)
+                            if school_index == 0:
+                                continue
+                            new_ranking = list(current_ranking)
+                            new_ranking[school_index] = new_ranking[school_index - 1]
+                            new_ranking[school_index - 1] = school
 
-                        print("Bumped up " + school)
-                        current_ranking = new_ranking
-                        potential_energy = new_potential_energy
-                        total_potential_energy = sum(new_potential_energy.values())
-                        print(total_potential_energy)
-                        break
+                            new_potential_energy = get_potential_energy(
+                                new_ranking, beat
+                            )
 
-                print("-" * 25)
+                            if (
+                                sum(new_potential_energy.values())
+                                >= total_potential_energy
+                            ):
+                                continue
 
-                for i, school in enumerate(current_ranking):
-                    print(
-                        str(i + 1)
-                        + ": "
-                        + school
-                        + " ("
-                        + str(round(potential_energy[school], 2))
-                        + ") "
-                        + repr(beat[school])
-                    )
-
-                table = list(
-                    zip(
-                        best_ranking,
-                        map(
-                            lambda x: (
-                                x
-                                + (
-                                    (
-                                        " ("
-                                        + (
-                                            "+"
-                                            if best_ranking.index(x)
-                                            > current_ranking.index(x)
-                                            else ""
-                                        )
-                                        + str(
-                                            best_ranking.index(x)
-                                            - current_ranking.index(x)
-                                        )
-                                        + ")"
+                            if (
+                                objective_function(
+                                    Problem(
+                                        new_ranking, head_to_head, meets_minimum_races
                                     )
-                                    if best_ranking.index(x) != current_ranking.index(x)
-                                    else ""
                                 )
+                                < best_objective
+                            ):
+                                continue
+
+                            print("Bumped up " + school)
+                            current_ranking = new_ranking
+                            potential_energy = new_potential_energy
+                            total_potential_energy = sum(new_potential_energy.values())
+                            print(total_potential_energy)
+                            break
+
+                    print("-" * 25)
+
+                    for i, school in enumerate(current_ranking):
+                        print(
+                            str(i + 1)
+                            + ": "
+                            + school
+                            + " ("
+                            + str(round(potential_energy[school], 2))
+                            + ") "
+                            + repr(beat[school])
+                        )
+
+                    table = list(
+                        zip(
+                            best_ranking,
+                            map(
+                                lambda x: (
+                                    x
+                                    + (
+                                        (
+                                            " ("
+                                            + (
+                                                "+"
+                                                if best_ranking.index(x)
+                                                > current_ranking.index(x)
+                                                else ""
+                                            )
+                                            + str(
+                                                best_ranking.index(x)
+                                                - current_ranking.index(x)
+                                            )
+                                            + ")"
+                                        )
+                                        if best_ranking.index(x)
+                                        != current_ranking.index(x)
+                                        else ""
+                                    )
+                                ),
+                                current_ranking,
                             ),
-                            current_ranking,
-                        ),
+                        )
                     )
-                )
-                table.insert(18, ("----------", "----------"))
+                    # table.insert(18, ("----------", "----------"))
 
-                print(
-                    tabulate(
-                        table,
-                        headers=("Original", "After Adjusting"),
-                    )
-                )
+                    # print(
+                    #     tabulate(
+                    #         table,
+                    #         headers=("Original", "After Adjusting"),
+                    #     )
+                    # )
 
-                best_ranking = current_ranking
+                    best_ranking = current_ranking
 
                 rows = []
                 rows.append([FORMULA] + best_ranking)
@@ -408,10 +418,11 @@ def rank_by_most_recent_head_to_head(data_dir):
                         else:
                             row.append("")
                     rows.append(row)
-                with open("head-to-head.csv", "w") as f:
+                with open(
+                    f"head-to-head-{class_}-{gender}-{varsity_index}.csv", "w"
+                ) as f:
                     writer = csv.writer(f)
                     writer.writerows(rows)
-                return
 
 
 def get_potential_energy(ranking, beat):
@@ -442,6 +453,8 @@ def get_potential_energy(ranking, beat):
 
 def objective_function(problem):
     conflicts = get_conflicts(problem)
+    if not conflicts:
+        return (0, 0, 0)
     date = datetime.datetime.strptime(max(x[3] for x in conflicts), "%Y-%m-%d")
     # favor conflicts that are further in the past
     return (-len(conflicts), -date.timestamp(), sum(x[2] for x in conflicts))

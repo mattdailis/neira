@@ -1,4 +1,8 @@
-digraph boys4foursBerwick {Berwick [URL="boys4foursBerwickBerwick.html"];Medford [URL="boys4foursBerwickMedford.html"];Berwick -> Medford[label="12.9 (14.07)
+digraph boys4foursBerwick {Berwick [URL="boys4foursBerwickBerwick.html"];Medford [URL="boys4foursBerwickMedford.html"];Berwick -> Medford[label="12.9 (13.82)
 05/11", weight="88", tooltip="NEIRA, Medford High School and Berwick Academy			
-Distance: 1375 Conditions: extremely chop for the race. Current increased throughout the day; pushing boats to starboard. Because of the wind, we started all races via floating, quick starts Comments: Thank you to Berwick Academy for coming down and racing!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BAA317D9E8DD93E01874D25E90000546&cat=1", random="random"]}
+Distance: 1400 Conditions: extremely chop for the race. Current increased throughout the day; pushing boats to starboard. Because of the wind, we started all races via floating, quick starts Comments: Thank you to Berwick Academy for coming down and racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BAA317D9E8DD93E01874D25E90000546&cat=1", random="random"]; 
+Berwick -> Medford[label="12.9 (13.82)
+05/11", weight="88", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]}

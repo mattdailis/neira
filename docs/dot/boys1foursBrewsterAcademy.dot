@@ -1,7 +1,23 @@
-digraph boys1foursBrewsterAcademy {Berwick [URL="boys1foursBrewsterAcademyBerwick.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademyBrewsterAcademy.html"];Nobles [URL="boys1foursBrewsterAcademyNobles.html"];StMarks [URL="boys1foursBrewsterAcademyStMarks.html"];Hopkins [URL="boys1foursBrewsterAcademyHopkins.html"];Choate [URL="boys1foursBrewsterAcademyChoate.html"];Thayer [URL="boys1foursBrewsterAcademyThayer.html"];Pomfret [URL="boys1foursBrewsterAcademyPomfret.html"];Canterbury [URL="boys1foursBrewsterAcademyCanterbury.html"];Derryfield [URL="boys1foursBrewsterAcademyDerryfield.html"];NMH [URL="boys1foursBrewsterAcademyNMH.html"];Taft [URL="boys1foursBrewsterAcademyTaft.html"];Suffield [URL="boys1foursBrewsterAcademySuffield.html"];Berwick -> BrewsterAcademy[label="8.3
+digraph boys1foursBrewsterAcademy {Medford [URL="boys1foursBrewsterAcademyMedford.html"];StMarysLynn [URL="boys1foursBrewsterAcademyStMarysLynn.html"];Pomfret [URL="boys1foursBrewsterAcademyPomfret.html"];Thayer [URL="boys1foursBrewsterAcademyThayer.html"];Suffield [URL="boys1foursBrewsterAcademySuffield.html"];Hopkins [URL="boys1foursBrewsterAcademyHopkins.html"];Canterbury [URL="boys1foursBrewsterAcademyCanterbury.html"];Taft [URL="boys1foursBrewsterAcademyTaft.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademyBrewsterAcademy.html"];Derryfield [URL="boys1foursBrewsterAcademyDerryfield.html"];Nobles [URL="boys1foursBrewsterAcademyNobles.html"];StMarks [URL="boys1foursBrewsterAcademyStMarks.html"];Berwick [URL="boys1foursBrewsterAcademyBerwick.html"];NMH [URL="boys1foursBrewsterAcademyNMH.html"];Choate [URL="boys1foursBrewsterAcademyChoate.html"];Berwick -> BrewsterAcademy[label="8.3
 04/13", weight="92", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
 Distance: 1500 Conditions: Tail Current with a strong tail/cross wind with occasional gusts. Fun conditions for first race of the season! Thank you for Brewster for making the trip. Comments: Mixed boats were exhibition events and a combo of boys and girls of various skill levels - anything to get some new rowers more racing experience!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=193F4296CB862153CF0FD21B95E6AB20&cat=5", random="random"]; 
+Berwick -> BrewsterAcademy[label="19.3 (20.68)
+05/11", weight="81", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+BrewsterAcademy -> Thayer[label="10.2 (10.93)
+05/11", weight="90", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+BrewsterAcademy -> StMarysLynn[label="25.2 (27.0)
+05/11", weight="75", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+BrewsterAcademy -> Medford[label="26.5 (28.39)
+05/11", weight="74", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
 BrewsterAcademy -> Derryfield[label="4.8
 05/08", weight="96", tooltip="NEIRA Boys & Girls Fours,Davison Cup: Bedford, Brewster Academy, Derryfield, Thayer			
 Distance: 1500m Conditions: Calm conditions, tail current. Comments: Bedford racing as non-NEIRA school for this event (because they race 8+s at NEIRA's). Thayer fielded only a G2 boat for the event.

@@ -412,6 +412,15 @@
         "checksum": "f07c404e7febeb09a47077a07df13a63",
         "corrections": []
     },
+    "6B42F00B9C36E071AAB9D6063008D7F1": {
+        "checksum": "1ff46c9cbbf052a8601b6c772651f0de",
+        "corrections": [
+            {
+                "comment": "Thayer didn't have a GV is a true 2V, so they were entered as such.",
+                "type": "comment"
+            }
+        ]
+    },
     "6C4883C3BF2AE2404F975527F674C4D4": {
         "checksum": "e895dfe5041a231c5dcd6497f4bd3f86",
         "corrections": []
@@ -664,16 +673,20 @@
         ]
     },
     "BAA317D9E8DD93E01874D25E90000546": {
-        "checksum": "28359c6b05527abed68ebf9cd2faf10f",
+        "checksum": "537d4faed0783748bd5a112e13eb941e",
         "corrections": [
             {
-                "type": "set_class_all_heats",
-                "class": "fours"
+                "class": "fours",
+                "type": "set_class_all_heats"
             },
             {
-                "type": "set_gender_all_heats",
+                "comment": "best guess based on https://www.instagram.com/p/C603fyaAllF/?img_index=2",
                 "gender": "boys",
-                "comment": "best guess based on https://www.instagram.com/p/C603fyaAllF/?img_index=2"
+                "type": "set_gender_all_heats"
+            },
+            {
+                "comment": "Confirmed by Aaron Manes. Also, the distance was updated from 1375 to 1400",
+                "type": "comment"
             }
         ]
     },
@@ -823,14 +836,14 @@
         ]
     },
     "ECD4EEF2AD48B36F9C3A8B012076D26E": {
-        "checksum": "48108945d167227c0aca83c0b884670e",
+        "checksum": "2e105ecd2ce58a52344d33519ba25153",
         "corrections": [
             {
                 "heats": [
                     "girls 6"
                 ],
-                "type_": "ignore_heats",
-                "type": "comment"
+                "type": "comment",
+                "type_": "ignore_heats"
             }
         ]
     },

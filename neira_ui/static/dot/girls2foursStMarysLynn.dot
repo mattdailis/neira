@@ -1,4 +1,12 @@
-digraph girls2foursStMarysLynn {WorcesterAcademy [URL="girls2foursStMarysLynnWorcesterAcademy.html"];ValleyRegional [URL="girls2foursStMarysLynnValleyRegional.html"];StMaryAcademyBayView [URL="girls2foursStMarysLynnStMaryAcademyBayView.html"];StMarysLynn [URL="girls2foursStMarysLynnStMarysLynn.html"];Lincoln [URL="girls2foursStMarysLynnLincoln.html"];EagleHill [URL="girls2foursStMarysLynnEagleHill.html"];MarianapolisPrep [URL="girls2foursStMarysLynnMarianapolisPrep.html"];StMarysLynn -> MarianapolisPrep[label="6.5
+digraph girls2foursStMarysLynn {StMaryAcademyBayView [URL="girls2foursStMarysLynnStMaryAcademyBayView.html"];StMarysLynn [URL="girls2foursStMarysLynnStMarysLynn.html"];Thayer [URL="girls2foursStMarysLynnThayer.html"];EagleHill [URL="girls2foursStMarysLynnEagleHill.html"];BrewsterAcademy [URL="girls2foursStMarysLynnBrewsterAcademy.html"];ValleyRegional [URL="girls2foursStMarysLynnValleyRegional.html"];WorcesterAcademy [URL="girls2foursStMarysLynnWorcesterAcademy.html"];MarianapolisPrep [URL="girls2foursStMarysLynnMarianapolisPrep.html"];Lincoln [URL="girls2foursStMarysLynnLincoln.html"];BrewsterAcademy -> StMarysLynn[label="40.7 (43.61)
+05/11", weight="60", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+Thayer -> StMarysLynn[label="5.4 (5.79)
+05/11", weight="95", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+StMarysLynn -> MarianapolisPrep[label="6.5
 05/01", weight="94", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
 Distance: 1500m Conditions: Very little chop
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 

@@ -1,4 +1,4 @@
-digraph girls4foursGreenwichCountryDay {Choate [URL="girls4foursGreenwichCountryDayChoate.html"];LymeOldLyme [URL="girls4foursGreenwichCountryDayLymeOldLyme.html"];GreenwichCountryDay [URL="girls4foursGreenwichCountryDayGreenwichCountryDay.html"];Choate -> GreenwichCountryDay[label="35.19
+digraph girls4foursGreenwichCountryDay {GreenwichCountryDay [URL="girls4foursGreenwichCountryDayGreenwichCountryDay.html"];LymeOldLyme [URL="girls4foursGreenwichCountryDayLymeOldLyme.html"];Choate [URL="girls4foursGreenwichCountryDayChoate.html"];Choate -> GreenwichCountryDay[label="35.19
 05/05", weight="65", tooltip="Founder's Day Regatta			
 Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
 GreenwichCountryDay -> LymeOldLyme[label="4.07

@@ -1,4 +1,20 @@
-digraph boys1foursStMarysLynn {WorcesterAcademy [URL="boys1foursStMarysLynnWorcesterAcademy.html"];Medford [URL="boys1foursStMarysLynnMedford.html"];ValleyRegional [URL="boys1foursStMarysLynnValleyRegional.html"];StMarysLynn [URL="boys1foursStMarysLynnStMarysLynn.html"];Bancroft [URL="boys1foursStMarysLynnBancroft.html"];EagleHill [URL="boys1foursStMarysLynnEagleHill.html"];MarianapolisPrep [URL="boys1foursStMarysLynnMarianapolisPrep.html"];StMarysLynn -> EagleHill[label="7.0
+digraph boys1foursStMarysLynn {Medford [URL="boys1foursStMarysLynnMedford.html"];StMarysLynn [URL="boys1foursStMarysLynnStMarysLynn.html"];Thayer [URL="boys1foursStMarysLynnThayer.html"];EagleHill [URL="boys1foursStMarysLynnEagleHill.html"];BrewsterAcademy [URL="boys1foursStMarysLynnBrewsterAcademy.html"];ValleyRegional [URL="boys1foursStMarysLynnValleyRegional.html"];WorcesterAcademy [URL="boys1foursStMarysLynnWorcesterAcademy.html"];MarianapolisPrep [URL="boys1foursStMarysLynnMarianapolisPrep.html"];Berwick [URL="boys1foursStMarysLynnBerwick.html"];Bancroft [URL="boys1foursStMarysLynnBancroft.html"];Berwick -> StMarysLynn[label="44.5 (47.68)
+05/11", weight="56", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+BrewsterAcademy -> StMarysLynn[label="25.2 (27.0)
+05/11", weight="75", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+Thayer -> StMarysLynn[label="15.0 (16.07)
+05/11", weight="85", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+StMarysLynn -> Medford[label="1.3 (1.39)
+05/11", weight="99", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+StMarysLynn -> EagleHill[label="7.0
 05/01", weight="93", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
 Distance: 1500m Conditions: Very little chop
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 
