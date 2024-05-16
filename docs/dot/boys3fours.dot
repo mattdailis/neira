@@ -1,4 +1,4 @@
-digraph boys3fours {FrederickGunn [URL="boys3foursFrederickGunn.html"];Middlesex [URL="boys3foursMiddlesex.html"];KingSchool [URL="boys3foursKingSchool.html"];Groton [URL="boys3foursGroton.html"];StMarks [URL="boys3foursStMarks.html"];LymeOldLyme [URL="boys3foursLymeOldLyme.html"];StMarysLynn [URL="boys3foursStMarysLynn.html"];Pomfret [URL="boys3foursPomfret.html"];Taft [URL="boys3foursTaft.html"];BrewsterAcademy [URL="boys3foursBrewsterAcademy.html"];BelmontHill [URL="boys3foursBelmontHill.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Middletown [URL="boys3foursMiddletown.html"];Berwick [URL="boys3foursBerwick.html"];NMH [URL="boys3foursNMH.html"];Choate [URL="boys3foursChoate.html"];NotreDame [URL="boys3foursNotreDame.html"];Hopkins [URL="boys3foursHopkins.html"];Brooks [URL="boys3foursBrooks.html"];Suffield [URL="boys3foursSuffield.html"];EagleHill [URL="boys3foursEagleHill.html"];WorcesterAcademy [URL="boys3foursWorcesterAcademy.html"];BBN [URL="boys3foursBBN.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];Nobles [URL="boys3foursNobles.html"];Medford [URL="boys3foursMedford.html"];Pingree [URL="boys3foursPingree.html"];BelmontHill -> Brooks[label="24.1
+digraph boys3fours {Berwick [URL="boys3foursBerwick.html"];NMH [URL="boys3foursNMH.html"];KingSchool [URL="boys3foursKingSchool.html"];NotreDame [URL="boys3foursNotreDame.html"];Canterbury [URL="boys3foursCanterbury.html"];LymeOldLyme [URL="boys3foursLymeOldLyme.html"];Nobles [URL="boys3foursNobles.html"];Groton [URL="boys3foursGroton.html"];StMarks [URL="boys3foursStMarks.html"];BrewsterAcademy [URL="boys3foursBrewsterAcademy.html"];Middlesex [URL="boys3foursMiddlesex.html"];Choate [URL="boys3foursChoate.html"];Hopkins [URL="boys3foursHopkins.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Suffield [URL="boys3foursSuffield.html"];Middletown [URL="boys3foursMiddletown.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Pomfret [URL="boys3foursPomfret.html"];FrederickGunn [URL="boys3foursFrederickGunn.html"];BBN [URL="boys3foursBBN.html"];Pingree [URL="boys3foursPingree.html"];Medford [URL="boys3foursMedford.html"];Taft [URL="boys3foursTaft.html"];WorcesterAcademy [URL="boys3foursWorcesterAcademy.html"];EagleHill [URL="boys3foursEagleHill.html"];Brooks [URL="boys3foursBrooks.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];StMarysLynn [URL="boys3foursStMarysLynn.html"];Bancroft [URL="boys3foursBancroft.html"];BelmontHill -> Brooks[label="24.1
 05/11", weight="76", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
 Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
 Choate did not race a B3 and NCDS did not race a G4 today.
@@ -168,6 +168,30 @@ EagleHill -> StMarysLynn[label="13.0
 05/01", weight="87", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
 Distance: 1500m Conditions: Very little chop
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 
+Medford -> BrewsterAcademy[label="23.3
+05/15", weight="77", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+Medford -> WorcesterAcademy[label="45.5
+05/15", weight="55", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+Medford -> Bancroft[label="53.9
+05/15", weight="47", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+BrewsterAcademy -> WorcesterAcademy[label="22.2
+05/15", weight="78", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+BrewsterAcademy -> Bancroft[label="30.6
+05/15", weight="70", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+WorcesterAcademy -> Bancroft[label="8.4
+05/15", weight="92", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
 Brooks -> NMH[label="13.0
 04/27", weight="87", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
 Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
@@ -262,6 +286,11 @@ StMarks -> WorcesterAcademy[label="52.0
 04/13", weight="48", tooltip="NEIRA Boys & Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
 Distance: 1500m Conditions: A prevailing 12-14mph crosswind shifting to a cross/tail for some races. Two small short-lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3-G4-B2-G1-B1-G2-G3. There was no B4 race. Races aren't comparable because of very shifty conditions. Boys 2V started 50m over the line.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&cat=5", random="random"]; 
+Canterbury -> NotreDame[label="11.0
+05/15", weight="89", tooltip="NEIRA Boys Fours, Canterbury vs Notre Dame			
+Distance: 1500 Conditions: Calm water, slack tide racing against the river current.
+The Canterbury Girls 1V4+ raced in the 2nd race against the Notre Dame 2V, 3V and Canterbury Boys 2V boats. Comments: Great racing by all in some rainy conditions!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=81C8AB79B6EFAFA8C32CEA9B19955B6E&cat=1", random="random"]; 
 Nobles -> StMarks[label="35.9
 04/27", weight="65", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
 Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!

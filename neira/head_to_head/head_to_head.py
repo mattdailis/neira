@@ -124,7 +124,7 @@ def head_to_head(data_dir, html_dir):
     # school time
 
 
-Problem = namedtuple("Problem", "ranking head_to_head meets_minimum_races")
+Problem = namedtuple("Problem", "ranking head_to_head meets_minimum_races path2")
 
 
 def rank_by_most_recent_head_to_head(data_dir):
@@ -164,22 +164,45 @@ def rank_by_most_recent_head_to_head(data_dir):
                 # margin = right school time minus left school time
 
                 for x in filtered_tuples:
-                    if x.faster_boat > x.slower_boat:
-                        pair = (x.slower_boat, x.faster_boat)
-                        margin = -x.margin
-                    else:
-                        pair = (x.faster_boat, x.slower_boat)
-                        margin = x.margin
-                    new_value = x.date, margin
-                    if pair not in head_to_head:
-                        head_to_head[pair] = new_value
-                    else:
-                        # Maximize date and abs(margin)
-                        head_to_head[pair] = max(
-                            head_to_head[pair],
-                            new_value,
-                            key=lambda x: (x[0], abs(x[1])),
-                        )
+                    put_margin(
+                        head_to_head, x.faster_boat, x.slower_boat, x.margin, x.date
+                    )
+
+                path2 = dict()
+                for (school1, school2), (date1, margin1) in head_to_head.items():
+                    for (school3, school4), (date2, margin2) in head_to_head.items():
+                        if school2 == school3:
+                            put_margin(
+                                path2,
+                                school1,
+                                school4,
+                                margin1 + margin2,
+                                min(date1, date2),
+                            )
+                        if school1 == school3:
+                            put_margin(
+                                path2,
+                                school2,
+                                school4,
+                                margin2 - margin1,
+                                min(date1, date2),
+                            )
+                        if school1 == school4:
+                            put_margin(
+                                path2,
+                                school3,
+                                school2,
+                                margin1 + margin2,
+                                min(date1, date2),
+                            )
+                        if school2 == school4:
+                            put_margin(
+                                path2,
+                                school1,
+                                school3,
+                                margin1 - margin2,
+                                min(date1, date2),
+                            )
 
                 # best_option = min(
                 #     tqdm(
@@ -196,13 +219,18 @@ def rank_by_most_recent_head_to_head(data_dir):
                 best_ranking = sorted(list(schools))
                 alternatives = []
                 best_objective = objective_function(
-                    Problem(best_ranking, head_to_head, meets_minimum_races)
+                    Problem(best_ranking, head_to_head, meets_minimum_races, path2)
                 )
 
                 for _ in tqdm(range(300)):
                     schools_copy = list(schools)
                     shuffle(schools_copy)
-                    problem = Problem(schools_copy, head_to_head, meets_minimum_races)
+                    problem = Problem(
+                        schools_copy,
+                        head_to_head,
+                        meets_minimum_races,
+                        path2,
+                    )
 
                     result = iterative_repair(
                         problem, get_conflicts, objective_function, (move_up, move_down)
@@ -237,7 +265,7 @@ def rank_by_most_recent_head_to_head(data_dir):
                 print(tabulate(table))
 
                 conflicts = get_conflicts(
-                    Problem(best_ranking, head_to_head, meets_minimum_races)
+                    Problem(best_ranking, head_to_head, meets_minimum_races, path2)
                 )
                 print(conflicts)
 
@@ -334,7 +362,10 @@ def rank_by_most_recent_head_to_head(data_dir):
                             if (
                                 objective_function(
                                     Problem(
-                                        new_ranking, head_to_head, meets_minimum_races
+                                        new_ranking,
+                                        head_to_head,
+                                        meets_minimum_races,
+                                        path2,
                                     )
                                 )
                                 < best_objective
@@ -455,27 +486,75 @@ def objective_function(problem):
     conflicts = get_conflicts(problem)
     if not conflicts:
         return (0, 0, 0)
-    date = datetime.datetime.strptime(max(x[3] for x in conflicts), "%Y-%m-%d")
+    date = datetime.datetime.strptime(max(x.date for x in conflicts), "%Y-%m-%d")
     # favor conflicts that are further in the past
-    return (-len(conflicts), -date.timestamp(), sum(x[2] for x in conflicts))
 
+    conflicts_by_level = dict()
+    for level in (CONFLICT_LEVEL._1, CONFLICT_LEVEL._2):
+        conflicts_by_level[level] = []
 
-def objective_function_sum(problem):
-    return sum(x[2] for x in get_conflicts(problem))
+    for conflict in conflicts:
+        conflicts_by_level[conflict.level].append(conflict)
 
-
-def objective_function_len(problem):
-    return -len(get_conflicts(problem))
+    return (
+        (
+            -len(conflicts_by_level[CONFLICT_LEVEL._1]),
+            -len(conflicts_by_level[CONFLICT_LEVEL._2]),
+        ),
+        -date.timestamp(),
+        (
+            sum(x.margin for x in conflicts_by_level[CONFLICT_LEVEL._1]),
+            sum(x.margin for x in conflicts_by_level[CONFLICT_LEVEL._2]),
+        ),
+    )
 
 
 def get_margin_and_date(head_to_head, school1, school2):
+    """
+    margin > 0 means that school1 beat school2
+    """
     if (school1, school2) in head_to_head:
         return head_to_head[(school1, school2)][1], head_to_head[(school1, school2)][0]
     if (school2, school1) in head_to_head:
         return -head_to_head[(school2, school1)][1], head_to_head[(school2, school1)][0]
 
 
-def get_conflicts(problem):
+def put_margin(head_to_head, faster_boat, slower_boat, margin, date):
+    """
+    school1 beat school2 by margin
+    """
+    if faster_boat > slower_boat:
+        pair = (slower_boat, faster_boat)
+        margin = -margin
+    else:
+        pair = (faster_boat, slower_boat)
+        margin = margin
+    new_value = date, margin
+    if pair not in head_to_head:
+        head_to_head[pair] = new_value
+    else:
+        # Maximize date and abs(margin)
+        head_to_head[pair] = max(
+            head_to_head[pair],
+            new_value,
+            key=lambda x: (x[0], abs(x[1])),
+        )
+
+
+class CONFLICT_LEVEL:
+    _1 = 1
+    _2 = 2
+
+
+Conflict = namedtuple("Conflict", "school1 school2 level margin date")
+
+
+def get_conflicts(problem) -> List[Conflict]:
+    """
+    Conflict: (school1, school2, level, margin, date, indirect_margins)
+    means that school2 should be ranked above school1, because they beat school1 by margin on date
+    indirect_margins collects the links of length two between the two schools
+    """
     conflicts = []
     for i, school1 in enumerate(problem.ranking):
         for school2 in problem.ranking[i + 1 :]:
@@ -484,49 +563,62 @@ def get_conflicts(problem):
                     problem.head_to_head, school1, school2
                 )
                 if margin < 0:
-                    conflicts.append((school1, school2, margin, date))
+                    conflicts.append(
+                        Conflict(school1, school2, CONFLICT_LEVEL._1, margin, date)
+                    )
             if (
                 problem.meets_minimum_races[school2]
                 and not problem.meets_minimum_races[school1]
             ):
-                conflicts.append((school1, school2, 0, "3000-01-01"))
+                conflicts.append(
+                    Conflict(school1, school2, CONFLICT_LEVEL._1, 0, "3000-01-01")
+                )
+            if tuple(sorted((school1, school2))) in problem.path2:
+                margin, date = get_margin_and_date(problem.path2, school1, school2)
+                if margin < 0:
+                    conflicts.append(
+                        Conflict(school1, school2, CONFLICT_LEVEL._2, margin, date)
+                    )
+
     return conflicts
 
 
 def move_up(problem, conflict):
-    school1, school2, _, _ = conflict
     new_ranking = list(problem.ranking)
 
-    index_1 = problem.ranking.index(school1)
-    index_2 = problem.ranking.index(school2)
+    index_1 = problem.ranking.index(conflict.school1)
+    index_2 = problem.ranking.index(conflict.school2)
 
     new_ranking = (
         problem.ranking[:index_1]
-        + [school2]
-        + [school1]
+        + [conflict.school2]
+        + [conflict.school1]
         + problem.ranking[index_1 + 1 : index_2]
         + problem.ranking[index_2 + 1 :]
     )
 
-    return Problem(new_ranking, problem.head_to_head, problem.meets_minimum_races)
+    return Problem(
+        new_ranking, problem.head_to_head, problem.meets_minimum_races, problem.path2
+    )
 
 
 def move_down(problem, conflict):
-    school1, school2, _, _ = conflict
     new_ranking = list(problem.ranking)
 
-    index_1 = problem.ranking.index(school1)
-    index_2 = problem.ranking.index(school2)
+    index_1 = problem.ranking.index(conflict.school1)
+    index_2 = problem.ranking.index(conflict.school2)
 
     new_ranking = (
         problem.ranking[:index_1]
         + problem.ranking[index_1 + 1 : index_2]
-        + [school2]
-        + [school1]
+        + [conflict.school2]
+        + [conflict.school1]
         + problem.ranking[index_2 + 1 :]
     )
 
-    return Problem(new_ranking, problem.head_to_head, problem.meets_minimum_races)
+    return Problem(
+        new_ranking, problem.head_to_head, problem.meets_minimum_races, problem.path2
+    )
 
 
 def iterative_repair(subject, get_conflicts, objective_function, repair_strategies):
@@ -645,3 +737,25 @@ FORMULA = "=SUMPRODUCT(B2:AK37, ROW(B2:AK37) < COLUMN(B2:AK37))"
 # (-2, -1713596400.0, -6.6)
 # ['Nobles', 'Brooks', 'BB&N', 'Cambridge RLS', 'Taft', 'Choate', 'Hopkins', 'Frederick Gunn', 'Middlesex', "St. Mark's", 'Brewster Academy', 'Lyme/Old Lyme', 'Greenwich Academy', 'Canterbury', 'Groton', 'NMH', 'Berkshire Academy', 'Pomfret', 'Valley Regional', "St. Mary's-Lynn", 'Marianapolis Prep', 'Winsor', 'Newton Country Day', 'BU Academy', 'Pingree', 'Derryfield', 'Middletown', 'Berwick', 'Worcester Academy', "Miss Porter's", 'Greenwich Country Day', 'Suffield', 'St. Mary Academy-Bay View', 'Lincoln']
 # [('BB&N', 'Groton', -5.5, '2024-04-20'), ("St. Mark's", 'NMH', -1.1, '2024-04-13')]
+
+Critique = namedtuple("Critique", "school1 school2 critique_type ")
+
+
+def critique(data_dir, class_, gender, varsity_index, ranking):
+    """
+    For every pair of schools, gather evidence that either SUPPORTS or CONTRADICTS their relative ordering
+    """
+    boatName = gender + varsity_index + class_
+    print(boatName)
+
+    tuples: List[data.Datum] = data.get_head_to_head_tuples(data_dir)
+
+    filtered_tuples = [x for x in tuples if x.boatName == boatName]
+
+    critiques = []
+
+    for i, school1 in enumerate(ranking):
+        for school2 in ranking[i + 1 :]:
+            # did school1 beat school2 head-to-head? That supports it
+            # did school2 beat school1 head-to-head? That contradicts it
+            pass

@@ -1,4 +1,4 @@
-digraph boys1foursThayer {StMarysLynn [URL="boys1foursThayerStMarysLynn.html"];Thayer [URL="boys1foursThayerThayer.html"];BrewsterAcademy [URL="boys1foursThayerBrewsterAcademy.html"];Berwick [URL="boys1foursThayerBerwick.html"];BUAcademy [URL="boys1foursThayerBUAcademy.html"];CambridgeRLS [URL="boys1foursThayerCambridgeRLS.html"];Derryfield [URL="boys1foursThayerDerryfield.html"];Medford [URL="boys1foursThayerMedford.html"];Thayer -> Medford[label="7.5 (11.25)
+digraph boys1foursThayer {Berwick [URL="boys1foursThayerBerwick.html"];EagleHill [URL="boys1foursThayerEagleHill.html"];Derryfield [URL="boys1foursThayerDerryfield.html"];StMarysLynn [URL="boys1foursThayerStMarysLynn.html"];CambridgeRLS [URL="boys1foursThayerCambridgeRLS.html"];BUAcademy [URL="boys1foursThayerBUAcademy.html"];Medford [URL="boys1foursThayerMedford.html"];MarianapolisPrep [URL="boys1foursThayerMarianapolisPrep.html"];BrewsterAcademy [URL="boys1foursThayerBrewsterAcademy.html"];Thayer [URL="boys1foursThayerThayer.html"];Thayer -> Medford[label="7.5 (11.25)
 05/01", weight="93", tooltip="NEIRA Boys & Girls Fours,Neponset Rowing Club vs Thayer vs Medford High School vs Dexter Southfield			
 Distance: 1000m Conditions: Calm with slight tailwind for all races Comments: Thank you to Neponset Rowing Club for hosting.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A0D8E23B33FA4A1CD9EE0595C6E7A2A5&cat=5", random="random"]; 
@@ -33,4 +33,12 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6C4883C3BF2AE2404F
 Derryfield -> Thayer[label="8.7
 05/08", weight="92", tooltip="NEIRA Boys & Girls Fours,Davison Cup: Bedford, Brewster Academy, Derryfield, Thayer			
 Distance: 1500m Conditions: Calm conditions, tail current. Comments: Bedford racing as non-NEIRA school for this event (because they race 8+s at NEIRA's). Thayer fielded only a G2 boat for the event.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6C4883C3BF2AE2404F975527F674C4D4&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6C4883C3BF2AE2404F975527F674C4D4&cat=5", random="random"]; 
+Thayer -> EagleHill[label="15.9
+05/15", weight="85", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs.Greenwich Country Day, Thayer, and Eagle Hill			
+Distance: 1500 Conditions: GV1 race was quite calm. GV2 and Boys races had a slight headwind
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=333A8CBC2914B00774B798094F5DAE29&cat=5", random="random"]; 
+Thayer -> MarianapolisPrep[label="26.6
+05/15", weight="74", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs.Greenwich Country Day, Thayer, and Eagle Hill			
+Distance: 1500 Conditions: GV1 race was quite calm. GV2 and Boys races had a slight headwind
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=333A8CBC2914B00774B798094F5DAE29&cat=5", random="random"]}

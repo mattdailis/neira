@@ -1,4 +1,4 @@
-digraph girls2foursBrewsterAcademy {LymeOldLyme [URL="girls2foursBrewsterAcademyLymeOldLyme.html"];StMarysLynn [URL="girls2foursBrewsterAcademyStMarysLynn.html"];Pomfret [URL="girls2foursBrewsterAcademyPomfret.html"];Thayer [URL="girls2foursBrewsterAcademyThayer.html"];NewtonCountryDay [URL="girls2foursBrewsterAcademyNewtonCountryDay.html"];Taft [URL="girls2foursBrewsterAcademyTaft.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademyBrewsterAcademy.html"];GreenwichCountryDay [URL="girls2foursBrewsterAcademyGreenwichCountryDay.html"];BerkshireAcademy [URL="girls2foursBrewsterAcademyBerkshireAcademy.html"];Derryfield [URL="girls2foursBrewsterAcademyDerryfield.html"];Nobles [URL="girls2foursBrewsterAcademyNobles.html"];StMarks [URL="girls2foursBrewsterAcademyStMarks.html"];NMH [URL="girls2foursBrewsterAcademyNMH.html"];Choate [URL="girls2foursBrewsterAcademyChoate.html"];BrewsterAcademy -> Thayer[label="35.4 (37.93)
+digraph girls2foursBrewsterAcademy {WorcesterAcademy [URL="girls2foursBrewsterAcademyWorcesterAcademy.html"];NMH [URL="girls2foursBrewsterAcademyNMH.html"];BerkshireAcademy [URL="girls2foursBrewsterAcademyBerkshireAcademy.html"];Pomfret [URL="girls2foursBrewsterAcademyPomfret.html"];NewtonCountryDay [URL="girls2foursBrewsterAcademyNewtonCountryDay.html"];Derryfield [URL="girls2foursBrewsterAcademyDerryfield.html"];GreenwichCountryDay [URL="girls2foursBrewsterAcademyGreenwichCountryDay.html"];StMarysLynn [URL="girls2foursBrewsterAcademyStMarysLynn.html"];DexterSouthfield [URL="girls2foursBrewsterAcademyDexterSouthfield.html"];LymeOldLyme [URL="girls2foursBrewsterAcademyLymeOldLyme.html"];Taft [URL="girls2foursBrewsterAcademyTaft.html"];Nobles [URL="girls2foursBrewsterAcademyNobles.html"];Choate [URL="girls2foursBrewsterAcademyChoate.html"];StMarks [URL="girls2foursBrewsterAcademyStMarks.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademyBrewsterAcademy.html"];Thayer [URL="girls2foursBrewsterAcademyThayer.html"];BrewsterAcademy -> Thayer[label="35.4 (37.93)
 05/11", weight="65", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
 Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
@@ -6,6 +6,14 @@ BrewsterAcademy -> StMarysLynn[label="40.7 (43.61)
 05/11", weight="60", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
 Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+BrewsterAcademy -> DexterSouthfield[label="54.6
+05/15", weight="46", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+BrewsterAcademy -> WorcesterAcademy[label="79.8
+05/15", weight="21", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
 BrewsterAcademy -> Derryfield[label="16.5
 05/08", weight="84", tooltip="NEIRA Boys & Girls Fours,Davison Cup: Bedford, Brewster Academy, Derryfield, Thayer			
 Distance: 1500m Conditions: Calm conditions, tail current. Comments: Bedford racing as non-NEIRA school for this event (because they race 8+s at NEIRA's). Thayer fielded only a G2 boat for the event.

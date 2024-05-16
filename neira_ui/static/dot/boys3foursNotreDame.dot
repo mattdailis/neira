@@ -1,7 +1,12 @@
-digraph boys3foursNotreDame {NotreDame [URL="boys3foursNotreDameNotreDame.html"];KingSchool [URL="boys3foursNotreDameKingSchool.html"];KingSchool -> NotreDame[label="12.4
+digraph boys3foursNotreDame {Canterbury [URL="boys3foursNotreDameCanterbury.html"];NotreDame [URL="boys3foursNotreDameNotreDame.html"];KingSchool [URL="boys3foursNotreDameKingSchool.html"];KingSchool -> NotreDame[label="12.4
 05/11", weight="88", tooltip="NEIRA Boys Fours, King School vs Notre Dame West Haven			
 Distance: 1500 Conditions: Gusty head wind with an incoming tide, racing was against the river current.
 Slight chop in areas on the race course but for the most part flat water. Comments: Close racing across all events.
 In the 1V race King and Notre Dame were even with 350 meters to go when ND 1V caught a boat stopping crab.
 The King 4V raced in the 3V event.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2E6E8A1044F05A33E020958ED412AA3&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2E6E8A1044F05A33E020958ED412AA3&cat=1", random="random"]; 
+Canterbury -> NotreDame[label="11.0
+05/15", weight="89", tooltip="NEIRA Boys Fours, Canterbury vs Notre Dame			
+Distance: 1500 Conditions: Calm water, slack tide racing against the river current.
+The Canterbury Girls 1V4+ raced in the 2nd race against the Notre Dame 2V, 3V and Canterbury Boys 2V boats. Comments: Great racing by all in some rainy conditions!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=81C8AB79B6EFAFA8C32CEA9B19955B6E&cat=1", random="random"]}

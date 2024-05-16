@@ -1,4 +1,4 @@
-digraph boys3foursBrewsterAcademy {Berwick [URL="boys3foursBrewsterAcademyBerwick.html"];Medford [URL="boys3foursBrewsterAcademyMedford.html"];StMarysLynn [URL="boys3foursBrewsterAcademyStMarysLynn.html"];BrewsterAcademy [URL="boys3foursBrewsterAcademyBrewsterAcademy.html"];Berwick -> BrewsterAcademy[label="30.8 (33.0)
+digraph boys3foursBrewsterAcademy {Berwick [URL="boys3foursBrewsterAcademyBerwick.html"];WorcesterAcademy [URL="boys3foursBrewsterAcademyWorcesterAcademy.html"];StMarysLynn [URL="boys3foursBrewsterAcademyStMarysLynn.html"];Medford [URL="boys3foursBrewsterAcademyMedford.html"];Bancroft [URL="boys3foursBrewsterAcademyBancroft.html"];BrewsterAcademy [URL="boys3foursBrewsterAcademyBrewsterAcademy.html"];Berwick -> BrewsterAcademy[label="30.8 (33.0)
 05/11", weight="70", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
 Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
@@ -9,4 +9,16 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AA
 BrewsterAcademy -> StMarysLynn[label="53.8 (57.64)
 05/11", weight="47", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
 Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+Medford -> BrewsterAcademy[label="23.3
+05/15", weight="77", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+BrewsterAcademy -> WorcesterAcademy[label="22.2
+05/15", weight="78", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+BrewsterAcademy -> Bancroft[label="30.6
+05/15", weight="70", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]}

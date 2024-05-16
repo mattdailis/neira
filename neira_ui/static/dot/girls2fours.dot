@@ -1,4 +1,4 @@
-digraph girls2fours {Middlesex [URL="girls2foursMiddlesex.html"];ValleyRegional [URL="girls2foursValleyRegional.html"];Groton [URL="girls2foursGroton.html"];StMarks [URL="girls2foursStMarks.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];StMaryAcademyBayView [URL="girls2foursStMaryAcademyBayView.html"];StMarysLynn [URL="girls2foursStMarysLynn.html"];Pomfret [URL="girls2foursPomfret.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDay.html"];Taft [URL="girls2foursTaft.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademy.html"];MarianapolisPrep [URL="girls2foursMarianapolisPrep.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];Middletown [URL="girls2foursMiddletown.html"];NMH [URL="girls2foursNMH.html"];MissPorters [URL="girls2foursMissPorters.html"];Choate [URL="girls2foursChoate.html"];Hopkins [URL="girls2foursHopkins.html"];Canterbury [URL="girls2foursCanterbury.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Winsor [URL="girls2foursWinsor.html"];Brooks [URL="girls2foursBrooks.html"];Thayer [URL="girls2foursThayer.html"];EagleHill [URL="girls2foursEagleHill.html"];WorcesterAcademy [URL="girls2foursWorcesterAcademy.html"];BBN [URL="girls2foursBBN.html"];CambridgeRLS [URL="girls2foursCambridgeRLS.html"];GreenwichCountryDay [URL="girls2foursGreenwichCountryDay.html"];Derryfield [URL="girls2foursDerryfield.html"];Nobles [URL="girls2foursNobles.html"];Lincoln [URL="girls2foursLincoln.html"];Groton -> Brooks[label="6.0
+digraph girls2fours {NMH [URL="girls2foursNMH.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDay.html"];Lincoln [URL="girls2foursLincoln.html"];GreenwichCountryDay [URL="girls2foursGreenwichCountryDay.html"];Canterbury [URL="girls2foursCanterbury.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];MissPorters [URL="girls2foursMissPorters.html"];Nobles [URL="girls2foursNobles.html"];Choate [URL="girls2foursChoate.html"];Groton [URL="girls2foursGroton.html"];StMarks [URL="girls2foursStMarks.html"];Middlesex [URL="girls2foursMiddlesex.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademy.html"];MarianapolisPrep [URL="girls2foursMarianapolisPrep.html"];Hopkins [URL="girls2foursHopkins.html"];Derryfield [URL="girls2foursDerryfield.html"];Middletown [URL="girls2foursMiddletown.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Thayer [URL="girls2foursThayer.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];Pomfret [URL="girls2foursPomfret.html"];BBN [URL="girls2foursBBN.html"];Taft [URL="girls2foursTaft.html"];StMaryAcademyBayView [URL="girls2foursStMaryAcademyBayView.html"];Winsor [URL="girls2foursWinsor.html"];ValleyRegional [URL="girls2foursValleyRegional.html"];WorcesterAcademy [URL="girls2foursWorcesterAcademy.html"];EagleHill [URL="girls2foursEagleHill.html"];Brooks [URL="girls2foursBrooks.html"];CambridgeRLS [URL="girls2foursCambridgeRLS.html"];StMarysLynn [URL="girls2foursStMarysLynn.html"];DexterSouthfield [URL="girls2foursDexterSouthfield.html"];Groton -> Brooks[label="6.0
 05/11", weight="94", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
 Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
 Choate did not race a B3 and NCDS did not race a G4 today.
@@ -193,6 +193,18 @@ StMarysLynn -> MarianapolisPrep[label="6.5
 05/01", weight="94", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
 Distance: 1500m Conditions: Very little chop
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 
+BrewsterAcademy -> DexterSouthfield[label="54.6
+05/15", weight="46", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+BrewsterAcademy -> WorcesterAcademy[label="79.8
+05/15", weight="21", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+DexterSouthfield -> WorcesterAcademy[label="25.2
+05/15", weight="75", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
 Brooks -> NMH[label="9.9
 04/27", weight="91", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
 Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
@@ -427,6 +439,10 @@ StMaryAcademyBayView -> StMarysLynn[label="37.0
 04/27", weight="63", tooltip="NEIRA Boys & Girls Fours,St. Mary Academy - Bay View, Lincoln, St. Mary's - Lynn, Valley Regional			
 Distance: 1500m Conditions: Mild headwind, slight chop, slack tide for the 1st girls race. Old Saybrook (not in league) also competed. Comments: Old Saybrook (not in league) raced in 2nd boys and 3rd girls events.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1004BB53FFEA236A97E11B8A53F16514&cat=5", random="random"]; 
+GreenwichCountryDay -> MarianapolisPrep[label="29.8
+05/15", weight="71", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs.Greenwich Country Day, Thayer, and Eagle Hill			
+Distance: 1500 Conditions: GV1 race was quite calm. GV2 and Boys races had a slight headwind
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=333A8CBC2914B00774B798094F5DAE29&cat=5", random="random"]; 
 Winsor -> BBN[label="4.4 (5.08)
 04/27", weight="96", tooltip="NEIRA,The Winsor School vs. BB&N			
 Distance: 1300 Conditions: Flat and equal conditions across all races. Steering in 3V race resulted in both crews finishing off the course with an indistinguishable margin (deemed a tie). 4V crews reversed lanes mid-race, potentially impacting margin but not finish order. 5th and 6th boats were composite to provide a race for all athletes. Thank you to BB&N for a fun race!

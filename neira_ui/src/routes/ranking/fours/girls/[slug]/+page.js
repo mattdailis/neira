@@ -1,70 +1,56 @@
 import { error } from '@sveltejs/kit';
+import { parseCSV } from './csv';
 
-/** @type {import('../../../[slug]/$types').PageLoad} */
 export async function load({ fetch, params }) {
 
-	const res = await fetch(`/dot/girls${params.slug}fours.csv`);
-	if (res.status != 200) error(404, 'Not found');
+    const res = await fetch(`/dot/girls${params.slug}fours.csv`);
+    if (res.status != 200) error(404, 'Not found');
 
-	return { table: parseCSV(await (res.text())) };
-	// const item = await res.json();
+    const table = parseCSV(await (res.text()))
 
-	// return { item };
+    let [, ...ranking] = table[0]
 
+    let [, ...rows] = table
 
-	// if (params.slug === 'hello-world') {
-	// 	return {
-	// 		title: 'Hello world!',
-	// 		content: 'Welcome to our blog. Lorem ipsum dolor sit amet...'
-	// 	};
-	// }
-
-	// return {
-	// 	title: 'Hello world!',
-	// 	content: params.slug
-	// };
-
-	// 
-}
-
-/**
- * @param {string} str
- */
-function parseCSV(str) {
     /**
-	 * @type {string[][]}
-	 */
-    const arr = [];
-    let quote = false;  // 'true' means we're inside a quoted field
+     * @type Record<String, Record<String, String>>
+     */
+    const margins = {} // loser --> winner --> margin
 
-    // Iterate over each character, keep track of current row and column (of the returned array)
-    for (let row = 0, col = 0, c = 0; c < str.length; c++) {
-        let cc = str[c], nc = str[c+1];        // Current character, next character
-        arr[row] = arr[row] || [];             // Create a new row if necessary
-        arr[row][col] = arr[row][col] || '';   // Create a new column (start with empty string) if necessary
-
-        // If the current character is a quotation mark, and we're inside a
-        // quoted field, and the next character is also a quotation mark,
-        // add a quotation mark to the current column and skip the next character
-        if (cc == '"' && quote && nc == '"') { arr[row][col] += cc; ++c; continue; }
-
-        // If it's just one quotation mark, begin/end quoted field
-        if (cc == '"') { quote = !quote; continue; }
-
-        // If it's a comma and we're not in a quoted field, move on to the next column
-        if (cc == ',' && !quote) { ++col; continue; }
-
-        // If it's a newline (CRLF) and we're not in a quoted field, skip the next character
-        // and move on to the next row and move to column 0 of that new row
-        if (cc == '\r' && nc == '\n' && !quote) { ++row; col = 0; ++c; continue; }
-
-        // If it's a newline (LF or CR) and we're not in a quoted field,
-        // move on to the next row and move to column 0 of that new row
-        if (cc == '\n' && !quote) { ++row; col = 0; continue; }
-        if (cc == '\r' && !quote) { ++row; col = 0; continue; }
-
-        // Otherwise, append the current character to the current column
-        arr[row][col] += cc;
+    for (let school of ranking) {
+        margins[school] = {}
     }
-    return arr;
+
+    for (let row of rows) {
+        let rowSchool = row[0];
+        for (let i = 1; i < row.length; i++) {
+            let columnSchool = ranking[i - 1]
+            let margin = row[i]
+            if (margin !== "") {
+                margins[rowSchool][columnSchool] = margin;
+            }
+        }
+    }
+
+    console.log({ margins })
+
+    return { table, margins };
+    // const item = await res.json();
+
+    // return { item };
+
+
+    // if (params.slug === 'hello-world') {
+    // 	return {
+    // 		title: 'Hello world!',
+    // 		content: 'Welcome to our blog. Lorem ipsum dolor sit amet...'
+    // 	};
+    // }
+
+    // return {
+    // 	title: 'Hello world!',
+    // 	content: params.slug
+    // };
+
+    // 
 }

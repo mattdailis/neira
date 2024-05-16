@@ -1,0 +1,64 @@
+{
+    "comment": "\nDistance: 1500 Conditions: GV1 race was quite calm. GV2 and Boys races had a slight headwind\n\nNone",
+    "day": "2024-05-15",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:57.3",
+                    "school": "Thayer"
+                },
+                {
+                    "margin_from_winner": 15.9,
+                    "raw_time": "6:13.2",
+                    "school": "Eagle Hill"
+                },
+                {
+                    "margin_from_winner": 26.6,
+                    "raw_time": "6:23.9",
+                    "school": "Marianapolis Prep"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:35.9",
+                    "school": "Marianapolis Prep"
+                },
+                {
+                    "margin_from_winner": 3.4,
+                    "raw_time": "6:39.3",
+                    "school": "Greenwich Country Day"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "7:03.2",
+                    "school": "Greenwich Country Day"
+                },
+                {
+                    "margin_from_winner": 29.8,
+                    "raw_time": "7:33.0",
+                    "school": "Marianapolis Prep"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Fours,Marianapolis vs.Greenwich Country Day, Thayer, and Eagle Hill",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=333A8CBC2914B00774B798094F5DAE29&cat=5"
+}

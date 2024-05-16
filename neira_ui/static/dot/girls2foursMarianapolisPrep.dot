@@ -1,8 +1,12 @@
-digraph girls2foursMarianapolisPrep {MarianapolisPrep [URL="girls2foursMarianapolisPrepMarianapolisPrep.html"];StMarysLynn [URL="girls2foursMarianapolisPrepStMarysLynn.html"];Derryfield [URL="girls2foursMarianapolisPrepDerryfield.html"];StMarysLynn -> MarianapolisPrep[label="6.5
+digraph girls2foursMarianapolisPrep {StMarysLynn [URL="girls2foursMarianapolisPrepStMarysLynn.html"];GreenwichCountryDay [URL="girls2foursMarianapolisPrepGreenwichCountryDay.html"];Derryfield [URL="girls2foursMarianapolisPrepDerryfield.html"];MarianapolisPrep [URL="girls2foursMarianapolisPrepMarianapolisPrep.html"];StMarysLynn -> MarianapolisPrep[label="6.5
 05/01", weight="94", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
 Distance: 1500m Conditions: Very little chop
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 
 Derryfield -> MarianapolisPrep[label="45.2
 04/17", weight="55", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. Derryfield			
 Distance: 1500m Conditions: Stiff head wind throughout all races, particularly the first 700m. Comments: Thank you, Derryfield, for making the trip down from NH!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&cat=5", random="random"]; 
+GreenwichCountryDay -> MarianapolisPrep[label="29.8
+05/15", weight="71", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs.Greenwich Country Day, Thayer, and Eagle Hill			
+Distance: 1500 Conditions: GV1 race was quite calm. GV2 and Boys races had a slight headwind
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=333A8CBC2914B00774B798094F5DAE29&cat=5", random="random"]}
