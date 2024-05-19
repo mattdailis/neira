@@ -1,4 +1,4 @@
-digraph girls3foursBBN {Pomfret [URL="girls3foursBBNPomfret.html"];NewtonCountryDay [URL="girls3foursBBNNewtonCountryDay.html"];BBN [URL="girls3foursBBNBBN.html"];CambridgeRLS [URL="girls3foursBBNCambridgeRLS.html"];MissPorters [URL="girls3foursBBNMissPorters.html"];Nobles [URL="girls3foursBBNNobles.html"];Groton [URL="girls3foursBBNGroton.html"];StMarks [URL="girls3foursBBNStMarks.html"];Middlesex [URL="girls3foursBBNMiddlesex.html"];Winsor [URL="girls3foursBBNWinsor.html"];Taft [URL="girls3foursBBNTaft.html"];Winsor -> BBN[label="10.0
+digraph girls3foursBBN {Pingree [URL="girls3foursBBNPingree.html"];Taft [URL="girls3foursBBNTaft.html"];MissPorters [URL="girls3foursBBNMissPorters.html"];Middlesex [URL="girls3foursBBNMiddlesex.html"];BBN [URL="girls3foursBBNBBN.html"];Nobles [URL="girls3foursBBNNobles.html"];Thayer [URL="girls3foursBBNThayer.html"];Brooks [URL="girls3foursBBNBrooks.html"];CambridgeRLS [URL="girls3foursBBNCambridgeRLS.html"];StMarks [URL="girls3foursBBNStMarks.html"];Pomfret [URL="girls3foursBBNPomfret.html"];Groton [URL="girls3foursBBNGroton.html"];Winsor [URL="girls3foursBBNWinsor.html"];NewtonCountryDay [URL="girls3foursBBNNewtonCountryDay.html"];Winsor -> BBN[label="10.0
 05/11", weight="90", tooltip="NEIRA Girls Fours, du Pont Cup: Pomfret vs. BB&N, Gunn, Miss Porter's, St. Mark's, Taft, Winsor			
 Distance: 1500m Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (G1). Comments: Alternated races with boys races. Order of girls races: G-Novice, G4, G3, G5, G2, G1. The novice boat race is listed in the sixth boat category. Crossing wind pushed almost all boats at least one lane to port. Several referee calls for boats to move to starboard in the lower boat races. Congratulations to Taft G1 for winning the 2024 du Pont Cup.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&cat=1", random="random"]; 
@@ -40,6 +40,18 @@ Groton -> BBN[label="0.7 (0.78)
 Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
 Girls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=61611297C2B5882317693DAB1794C8C4&cat=1", random="random"]; 
+BBN -> Brooks[label="0.4
+05/18", weight="100", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
+Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]; 
+BBN -> Pingree[label="67.3
+05/18", weight="33", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
+Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]; 
+BBN -> Thayer[label="118.3
+05/18", weight="-18", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
+Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]; 
 Winsor -> BBN[label="0.0 (0.0)
 04/27", weight="100", tooltip="NEIRA,The Winsor School vs. BB&N			
 Distance: 1300 Conditions: Flat and equal conditions across all races. Steering in 3V race resulted in both crews finishing off the course with an indistinguishable margin (deemed a tie). 4V crews reversed lanes mid-race, potentially impacting margin but not finish order. 5th and 6th boats were composite to provide a race for all athletes. Thank you to BB&N for a fun race!

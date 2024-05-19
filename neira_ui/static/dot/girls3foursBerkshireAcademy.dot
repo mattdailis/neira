@@ -1,4 +1,20 @@
-digraph girls3foursBerkshireAcademy {BerkshireAcademy [URL="girls3foursBerkshireAcademyBerkshireAcademy.html"];Choate [URL="girls3foursBerkshireAcademyChoate.html"];Pomfret [URL="girls3foursBerkshireAcademyPomfret.html"];Taft [URL="girls3foursBerkshireAcademyTaft.html"];Choate -> BerkshireAcademy[label="65.6
+digraph girls3foursBerkshireAcademy {Choate [URL="girls3foursBerkshireAcademyChoate.html"];BerkshireAcademy [URL="girls3foursBerkshireAcademyBerkshireAcademy.html"];Taft [URL="girls3foursBerkshireAcademyTaft.html"];MissPorters [URL="girls3foursBerkshireAcademyMissPorters.html"];Pomfret [URL="girls3foursBerkshireAcademyPomfret.html"];GreenwichAcademy [URL="girls3foursBerkshireAcademyGreenwichAcademy.html"];Choate -> BerkshireAcademy[label="39.5
+05/18", weight="61", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire, Middletown			
+Distance: 1500m Conditions: Stiff crosswind in the first 500m, settling into a light tailwind for the last 1k. Mostly consistent wind with some gusts toward the end of day. Comments: Due to hotseating, order of races ran: B3, G2, G4, B2, B1, G1, B4, G3, GN. Choate G1 was a scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5D035A34420AED23599F466189189D99&cat=5", random="random"]; 
+Taft -> BerkshireAcademy[label="31.7
+05/18", weight="69", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire, Middletown			
+Distance: 1500m Conditions: Stiff crosswind in the first 500m, settling into a light tailwind for the last 1k. Mostly consistent wind with some gusts toward the end of day. Comments: Due to hotseating, order of races ran: B3, G2, G4, B2, B1, G1, B4, G3, GN. Choate G1 was a scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5D035A34420AED23599F466189189D99&cat=5", random="random"]; 
+MissPorters -> BerkshireAcademy[label="12.4
+05/18", weight="88", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire, Middletown			
+Distance: 1500m Conditions: Stiff crosswind in the first 500m, settling into a light tailwind for the last 1k. Mostly consistent wind with some gusts toward the end of day. Comments: Due to hotseating, order of races ran: B3, G2, G4, B2, B1, G1, B4, G3, GN. Choate G1 was a scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5D035A34420AED23599F466189189D99&cat=5", random="random"]; 
+BerkshireAcademy -> GreenwichAcademy[label="9.8
+05/18", weight="91", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire, Middletown			
+Distance: 1500m Conditions: Stiff crosswind in the first 500m, settling into a light tailwind for the last 1k. Mostly consistent wind with some gusts toward the end of day. Comments: Due to hotseating, order of races ran: B3, G2, G4, B2, B1, G1, B4, G3, GN. Choate G1 was a scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5D035A34420AED23599F466189189D99&cat=5", random="random"]; 
+Choate -> BerkshireAcademy[label="65.6
 04/20", weight="35", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Taft & Choate			
 Distance: 1500 M Conditions: Flat water; light, variable headwind in first 1000 meters, then calm. Comments: B3: Taft left their lane, interfered with Berkshire, then corrected, but then crossed Choate's lane in the last 250 M. Did not change placement, but Berkshire's margin over Choate might have been larger without the interference.
 Thanks to Taft and Choate for some great racing in ideal conditions.

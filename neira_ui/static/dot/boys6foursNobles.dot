@@ -1,4 +1,4 @@
-digraph boys6foursNobles {Nobles [URL="boys6foursNoblesNobles.html"];BelmontHill [URL="boys6foursNoblesBelmontHill.html"];NMH [URL="boys6foursNoblesNMH.html"];BBN [URL="boys6foursNoblesBBN.html"];NMH -> Nobles[label="1.7
+digraph boys6foursNobles {Nobles [URL="boys6foursNoblesNobles.html"];BBN [URL="boys6foursNoblesBBN.html"];BelmontHill [URL="boys6foursNoblesBelmontHill.html"];NMH [URL="boys6foursNoblesNMH.html"];NMH -> Nobles[label="1.7
 05/11", weight="99", tooltip="NEIRA Boys & Girls Fours,NMH vs Nobles and Deerfield			
 Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&cat=5", random="random"]; 

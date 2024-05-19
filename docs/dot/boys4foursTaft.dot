@@ -1,4 +1,16 @@
-digraph boys4foursTaft {BerkshireAcademy [URL="boys4foursTaftBerkshireAcademy.html"];Pomfret [URL="boys4foursTaftPomfret.html"];NMH [URL="boys4foursTaftNMH.html"];Hopkins [URL="boys4foursTaftHopkins.html"];BBN [URL="boys4foursTaftBBN.html"];Canterbury [URL="boys4foursTaftCanterbury.html"];LymeOldLyme [URL="boys4foursTaftLymeOldLyme.html"];Taft [URL="boys4foursTaftTaft.html"];Groton [URL="boys4foursTaftGroton.html"];StMarks [URL="boys4foursTaftStMarks.html"];BrewsterAcademy [URL="boys4foursTaftBrewsterAcademy.html"];BBN -> Taft[label="15.1
+digraph boys4foursTaft {Choate [URL="boys4foursTaftChoate.html"];BerkshireAcademy [URL="boys4foursTaftBerkshireAcademy.html"];Taft [URL="boys4foursTaftTaft.html"];Hopkins [URL="boys4foursTaftHopkins.html"];BBN [URL="boys4foursTaftBBN.html"];Canterbury [URL="boys4foursTaftCanterbury.html"];NMH [URL="boys4foursTaftNMH.html"];StMarks [URL="boys4foursTaftStMarks.html"];Pomfret [URL="boys4foursTaftPomfret.html"];Groton [URL="boys4foursTaftGroton.html"];LymeOldLyme [URL="boys4foursTaftLymeOldLyme.html"];BrewsterAcademy [URL="boys4foursTaftBrewsterAcademy.html"];FrederickGunn [URL="boys4foursTaftFrederickGunn.html"];Taft -> FrederickGunn[label="17.3
+05/18", weight="83", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire, Middletown			
+Distance: 1500m Conditions: Stiff crosswind in the first 500m, settling into a light tailwind for the last 1k. Mostly consistent wind with some gusts toward the end of day. Comments: Due to hotseating, order of races ran: B3, G2, G4, B2, B1, G1, B4, G3, GN. Choate G1 was a scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5D035A34420AED23599F466189189D99&cat=5", random="random"]; 
+Taft -> BerkshireAcademy[label="17.7
+05/18", weight="83", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire, Middletown			
+Distance: 1500m Conditions: Stiff crosswind in the first 500m, settling into a light tailwind for the last 1k. Mostly consistent wind with some gusts toward the end of day. Comments: Due to hotseating, order of races ran: B3, G2, G4, B2, B1, G1, B4, G3, GN. Choate G1 was a scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5D035A34420AED23599F466189189D99&cat=5", random="random"]; 
+Taft -> Choate[label="21.9
+05/18", weight="79", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire, Middletown			
+Distance: 1500m Conditions: Stiff crosswind in the first 500m, settling into a light tailwind for the last 1k. Mostly consistent wind with some gusts toward the end of day. Comments: Due to hotseating, order of races ran: B3, G2, G4, B2, B1, G1, B4, G3, GN. Choate G1 was a scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5D035A34420AED23599F466189189D99&cat=5", random="random"]; 
+BBN -> Taft[label="15.1
 05/11", weight="85", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
 Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
 St. Mark's 5 missed B5 race start time and raced in B6 race.

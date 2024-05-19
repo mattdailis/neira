@@ -1,4 +1,4 @@
-digraph girls1foursHopkins {BerkshireAcademy [URL="girls1foursHopkinsBerkshireAcademy.html"];Pomfret [URL="girls1foursHopkinsPomfret.html"];NMH [URL="girls1foursHopkinsNMH.html"];Hopkins [URL="girls1foursHopkinsHopkins.html"];FrederickGunn [URL="girls1foursHopkinsFrederickGunn.html"];Suffield [URL="girls1foursHopkinsSuffield.html"];GreenwichCountryDay [URL="girls1foursHopkinsGreenwichCountryDay.html"];Canterbury [URL="girls1foursHopkinsCanterbury.html"];LymeOldLyme [URL="girls1foursHopkinsLymeOldLyme.html"];GreenwichAcademy [URL="girls1foursHopkinsGreenwichAcademy.html"];Taft [URL="girls1foursHopkinsTaft.html"];Choate [URL="girls1foursHopkinsChoate.html"];Hopkins -> NMH[label="0.8
+digraph girls1foursHopkins {Choate [URL="girls1foursHopkinsChoate.html"];BerkshireAcademy [URL="girls1foursHopkinsBerkshireAcademy.html"];Taft [URL="girls1foursHopkinsTaft.html"];Hopkins [URL="girls1foursHopkinsHopkins.html"];Nobles [URL="girls1foursHopkinsNobles.html"];Canterbury [URL="girls1foursHopkinsCanterbury.html"];FrederickGunn [URL="girls1foursHopkinsFrederickGunn.html"];GreenwichCountryDay [URL="girls1foursHopkinsGreenwichCountryDay.html"];Pomfret [URL="girls1foursHopkinsPomfret.html"];LymeOldLyme [URL="girls1foursHopkinsLymeOldLyme.html"];Suffield [URL="girls1foursHopkinsSuffield.html"];GreenwichAcademy [URL="girls1foursHopkinsGreenwichAcademy.html"];NMH [URL="girls1foursHopkinsNMH.html"];Hopkins -> NMH[label="0.8
 04/20", weight="100", tooltip="NEIRA Girls Fours,Pomfret vs. NMH, Hopkins			
 Distance: 1500m Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout, with a slight tailwind developing in the last race. No current. Comments: Race order: G3, G2, G1, G4/5. Thanks to NMH and Hopkins for a great day of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=00FD5442533029F3F8C5DFD9A3F09907&cat=1", random="random"]; 
@@ -26,6 +26,14 @@ Hopkins -> GreenwichCountryDay[label="54.6 (65.52)
 04/11", weight="46", tooltip="NEIRA,GCDS vs Hopkins			
 Distance: 1250m Conditions: head current increased
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3F962587F5195CAC9807287404512E2B&cat=5", random="random"]; 
+Nobles -> Hopkins[label="7.2
+05/18", weight="93", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, Nobles			
+Distance: 1500m Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: G3, G4, G2, G1, G-Novices. The G-Novices race is listed under the 5th boat and only included Nobles crews. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05F1824A635516BB2A75FC769B7DED45&cat=1", random="random"]; 
+Hopkins -> Pomfret[label="34.4
+05/18", weight="66", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, Nobles			
+Distance: 1500m Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: G3, G4, G2, G1, G-Novices. The G-Novices race is listed under the 5th boat and only included Nobles crews. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05F1824A635516BB2A75FC769B7DED45&cat=1", random="random"]; 
 Taft -> Hopkins[label="5.42
 05/05", weight="95", tooltip="Founder's Day Regatta			
 Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 

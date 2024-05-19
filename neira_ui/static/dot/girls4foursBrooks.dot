@@ -1,4 +1,4 @@
-digraph girls4foursBrooks {NMH [URL="girls4foursBrooksNMH.html"];Choate [URL="girls4foursBrooksChoate.html"];Brooks [URL="girls4foursBrooksBrooks.html"];CambridgeRLS [URL="girls4foursBrooksCambridgeRLS.html"];Nobles [URL="girls4foursBrooksNobles.html"];Groton [URL="girls4foursBrooksGroton.html"];StMarks [URL="girls4foursBrooksStMarks.html"];Middlesex [URL="girls4foursBrooksMiddlesex.html"];Brooks -> Groton[label="10.0
+digraph girls4foursBrooks {Choate [URL="girls4foursBrooksChoate.html"];Middlesex [URL="girls4foursBrooksMiddlesex.html"];Nobles [URL="girls4foursBrooksNobles.html"];BBN [URL="girls4foursBrooksBBN.html"];CambridgeRLS [URL="girls4foursBrooksCambridgeRLS.html"];Groton [URL="girls4foursBrooksGroton.html"];StMarks [URL="girls4foursBrooksStMarks.html"];Brooks [URL="girls4foursBrooksBrooks.html"];NMH [URL="girls4foursBrooksNMH.html"];Brooks -> Groton[label="10.0
 05/11", weight="90", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
 Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
 Choate did not race a B3 and NCDS did not race a G4 today.
@@ -28,6 +28,10 @@ Brooks -> CambridgeRLS[label="28.8
 04/27", weight="72", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
 Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
+Brooks -> BBN[label="3.3
+05/18", weight="97", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
+Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]; 
 Nobles -> Brooks[label="51.0
 04/13", weight="49", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: ~1500m Conditions: Gusty headwind (15-25 mph) in moderate chop along lee shore. Crews had approximately the same conditions. Lane assignments probably affected times somewhat. Comments: Challenging conditions overcome by the constructive attitudes of all the coaches and race enthusiasm of athletes. Thanks to a strong Nobles team for coming up for some raw weather racing in early April. We were pleased to get the races in.

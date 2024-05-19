@@ -1,4 +1,4 @@
-digraph girls3foursNobles {NMH [URL="girls3foursNoblesNMH.html"];Brooks [URL="girls3foursNoblesBrooks.html"];NewtonCountryDay [URL="girls3foursNoblesNewtonCountryDay.html"];BBN [URL="girls3foursNoblesBBN.html"];Nobles [URL="girls3foursNoblesNobles.html"];Groton [URL="girls3foursNoblesGroton.html"];StMarks [URL="girls3foursNoblesStMarks.html"];Winsor [URL="girls3foursNoblesWinsor.html"];Nobles -> Winsor[label="6.8 (7.85)
+digraph girls3foursNobles {Nobles [URL="girls3foursNoblesNobles.html"];Hopkins [URL="girls3foursNoblesHopkins.html"];BBN [URL="girls3foursNoblesBBN.html"];Groton [URL="girls3foursNoblesGroton.html"];Pomfret [URL="girls3foursNoblesPomfret.html"];StMarks [URL="girls3foursNoblesStMarks.html"];Winsor [URL="girls3foursNoblesWinsor.html"];NewtonCountryDay [URL="girls3foursNoblesNewtonCountryDay.html"];Brooks [URL="girls3foursNoblesBrooks.html"];NMH [URL="girls3foursNoblesNMH.html"];Nobles -> Winsor[label="6.8 (7.85)
 05/04", weight="94", tooltip="NEIRA Girls Fours, The Winsor School vs. Nobles			
 Distance: 1300 Conditions: Thank you Nobles for a great race!
 Steady crossing head wind for all races.
@@ -17,6 +17,14 @@ Nobles -> BBN[label="12.0 (13.33)
 Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
 Girls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=61611297C2B5882317693DAB1794C8C4&cat=1", random="random"]; 
+Nobles -> Hopkins[label="56.9
+05/18", weight="44", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, Nobles			
+Distance: 1500m Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: G3, G4, G2, G1, G-Novices. The G-Novices race is listed under the 5th boat and only included Nobles crews. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05F1824A635516BB2A75FC769B7DED45&cat=1", random="random"]; 
+Nobles -> Pomfret[label="60.6
+05/18", weight="40", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, Nobles			
+Distance: 1500m Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: G3, G4, G2, G1, G-Novices. The G-Novices race is listed under the 5th boat and only included Nobles crews. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05F1824A635516BB2A75FC769B7DED45&cat=1", random="random"]; 
 Nobles -> Brooks[label="42.0
 04/13", weight="58", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
 Distance: ~1500m Conditions: Gusty headwind (15-25 mph) in moderate chop along lee shore. Crews had approximately the same conditions. Lane assignments probably affected times somewhat. Comments: Challenging conditions overcome by the constructive attitudes of all the coaches and race enthusiasm of athletes. Thanks to a strong Nobles team for coming up for some raw weather racing in early April. We were pleased to get the races in.

@@ -1,4 +1,8 @@
-digraph boys5foursPomfret {Groton [URL="boys5foursPomfretGroton.html"];Pomfret [URL="boys5foursPomfretPomfret.html"];BBN [URL="boys5foursPomfretBBN.html"];Taft [URL="boys5foursPomfretTaft.html"];BBN -> Pomfret[label="17.3
+digraph boys5foursPomfret {Taft [URL="boys5foursPomfretTaft.html"];Nobles [URL="boys5foursPomfretNobles.html"];BBN [URL="boys5foursPomfretBBN.html"];Groton [URL="boys5foursPomfretGroton.html"];Pomfret [URL="boys5foursPomfretPomfret.html"];Nobles -> Pomfret[label="59.6
+05/18", weight="41", tooltip="NEIRA Boys , Pomfret v. Hopkins, Nobles			
+Distance: 1500M Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: B5, B4, B3, B6, B2, B1. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=36B37BA4661B961497A29CE5C39FC791&cat=1", random="random"]; 
+BBN -> Pomfret[label="17.3
 05/11", weight="83", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
 Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
 St. Mark's 5 missed B5 race start time and raced in B6 race.

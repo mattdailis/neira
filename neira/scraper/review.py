@@ -31,6 +31,9 @@ def review(data_dir):
         else:
             to_review.append((filename, (uid + " has not been reviewed")))
 
+    if len(to_review) == 0:
+        print("Everything has already been reviewed 🚀")
+
     for i, (filename, message) in enumerate(to_review):
         print(str(len(to_review) - i) + " to go...")
 

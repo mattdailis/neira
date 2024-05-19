@@ -1,0 +1,96 @@
+{
+    "comment": "\nDistance: 1500m Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: G3, G4, G2, G1, G-Novices. The G-Novices race is listed under the 5th boat and only included Nobles crews. Thanks to Hopkins and Nobles for good racing.\n\nNone",
+    "day": "2024-05-18",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:08.4",
+                    "school": "Nobles"
+                },
+                {
+                    "margin_from_winner": 7.2,
+                    "raw_time": "6:15.6",
+                    "school": "Hopkins"
+                },
+                {
+                    "margin_from_winner": 41.6,
+                    "raw_time": "6:50.0",
+                    "school": "Pomfret"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:14.6",
+                    "school": "Nobles"
+                },
+                {
+                    "margin_from_winner": 25.9,
+                    "raw_time": "6:40.5",
+                    "school": "Pomfret"
+                },
+                {
+                    "margin_from_winner": 38.7,
+                    "raw_time": "6:53.3",
+                    "school": "Hopkins"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:29.8",
+                    "school": "Nobles"
+                },
+                {
+                    "margin_from_winner": 56.9,
+                    "raw_time": "7:26.7",
+                    "school": "Hopkins"
+                },
+                {
+                    "margin_from_winner": 60.6,
+                    "raw_time": "7:30.4",
+                    "school": "Pomfret"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:51.9",
+                    "school": "Nobles"
+                },
+                {
+                    "margin_from_winner": 42.3,
+                    "raw_time": "7:34.2",
+                    "school": "Pomfret"
+                },
+                {
+                    "margin_from_winner": 60.2,
+                    "raw_time": "7:52.1",
+                    "school": "Hopkins"
+                }
+            ],
+            "varsity_index": "4"
+        }
+    ],
+    "regatta_display_name": "NEIRA Girls Fours, Pomfret vs. Hopkins, Nobles",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=05F1824A635516BB2A75FC769B7DED45&cat=1"
+}

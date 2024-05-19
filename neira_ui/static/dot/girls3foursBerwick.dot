@@ -1,10 +1,6 @@
-digraph girls3foursBerwick {Derryfield [URL="girls3foursBerwickDerryfield.html"];BrewsterAcademy [URL="girls3foursBerwickBrewsterAcademy.html"];Berwick [URL="girls3foursBerwickBerwick.html"];BrewsterAcademy -> Berwick[label="13.9
-04/13", weight="87", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Brewster Academy			
-Distance: 1500 Conditions: Tail Current with a strong tail/cross wind with occasional gusts. Fun conditions for first race of the season! Thank you for Brewster for making the trip. Comments: Mixed boats were exhibition events and a combo of boys and girls of various skill levels - anything to get some new rowers more racing experience!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=193F4296CB862153CF0FD21B95E6AB20&cat=5", random="random"]; 
-Derryfield -> Berwick[label="25.6
-04/20", weight="75", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Derryfield School			
-Distance: 1500 Conditions: Light drizzle and grey skies, but flat conditions. Racing in the direction of the incoming tide. Comments: The boys 4V even was a combination of 4V boys with novice boys and served as an intersquad scrimmage. This race was slightly shorter and started around the 1250 mark.
-The girls 3V was a mixed boat event with even gender splits in each boat and represented various skill levels.
-Thank you Derryfield for making the trip and dealing with Maine mud season.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2A4F56FA4FB7C41A0E813337362894A3&cat=5", random="random"]}
+digraph girls3foursBerwick {Berwick [URL="girls3foursBerwickBerwick.html"];StMarysLynn [URL="girls3foursBerwickStMarysLynn.html"];StMarysLynn -> Berwick[label="76.2
+05/18", weight="24", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. St. Mary's Lynn			
+Distance: 1500 Conditions: All raced with the incoming tide. Flat water with a slight head wind in the second 750 of the race. Comments: Racing order was: Boys 3V event, Girls 1V event, Boys 1V, Boys 2V, Girls Novice, Varsity mixed 4, Novice Mixed 4.
+The results for the varsity mixed 4 can be found in the Girl's Third boat event and novice mixed 4 in the Girl's Fourth boat event.
+Thank you to St. Mary's for making the trip up to Maine!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=94A925569336F87751988FD40576C366&cat=5", random="random"]}

@@ -31,6 +31,10 @@
             }
         ]
     },
+    "05F1824A635516BB2A75FC769B7DED45": {
+        "checksum": "8f328669bdd89a208e93078199869f69",
+        "corrections": []
+    },
     "09220DA7336A1394F7FD04227504EAAE": {
         "checksum": "103b8bc4d51b3de241cbabbec0771140",
         "corrections": []
@@ -131,6 +135,10 @@
         "checksum": "67b2c4efa08ca22d326b89dfd542209e",
         "corrections": []
     },
+    "1D8E97828C9D3693798AABF74C77AE19": {
+        "checksum": "532d1c7ba3ad41021ca63f9951ab8d3b",
+        "corrections": []
+    },
     "1EE142EEB12B57D1FE83F46C7DD3118E": {
         "checksum": "ee7a1286a26649bef78bd3e4af91312f",
         "corrections": []
@@ -185,6 +193,10 @@
         "checksum": "0907d34d980bde774bd8466461e39ba0",
         "corrections": []
     },
+    "2B65ABC40BEF9D5B8692EE8C149D3128": {
+        "checksum": "29ae053c5a1c26e4fc02c2c6dc3f7ba4",
+        "corrections": []
+    },
     "2D89FFB1693C84B71BE3E39CB54EABE0": {
         "checksum": "781edc3e96a60f986faf6bf78dae93e1",
         "corrections": [
@@ -217,6 +229,21 @@
     "3348B7AB3BCE8AAC3FAEEA9ED1789860": {
         "checksum": "d0c7d5767c6db2567386935e6070645a",
         "corrections": []
+    },
+    "36B37BA4661B961497A29CE5C39FC791": {
+        "checksum": "1727d6f158170b5cf37df637fb93e6b0",
+        "corrections": [
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            },
+            {
+                "heats": [
+                    "boys 6"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
     },
     "3710F27F185D74B3D15DF923C787D9E1": {
         "checksum": "9ea6bd81a344013b29c6bb109adb296c",
@@ -307,6 +334,15 @@
             }
         ]
     },
+    "464EDE82E02A289DAC84BB7DA4A8D62B": {
+        "checksum": "bae4e8db69c88b16a8a4ed136c88e75f",
+        "corrections": [
+            {
+                "class": "eights",
+                "type": "set_class_all_heats"
+            }
+        ]
+    },
     "4B4C574EDD6CC2B9960D17FC0A26DE61": {
         "checksum": "bd118dea8afb03b65c53235b376b0078",
         "corrections": []
@@ -357,6 +393,10 @@
             }
         ]
     },
+    "58DEA62073910A6FCE2EB675464E90EB": {
+        "checksum": "75daf23080cc799ae8963e4afb3a0c67",
+        "corrections": []
+    },
     "5AC13C0A039EE6AFC8E97E47C247F44E": {
         "checksum": "ecca338ae1821a836cc5376400889cd1",
         "corrections": []
@@ -381,6 +421,10 @@
                 "type": "exclude_schools_from_heat"
             }
         ]
+    },
+    "5D035A34420AED23599F466189189D99": {
+        "checksum": "1354b34f64bfa28fbb4a76c98814a11f",
+        "corrections": []
     },
     "61611297C2B5882317693DAB1794C8C4": {
         "checksum": "e0759479e2cd8d8adf615bf1f212256f",
@@ -498,6 +542,17 @@
         "checksum": "e6883df16cce129d8c4e6f166551343c",
         "corrections": []
     },
+    "94A925569336F87751988FD40576C366": {
+        "checksum": "1398c6068cf1396341f6300f60c5516e",
+        "corrections": [
+            {
+                "heats": [
+                    "girls 4"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
     "95B6D80715F8274903E678063EA5058A": {
         "checksum": "f95f9f2faf349b1ea2f209073e905220",
         "corrections": []
@@ -544,6 +599,10 @@
     },
     "A0DF9A7D40617FCB4CB11BEA46E65364": {
         "checksum": "7cffdf0754c93898922881079120bf82",
+        "corrections": []
+    },
+    "A0F89A5CD2A7528F721469FCAC3BD956": {
+        "checksum": "02d0eda32ed90ede6d652a5a115ea9ab",
         "corrections": []
     },
     "A21A42AB805198290F7DED1497014168": {

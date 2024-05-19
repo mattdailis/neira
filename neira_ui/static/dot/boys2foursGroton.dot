@@ -1,4 +1,4 @@
-digraph boys2foursGroton {Pomfret [URL="boys2foursGrotonPomfret.html"];Choate [URL="boys2foursGrotonChoate.html"];Brooks [URL="boys2foursGrotonBrooks.html"];BelmontHill [URL="boys2foursGrotonBelmontHill.html"];BBN [URL="boys2foursGrotonBBN.html"];CambridgeRLS [URL="boys2foursGrotonCambridgeRLS.html"];Taft [URL="boys2foursGrotonTaft.html"];Nobles [URL="boys2foursGrotonNobles.html"];Groton [URL="boys2foursGrotonGroton.html"];Middlesex [URL="boys2foursGrotonMiddlesex.html"];BelmontHill -> Groton[label="11.7
+digraph boys2foursGroton {Choate [URL="boys2foursGrotonChoate.html"];Middlesex [URL="boys2foursGrotonMiddlesex.html"];Taft [URL="boys2foursGrotonTaft.html"];Nobles [URL="boys2foursGrotonNobles.html"];BBN [URL="boys2foursGrotonBBN.html"];CambridgeRLS [URL="boys2foursGrotonCambridgeRLS.html"];Groton [URL="boys2foursGrotonGroton.html"];BelmontHill [URL="boys2foursGrotonBelmontHill.html"];StMarks [URL="boys2foursGrotonStMarks.html"];Pomfret [URL="boys2foursGrotonPomfret.html"];Brooks [URL="boys2foursGrotonBrooks.html"];BelmontHill -> Groton[label="11.7
 05/11", weight="89", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
 Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
 Choate did not race a B3 and NCDS did not race a G4 today.
@@ -23,6 +23,11 @@ Distance: 1225 m. Conditions: Very little current. Flat water. Beginning with th
 In the G2, the start was strokes on the line instead of bow balls.
 Thank you CRLS for an excellent afternoon.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CF11D4E6381F0019C765544CCA920DEE&cat=5", random="random"]; 
+Groton -> StMarks[label="16.5 (19.8)
+05/18", weight="84", tooltip="NEIRA Boys & Girls Fours,St. Mark's at Groton. Cooke Family Cup			
+Distance: 1250m Conditions: Conditions all the same. Rain, no wind, slight tail current. Comments: Boys 3rd boats started 3/4 length over the line.
+Very good racing in the rain.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1D8E97828C9D3693798AABF74C77AE19&cat=5", random="random"]; 
 Groton -> Pomfret[label="10.9
 04/27", weight="90", tooltip="NEIRA Boys ,Pomfret v. Groton, Taft			
 Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls' races interspersed).

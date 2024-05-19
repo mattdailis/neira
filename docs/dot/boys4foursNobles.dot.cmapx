@@ -1,65 +1,77 @@
 <map id="boys4foursNobles" name="boys4foursNobles">
-<area shape="poly" id="node1" href="boys4foursNoblesNMH.html" title="NMH" alt="" coords="93,309,91,302,85,295,75,290,63,287,49,285,36,287,23,290,14,295,7,302,5,309,7,317,14,323,23,329,36,332,49,333,63,332,75,329,85,323,91,317"/>
-<area shape="poly" id="node2" href="boys4foursNoblesBrooks.html" title="Brooks" alt="" coords="217,309,214,302,207,295,196,290,182,287,167,285,151,287,137,290,126,295,119,302,117,309,119,317,126,323,137,329,151,332,167,333,182,332,196,329,207,323,214,317"/>
-<area shape="poly" id="node3" href="boys4foursNoblesBelmontHill.html" title="BelmontHill" alt="" coords="357,29,353,22,342,15,325,10,304,7,280,5,256,7,235,10,218,15,207,22,203,29,207,37,218,43,235,49,256,52,280,53,304,52,325,49,342,43,353,37"/>
-<area shape="poly" id="node5" href="boys4foursNoblesNobles.html" title="Nobles" alt="" coords="329,169,327,162,320,155,309,150,295,147,280,145,265,147,251,150,240,155,233,162,231,169,233,177,240,183,251,189,265,192,280,193,295,192,309,189,320,183,327,177"/>
-<area shape="poly" id="edge2" href="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&amp;cat=1" title="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
-Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
-None" alt="" coords="283,54,283,130,277,130,277,54"/>
-<area shape="rect" id="edge2-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&amp;cat=1" title="4.6 (5.31)
-05/04" alt="" coords="280,77,352,121"/>
-<area shape="poly" id="node4" href="boys4foursNoblesBBN.html" title="BBN" alt="" coords="320,309,318,302,312,295,303,290,292,287,280,285,268,287,257,290,248,295,242,302,240,309,242,317,248,323,257,329,268,332,280,333,292,332,303,329,312,323,318,317"/>
-<area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,NMH vs Nobles and Deerfield			
-Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
-None" alt="" coords="238,185,197,199,155,220,115,248,81,279,78,275,112,244,152,215,195,194,236,180"/>
-<area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&amp;cat=5" title="79.8
-05/11" alt="" coords="155,217,196,261"/>
-<area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. Nobles			
+<area shape="poly" id="node1" href="boys4foursNoblesNobles.html" title="Nobles" alt="" coords="486,169,483,162,476,155,465,150,451,147,436,145,421,147,407,150,396,155,389,162,387,169,389,177,396,183,407,189,421,192,436,193,451,192,465,189,476,183,483,177"/>
+<area shape="poly" id="node2" href="boys4foursNoblesHopkins.html" title="Hopkins" alt="" coords="118,309,115,302,107,295,95,290,79,287,62,285,44,287,28,290,16,295,8,302,5,309,8,317,16,323,28,329,44,332,62,333,79,332,95,329,107,323,115,317"/>
+<area shape="poly" id="edge2" href="https://www.row2k.com/results/resultspage.cfm?UID=36B37BA4661B961497A29CE5C39FC791&amp;cat=1" title="NEIRA Boys , Pomfret v. Hopkins, Nobles			
+Distance: 1500M Conditions: Solid cross headwind (starboard to port), steady 10&#45;15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: B5, B4, B3, B6, B2, B1. Thanks to Hopkins and Nobles for good racing.
+None" alt="" coords="387,174,338,177,281,185,221,198,164,220,124,246,91,277,88,273,121,242,162,215,220,193,280,179,337,172,386,168"/>
+<area shape="rect" id="edge2-label" href="https://www.row2k.com/results/resultspage.cfm?UID=36B37BA4661B961497A29CE5C39FC791&amp;cat=1" title="56.6
+05/18" alt="" coords="164,217,205,261"/>
+<area shape="poly" id="node3" href="boys4foursNoblesBBN.html" title="BBN" alt="" coords="221,309,219,302,214,295,205,290,194,287,182,285,169,287,158,290,149,295,144,302,142,309,144,317,149,323,158,329,169,332,182,333,194,332,205,329,214,323,219,317"/>
+<area shape="poly" id="edge9" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="NEIRA,Buckingham, Browne &amp; Nichols vs Nobles, Groton			
+Distance: 1350m Conditions: Excellent conditions.
+Cloudy and cool
+Mostly flat water.
+A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&amp;N clashed blades for roughly the first 20 strokes due to Groton moving into BB&amp;N&#39;s lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
+5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
+NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
+BB&amp;N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
+Times for this race were:
+Nobles: 2:22.3
+BB&amp;N: 2:30.1
+many thanks to all crews and coaches for a great day of racing for full teams.
+None" alt="" coords="388,177,322,190,287,203,254,220,225,245,203,275,199,272,222,242,251,215,285,198,320,185,387,172"/>
+<area shape="rect" id="edge9-label" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="32.7 (36.33)
+04/20" alt="" coords="254,217,344,261"/>
+<area shape="poly" id="node5" href="boys4foursNoblesPomfret.html" title="Pomfret" alt="" coords="355,309,352,302,345,295,332,290,317,287,300,285,283,287,268,290,256,295,248,302,245,309,248,317,256,323,268,329,283,332,300,333,317,332,332,329,345,323,352,317"/>
+<area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=36B37BA4661B961497A29CE5C39FC791&amp;cat=1" title="NEIRA Boys , Pomfret v. Hopkins, Nobles			
+Distance: 1500M Conditions: Solid cross headwind (starboard to port), steady 10&#45;15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: B5, B4, B3, B6, B2, B1. Thanks to Hopkins and Nobles for good racing.
+None" alt="" coords="417,193,392,219,334,278,330,274,388,215,414,190"/>
+<area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=36B37BA4661B961497A29CE5C39FC791&amp;cat=1" title="50.5
+05/18" alt="" coords="391,217,432,261"/>
+<area shape="poly" id="node6" href="boys4foursNoblesStMarks.html" title="StMarks" alt="" coords="493,309,490,302,482,295,470,290,454,287,436,285,419,287,403,290,390,295,382,302,379,309,382,317,390,323,403,329,419,332,436,333,454,332,470,329,482,323,490,317"/>
+<area shape="poly" id="edge6" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None" alt="" coords="439,194,439,270,434,270,434,194"/>
+<area shape="rect" id="edge6-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="65.2
+04/27" alt="" coords="436,217,477,261"/>
+<area shape="poly" id="node7" href="boys4foursNoblesGroton.html" title="Groton" alt="" coords="616,309,614,302,607,295,596,290,582,287,567,285,552,287,538,290,527,295,520,302,517,309,520,317,527,323,538,329,552,332,567,333,582,332,596,329,607,323,614,317"/>
+<area shape="poly" id="edge8" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="NEIRA,Buckingham, Browne &amp; Nichols vs Nobles, Groton			
+Distance: 1350m Conditions: Excellent conditions.
+Cloudy and cool
+Mostly flat water.
+A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&amp;N clashed blades for roughly the first 20 strokes due to Groton moving into BB&amp;N&#39;s lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
+5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
+NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
+BB&amp;N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
+Times for this race were:
+Nobles: 2:22.3
+BB&amp;N: 2:30.1
+many thanks to all crews and coaches for a great day of racing for full teams.
+None" alt="" coords="459,190,485,215,539,274,535,277,481,219,455,193"/>
+<area shape="rect" id="edge8-label" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="16.2 (18.0)
+04/20" alt="" coords="522,217,603,261"/>
+<area shape="poly" id="node8" href="boys4foursNoblesBrewsterAcademy.html" title="BrewsterAcademy" alt="" coords="854,309,848,302,833,295,810,290,780,287,747,285,714,287,684,290,661,295,645,302,640,309,645,317,661,323,684,329,714,332,747,333,780,332,810,329,833,323,848,317"/>
+<area shape="poly" id="edge7" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None" alt="" coords="483,176,544,192,609,215,662,243,708,274,705,279,659,248,607,220,542,197,481,182"/>
+<area shape="rect" id="edge7-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="91.4
+04/27" alt="" coords="682,217,723,261"/>
+<area shape="poly" id="node9" href="boys4foursNoblesBrooks.html" title="Brooks" alt="" coords="978,309,976,302,969,295,958,290,944,287,928,285,913,287,899,290,888,295,881,302,878,309,881,317,888,323,899,329,913,332,928,333,944,332,958,329,969,323,976,317"/>
+<area shape="poly" id="edge5" href="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. Nobles			
 Distance: ~1500m Conditions: Gusty headwind (15&#45;25 mph) in moderate chop along lee shore. Crews had approximately the same conditions. Lane assignments probably affected times somewhat. Comments: Challenging conditions overcome by the constructive attitudes of all the coaches and race enthusiasm of athletes. Thanks to a strong Nobles team for coming up for some raw weather racing in early April. We were pleased to get the races in.
-None" alt="" coords="260,193,236,219,192,275,188,272,232,216,256,190"/>
-<area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&amp;cat=5" title="38.0
-04/13" alt="" coords="235,217,276,261"/>
-<area shape="poly" id="edge7" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="NEIRA,Buckingham, Browne &amp; Nichols vs Nobles, Groton			
-Distance: 1350m Conditions: Excellent conditions.
-Cloudy and cool
-Mostly flat water.
-A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&amp;N clashed blades for roughly the first 20 strokes due to Groton moving into BB&amp;N&#39;s lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
-5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
-NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
-BB&amp;N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
-Times for this race were:
-Nobles: 2:22.3
-BB&amp;N: 2:30.1
-many thanks to all crews and coaches for a great day of racing for full teams.
-None" alt="" coords="283,194,283,270,277,270,277,194"/>
-<area shape="rect" id="edge7-label" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="32.7 (36.33)
-04/20" alt="" coords="280,217,370,261"/>
-<area shape="poly" id="node6" href="boys4foursNoblesGroton.html" title="Groton" alt="" coords="451,309,448,302,441,295,430,290,416,287,401,285,386,287,372,290,361,295,354,302,352,309,354,317,361,323,372,329,386,332,401,333,416,332,430,329,441,323,448,317"/>
-<area shape="poly" id="edge6" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="NEIRA,Buckingham, Browne &amp; Nichols vs Nobles, Groton			
-Distance: 1350m Conditions: Excellent conditions.
-Cloudy and cool
-Mostly flat water.
-A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&amp;N clashed blades for roughly the first 20 strokes due to Groton moving into BB&amp;N&#39;s lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
-5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
-NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
-BB&amp;N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
-Times for this race were:
-Nobles: 2:22.3
-BB&amp;N: 2:30.1
-many thanks to all crews and coaches for a great day of racing for full teams.
-None" alt="" coords="322,181,349,195,374,216,390,242,398,269,393,271,385,244,370,219,347,199,319,186"/>
-<area shape="rect" id="edge6-label" href="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&amp;cat=1" title="16.2 (18.0)
-04/20" alt="" coords="393,217,474,261"/>
-<area shape="poly" id="node7" href="boys4foursNoblesStMarks.html" title="StMarks" alt="" coords="589,309,586,302,578,295,565,290,549,287,532,285,514,287,498,290,486,295,478,302,475,309,478,317,486,323,498,329,514,332,532,333,549,332,565,329,578,323,586,317"/>
-<area shape="poly" id="edge4" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Nobles, Brewster, NCDS			
-Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
-None" alt="" coords="330,169,366,173,405,181,445,194,482,215,505,241,521,270,517,272,501,244,478,219,443,199,404,186,365,178,329,174"/>
-<area shape="rect" id="edge4-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="65.2
-04/27" alt="" coords="513,217,554,261"/>
-<area shape="poly" id="node8" href="boys4foursNoblesBrewsterAcademy.html" title="BrewsterAcademy" alt="" coords="827,309,821,302,806,295,783,290,753,287,720,285,687,287,657,290,634,295,618,302,613,309,618,317,634,323,657,329,687,332,720,333,753,332,783,329,806,323,821,317"/>
-<area shape="poly" id="edge5" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,St. Marks, Nobles, Brewster, NCDS			
-Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
-None" alt="" coords="329,171,437,184,500,197,561,215,623,243,678,276,675,280,621,248,559,220,498,202,436,189,328,176"/>
-<area shape="rect" id="edge5-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&amp;cat=5" title="91.4
-04/27" alt="" coords="649,217,690,261"/>
+None" alt="" coords="485,172,597,186,664,198,729,215,813,246,884,281,882,286,811,251,727,220,663,203,597,191,484,177"/>
+<area shape="rect" id="edge5-label" href="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&amp;cat=5" title="38.0
+04/13" alt="" coords="834,217,875,261"/>
+<area shape="poly" id="node10" href="boys4foursNoblesNMH.html" title="NMH" alt="" coords="1089,309,1087,302,1081,295,1071,290,1059,287,1046,285,1032,287,1020,290,1010,295,1004,302,1002,309,1004,317,1010,323,1020,329,1032,332,1046,333,1059,332,1071,329,1081,323,1087,317"/>
+<area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,NMH vs Nobles and Deerfield			
+Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
+None" alt="" coords="486,167,564,168,663,174,773,189,881,215,950,244,1008,279,1006,283,948,249,879,220,772,194,662,180,563,173,486,172"/>
+<area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&amp;cat=5" title="79.8
+05/11" alt="" coords="972,217,1013,261"/>
+<area shape="poly" id="node4" href="boys4foursNoblesBelmontHill.html" title="BelmontHill" alt="" coords="513,29,509,22,498,15,481,10,460,7,436,5,412,7,391,10,374,15,363,22,360,29,363,37,374,43,391,49,412,52,436,53,460,52,481,49,498,43,509,37"/>
+<area shape="poly" id="edge4" href="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&amp;cat=1" title="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
+Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
+None" alt="" coords="439,54,439,130,434,130,434,54"/>
+<area shape="rect" id="edge4-label" href="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&amp;cat=1" title="4.6 (5.31)
+05/04" alt="" coords="436,77,508,121"/>
 </map>

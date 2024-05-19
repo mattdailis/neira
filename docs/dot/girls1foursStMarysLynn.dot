@@ -1,4 +1,10 @@
-digraph girls1foursStMarysLynn {Berwick [URL="girls1foursStMarysLynnBerwick.html"];WorcesterAcademy [URL="girls1foursStMarysLynnWorcesterAcademy.html"];ValleyRegional [URL="girls1foursStMarysLynnValleyRegional.html"];Lincoln [URL="girls1foursStMarysLynnLincoln.html"];StMarysLynn [URL="girls1foursStMarysLynnStMarysLynn.html"];StMaryAcademyBayView [URL="girls1foursStMarysLynnStMaryAcademyBayView.html"];MarianapolisPrep [URL="girls1foursStMarysLynnMarianapolisPrep.html"];BrewsterAcademy [URL="girls1foursStMarysLynnBrewsterAcademy.html"];BrewsterAcademy -> StMarysLynn[label="22.8 (24.43)
+digraph girls1foursStMarysLynn {ValleyRegional [URL="girls1foursStMarysLynnValleyRegional.html"];WorcesterAcademy [URL="girls1foursStMarysLynnWorcesterAcademy.html"];StMarysLynn [URL="girls1foursStMarysLynnStMarysLynn.html"];Berwick [URL="girls1foursStMarysLynnBerwick.html"];MarianapolisPrep [URL="girls1foursStMarysLynnMarianapolisPrep.html"];BrewsterAcademy [URL="girls1foursStMarysLynnBrewsterAcademy.html"];Lincoln [URL="girls1foursStMarysLynnLincoln.html"];StMaryAcademyBayView [URL="girls1foursStMarysLynnStMaryAcademyBayView.html"];StMarysLynn -> Berwick[label="19.7
+05/18", weight="81", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. St. Mary's Lynn			
+Distance: 1500 Conditions: All raced with the incoming tide. Flat water with a slight head wind in the second 750 of the race. Comments: Racing order was: Boys 3V event, Girls 1V event, Boys 1V, Boys 2V, Girls Novice, Varsity mixed 4, Novice Mixed 4.
+The results for the varsity mixed 4 can be found in the Girl's Third boat event and novice mixed 4 in the Girl's Fourth boat event.
+Thank you to St. Mary's for making the trip up to Maine!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=94A925569336F87751988FD40576C366&cat=5", random="random"]; 
+BrewsterAcademy -> StMarysLynn[label="22.8 (24.43)
 05/11", weight="78", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
 Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 

@@ -1,4 +1,4 @@
-digraph boys4foursBBN {Pomfret [URL="boys4foursBBNPomfret.html"];BelmontHill [URL="boys4foursBBNBelmontHill.html"];BBN [URL="boys4foursBBNBBN.html"];CambridgeRLS [URL="boys4foursBBNCambridgeRLS.html"];Taft [URL="boys4foursBBNTaft.html"];Nobles [URL="boys4foursBBNNobles.html"];Groton [URL="boys4foursBBNGroton.html"];StMarks [URL="boys4foursBBNStMarks.html"];Middlesex [URL="boys4foursBBNMiddlesex.html"];BBN -> Taft[label="15.1
+digraph boys4foursBBN {Taft [URL="boys4foursBBNTaft.html"];Middlesex [URL="boys4foursBBNMiddlesex.html"];Nobles [URL="boys4foursBBNNobles.html"];BBN [URL="boys4foursBBNBBN.html"];CambridgeRLS [URL="boys4foursBBNCambridgeRLS.html"];StMarks [URL="boys4foursBBNStMarks.html"];Pomfret [URL="boys4foursBBNPomfret.html"];BelmontHill [URL="boys4foursBBNBelmontHill.html"];Groton [URL="boys4foursBBNGroton.html"];Brooks [URL="boys4foursBBNBrooks.html"];BBN -> Taft[label="15.1
 05/11", weight="85", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
 Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
 St. Mark's 5 missed B5 race start time and raced in B6 race.
@@ -33,6 +33,10 @@ BelmontHill -> BBN[label="23.3 (26.88)
 04/27", weight="77", tooltip="NEIRA Boys Fours,Belmont Hill vs BBN/The Ducey Cup, including JV races			
 Distance: 1300m Conditions: Great water. Modest wind, shifting over the course of the racing from calm & tail to calm & head. Race order was from 4V8-1V4 Comments: A beautiful day on the Chalres and great racing by all of the crews! Belmont Hill retains the Ducey Cup by virtue of winning the 1V4 race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=25084165812CED4AFD5819AADD12D8EF&cat=1", random="random"]; 
+BBN -> Brooks[label="1.5
+05/18", weight="99", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
+Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]; 
 BBN -> Middlesex[label="25.1
 05/04", weight="75", tooltip="NEIRA Boys Fours,Middlesex vs. BB&N			
 Distance: 1500m Conditions: Variable light headwind with flat water. Comments: Thank you BB&N for a good afternoon of racing!

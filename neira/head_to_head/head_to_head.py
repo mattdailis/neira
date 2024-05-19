@@ -140,7 +140,7 @@ def rank_by_most_recent_head_to_head(data_dir):
 
     for class_ in ("fours",):
         for gender in ("girls",):
-            for varsity_index in ("4",):  # "1", "2", "3",
+            for varsity_index in ("1",):  # "2", "3", "4"):
                 boatName = gender + varsity_index + class_
                 print(boatName)
                 filtered_tuples = [x for x in tuples if x.boatName == boatName]
@@ -169,9 +169,9 @@ def rank_by_most_recent_head_to_head(data_dir):
                     )
 
                 path2 = dict()
-                for (school1, school2), (date1, margin1) in head_to_head.items():
-                    for (school3, school4), (date2, margin2) in head_to_head.items():
-                        if school2 == school3:
+                for (school1, school2), (date1, margin1, _) in head_to_head.items():
+                    for (school3, school4), (date2, margin2, _) in head_to_head.items():
+                        if school2 == school3 and school1 != school4:
                             put_margin(
                                 path2,
                                 school1,
@@ -179,7 +179,7 @@ def rank_by_most_recent_head_to_head(data_dir):
                                 margin1 + margin2,
                                 min(date1, date2),
                             )
-                        if school1 == school3:
+                        if school1 == school3 and school2 != school4:
                             put_margin(
                                 path2,
                                 school2,
@@ -187,7 +187,7 @@ def rank_by_most_recent_head_to_head(data_dir):
                                 margin2 - margin1,
                                 min(date1, date2),
                             )
-                        if school1 == school4:
+                        if school1 == school4 and school2 != school3:
                             put_margin(
                                 path2,
                                 school3,
@@ -195,7 +195,7 @@ def rank_by_most_recent_head_to_head(data_dir):
                                 margin1 + margin2,
                                 min(date1, date2),
                             )
-                        if school2 == school4:
+                        if school2 == school4 and school1 != school3:
                             put_margin(
                                 path2,
                                 school1,
@@ -203,6 +203,10 @@ def rank_by_most_recent_head_to_head(data_dir):
                                 margin1 - margin2,
                                 min(date1, date2),
                             )
+
+                for school1, school2 in head_to_head:
+                    if (school1, school2) in path2:
+                        del path2[(school1, school2)]
 
                 # best_option = min(
                 #     tqdm(
@@ -216,13 +220,17 @@ def rank_by_most_recent_head_to_head(data_dir):
                 # print(best_option.ranking)
                 # print(objective_function(Problem(best_option, head_to_head)))
 
+                import pdb
+
+                pdb.set_trace()
+
                 best_ranking = sorted(list(schools))
                 alternatives = []
                 best_objective = objective_function(
                     Problem(best_ranking, head_to_head, meets_minimum_races, path2)
                 )
 
-                for _ in tqdm(range(300)):
+                for _ in tqdm(range(10)):
                     schools_copy = list(schools)
                     shuffle(schools_copy)
                     problem = Problem(
@@ -253,11 +261,12 @@ def rank_by_most_recent_head_to_head(data_dir):
 
                 print(
                     "There were "
-                    + str(len(alternatives) + 1)
+                    + str(len(alternatives))
                     + " equally viable alternatives"
                 )
 
                 print()
+                print("Best objective: \n")
                 print(best_objective)
                 table = list(zip(best_ranking, *alternatives))
                 table.insert(18, ("---------",) * (1 + len(alternatives)))
@@ -267,7 +276,10 @@ def rank_by_most_recent_head_to_head(data_dir):
                 conflicts = get_conflicts(
                     Problem(best_ranking, head_to_head, meets_minimum_races, path2)
                 )
-                print(conflicts)
+
+                conflicts.sort(key=lambda x: (-x.level, x.date, x.margin), reverse=True)
+                for x in conflicts:
+                    print(x)
 
                 print()
                 print(repr(problem.head_to_head))
@@ -509,17 +521,21 @@ def objective_function(problem):
     )
 
 
-def get_margin_and_date(head_to_head, school1, school2):
+def get_margin_and_date(head_to_head, school1, school2, extra=None):
     """
     margin > 0 means that school1 beat school2
     """
+    if extra == None:
+        extra = {}
     if (school1, school2) in head_to_head:
+        extra.update(head_to_head[(school1, school2)][2])
         return head_to_head[(school1, school2)][1], head_to_head[(school1, school2)][0]
     if (school2, school1) in head_to_head:
+        extra.update(head_to_head[(school2, school1)][2])
         return -head_to_head[(school2, school1)][1], head_to_head[(school2, school1)][0]
 
 
-def put_margin(head_to_head, faster_boat, slower_boat, margin, date):
+def put_margin(head_to_head, faster_boat, slower_boat, margin, date, **kwargs):
     """
     school1 beat school2 by margin
     """
@@ -529,7 +545,7 @@ def put_margin(head_to_head, faster_boat, slower_boat, margin, date):
     else:
         pair = (faster_boat, slower_boat)
         margin = margin
-    new_value = date, margin
+    new_value = date, margin, kwargs
     if pair not in head_to_head:
         head_to_head[pair] = new_value
     else:
@@ -738,7 +754,7 @@ FORMULA = "=SUMPRODUCT(B2:AK37, ROW(B2:AK37) < COLUMN(B2:AK37))"
 # ['Nobles', 'Brooks', 'BB&N', 'Cambridge RLS', 'Taft', 'Choate', 'Hopkins', 'Frederick Gunn', 'Middlesex', "St. Mark's", 'Brewster Academy', 'Lyme/Old Lyme', 'Greenwich Academy', 'Canterbury', 'Groton', 'NMH', 'Berkshire Academy', 'Pomfret', 'Valley Regional', "St. Mary's-Lynn", 'Marianapolis Prep', 'Winsor', 'Newton Country Day', 'BU Academy', 'Pingree', 'Derryfield', 'Middletown', 'Berwick', 'Worcester Academy', "Miss Porter's", 'Greenwich Country Day', 'Suffield', 'St. Mary Academy-Bay View', 'Lincoln']
 # [('BB&N', 'Groton', -5.5, '2024-04-20'), ("St. Mark's", 'NMH', -1.1, '2024-04-13')]
 
-Critique = namedtuple("Critique", "school1 school2 critique_type ")
+# Critique = namedtuple("Critique", "school1 school2 critique_type ")
 
 
 def critique(data_dir, class_, gender, varsity_index, ranking):
@@ -752,10 +768,152 @@ def critique(data_dir, class_, gender, varsity_index, ranking):
 
     filtered_tuples = [x for x in tuples if x.boatName == boatName]
 
+    schools = set()
+    for x in filtered_tuples:
+        schools.add(x.faster_boat)
+        schools.add(x.slower_boat)
+
+    head_to_head = dict()
+    # margin = right school time minus left school time
+
+    for x in filtered_tuples:
+        put_margin(head_to_head, x.faster_boat, x.slower_boat, x.margin, x.date)
+
+    path2 = dict()
+    for (school1, school2), (date1, margin1, _) in head_to_head.items():
+        for (school3, school4), (date2, margin2, _) in head_to_head.items():
+            if school2 == school3 and school1 != school4:
+                put_margin(
+                    path2,
+                    school1,
+                    school4,
+                    margin1 + margin2,
+                    min(date1, date2),
+                    intermediary=school2,
+                )
+            if school1 == school3 and school2 != school4:
+                put_margin(
+                    path2,
+                    school2,
+                    school4,
+                    margin2 - margin1,
+                    min(date1, date2),
+                    intermediary=school1,
+                )
+            if school1 == school4 and school2 != school3:
+                put_margin(
+                    path2,
+                    school3,
+                    school2,
+                    margin1 + margin2,
+                    min(date1, date2),
+                    intermediary=school1,
+                )
+            if school2 == school4 and school1 != school3:
+                put_margin(
+                    path2,
+                    school1,
+                    school3,
+                    margin1 - margin2,
+                    min(date1, date2),
+                    intermediary=school2,
+                )
+
+    for school1, school2 in head_to_head:
+        if (school1, school2) in path2:
+            del path2[(school1, school2)]
+
+    transitive_head_to_head = dict()
+    for school in schools:
+        transitive_head_to_head[school] = []
+
+    def put_transitive(school1, school2, path=None):
+        if school2 in [x[0] for x in transitive_head_to_head[school1]]:
+            return
+        transitive_head_to_head[school1].append((school2, path))
+        for school, losers in list(transitive_head_to_head.items()):
+            if school1 in losers:
+                continue
+            put_transitive(school, school2, path=[school] + path)
+
+    for (school1, school2), (date, margin, _) in head_to_head.items():
+        if margin < 0:
+            school3 = school1
+            school1 = school2
+            school2 = school3
+        put_transitive(school1, school2, path=[school1, school2])
+
     critiques = []
 
     for i, school1 in enumerate(ranking):
-        for school2 in ranking[i + 1 :]:
+        for j in range(i + 1, len(ranking)):
+            school2 = ranking[j]
             # did school1 beat school2 head-to-head? That supports it
             # did school2 beat school1 head-to-head? That contradicts it
-            pass
+            margin_and_date = get_margin_and_date(head_to_head, school1, school2)
+            if margin_and_date is not None:
+                margin, date = margin_and_date
+                if margin > 0:
+                    critiques.append(
+                        (
+                            "SUPPORTED",
+                            f"{school1} is ranked above {school2} because they won head to head by {margin} seconds on {date}",
+                        )
+                    )
+                else:
+                    critiques.append(
+                        (
+                            "CONTRADICTED",
+                            f"{school1} is ranked above {school2}, but they lost head to head by {-margin} seconds on {date}",
+                        )
+                    )
+            else:
+                extra = dict()
+                margin_and_date = get_margin_and_date(
+                    path2, school1, school2, extra=extra
+                )
+                if margin_and_date is None:
+                    if school2 in transitive_head_to_head[school1]:
+                        critiques.append(
+                            (
+                                "SUPPORTED",
+                                f"{school1} is ranked above {school2} because {school1} beat _ which beat _ which beat {school2}",
+                            )
+                        )
+                    elif school1 in transitive_head_to_head[school2]:
+                        critiques.append(
+                            (
+                                "CONTRADICTED",
+                                f"{school1} is ranked above {school2}, but {school2} beat _ which beat _ which beat {school1}",
+                            )
+                        )
+                    else:
+                        critiques.append(
+                            (
+                                "UNSUPPORTED",
+                                f"{school1} is ranked above {school2} even though we have no way to compare these two schools",
+                            )
+                        )
+                else:
+                    margin, date = margin_and_date
+                    if margin > 0:
+                        critiques.append(
+                            (
+                                "SUPPORTED",
+                                f"{school1} is ranked above {school2} because they both raced {extra['intermediary']}, and {school1} had a more favorable outcome",
+                            )
+                        )
+                    else:
+                        critiques.append(
+                            (
+                                "CONTRADICTED",
+                                f"{school1} is ranked above {school2}, but when they both raced {extra['intermediary']}, {school2} had a more favorable outcome",
+                            )
+                        )
+
+    print(len(critiques))
+    for type_, critique in sorted(critiques):
+        print(type_, critique)
+
+
+# Nobles,Groton,Brooks,BB&N,Middlesex,Cambridge RLS,Taft,Choate,Hopkins,Frederick Gunn,Canterbury,Greenwich Academy,Lyme/Old Lyme,Middletown,Valley Regional,Miss Porter's,Winsor,St. Mark's,Brewster Academy,Newton Country Day,NMH,Berkshire Academy,Pomfret,St. Mary's-Lynn,Marianapolis Prep,St. Mary Academy-Bay View,Derryfield,Suffield,BU Academy,Berwick,Worcester Academy,Greenwich Country Day,Lincoln,Pingree

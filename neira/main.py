@@ -155,5 +155,22 @@ def ranking(data_dir):
     neira.head_to_head.head_to_head.rank_by_most_recent_head_to_head(data_dir)
 
 
+@cli.command()
+@click.argument("data_dir")
+@click.option(
+    "--ranking",
+    is_flag=False,
+    default="",
+    show_default=True,
+    metavar="<ranking>",
+    type=click.STRING,
+    help="List of schools in order",
+)
+def critique(data_dir, ranking):
+    neira.head_to_head.head_to_head.critique(
+        data_dir, "fours", "girls", "1", [c.strip() for c in ranking.split(",")]
+    )
+
+
 if __name__ == "__main__":
     cli()
