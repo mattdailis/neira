@@ -1,4 +1,4 @@
-digraph boys5foursCambridgeRLS {CambridgeRLS [URL="boys5foursCambridgeRLSCambridgeRLS.html"];BBN [URL="boys5foursCambridgeRLSBBN.html"];Brooks [URL="boys5foursCambridgeRLSBrooks.html"];NMH [URL="boys5foursCambridgeRLSNMH.html"];CambridgeRLS -> BBN[label="8.7 (9.67)
+digraph boys5foursCambridgeRLS {BBN [URL="boys5foursCambridgeRLSBBN.html"];Brooks [URL="boys5foursCambridgeRLSBrooks.html"];NMH [URL="boys5foursCambridgeRLSNMH.html"];CambridgeRLS [URL="boys5foursCambridgeRLSCambridgeRLS.html"];CambridgeRLS -> BBN[label="8.7 (9.67)
 04/13", weight="92", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
 Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&cat=5", random="random"]; 

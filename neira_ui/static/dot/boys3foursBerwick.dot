@@ -1,4 +1,4 @@
-digraph boys3foursBerwick {WorcesterAcademy [URL="boys3foursBerwickWorcesterAcademy.html"];StMarysLynn [URL="boys3foursBerwickStMarysLynn.html"];Berwick [URL="boys3foursBerwickBerwick.html"];Medford [URL="boys3foursBerwickMedford.html"];BrewsterAcademy [URL="boys3foursBerwickBrewsterAcademy.html"];Berwick -> Medford[label="3.8 (4.07)
+digraph boys3foursBerwick {Medford [URL="boys3foursBerwickMedford.html"];StMarysLynn [URL="boys3foursBerwickStMarysLynn.html"];BrewsterAcademy [URL="boys3foursBerwickBrewsterAcademy.html"];Berwick [URL="boys3foursBerwickBerwick.html"];WorcesterAcademy [URL="boys3foursBerwickWorcesterAcademy.html"];Berwick -> Medford[label="3.8 (4.07)
 05/11", weight="97", tooltip="NEIRA, Medford High School and Berwick Academy			
 Distance: 1400 Conditions: extremely chop for the race. Current increased throughout the day; pushing boats to starboard. Because of the wind, we started all races via floating, quick starts Comments: Thank you to Berwick Academy for coming down and racing!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BAA317D9E8DD93E01874D25E90000546&cat=1", random="random"]; 

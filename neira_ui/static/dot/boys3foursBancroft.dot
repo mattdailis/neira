@@ -1,4 +1,4 @@
-digraph boys3foursBancroft {Medford [URL="boys3foursBancroftMedford.html"];Bancroft [URL="boys3foursBancroftBancroft.html"];BrewsterAcademy [URL="boys3foursBancroftBrewsterAcademy.html"];WorcesterAcademy [URL="boys3foursBancroftWorcesterAcademy.html"];Medford -> Bancroft[label="53.9
+digraph boys3foursBancroft {Bancroft [URL="boys3foursBancroftBancroft.html"];BrewsterAcademy [URL="boys3foursBancroftBrewsterAcademy.html"];WorcesterAcademy [URL="boys3foursBancroftWorcesterAcademy.html"];Medford [URL="boys3foursBancroftMedford.html"];Medford -> Bancroft[label="53.9
 05/15", weight="47", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
 Distance: 1500 m Conditions: Very light winds throughout all races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 

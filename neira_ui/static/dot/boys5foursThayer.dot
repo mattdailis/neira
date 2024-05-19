@@ -1,4 +1,4 @@
-digraph boys5foursThayer {BrewsterAcademy [URL="boys5foursThayerBrewsterAcademy.html"];Thayer [URL="boys5foursThayerThayer.html"];Brooks [URL="boys5foursThayerBrooks.html"];Pingree [URL="boys5foursThayerPingree.html"];Brooks -> Thayer[label="45.9
+digraph boys5foursThayer {Brooks [URL="boys5foursThayerBrooks.html"];Pingree [URL="boys5foursThayerPingree.html"];BrewsterAcademy [URL="boys5foursThayerBrewsterAcademy.html"];Thayer [URL="boys5foursThayerThayer.html"];Brooks -> Thayer[label="45.9
 05/18", weight="55", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
 Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]; 
