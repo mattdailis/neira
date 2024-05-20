@@ -69,7 +69,7 @@ export async function load({ params }) {
                 if (entry.results === undefined) continue;
                 for (const result of entry.results) {
                     if (entry.class === 'fours' && entry.gender === 'girls' && entry.varsity_index === '1') {
-                        tuples.push([result.school1, result.school2, result.margin, race.day])
+                        tuples.push([result.school1, result.school2, result.margin, race.day, race.url])
                     }
                 }
             }

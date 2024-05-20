@@ -25,7 +25,8 @@
 							Math.round(
 								100 * (heat.results[j].margin_from_winner - heat.results[i].margin_from_winner)
 							) / 100,
-							race.day
+							race.day,
+							race.url
 						]);
 					}
 				}
@@ -261,7 +262,7 @@
 			{#if selected.length == 0}
 				<p style="color:gray"><i>No schools have been selected</i></p>
 			{/if}
-			{#if selected.length == 1}
+			{#if selected.length === 1}
 				<h2>{selected[0].description}</h2>
 
 				<p>
@@ -274,16 +275,40 @@
 
 				<ul>
 					{#each tuples.filter((x) => x.includes(selected[0].description)) as tuple}
-						<li>{tuple}</li>
+						<li>{tuple[0]},{tuple[1]},{tuple[2]},{tuple[3]}</li>
 					{/each}
 				</ul>
 			{/if}
-			{#if selected.length == 2}
+			{#if selected.length === 2}
 				<h2>{selected[0].description} vs {selected[1].description}</h2>
+
+				<p>
+					{selected[0].description} has raced {selected[1].description}
+					{tuples
+						.filter((x) => x.includes(selected[0].description))
+						.filter((x) => x.includes(selected[1].description)).length} time{tuples
+						.filter((x) => x.includes(selected[0].description))
+						.filter((x) => x.includes(selected[1].description)).length === 1
+						? ''
+						: 's'} this season.
+				</p>
+
+				<ul>
+					{#each tuples
+						.filter((x) => x.includes(selected[0].description))
+						.filter((x) => x.includes(selected[1].description)) as tuple}
+						<li>
+							{tuple[0]} won by {tuple[2]} seconds on {tuple[3]} (<a href={tuple[4]}>link</a>)
+						</li>
+					{/each}
+				</ul>
 			{/if}
 		</div>
 		<div class="researchpane">
-			<input placeholder="filter" on:keydown={(e) => e.key === 'Enter' && add(e.target)} />
+			<input
+				placeholder="this box does nothing yet..."
+				on:keydown={(e) => e.key === 'Enter' && add(e.target)}
+			/>
 			<div class="researchtable" style="height:90%">
 				<table style="border-collapse:collapse">
 					<thead>
@@ -297,9 +322,10 @@
 					<tbody>
 						{#each tuples as tuple}
 							<tr>
-								{#each tuple as cell}
-									<td>{cell}</td>
-								{/each}
+								<td>{tuple[0]}</td>
+								<td>{tuple[1]}</td>
+								<td>{tuple[2]}</td>
+								<td>{tuple[3]}</td>
 							</tr>
 						{/each}
 					</tbody>
