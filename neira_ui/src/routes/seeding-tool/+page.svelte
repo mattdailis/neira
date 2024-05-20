@@ -263,6 +263,20 @@
 			{/if}
 			{#if selected.length == 1}
 				<h2>{selected[0].description}</h2>
+
+				<p>
+					{selected[0].description} has raced {tuples.filter((x) =>
+						x.includes(selected[0].description)
+					).length} times this season against {new Set(
+						tuples.filter((x) => x.includes(selected[0].description)).flatMap((x) => [x[0], x[1]])
+					).size - 1} unique opponents.
+				</p>
+
+				<ul>
+					{#each tuples.filter((x) => x.includes(selected[0].description)) as tuple}
+						<li>{tuple}</li>
+					{/each}
+				</ul>
 			{/if}
 			{#if selected.length == 2}
 				<h2>{selected[0].description} vs {selected[1].description}</h2>
@@ -403,6 +417,7 @@
 	.selectionpane {
 		/* border: 1px solid red; */
 		height: 50%;
+		overflow-y: scroll;
 	}
 	.researchpane {
 		/* border: 1px solid purple; */
