@@ -9,7 +9,7 @@ const config = {
 		adapter: adapter()
 	},
 	paths: {
-		base: "https://mattdailis.github.io/neira/svelte"
+		base: "https://mattdailis.github.io/neira/"
 	},
 	prerender: {
 		handleHttpError: 'warn'
