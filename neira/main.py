@@ -156,20 +156,63 @@ def ranking(data_dir):
 
 
 @cli.command()
-@click.argument("data_dir")
-@click.option(
-    "--ranking",
-    is_flag=False,
-    default="",
-    show_default=True,
-    metavar="<ranking>",
-    type=click.STRING,
-    help="List of schools in order",
-)
-def critique(data_dir, ranking):
-    neira.head_to_head.head_to_head.critique(
-        data_dir, "fours", "girls", "1", [c.strip() for c in ranking.split(",")]
+# @click.argument("data_dir")
+# @click.option("--class", "class_", is_flag=False)
+# @click.option("--gender", is_flag=False)
+# @click.option("--varsity", is_flag=False)
+# @click.option(
+#     "--ranking",
+#     is_flag=False,
+#     default="",
+#     show_default=True,
+#     metavar="<ranking>",
+#     type=click.STRING,
+#     help="List of schools in order",
+# )
+def critique():  # data_dir, class_, gender, varsity, ranking):
+    rankings_files = CONFIG["rankings"]
+    data_dir = CONFIG["reviewed_dir"]
+    for x in rankings_files:
+        print(x)
+        class_, gender, varsity = x.split("-")
+
+        with open(rankings_files[x]) as f:
+            ranking = json.load(f)
+
+        print(ranking)
+
+        neira.head_to_head.head_to_head.critique(
+            data_dir, class_, gender, varsity, ranking
+        )
+
+
+@cli.command()
+# @click.option("--class", "class_", is_flag=False)
+# @click.option("--gender", is_flag=False)
+# @click.option("--varsity", is_flag=False)
+@click.argument("school1")
+@click.argument("school2")
+def compare(school1, school2):
+    data_dir = CONFIG["reviewed_dir"]
+
+    class_, gender, varsity = "fours", "girls", "1"
+
+    neira.head_to_head.head_to_head.compare(
+        data_dir, class_, gender, varsity, school1, school2
     )
+
+
+@cli.command()
+def compare_all():
+    data_dir = CONFIG["reviewed_dir"]
+
+    class_, gender = "fours", "girls"
+
+    for varsity in ("1", "2", "3", "4"):
+        out_dir = f"compare/{class_}-{gender}-{varsity}"
+        neira.head_to_head.head_to_head.compare_all(
+            data_dir, out_dir, class_, gender, varsity
+        )
 
 
 if __name__ == "__main__":

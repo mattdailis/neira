@@ -312,6 +312,19 @@
             }
         ]
     },
+    "405AAD9F27AD90D900D2B21CC4DDD58D": {
+        "checksum": "c0cc635be32e9416c3f6a50f9cba1543",
+        "corrections": [
+            {
+                "class": "eights",
+                "type": "set_class_all_heats"
+            },
+            {
+                "gender": "boys",
+                "type": "set_gender_all_heats"
+            }
+        ]
+    },
     "429158C8054202FE58813F17E3F2C8B1": {
         "checksum": "a588b4f2a801df96c3e89024623ba13c",
         "corrections": [
@@ -456,6 +469,10 @@
             }
         ]
     },
+    "67FD2097619223857784396CC1ADAA4B": {
+        "checksum": "93f1ee97dddc5a1e01788dd4aa5f115b",
+        "corrections": []
+    },
     "69233FE8176AF29F759DFFF1815560E8": {
         "checksum": "f07c404e7febeb09a47077a07df13a63",
         "corrections": []
@@ -523,6 +540,10 @@
     },
     "8CCAFC10198F257F661CCA17A80627CA": {
         "checksum": "b9fc57a6198e73f55f2dacaee4aecf7e",
+        "corrections": []
+    },
+    "8CE4DE8927E7D7EAAD8B07784006F77A": {
+        "checksum": "83bfe603fc89ec1688695a7624acbd2a",
         "corrections": []
     },
     "8FA4B72699D2163ED86519848FFC5337": {

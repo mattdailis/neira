@@ -2,5 +2,11 @@
     "raw_dir": "data/0_raw",
     "cleaned_dir": "data/1_cleaned",
     "reviewed_dir": "data/2_reviewed",
-    "corrections_file": "corrections.json"
+    "corrections_file": "corrections.json",
+    "rankings": {
+        "fours-girls-1": "ranking-fours-girls-1.json",
+        "fours-girls-2": "ranking-fours-girls-2.json",
+        "fours-girls-3": "ranking-fours-girls-3.json",
+        "fours-girls-4": "ranking-fours-girls-4.json"
+    }
 }

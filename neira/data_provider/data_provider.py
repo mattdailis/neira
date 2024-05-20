@@ -87,6 +87,8 @@ def get_head_to_head_tuples(data_dir, class_=None, gender=None) -> List[Datum]:
                 .lstrip("approx. ")
                 .replace(",", "")
                 .replace("~", "")
+                .split()[0]
+                .rstrip("m")
             )
         except Exception as e:
             print(e)
