@@ -2,6 +2,8 @@
 	import { quintOut } from 'svelte/easing';
 	import { crossfade } from 'svelte/transition';
 	import { flip } from 'svelte/animate';
+	import { copy } from 'svelte-copy';
+	import Modal from './modal.svelte';
 
 	export let data;
 
@@ -9,6 +11,10 @@
 	let foundersDay = data.foundersDay;
 
 	let tuples = [...foundersDay];
+
+	let showModal = false;
+
+	let textareaContents = '';
 
 	for (const [uid, race] of Object.entries(races)) {
 		if (race.heats === undefined) {
@@ -151,6 +157,7 @@
 	}
 
 	function onKeyDown(e) {
+		if (showModal) return;
 		if (![38, 40, 37, 39].includes(e.keyCode)) {
 			console.log(e.keyCode);
 			return;
@@ -201,7 +208,10 @@
 </script>
 
 <!-- <h1>Yo</h1> -->
-<div class="w3-row-padding w3-margin-bottom toplevel" style="height: 90vh; overflow: hidden">
+<div
+	class="w3-row-padding w3-margin-bottom toplevel"
+	style="height: calc(100vh - 43px); overflow: hidden"
+>
 	<div class="w3-col s4" style="justify-content: left">
 		<div class="board">
 			<div class="left">
@@ -232,7 +242,18 @@
 			</div>
 
 			<div class="right">
-				<h2>Seeding</h2>
+				<h2
+					on:click={() => {
+						textareaContents = seeding.map((x) => x.description).join('\n');
+						showModal = true;
+					}}
+				>
+					Seeding
+				</h2>
+				<!-- <p>
+					<a href="" use:copy={seeding.map((x) => x.description).join('\n')}>Copy to clipboard</a>
+				</p> -->
+
 				{#each seeding as todo (todo.id)}
 					<div
 						class={'item' +
@@ -250,6 +271,7 @@
 						}}
 					>
 						<!-- <input type="checkbox" on:change={() => mark(todo, true)} /> -->
+						{seeding.indexOf(todo) + 1}.
 						{todo.description}
 						<!-- <button on:click={() => remove(todo)}>remove</button> -->
 					</div>
@@ -275,7 +297,7 @@
 
 				<ul>
 					{#each tuples.filter((x) => x.includes(selected[0].description)) as tuple}
-						<li>{tuple[0]},{tuple[1]},{tuple[2]},{tuple[3]}</li>
+						<li>{tuple[0]},{tuple[1]},{tuple[2]},{tuple[3]} (<a href={tuple[4]}>link</a>)</li>
 					{/each}
 				</ul>
 			{/if}
@@ -309,7 +331,7 @@
 				placeholder="this box does nothing yet..."
 				on:keydown={(e) => e.key === 'Enter' && add(e.target)}
 			/>
-			<div class="researchtable" style="height:90%">
+			<div class="researchtable" style="height:calc(100vh - 43px)">
 				<table style="border-collapse:collapse">
 					<thead>
 						<tr class="headerrow">
@@ -317,6 +339,7 @@
 							<td>Slower School</td>
 							<td>Margin</td>
 							<td>Date</td>
+							<td>Link</td>
 						</tr>
 					</thead>
 					<tbody>
@@ -326,6 +349,7 @@
 								<td>{tuple[1]}</td>
 								<td>{tuple[2]}</td>
 								<td>{tuple[3]}</td>
+								<td>(<a href={tuple[4]}>link</a>)</td>
 							</tr>
 						{/each}
 					</tbody>
@@ -334,6 +358,44 @@
 		</div>
 	</div>
 </div>
+
+<Modal
+	bind:showModal
+	apply={() => {
+		let allSchools = unseeded.map((x) => x.description) + seeding.map((x) => x.description);
+		let result = [];
+		for (let school of textareaContents.split('\n')) {
+			school = school.trim();
+			if (school === '') continue;
+			if (!allSchools.includes(school)) {
+				return [false, `"${school}" was not recognized`];
+			}
+			result.push(school);
+		}
+		let newUnseeded = [];
+		let newSeeding = [];
+		let all = unseeded.concat(seeding);
+		for (const school of all) {
+			if (!result.includes(school.description)) {
+				newUnseeded.push(school);
+			} else {
+				newSeeding.push(school);
+			}
+		}
+		newSeeding.sort((a, b) => result.indexOf(a.description) - result.indexOf(b.description));
+		console.log({ result, all, newUnseeded, newSeeding });
+		seeding = newSeeding;
+		unseeded = newUnseeded;
+		return [true, 'whoopee'];
+	}}
+>
+	<h2 slot="header">
+		<!-- modal
+		<small><em>adjective</em> mod·al \ˈmō-dəl\</small> -->
+		Copy/paste seeding
+	</h2>
+	<textarea class="modaltextarea" bind:value={textareaContents}></textarea>
+</Modal>
 
 <svelte:window on:keydown={onKeyDown} />
 
@@ -363,6 +425,8 @@
 		/* border: 1px solid red; */
 		border-right: 1px solid gray;
 		overflow-y: scroll;
+		padding-right: 10px;
+		height: 100%;
 	}
 
 	.board > input {
@@ -458,5 +522,16 @@
 	.headerrow td {
 		border-bottom: 1px solid gray;
 		font-size: larger;
+	}
+	.modaltextarea {
+		width: 100%;
+		height: 150px;
+		padding: 12px 20px;
+		box-sizing: border-box;
+		border: 2px solid #ccc;
+		border-radius: 4px;
+		background-color: #f8f8f8;
+		font-size: 16px;
+		resize: none;
 	}
 </style>
