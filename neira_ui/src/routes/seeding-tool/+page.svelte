@@ -2,8 +2,8 @@
 	import { quintOut } from 'svelte/easing';
 	import { crossfade } from 'svelte/transition';
 	import { flip } from 'svelte/animate';
-	import { copy } from 'svelte-copy';
 	import Modal from './modal.svelte';
+	import { pathsOfLength } from './pathlength';
 
 	export let data;
 
@@ -321,6 +321,24 @@
 						.filter((x) => x.includes(selected[1].description)) as tuple}
 						<li>
 							{tuple[0]} won by {tuple[2]} seconds on {tuple[3]} (<a href={tuple[4]}>link</a>)
+						</li>
+					{/each}
+				</ul>
+
+				<p>
+					Here are the paths of length 2 from {selected[0].description} to {selected[1].description}
+				</p>
+				<ul>
+					{#each pathsOfLength(2, tuples, selected[0].description, selected[1].description) as x}
+						<li>
+							{(function () {
+								let result = selected[0].description;
+								for (const y of x) {
+									result += '-(' + y[2] + ')->' + y[1];
+								}
+
+								return result;
+							})()}
 						</li>
 					{/each}
 				</ul>

@@ -62,6 +62,7 @@ export async function load({ params }) {
     }), new Promise(resolve => {
         const unsubscribe = onValue(foundersDayRef, snapshot => {
             const race = snapshot.val()
+            unsubscribe();
 
             const tuples = [];
 
@@ -73,7 +74,6 @@ export async function load({ params }) {
                     }
                 }
             }
-            unsubscribe();
             resolve({ foundersDay: tuples })
         });
     })])
