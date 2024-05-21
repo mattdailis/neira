@@ -331,10 +331,10 @@
 				<ul>
 					{#each pathsOfLength(2, tuples, selected[0].description, selected[1].description) as x}
 						<li>
-							{(function () {
+							{@html (function () {
 								let result = selected[0].description;
 								for (const y of x) {
-									result += '-(' + y[2] + ')->' + y[1];
+									result += `-(<a href="${y[4]}">` + y[2] + '</a>)->' + y[1];
 								}
 
 								return result;
