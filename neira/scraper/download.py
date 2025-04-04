@@ -1,12 +1,10 @@
-import json
-import os
 import re
 from bs4 import BeautifulSoup
 import requests
 
 
 def download_all(year):
-    urls = getRaceUrls(year)
+    urls = get_race_urls(year)
 
     yield from map(download_one, urls)
 
@@ -18,7 +16,7 @@ def download_one(name_uid_url):
 
 
 # Returns a list of urls
-def getRaceUrls(year):
+def get_race_urls(year):
     res_url = "https://www.row2k.com"
     res_html = requests.get(
         res_url + f"/results/index.cfm?league=NEIRA&year={year}"

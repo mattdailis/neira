@@ -47,7 +47,7 @@ def scrape(refresh=False):
     OVERWRITE = True
 
     if refresh and raw_cache:
-        for downloaded in download_all(2024):
+        for downloaded in download_all(2025):
             print("Downloading " + downloaded["uid"])
             with open(
                 os.path.join(raw_cache, downloaded["uid"] + "-raw.json"), "w"
