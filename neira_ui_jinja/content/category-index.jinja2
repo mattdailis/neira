@@ -27,7 +27,7 @@
 {#                <div class="w3-col s2" style="border-right: 1px solid black">#}
                 <div style="border-top: 1px solid black; width: fit-content">
                     {% for result in heat -%}
-                        <a href="{{ result["url"] }}"><pre style="margin: 0">{{ result["school"] }} {{ result["raw_time"] }}</pre></a>
+                        <a style="text-decoration: none" href="{{ result["url"] }}"><pre style="margin: 0">{{ result["school"] }} {{ result["raw_time"] }}</pre></a>
                         {#    <p>{{ result["margin_from_winner"] }}</p>#}
                         {#    <p>{{ result["raw_time"] }}</p>#}
                     {% endfor %}

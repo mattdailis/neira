@@ -16,6 +16,7 @@ def main():
 
 def build():
     base = "/neira"
+    # base = ""
     current_year = 2025
     # with open(os.path.join(CONTENT_DIRECTORY, "index.jinja")) as f:
     #     template = f.read()
