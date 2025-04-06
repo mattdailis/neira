@@ -1,1 +1,35 @@
-{}
+{
+    "47CD1CE74D9D1669EFF946ECF260ECEB": {
+        "checksum": "cdd1caa2cfa1290b405e0030ac78b568",
+        "corrections": []
+    },
+    "543ABF5328760B629E530FC11580E94F": {
+        "checksum": "aeb2bf1275a5fe1de85e2121969b6e50",
+        "corrections": [
+            {
+                "heats": [
+                    "boys 3",
+                    "girls 3"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
+    "736394FF41EFD7D522C09A3AF5734670": {
+        "checksum": "c4a80e3f74ae70f304757c000f1be6d5",
+        "corrections": []
+    },
+    "B9BCFC91AFB3A5D4131527DB3C572692": {
+        "checksum": "3a053542bb07a310ece9d1b083d5b810",
+        "corrections": [
+            {
+                "comment": "Lawrenceville is from New Jersey, so I don't think they're in NEIRA",
+                "type": "comment"
+            }
+        ]
+    },
+    "CE456225129ACDB361E1BEAB29CB57A4": {
+        "checksum": "3488de00f7c096dc3ab09e83c77f80d9",
+        "corrections": []
+    }
+}
