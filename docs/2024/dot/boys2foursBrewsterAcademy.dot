@@ -1,0 +1,56 @@
+digraph boys2foursBrewsterAcademy {Pomfret [URL="boys2foursBrewsterAcademyPomfret.html"];Medford [URL="boys2foursBrewsterAcademyMedford.html"];Pingree [URL="boys2foursBrewsterAcademyPingree.html"];Nobles [URL="boys2foursBrewsterAcademyNobles.html"];StMarysLynn [URL="boys2foursBrewsterAcademyStMarysLynn.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademyBrewsterAcademy.html"];DexterSouthfield [URL="boys2foursBrewsterAcademyDexterSouthfield.html"];Brooks [URL="boys2foursBrewsterAcademyBrooks.html"];Berwick [URL="boys2foursBrewsterAcademyBerwick.html"];BBN [URL="boys2foursBrewsterAcademyBBN.html"];StMarks [URL="boys2foursBrewsterAcademyStMarks.html"];WorcesterAcademy [URL="boys2foursBrewsterAcademyWorcesterAcademy.html"];LymeOldLyme [URL="boys2foursBrewsterAcademyLymeOldLyme.html"];Derryfield [URL="boys2foursBrewsterAcademyDerryfield.html"];Choate [URL="boys2foursBrewsterAcademyChoate.html"];NMH [URL="boys2foursBrewsterAcademyNMH.html"];Berwick -> BrewsterAcademy[label="4.3 (4.61)
+05/11", weight="96", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+BrewsterAcademy -> StMarysLynn[label="20.0 (21.43)
+05/11", weight="80", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+BrewsterAcademy -> Medford[label="69.9 (74.89)
+05/11", weight="31", tooltip="NEIRA Boys & Girls Fours,Brewster, Berwick, Thayer, St Mary's, Medford			
+Distance: 1400 Conditions: Cross winds, with gust up to 19 mph's. All races were floating starts. Comments: All times reflected are from their respective heats. Thayer didn't have a GV is a true 2V, so they were entered as such.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6B42F00B9C36E071AAB9D6063008D7F1&cat=5", random="random"]; 
+WorcesterAcademy -> BrewsterAcademy[label="16.3
+05/15", weight="84", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+BrewsterAcademy -> DexterSouthfield[label="132.2
+05/15", weight="-32", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+BrewsterAcademy -> Derryfield[label="2.5
+05/08", weight="98", tooltip="NEIRA Boys & Girls Fours,Davison Cup: Bedford, Brewster Academy, Derryfield, Thayer			
+Distance: 1500m Conditions: Calm conditions, tail current. Comments: Bedford racing as non-NEIRA school for this event (because they race 8+s at NEIRA's). Thayer fielded only a G2 boat for the event.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6C4883C3BF2AE2404F975527F674C4D4&cat=5", random="random"]; 
+Brooks -> BrewsterAcademy[label="26.2
+05/18", weight="74", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
+Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]; 
+BBN -> BrewsterAcademy[label="25.3
+05/18", weight="75", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
+Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]; 
+BrewsterAcademy -> Pingree[label="3.5
+05/18", weight="97", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
+Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]; 
+Nobles -> BrewsterAcademy[label="61.0
+04/27", weight="39", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
+StMarks -> BrewsterAcademy[label="28.9
+04/27", weight="72", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
+Pomfret -> BrewsterAcademy[label="34.93
+05/05", weight="66", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Choate -> BrewsterAcademy[label="24.6
+05/05", weight="76", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> BrewsterAcademy[label="44.25
+05/05", weight="56", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> BrewsterAcademy[label="40.08
+05/05", weight="60", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

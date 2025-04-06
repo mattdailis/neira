@@ -1,0 +1,43 @@
+{% extends "base.jinja2" %}
+{% from 'graphviz-link.jinja2' import doturl %}
+
+{# Input:
+- class_: fours/eights
+- gender: boys/girls
+- varsity_index: 1/2/3/4
+- results: [{
+  "date",
+  "results"
+}]
+
+#}
+{% block title %}
+    {{ gender |title }} {{ class_ |title }}: {{ varsity_index }}V
+{% endblock %}
+{% block content %}
+    <h1>{{ gender |title }} {{ class_ |title }}: {{ varsity_index }}V</h1>
+
+    <div class="w3-row-padding w3-margin-bottom">
+        {% if not results %}
+            No results yet
+        {%  endif %}
+        {% for result in results %}
+            <h3>{{ result["date"] }}</h3>
+            {% for heat in result["results"] %}
+{#                <div class="w3-col s2" style="border-right: 1px solid black">#}
+                <div style="border-top: 1px solid black; width: fit-content">
+                    {% for result in heat -%}
+                        <a href="{{ result["url"] }}"><pre style="margin: 0">{{ result["school"] }} {{ result["raw_time"] }}</pre></a>
+                        {#    <p>{{ result["margin_from_winner"] }}</p>#}
+                        {#    <p>{{ result["raw_time"] }}</p>#}
+                    {% endfor %}
+                </div>
+                <hr />
+{#                </div>#}
+            {% endfor %}
+        {% endfor %}
+    </div>
+
+
+
+{% endblock %}

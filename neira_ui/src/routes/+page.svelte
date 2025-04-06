@@ -4,6 +4,11 @@
 
 <div class="w3-row-padding w3-margin-bottom">
 	<div class="w3-col s9">
+	</div>
+</div>
+
+<div class="w3-row-padding w3-margin-bottom">
+	<div class="w3-col s9">
 		<h3>Girls Fours</h3>
 		<a href="{base}/dot/girls1fours.html">First Boat</a> (<a href="{base}/dot/girls1fours_topo.txt"
 			>topo</a
