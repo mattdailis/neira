@@ -1,6 +1,7 @@
 import json
 import os.path
 import shutil
+from datetime import datetime
 
 from jinja2 import Environment, FileSystemLoader
 
@@ -84,8 +85,9 @@ def build():
                     old_entry = heats[class_][gender][varsity_index]
                     new_entry = []
                     for date, results in sorted(old_entry.items(), key=lambda x: x[0], reverse=True):
+                        parsed_date = datetime.strptime(date, "%Y-%m-%d")
                         new_entry.append({
-                            "date": date,
+                            "date": parsed_date.strftime("%A, %B {}, %Y").format(parsed_date.day), # Day without leading zero
                             "results": results
                         })
                     heats[class_][gender][varsity_index] = new_entry

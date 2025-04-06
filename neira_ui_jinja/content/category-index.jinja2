@@ -12,7 +12,7 @@
 
 #}
 {% block title %}
-    {{ gender |title }} {{ class_ |title }}: {{ varsity_index }}V
+    {{ gender |title }} {{ class_ |title }} {{ varsity_index }}V
 {% endblock %}
 {% block content %}
     <h1>{{ gender |title }} {{ class_ |title }}: {{ varsity_index }}V</h1>
@@ -25,14 +25,14 @@
             <h3>{{ result["date"] }}</h3>
             {% for heat in result["results"] %}
 {#                <div class="w3-col s2" style="border-right: 1px solid black">#}
-                <div style="border-top: 1px solid black; width: fit-content">
+                <div style="border-top: 1px solid black; width: fit-content; padding-bottom: 20px">
                     {% for result in heat -%}
-                        <a style="text-decoration: none" href="{{ result["url"] }}"><pre style="margin: 0">{{ result["school"] }} {{ result["raw_time"] }}</pre></a>
+                        <a style="text-decoration: none" href="{{ result["url"] }}"><pre style="margin: 0">{{ "%-20s" | format(result["school"]) }} {{ result["raw_time"] }}</pre></a>
                         {#    <p>{{ result["margin_from_winner"] }}</p>#}
                         {#    <p>{{ result["raw_time"] }}</p>#}
                     {% endfor %}
                 </div>
-                <hr />
+{#                <hr />#}
 {#                </div>#}
             {% endfor %}
         {% endfor %}
