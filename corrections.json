@@ -1,7 +1,11 @@
 {
     "47CD1CE74D9D1669EFF946ECF260ECEB": {
         "checksum": "cdd1caa2cfa1290b405e0030ac78b568",
-        "corrections": []
+        "corrections": [
+            {
+                "comment": "Fairfield Prep 4V and 3V collision"
+            }
+        ]
     },
     "543ABF5328760B629E530FC11580E94F": {
         "checksum": "aeb2bf1275a5fe1de85e2121969b6e50",
