@@ -1,0 +1,23 @@
+{# ['comment', 'day', 'heats', 'regatta_display_name', 'url'] #}
+{% extends "base.jinja2" %}
+
+{% macro makeheat(heat) -%}
+<p><b>{{ heat["gender"] }} {{ heat["varsity_index"] }} {{ heat["class"] }}</b></p>
+{% for result in heat["results"] -%}
+    <p>{{ result["school"] }} {{ result["raw_time"] }}</p>
+{#    <p>{{ result["margin_from_winner"] }}</p>#}
+{#    <p>{{ result["raw_time"] }}</p>#}
+{%  endfor %}
+{%- endmacro %}
+
+{% block content %}
+<h1>{{ regatta_display_name }}</h1>
+<a href="{{ url }}">Link to row2k</a>
+<p>{{ day }}</p>
+<p>{{ comment }}</p>
+
+{% for heat in heats -%}
+    {{ makeheat(heat) }}
+{%  endfor %}
+
+{% endblock %}
