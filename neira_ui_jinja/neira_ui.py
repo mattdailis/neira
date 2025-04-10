@@ -5,6 +5,8 @@ from datetime import datetime
 
 from jinja2 import Environment, FileSystemLoader
 
+from neira.data_provider.data_provider import parse_distance
+
 PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
 DOT_DIRECTORY = os.path.join(PROJECT_ROOT, "dot-2024")
 CSS_DIRECTORY = os.path.join(os.path.dirname(__file__), "css")
@@ -14,6 +16,17 @@ OUTPUT_DIRECTORY = os.path.join(os.path.dirname(__file__), "output")
 
 def main():
     build()
+
+# def compute_boatlengths(margin, t1, t2, distance, class_):
+#     match class_:
+#         case "fours":
+#             boat_length = 13.4
+#         case "eights":
+#             boat_length = 18.9
+#         case _:
+#             raise Exception("Unhandled class_: " + repr(class_))
+#     boat_speed
+
 
 def build():
     base = "/neira"
@@ -72,11 +85,12 @@ def build():
                 with open(os.path.join(config["reviewed_data"], file), "r") as f, open(os.path.join(YEAR_ROOT, basename + ".html"), "w") as g:
                     contents = json.load(f)
                     date = contents["day"]
+                    distance = parse_distance(contents["comment"])
                     for heat in contents["heats"]:
                         entry = heats[heat["class"]][heat["gender"]][int(heat["varsity_index"])]
                         if date not in entry:
                             entry[date] = []
-                        entry[date].append([dict(x, url=contents["url"]) for x in heat["results"]])
+                        entry[date].append([dict(x, url=contents["url"], distance=distance) for x in heat["results"]])
                     g.write(regatta_template.render(contents))
 
         for class_ in heats:

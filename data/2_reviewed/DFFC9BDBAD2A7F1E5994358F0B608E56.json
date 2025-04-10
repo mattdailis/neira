@@ -1,0 +1,42 @@
+{
+    "comment": "\nDistance: 1250m Conditions: Flat water, mild crosswind, good conditions. Comments: 1V race had to be stopped after 400m to avoid a collision as some college crews were rowing directly up the racecourse. Luckily, all boats avoided one another. We paddled back to the start and re-ran the race without incident. 2V race started slightly below the line. Thank you to Boston Latin for some spirited racing on the Charles!\r\n\nNone",
+    "day": "2025-04-09",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:03.1",
+                    "school": "BC High"
+                },
+                {
+                    "margin_from_winner": 6.5,
+                    "raw_time": "4:09.6",
+                    "school": "Boston Latin"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:07.8",
+                    "school": "BC High"
+                },
+                {
+                    "margin_from_winner": 5.5,
+                    "raw_time": "4:13.3",
+                    "school": "Boston Latin"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys Eights, Boston Latin vs. BC High",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=DFFC9BDBAD2A7F1E5994358F0B608E56&cat=1"
+}

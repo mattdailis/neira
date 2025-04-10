@@ -1,0 +1,76 @@
+{
+    "comment": "\nDistance: 1201 Conditions: Slight Tail wind with some stronger gusts during racing.  Floating Starts Comments: In the Novice girls event.  It had varsity athletes in each shell in order to compete today.  In the Novice boys event Glastonbury rowed the race from 600 meter in with 7 rowers after an oar came out of the oar lock and athlete could not get it back in.  Thank you for Glastonbury coming to race on a school night and best of luck the rest of the season.\r\n\nNone",
+    "day": "2025-04-09",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "3:51.65",
+                    "school": "Glastonbury"
+                },
+                {
+                    "margin_from_winner": 4.19,
+                    "raw_time": "3:55.84",
+                    "school": "Farmington"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "3:59.54",
+                    "school": "Glastonbury"
+                },
+                {
+                    "margin_from_winner": 4.38,
+                    "raw_time": "4:03.92",
+                    "school": "Farmington"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:16.45",
+                    "school": "Glastonbury"
+                },
+                {
+                    "margin_from_winner": 5.51,
+                    "raw_time": "4:21.96",
+                    "school": "Farmington"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:24.73",
+                    "school": "Glastonbury"
+                },
+                {
+                    "margin_from_winner": 29.22,
+                    "raw_time": "4:53.95",
+                    "school": "Farmington"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Eights,Farmington High School vs. Glastonbury High School",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=1F1A0BCB534E3020447DACFF2C9C9115&cat=5"
+}
