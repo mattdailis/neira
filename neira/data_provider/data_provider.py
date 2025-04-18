@@ -1,3 +1,4 @@
+import traceback
 from collections import namedtuple
 import datetime
 import json
@@ -77,22 +78,7 @@ def get_head_to_head_tuples(data_dir, class_=None, gender=None) -> List[Datum]:
         comment = scraped_json["comment"]
         url = scraped_json["url"]
 
-        try:
-            distance = int(
-                comment.split("Distance:")[1]
-                .split("Conditions")[0]
-                .strip()
-                .lower()
-                .rstrip(" meters")
-                .lstrip("approx. ")
-                .replace(",", "")
-                .replace("~", "")
-                .split()[0]
-                .rstrip("m")
-            )
-        except Exception as e:
-            print(e)
-            distance = None
+        distance = parse_distance(comment)
 
         for heat in heats:
             class_ = heat["class"]
@@ -124,14 +110,14 @@ def get_head_to_head_tuples(data_dir, class_=None, gender=None) -> List[Datum]:
 
             for fasterBoat, slowerBoat in all_pairs(heat_results):
                 if (
-                    slowerBoat["margin_from_winner"] is not None
-                    and fasterBoat["margin_from_winner"] is not None
+                        slowerBoat["margin_from_winner"] is not None
+                        and fasterBoat["margin_from_winner"] is not None
                 ):
                     margin = round(
                         slowerBoat["margin_from_winner"]
                         - fasterBoat["margin_from_winner"],
                         1,
-                    )
+                        )
                 else:
                     margin = None
                 if distance == 1500:
@@ -161,6 +147,25 @@ def get_head_to_head_tuples(data_dir, class_=None, gender=None) -> List[Datum]:
                 )
     results.extend(founders_day_head_to_head_tuples())
     return results
+
+
+def parse_distance(comment):
+    try:
+        return int(
+            comment.split("Distance:")[1]
+            .split("Conditions")[0]
+            .strip()
+            .lower()
+            .rstrip(" meters")
+            .lstrip("approx. ")
+            .replace(",", "")
+            .replace("~", "")
+            .split()[0]
+            .rstrip("m")
+        )
+    except Exception as e:
+        traceback.print_exc()
+        return 1500
 
 
 def all_pairs(my_list):

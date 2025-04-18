@@ -203,6 +203,36 @@ This is the policy for how Founders Day data is accounted for in seeding:
 > 
 > Consequently, we do not compare any schools that did not race head to head. E.g. if school A from heat 1 made the finals, and school B from heat 2 did not make the finals, we cannot compare school A to school B because they did not race head to head
 
+# Bucketing Margins
+Margins in seconds, while precise, can sometimes be too quantitative to be useful. In informal terms, it may be more
+natural to discuss whether this team beat that team "by a lot" or "just barely". As an experiment, we propose defining
+terms that are familiar to rowers for this purpose: "by a bow ball", "by less than a boat length", "with open water",
+"by many boatlengths".
+
+To convert seconds to these categorical labels, we need some approximation of the length of a given boat, their speed in
+meters per second, and the length of the course.
+
+Using the numbers from [Encyclopedia Britannica](https://www.britannica.com/technology/racing-shell), let's approximate
+the length of a four as 13.4 meters, and an eight as 18.9 meters. For boat speed, for each boat we'll take the length
+of the course divided by the time it took them to complete the course. The gap (in meters) between two boats is defined
+as the difference in speed of the two boats times the difference in time. Divide that by the length of the boat, and
+we get a measure of boatlengths between the two boats.
+
+# Seeding Philosophy
+The NEIRA adopted the following Principles of Seeding in 2007.
+a) More recent races are more important than older races.
+b) The closer the race distance is to 1500 meters, the more valuable the result. All races
+must be a minimum of 1,200 meters to count towards seeding.
+c) Times over a given racecourse are not significant. Margins between boats are
+significant.
+d) Direct results are more significant than indirect results.
+e) All results are counted. A race cannot be thrown out because of additional information
+(i.e. crew was without a key member, crew did not handle the water well, someone had
+recently switched sides, etc.)
+f) Programs that do not submit their results will not gain an advantage by doing so. If
+information is lacking, it may hurt the crew’s seeding.
+g) A program must have at least one race in May
+
 # Glossary
 - **varsity index**: A number from 1 to 6, referring to a school's "first boat" through "sixth boat".
 - **gender**: Either `boys` or `girls`

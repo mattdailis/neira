@@ -115,6 +115,7 @@ boys_fours = {
     "Greenwich Country Day",
     "Groton",
     "Hopkins",
+    "Hotchkiss",  # TODO is Hotchkiss in neira?
     "King School",
     "Lyme/Old Lyme",
     "Marianapolis Prep",
@@ -180,6 +181,7 @@ girls_fours = {
     "Groton",
     "Frederick Gunn",
     "Hopkins",
+    "Hotchkiss", # TODO is Hotchkiss in neira for fours?
     "Lincoln",
     "Lyme/Old Lyme",
     "Marianapolis Prep",

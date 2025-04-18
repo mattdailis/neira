@@ -3,6 +3,19 @@
         "checksum": "e4f899e9e2ee302557c4922cd3eecf5f",
         "corrections": []
     },
+    "146036DC0D57AEEFDD13651887C3B194": {
+        "checksum": "269ffb48391f8483e4e3967596565501",
+        "corrections": [
+            {
+                "comment": "Double check that Hotchkiss is competing in fours this season",
+                "type": "comment"
+            }
+        ]
+    },
+    "181E3474D2FC1C1BDC3CD092B1E1976C": {
+        "checksum": "58b4005542379e2bacf11635874150bc",
+        "corrections": []
+    },
     "1C4C04F0345235F194B469F54430CCCE": {
         "checksum": "4591db9c86d4e40ebef3792b2ac9021c",
         "corrections": []
@@ -47,6 +60,17 @@
     "736394FF41EFD7D522C09A3AF5734670": {
         "checksum": "c4a80e3f74ae70f304757c000f1be6d5",
         "corrections": []
+    },
+    "89B923A079203B9788590BB072E28088": {
+        "checksum": "237b1ffec07a9ae41ccd27b45a32c57d",
+        "corrections": [
+            {
+                "heats": [
+                    "boys 6"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
     },
     "9CB14C1442DB1E4709BFA846A1FCE1D7": {
         "checksum": "ab6eedaa46557b73baed527a9dd4764e",

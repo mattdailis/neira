@@ -57,7 +57,7 @@ def scrape(refresh=False):
     if raw_cache:
         iterator = read_from_cache(raw_cache)
     else:
-        iterator = download_all(2024)
+        iterator = download_all(2025)
 
     for downloaded in iterator:
         scraped_filename = os.path.join(

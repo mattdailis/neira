@@ -1,0 +1,81 @@
+{
+    "comment": "\nDistance: 1500m Conditions: Windy conditions. Stayed pretty much the same throughout all races. Slight crosswind coming across from the Worcester side to the Shrewsbury side of the lake. Comments: The results for the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Brewster Academy raced.\r\n\nNone",
+    "day": "2025-04-16",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:42.97",
+                    "school": "Worcester Academy"
+                },
+                {
+                    "margin_from_winner": 10.7,
+                    "raw_time": "5:53.67",
+                    "school": "Brewster Academy"
+                },
+                {
+                    "margin_from_winner": 63.52,
+                    "raw_time": "6:46.49",
+                    "school": "Bancroft"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:17.9",
+                    "school": "Brewster Academy"
+                },
+                {
+                    "margin_from_winner": 11.6,
+                    "raw_time": "6:29.5",
+                    "school": "Worcester Academy"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:52.2",
+                    "school": "Brewster Academy"
+                },
+                {
+                    "margin_from_winner": 24.6,
+                    "raw_time": "7:16.8",
+                    "school": "Worcester Academy"
+                }
+            ],
+            "varsity_index": "6"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:06.2",
+                    "school": "Brewster Academy"
+                },
+                {
+                    "margin_from_winner": 51.5,
+                    "raw_time": "6:57.7",
+                    "school": "Worcester Academy"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Fours,'Worcester Academy' and 'Brewster Academy'",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5"
+}
