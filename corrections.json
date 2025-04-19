@@ -100,5 +100,27 @@
     "DFFC9BDBAD2A7F1E5994358F0B608E56": {
         "checksum": "3f41a118a5f82279e3d0dc580f96e07d",
         "corrections": []
+    },
+    "E23FCE22384DC3BDD3FAD1D647D5F4F3": {
+        "checksum": "8e855c7cf667b68bbf8a7c7b7ab49144",
+        "corrections": [
+            {
+                "comment": "Novice boat beat the B3 boat",
+                "heat": "boys 3",
+                "margins": [
+                    {
+                        "margin_from_winner": 0,
+                        "raw_time": "5:36.7",
+                        "school": "Fairfield Prep"
+                    },
+                    {
+                        "margin_from_winner": 17.6,
+                        "raw_time": "5:54.3",
+                        "school": "Glastonbury"
+                    }
+                ],
+                "type": "set_margins"
+            }
+        ]
     }
 }
