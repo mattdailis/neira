@@ -32,12 +32,28 @@
             }
         ]
     },
+    "2988C5F873833C8F0A00A6D6ED650D95": {
+        "checksum": "3f1c5e89579fe1b6830a066fc71a1b23",
+        "corrections": []
+    },
     "47CD1CE74D9D1669EFF946ECF260ECEB": {
         "checksum": "cdd1caa2cfa1290b405e0030ac78b568",
         "corrections": [
             {
                 "comment": "Fairfield Prep 4V and 3V collision",
                 "type": "comment"
+            }
+        ]
+    },
+    "4DE358C946007063FCBBB37DE8C21C1A": {
+        "checksum": "7600741991def76a69fdb26f32a5ce08",
+        "corrections": [
+            {
+                "heat": "girls 5",
+                "schools": [
+                    "St. Mary's-Lynn"
+                ],
+                "type": "exclude_schools_from_heat"
             }
         ]
     },
