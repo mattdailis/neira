@@ -77,6 +77,19 @@
         "checksum": "c4a80e3f74ae70f304757c000f1be6d5",
         "corrections": []
     },
+    "74320C9FA98FF40EF58ED5364AA5D062": {
+        "checksum": "8826046ed0f8b9cd31064edcfad6257f",
+        "corrections": []
+    },
+    "7FC6355C3E1FAB76A66FC05803D6C76E": {
+        "checksum": "f9c00a60bd6e37573415f42bca9d9d3c",
+        "corrections": [
+            {
+                "comment": "TODO boys 3 heat should be marked as 1350m",
+                "type": "comment"
+            }
+        ]
+    },
     "89B923A079203B9788590BB072E28088": {
         "checksum": "237b1ffec07a9ae41ccd27b45a32c57d",
         "corrections": [
@@ -88,12 +101,29 @@
             }
         ]
     },
+    "9545B3460A2D38726A0404D55E2837F0": {
+        "checksum": "0c196f1b6434579554bb13dfa7a693f7",
+        "corrections": [
+            {
+                "class": "eights",
+                "type": "set_class_all_heats"
+            }
+        ]
+    },
     "9CB14C1442DB1E4709BFA846A1FCE1D7": {
         "checksum": "ab6eedaa46557b73baed527a9dd4764e",
         "corrections": []
     },
+    "9D6EF532608DCE0FFB64EAEAE8781272": {
+        "checksum": "36a9088f8c89913f1a8ea57406f42af2",
+        "corrections": []
+    },
     "9DD115CE4A91B368B80F5DF823705F97": {
         "checksum": "9ceb871f69d6fa8e163226d6bc72269c",
+        "corrections": []
+    },
+    "B6A7E8C184C4D1CD136EC5C290D638B8": {
+        "checksum": "02f33b733d80f288a4e9b1c6fa51b06c",
         "corrections": []
     },
     "B9BCFC91AFB3A5D4131527DB3C572692": {
@@ -109,8 +139,29 @@
         "checksum": "c3788736e4036cfa151b8e1e9ee4cb9f",
         "corrections": []
     },
+    "C1846FF4D524939343D2F034713639A4": {
+        "checksum": "105ca6a43a09c8af1582734d0f9a4599",
+        "corrections": [
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            },
+            {
+                "heat": "boys 6",
+                "schools": [
+                    "Pomfret",
+                    "Belmont Hill"
+                ],
+                "type": "exclude_schools_from_heat"
+            }
+        ]
+    },
     "CE456225129ACDB361E1BEAB29CB57A4": {
         "checksum": "3488de00f7c096dc3ab09e83c77f80d9",
+        "corrections": []
+    },
+    "DD2128435AD6EAE7EA2354AF12CD95B6": {
+        "checksum": "21ff48f9a526bbf2c323a4e0817f813e",
         "corrections": []
     },
     "DFFC9BDBAD2A7F1E5994358F0B608E56": {
