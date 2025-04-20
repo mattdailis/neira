@@ -1,0 +1,33 @@
+digraph girls1foursMarianapolisPrep {GreenwichCountryDay [URL="girls1foursMarianapolisPrepGreenwichCountryDay.html"];Suffield [URL="girls1foursMarianapolisPrepSuffield.html"];Pomfret [URL="girls1foursMarianapolisPrepPomfret.html"];Pingree [URL="girls1foursMarianapolisPrepPingree.html"];BerkshireAcademy [URL="girls1foursMarianapolisPrepBerkshireAcademy.html"];StMarysLynn [URL="girls1foursMarianapolisPrepStMarysLynn.html"];MarianapolisPrep [URL="girls1foursMarianapolisPrepMarianapolisPrep.html"];WorcesterAcademy [URL="girls1foursMarianapolisPrepWorcesterAcademy.html"];Derryfield [URL="girls1foursMarianapolisPrepDerryfield.html"];MarianapolisPrep -> WorcesterAcademy[label="46.5
+04/21", weight="54", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft and Marianapolis Prep			
+Distance: 1500 meters Conditions: Steady 10-12 mph tail/cross wind throughout the races. Minimal chop. Comments: In the BV2 event, Worcester Academy's BV2 shell placed first and BV3 shell placed second. A friendly mixed Novice 4+ was also held with Bancroft vs. Worcester Academy.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE1377E8919904D6083B1C51335B1F5A&cat=5", random="random"]; 
+MarianapolisPrep -> Suffield[label="22.0 (23.57)
+04/29", weight="78", tooltip="NEIRA Boys & Girls Fours,Suffield Academy vs. Marianapolis			
+Distance: 1400 Conditions: Severe chop at the start and severe tail wind. Shift to light tail/starboard wind for the last 1100 meters.
+More wind and chop at the start as the day progressed (more for girls 4, more for boys varsity 2)
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8CCAFC10198F257F661CCA17A80627CA&cat=5", random="random"]; 
+StMarysLynn -> MarianapolisPrep[label="21.2
+05/01", weight="79", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. St. Mary's-Lynn, Eagle Hill			
+Distance: 1500m Conditions: Very little chop
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76E3EDF2C6F7CD5FEBCC72CEE9D056A7&cat=5", random="random"]; 
+MarianapolisPrep -> Pingree[label="131.0
+05/11", weight="-31", tooltip="NEIRA Boys & Girls Fours,Pingree, Marianapolis Prep			
+Distance: 1500 meters Conditions: Significant chop from direct 12 kt headwind, gusting to 15 kt. Conditions were the same for all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DB29F5D60E0038080A5EDB5951FAE5BA&cat=5", random="random"]; 
+MarianapolisPrep -> Derryfield[label="7.3
+04/17", weight="93", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs. Derryfield			
+Distance: 1500m Conditions: Stiff head wind throughout all races, particularly the first 700m. Comments: Thank you, Derryfield, for making the trip down from NH!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=572A866681F1A29F4BC821412ED10F61&cat=5", random="random"]; 
+BerkshireAcademy -> MarianapolisPrep[label="35.0
+04/24", weight="65", tooltip="NEIRA Girls Fours,Pomfret vs. Marianapolis, Berkshire			
+Distance: 1500m Conditions: Swirling, gusty winds - 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, G2, G1, G3 with boys' races in between. Marianapolis raced their 2nd boat in the third boat race. Pomfret raced both their 3rd and 4th boats in that race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5BE52A0B0D2C5D9EFE557E09C6164DD7&cat=1", random="random"]; 
+Pomfret -> MarianapolisPrep[label="12.1
+04/24", weight="88", tooltip="NEIRA Girls Fours,Pomfret vs. Marianapolis, Berkshire			
+Distance: 1500m Conditions: Swirling, gusty winds - 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, G2, G1, G3 with boys' races in between. Marianapolis raced their 2nd boat in the third boat race. Pomfret raced both their 3rd and 4th boats in that race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5BE52A0B0D2C5D9EFE557E09C6164DD7&cat=1", random="random"]; 
+MarianapolisPrep -> GreenwichCountryDay[label="3.4
+05/15", weight="97", tooltip="NEIRA Boys & Girls Fours,Marianapolis vs.Greenwich Country Day, Thayer, and Eagle Hill			
+Distance: 1500 Conditions: GV1 race was quite calm. GV2 and Boys races had a slight headwind
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=333A8CBC2914B00774B798094F5DAE29&cat=5", random="random"]}
