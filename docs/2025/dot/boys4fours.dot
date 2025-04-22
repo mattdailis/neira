@@ -1,0 +1,80 @@
+digraph boys4fours {Taft [URL="boys4foursTaft.html"];Nobles [URL="boys4foursNobles.html"];Brooks [URL="boys4foursBrooks.html"];BBN [URL="boys4foursBBN.html"];Groton [URL="boys4foursGroton.html"];BelmontHill [URL="boys4foursBelmontHill.html"];NMH [URL="boys4foursNMH.html"];Middlesex [URL="boys4foursMiddlesex.html"];Hopkins [URL="boys4foursHopkins.html"];GreenwichCountryDay [URL="boys4foursGreenwichCountryDay.html"];Middletown [URL="boys4foursMiddletown.html"];BerkshireAcademy [URL="boys4foursBerkshireAcademy.html"];Hotchkiss [URL="boys4foursHotchkiss.html"];NotreDame [URL="boys4foursNotreDame.html"];StMarks [URL="boys4foursStMarks.html"];Brooks -> StMarks[label="34.5
+04/19", weight="66", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
+Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
+Thank you to all crews who came out to race on Lake Q!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2988C5F873833C8F0A00A6D6ED650D95&cat=5", random="random"]; 
+Brooks -> Middlesex[label="48.0
+04/19", weight="52", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
+Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
+Thank you to all crews who came out to race on Lake Q!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2988C5F873833C8F0A00A6D6ED650D95&cat=5", random="random"]; 
+StMarks -> Middlesex[label="13.5
+04/19", weight="87", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
+Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
+Thank you to all crews who came out to race on Lake Q!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2988C5F873833C8F0A00A6D6ED650D95&cat=5", random="random"]; 
+Groton -> Nobles[label="0.8 (0.89)
+04/19", weight="100", tooltip="NEIRA Boys & Girls Fours,BB&N, Nobles and Groton			
+Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1-2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
+Boys 7th/8th - Nobles 2:49, BB&N 3:05
+Girls 8th - BB&N 3:11, Nobles 3:17
+Girls 7th - 3:24.32, BB&N 3:32.06
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+Groton -> BBN[label="36.0 (40.0)
+04/19", weight="64", tooltip="NEIRA Boys & Girls Fours,BB&N, Nobles and Groton			
+Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1-2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
+Boys 7th/8th - Nobles 2:49, BB&N 3:05
+Girls 8th - BB&N 3:11, Nobles 3:17
+Girls 7th - 3:24.32, BB&N 3:32.06
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+Nobles -> BBN[label="35.2 (39.11)
+04/19", weight="65", tooltip="NEIRA Boys & Girls Fours,BB&N, Nobles and Groton			
+Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1-2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
+Boys 7th/8th - Nobles 2:49, BB&N 3:05
+Girls 8th - BB&N 3:11, Nobles 3:17
+Girls 7th - 3:24.32, BB&N 3:32.06
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+Taft -> BerkshireAcademy[label="47.5
+04/19", weight="53", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
+Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
+NotreDame -> Middletown[label="24.4
+04/20", weight="76", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
+Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
+NotreDame -> Hotchkiss[label="47.8
+04/20", weight="53", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
+Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
+NotreDame -> GreenwichCountryDay[label="55.7
+04/20", weight="45", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
+Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
+Middletown -> Hotchkiss[label="23.4
+04/20", weight="77", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
+Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
+Middletown -> GreenwichCountryDay[label="31.3
+04/20", weight="69", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
+Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
+Hotchkiss -> GreenwichCountryDay[label="7.9
+04/20", weight="93", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
+Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
+BerkshireAcademy -> Hotchkiss[label="22.3
+04/16", weight="78", tooltip="NEIRA Boys & Girls Fours,Berkshire School vs. Hotchkiss			
+Distance: 1500 M Conditions: Chilly and cloudy with variable cross headwinds building over the afternoon; strongest in the middle 500. Generally flat water with some slight chop in middle 500. Comments: Order of racing: G3-B4-G2-B3-G1-B2-G4-B1. Berkshire hotseated between G3 and G4. Great to be able to welcome our neighbors to the world of fours racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&cat=5", random="random"]; 
+BelmontHill -> NMH[label="40.6
+04/19", weight="60", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
+Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]; 
+BelmontHill -> Hopkins[label="100.1
+04/19", weight="0", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
+Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]; 
+NMH -> Hopkins[label="59.5
+04/19", weight="41", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
+Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]}
