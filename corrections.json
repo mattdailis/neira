@@ -5,7 +5,12 @@
     },
     "0B5A12BEAF8945DD81EB9EFB206E62F1": {
         "checksum": "39f79124defa26c1349b05ef4c31ad2f",
-        "corrections": []
+        "corrections": [
+            {
+                "type": "comment",
+                "comment": "TODO Notre Dame WH had a B3 but not a B4. Should the B4 race count for seeding?"
+            }
+        ]
     },
     "0B965DFA0A5AE12A2ABE252B3771403A": {
         "checksum": "ef68a8bdcdb969c1de93635c08314df7",
