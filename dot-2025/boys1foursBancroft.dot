@@ -1,8 +1,12 @@
-digraph boys1foursBancroft {BrewsterAcademy [URL="boys1foursBancroftBrewsterAcademy.html"];WorcesterAcademy [URL="boys1foursBancroftWorcesterAcademy.html"];Bancroft [URL="boys1foursBancroftBancroft.html"];WorcesterAcademy -> Bancroft[label="63.5
+digraph boys1foursBancroft {Bancroft [URL="boys1foursBancroftBancroft.html"];BrewsterAcademy [URL="boys1foursBancroftBrewsterAcademy.html"];WorcesterAcademy [URL="boys1foursBancroftWorcesterAcademy.html"];WorcesterAcademy -> Bancroft[label="63.5
 04/16", weight="37", tooltip="NEIRA Boys & Girls Fours,'Worcester Academy' and 'Brewster Academy'			
 Distance: 1500m Conditions: Windy conditions. Stayed pretty much the same throughout all races. Slight crosswind coming across from the Worcester side to the Shrewsbury side of the lake. Comments: The results for the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Brewster Academy raced.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5", random="random"]; 
 BrewsterAcademy -> Bancroft[label="52.8
 04/16", weight="48", tooltip="NEIRA Boys & Girls Fours,'Worcester Academy' and 'Brewster Academy'			
 Distance: 1500m Conditions: Windy conditions. Stayed pretty much the same throughout all races. Slight crosswind coming across from the Worcester side to the Shrewsbury side of the lake. Comments: The results for the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Brewster Academy raced.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5", random="random"]; 
+WorcesterAcademy -> Bancroft[label="62.9
+04/23", weight="38", tooltip="NEIRA Boys & Girls Fours,St. Mark's and Worcester Academy			
+Distance: 1500m Conditions: Nice weather; slight wind coming across from the Worcester side to the Shrewsbury side of the lake Comments: The results under the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Bancroft raced.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6D37204313ADD015CB0882600479249C&cat=5", random="random"]}

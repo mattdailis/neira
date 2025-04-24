@@ -1,4 +1,4 @@
-digraph boys3foursBelmontHill {Pomfret [URL="boys3foursBelmontHillPomfret.html"];BelmontHill [URL="boys3foursBelmontHillBelmontHill.html"];Middlesex [URL="boys3foursBelmontHillMiddlesex.html"];Hopkins [URL="boys3foursBelmontHillHopkins.html"];NMH [URL="boys3foursBelmontHillNMH.html"];BelmontHill -> Middlesex[label="30.0
+digraph boys3foursBelmontHill {NMH [URL="boys3foursBelmontHillNMH.html"];BelmontHill [URL="boys3foursBelmontHillBelmontHill.html"];Pomfret [URL="boys3foursBelmontHillPomfret.html"];Middlesex [URL="boys3foursBelmontHillMiddlesex.html"];Hopkins [URL="boys3foursBelmontHillHopkins.html"];BelmontHill -> Middlesex[label="30.0
 04/23", weight="70", tooltip="NEIRA Boys Fours,Middlesex vs. Belmont Hill			
 Distance: 1,500m Conditions: Race order was B4, B3, B2, B1 and conditions were fairly consistent across all races: a moderate crossing head wind at the start that evolved into a sporadic light cross head wind at points throughout the course. A good day for racing all around.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8DF855142719E3FD183DEB93A96BFA2A&cat=1", random="random"]; 
