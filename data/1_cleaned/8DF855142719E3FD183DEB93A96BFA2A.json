@@ -1,0 +1,76 @@
+{
+    "comment": "\nDistance: 1,500m Conditions: Race order was B4, B3, B2, B1 and conditions were fairly consistent across all races: a moderate crossing head wind at the start that evolved into a sporadic light cross head wind at points throughout the course.  A good day for racing all around.\n\nNone",
+    "day": "2025-04-23",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:58.64",
+                    "school": "Belmont Hill"
+                },
+                {
+                    "margin_from_winner": 29.64,
+                    "raw_time": "5:28.28",
+                    "school": "Middlesex"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:00.85",
+                    "school": "Belmont Hill"
+                },
+                {
+                    "margin_from_winner": 40.66,
+                    "raw_time": "5:41.51",
+                    "school": "Middlesex"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:10.67",
+                    "school": "Belmont Hill"
+                },
+                {
+                    "margin_from_winner": 29.98,
+                    "raw_time": "5:40.65",
+                    "school": "Middlesex"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:30.69",
+                    "school": "Belmont Hill"
+                },
+                {
+                    "margin_from_winner": 56.18,
+                    "raw_time": "6:26.87",
+                    "school": "Middlesex"
+                }
+            ],
+            "varsity_index": "4"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys Fours,Middlesex vs. Belmont Hill",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=8DF855142719E3FD183DEB93A96BFA2A&cat=1"
+}

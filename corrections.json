@@ -7,8 +7,8 @@
         "checksum": "39f79124defa26c1349b05ef4c31ad2f",
         "corrections": [
             {
-                "type": "comment",
-                "comment": "TODO Notre Dame WH had a B3 but not a B4. Should the B4 race count for seeding?"
+                "comment": "TODO Notre Dame WH had a B3 but not a B4. Should the B4 race count for seeding?",
+                "type": "comment"
             }
         ]
     },
@@ -103,6 +103,15 @@
             }
         ]
     },
+    "70A75824096A2554B9F78A0E50641458": {
+        "checksum": "1339453427fccec20593ba9d26d067b7",
+        "corrections": [
+            {
+                "comment": "CRLS B1 veered across lanes",
+                "type": "comment"
+            }
+        ]
+    },
     "70B98A170C6C33B62575E6B76D013661": {
         "checksum": "fe5fd37333155c2ef08593bdef3ad16d",
         "corrections": []
@@ -135,6 +144,14 @@
             }
         ]
     },
+    "8DF855142719E3FD183DEB93A96BFA2A": {
+        "checksum": "00828b848078d787c1812604536b412a",
+        "corrections": []
+    },
+    "94579D9D5FBE5D07A878B5A16B5F3FFC": {
+        "checksum": "20f4757e8d038057c06a969ac6adbd90",
+        "corrections": []
+    },
     "9545B3460A2D38726A0404D55E2837F0": {
         "checksum": "0c196f1b6434579554bb13dfa7a693f7",
         "corrections": [
@@ -155,6 +172,15 @@
     "9DD115CE4A91B368B80F5DF823705F97": {
         "checksum": "9ceb871f69d6fa8e163226d6bc72269c",
         "corrections": []
+    },
+    "A209E2EC05D6A0148020795D781654C0": {
+        "checksum": "9a350c989c1d018f693b492033611712",
+        "corrections": [
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            }
+        ]
     },
     "B6A7E8C184C4D1CD136EC5C290D638B8": {
         "checksum": "02f33b733d80f288a4e9b1c6fa51b06c",
@@ -200,6 +226,10 @@
     },
     "DD2128435AD6EAE7EA2354AF12CD95B6": {
         "checksum": "21ff48f9a526bbf2c323a4e0817f813e",
+        "corrections": []
+    },
+    "DF878DF04C15534AB1690F59BC52F588": {
+        "checksum": "a46d2f79905a251f3591fdc9b0570b14",
         "corrections": []
     },
     "DFFC9BDBAD2A7F1E5994358F0B608E56": {

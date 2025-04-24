@@ -1,4 +1,4 @@
-digraph boys1foursBBN {Groton [URL="boys1foursBBNGroton.html"];Nobles [URL="boys1foursBBNNobles.html"];Berwick [URL="boys1foursBBNBerwick.html"];BBN [URL="boys1foursBBNBBN.html"];BBN -> Berwick[label="7.6 (8.44)
+digraph boys1foursBBN {BBN [URL="boys1foursBBNBBN.html"];Thayer [URL="boys1foursBBNThayer.html"];Groton [URL="boys1foursBBNGroton.html"];Berwick [URL="boys1foursBBNBerwick.html"];CambridgeRLS [URL="boys1foursBBNCambridgeRLS.html"];Nobles [URL="boys1foursBBNNobles.html"];BBN -> Berwick[label="7.6 (8.44)
 04/05", weight="93", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Berwick Academy			
 Distance: 1350 Conditions: Overall very good conditions and flat water. Very slight cross wind but consistent for all races. Thanks to Berwick for making the trip!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CE456225129ACDB361E1BEAB29CB57A4&cat=5", random="random"]; 
@@ -15,4 +15,14 @@ Distance: 1350 Conditions: Moderate crosswind at the start growing stronger thro
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
 Girls 8th - BB&N 3:11, Nobles 3:17
 Girls 7th - 3:24.32, BB&N 3:32.06
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+CambridgeRLS -> BBN[label="1.8 (2.0)
+04/23", weight="99", tooltip="NEIRA Boys Fours, BB&N, CRLS and Thayer (Mayor's Cup)			
+Distance: 1350 Conditions: Slight cross tailwind getting stronger throughout the afternoon. Order of races 4, 3, 2, 1. Thanks to Thayer for making the trip! Comments: During the last 250m of the 3rd boat race, the Charles River Cruise Ship was coming upstream causing both coxswains to divert their course slightly to starboard. The coxswains handled it quite well, and it did not impact order of finish. 
+During the last 300m of the 1st boat race, CRLS veered strongly to starboard cutting across into BB&N's lane and causing BB&N to alter their course slightly and steer to avoid a collision. CRLS continued to move to starboard, ending up about 2-3 lanes over from where they started. It is unclear whether this altered order of finish. Given how close the margin was and the lane violation by CRLS, the coaches mutually decided not to award the Mayor's Cup (the winner of the 1st boat race) to either team, but to award the Cup later this season to whichever team finishes in a higher seed at the NEIRA regatta.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=70A75824096A2554B9F78A0E50641458&cat=1", random="random"]; 
+BBN -> Thayer[label="62.4 (69.33)
+04/23", weight="38", tooltip="NEIRA Boys Fours, BB&N, CRLS and Thayer (Mayor's Cup)			
+Distance: 1350 Conditions: Slight cross tailwind getting stronger throughout the afternoon. Order of races 4, 3, 2, 1. Thanks to Thayer for making the trip! Comments: During the last 250m of the 3rd boat race, the Charles River Cruise Ship was coming upstream causing both coxswains to divert their course slightly to starboard. The coxswains handled it quite well, and it did not impact order of finish. 
+During the last 300m of the 1st boat race, CRLS veered strongly to starboard cutting across into BB&N's lane and causing BB&N to alter their course slightly and steer to avoid a collision. CRLS continued to move to starboard, ending up about 2-3 lanes over from where they started. It is unclear whether this altered order of finish. Given how close the margin was and the lane violation by CRLS, the coaches mutually decided not to award the Mayor's Cup (the winner of the 1st boat race) to either team, but to award the Cup later this season to whichever team finishes in a higher seed at the NEIRA regatta.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=70A75824096A2554B9F78A0E50641458&cat=1", random="random"]}

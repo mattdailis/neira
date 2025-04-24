@@ -1,0 +1,42 @@
+{
+    "comment": "\nDistance: 1250 Conditions: Cross/tailwind, smooth water. Comments: 2V race started a bit below the line. Thank you to St. Paul's for coming down to Boston and racing!\r\n\nNone",
+    "day": "2025-04-23",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "3:52.6",
+                    "school": "St. Paul's"
+                },
+                {
+                    "margin_from_winner": 1.1,
+                    "raw_time": "3:53.7",
+                    "school": "BC High"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "3:57.9",
+                    "school": "BC High"
+                },
+                {
+                    "margin_from_winner": 11.2,
+                    "raw_time": "4:09.1",
+                    "school": "St. Paul's"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys Eights, St. Paul's vs. BC High",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=94579D9D5FBE5D07A878B5A16B5F3FFC&cat=1"
+}
