@@ -1,4 +1,4 @@
-digraph girls1foursBBN {Nobles [URL="girls1foursBBNNobles.html"];CambridgeRLS [URL="girls1foursBBNCambridgeRLS.html"];BBN [URL="girls1foursBBNBBN.html"];Groton [URL="girls1foursBBNGroton.html"];Berwick [URL="girls1foursBBNBerwick.html"];BBN -> Berwick[label="78.0 (86.67)
+digraph girls1foursBBN {BBN [URL="girls1foursBBNBBN.html"];CambridgeRLS [URL="girls1foursBBNCambridgeRLS.html"];Nobles [URL="girls1foursBBNNobles.html"];Thayer [URL="girls1foursBBNThayer.html"];Berwick [URL="girls1foursBBNBerwick.html"];Groton [URL="girls1foursBBNGroton.html"];BBN -> Berwick[label="78.0 (86.67)
 04/05", weight="22", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Berwick Academy			
 Distance: 1350 Conditions: Overall very good conditions and flat water. Very slight cross wind but consistent for all races. Thanks to Berwick for making the trip!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CE456225129ACDB361E1BEAB29CB57A4&cat=5", random="random"]; 
@@ -26,4 +26,8 @@ Distance: 1350 Conditions: Moderate crosswind at the start growing stronger thro
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
 Girls 8th - BB&N 3:11, Nobles 3:17
 Girls 7th - 3:24.32, BB&N 3:32.06
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+BBN -> Thayer[label="55.0 (61.11)
+04/23", weight="45", tooltip="NEIRA Girls Fours, Thayer & BB&N			
+Distance: 1350 M Conditions: Pretty neutral at the start, slight crossing wind from Boston to Cambridge Comments: Warm and sunny and good racing by all boats.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DF878DF04C15534AB1690F59BC52F588&cat=1", random="random"]}

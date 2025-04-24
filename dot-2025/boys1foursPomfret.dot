@@ -1,4 +1,12 @@
-digraph boys1foursPomfret {Pomfret [URL="boys1foursPomfretPomfret.html"];BelmontHill [URL="boys1foursPomfretBelmontHill.html"];NMH [URL="boys1foursPomfretNMH.html"];Hopkins [URL="boys1foursPomfretHopkins.html"];StMarysLynn [URL="boys1foursPomfretStMarysLynn.html"];BelmontHill -> Pomfret[label="26.8
+digraph boys1foursPomfret {MarianapolisPrep [URL="boys1foursPomfretMarianapolisPrep.html"];Pomfret [URL="boys1foursPomfretPomfret.html"];StMarysLynn [URL="boys1foursPomfretStMarysLynn.html"];BelmontHill [URL="boys1foursPomfretBelmontHill.html"];Hopkins [URL="boys1foursPomfretHopkins.html"];BerkshireAcademy [URL="boys1foursPomfretBerkshireAcademy.html"];NMH [URL="boys1foursPomfretNMH.html"];BerkshireAcademy -> Pomfret[label="3.5
+04/23", weight="97", tooltip="NEIRA Boys ,Pomfret v. Berkshire, Marianapolis			
+Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occasional gusty crosswinds, light chop, but generally good water. Comments: Alternated races with girls. Order of boys races: B3, B2, B1, B4
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]; 
+Pomfret -> MarianapolisPrep[label="95.7
+04/23", weight="5", tooltip="NEIRA Boys ,Pomfret v. Berkshire, Marianapolis			
+Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occasional gusty crosswinds, light chop, but generally good water. Comments: Alternated races with girls. Order of boys races: B3, B2, B1, B4
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]; 
+BelmontHill -> Pomfret[label="26.8
 04/19", weight="74", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
 Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]; 

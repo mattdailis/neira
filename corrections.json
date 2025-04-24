@@ -103,6 +103,18 @@
             }
         ]
     },
+    "6D37204313ADD015CB0882600479249C": {
+        "checksum": "313432bebd7b0c0c0c755cc912cde0ab",
+        "corrections": [
+            {
+                "comment": "The results under the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Bancroft raced",
+                "heats": [
+                    "boys 6"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
     "70A75824096A2554B9F78A0E50641458": {
         "checksum": "1339453427fccec20593ba9d26d067b7",
         "corrections": [
@@ -257,6 +269,14 @@
                 "type": "set_margins"
             }
         ]
+    },
+    "E5F9B2C1554A1FBD0FEB68B2E09DEB28": {
+        "checksum": "77e0acd027bb8903890e82b0fbea4b43",
+        "corrections": []
+    },
+    "FBDCA5CCB2EE6264F2D1F77FEFB9FE93": {
+        "checksum": "e57152d85b464a226c8eb9d3746d3018",
+        "corrections": []
     },
     "FD7D43A3BF3727F87376CB9C6C5263CC": {
         "checksum": "4e49bd07e3101227a8194fad6aa364c1",

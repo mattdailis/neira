@@ -1,4 +1,4 @@
-digraph boys2foursMiddlesex {DexterSouthfield [URL="boys2foursMiddlesexDexterSouthfield.html"];StMarks [URL="boys2foursMiddlesexStMarks.html"];Middlesex [URL="boys2foursMiddlesexMiddlesex.html"];Brooks [URL="boys2foursMiddlesexBrooks.html"];Brooks -> Middlesex[label="17.5
+digraph boys2foursMiddlesex {BelmontHill [URL="boys2foursMiddlesexBelmontHill.html"];StMarks [URL="boys2foursMiddlesexStMarks.html"];Middlesex [URL="boys2foursMiddlesexMiddlesex.html"];Brooks [URL="boys2foursMiddlesexBrooks.html"];DexterSouthfield [URL="boys2foursMiddlesexDexterSouthfield.html"];Brooks -> Middlesex[label="17.5
 04/19", weight="83", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
@@ -12,4 +12,8 @@ Middlesex -> StMarks[label="18.0
 04/19", weight="82", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2988C5F873833C8F0A00A6D6ED650D95&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2988C5F873833C8F0A00A6D6ED650D95&cat=5", random="random"]; 
+BelmontHill -> Middlesex[label="40.7
+04/23", weight="60", tooltip="NEIRA Boys Fours,Middlesex vs. Belmont Hill			
+Distance: 1,500m Conditions: Race order was B4, B3, B2, B1 and conditions were fairly consistent across all races: a moderate crossing head wind at the start that evolved into a sporadic light cross head wind at points throughout the course. A good day for racing all around.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8DF855142719E3FD183DEB93A96BFA2A&cat=1", random="random"]}

@@ -1,4 +1,4 @@
-digraph boys2foursPomfret {NMH [URL="boys2foursPomfretNMH.html"];BerkshireAcademy [URL="boys2foursPomfretBerkshireAcademy.html"];Hopkins [URL="boys2foursPomfretHopkins.html"];StMarysLynn [URL="boys2foursPomfretStMarysLynn.html"];Pomfret [URL="boys2foursPomfretPomfret.html"];BelmontHill [URL="boys2foursPomfretBelmontHill.html"];Pomfret -> BerkshireAcademy[label="16.0
+digraph boys2foursPomfret {Pomfret [URL="boys2foursPomfretPomfret.html"];StMarysLynn [URL="boys2foursPomfretStMarysLynn.html"];BelmontHill [URL="boys2foursPomfretBelmontHill.html"];Hopkins [URL="boys2foursPomfretHopkins.html"];BerkshireAcademy [URL="boys2foursPomfretBerkshireAcademy.html"];NMH [URL="boys2foursPomfretNMH.html"];Pomfret -> BerkshireAcademy[label="16.0
 04/23", weight="84", tooltip="NEIRA Boys ,Pomfret v. Berkshire, Marianapolis			
 Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occasional gusty crosswinds, light chop, but generally good water. Comments: Alternated races with girls. Order of boys races: B3, B2, B1, B4
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]; 
