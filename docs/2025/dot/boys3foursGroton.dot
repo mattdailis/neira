@@ -1,4 +1,4 @@
-digraph boys3foursGroton {Nobles [URL="boys3foursGrotonNobles.html"];BBN [URL="boys3foursGrotonBBN.html"];Groton [URL="boys3foursGrotonGroton.html"];Groton -> Nobles[label="13.4 (14.89)
+digraph boys3foursGroton {Pomfret [URL="boys3foursGrotonPomfret.html"];BBN [URL="boys3foursGrotonBBN.html"];Taft [URL="boys3foursGrotonTaft.html"];Groton [URL="boys3foursGrotonGroton.html"];Nobles [URL="boys3foursGrotonNobles.html"];Groton -> Nobles[label="13.4 (14.89)
 04/19", weight="87", tooltip="NEIRA Boys & Girls Fours,BB&N, Nobles and Groton			
 Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1-2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
@@ -11,4 +11,14 @@ Distance: 1350 Conditions: Moderate crosswind at the start growing stronger thro
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
 Girls 8th - BB&N 3:11, Nobles 3:17
 Girls 7th - 3:24.32, BB&N 3:32.06
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+Groton -> Taft[label="14.0
+04/26", weight="86", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
+Dexter-Southfield rowed their novice boat in the B5 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]; 
+Groton -> Pomfret[label="43.4
+04/26", weight="57", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
+Dexter-Southfield rowed their novice boat in the B5 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]}

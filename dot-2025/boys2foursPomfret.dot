@@ -1,4 +1,19 @@
-digraph boys2foursPomfret {Pomfret [URL="boys2foursPomfretPomfret.html"];NMH [URL="boys2foursPomfretNMH.html"];BerkshireAcademy [URL="boys2foursPomfretBerkshireAcademy.html"];BelmontHill [URL="boys2foursPomfretBelmontHill.html"];StMarysLynn [URL="boys2foursPomfretStMarysLynn.html"];Hopkins [URL="boys2foursPomfretHopkins.html"];Pomfret -> BerkshireAcademy[label="16.0
+digraph boys2foursPomfret {Pomfret [URL="boys2foursPomfretPomfret.html"];NMH [URL="boys2foursPomfretNMH.html"];BerkshireAcademy [URL="boys2foursPomfretBerkshireAcademy.html"];BelmontHill [URL="boys2foursPomfretBelmontHill.html"];DexterSouthfield [URL="boys2foursPomfretDexterSouthfield.html"];StMarysLynn [URL="boys2foursPomfretStMarysLynn.html"];Taft [URL="boys2foursPomfretTaft.html"];Hopkins [URL="boys2foursPomfretHopkins.html"];Groton [URL="boys2foursPomfretGroton.html"];Groton -> Pomfret[label="28.6
+04/26", weight="72", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
+Dexter-Southfield rowed their novice boat in the B5 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]; 
+Taft -> Pomfret[label="18.3
+04/26", weight="82", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
+Dexter-Southfield rowed their novice boat in the B5 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]; 
+Pomfret -> DexterSouthfield[label="10.4
+04/26", weight="90", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
+Dexter-Southfield rowed their novice boat in the B5 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]; 
+Pomfret -> BerkshireAcademy[label="16.0
 04/23", weight="84", tooltip="NEIRA Boys ,Pomfret v. Berkshire, Marianapolis			
 Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occasional gusty crosswinds, light chop, but generally good water. Comments: Alternated races with girls. Order of boys races: B3, B2, B1, B4
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]; 

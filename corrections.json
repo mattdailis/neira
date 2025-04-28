@@ -20,11 +20,32 @@
         "checksum": "e4f899e9e2ee302557c4922cd3eecf5f",
         "corrections": []
     },
+    "12F78D09579CE06CA40CF5EF88354411": {
+        "checksum": "6010e68a3343a8a0d35423194b1de054",
+        "corrections": [
+            {
+                "heats": [
+                    "boys 3",
+                    "girls 3"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
     "146036DC0D57AEEFDD13651887C3B194": {
         "checksum": "269ffb48391f8483e4e3967596565501",
         "corrections": [
             {
                 "comment": "Double check that Hotchkiss is competing in fours this season",
+                "type": "comment"
+            }
+        ]
+    },
+    "168B5F55B689601CCC0CC8B65FAE5BAC": {
+        "checksum": "2768ee0d82227cda53dc7c3eba055e16",
+        "corrections": [
+            {
+                "comment": "Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive.",
                 "type": "comment"
             }
         ]
@@ -35,6 +56,10 @@
     },
     "1C4C04F0345235F194B469F54430CCCE": {
         "checksum": "4591db9c86d4e40ebef3792b2ac9021c",
+        "corrections": []
+    },
+    "1F02D77658D5A861CFE7EBC2A925641E": {
+        "checksum": "08221b79d212c5825fbfbf057ba49ef4",
         "corrections": []
     },
     "1F1A0BCB534E3020447DACFF2C9C9115": {
@@ -70,6 +95,18 @@
             }
         ]
     },
+    "3C973C60394C29BDB6CB3B01E88929E2": {
+        "checksum": "8a63d9620987687e71e9b49e840948e7",
+        "corrections": [
+            {
+                "heat": "boys 5",
+                "schools": [
+                    "Dexter-Southfield"
+                ],
+                "type": "exclude_schools_from_heat"
+            }
+        ]
+    },
     "47CD1CE74D9D1669EFF946ECF260ECEB": {
         "checksum": "cdd1caa2cfa1290b405e0030ac78b568",
         "corrections": [
@@ -90,6 +127,10 @@
                 "type": "exclude_schools_from_heat"
             }
         ]
+    },
+    "5150789F21FD9599874CA9451EBDC220": {
+        "checksum": "6a20df6f4203f25a4a426377e15817b7",
+        "corrections": []
     },
     "543ABF5328760B629E530FC11580E94F": {
         "checksum": "aeb2bf1275a5fe1de85e2121969b6e50",
@@ -114,6 +155,10 @@
                 "type": "ignore_heats"
             }
         ]
+    },
+    "701B975B1CF781E8F15A5C12F87A1999": {
+        "checksum": "de8fb024d75411bd865862257664fe63",
+        "corrections": []
     },
     "70A75824096A2554B9F78A0E50641458": {
         "checksum": "1339453427fccec20593ba9d26d067b7",
@@ -142,6 +187,18 @@
             {
                 "comment": "TODO boys 3 heat should be marked as 1350m",
                 "type": "comment"
+            }
+        ]
+    },
+    "83FDA153BDEA3FE48C9FDD5D9884FAD9": {
+        "checksum": "87433274cf08c05672e72ebed5212ba9",
+        "corrections": [
+            {
+                "heats": [
+                    "boys 3",
+                    "boys 4"
+                ],
+                "type": "ignore_heats"
             }
         ]
     },
@@ -198,6 +255,19 @@
             }
         ]
     },
+    "AF21FB49C1A5BFE18B2AC227D72047A7": {
+        "checksum": "15d717ab34476e48fb155ab2294bae3f",
+        "corrections": [
+            {
+                "comment": "In the 1 V race Winsor left their lane, and into BB&Ns lane in the last 250.",
+                "type": "comment"
+            }
+        ]
+    },
+    "B56AB407BA623AA1D7BCFB6B746B1FC8": {
+        "checksum": "59e7430f9db0fbe5dfe05824794c0225",
+        "corrections": []
+    },
     "B6A7E8C184C4D1CD136EC5C290D638B8": {
         "checksum": "02f33b733d80f288a4e9b1c6fa51b06c",
         "corrections": []
@@ -238,6 +308,10 @@
     },
     "DA96BB9A8B319E7904A112FB8A8D4E0E": {
         "checksum": "b18d1dc6ba9ec6c6255337387d2efd68",
+        "corrections": []
+    },
+    "DC0C68EA7E7B9B61BC96CD750570826A": {
+        "checksum": "6cbbe5ef32f1f258e2a70201bf6c2b8e",
         "corrections": []
     },
     "DD2128435AD6EAE7EA2354AF12CD95B6": {

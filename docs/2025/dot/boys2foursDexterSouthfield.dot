@@ -1,4 +1,4 @@
-digraph boys2foursDexterSouthfield {DexterSouthfield [URL="boys2foursDexterSouthfieldDexterSouthfield.html"];StMarks [URL="boys2foursDexterSouthfieldStMarks.html"];Middlesex [URL="boys2foursDexterSouthfieldMiddlesex.html"];Brooks [URL="boys2foursDexterSouthfieldBrooks.html"];Brooks -> DexterSouthfield[label="22.5
+digraph boys2foursDexterSouthfield {Pomfret [URL="boys2foursDexterSouthfieldPomfret.html"];Middlesex [URL="boys2foursDexterSouthfieldMiddlesex.html"];Brooks [URL="boys2foursDexterSouthfieldBrooks.html"];Taft [URL="boys2foursDexterSouthfieldTaft.html"];DexterSouthfield [URL="boys2foursDexterSouthfieldDexterSouthfield.html"];StMarks [URL="boys2foursDexterSouthfieldStMarks.html"];Groton [URL="boys2foursDexterSouthfieldGroton.html"];Brooks -> DexterSouthfield[label="22.5
 04/19", weight="78", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
@@ -12,4 +12,19 @@ DexterSouthfield -> StMarks[label="13.0
 04/19", weight="87", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2988C5F873833C8F0A00A6D6ED650D95&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2988C5F873833C8F0A00A6D6ED650D95&cat=5", random="random"]; 
+Groton -> DexterSouthfield[label="39.0
+04/26", weight="61", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
+Dexter-Southfield rowed their novice boat in the B5 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]; 
+Taft -> DexterSouthfield[label="28.7
+04/26", weight="72", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
+Dexter-Southfield rowed their novice boat in the B5 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]; 
+Pomfret -> DexterSouthfield[label="10.4
+04/26", weight="90", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
+Dexter-Southfield rowed their novice boat in the B5 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]}

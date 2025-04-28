@@ -1,7 +1,13 @@
-digraph boys3foursBelmontHill {Pomfret [URL="boys3foursBelmontHillPomfret.html"];NMH [URL="boys3foursBelmontHillNMH.html"];Middlesex [URL="boys3foursBelmontHillMiddlesex.html"];BelmontHill [URL="boys3foursBelmontHillBelmontHill.html"];Hopkins [URL="boys3foursBelmontHillHopkins.html"];BelmontHill -> Middlesex[label="30.0
+digraph boys3foursBelmontHill {Pomfret [URL="boys3foursBelmontHillPomfret.html"];Middlesex [URL="boys3foursBelmontHillMiddlesex.html"];NMH [URL="boys3foursBelmontHillNMH.html"];BelmontHill [URL="boys3foursBelmontHillBelmontHill.html"];BBN [URL="boys3foursBelmontHillBBN.html"];Hopkins [URL="boys3foursBelmontHillHopkins.html"];BelmontHill -> Middlesex[label="30.0
 04/23", weight="70", tooltip="NEIRA Boys Fours,Middlesex vs. Belmont Hill			
 Distance: 1,500m Conditions: Race order was B4, B3, B2, B1 and conditions were fairly consistent across all races: a moderate crossing head wind at the start that evolved into a sporadic light cross head wind at points throughout the course. A good day for racing all around.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8DF855142719E3FD183DEB93A96BFA2A&cat=1", random="random"]; 
+BelmontHill -> BBN[label="28.7 (31.89)
+04/26", weight="72", tooltip="NEIRA Boys Fours, The Ducey Cup: Belmont Hill vs. BB&N			
+Distance: 1350m Conditions: consistent very strong headwind throughout all racing, heavy rain through the first four races that stopped for the 1st boat race. Comments: Very unpleasant conditions.
+Strong work from all coxswains.
+Congratulations to Belmont Hill for retaining the Ducey Cup
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B56AB407BA623AA1D7BCFB6B746B1FC8&cat=1", random="random"]; 
 BelmontHill -> NMH[label="32.0
 04/19", weight="68", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
 Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).

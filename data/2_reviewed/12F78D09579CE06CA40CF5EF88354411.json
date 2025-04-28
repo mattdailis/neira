@@ -1,0 +1,76 @@
+{
+    "comment": "\nDistance: 1400M Conditions: 10 mph tail wind Comments: All floating starts. Races are not comparable. In the boys 2V 8 race, Guilford 3V caught a boat stopping crab with 100m left. Thank you Farmington for a great day of racing!\r\n\nNone",
+    "day": "2025-04-26",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:28.3",
+                    "school": "Farmington"
+                },
+                {
+                    "margin_from_winner": 10.0,
+                    "raw_time": "4:38.3",
+                    "school": "Guilford"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:45.2",
+                    "school": "Farmington"
+                },
+                {
+                    "margin_from_winner": 33.2,
+                    "raw_time": "5:18.4",
+                    "school": "Guilford"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:58.6",
+                    "school": "Farmington"
+                },
+                {
+                    "margin_from_winner": 2.6,
+                    "raw_time": "5:01.2",
+                    "school": "Guilford"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:26.7",
+                    "school": "Farmington"
+                },
+                {
+                    "margin_from_winner": 5.0,
+                    "raw_time": "5:31.7",
+                    "school": "Guilford"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Eights,Guilford High School vs Farmington High School",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=12F78D09579CE06CA40CF5EF88354411&cat=5"
+}

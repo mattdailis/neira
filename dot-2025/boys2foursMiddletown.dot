@@ -1,4 +1,4 @@
-digraph boys2foursMiddletown {NotreDame [URL="boys2foursMiddletownNotreDame.html"];Hotchkiss [URL="boys2foursMiddletownHotchkiss.html"];Middletown [URL="boys2foursMiddletownMiddletown.html"];Hotchkiss -> Middletown[label="17.1
+digraph boys2foursMiddletown {Middletown [URL="boys2foursMiddletownMiddletown.html"];NotreDame [URL="boys2foursMiddletownNotreDame.html"];Hotchkiss [URL="boys2foursMiddletownHotchkiss.html"];Hotchkiss -> Middletown[label="17.1
 04/20", weight="83", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 

@@ -1,4 +1,4 @@
-digraph girls2foursBBN {Nobles [URL="girls2foursBBNNobles.html"];BBN [URL="girls2foursBBNBBN.html"];Groton [URL="girls2foursBBNGroton.html"];CambridgeRLS [URL="girls2foursBBNCambridgeRLS.html"];CambridgeRLS -> BBN[label="14.0 (16.8)
+digraph girls2foursBBN {CambridgeRLS [URL="girls2foursBBNCambridgeRLS.html"];BBN [URL="girls2foursBBNBBN.html"];GreenwichAcademy [URL="girls2foursBBNGreenwichAcademy.html"];Winsor [URL="girls2foursBBNWinsor.html"];Groton [URL="girls2foursBBNGroton.html"];Nobles [URL="girls2foursBBNNobles.html"];CambridgeRLS -> BBN[label="14.0 (16.8)
 04/16", weight="86", tooltip="NEIRA Girls Fours, Cambridge Mayor's Cup: BB&N vs. CRLS			
 Distance: 1250m Conditions: Brisk 15-20mph crosswind, swirling and gusting, increasing throughout races. Race order 5-4-3-2-1. 
 Water mostly ok until significant chop in the middle of the 1V race. 
@@ -22,4 +22,16 @@ Distance: 1350 Conditions: Moderate crosswind at the start growing stronger thro
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
 Girls 8th - BB&N 3:11, Nobles 3:17
 Girls 7th - 3:24.32, BB&N 3:32.06
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+Winsor -> BBN[label="11.3 (12.56)
+04/26", weight="89", tooltip="NEIRA Girls Fours, BB&N, Winsor, Greenwich Academy			
+Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.
+In the 1 V race Winsor left thier lane, and into BB&Ns lane in the last 250.
+Thanks to Winsor and GA for the racing and GA making the trip to Boston.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF21FB49C1A5BFE18B2AC227D72047A7&cat=1", random="random"]; 
+BBN -> GreenwichAcademy[label="14.8 (16.44)
+04/26", weight="86", tooltip="NEIRA Girls Fours, BB&N, Winsor, Greenwich Academy			
+Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.
+In the 1 V race Winsor left thier lane, and into BB&Ns lane in the last 250.
+Thanks to Winsor and GA for the racing and GA making the trip to Boston.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF21FB49C1A5BFE18B2AC227D72047A7&cat=1", random="random"]}

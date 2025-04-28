@@ -1,4 +1,4 @@
-digraph boys1foursBBN {Thayer [URL="boys1foursBBNThayer.html"];CambridgeRLS [URL="boys1foursBBNCambridgeRLS.html"];Nobles [URL="boys1foursBBNNobles.html"];BBN [URL="boys1foursBBNBBN.html"];Berwick [URL="boys1foursBBNBerwick.html"];Groton [URL="boys1foursBBNGroton.html"];BBN -> Berwick[label="7.6 (8.44)
+digraph boys1foursBBN {CambridgeRLS [URL="boys1foursBBNCambridgeRLS.html"];Berwick [URL="boys1foursBBNBerwick.html"];BelmontHill [URL="boys1foursBBNBelmontHill.html"];BBN [URL="boys1foursBBNBBN.html"];Thayer [URL="boys1foursBBNThayer.html"];Groton [URL="boys1foursBBNGroton.html"];Nobles [URL="boys1foursBBNNobles.html"];BBN -> Berwick[label="7.6 (8.44)
 04/05", weight="93", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Berwick Academy			
 Distance: 1350 Conditions: Overall very good conditions and flat water. Very slight cross wind but consistent for all races. Thanks to Berwick for making the trip!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CE456225129ACDB361E1BEAB29CB57A4&cat=5", random="random"]; 
@@ -25,4 +25,10 @@ BBN -> Thayer[label="62.4 (69.33)
 04/23", weight="38", tooltip="NEIRA Boys Fours, BB&N, CRLS and Thayer (Mayor's Cup)			
 Distance: 1350 Conditions: Slight cross tailwind getting stronger throughout the afternoon. Order of races 4, 3, 2, 1. Thanks to Thayer for making the trip! Comments: During the last 250m of the 3rd boat race, the Charles River Cruise Ship was coming upstream causing both coxswains to divert their course slightly to starboard. The coxswains handled it quite well, and it did not impact order of finish. 
 During the last 300m of the 1st boat race, CRLS veered strongly to starboard cutting across into BB&N's lane and causing BB&N to alter their course slightly and steer to avoid a collision. CRLS continued to move to starboard, ending up about 2-3 lanes over from where they started. It is unclear whether this altered order of finish. Given how close the margin was and the lane violation by CRLS, the coaches mutually decided not to award the Mayor's Cup (the winner of the 1st boat race) to either team, but to award the Cup later this season to whichever team finishes in a higher seed at the NEIRA regatta.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=70A75824096A2554B9F78A0E50641458&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=70A75824096A2554B9F78A0E50641458&cat=1", random="random"]; 
+BelmontHill -> BBN[label="26.3 (29.22)
+04/26", weight="74", tooltip="NEIRA Boys Fours, The Ducey Cup: Belmont Hill vs. BB&N			
+Distance: 1350m Conditions: consistent very strong headwind throughout all racing, heavy rain through the first four races that stopped for the 1st boat race. Comments: Very unpleasant conditions.
+Strong work from all coxswains.
+Congratulations to Belmont Hill for retaining the Ducey Cup
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B56AB407BA623AA1D7BCFB6B746B1FC8&cat=1", random="random"]}
