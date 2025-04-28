@@ -1,4 +1,16 @@
-digraph boys1foursBrewsterAcademy {BrewsterAcademy [URL="boys1foursBrewsterAcademyBrewsterAcademy.html"];Bancroft [URL="boys1foursBrewsterAcademyBancroft.html"];WorcesterAcademy [URL="boys1foursBrewsterAcademyWorcesterAcademy.html"];WorcesterAcademy -> BrewsterAcademy[label="10.7
+digraph boys1foursBrewsterAcademy {Bancroft [URL="boys1foursBrewsterAcademyBancroft.html"];Nobles [URL="boys1foursBrewsterAcademyNobles.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademyBrewsterAcademy.html"];NotreDame [URL="boys1foursBrewsterAcademyNotreDame.html"];StMarks [URL="boys1foursBrewsterAcademyStMarks.html"];WorcesterAcademy [URL="boys1foursBrewsterAcademyWorcesterAcademy.html"];Nobles -> BrewsterAcademy[label="47.7
+04/26", weight="53", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+NotreDame -> BrewsterAcademy[label="34.9
+04/26", weight="66", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+StMarks -> BrewsterAcademy[label="8.3
+04/26", weight="92", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+WorcesterAcademy -> BrewsterAcademy[label="10.7
 04/16", weight="90", tooltip="NEIRA Boys & Girls Fours,'Worcester Academy' and 'Brewster Academy'			
 Distance: 1500m Conditions: Windy conditions. Stayed pretty much the same throughout all races. Slight crosswind coming across from the Worcester side to the Shrewsbury side of the lake. Comments: The results for the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Brewster Academy raced.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5", random="random"]; 

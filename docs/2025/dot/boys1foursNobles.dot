@@ -1,4 +1,4 @@
-digraph boys1foursNobles {Groton [URL="boys1foursNoblesGroton.html"];BBN [URL="boys1foursNoblesBBN.html"];Nobles [URL="boys1foursNoblesNobles.html"];Nobles -> Groton[label="6.7 (7.44)
+digraph boys1foursNobles {Groton [URL="boys1foursNoblesGroton.html"];Nobles [URL="boys1foursNoblesNobles.html"];BrewsterAcademy [URL="boys1foursNoblesBrewsterAcademy.html"];NotreDame [URL="boys1foursNoblesNotreDame.html"];StMarks [URL="boys1foursNoblesStMarks.html"];BBN [URL="boys1foursNoblesBBN.html"];Nobles -> Groton[label="6.7 (7.44)
 04/19", weight="94", tooltip="NEIRA Boys & Girls Fours,BB&N, Nobles and Groton			
 Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1-2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
@@ -11,4 +11,16 @@ Distance: 1350 Conditions: Moderate crosswind at the start growing stronger thro
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
 Girls 8th - BB&N 3:11, Nobles 3:17
 Girls 7th - 3:24.32, BB&N 3:32.06
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+Nobles -> NotreDame[label="12.8
+04/26", weight="88", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+Nobles -> StMarks[label="39.4
+04/26", weight="61", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+Nobles -> BrewsterAcademy[label="47.7
+04/26", weight="53", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]}

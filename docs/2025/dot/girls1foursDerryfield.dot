@@ -1,0 +1,8 @@
+digraph girls1foursDerryfield {Berwick [URL="girls1foursDerryfieldBerwick.html"];WorcesterAcademy [URL="girls1foursDerryfieldWorcesterAcademy.html"];Derryfield [URL="girls1foursDerryfieldDerryfield.html"];Derryfield -> Berwick[label="29.9
+04/27", weight="71", tooltip="NEIRA Girls Fours, Worcester Academy, Berwick Academy, Derryfield, Sacred Heart-Greenwich			
+Conditions: Strong cross/tailwind (20mph), heavy chop throughout races. Wind picked up considerably between 1st and last races Comments: Girls V1 race was approximately 1550 meters. Girls 2V race was approximately 1475 meters.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5100A5CA83A99A9CD2E37FEC65103FEF&cat=1", random="random"]; 
+Derryfield -> WorcesterAcademy[label="31.6
+04/27", weight="69", tooltip="NEIRA Girls Fours, Worcester Academy, Berwick Academy, Derryfield, Sacred Heart-Greenwich			
+Conditions: Strong cross/tailwind (20mph), heavy chop throughout races. Wind picked up considerably between 1st and last races Comments: Girls V1 race was approximately 1550 meters. Girls 2V race was approximately 1475 meters.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5100A5CA83A99A9CD2E37FEC65103FEF&cat=1", random="random"]}

@@ -1,0 +1,52 @@
+{
+    "comment": "\nDistance: 1500 meters Conditions: Strong cross/tailwind throughout races.\n\nNone",
+    "day": "2025-04-27",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:15.31",
+                    "school": "Berwick"
+                },
+                {
+                    "margin_from_winner": 15.91,
+                    "raw_time": "5:31.22",
+                    "school": "Worcester Academy"
+                },
+                {
+                    "margin_from_winner": 48.51,
+                    "raw_time": "6:03.82",
+                    "school": "Derryfield"
+                },
+                {
+                    "margin_from_winner": 75.28,
+                    "raw_time": "6:30.59",
+                    "school": "Bancroft"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:46.30",
+                    "school": "Berwick"
+                },
+                {
+                    "margin_from_winner": 31.81,
+                    "raw_time": "6:18.11",
+                    "school": "Worcester Academy"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1"
+}

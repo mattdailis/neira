@@ -1,4 +1,16 @@
-digraph boys1foursWorcesterAcademy {BrewsterAcademy [URL="boys1foursWorcesterAcademyBrewsterAcademy.html"];Bancroft [URL="boys1foursWorcesterAcademyBancroft.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademyWorcesterAcademy.html"];WorcesterAcademy -> BrewsterAcademy[label="10.7
+digraph boys1foursWorcesterAcademy {Bancroft [URL="boys1foursWorcesterAcademyBancroft.html"];BrewsterAcademy [URL="boys1foursWorcesterAcademyBrewsterAcademy.html"];Berwick [URL="boys1foursWorcesterAcademyBerwick.html"];Derryfield [URL="boys1foursWorcesterAcademyDerryfield.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademyWorcesterAcademy.html"];Berwick -> WorcesterAcademy[label="15.9
+04/27", weight="85", tooltip="NEIRA			
+Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
+WorcesterAcademy -> Derryfield[label="32.6
+04/27", weight="68", tooltip="NEIRA			
+Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
+WorcesterAcademy -> Bancroft[label="59.4
+04/27", weight="41", tooltip="NEIRA			
+Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
+WorcesterAcademy -> BrewsterAcademy[label="10.7
 04/16", weight="90", tooltip="NEIRA Boys & Girls Fours,'Worcester Academy' and 'Brewster Academy'			
 Distance: 1500m Conditions: Windy conditions. Stayed pretty much the same throughout all races. Slight crosswind coming across from the Worcester side to the Shrewsbury side of the lake. Comments: The results for the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Brewster Academy raced.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5", random="random"]; 

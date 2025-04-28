@@ -1,4 +1,4 @@
-digraph boys4fours {Pomfret [URL="boys4foursPomfret.html"];Middlesex [URL="boys4foursMiddlesex.html"];NMH [URL="boys4foursNMH.html"];CambridgeRLS [URL="boys4foursCambridgeRLS.html"];BerkshireAcademy [URL="boys4foursBerkshireAcademy.html"];Hotchkiss [URL="boys4foursHotchkiss.html"];Brooks [URL="boys4foursBrooks.html"];Taft [URL="boys4foursTaft.html"];BBN [URL="boys4foursBBN.html"];BelmontHill [URL="boys4foursBelmontHill.html"];NotreDame [URL="boys4foursNotreDame.html"];Middletown [URL="boys4foursMiddletown.html"];GreenwichCountryDay [URL="boys4foursGreenwichCountryDay.html"];StMarks [URL="boys4foursStMarks.html"];Hopkins [URL="boys4foursHopkins.html"];Groton [URL="boys4foursGroton.html"];Nobles [URL="boys4foursNobles.html"];Brooks -> StMarks[label="34.5
+digraph boys4fours {BerkshireAcademy [URL="boys4foursBerkshireAcademy.html"];Groton [URL="boys4foursGroton.html"];Pomfret [URL="boys4foursPomfret.html"];Nobles [URL="boys4foursNobles.html"];Middlesex [URL="boys4foursMiddlesex.html"];Brooks [URL="boys4foursBrooks.html"];NotreDame [URL="boys4foursNotreDame.html"];NMH [URL="boys4foursNMH.html"];StMarks [URL="boys4foursStMarks.html"];BBN [URL="boys4foursBBN.html"];CambridgeRLS [URL="boys4foursCambridgeRLS.html"];BelmontHill [URL="boys4foursBelmontHill.html"];Hopkins [URL="boys4foursHopkins.html"];Taft [URL="boys4foursTaft.html"];Middletown [URL="boys4foursMiddletown.html"];GreenwichCountryDay [URL="boys4foursGreenwichCountryDay.html"];Hotchkiss [URL="boys4foursHotchkiss.html"];Brooks -> StMarks[label="34.5
 04/19", weight="66", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
@@ -34,6 +34,10 @@ Boys 7th/8th - Nobles 2:49, BB&N 3:05
 Girls 8th - BB&N 3:11, Nobles 3:17
 Girls 7th - 3:24.32, BB&N 3:32.06
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+Nobles -> StMarks[label="57.9
+04/26", weight="43", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
 Taft -> BerkshireAcademy[label="47.5
 04/19", weight="53", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.

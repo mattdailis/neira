@@ -1,4 +1,4 @@
-digraph girls2foursNobles {Groton [URL="girls2foursNoblesGroton.html"];BBN [URL="girls2foursNoblesBBN.html"];Nobles [URL="girls2foursNoblesNobles.html"];Nobles -> BBN[label="16.0 (17.78)
+digraph girls2foursNobles {Groton [URL="girls2foursNoblesGroton.html"];Nobles [URL="girls2foursNoblesNobles.html"];StMarks [URL="girls2foursNoblesStMarks.html"];BBN [URL="girls2foursNoblesBBN.html"];NewtonCountryDay [URL="girls2foursNoblesNewtonCountryDay.html"];Nobles -> BBN[label="16.0 (17.78)
 04/19", weight="84", tooltip="NEIRA Boys & Girls Fours,BB&N, Nobles and Groton			
 Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1-2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
@@ -11,4 +11,12 @@ Distance: 1350 Conditions: Moderate crosswind at the start growing stronger thro
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
 Girls 8th - BB&N 3:11, Nobles 3:17
 Girls 7th - 3:24.32, BB&N 3:32.06
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+Nobles -> StMarks[label="23.0
+04/26", weight="77", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+Nobles -> NewtonCountryDay[label="54.1
+04/26", weight="46", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]}

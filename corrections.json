@@ -50,6 +50,19 @@
             }
         ]
     },
+    "1808367AD98242D8BD57C6BB7F9BC019": {
+        "checksum": "f5e45ae368fcf1d8a5b65f3289584999",
+        "corrections": [
+            {
+                "gender": "boys",
+                "type": "set_gender_all_heats"
+            },
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            }
+        ]
+    },
     "181E3474D2FC1C1BDC3CD092B1E1976C": {
         "checksum": "58b4005542379e2bacf11635874150bc",
         "corrections": []
@@ -107,6 +120,45 @@
             }
         ]
     },
+    "4232F2C9CF0B3800357AF3DC37D5407B": {
+        "checksum": "6aaafc5dd18f06b0c935d4111a82c56a",
+        "corrections": [
+            {
+                "heat": "boys 2",
+                "margins": [
+                    {
+                        "margin_from_winner": 0,
+                        "school": "Nobles"
+                    },
+                    {
+                        "margin_from_winner": 34.6,
+                        "school": "Notre Dame"
+                    },
+                    {
+                        "margin_from_winner": 46.9,
+                        "school": "St. Mark's"
+                    },
+                    {
+                        "margin_from_winner": 139.9,
+                        "school": "Brewster Academy"
+                    }
+                ],
+                "type": "set_margins"
+            }
+        ]
+    },
+    "449708E13FE738FBEE7DD1359A2D0F16": {
+        "checksum": "862d3e2cc3105a9357184cd45a364b44",
+        "corrections": [
+            {
+                "heats": [
+                    "girls 1",
+                    "girls 2"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
     "47CD1CE74D9D1669EFF946ECF260ECEB": {
         "checksum": "cdd1caa2cfa1290b405e0030ac78b568",
         "corrections": [
@@ -127,6 +179,10 @@
                 "type": "exclude_schools_from_heat"
             }
         ]
+    },
+    "5100A5CA83A99A9CD2E37FEC65103FEF": {
+        "checksum": "a7a56681e328c3e95ee2d3c3617f8103",
+        "corrections": []
     },
     "5150789F21FD9599874CA9451EBDC220": {
         "checksum": "6a20df6f4203f25a4a426377e15817b7",

@@ -1,4 +1,16 @@
-digraph boys1foursNotreDame {NotreDame [URL="boys1foursNotreDameNotreDame.html"];Middletown [URL="boys1foursNotreDameMiddletown.html"];Hotchkiss [URL="boys1foursNotreDameHotchkiss.html"];Hotchkiss -> NotreDame[label="2.4
+digraph boys1foursNotreDame {Nobles [URL="boys1foursNotreDameNobles.html"];BrewsterAcademy [URL="boys1foursNotreDameBrewsterAcademy.html"];NotreDame [URL="boys1foursNotreDameNotreDame.html"];StMarks [URL="boys1foursNotreDameStMarks.html"];Middletown [URL="boys1foursNotreDameMiddletown.html"];Hotchkiss [URL="boys1foursNotreDameHotchkiss.html"];Nobles -> NotreDame[label="12.8
+04/26", weight="88", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+NotreDame -> StMarks[label="26.6
+04/26", weight="74", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+NotreDame -> BrewsterAcademy[label="34.9
+04/26", weight="66", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+Hotchkiss -> NotreDame[label="2.4
 04/20", weight="98", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
