@@ -1,4 +1,4 @@
-digraph boys2fours {BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];Berwick [URL="boys2foursBerwick.html"];NMH [URL="boys2foursNMH.html"];BBN [URL="boys2foursBBN.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];Nobles [URL="boys2foursNobles.html"];NotreDame [URL="boys2foursNotreDame.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];StMarks [URL="boys2foursStMarks.html"];CambridgeRLS [URL="boys2foursCambridgeRLS.html"];ValleyRegional [URL="boys2foursValleyRegional.html"];Hopkins [URL="boys2foursHopkins.html"];Middletown [URL="boys2foursMiddletown.html"];Groton [URL="boys2foursGroton.html"];Taft [URL="boys2foursTaft.html"];Choate [URL="boys2foursChoate.html"];Pomfret [URL="boys2foursPomfret.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Middlesex [URL="boys2foursMiddlesex.html"];Brooks [URL="boys2foursBrooks.html"];BelmontHill [URL="boys2foursBelmontHill.html"];DexterSouthfield [URL="boys2foursDexterSouthfield.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Brooks -> Middlesex[label="17.5
+digraph boys2fours {Brooks [URL="boys2foursBrooks.html"];Nobles [URL="boys2foursNobles.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];Middletown [URL="boys2foursMiddletown.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];DexterSouthfield [URL="boys2foursDexterSouthfield.html"];NMH [URL="boys2foursNMH.html"];StMarks [URL="boys2foursStMarks.html"];NotreDame [URL="boys2foursNotreDame.html"];Berwick [URL="boys2foursBerwick.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];CambridgeRLS [URL="boys2foursCambridgeRLS.html"];ValleyRegional [URL="boys2foursValleyRegional.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];Pomfret [URL="boys2foursPomfret.html"];BelmontHill [URL="boys2foursBelmontHill.html"];BBN [URL="boys2foursBBN.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Taft [URL="boys2foursTaft.html"];Hopkins [URL="boys2foursHopkins.html"];Choate [URL="boys2foursChoate.html"];Middlesex [URL="boys2foursMiddlesex.html"];Groton [URL="boys2foursGroton.html"];Brooks -> Middlesex[label="17.5
 04/19", weight="83", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
@@ -77,6 +77,10 @@ StMarks -> BrewsterAcademy[label="93.0
 04/26", weight="7", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+Berwick -> BrewsterAcademy[label="28
+04/19", weight="72", tooltip="NEIRA Boys & Girls Fours,Dublin School, Berwick Academy, Brewster Academy			
+Distance: 1400m'ish
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F633B39B972009BAAE9DBEA29158C86C&cat=5", random="random"]; 
 Taft -> BerkshireAcademy[label="28.9
 04/19", weight="72", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
@@ -185,7 +189,7 @@ Distance: 1500m Conditions: 6-8 mph headwind throughout the course. Mostly cloud
 It was a great day of racing we’re glad that valley was able to join us on such a nice day. This was a race with another school Avon but only valley and LOLHS are NEIRA schools. If there is interest the LOL v Valley v Avon will be posted under the high school results.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FBDCA5CCB2EE6264F2D1F77FEFB9FE93&cat=5", random="random"]; 
 Berwick -> WorcesterAcademy[label="31.8
-04/27", weight="69", tooltip="NEIRA			
+04/27", weight="69", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
 BrewsterAcademy -> WorcesterAcademy[label="11.6
@@ -207,6 +211,11 @@ Pomfret -> BerkshireAcademy[label="16.0
 04/23", weight="84", tooltip="NEIRA Boys ,Pomfret v. Berkshire, Marianapolis			
 Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occasional gusty crosswinds, light chop, but generally good water. Comments: Alternated races with girls. Order of boys races: B3, B2, B1, B4
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]; 
+LymeOldLyme -> Middletown[label="19.6
+04/30", weight="81", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Middletown			
+Distance: 1500 Conditions: 7-11 mph cross tail wind. Waves challenging for 300-400 meters. Comments: It was a great day of racing. Lyme/Old Lyme was excited to host Middletown at our lake. 
+For the B2V4 race Middletown put a 3rd boat in the race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAD018DDC045C2C851D08C5626506B6F&cat=5", random="random"]; 
 BelmontHill -> NMH[label="15.0
 04/19", weight="85", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
 Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).

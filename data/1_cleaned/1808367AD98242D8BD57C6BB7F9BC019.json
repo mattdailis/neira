@@ -3,8 +3,8 @@
     "day": "2025-04-27",
     "heats": [
         {
-            "class": null,
-            "gender": null,
+            "class": "fours",
+            "gender": "boys",
             "results": [
                 {
                     "margin_from_winner": 0,
@@ -30,8 +30,8 @@
             "varsity_index": "1"
         },
         {
-            "class": null,
-            "gender": null,
+            "class": "fours",
+            "gender": "boys",
             "results": [
                 {
                     "margin_from_winner": 0,
@@ -47,6 +47,6 @@
             "varsity_index": "2"
         }
     ],
-    "regatta_display_name": "NEIRA",
+    "regatta_display_name": "NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft",
     "url": "https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1"
 }

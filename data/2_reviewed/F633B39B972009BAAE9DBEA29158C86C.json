@@ -1,0 +1,59 @@
+{
+    "comment": "\nDistance: 1400m'ish\n\nNone",
+    "day": "2025-04-19",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:16.7",
+                    "school": "Berwick"
+                },
+                {
+                    "margin_from_winner": 21.2,
+                    "raw_time": "4:37.9",
+                    "school": "Brewster Academy"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:39.3",
+                    "school": "Berwick"
+                },
+                {
+                    "margin_from_winner": 28,
+                    "raw_time": "4:59.0",
+                    "school": "Brewster Academy"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:45.2",
+                    "school": "Brewster Academy"
+                },
+                {
+                    "margin_from_winner": 36.4,
+                    "raw_time": "5:21.6",
+                    "school": "Berwick"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Fours,Dublin School, Berwick Academy, Brewster Academy",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=F633B39B972009BAAE9DBEA29158C86C&cat=5"
+}

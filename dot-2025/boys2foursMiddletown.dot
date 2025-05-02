@@ -1,8 +1,13 @@
-digraph boys2foursMiddletown {Middletown [URL="boys2foursMiddletownMiddletown.html"];Hotchkiss [URL="boys2foursMiddletownHotchkiss.html"];NotreDame [URL="boys2foursMiddletownNotreDame.html"];Hotchkiss -> Middletown[label="17.1
+digraph boys2foursMiddletown {Hotchkiss [URL="boys2foursMiddletownHotchkiss.html"];LymeOldLyme [URL="boys2foursMiddletownLymeOldLyme.html"];NotreDame [URL="boys2foursMiddletownNotreDame.html"];Middletown [URL="boys2foursMiddletownMiddletown.html"];Hotchkiss -> Middletown[label="17.1
 04/20", weight="83", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
 NotreDame -> Middletown[label="10.9
 04/20", weight="90", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
+LymeOldLyme -> Middletown[label="19.6
+04/30", weight="81", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Middletown			
+Distance: 1500 Conditions: 7-11 mph cross tail wind. Waves challenging for 300-400 meters. Comments: It was a great day of racing. Lyme/Old Lyme was excited to host Middletown at our lake. 
+For the B2V4 race Middletown put a 3rd boat in the race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAD018DDC045C2C851D08C5626506B6F&cat=5", random="random"]}

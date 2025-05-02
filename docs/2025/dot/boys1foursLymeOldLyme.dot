@@ -1,5 +1,10 @@
-digraph boys1foursLymeOldLyme {LymeOldLyme [URL="boys1foursLymeOldLymeLymeOldLyme.html"];ValleyRegional [URL="boys1foursLymeOldLymeValleyRegional.html"];LymeOldLyme -> ValleyRegional[label="25.4
+digraph boys1foursLymeOldLyme {ValleyRegional [URL="boys1foursLymeOldLymeValleyRegional.html"];LymeOldLyme [URL="boys1foursLymeOldLymeLymeOldLyme.html"];Middletown [URL="boys1foursLymeOldLymeMiddletown.html"];LymeOldLyme -> ValleyRegional[label="25.4
 04/23", weight="75", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Valley regional			
 Distance: 1500m Conditions: 6-8 mph headwind throughout the course. Mostly cloudy day, more than normal spectator boat traffic causing some wakes to enter the later races. Comments: Lyme/Old Lyme G3V4 raced in the girls 2V4 race. Due to conditions and to avoid having to cause all boats to realign in the B1V4 Lyme/Old Lyme was started approximately a deck down on valley. 
 It was a great day of racing we’re glad that valley was able to join us on such a nice day. This was a race with another school Avon but only valley and LOLHS are NEIRA schools. If there is interest the LOL v Valley v Avon will be posted under the high school results.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FBDCA5CCB2EE6264F2D1F77FEFB9FE93&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FBDCA5CCB2EE6264F2D1F77FEFB9FE93&cat=5", random="random"]; 
+LymeOldLyme -> Middletown[label="7.2
+04/30", weight="93", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Middletown			
+Distance: 1500 Conditions: 7-11 mph cross tail wind. Waves challenging for 300-400 meters. Comments: It was a great day of racing. Lyme/Old Lyme was excited to host Middletown at our lake. 
+For the B2V4 race Middletown put a 3rd boat in the race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAD018DDC045C2C851D08C5626506B6F&cat=5", random="random"]}

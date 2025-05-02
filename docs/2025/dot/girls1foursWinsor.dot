@@ -1,4 +1,14 @@
-digraph girls1foursWinsor {Winsor [URL="girls1foursWinsorWinsor.html"];GreenwichAcademy [URL="girls1foursWinsorGreenwichAcademy.html"];BBN [URL="girls1foursWinsorBBN.html"];Winsor -> BBN[label="4.4 (4.89)
+digraph girls1foursWinsor {BBN [URL="girls1foursWinsorBBN.html"];GreenwichAcademy [URL="girls1foursWinsorGreenwichAcademy.html"];Choate [URL="girls1foursWinsorChoate.html"];Winsor [URL="girls1foursWinsorWinsor.html"];CambridgeRLS [URL="girls1foursWinsorCambridgeRLS.html"];Winsor -> CambridgeRLS[label="5.6 (6.46)
+04/30", weight="95", tooltip="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge & Latin School (CRLS)			
+Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
+Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting--CRLS: 5:15.71 Choate: 5:52.01.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&cat=1", random="random"]; 
+Winsor -> Choate[label="8.3 (9.58)
+04/30", weight="92", tooltip="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge & Latin School (CRLS)			
+Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
+Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting--CRLS: 5:15.71 Choate: 5:52.01.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&cat=1", random="random"]; 
+Winsor -> BBN[label="4.4 (4.89)
 04/26", weight="96", tooltip="NEIRA Girls Fours, BB&N, Winsor, Greenwich Academy			
 Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.
 In the 1 V race Winsor left thier lane, and into BB&Ns lane in the last 250.

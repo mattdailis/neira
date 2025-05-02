@@ -1,16 +1,20 @@
-digraph boys1foursBerwick {Bancroft [URL="boys1foursBerwickBancroft.html"];Berwick [URL="boys1foursBerwickBerwick.html"];BBN [URL="boys1foursBerwickBBN.html"];Derryfield [URL="boys1foursBerwickDerryfield.html"];WorcesterAcademy [URL="boys1foursBerwickWorcesterAcademy.html"];BBN -> Berwick[label="7.6 (8.44)
+digraph boys1foursBerwick {BBN [URL="boys1foursBerwickBBN.html"];Bancroft [URL="boys1foursBerwickBancroft.html"];Derryfield [URL="boys1foursBerwickDerryfield.html"];Berwick [URL="boys1foursBerwickBerwick.html"];BrewsterAcademy [URL="boys1foursBerwickBrewsterAcademy.html"];WorcesterAcademy [URL="boys1foursBerwickWorcesterAcademy.html"];BBN -> Berwick[label="7.6 (8.44)
 04/05", weight="93", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Berwick Academy			
 Distance: 1350 Conditions: Overall very good conditions and flat water. Very slight cross wind but consistent for all races. Thanks to Berwick for making the trip!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CE456225129ACDB361E1BEAB29CB57A4&cat=5", random="random"]; 
+Berwick -> BrewsterAcademy[label="21.2
+04/19", weight="79", tooltip="NEIRA Boys & Girls Fours,Dublin School, Berwick Academy, Brewster Academy			
+Distance: 1400m'ish
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F633B39B972009BAAE9DBEA29158C86C&cat=5", random="random"]; 
 Berwick -> WorcesterAcademy[label="15.9
-04/27", weight="85", tooltip="NEIRA			
+04/27", weight="85", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
 Berwick -> Derryfield[label="48.5
-04/27", weight="52", tooltip="NEIRA			
+04/27", weight="52", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
 Berwick -> Bancroft[label="75.3
-04/27", weight="25", tooltip="NEIRA			
+04/27", weight="25", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]}

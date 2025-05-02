@@ -1,0 +1,76 @@
+{
+    "comment": "\nDistance: 1500 Conditions: 10 mph tail wind with gusts over 20 mph, decreasing throughout the day. Very strong tail current along course. Race order was 1V-N8. Minimal waves and chop.\r\nAll races were floating starts, times should not be compared. Comments: In girls 1V and boys 1V events, Glastonbury started the race about 1/2 seat above Stonington. In boys 1V, both crews were hit with a large wake 500m in due to a passing fishing boat. Both girls novice 8+ added a few extra meters by following the river's shore instead of the course. \r\nHuge thank you to Stonington for coming up after school and racing on the river.\r\n\nNone",
+    "day": "2025-04-30",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "3:59.55",
+                    "school": "Stonington"
+                },
+                {
+                    "margin_from_winner": 1.61,
+                    "raw_time": "4:01.16",
+                    "school": "Glastonbury"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:02.05",
+                    "school": "Glastonbury"
+                },
+                {
+                    "margin_from_winner": 0.0,
+                    "raw_time": "4:02.05",
+                    "school": "Stonington"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:18.76",
+                    "school": "Glastonbury"
+                },
+                {
+                    "margin_from_winner": 14.25,
+                    "raw_time": "4:33.01",
+                    "school": "Stonington"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:35.38",
+                    "school": "Glastonbury"
+                },
+                {
+                    "margin_from_winner": 10.4,
+                    "raw_time": "4:45.78",
+                    "school": "Stonington"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Eights,Stonington vs. Glastonbury",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=D11875B10132E8C522216D178357B6AC&cat=5"
+}

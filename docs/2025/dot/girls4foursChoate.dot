@@ -1,8 +1,18 @@
-digraph girls4foursChoate {BerkshireAcademy [URL="girls4foursChoateBerkshireAcademy.html"];Taft [URL="girls4foursChoateTaft.html"];Choate [URL="girls4foursChoateChoate.html"];Choate -> BerkshireAcademy[label="19.5
+digraph girls4foursChoate {CambridgeRLS [URL="girls4foursChoateCambridgeRLS.html"];Taft [URL="girls4foursChoateTaft.html"];Winsor [URL="girls4foursChoateWinsor.html"];Choate [URL="girls4foursChoateChoate.html"];BerkshireAcademy [URL="girls4foursChoateBerkshireAcademy.html"];Choate -> BerkshireAcademy[label="19.5
 04/19", weight="81", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
 Choate -> Taft[label="24.6
 04/19", weight="76", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
+Choate -> Winsor[label="0.9 (1.04)
+04/30", weight="100", tooltip="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge & Latin School (CRLS)			
+Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
+Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting--CRLS: 5:15.71 Choate: 5:52.01.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&cat=1", random="random"]; 
+Choate -> CambridgeRLS[label="14.4 (16.62)
+04/30", weight="86", tooltip="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge & Latin School (CRLS)			
+Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
+Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting--CRLS: 5:15.71 Choate: 5:52.01.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&cat=1", random="random"]}

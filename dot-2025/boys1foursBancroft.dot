@@ -1,13 +1,13 @@
-digraph boys1foursBancroft {Bancroft [URL="boys1foursBancroftBancroft.html"];BrewsterAcademy [URL="boys1foursBancroftBrewsterAcademy.html"];Berwick [URL="boys1foursBancroftBerwick.html"];Derryfield [URL="boys1foursBancroftDerryfield.html"];WorcesterAcademy [URL="boys1foursBancroftWorcesterAcademy.html"];Berwick -> Bancroft[label="75.3
-04/27", weight="25", tooltip="NEIRA			
+digraph boys1foursBancroft {Bancroft [URL="boys1foursBancroftBancroft.html"];Derryfield [URL="boys1foursBancroftDerryfield.html"];Berwick [URL="boys1foursBancroftBerwick.html"];BrewsterAcademy [URL="boys1foursBancroftBrewsterAcademy.html"];WorcesterAcademy [URL="boys1foursBancroftWorcesterAcademy.html"];Berwick -> Bancroft[label="75.3
+04/27", weight="25", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
 WorcesterAcademy -> Bancroft[label="59.4
-04/27", weight="41", tooltip="NEIRA			
+04/27", weight="41", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
 Derryfield -> Bancroft[label="26.8
-04/27", weight="74", tooltip="NEIRA			
+04/27", weight="74", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
 WorcesterAcademy -> Bancroft[label="63.5

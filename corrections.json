@@ -51,17 +51,8 @@
         ]
     },
     "1808367AD98242D8BD57C6BB7F9BC019": {
-        "checksum": "f5e45ae368fcf1d8a5b65f3289584999",
-        "corrections": [
-            {
-                "gender": "boys",
-                "type": "set_gender_all_heats"
-            },
-            {
-                "class": "fours",
-                "type": "set_class_all_heats"
-            }
-        ]
+        "checksum": "8dc6ba0c017f04cbd687efd7189da408",
+        "corrections": []
     },
     "181E3474D2FC1C1BDC3CD092B1E1976C": {
         "checksum": "58b4005542379e2bacf11635874150bc",
@@ -181,8 +172,13 @@
         ]
     },
     "5100A5CA83A99A9CD2E37FEC65103FEF": {
-        "checksum": "a7a56681e328c3e95ee2d3c3617f8103",
-        "corrections": []
+        "checksum": "60b652be8e68f683ad4a8b880d34e226",
+        "corrections": [
+            {
+                "comment": "is Sacred Heart Greenwich in NEIRA?",
+                "type": "comment"
+            }
+        ]
     },
     "5150789F21FD9599874CA9451EBDC220": {
         "checksum": "6a20df6f4203f25a4a426377e15817b7",
@@ -237,6 +233,27 @@
         "checksum": "8826046ed0f8b9cd31064edcfad6257f",
         "corrections": []
     },
+    "7E1D2CF89CCC96BDC0B810EABF272B1D": {
+        "checksum": "6c49ef751f97045f788613afdd249b54",
+        "corrections": [
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            }
+        ]
+    },
+    "7F031922B617DDED37366A28DFAE8830": {
+        "checksum": "a3757d3c2409aca2ec631b2194d8636a",
+        "corrections": [
+            {
+                "heat": "girls 3",
+                "schools": [
+                    "Greenwich Country Day"
+                ],
+                "type": "exclude_schools_from_heat"
+            }
+        ]
+    },
     "7FC6355C3E1FAB76A66FC05803D6C76E": {
         "checksum": "f9c00a60bd6e37573415f42bca9d9d3c",
         "corrections": [
@@ -289,6 +306,10 @@
                 "type": "set_class_all_heats"
             }
         ]
+    },
+    "97F7AB1A3583B5AD0B685E7720855CFF": {
+        "checksum": "0e3df3ae1f07a3b339d7e0eeacf0d555",
+        "corrections": []
     },
     "9CB14C1442DB1E4709BFA846A1FCE1D7": {
         "checksum": "ab6eedaa46557b73baed527a9dd4764e",
@@ -358,9 +379,27 @@
             }
         ]
     },
+    "CAD018DDC045C2C851D08C5626506B6F": {
+        "checksum": "84b9e442d77c9a3914459ad4210fec01",
+        "corrections": []
+    },
     "CE456225129ACDB361E1BEAB29CB57A4": {
         "checksum": "3488de00f7c096dc3ab09e83c77f80d9",
         "corrections": []
+    },
+    "D11875B10132E8C522216D178357B6AC": {
+        "checksum": "3fcfc916a35d808ab764c2dcf0d6b88b",
+        "corrections": [
+            {
+                "comment": "Novice races",
+                "heats": [
+                    "girls 4",
+                    "boys 3",
+                    "girls 3"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
     },
     "DA96BB9A8B319E7904A112FB8A8D4E0E": {
         "checksum": "b18d1dc6ba9ec6c6255337387d2efd68",
@@ -407,6 +446,25 @@
     "E5F9B2C1554A1FBD0FEB68B2E09DEB28": {
         "checksum": "77e0acd027bb8903890e82b0fbea4b43",
         "corrections": []
+    },
+    "F633B39B972009BAAE9DBEA29158C86C": {
+        "checksum": "b675d5e18c5aba6f4f721e3b697b4697",
+        "corrections": [
+            {
+                "heat": "boys 2",
+                "margins": [
+                    {
+                        "margin_from_winner": 0,
+                        "school": "Berwick"
+                    },
+                    {
+                        "margin_from_winner": 28,
+                        "school": "Brewster Academy"
+                    }
+                ],
+                "type": "set_margins"
+            }
+        ]
     },
     "FBDCA5CCB2EE6264F2D1F77FEFB9FE93": {
         "checksum": "e57152d85b464a226c8eb9d3746d3018",

@@ -1,4 +1,4 @@
-digraph girls1foursCambridgeRLS {Middlesex [URL="girls1foursCambridgeRLSMiddlesex.html"];Brooks [URL="girls1foursCambridgeRLSBrooks.html"];NMH [URL="girls1foursCambridgeRLSNMH.html"];CambridgeRLS [URL="girls1foursCambridgeRLSCambridgeRLS.html"];BBN [URL="girls1foursCambridgeRLSBBN.html"];Hopkins [URL="girls1foursCambridgeRLSHopkins.html"];BBN -> CambridgeRLS[label="1.0 (1.2)
+digraph girls1foursCambridgeRLS {Brooks [URL="girls1foursCambridgeRLSBrooks.html"];BBN [URL="girls1foursCambridgeRLSBBN.html"];Choate [URL="girls1foursCambridgeRLSChoate.html"];NMH [URL="girls1foursCambridgeRLSNMH.html"];Winsor [URL="girls1foursCambridgeRLSWinsor.html"];Hopkins [URL="girls1foursCambridgeRLSHopkins.html"];CambridgeRLS [URL="girls1foursCambridgeRLSCambridgeRLS.html"];Middlesex [URL="girls1foursCambridgeRLSMiddlesex.html"];BBN -> CambridgeRLS[label="1.0 (1.2)
 04/16", weight="99", tooltip="NEIRA Girls Fours, Cambridge Mayor's Cup: BB&N vs. CRLS			
 Distance: 1250m Conditions: Brisk 15-20mph crosswind, swirling and gusting, increasing throughout races. Race order 5-4-3-2-1. 
 Water mostly ok until significant chop in the middle of the 1V race. 
@@ -24,4 +24,14 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC
 Middlesex -> CambridgeRLS[label="1.2
 04/26", weight="99", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
+Winsor -> CambridgeRLS[label="5.6 (6.46)
+04/30", weight="95", tooltip="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge & Latin School (CRLS)			
+Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
+Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting--CRLS: 5:15.71 Choate: 5:52.01.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&cat=1", random="random"]; 
+CambridgeRLS -> Choate[label="2.7 (3.12)
+04/30", weight="98", tooltip="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge & Latin School (CRLS)			
+Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
+Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting--CRLS: 5:15.71 Choate: 5:52.01.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&cat=1", random="random"]}

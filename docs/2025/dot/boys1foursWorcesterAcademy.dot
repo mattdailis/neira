@@ -1,13 +1,13 @@
-digraph boys1foursWorcesterAcademy {Bancroft [URL="boys1foursWorcesterAcademyBancroft.html"];BrewsterAcademy [URL="boys1foursWorcesterAcademyBrewsterAcademy.html"];Berwick [URL="boys1foursWorcesterAcademyBerwick.html"];Derryfield [URL="boys1foursWorcesterAcademyDerryfield.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademyWorcesterAcademy.html"];Berwick -> WorcesterAcademy[label="15.9
-04/27", weight="85", tooltip="NEIRA			
+digraph boys1foursWorcesterAcademy {Bancroft [URL="boys1foursWorcesterAcademyBancroft.html"];MarianapolisPrep [URL="boys1foursWorcesterAcademyMarianapolisPrep.html"];Derryfield [URL="boys1foursWorcesterAcademyDerryfield.html"];Suffield [URL="boys1foursWorcesterAcademySuffield.html"];Berwick [URL="boys1foursWorcesterAcademyBerwick.html"];BrewsterAcademy [URL="boys1foursWorcesterAcademyBrewsterAcademy.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademyWorcesterAcademy.html"];Berwick -> WorcesterAcademy[label="15.9
+04/27", weight="85", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
 WorcesterAcademy -> Derryfield[label="32.6
-04/27", weight="68", tooltip="NEIRA			
+04/27", weight="68", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
 WorcesterAcademy -> Bancroft[label="59.4
-04/27", weight="41", tooltip="NEIRA			
+04/27", weight="41", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
 WorcesterAcademy -> BrewsterAcademy[label="10.7
@@ -21,4 +21,12 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788
 WorcesterAcademy -> Bancroft[label="62.9
 04/23", weight="38", tooltip="NEIRA Boys & Girls Fours,St. Mark's and Worcester Academy			
 Distance: 1500m Conditions: Nice weather; slight wind coming across from the Worcester side to the Shrewsbury side of the lake Comments: The results under the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Bancroft raced.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6D37204313ADD015CB0882600479249C&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6D37204313ADD015CB0882600479249C&cat=5", random="random"]; 
+WorcesterAcademy -> Suffield[label="23.7
+04/30", weight="77", tooltip="NEIRA Boys , Worcester Academy vs. Suffield Academy, Marianapolis Prep			
+Distance: 1500 Conditions: Moderate Crossing tailwind and some chop. Comments: Great day of racing. Thank you to Marianapolis and Suffield! The coxswains and crews did a great job staying on schedule during a busy racing day.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7E1D2CF89CCC96BDC0B810EABF272B1D&cat=1", random="random"]; 
+WorcesterAcademy -> MarianapolisPrep[label="107.6
+04/30", weight="-7", tooltip="NEIRA Boys , Worcester Academy vs. Suffield Academy, Marianapolis Prep			
+Distance: 1500 Conditions: Moderate Crossing tailwind and some chop. Comments: Great day of racing. Thank you to Marianapolis and Suffield! The coxswains and crews did a great job staying on schedule during a busy racing day.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7E1D2CF89CCC96BDC0B810EABF272B1D&cat=1", random="random"]}
