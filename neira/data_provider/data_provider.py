@@ -36,6 +36,7 @@ def get(data_dir):
 
 
 def founders_day_head_to_head_tuples():
+    return []
     with open("founders-day-head-to-head.json", "r") as f:
         founders_day_head_to_head = json.load(f)
     results = []
