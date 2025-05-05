@@ -1,4 +1,4 @@
-digraph boys2foursLymeOldLyme {Middletown [URL="boys2foursLymeOldLymeMiddletown.html"];ValleyRegional [URL="boys2foursLymeOldLymeValleyRegional.html"];LymeOldLyme [URL="boys2foursLymeOldLymeLymeOldLyme.html"];LymeOldLyme -> ValleyRegional[label="77.1
+digraph boys2foursLymeOldLyme {NMH [URL="boys2foursLymeOldLymeNMH.html"];Middletown [URL="boys2foursLymeOldLymeMiddletown.html"];Taft [URL="boys2foursLymeOldLymeTaft.html"];Hopkins [URL="boys2foursLymeOldLymeHopkins.html"];Pomfret [URL="boys2foursLymeOldLymePomfret.html"];LymeOldLyme [URL="boys2foursLymeOldLymeLymeOldLyme.html"];ValleyRegional [URL="boys2foursLymeOldLymeValleyRegional.html"];Hotchkiss [URL="boys2foursLymeOldLymeHotchkiss.html"];LymeOldLyme -> ValleyRegional[label="77.1
 04/23", weight="23", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Valley regional			
 Distance: 1500m Conditions: 6-8 mph headwind throughout the course. Mostly cloudy day, more than normal spectator boat traffic causing some wakes to enter the later races. Comments: Lyme/Old Lyme G3V4 raced in the girls 2V4 race. Due to conditions and to avoid having to cause all boats to realign in the B1V4 Lyme/Old Lyme was started approximately a deck down on valley. 
 It was a great day of racing we’re glad that valley was able to join us on such a nice day. This was a race with another school Avon but only valley and LOLHS are NEIRA schools. If there is interest the LOL v Valley v Avon will be posted under the high school results.
@@ -7,4 +7,19 @@ LymeOldLyme -> Middletown[label="19.6
 04/30", weight="81", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Middletown			
 Distance: 1500 Conditions: 7-11 mph cross tail wind. Waves challenging for 300-400 meters. Comments: It was a great day of racing. Lyme/Old Lyme was excited to host Middletown at our lake. 
 For the B2V4 race Middletown put a 3rd boat in the race.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAD018DDC045C2C851D08C5626506B6F&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAD018DDC045C2C851D08C5626506B6F&cat=5", random="random"]; 
+NMH -> LymeOldLyme[label="12.94
+05/04", weight="88", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Taft -> LymeOldLyme[label="7.41
+05/04", weight="93", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hotchkiss -> LymeOldLyme[label="1.29
+05/04", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+LymeOldLyme -> Hopkins[label="3.13
+05/04", weight="97", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+LymeOldLyme -> Pomfret[label="11.17
+05/04", weight="89", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

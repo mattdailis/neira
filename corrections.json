@@ -3,6 +3,10 @@
         "checksum": "903d43f751559518822b2381f268ae7a",
         "corrections": []
     },
+    "07BC4C309730A2ABBEA83E7AAD4B7A9E": {
+        "checksum": "c931de9abbea5c108e0e000c5da84e3d",
+        "corrections": []
+    },
     "0B5A12BEAF8945DD81EB9EFB206E62F1": {
         "checksum": "39f79124defa26c1349b05ef4c31ad2f",
         "corrections": [
@@ -88,6 +92,10 @@
     },
     "36B0F2AE8783F36592702B33F4094A30": {
         "checksum": "2dcbf7a8bad5987592fcc2cdb5189f3e",
+        "corrections": []
+    },
+    "36E227C5D5306D2B66289F9BEFE8B31D": {
+        "checksum": "deacce927c95874759a6157a496a1c82",
         "corrections": []
     },
     "3C6B9CB8A1F554662118E4D2AD13F16A": {
@@ -374,6 +382,18 @@
         "checksum": "02f33b733d80f288a4e9b1c6fa51b06c",
         "corrections": []
     },
+    "B6F0E8B81345DD0C9DF83F10023DD41B": {
+        "checksum": "0eeec94afc5f48b6405638dac57a57b3",
+        "corrections": [
+            {
+                "heats": [
+                    "girls 5",
+                    "boys 5"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
     "B9BCFC91AFB3A5D4131527DB3C572692": {
         "checksum": "3a053542bb07a310ece9d1b083d5b810",
         "corrections": [
@@ -479,6 +499,15 @@
     "E5F9B2C1554A1FBD0FEB68B2E09DEB28": {
         "checksum": "77e0acd027bb8903890e82b0fbea4b43",
         "corrections": []
+    },
+    "EEDE0779D930B65B65EABC9F7BA090B0": {
+        "checksum": "dea68e997cb443d761e645c482b2bff1",
+        "corrections": [
+            {
+                "comment": "some races should be excluded for novice/exhibition",
+                "type": "comment"
+            }
+        ]
     },
     "F633B39B972009BAAE9DBEA29158C86C": {
         "checksum": "b675d5e18c5aba6f4f721e3b697b4697",

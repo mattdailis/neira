@@ -1,4 +1,4 @@
-digraph boys1fours {BelmontHill [URL="boys1foursBelmontHill.html"];Thayer [URL="boys1foursThayer.html"];NotreDame [URL="boys1foursNotreDame.html"];BBN [URL="boys1foursBBN.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];NMH [URL="boys1foursNMH.html"];Derryfield [URL="boys1foursDerryfield.html"];Nobles [URL="boys1foursNobles.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];StMarks [URL="boys1foursStMarks.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Berwick [URL="boys1foursBerwick.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];Suffield [URL="boys1foursSuffield.html"];Choate [URL="boys1foursChoate.html"];Bancroft [URL="boys1foursBancroft.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];CambridgeRLS [URL="boys1foursCambridgeRLS.html"];Canterbury [URL="boys1foursCanterbury.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];Middletown [URL="boys1foursMiddletown.html"];DexterSouthfield [URL="boys1foursDexterSouthfield.html"];Groton [URL="boys1foursGroton.html"];Brooks [URL="boys1foursBrooks.html"];Pomfret [URL="boys1foursPomfret.html"];Hopkins [URL="boys1foursHopkins.html"];Hotchkiss [URL="boys1foursHotchkiss.html"];ValleyRegional [URL="boys1foursValleyRegional.html"];Taft [URL="boys1foursTaft.html"];Middlesex [URL="boys1foursMiddlesex.html"];BelmontHill -> Nobles[label="7.1 (8.19)
+digraph boys1fours {BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];Brooks [URL="boys1foursBrooks.html"];BBN [URL="boys1foursBBN.html"];StMarks [URL="boys1foursStMarks.html"];Groton [URL="boys1foursGroton.html"];CambridgeRLS [URL="boys1foursCambridgeRLS.html"];NotreDame [URL="boys1foursNotreDame.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];Bancroft [URL="boys1foursBancroft.html"];Hopkins [URL="boys1foursHopkins.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Canterbury [URL="boys1foursCanterbury.html"];NMH [URL="boys1foursNMH.html"];DexterSouthfield [URL="boys1foursDexterSouthfield.html"];Taft [URL="boys1foursTaft.html"];Pomfret [URL="boys1foursPomfret.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];ValleyRegional [URL="boys1foursValleyRegional.html"];Thayer [URL="boys1foursThayer.html"];Nobles [URL="boys1foursNobles.html"];Derryfield [URL="boys1foursDerryfield.html"];Middletown [URL="boys1foursMiddletown.html"];Choate [URL="boys1foursChoate.html"];Suffield [URL="boys1foursSuffield.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];Hotchkiss [URL="boys1foursHotchkiss.html"];BelmontHill [URL="boys1foursBelmontHill.html"];Middlesex [URL="boys1foursMiddlesex.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];Berwick [URL="boys1foursBerwick.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];BelmontHill -> Nobles[label="7.1 (8.19)
 05/04", weight="93", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: Order of racing: 4V4-3V4-2V4-1V4-4V8-6V4-9V4-5V4. Building direct headwind for the first three races, strongest for the 2V4; the wind then lessened and shifted to a cross/cross headwind for the 1V4 and remaining races Comments: Thanks to Nobles for being patient and supportive through yesterday's weather-related postponement and for a great day of racing with our full programs today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=96DF6AF2C5DADCD1EB91A4088A314B11&cat=1", random="random"]; 
@@ -336,4 +336,94 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343
 Pomfret -> StMarysLynn[label="17.8
 04/19", weight="83", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
 Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]; 
+Pomfret -> BerkshireAcademy[label="6.78
+05/04", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Pomfret -> Choate[label="7.21
+05/04", weight="93", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Pomfret -> FrederickGunn[label="34.55
+05/04", weight="66", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Pomfret -> Canterbury[label="54.56
+05/04", weight="46", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Pomfret -> BrewsterAcademy[label="23.77
+05/04", weight="77", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+BerkshireAcademy -> Choate[label="0.43
+05/04", weight="100", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+BerkshireAcademy -> FrederickGunn[label="27.77
+05/04", weight="73", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+BerkshireAcademy -> Canterbury[label="47.78
+05/04", weight="53", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+BerkshireAcademy -> BrewsterAcademy[label="16.99
+05/04", weight="84", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Choate -> FrederickGunn[label="27.34
+05/04", weight="73", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Choate -> Canterbury[label="47.35
+05/04", weight="53", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Choate -> BrewsterAcademy[label="16.56
+05/04", weight="84", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+FrederickGunn -> Canterbury[label="20.01
+05/04", weight="80", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+BrewsterAcademy -> FrederickGunn[label="10.78
+05/04", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+BrewsterAcademy -> Canterbury[label="30.79
+05/04", weight="70", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> NMH[label="2.97
+05/04", weight="98", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> LymeOldLyme[label="5.12
+05/04", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> Hotchkiss[label="5.74
+05/04", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> NotreDame[label="10.04
+05/04", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> Taft[label="4.66
+05/04", weight="96", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+NMH -> LymeOldLyme[label="2.15
+05/04", weight="98", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+NMH -> Hotchkiss[label="2.77
+05/04", weight="98", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+NMH -> NotreDame[label="7.07
+05/04", weight="93", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+NMH -> Taft[label="1.69
+05/04", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+LymeOldLyme -> Hotchkiss[label="0.62
+05/04", weight="100", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+LymeOldLyme -> NotreDame[label="4.92
+05/04", weight="96", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Taft -> LymeOldLyme[label="0.46
+05/04", weight="100", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hotchkiss -> NotreDame[label="4.3
+05/04", weight="96", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Taft -> Hotchkiss[label="1.08
+05/04", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Taft -> NotreDame[label="5.38
+05/04", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

@@ -1,0 +1,42 @@
+{
+    "comment": "\nDistance: 1500 Conditions: Girls' V1 & V2 - steady headwind of six mph on the course, gusting periodically to eight mph. Comments: Thanks to Porter's for making the trip. It was a beautiful day for racing.\r\n\nNone",
+    "day": "2025-04-30",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:30",
+                    "school": "Miss Porter's"
+                },
+                {
+                    "margin_from_winner": 13.0,
+                    "raw_time": "6:43",
+                    "school": "Frederick Gunn"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "7:08",
+                    "school": "Miss Porter's"
+                },
+                {
+                    "margin_from_winner": 70.0,
+                    "raw_time": "8:18",
+                    "school": "Frederick Gunn"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA Girls Fours,Frederick Gunn vs. Miss Porter's",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=07BC4C309730A2ABBEA83E7AAD4B7A9E&cat=1"
+}

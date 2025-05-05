@@ -1,4 +1,4 @@
-digraph boys1foursBrewsterAcademy {Nobles [URL="boys1foursBrewsterAcademyNobles.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademyBrewsterAcademy.html"];NotreDame [URL="boys1foursBrewsterAcademyNotreDame.html"];Bancroft [URL="boys1foursBrewsterAcademyBancroft.html"];StMarks [URL="boys1foursBrewsterAcademyStMarks.html"];WorcesterAcademy [URL="boys1foursBrewsterAcademyWorcesterAcademy.html"];Berwick [URL="boys1foursBrewsterAcademyBerwick.html"];Nobles -> BrewsterAcademy[label="47.7
+digraph boys1foursBrewsterAcademy {BrewsterAcademy [URL="boys1foursBrewsterAcademyBrewsterAcademy.html"];Nobles [URL="boys1foursBrewsterAcademyNobles.html"];StMarks [URL="boys1foursBrewsterAcademyStMarks.html"];Berwick [URL="boys1foursBrewsterAcademyBerwick.html"];NotreDame [URL="boys1foursBrewsterAcademyNotreDame.html"];FrederickGunn [URL="boys1foursBrewsterAcademyFrederickGunn.html"];Bancroft [URL="boys1foursBrewsterAcademyBancroft.html"];Pomfret [URL="boys1foursBrewsterAcademyPomfret.html"];Choate [URL="boys1foursBrewsterAcademyChoate.html"];WorcesterAcademy [URL="boys1foursBrewsterAcademyWorcesterAcademy.html"];BerkshireAcademy [URL="boys1foursBrewsterAcademyBerkshireAcademy.html"];Canterbury [URL="boys1foursBrewsterAcademyCanterbury.html"];Nobles -> BrewsterAcademy[label="47.7
 04/26", weight="53", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
@@ -21,4 +21,19 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788
 BrewsterAcademy -> Bancroft[label="52.8
 04/16", weight="48", tooltip="NEIRA Boys & Girls Fours,'Worcester Academy' and 'Brewster Academy'			
 Distance: 1500m Conditions: Windy conditions. Stayed pretty much the same throughout all races. Slight crosswind coming across from the Worcester side to the Shrewsbury side of the lake. Comments: The results for the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Brewster Academy raced.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5", random="random"]; 
+Pomfret -> BrewsterAcademy[label="23.77
+05/04", weight="77", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+BerkshireAcademy -> BrewsterAcademy[label="16.99
+05/04", weight="84", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Choate -> BrewsterAcademy[label="16.56
+05/04", weight="84", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+BrewsterAcademy -> FrederickGunn[label="10.78
+05/04", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+BrewsterAcademy -> Canterbury[label="30.79
+05/04", weight="70", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

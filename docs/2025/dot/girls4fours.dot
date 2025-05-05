@@ -1,4 +1,4 @@
-digraph girls4fours {Choate [URL="girls4foursChoate.html"];BerkshireAcademy [URL="girls4foursBerkshireAcademy.html"];Nobles [URL="girls4foursNobles.html"];Groton [URL="girls4foursGroton.html"];Brooks [URL="girls4foursBrooks.html"];BBN [URL="girls4foursBBN.html"];StMarks [URL="girls4foursStMarks.html"];Pomfret [URL="girls4foursPomfret.html"];Hopkins [URL="girls4foursHopkins.html"];Winsor [URL="girls4foursWinsor.html"];Hotchkiss [URL="girls4foursHotchkiss.html"];GreenwichAcademy [URL="girls4foursGreenwichAcademy.html"];NewtonCountryDay [URL="girls4foursNewtonCountryDay.html"];CambridgeRLS [URL="girls4foursCambridgeRLS.html"];GreenwichCountryDay [URL="girls4foursGreenwichCountryDay.html"];Taft [URL="girls4foursTaft.html"];NMH [URL="girls4foursNMH.html"];Middlesex [URL="girls4foursMiddlesex.html"];Brooks -> Middlesex[label="25.4
+digraph girls4fours {Brooks [URL="girls4foursBrooks.html"];BBN [URL="girls4foursBBN.html"];Nobles [URL="girls4foursNobles.html"];NMH [URL="girls4foursNMH.html"];Middlesex [URL="girls4foursMiddlesex.html"];StMarks [URL="girls4foursStMarks.html"];Groton [URL="girls4foursGroton.html"];CambridgeRLS [URL="girls4foursCambridgeRLS.html"];Winsor [URL="girls4foursWinsor.html"];GreenwichCountryDay [URL="girls4foursGreenwichCountryDay.html"];GreenwichAcademy [URL="girls4foursGreenwichAcademy.html"];NewtonCountryDay [URL="girls4foursNewtonCountryDay.html"];Taft [URL="girls4foursTaft.html"];Pomfret [URL="girls4foursPomfret.html"];Choate [URL="girls4foursChoate.html"];Hopkins [URL="girls4foursHopkins.html"];BerkshireAcademy [URL="girls4foursBerkshireAcademy.html"];Hotchkiss [URL="girls4foursHotchkiss.html"];Brooks -> Middlesex[label="25.4
 04/19", weight="75", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
@@ -187,4 +187,34 @@ BBN -> GreenwichAcademy[label="23.2 (25.78)
 Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.
 In the 1 V race Winsor left thier lane, and into BB&Ns lane in the last 250.
 Thanks to Winsor and GA for the racing and GA making the trip to Boston.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF21FB49C1A5BFE18B2AC227D72047A7&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF21FB49C1A5BFE18B2AC227D72047A7&cat=1", random="random"]; 
+Choate -> Hopkins[label="6.13
+05/04", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Choate -> NMH[label="7.54
+05/04", weight="93", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Choate -> Hotchkiss[label="11.89
+05/04", weight="89", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Choate -> Taft[label="18.0
+05/04", weight="82", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> NMH[label="1.41
+05/04", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> Hotchkiss[label="5.76
+05/04", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> Taft[label="11.87
+05/04", weight="89", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+NMH -> Hotchkiss[label="4.35
+05/04", weight="96", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+NMH -> Taft[label="10.46
+05/04", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hotchkiss -> Taft[label="6.11
+05/04", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

@@ -1,4 +1,4 @@
-digraph girls4foursHopkins {Brooks [URL="girls4foursHopkinsBrooks.html"];Hopkins [URL="girls4foursHopkinsHopkins.html"];CambridgeRLS [URL="girls4foursHopkinsCambridgeRLS.html"];NMH [URL="girls4foursHopkinsNMH.html"];Middlesex [URL="girls4foursHopkinsMiddlesex.html"];CambridgeRLS -> Hopkins[label="36.2
+digraph girls4foursHopkins {Brooks [URL="girls4foursHopkinsBrooks.html"];NMH [URL="girls4foursHopkinsNMH.html"];Middlesex [URL="girls4foursHopkinsMiddlesex.html"];CambridgeRLS [URL="girls4foursHopkinsCambridgeRLS.html"];Taft [URL="girls4foursHopkinsTaft.html"];Hopkins [URL="girls4foursHopkinsHopkins.html"];Choate [URL="girls4foursHopkinsChoate.html"];Hotchkiss [URL="girls4foursHopkinsHotchkiss.html"];CambridgeRLS -> Hopkins[label="36.2
 04/26", weight="64", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -17,4 +17,16 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC
 Hopkins -> NMH[label="16.0
 04/19", weight="84", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, NMB, St. Mary's-Lynn			
 Distance: 1500m Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Hopkins' oar popped out of the oarlock in the 3rd boat race in the last 200m and they had to stop to reset for a few seconds. Comments: Tailwinds increased somewhat during the course of racing. Order of girls races: G1, G4, G3, G2, G5. (There was an hour and fifteen minutes between the G2 and G5 race. 15 minutes between the other four races.)
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&cat=1", random="random"]; 
+Choate -> Hopkins[label="6.13
+05/04", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> NMH[label="1.41
+05/04", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> Hotchkiss[label="5.76
+05/04", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> Taft[label="11.87
+05/04", weight="89", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

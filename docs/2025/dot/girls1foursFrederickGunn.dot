@@ -1,4 +1,16 @@
-digraph girls1foursFrederickGunn {Canterbury [URL="girls1foursFrederickGunnCanterbury.html"];FrederickGunn [URL="girls1foursFrederickGunnFrederickGunn.html"];FrederickGunn -> Canterbury[label="20.0
+digraph girls1foursFrederickGunn {BrewsterAcademy [URL="girls1foursFrederickGunnBrewsterAcademy.html"];FrederickGunn [URL="girls1foursFrederickGunnFrederickGunn.html"];Pomfret [URL="girls1foursFrederickGunnPomfret.html"];LymeOldLyme [URL="girls1foursFrederickGunnLymeOldLyme.html"];Canterbury [URL="girls1foursFrederickGunnCanterbury.html"];FrederickGunn -> Canterbury[label="20.0
 04/19", weight="80", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Canterbury School			
 Distance: 1500 Conditions: Mostly protected waters with some crosswind and very slight chop in the first 500 in particular. Comments: Gunn second boats (B) raced up with the first boats.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FD9BF2C36AB3E5D3343A43D22FCCB16E&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FD9BF2C36AB3E5D3343A43D22FCCB16E&cat=5", random="random"]; 
+FrederickGunn -> BrewsterAcademy[label="5.37
+05/04", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+FrederickGunn -> Pomfret[label="24.9
+05/04", weight="76", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+FrederickGunn -> Canterbury[label="28.0
+05/04", weight="72", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+FrederickGunn -> LymeOldLyme[label="10.19
+05/04", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

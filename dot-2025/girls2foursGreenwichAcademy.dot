@@ -1,4 +1,4 @@
-digraph girls2foursGreenwichAcademy {GreenwichCountryDay [URL="girls2foursGreenwichAcademyGreenwichCountryDay.html"];Winsor [URL="girls2foursGreenwichAcademyWinsor.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademyGreenwichAcademy.html"];BBN [URL="girls2foursGreenwichAcademyBBN.html"];Winsor -> GreenwichAcademy[label="26.1 (29.0)
+digraph girls2foursGreenwichAcademy {BBN [URL="girls2foursGreenwichAcademyBBN.html"];NMH [URL="girls2foursGreenwichAcademyNMH.html"];Winsor [URL="girls2foursGreenwichAcademyWinsor.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademyGreenwichAcademy.html"];GreenwichCountryDay [URL="girls2foursGreenwichAcademyGreenwichCountryDay.html"];Taft [URL="girls2foursGreenwichAcademyTaft.html"];Choate [URL="girls2foursGreenwichAcademyChoate.html"];BerkshireAcademy [URL="girls2foursGreenwichAcademyBerkshireAcademy.html"];Hotchkiss [URL="girls2foursGreenwichAcademyHotchkiss.html"];Winsor -> GreenwichAcademy[label="26.1 (29.0)
 04/26", weight="74", tooltip="NEIRA Girls Fours, BB&N, Winsor, Greenwich Academy			
 Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.
 In the 1 V race Winsor left thier lane, and into BB&Ns lane in the last 250.
@@ -18,4 +18,19 @@ Distance: 1400m Conditions: Race order: 2V, 3V, 1V.
 1V had the balmiest conditions, with a weaker cross head.
 Water for all races was relatively flat, with the 1V seeing the best water. All racing was against the tide. Comments: GA and SH fielded three varsity boats; GCDS fielded a 1V and 2V and entered a novice boys boat into the 3V as an exhibition event.
 Thanks to SH and GCDS for coming out to race.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7F031922B617DDED37366A28DFAE8830&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7F031922B617DDED37366A28DFAE8830&cat=1", random="random"]; 
+NMH -> GreenwichAcademy[label="33.0
+05/04", weight="67", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Choate -> GreenwichAcademy[label="32.63
+05/04", weight="68", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+BerkshireAcademy -> GreenwichAcademy[label="30.16
+05/04", weight="70", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hotchkiss -> GreenwichAcademy[label="22.64
+05/04", weight="78", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Taft -> GreenwichAcademy[label="23.68
+05/04", weight="77", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

@@ -1,4 +1,4 @@
-digraph boys3foursBerkshireAcademy {Pomfret [URL="boys3foursBerkshireAcademyPomfret.html"];Taft [URL="boys3foursBerkshireAcademyTaft.html"];Hotchkiss [URL="boys3foursBerkshireAcademyHotchkiss.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademyBerkshireAcademy.html"];Taft -> BerkshireAcademy[label="25.5
+digraph boys3foursBerkshireAcademy {NMH [URL="boys3foursBerkshireAcademyNMH.html"];Taft [URL="boys3foursBerkshireAcademyTaft.html"];Pomfret [URL="boys3foursBerkshireAcademyPomfret.html"];Hopkins [URL="boys3foursBerkshireAcademyHopkins.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademyBerkshireAcademy.html"];Hotchkiss [URL="boys3foursBerkshireAcademyHotchkiss.html"];Taft -> BerkshireAcademy[label="25.5
 04/19", weight="75", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -9,4 +9,19 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD
 Pomfret -> BerkshireAcademy[label="4.7
 04/23", weight="96", tooltip="NEIRA Boys ,Pomfret v. Berkshire, Marianapolis			
 Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occasional gusty crosswinds, light chop, but generally good water. Comments: Alternated races with girls. Order of boys races: B3, B2, B1, B4
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]; 
+Taft -> BerkshireAcademy[label="26.54
+05/04", weight="74", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hotchkiss -> BerkshireAcademy[label="22.68
+05/04", weight="78", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+NMH -> BerkshireAcademy[label="17.37
+05/04", weight="83", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+BerkshireAcademy -> Pomfret[label="4.16
+05/04", weight="96", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> BerkshireAcademy[label="15.87
+05/04", weight="85", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

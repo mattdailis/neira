@@ -1,4 +1,4 @@
-digraph boys1foursNotreDame {Middletown [URL="boys1foursNotreDameMiddletown.html"];Nobles [URL="boys1foursNotreDameNobles.html"];NotreDame [URL="boys1foursNotreDameNotreDame.html"];BrewsterAcademy [URL="boys1foursNotreDameBrewsterAcademy.html"];StMarks [URL="boys1foursNotreDameStMarks.html"];Hotchkiss [URL="boys1foursNotreDameHotchkiss.html"];Nobles -> NotreDame[label="12.8
+digraph boys1foursNotreDame {BrewsterAcademy [URL="boys1foursNotreDameBrewsterAcademy.html"];Nobles [URL="boys1foursNotreDameNobles.html"];NMH [URL="boys1foursNotreDameNMH.html"];StMarks [URL="boys1foursNotreDameStMarks.html"];Middletown [URL="boys1foursNotreDameMiddletown.html"];NotreDame [URL="boys1foursNotreDameNotreDame.html"];Taft [URL="boys1foursNotreDameTaft.html"];Hopkins [URL="boys1foursNotreDameHopkins.html"];LymeOldLyme [URL="boys1foursNotreDameLymeOldLyme.html"];Hotchkiss [URL="boys1foursNotreDameHotchkiss.html"];Nobles -> NotreDame[label="12.8
 04/26", weight="88", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
@@ -17,4 +17,19 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81
 NotreDame -> Middletown[label="31.7
 04/20", weight="69", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
+Hopkins -> NotreDame[label="10.04
+05/04", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+NMH -> NotreDame[label="7.07
+05/04", weight="93", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+LymeOldLyme -> NotreDame[label="4.92
+05/04", weight="96", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hotchkiss -> NotreDame[label="4.3
+05/04", weight="96", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Taft -> NotreDame[label="5.38
+05/04", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

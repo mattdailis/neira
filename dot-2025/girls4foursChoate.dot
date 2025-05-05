@@ -1,4 +1,4 @@
-digraph girls4foursChoate {BerkshireAcademy [URL="girls4foursChoateBerkshireAcademy.html"];Choate [URL="girls4foursChoateChoate.html"];Winsor [URL="girls4foursChoateWinsor.html"];CambridgeRLS [URL="girls4foursChoateCambridgeRLS.html"];Taft [URL="girls4foursChoateTaft.html"];Choate -> BerkshireAcademy[label="19.5
+digraph girls4foursChoate {NMH [URL="girls4foursChoateNMH.html"];CambridgeRLS [URL="girls4foursChoateCambridgeRLS.html"];Winsor [URL="girls4foursChoateWinsor.html"];Taft [URL="girls4foursChoateTaft.html"];Hopkins [URL="girls4foursChoateHopkins.html"];Choate [URL="girls4foursChoateChoate.html"];BerkshireAcademy [URL="girls4foursChoateBerkshireAcademy.html"];Hotchkiss [URL="girls4foursChoateHotchkiss.html"];Choate -> BerkshireAcademy[label="19.5
 04/19", weight="81", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -15,4 +15,16 @@ Choate -> CambridgeRLS[label="14.4 (16.62)
 04/30", weight="86", tooltip="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge & Latin School (CRLS)			
 Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
 Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting--CRLS: 5:15.71 Choate: 5:52.01.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&cat=1", random="random"]; 
+Choate -> Hopkins[label="6.13
+05/04", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Choate -> NMH[label="7.54
+05/04", weight="93", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Choate -> Hotchkiss[label="11.89
+05/04", weight="89", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Choate -> Taft[label="18.0
+05/04", weight="82", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

@@ -1,4 +1,4 @@
-digraph boys2foursTaft {Choate [URL="boys2foursTaftChoate.html"];BerkshireAcademy [URL="boys2foursTaftBerkshireAcademy.html"];DexterSouthfield [URL="boys2foursTaftDexterSouthfield.html"];Groton [URL="boys2foursTaftGroton.html"];Pomfret [URL="boys2foursTaftPomfret.html"];Taft [URL="boys2foursTaftTaft.html"];Taft -> BerkshireAcademy[label="28.9
+digraph boys2foursTaft {NMH [URL="boys2foursTaftNMH.html"];DexterSouthfield [URL="boys2foursTaftDexterSouthfield.html"];Groton [URL="boys2foursTaftGroton.html"];Taft [URL="boys2foursTaftTaft.html"];Pomfret [URL="boys2foursTaftPomfret.html"];Choate [URL="boys2foursTaftChoate.html"];Hopkins [URL="boys2foursTaftHopkins.html"];LymeOldLyme [URL="boys2foursTaftLymeOldLyme.html"];BerkshireAcademy [URL="boys2foursTaftBerkshireAcademy.html"];Hotchkiss [URL="boys2foursTaftHotchkiss.html"];Taft -> BerkshireAcademy[label="28.9
 04/19", weight="72", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -20,4 +20,19 @@ Taft -> DexterSouthfield[label="28.7
 04/26", weight="72", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
 Dexter-Southfield rowed their novice boat in the B5 race.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]; 
+NMH -> Taft[label="5.53
+05/04", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Taft -> Hotchkiss[label="6.12
+05/04", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Taft -> LymeOldLyme[label="7.41
+05/04", weight="93", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Taft -> Hopkins[label="10.54
+05/04", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Taft -> Pomfret[label="18.58
+05/04", weight="82", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

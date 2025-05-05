@@ -1,4 +1,4 @@
-digraph boys4foursHopkins {BelmontHill [URL="boys4foursHopkinsBelmontHill.html"];Brooks [URL="boys4foursHopkinsBrooks.html"];Hopkins [URL="boys4foursHopkinsHopkins.html"];CambridgeRLS [URL="boys4foursHopkinsCambridgeRLS.html"];NMH [URL="boys4foursHopkinsNMH.html"];Middlesex [URL="boys4foursHopkinsMiddlesex.html"];Brooks -> Hopkins[label="64.0
+digraph boys4foursHopkins {Brooks [URL="boys4foursHopkinsBrooks.html"];NMH [URL="boys4foursHopkinsNMH.html"];Middlesex [URL="boys4foursHopkinsMiddlesex.html"];CambridgeRLS [URL="boys4foursHopkinsCambridgeRLS.html"];Taft [URL="boys4foursHopkinsTaft.html"];Hopkins [URL="boys4foursHopkinsHopkins.html"];Pomfret [URL="boys4foursHopkinsPomfret.html"];Hotchkiss [URL="boys4foursHopkinsHotchkiss.html"];BelmontHill [URL="boys4foursHopkinsBelmontHill.html"];Brooks -> Hopkins[label="64.0
 04/26", weight="36", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -21,4 +21,16 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343
 NMH -> Hopkins[label="59.5
 04/19", weight="41", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
 Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]; 
+Taft -> Hopkins[label="34.51
+05/04", weight="66", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+NMH -> Hopkins[label="8.76
+05/04", weight="92", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Pomfret -> Hopkins[label="3.88
+05/04", weight="97", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> Hotchkiss[label="0.72
+05/04", weight="100", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

@@ -1,4 +1,4 @@
-digraph boys3foursHopkins {BelmontHill [URL="boys3foursHopkinsBelmontHill.html"];Brooks [URL="boys3foursHopkinsBrooks.html"];Pomfret [URL="boys3foursHopkinsPomfret.html"];Hopkins [URL="boys3foursHopkinsHopkins.html"];CambridgeRLS [URL="boys3foursHopkinsCambridgeRLS.html"];NMH [URL="boys3foursHopkinsNMH.html"];Middlesex [URL="boys3foursHopkinsMiddlesex.html"];Brooks -> Hopkins[label="26.0
+digraph boys3foursHopkins {Brooks [URL="boys3foursHopkinsBrooks.html"];NMH [URL="boys3foursHopkinsNMH.html"];Middlesex [URL="boys3foursHopkinsMiddlesex.html"];CambridgeRLS [URL="boys3foursHopkinsCambridgeRLS.html"];Taft [URL="boys3foursHopkinsTaft.html"];Hopkins [URL="boys3foursHopkinsHopkins.html"];Pomfret [URL="boys3foursHopkinsPomfret.html"];BerkshireAcademy [URL="boys3foursHopkinsBerkshireAcademy.html"];Hotchkiss [URL="boys3foursHopkinsHotchkiss.html"];BelmontHill [URL="boys3foursHopkinsBelmontHill.html"];Brooks -> Hopkins[label="26.0
 04/26", weight="74", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -25,4 +25,19 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343
 Hopkins -> Pomfret[label="11.3
 04/19", weight="89", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
 Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]; 
+Taft -> Hopkins[label="10.67
+05/04", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hotchkiss -> Hopkins[label="6.81
+05/04", weight="94", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+NMH -> Hopkins[label="1.5
+05/04", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> BerkshireAcademy[label="15.87
+05/04", weight="85", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Hopkins -> Pomfret[label="20.03
+05/04", weight="80", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

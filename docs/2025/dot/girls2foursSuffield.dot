@@ -1,0 +1,15 @@
+digraph girls2foursSuffield {Canterbury [URL="girls2foursSuffieldCanterbury.html"];FrederickGunn [URL="girls2foursSuffieldFrederickGunn.html"];Pomfret [URL="girls2foursSuffieldPomfret.html"];Hopkins [URL="girls2foursSuffieldHopkins.html"];LymeOldLyme [URL="girls2foursSuffieldLymeOldLyme.html"];Suffield [URL="girls2foursSuffieldSuffield.html"];Suffield -> LymeOldLyme[label="1.87
+05/04", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Suffield -> Hopkins[label="3.97
+05/04", weight="97", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Suffield -> FrederickGunn[label="13.47
+05/04", weight="87", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Suffield -> Pomfret[label="20.04
+05/04", weight="80", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+Suffield -> Canterbury[label="101.0
+05/04", weight="-1", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}

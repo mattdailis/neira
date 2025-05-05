@@ -1,21 +1,36 @@
 <map id="boys2foursHotchkiss" name="boys2foursHotchkiss">
-<area shape="poly" id="node1" href="boys2foursHotchkissHotchkiss.html" title="Hotchkiss" alt="" coords="348,29,345,22,336,15,322,10,304,7,285,5,265,7,247,10,233,15,224,22,221,29,224,37,233,43,247,49,265,52,285,53,304,52,322,49,336,43,345,37"/>
-<area shape="poly" id="node2" href="boys2foursHotchkissNotreDame.html" title="NotreDame" alt="" coords="150,169,147,162,137,155,121,150,100,147,78,145,55,147,35,150,19,155,9,162,5,169,9,177,19,183,35,189,55,192,78,193,100,192,121,189,137,183,147,177"/>
-<area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
-Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
-None" alt="" coords="256,53,123,141,120,137,253,49"/>
-<area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&amp;cat=5" title="6.2
-04/20" alt="" coords="212,77,253,121"/>
-<area shape="poly" id="node3" href="boys2foursHotchkissBerkshireAcademy.html" title="BerkshireAcademy" alt="" coords="395,169,389,162,374,155,349,150,319,147,285,145,251,147,220,150,195,155,180,162,174,169,180,177,195,183,220,189,251,192,285,193,319,192,349,189,374,183,389,177"/>
-<area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire School vs. Hotchkiss			
-Distance: 1500 M Conditions: Chilly and cloudy with variable cross headwinds building over the afternoon; strongest in the middle 500. Generally flat water with some slight chop in middle 500. Comments: Order of racing: G3&#45;B4&#45;G2&#45;B3&#45;G1&#45;B2&#45;G4&#45;B1. Berkshire hotseated between G3 and G4. Great to be able to welcome our neighbors to the world of fours racing.
-None" alt="" coords="287,54,287,130,282,130,282,54"/>
-<area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&amp;cat=5" title="19.6
-04/16" alt="" coords="285,77,326,121"/>
-<area shape="poly" id="node4" href="boys2foursHotchkissMiddletown.html" title="Middletown" alt="" coords="569,169,566,162,555,155,538,150,517,147,494,145,471,147,450,150,433,155,422,162,419,169,422,177,433,183,450,189,471,192,494,193,517,192,538,189,555,183,566,177"/>
+<area shape="poly" id="node1" href="boys2foursHotchkissNMH.html" title="NMH" alt="" coords="346,29,344,22,337,15,328,10,316,7,302,5,288,7,276,10,266,15,260,22,258,29,260,37,266,43,276,49,288,52,302,53,316,52,328,49,337,43,344,37"/>
+<area shape="poly" id="node9" href="boys2foursHotchkissHotchkiss.html" title="Hotchkiss" alt="" coords="470,169,467,162,457,155,443,150,426,147,406,145,386,147,369,150,354,155,345,162,342,169,345,177,354,183,369,189,386,192,406,193,426,192,443,189,457,183,467,177"/>
+<area shape="poly" id="edge4" title="Founder&#39;s Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="316,51,362,120,374,134,370,138,358,123,312,54"/>
+<area shape="poly" id="node2" href="boys2foursHotchkissMiddletown.html" title="Middletown" alt="" coords="156,309,152,302,142,295,125,290,104,287,81,285,57,287,36,290,20,295,9,302,5,309,9,317,20,323,36,329,57,332,81,333,104,332,125,329,142,323,152,317"/>
+<area shape="poly" id="node3" href="boys2foursHotchkissNotreDame.html" title="NotreDame" alt="" coords="325,309,322,302,311,295,295,290,275,287,253,285,230,287,210,290,194,295,184,302,180,309,184,317,194,323,210,329,230,332,253,333,275,332,295,329,311,323,322,317"/>
+<area shape="poly" id="node4" href="boys2foursHotchkissTaft.html" title="Taft" alt="" coords="442,29,440,22,435,15,427,10,417,7,406,5,395,7,385,10,377,15,372,22,370,29,372,37,377,43,385,49,395,52,406,53,417,52,427,49,435,43,440,37"/>
+<area shape="poly" id="edge5" title="Founder&#39;s Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="409,54,409,130,403,130,403,54"/>
+<area shape="poly" id="node5" href="boys2foursHotchkissHopkins.html" title="Hopkins" alt="" coords="462,309,459,302,451,295,439,290,423,287,406,285,389,287,373,290,361,295,353,302,350,309,353,317,361,323,373,329,389,332,406,333,423,332,439,329,451,323,459,317"/>
+<area shape="poly" id="node6" href="boys2foursHotchkissPomfret.html" title="Pomfret" alt="" coords="595,309,593,302,585,295,573,290,558,287,541,285,524,287,508,290,496,295,488,302,486,309,488,317,496,323,508,329,524,332,541,333,558,332,573,329,585,323,593,317"/>
+<area shape="poly" id="node7" href="boys2foursHotchkissLymeOldLyme.html" title="LymeOldLyme" alt="" coords="803,309,798,302,785,295,765,290,740,287,711,285,683,287,657,290,637,295,624,302,620,309,624,317,637,323,657,329,683,332,711,333,740,332,765,329,785,323,798,317"/>
+<area shape="poly" id="node8" href="boys2foursHotchkissBerkshireAcademy.html" title="BerkshireAcademy" alt="" coords="1047,309,1041,302,1026,295,1001,290,971,287,937,285,903,287,872,290,848,295,832,302,827,309,832,317,848,323,872,329,903,332,937,333,971,332,1001,329,1026,323,1041,317"/>
 <area shape="poly" id="edge2" href="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
-None" alt="" coords="317,49,451,137,448,141,314,53"/>
+None" alt="" coords="356,187,261,220,192,251,131,283,129,278,190,246,259,215,355,182"/>
 <area shape="rect" id="edge2-label" href="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&amp;cat=5" title="17.1
-04/20" alt="" coords="420,77,461,121"/>
+04/20" alt="" coords="260,217,301,261"/>
+<area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
+Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
+None" alt="" coords="384,194,290,278,286,274,380,190"/>
+<area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&amp;cat=5" title="6.2
+04/20" alt="" coords="352,217,393,261"/>
+<area shape="poly" id="edge7" title="Founder&#39;s Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="409,194,409,270,403,270,403,194"/>
+<area shape="poly" id="edge8" title="Founder&#39;s Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="430,191,455,215,512,274,508,278,451,219,426,194"/>
+<area shape="poly" id="edge6" title="Founder&#39;s Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="455,183,542,215,606,246,664,277,661,282,603,251,540,220,453,188"/>
+<area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire School vs. Hotchkiss			
+Distance: 1500 M Conditions: Chilly and cloudy with variable cross headwinds building over the afternoon; strongest in the middle 500. Generally flat water with some slight chop in middle 500. Comments: Order of racing: G3&#45;B4&#45;G2&#45;B3&#45;G1&#45;B2&#45;G4&#45;B1. Berkshire hotseated between G3 and G4. Great to be able to welcome our neighbors to the world of fours racing.
+None" alt="" coords="466,176,563,191,673,215,779,246,872,280,870,285,777,251,672,220,563,197,465,181"/>
+<area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&amp;cat=5" title="19.6
+04/16" alt="" coords="811,217,852,261"/>
 </map>

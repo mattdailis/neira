@@ -1,0 +1,59 @@
+{
+    "comment": "\nDistance: 1201 Conditions: Order of races 1VG, 1VB, 2VG, 2VB, NB, NG, 3VB. Stake boats.\r\n15mph Headwind for first 3races, decreasing to under 5 mph Head win, for the last races once the rain started. Comments: In the Boys 1VB Fairfield Prep boat lost a collar on an oar with 500m to go.  Rowed with 7 rowers the rest of the way.\r\n\r\nThank you for Avon and Fairfield Prep making the trip and a fun day of racing.\r\n\nNone",
+    "day": "2025-05-04",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "3:58.2",
+                    "school": "Farmington"
+                },
+                {
+                    "margin_from_winner": 21.4,
+                    "raw_time": "4:19.6",
+                    "school": "Fairfield Prep"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:15.7",
+                    "school": "Fairfield Prep"
+                },
+                {
+                    "margin_from_winner": 11.1,
+                    "raw_time": "4:26.8",
+                    "school": "Farmington"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:29.1",
+                    "school": "Fairfield Prep"
+                },
+                {
+                    "margin_from_winner": 4.7,
+                    "raw_time": "4:33.8",
+                    "school": "Farmington"
+                }
+            ],
+            "varsity_index": "4"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Eights,Fairfield Prep, Farmington High School, Avon",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=EEDE0779D930B65B65EABC9F7BA090B0&cat=5"
+}
