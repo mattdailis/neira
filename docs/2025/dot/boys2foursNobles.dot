@@ -1,4 +1,8 @@
-digraph boys2foursNobles {BBN [URL="boys2foursNoblesBBN.html"];Nobles [URL="boys2foursNoblesNobles.html"];BrewsterAcademy [URL="boys2foursNoblesBrewsterAcademy.html"];StMarks [URL="boys2foursNoblesStMarks.html"];Groton [URL="boys2foursNoblesGroton.html"];NotreDame [URL="boys2foursNoblesNotreDame.html"];Nobles -> Groton[label="4.0 (4.44)
+digraph boys2foursNobles {BelmontHill [URL="boys2foursNoblesBelmontHill.html"];Nobles [URL="boys2foursNoblesNobles.html"];Groton [URL="boys2foursNoblesGroton.html"];NotreDame [URL="boys2foursNoblesNotreDame.html"];BrewsterAcademy [URL="boys2foursNoblesBrewsterAcademy.html"];BBN [URL="boys2foursNoblesBBN.html"];StMarks [URL="boys2foursNoblesStMarks.html"];BelmontHill -> Nobles[label="14.1 (16.27)
+05/04", weight="86", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
+Distance: 1300m Conditions: Order of racing: 4V4-3V4-2V4-1V4-4V8-6V4-9V4-5V4. Building direct headwind for the first three races, strongest for the 2V4; the wind then lessened and shifted to a cross/cross headwind for the 1V4 and remaining races Comments: Thanks to Nobles for being patient and supportive through yesterday's weather-related postponement and for a great day of racing with our full programs today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=96DF6AF2C5DADCD1EB91A4088A314B11&cat=1", random="random"]; 
+Nobles -> Groton[label="4.0 (4.44)
 04/19", weight="96", tooltip="NEIRA Boys & Girls Fours,BB&N, Nobles and Groton			
 Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1-2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
 Boys 7th/8th - Nobles 2:49, BB&N 3:05

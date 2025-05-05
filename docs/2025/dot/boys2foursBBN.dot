@@ -1,4 +1,4 @@
-digraph boys2foursBBN {BelmontHill [URL="boys2foursBBNBelmontHill.html"];BBN [URL="boys2foursBBNBBN.html"];Nobles [URL="boys2foursBBNNobles.html"];Berwick [URL="boys2foursBBNBerwick.html"];CambridgeRLS [URL="boys2foursBBNCambridgeRLS.html"];Groton [URL="boys2foursBBNGroton.html"];BBN -> Berwick[label="32.6 (36.22)
+digraph boys2foursBBN {BelmontHill [URL="boys2foursBBNBelmontHill.html"];Nobles [URL="boys2foursBBNNobles.html"];Groton [URL="boys2foursBBNGroton.html"];BBN [URL="boys2foursBBNBBN.html"];Berwick [URL="boys2foursBBNBerwick.html"];CambridgeRLS [URL="boys2foursBBNCambridgeRLS.html"];Middlesex [URL="boys2foursBBNMiddlesex.html"];BBN -> Berwick[label="32.6 (36.22)
 04/05", weight="68", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Berwick Academy			
 Distance: 1350 Conditions: Overall very good conditions and flat water. Very slight cross wind but consistent for all races. Thanks to Berwick for making the trip!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CE456225129ACDB361E1BEAB29CB57A4&cat=5", random="random"]; 
@@ -16,6 +16,11 @@ Boys 7th/8th - Nobles 2:49, BB&N 3:05
 Girls 8th - BB&N 3:11, Nobles 3:17
 Girls 7th - 3:24.32, BB&N 3:32.06
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+Middlesex -> BBN[label="4.3 (4.78)
+05/03", weight="96", tooltip="NEIRA Boys Fours, BB&N vs. Middlesex			
+Distance: 1350 Conditions: Strong headwind (~20 mph) with occasional whitecaps throughout racing, getting stronger towards the finish line. The wind seemed to lighten up a little at the start of the 1st boat race. Order of racing was 4, 3, 2, 1. Comments: The wind made it challenging for all coxswains to maintain good courses. In the last 300 meters of the 3rd boat race, both teams veered off course a bit such that they ended up in each other's lane. It did not impact margin or finish order. 
+In the last 200 meters of the 1st boat race, both coxswains steered slightly towards each other, causing them to get very close to oars clashing a couple of times but never made contact with each other. Puddles overlapped for about 5 strokes. This did not alter order of finish but may have impacted the margin. Thanks to Middlesex for making the trip and toughing out the wind!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A1B18FFDBF0CE8C0AEA37E726ACFEA18&cat=1", random="random"]; 
 CambridgeRLS -> BBN[label="1.4 (1.56)
 04/23", weight="99", tooltip="NEIRA Boys Fours, BB&N, CRLS and Thayer (Mayor's Cup)			
 Distance: 1350 Conditions: Slight cross tailwind getting stronger throughout the afternoon. Order of races 4, 3, 2, 1. Thanks to Thayer for making the trip! Comments: During the last 250m of the 3rd boat race, the Charles River Cruise Ship was coming upstream causing both coxswains to divert their course slightly to starboard. The coxswains handled it quite well, and it did not impact order of finish. 

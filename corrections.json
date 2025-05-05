@@ -150,6 +150,15 @@
             }
         ]
     },
+    "44DC8DB764F9F16FD4F02B5483047F33": {
+        "checksum": "7fab11fb4b95a36396d8a2112c32a395",
+        "corrections": [
+            {
+                "class": "eights",
+                "type": "set_class_all_heats"
+            }
+        ]
+    },
     "47CD1CE74D9D1669EFF946ECF260ECEB": {
         "checksum": "cdd1caa2cfa1290b405e0030ac78b568",
         "corrections": [
@@ -294,6 +303,10 @@
         "checksum": "00828b848078d787c1812604536b412a",
         "corrections": []
     },
+    "91F3F9DD7685A72A2A150CBEC065CFAA": {
+        "checksum": "a0cdff8ffc1f7078ad992525a9c4277a",
+        "corrections": []
+    },
     "94579D9D5FBE5D07A878B5A16B5F3FFC": {
         "checksum": "20f4757e8d038057c06a969ac6adbd90",
         "corrections": []
@@ -306,6 +319,10 @@
                 "type": "set_class_all_heats"
             }
         ]
+    },
+    "96DF6AF2C5DADCD1EB91A4088A314B11": {
+        "checksum": "a87ee15dfdfe3e63458c26e25bb04579",
+        "corrections": []
     },
     "97F7AB1A3583B5AD0B685E7720855CFF": {
         "checksum": "0e3df3ae1f07a3b339d7e0eeacf0d555",
@@ -321,6 +338,14 @@
     },
     "9DD115CE4A91B368B80F5DF823705F97": {
         "checksum": "9ceb871f69d6fa8e163226d6bc72269c",
+        "corrections": []
+    },
+    "A160D3395A9521C6012812C95AC5B8E8": {
+        "checksum": "2f7a452e8aa3f2801d707a29ef172e02",
+        "corrections": []
+    },
+    "A1B18FFDBF0CE8C0AEA37E726ACFEA18": {
+        "checksum": "831cf379c14110be0a5dbf88c29f4bc4",
         "corrections": []
     },
     "A209E2EC05D6A0148020795D781654C0": {
@@ -362,6 +387,10 @@
         "checksum": "c3788736e4036cfa151b8e1e9ee4cb9f",
         "corrections": []
     },
+    "C0A667AC590FE5718558E9A6F520C24B": {
+        "checksum": "30f7347725a30f11feabc0877b05fbfc",
+        "corrections": []
+    },
     "C1846FF4D524939343D2F034713639A4": {
         "checksum": "105ca6a43a09c8af1582734d0f9a4599",
         "corrections": [
@@ -400,6 +429,10 @@
                 "type": "ignore_heats"
             }
         ]
+    },
+    "D27CC871138C3E791602802FD4420F5F": {
+        "checksum": "f657170dc0447c0b4c5eaa517a143593",
+        "corrections": []
     },
     "DA96BB9A8B319E7904A112FB8A8D4E0E": {
         "checksum": "b18d1dc6ba9ec6c6255337387d2efd68",
@@ -481,6 +514,10 @@
     },
     "FD9BF2C36AB3E5D3343A43D22FCCB16E": {
         "checksum": "fea593165ca6d4880b3e263543a406ac",
+        "corrections": []
+    },
+    "FF45AC48CF863069B998EA93AF28A674": {
+        "checksum": "40571a484be6a2d6f650e7030f85f2fd",
         "corrections": []
     }
 }

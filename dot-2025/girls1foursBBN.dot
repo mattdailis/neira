@@ -1,4 +1,4 @@
-digraph girls1foursBBN {BBN [URL="girls1foursBBNBBN.html"];Nobles [URL="girls1foursBBNNobles.html"];GreenwichAcademy [URL="girls1foursBBNGreenwichAcademy.html"];Berwick [URL="girls1foursBBNBerwick.html"];Thayer [URL="girls1foursBBNThayer.html"];Winsor [URL="girls1foursBBNWinsor.html"];CambridgeRLS [URL="girls1foursBBNCambridgeRLS.html"];Groton [URL="girls1foursBBNGroton.html"];BBN -> Berwick[label="78.0 (86.67)
+digraph girls1foursBBN {Thayer [URL="girls1foursBBNThayer.html"];Nobles [URL="girls1foursBBNNobles.html"];Groton [URL="girls1foursBBNGroton.html"];BBN [URL="girls1foursBBNBBN.html"];Winsor [URL="girls1foursBBNWinsor.html"];GreenwichAcademy [URL="girls1foursBBNGreenwichAcademy.html"];NewtonCountryDay [URL="girls1foursBBNNewtonCountryDay.html"];CambridgeRLS [URL="girls1foursBBNCambridgeRLS.html"];Berwick [URL="girls1foursBBNBerwick.html"];Middlesex [URL="girls1foursBBNMiddlesex.html"];BBN -> Berwick[label="78.0 (86.67)
 04/05", weight="22", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Berwick Academy			
 Distance: 1350 Conditions: Overall very good conditions and flat water. Very slight cross wind but consistent for all races. Thanks to Berwick for making the trip!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CE456225129ACDB361E1BEAB29CB57A4&cat=5", random="random"]; 
@@ -13,6 +13,14 @@ BB&N 2V broke their skeg during their warmup and hot-seated into the 5V crew's s
 Congrats to all crews and especially the coxswains for getting lined up and navigating challenging wind conditions and river traffic.
 Thanks to BB&N for great early-season racing and flexibility in rescheduling to a weekday afternoon!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=181E3474D2FC1C1BDC3CD092B1E1976C&cat=1", random="random"]; 
+Middlesex -> BBN[label="6.0
+05/03", weight="94", tooltip="NEIRA Girls Fours, Middlesex v BBN & NCDS			
+Distance: 1500m Conditions: Gusting tailwind and chop. and sometimes cross tail throughout. Reverse Order, Some crews started over the line. In G4 race a NCDS boat waring up cause BBN to swerve, it did not effect results, may have effected the margin.. In the G1 race MX coxswain got dizzy and verred off course, but corrected and stay in her bouyed lane it did not effect results,may have effected the margin. Comments: Thanks BBN & NCDS for coming and egtting races in before the storm!!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D27CC871138C3E791602802FD4420F5F&cat=1", random="random"]; 
+NewtonCountryDay -> BBN[label="1.0
+05/03", weight="99", tooltip="NEIRA Girls Fours, Middlesex v BBN & NCDS			
+Distance: 1500m Conditions: Gusting tailwind and chop. and sometimes cross tail throughout. Reverse Order, Some crews started over the line. In G4 race a NCDS boat waring up cause BBN to swerve, it did not effect results, may have effected the margin.. In the G1 race MX coxswain got dizzy and verred off course, but corrected and stay in her bouyed lane it did not effect results,may have effected the margin. Comments: Thanks BBN & NCDS for coming and egtting races in before the storm!!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D27CC871138C3E791602802FD4420F5F&cat=1", random="random"]; 
 Nobles -> BBN[label="16.0 (17.78)
 04/19", weight="84", tooltip="NEIRA Boys & Girls Fours,BB&N, Nobles and Groton			
 Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1-2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 

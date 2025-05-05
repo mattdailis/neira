@@ -1,4 +1,8 @@
-digraph boys5foursBelmontHill {BelmontHill [URL="boys5foursBelmontHillBelmontHill.html"];Hopkins [URL="boys5foursBelmontHillHopkins.html"];BBN [URL="boys5foursBelmontHillBBN.html"];BelmontHill -> BBN[label="36.0 (40.0)
+digraph boys5foursBelmontHill {Nobles [URL="boys5foursBelmontHillNobles.html"];Hopkins [URL="boys5foursBelmontHillHopkins.html"];BelmontHill [URL="boys5foursBelmontHillBelmontHill.html"];BBN [URL="boys5foursBelmontHillBBN.html"];BelmontHill -> Nobles[label="15.4 (17.77)
+05/04", weight="85", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
+Distance: 1300m Conditions: Order of racing: 4V4-3V4-2V4-1V4-4V8-6V4-9V4-5V4. Building direct headwind for the first three races, strongest for the 2V4; the wind then lessened and shifted to a cross/cross headwind for the 1V4 and remaining races Comments: Thanks to Nobles for being patient and supportive through yesterday's weather-related postponement and for a great day of racing with our full programs today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=96DF6AF2C5DADCD1EB91A4088A314B11&cat=1", random="random"]; 
+BelmontHill -> BBN[label="36.0 (40.0)
 04/26", weight="64", tooltip="NEIRA Boys Fours, The Ducey Cup: Belmont Hill vs. BB&N			
 Distance: 1350m Conditions: consistent very strong headwind throughout all racing, heavy rain through the first four races that stopped for the 1st boat race. Comments: Very unpleasant conditions.
 Strong work from all coxswains.

@@ -1,0 +1,208 @@
+{
+    "comment": "\nDistance: 1650 Conditions: Variable conditions. 10-15 mph headwind against the current for B4, B5, G4, G5 races. Calm conditions, 5mph crosswind for B1, B2, B3, G1, G2, G3. Comments: In the girls' 5th boat race, times were not taken. The margin is recorded as the time from the winning crew.\r\n\r\nThank you to all crews for making the trip and staying flexible. As a result of thunderstorms, racing was delayed from 4:30pm to 7pm for the B1-3 and G1-3 crews. All crews managed the uncertainty and raced well.\r\n\r\nThank you to St. Paul's for supporting the addition of Kent to this race to make up our canceled race on April 12.\r\n\r\nThank you to Kent for making the extra effort to get these races in. In the racing between Kent and Andover, Andover wins the Perry and Brown Trophy (Boys' 1st boat) and the Hart Perry Cup (Girls' 1st boat).\r\n\nNone",
+    "day": "2025-05-03",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:38.8",
+                    "school": "Andover"
+                },
+                {
+                    "margin_from_winner": 3.6,
+                    "raw_time": "4:42.4",
+                    "school": "Kent"
+                },
+                {
+                    "margin_from_winner": 8.8,
+                    "raw_time": "4:47.6",
+                    "school": "St. Paul's"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:51.2",
+                    "school": "Andover"
+                },
+                {
+                    "margin_from_winner": 2.3,
+                    "raw_time": "4:53.5",
+                    "school": "Kent"
+                },
+                {
+                    "margin_from_winner": 16.5,
+                    "raw_time": "5:07.7",
+                    "school": "St. Paul's"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:55.0",
+                    "school": "Andover"
+                },
+                {
+                    "margin_from_winner": 7.8,
+                    "raw_time": "5:02.8",
+                    "school": "St. Paul's"
+                },
+                {
+                    "margin_from_winner": 13.3,
+                    "raw_time": "5:08.3",
+                    "school": "Kent"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:33.0",
+                    "school": "Andover"
+                },
+                {
+                    "margin_from_winner": 40.5,
+                    "raw_time": "6:13.5",
+                    "school": "St. Paul's"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:07.5",
+                    "school": "Andover"
+                },
+                {
+                    "margin_from_winner": 42.4,
+                    "raw_time": "6:49.9",
+                    "school": "St. Paul's"
+                }
+            ],
+            "varsity_index": "5"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:13.8",
+                    "school": "Andover"
+                },
+                {
+                    "margin_from_winner": 5.0,
+                    "raw_time": "5:18.8",
+                    "school": "St. Paul's"
+                },
+                {
+                    "margin_from_winner": 11.1,
+                    "raw_time": "5:24.9",
+                    "school": "Kent"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:21.9",
+                    "school": "Andover"
+                },
+                {
+                    "margin_from_winner": 8.5,
+                    "raw_time": "5:30.4",
+                    "school": "Kent"
+                },
+                {
+                    "margin_from_winner": 9.4,
+                    "raw_time": "5:31.3",
+                    "school": "St. Paul's"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:33.5",
+                    "school": "Andover"
+                },
+                {
+                    "margin_from_winner": 6.9,
+                    "raw_time": "5:40.4",
+                    "school": "St. Paul's"
+                },
+                {
+                    "margin_from_winner": 16.4,
+                    "raw_time": "5:49.9",
+                    "school": "Kent"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:14.5",
+                    "school": "Andover"
+                },
+                {
+                    "margin_from_winner": 35.0,
+                    "raw_time": "6:49.5",
+                    "school": "St. Paul's"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "",
+                    "school": "St. Paul's"
+                },
+                {
+                    "margin_from_winner": null,
+                    "raw_time": "+3.6\"",
+                    "school": "Andover"
+                }
+            ],
+            "varsity_index": "5"
+        }
+    ],
+    "regatta_display_name": "NEIRA,Andover, St. Paul's, Kent",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=44DC8DB764F9F16FD4F02B5483047F33&cat=5"
+}

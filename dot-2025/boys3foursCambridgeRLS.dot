@@ -1,4 +1,10 @@
-digraph boys3foursCambridgeRLS {Brooks [URL="boys3foursCambridgeRLSBrooks.html"];BBN [URL="boys3foursCambridgeRLSBBN.html"];NMH [URL="boys3foursCambridgeRLSNMH.html"];Hopkins [URL="boys3foursCambridgeRLSHopkins.html"];CambridgeRLS [URL="boys3foursCambridgeRLSCambridgeRLS.html"];Middlesex [URL="boys3foursCambridgeRLSMiddlesex.html"];Brooks -> CambridgeRLS[label="7.0
+digraph boys3foursCambridgeRLS {Groton [URL="boys3foursCambridgeRLSGroton.html"];Brooks [URL="boys3foursCambridgeRLSBrooks.html"];BBN [URL="boys3foursCambridgeRLSBBN.html"];Hopkins [URL="boys3foursCambridgeRLSHopkins.html"];CambridgeRLS [URL="boys3foursCambridgeRLSCambridgeRLS.html"];NMH [URL="boys3foursCambridgeRLSNMH.html"];Middlesex [URL="boys3foursCambridgeRLSMiddlesex.html"];Groton -> CambridgeRLS[label="11.0 (13.31)
+05/03", weight="89", tooltip="NEIRA Boys & Girls Fours,CRLS at Groton			
+Distance: 1240 m Conditions: A tail wind was significant in the first races, by the time o the first boats, n0 wind at all. Very little current; the river is very low.We finished the last race just before thunder and lightning began. Minimal rain. Comments: Racing order:
+G5, B5, G4, B4, G2, B2, G3, B3, G1, B1
+Good competition. Good fun.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FF45AC48CF863069B998EA93AF28A674&cat=5", random="random"]; 
+Brooks -> CambridgeRLS[label="7.0
 04/26", weight="93", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 

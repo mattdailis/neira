@@ -1,0 +1,76 @@
+{
+    "comment": "\nDistance: 1350 Conditions: Strong headwind (~20 mph) with occasional whitecaps throughout racing, getting stronger towards the finish line. The wind seemed to lighten up a little at the start of the 1st boat race.  Order of racing was 4, 3, 2, 1. Comments: The wind made it challenging for all coxswains to maintain good courses.  In the last 300 meters of the 3rd boat race, both teams veered off course a bit such that they ended up in each other's lane.  It did not impact margin or finish order.  \r\n\r\nIn the last 200 meters of the 1st boat race, both coxswains steered slightly towards each other, causing them to get very close to oars clashing a couple of times but never made contact with each other.  Puddles overlapped for about 5 strokes.  This did not alter order of finish but may have impacted the margin.  Thanks to Middlesex for making the trip and toughing out the wind!\r\n\nNone",
+    "day": "2025-05-03",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:10.43",
+                    "school": "BB&N"
+                },
+                {
+                    "margin_from_winner": 2.7,
+                    "raw_time": "5:13.13",
+                    "school": "Middlesex"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:22.01",
+                    "school": "Middlesex"
+                },
+                {
+                    "margin_from_winner": 4.31,
+                    "raw_time": "5:26.32",
+                    "school": "BB&N"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:40.57",
+                    "school": "BB&N"
+                },
+                {
+                    "margin_from_winner": 15.76,
+                    "raw_time": "5:56.33",
+                    "school": "Middlesex"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:07.73",
+                    "school": "BB&N"
+                },
+                {
+                    "margin_from_winner": 17.45,
+                    "raw_time": "6:25.18",
+                    "school": "Middlesex"
+                }
+            ],
+            "varsity_index": "4"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys Fours, BB&N vs. Middlesex",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=A1B18FFDBF0CE8C0AEA37E726ACFEA18&cat=1"
+}
