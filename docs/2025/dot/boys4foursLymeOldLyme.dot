@@ -1,9 +1,9 @@
-digraph boys4foursLymeOldLyme {NMH [URL="boys4foursLymeOldLymeNMH.html"];Pomfret [URL="boys4foursLymeOldLymePomfret.html"];Hopkins [URL="boys4foursLymeOldLymeHopkins.html"];LymeOldLyme [URL="boys4foursLymeOldLymeLymeOldLyme.html"];NMH -> LymeOldLyme[label="15.37
+digraph boys4foursLymeOldLyme {Hopkins [URL="boys4foursLymeOldLymeHopkins.html"];Pomfret [URL="boys4foursLymeOldLymePomfret.html"];LymeOldLyme [URL="boys4foursLymeOldLymeLymeOldLyme.html"];NMH [URL="boys4foursLymeOldLymeNMH.html"];NMH -> LymeOldLyme[label="15.37
 05/04", weight="85", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> LymeOldLyme[label="10.52
 05/04", weight="90", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> LymeOldLyme[label="5.41
 05/04", weight="95", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

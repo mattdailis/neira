@@ -1,4 +1,4 @@
-digraph boys4foursBerkshireAcademy {BrewsterAcademy [URL="boys4foursBerkshireAcademyBrewsterAcademy.html"];Hotchkiss [URL="boys4foursBerkshireAcademyHotchkiss.html"];BerkshireAcademy [URL="boys4foursBerkshireAcademyBerkshireAcademy.html"];Taft [URL="boys4foursBerkshireAcademyTaft.html"];Pomfret [URL="boys4foursBerkshireAcademyPomfret.html"];Taft -> BerkshireAcademy[label="47.5
+digraph boys4foursBerkshireAcademy {BrewsterAcademy [URL="boys4foursBerkshireAcademyBrewsterAcademy.html"];Pomfret [URL="boys4foursBerkshireAcademyPomfret.html"];Taft [URL="boys4foursBerkshireAcademyTaft.html"];BerkshireAcademy [URL="boys4foursBerkshireAcademyBerkshireAcademy.html"];Hotchkiss [URL="boys4foursBerkshireAcademyHotchkiss.html"];Taft -> BerkshireAcademy[label="47.5
 04/19", weight="53", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -12,10 +12,10 @@ Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occa
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]; 
 Taft -> BerkshireAcademy[label="42.59
 05/04", weight="58", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BrewsterAcademy -> BerkshireAcademy[label="30.42
 05/04", weight="70", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> BerkshireAcademy[label="32.01
 05/04", weight="68", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

@@ -1,4 +1,4 @@
-digraph girls4foursHotchkiss {Hotchkiss [URL="girls4foursHotchkissHotchkiss.html"];GreenwichCountryDay [URL="girls4foursHotchkissGreenwichCountryDay.html"];BerkshireAcademy [URL="girls4foursHotchkissBerkshireAcademy.html"];NMH [URL="girls4foursHotchkissNMH.html"];Taft [URL="girls4foursHotchkissTaft.html"];Pomfret [URL="girls4foursHotchkissPomfret.html"];Choate [URL="girls4foursHotchkissChoate.html"];Hopkins [URL="girls4foursHotchkissHopkins.html"];FrederickGunn [URL="girls4foursHotchkissFrederickGunn.html"];Hotchkiss -> GreenwichCountryDay[label="42.9
+digraph girls4foursHotchkiss {Hopkins [URL="girls4foursHotchkissHopkins.html"];Choate [URL="girls4foursHotchkissChoate.html"];NMH [URL="girls4foursHotchkissNMH.html"];Pomfret [URL="girls4foursHotchkissPomfret.html"];GreenwichCountryDay [URL="girls4foursHotchkissGreenwichCountryDay.html"];BerkshireAcademy [URL="girls4foursHotchkissBerkshireAcademy.html"];Taft [URL="girls4foursHotchkissTaft.html"];FrederickGunn [URL="girls4foursHotchkissFrederickGunn.html"];Hotchkiss [URL="girls4foursHotchkissHotchkiss.html"];Hotchkiss -> GreenwichCountryDay[label="42.9
 04/20", weight="58", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
@@ -8,19 +8,19 @@ Distance: 1500 M Conditions: Chilly and cloudy with variable cross headwinds bui
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&cat=5", random="random"]; 
 Choate -> Hotchkiss[label="11.89
 05/04", weight="89", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> Hotchkiss[label="5.76
 05/04", weight="95", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Hotchkiss[label="4.35
 05/04", weight="96", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Taft[label="6.11
 05/04", weight="94", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Pomfret[label="56.79
 05/04", weight="44", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> FrederickGunn[label="66.19
 05/04", weight="34", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

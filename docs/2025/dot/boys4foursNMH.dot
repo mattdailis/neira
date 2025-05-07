@@ -1,4 +1,4 @@
-digraph boys4foursNMH {Hotchkiss [URL="boys4foursNMHHotchkiss.html"];Brooks [URL="boys4foursNMHBrooks.html"];LymeOldLyme [URL="boys4foursNMHLymeOldLyme.html"];NMH [URL="boys4foursNMHNMH.html"];Middlesex [URL="boys4foursNMHMiddlesex.html"];Taft [URL="boys4foursNMHTaft.html"];BelmontHill [URL="boys4foursNMHBelmontHill.html"];Pomfret [URL="boys4foursNMHPomfret.html"];Hopkins [URL="boys4foursNMHHopkins.html"];CambridgeRLS [URL="boys4foursNMHCambridgeRLS.html"];Brooks -> NMH[label="43.0
+digraph boys4foursNMH {Hopkins [URL="boys4foursNMHHopkins.html"];Brooks [URL="boys4foursNMHBrooks.html"];CambridgeRLS [URL="boys4foursNMHCambridgeRLS.html"];NMH [URL="boys4foursNMHNMH.html"];Pomfret [URL="boys4foursNMHPomfret.html"];Middlesex [URL="boys4foursNMHMiddlesex.html"];BelmontHill [URL="boys4foursNMHBelmontHill.html"];Taft [URL="boys4foursNMHTaft.html"];LymeOldLyme [URL="boys4foursNMHLymeOldLyme.html"];Hotchkiss [URL="boys4foursNMHHotchkiss.html"];Brooks -> NMH[label="43.0
 04/26", weight="57", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -24,16 +24,16 @@ Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasio
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]; 
 Taft -> NMH[label="25.75
 05/04", weight="75", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Pomfret[label="4.88
 05/04", weight="96", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Hopkins[label="8.76
 05/04", weight="92", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Hotchkiss[label="9.48
 05/04", weight="91", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> LymeOldLyme[label="15.37
 05/04", weight="85", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

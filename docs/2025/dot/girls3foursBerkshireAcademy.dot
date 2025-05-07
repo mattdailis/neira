@@ -1,4 +1,4 @@
-digraph girls3foursBerkshireAcademy {Hotchkiss [URL="girls3foursBerkshireAcademyHotchkiss.html"];LymeOldLyme [URL="girls3foursBerkshireAcademyLymeOldLyme.html"];BerkshireAcademy [URL="girls3foursBerkshireAcademyBerkshireAcademy.html"];NMH [URL="girls3foursBerkshireAcademyNMH.html"];Taft [URL="girls3foursBerkshireAcademyTaft.html"];Pomfret [URL="girls3foursBerkshireAcademyPomfret.html"];Choate [URL="girls3foursBerkshireAcademyChoate.html"];Hopkins [URL="girls3foursBerkshireAcademyHopkins.html"];Choate -> BerkshireAcademy[label="16.7
+digraph girls3foursBerkshireAcademy {Hopkins [URL="girls3foursBerkshireAcademyHopkins.html"];Choate [URL="girls3foursBerkshireAcademyChoate.html"];Pomfret [URL="girls3foursBerkshireAcademyPomfret.html"];NMH [URL="girls3foursBerkshireAcademyNMH.html"];Taft [URL="girls3foursBerkshireAcademyTaft.html"];BerkshireAcademy [URL="girls3foursBerkshireAcademyBerkshireAcademy.html"];LymeOldLyme [URL="girls3foursBerkshireAcademyLymeOldLyme.html"];Hotchkiss [URL="girls3foursBerkshireAcademyHotchkiss.html"];Choate -> BerkshireAcademy[label="16.7
 04/19", weight="84", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -16,22 +16,22 @@ Distance: 1500m Conditions: 8MPH headwind, stronger gusts in the first 500. Occa
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E5F9B2C1554A1FBD0FEB68B2E09DEB28&cat=1", random="random"]; 
 Choate -> BerkshireAcademy[label="5.06
 05/04", weight="95", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> BerkshireAcademy[label="1.07
 05/04", weight="99", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Taft[label="8.02
 05/04", weight="92", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Hopkins[label="17.94
 05/04", weight="83", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> BerkshireAcademy[label="3.33
 05/04", weight="97", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Pomfret[label="30.0
 05/04", weight="70", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> LymeOldLyme[label="51.0
 05/04", weight="49", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

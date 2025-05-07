@@ -1,28 +1,28 @@
-digraph boys1foursFrederickGunn {Canterbury [URL="boys1foursFrederickGunnCanterbury.html"];BrewsterAcademy [URL="boys1foursFrederickGunnBrewsterAcademy.html"];Hotchkiss [URL="boys1foursFrederickGunnHotchkiss.html"];BerkshireAcademy [URL="boys1foursFrederickGunnBerkshireAcademy.html"];NMH [URL="boys1foursFrederickGunnNMH.html"];Pomfret [URL="boys1foursFrederickGunnPomfret.html"];Choate [URL="boys1foursFrederickGunnChoate.html"];Hopkins [URL="boys1foursFrederickGunnHopkins.html"];FrederickGunn [URL="boys1foursFrederickGunnFrederickGunn.html"];FrederickGunn -> Canterbury[label="14.0
+digraph boys1foursFrederickGunn {Hopkins [URL="boys1foursFrederickGunnHopkins.html"];Canterbury [URL="boys1foursFrederickGunnCanterbury.html"];Choate [URL="boys1foursFrederickGunnChoate.html"];BrewsterAcademy [URL="boys1foursFrederickGunnBrewsterAcademy.html"];Pomfret [URL="boys1foursFrederickGunnPomfret.html"];NMH [URL="boys1foursFrederickGunnNMH.html"];BerkshireAcademy [URL="boys1foursFrederickGunnBerkshireAcademy.html"];FrederickGunn [URL="boys1foursFrederickGunnFrederickGunn.html"];Hotchkiss [URL="boys1foursFrederickGunnHotchkiss.html"];FrederickGunn -> Canterbury[label="14.0
 04/19", weight="86", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Canterbury School			
 Distance: 1500 Conditions: Mostly protected waters with some crosswind and very slight chop in the first 500 in particular. Comments: Gunn second boats (B) raced up with the first boats.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FD9BF2C36AB3E5D3343A43D22FCCB16E&cat=5", random="random"]; 
 Pomfret -> FrederickGunn[label="34.55
 05/04", weight="66", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> FrederickGunn[label="27.77
 05/04", weight="73", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> FrederickGunn[label="27.34
 05/04", weight="73", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 FrederickGunn -> Canterbury[label="20.01
 05/04", weight="80", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BrewsterAcademy -> FrederickGunn[label="10.78
 05/04", weight="90", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> FrederickGunn[label="33.84
 05/04", weight="67", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> FrederickGunn[label="33.11
 05/04", weight="67", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> FrederickGunn[label="31.97
 05/04", weight="69", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

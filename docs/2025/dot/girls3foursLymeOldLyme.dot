@@ -1,17 +1,17 @@
-digraph girls3foursLymeOldLyme {Middletown [URL="girls3foursLymeOldLymeMiddletown.html"];Hotchkiss [URL="girls3foursLymeOldLymeHotchkiss.html"];LymeOldLyme [URL="girls3foursLymeOldLymeLymeOldLyme.html"];BerkshireAcademy [URL="girls3foursLymeOldLymeBerkshireAcademy.html"];Pomfret [URL="girls3foursLymeOldLymePomfret.html"];Choate [URL="girls3foursLymeOldLymeChoate.html"];LymeOldLyme -> Middletown[label="16.9
+digraph girls3foursLymeOldLyme {Choate [URL="girls3foursLymeOldLymeChoate.html"];Pomfret [URL="girls3foursLymeOldLymePomfret.html"];BerkshireAcademy [URL="girls3foursLymeOldLymeBerkshireAcademy.html"];LymeOldLyme [URL="girls3foursLymeOldLymeLymeOldLyme.html"];Middletown [URL="girls3foursLymeOldLymeMiddletown.html"];Hotchkiss [URL="girls3foursLymeOldLymeHotchkiss.html"];LymeOldLyme -> Middletown[label="16.9
 04/30", weight="84", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Middletown			
 Distance: 1500 Conditions: 7-11 mph cross tail wind. Waves challenging for 300-400 meters. Comments: It was a great day of racing. Lyme/Old Lyme was excited to host Middletown at our lake. 
 For the B2V4 race Middletown put a 3rd boat in the race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAD018DDC045C2C851D08C5626506B6F&cat=5", random="random"]; 
 Choate -> LymeOldLyme[label="58.0
 05/04", weight="42", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> LymeOldLyme[label="51.0
 05/04", weight="49", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> LymeOldLyme[label="21.0
 05/04", weight="79", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> LymeOldLyme[label="45.0
 05/04", weight="55", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

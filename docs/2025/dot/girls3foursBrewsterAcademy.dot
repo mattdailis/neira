@@ -1,12 +1,12 @@
-digraph girls3foursBrewsterAcademy {BrewsterAcademy [URL="girls3foursBrewsterAcademyBrewsterAcademy.html"];NMH [URL="girls3foursBrewsterAcademyNMH.html"];GreenwichAcademy [URL="girls3foursBrewsterAcademyGreenwichAcademy.html"];Taft [URL="girls3foursBrewsterAcademyTaft.html"];Hopkins [URL="girls3foursBrewsterAcademyHopkins.html"];NMH -> BrewsterAcademy[label="53.47
+digraph girls3foursBrewsterAcademy {Hopkins [URL="girls3foursBrewsterAcademyHopkins.html"];GreenwichAcademy [URL="girls3foursBrewsterAcademyGreenwichAcademy.html"];BrewsterAcademy [URL="girls3foursBrewsterAcademyBrewsterAcademy.html"];NMH [URL="girls3foursBrewsterAcademyNMH.html"];Taft [URL="girls3foursBrewsterAcademyTaft.html"];NMH -> BrewsterAcademy[label="53.47
 05/04", weight="47", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> BrewsterAcademy[label="46.35
 05/04", weight="54", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> BrewsterAcademy[label="35.93
 05/04", weight="65", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 GreenwichAcademy -> BrewsterAcademy[label="22.1
 05/04", weight="78", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

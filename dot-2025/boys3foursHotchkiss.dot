@@ -1,4 +1,4 @@
-digraph boys3foursHotchkiss {Middletown [URL="boys3foursHotchkissMiddletown.html"];Hotchkiss [URL="boys3foursHotchkissHotchkiss.html"];BerkshireAcademy [URL="boys3foursHotchkissBerkshireAcademy.html"];NMH [URL="boys3foursHotchkissNMH.html"];Taft [URL="boys3foursHotchkissTaft.html"];Pomfret [URL="boys3foursHotchkissPomfret.html"];Choate [URL="boys3foursHotchkissChoate.html"];Hopkins [URL="boys3foursHotchkissHopkins.html"];FrederickGunn [URL="boys3foursHotchkissFrederickGunn.html"];Hotchkiss -> Middletown[label="80.9
+digraph boys3foursHotchkiss {Hopkins [URL="boys3foursHotchkissHopkins.html"];Choate [URL="boys3foursHotchkissChoate.html"];NMH [URL="boys3foursHotchkissNMH.html"];Pomfret [URL="boys3foursHotchkissPomfret.html"];Taft [URL="boys3foursHotchkissTaft.html"];BerkshireAcademy [URL="boys3foursHotchkissBerkshireAcademy.html"];Middletown [URL="boys3foursHotchkissMiddletown.html"];FrederickGunn [URL="boys3foursHotchkissFrederickGunn.html"];Hotchkiss [URL="boys3foursHotchkissHotchkiss.html"];Hotchkiss -> Middletown[label="80.9
 04/20", weight="20", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
@@ -8,22 +8,22 @@ Distance: 1500 M Conditions: Chilly and cloudy with variable cross headwinds bui
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&cat=5", random="random"]; 
 Taft -> Hotchkiss[label="3.86
 05/04", weight="97", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> NMH[label="5.31
 05/04", weight="95", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> BerkshireAcademy[label="22.68
 05/04", weight="78", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Pomfret[label="26.84
 05/04", weight="74", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Hopkins[label="6.81
 05/04", weight="94", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Choate[label="46.36
 05/04", weight="54", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> FrederickGunn[label="63.97
 05/04", weight="37", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

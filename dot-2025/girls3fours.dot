@@ -1,4 +1,4 @@
-digraph girls3fours {Groton [URL="girls3foursGroton.html"];StMarks [URL="girls3foursStMarks.html"];Brooks [URL="girls3foursBrooks.html"];LymeOldLyme [URL="girls3foursLymeOldLyme.html"];BerkshireAcademy [URL="girls3foursBerkshireAcademy.html"];Middlesex [URL="girls3foursMiddlesex.html"];Taft [URL="girls3foursTaft.html"];Nobles [URL="girls3foursNobles.html"];Hopkins [URL="girls3foursHopkins.html"];BBN [URL="girls3foursBBN.html"];Middletown [URL="girls3foursMiddletown.html"];NewtonCountryDay [URL="girls3foursNewtonCountryDay.html"];Hotchkiss [URL="girls3foursHotchkiss.html"];MissPorters [URL="girls3foursMissPorters.html"];NMH [URL="girls3foursNMH.html"];Winsor [URL="girls3foursWinsor.html"];BrewsterAcademy [URL="girls3foursBrewsterAcademy.html"];GreenwichAcademy [URL="girls3foursGreenwichAcademy.html"];Pomfret [URL="girls3foursPomfret.html"];Choate [URL="girls3foursChoate.html"];CambridgeRLS [URL="girls3foursCambridgeRLS.html"];Brooks -> Middlesex[label="9.2
+digraph girls3fours {CambridgeRLS [URL="girls3foursCambridgeRLS.html"];BBN [URL="girls3foursBBN.html"];StMarks [URL="girls3foursStMarks.html"];NewtonCountryDay [URL="girls3foursNewtonCountryDay.html"];Nobles [URL="girls3foursNobles.html"];NMH [URL="girls3foursNMH.html"];BrewsterAcademy [URL="girls3foursBrewsterAcademy.html"];Winsor [URL="girls3foursWinsor.html"];Groton [URL="girls3foursGroton.html"];Taft [URL="girls3foursTaft.html"];Hotchkiss [URL="girls3foursHotchkiss.html"];Hopkins [URL="girls3foursHopkins.html"];Brooks [URL="girls3foursBrooks.html"];Choate [URL="girls3foursChoate.html"];GreenwichAcademy [URL="girls3foursGreenwichAcademy.html"];Pomfret [URL="girls3foursPomfret.html"];Middlesex [URL="girls3foursMiddlesex.html"];BerkshireAcademy [URL="girls3foursBerkshireAcademy.html"];LymeOldLyme [URL="girls3foursLymeOldLyme.html"];MissPorters [URL="girls3foursMissPorters.html"];Middletown [URL="girls3foursMiddletown.html"];Brooks -> Middlesex[label="9.2
 04/19", weight="91", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
@@ -208,88 +208,88 @@ Thanks to Winsor and GA for the racing and GA making the trip to Boston.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF21FB49C1A5BFE18B2AC227D72047A7&cat=1", random="random"]; 
 Choate -> NMH[label="3.99
 05/04", weight="97", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> BerkshireAcademy[label="5.06
 05/04", weight="95", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> Taft[label="13.08
 05/04", weight="87", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> Hopkins[label="23.0
 05/04", weight="77", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> Hotchkiss[label="1.73
 05/04", weight="99", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> BerkshireAcademy[label="1.07
 05/04", weight="99", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Taft[label="9.09
 05/04", weight="91", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Hopkins[label="19.01
 05/04", weight="81", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> NMH[label="2.26
 05/04", weight="98", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Taft[label="8.02
 05/04", weight="92", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Hopkins[label="17.94
 05/04", weight="83", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> BerkshireAcademy[label="3.33
 05/04", weight="97", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> Hopkins[label="9.92
 05/04", weight="91", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Taft[label="11.35
 05/04", weight="89", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Hopkins[label="21.27
 05/04", weight="79", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> Pomfret[label="37.0
 05/04", weight="63", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> LymeOldLyme[label="58.0
 05/04", weight="42", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Pomfret[label="30.0
 05/04", weight="70", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> LymeOldLyme[label="51.0
 05/04", weight="49", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> LymeOldLyme[label="21.0
 05/04", weight="79", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Pomfret[label="24.0
 05/04", weight="76", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> LymeOldLyme[label="45.0
 05/04", weight="55", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> GreenwichAcademy[label="31.37
 05/04", weight="69", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> BrewsterAcademy[label="53.47
 05/04", weight="47", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> GreenwichAcademy[label="24.25
 05/04", weight="76", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> BrewsterAcademy[label="46.35
 05/04", weight="54", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> GreenwichAcademy[label="13.83
 05/04", weight="87", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> BrewsterAcademy[label="35.93
 05/04", weight="65", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 GreenwichAcademy -> BrewsterAcademy[label="22.1
 05/04", weight="78", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

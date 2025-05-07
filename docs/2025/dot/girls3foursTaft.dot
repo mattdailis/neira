@@ -1,4 +1,4 @@
-digraph girls3foursTaft {Groton [URL="girls3foursTaftGroton.html"];BrewsterAcademy [URL="girls3foursTaftBrewsterAcademy.html"];Hotchkiss [URL="girls3foursTaftHotchkiss.html"];BerkshireAcademy [URL="girls3foursTaftBerkshireAcademy.html"];NMH [URL="girls3foursTaftNMH.html"];GreenwichAcademy [URL="girls3foursTaftGreenwichAcademy.html"];Taft [URL="girls3foursTaftTaft.html"];Pomfret [URL="girls3foursTaftPomfret.html"];Choate [URL="girls3foursTaftChoate.html"];Hopkins [URL="girls3foursTaftHopkins.html"];Groton -> Taft[label="17.1
+digraph girls3foursTaft {Hopkins [URL="girls3foursTaftHopkins.html"];Choate [URL="girls3foursTaftChoate.html"];GreenwichAcademy [URL="girls3foursTaftGreenwichAcademy.html"];BrewsterAcademy [URL="girls3foursTaftBrewsterAcademy.html"];Pomfret [URL="girls3foursTaftPomfret.html"];NMH [URL="girls3foursTaftNMH.html"];Groton [URL="girls3foursTaftGroton.html"];BerkshireAcademy [URL="girls3foursTaftBerkshireAcademy.html"];Taft [URL="girls3foursTaftTaft.html"];Hotchkiss [URL="girls3foursTaftHotchkiss.html"];Groton -> Taft[label="17.1
 04/26", weight="83", tooltip="NEIRA Girls Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500m Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with boys. Order of girls races: G4, G3, G2, G1.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5150789F21FD9599874CA9451EBDC220&cat=1", random="random"]; 
@@ -16,22 +16,22 @@ Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph thro
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
 Choate -> Taft[label="13.08
 05/04", weight="87", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Taft[label="9.09
 05/04", weight="91", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Taft[label="8.02
 05/04", weight="92", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> Hopkins[label="9.92
 05/04", weight="91", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Taft[label="11.35
 05/04", weight="89", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> GreenwichAcademy[label="24.25
 05/04", weight="76", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> BrewsterAcademy[label="46.35
 05/04", weight="54", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

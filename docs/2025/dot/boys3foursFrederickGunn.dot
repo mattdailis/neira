@@ -1,12 +1,12 @@
-digraph boys3foursFrederickGunn {Hotchkiss [URL="boys3foursFrederickGunnHotchkiss.html"];NMH [URL="boys3foursFrederickGunnNMH.html"];Pomfret [URL="boys3foursFrederickGunnPomfret.html"];Choate [URL="boys3foursFrederickGunnChoate.html"];FrederickGunn [URL="boys3foursFrederickGunnFrederickGunn.html"];NMH -> FrederickGunn[label="51.15
+digraph boys3foursFrederickGunn {Choate [URL="boys3foursFrederickGunnChoate.html"];Pomfret [URL="boys3foursFrederickGunnPomfret.html"];NMH [URL="boys3foursFrederickGunnNMH.html"];FrederickGunn [URL="boys3foursFrederickGunnFrederickGunn.html"];Hotchkiss [URL="boys3foursFrederickGunnHotchkiss.html"];NMH -> FrederickGunn[label="51.15
 05/04", weight="49", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> FrederickGunn[label="42.87
 05/04", weight="58", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> FrederickGunn[label="17.61
 05/04", weight="83", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> FrederickGunn[label="63.97
 05/04", weight="37", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

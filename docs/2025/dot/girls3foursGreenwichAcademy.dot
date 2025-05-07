@@ -1,4 +1,4 @@
-digraph girls3foursGreenwichAcademy {BrewsterAcademy [URL="girls3foursGreenwichAcademyBrewsterAcademy.html"];NMH [URL="girls3foursGreenwichAcademyNMH.html"];GreenwichAcademy [URL="girls3foursGreenwichAcademyGreenwichAcademy.html"];Taft [URL="girls3foursGreenwichAcademyTaft.html"];Hopkins [URL="girls3foursGreenwichAcademyHopkins.html"];Winsor [URL="girls3foursGreenwichAcademyWinsor.html"];BBN [URL="girls3foursGreenwichAcademyBBN.html"];Winsor -> GreenwichAcademy[label="33.5 (37.22)
+digraph girls3foursGreenwichAcademy {Hopkins [URL="girls3foursGreenwichAcademyHopkins.html"];GreenwichAcademy [URL="girls3foursGreenwichAcademyGreenwichAcademy.html"];BrewsterAcademy [URL="girls3foursGreenwichAcademyBrewsterAcademy.html"];NMH [URL="girls3foursGreenwichAcademyNMH.html"];Taft [URL="girls3foursGreenwichAcademyTaft.html"];BBN [URL="girls3foursGreenwichAcademyBBN.html"];Winsor [URL="girls3foursGreenwichAcademyWinsor.html"];Winsor -> GreenwichAcademy[label="33.5 (37.22)
 04/26", weight="67", tooltip="NEIRA Girls Fours, BB&N, Winsor, Greenwich Academy			
 Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.
 In the 1 V race Winsor left thier lane, and into BB&Ns lane in the last 250.
@@ -12,13 +12,13 @@ Thanks to Winsor and GA for the racing and GA making the trip to Boston.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF21FB49C1A5BFE18B2AC227D72047A7&cat=1", random="random"]; 
 NMH -> GreenwichAcademy[label="31.37
 05/04", weight="69", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> GreenwichAcademy[label="24.25
 05/04", weight="76", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> GreenwichAcademy[label="13.83
 05/04", weight="87", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 GreenwichAcademy -> BrewsterAcademy[label="22.1
 05/04", weight="78", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

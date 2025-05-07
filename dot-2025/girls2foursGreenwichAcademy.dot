@@ -1,4 +1,4 @@
-digraph girls2foursGreenwichAcademy {Canterbury [URL="girls2foursGreenwichAcademyCanterbury.html"];Hotchkiss [URL="girls2foursGreenwichAcademyHotchkiss.html"];GreenwichCountryDay [URL="girls2foursGreenwichAcademyGreenwichCountryDay.html"];LymeOldLyme [URL="girls2foursGreenwichAcademyLymeOldLyme.html"];Suffield [URL="girls2foursGreenwichAcademySuffield.html"];BerkshireAcademy [URL="girls2foursGreenwichAcademyBerkshireAcademy.html"];NMH [URL="girls2foursGreenwichAcademyNMH.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademyGreenwichAcademy.html"];Taft [URL="girls2foursGreenwichAcademyTaft.html"];Choate [URL="girls2foursGreenwichAcademyChoate.html"];Winsor [URL="girls2foursGreenwichAcademyWinsor.html"];BBN [URL="girls2foursGreenwichAcademyBBN.html"];Winsor -> GreenwichAcademy[label="26.1 (29.0)
+digraph girls2foursGreenwichAcademy {GreenwichAcademy [URL="girls2foursGreenwichAcademyGreenwichAcademy.html"];Choate [URL="girls2foursGreenwichAcademyChoate.html"];Canterbury [URL="girls2foursGreenwichAcademyCanterbury.html"];NMH [URL="girls2foursGreenwichAcademyNMH.html"];GreenwichCountryDay [URL="girls2foursGreenwichAcademyGreenwichCountryDay.html"];BerkshireAcademy [URL="girls2foursGreenwichAcademyBerkshireAcademy.html"];Taft [URL="girls2foursGreenwichAcademyTaft.html"];LymeOldLyme [URL="girls2foursGreenwichAcademyLymeOldLyme.html"];BBN [URL="girls2foursGreenwichAcademyBBN.html"];Winsor [URL="girls2foursGreenwichAcademyWinsor.html"];Suffield [URL="girls2foursGreenwichAcademySuffield.html"];Hotchkiss [URL="girls2foursGreenwichAcademyHotchkiss.html"];Winsor -> GreenwichAcademy[label="26.1 (29.0)
 04/26", weight="74", tooltip="NEIRA Girls Fours, BB&N, Winsor, Greenwich Academy			
 Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.
 In the 1 V race Winsor left thier lane, and into BB&Ns lane in the last 250.
@@ -21,25 +21,25 @@ Thanks to SH and GCDS for coming out to race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7F031922B617DDED37366A28DFAE8830&cat=1", random="random"]; 
 NMH -> GreenwichAcademy[label="33.0
 05/04", weight="67", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> GreenwichAcademy[label="32.63
 05/04", weight="68", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> GreenwichAcademy[label="30.16
 05/04", weight="70", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> GreenwichAcademy[label="22.64
 05/04", weight="78", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> GreenwichAcademy[label="23.68
 05/04", weight="77", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 GreenwichAcademy -> Suffield[label="9.08
 05/04", weight="91", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 GreenwichAcademy -> LymeOldLyme[label="17.28
 05/04", weight="83", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 GreenwichAcademy -> Canterbury[label="110.19
 05/04", weight="-10", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

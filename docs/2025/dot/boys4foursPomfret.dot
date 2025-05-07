@@ -1,4 +1,4 @@
-digraph boys4foursPomfret {Groton [URL="boys4foursPomfretGroton.html"];Hotchkiss [URL="boys4foursPomfretHotchkiss.html"];LymeOldLyme [URL="boys4foursPomfretLymeOldLyme.html"];BerkshireAcademy [URL="boys4foursPomfretBerkshireAcademy.html"];NMH [URL="boys4foursPomfretNMH.html"];Taft [URL="boys4foursPomfretTaft.html"];Pomfret [URL="boys4foursPomfretPomfret.html"];Hopkins [URL="boys4foursPomfretHopkins.html"];Groton -> Pomfret[label="37.6
+digraph boys4foursPomfret {Hopkins [URL="boys4foursPomfretHopkins.html"];NMH [URL="boys4foursPomfretNMH.html"];Pomfret [URL="boys4foursPomfretPomfret.html"];Groton [URL="boys4foursPomfretGroton.html"];BerkshireAcademy [URL="boys4foursPomfretBerkshireAcademy.html"];Taft [URL="boys4foursPomfretTaft.html"];LymeOldLyme [URL="boys4foursPomfretLymeOldLyme.html"];Hotchkiss [URL="boys4foursPomfretHotchkiss.html"];Groton -> Pomfret[label="37.6
 04/26", weight="63", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
 Dexter-Southfield rowed their novice boat in the B5 race.
@@ -14,16 +14,16 @@ Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occa
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]; 
 Taft -> Pomfret[label="30.63
 05/04", weight="70", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Pomfret[label="4.88
 05/04", weight="96", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> Hopkins[label="3.88
 05/04", weight="97", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> Hotchkiss[label="4.6
 05/04", weight="96", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> LymeOldLyme[label="5.41
 05/04", weight="95", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

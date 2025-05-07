@@ -1,4 +1,4 @@
-digraph girls3foursNMH {BrewsterAcademy [URL="girls3foursNMHBrewsterAcademy.html"];Hotchkiss [URL="girls3foursNMHHotchkiss.html"];Brooks [URL="girls3foursNMHBrooks.html"];BerkshireAcademy [URL="girls3foursNMHBerkshireAcademy.html"];NMH [URL="girls3foursNMHNMH.html"];GreenwichAcademy [URL="girls3foursNMHGreenwichAcademy.html"];Middlesex [URL="girls3foursNMHMiddlesex.html"];Pomfret [URL="girls3foursNMHPomfret.html"];Taft [URL="girls3foursNMHTaft.html"];Choate [URL="girls3foursNMHChoate.html"];Hopkins [URL="girls3foursNMHHopkins.html"];CambridgeRLS [URL="girls3foursNMHCambridgeRLS.html"];CambridgeRLS -> NMH[label="27.3
+digraph girls3foursNMH {Hopkins [URL="girls3foursNMHHopkins.html"];Brooks [URL="girls3foursNMHBrooks.html"];Choate [URL="girls3foursNMHChoate.html"];GreenwichAcademy [URL="girls3foursNMHGreenwichAcademy.html"];CambridgeRLS [URL="girls3foursNMHCambridgeRLS.html"];NMH [URL="girls3foursNMHNMH.html"];Pomfret [URL="girls3foursNMHPomfret.html"];BrewsterAcademy [URL="girls3foursNMHBrewsterAcademy.html"];Middlesex [URL="girls3foursNMHMiddlesex.html"];BerkshireAcademy [URL="girls3foursNMHBerkshireAcademy.html"];Taft [URL="girls3foursNMHTaft.html"];Hotchkiss [URL="girls3foursNMHHotchkiss.html"];CambridgeRLS -> NMH[label="27.3
 04/26", weight="73", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -24,22 +24,22 @@ Distance: 1500m Conditions: Consistent crossing tailwind (~7-13MPH), with occasi
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&cat=1", random="random"]; 
 Choate -> NMH[label="3.99
 05/04", weight="97", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> BerkshireAcademy[label="1.07
 05/04", weight="99", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Taft[label="9.09
 05/04", weight="91", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Hopkins[label="19.01
 05/04", weight="81", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> NMH[label="2.26
 05/04", weight="98", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> GreenwichAcademy[label="31.37
 05/04", weight="69", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> BrewsterAcademy[label="53.47
 05/04", weight="47", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

@@ -1,4 +1,4 @@
-digraph boys3fours {Groton [URL="boys3foursGroton.html"];Berwick [URL="boys3foursBerwick.html"];StMarks [URL="boys3foursStMarks.html"];Brooks [URL="boys3foursBrooks.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Middlesex [URL="boys3foursMiddlesex.html"];Taft [URL="boys3foursTaft.html"];Nobles [URL="boys3foursNobles.html"];Hopkins [URL="boys3foursHopkins.html"];FrederickGunn [URL="boys3foursFrederickGunn.html"];BBN [URL="boys3foursBBN.html"];Middletown [URL="boys3foursMiddletown.html"];Canterbury [URL="boys3foursCanterbury.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];DexterSouthfield [URL="boys3foursDexterSouthfield.html"];NMH [URL="boys3foursNMH.html"];Pomfret [URL="boys3foursPomfret.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Choate [URL="boys3foursChoate.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];BelmontHill -> Nobles[label="10.8 (12.46)
+digraph boys3fours {Canterbury [URL="boys3foursCanterbury.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];BBN [URL="boys3foursBBN.html"];StMarks [URL="boys3foursStMarks.html"];DexterSouthfield [URL="boys3foursDexterSouthfield.html"];Nobles [URL="boys3foursNobles.html"];NMH [URL="boys3foursNMH.html"];Groton [URL="boys3foursGroton.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Taft [URL="boys3foursTaft.html"];Berwick [URL="boys3foursBerwick.html"];FrederickGunn [URL="boys3foursFrederickGunn.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];Hopkins [URL="boys3foursHopkins.html"];Brooks [URL="boys3foursBrooks.html"];Choate [URL="boys3foursChoate.html"];Pomfret [URL="boys3foursPomfret.html"];Middlesex [URL="boys3foursMiddlesex.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Middletown [URL="boys3foursMiddletown.html"];BelmontHill -> Nobles[label="10.8 (12.46)
 05/04", weight="90", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: Order of racing: 4V4-3V4-2V4-1V4-4V8-6V4-9V4-5V4. Building direct headwind for the first three races, strongest for the 2V4; the wind then lessened and shifted to a cross/cross headwind for the 1V4 and remaining races Comments: Thanks to Nobles for being patient and supportive through yesterday's weather-related postponement and for a great day of racing with our full programs today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=96DF6AF2C5DADCD1EB91A4088A314B11&cat=1", random="random"]; 
@@ -184,76 +184,76 @@ Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasio
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]; 
 Taft -> Hotchkiss[label="3.86
 05/04", weight="97", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> NMH[label="9.17
 05/04", weight="91", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> BerkshireAcademy[label="26.54
 05/04", weight="74", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> Pomfret[label="30.7
 05/04", weight="70", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> Hopkins[label="10.67
 05/04", weight="90", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> NMH[label="5.31
 05/04", weight="95", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> BerkshireAcademy[label="22.68
 05/04", weight="78", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Pomfret[label="26.84
 05/04", weight="74", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Hopkins[label="6.81
 05/04", weight="94", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> BerkshireAcademy[label="17.37
 05/04", weight="83", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Pomfret[label="21.53
 05/04", weight="79", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Hopkins[label="1.5
 05/04", weight="99", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Pomfret[label="4.16
 05/04", weight="96", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> BerkshireAcademy[label="15.87
 05/04", weight="85", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> Pomfret[label="20.03
 05/04", weight="80", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> Canterbury[label="105.0
 05/04", weight="-5", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Canterbury[label="97.0
 05/04", weight="3", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> Canterbury[label="74.0
 05/04", weight="26", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Choate[label="33.54
 05/04", weight="67", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> FrederickGunn[label="51.15
 05/04", weight="49", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> Choate[label="25.26
 05/04", weight="75", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> FrederickGunn[label="42.87
 05/04", weight="58", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> FrederickGunn[label="17.61
 05/04", weight="83", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Choate[label="46.36
 05/04", weight="54", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> FrederickGunn[label="63.97
 05/04", weight="37", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

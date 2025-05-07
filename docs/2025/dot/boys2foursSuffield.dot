@@ -1,21 +1,21 @@
-digraph boys2foursSuffield {BrewsterAcademy [URL="boys2foursSuffieldBrewsterAcademy.html"];NotreDame [URL="boys2foursSuffieldNotreDame.html"];LymeOldLyme [URL="boys2foursSuffieldLymeOldLyme.html"];Suffield [URL="boys2foursSuffieldSuffield.html"];BerkshireAcademy [URL="boys2foursSuffieldBerkshireAcademy.html"];NMH [URL="boys2foursSuffieldNMH.html"];Taft [URL="boys2foursSuffieldTaft.html"];Choate [URL="boys2foursSuffieldChoate.html"];Suffield -> BerkshireAcademy[label="3.5
+digraph boys2foursSuffield {Choate [URL="boys2foursSuffieldChoate.html"];BrewsterAcademy [URL="boys2foursSuffieldBrewsterAcademy.html"];NMH [URL="boys2foursSuffieldNMH.html"];BerkshireAcademy [URL="boys2foursSuffieldBerkshireAcademy.html"];Taft [URL="boys2foursSuffieldTaft.html"];NotreDame [URL="boys2foursSuffieldNotreDame.html"];LymeOldLyme [URL="boys2foursSuffieldLymeOldLyme.html"];Suffield [URL="boys2foursSuffieldSuffield.html"];Suffield -> BerkshireAcademy[label="3.5
 05/04", weight="97", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Suffield -> Choate[label="13.83
 05/04", weight="87", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Suffield -> BrewsterAcademy[label="18.52
 05/04", weight="82", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Suffield -> NotreDame[label="0.9
 05/04", weight="100", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Suffield[label="7.89
 05/04", weight="93", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> Suffield[label="3.89
 05/04", weight="97", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> Suffield[label="1.89
 05/04", weight="99", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

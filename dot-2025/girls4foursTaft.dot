@@ -1,4 +1,4 @@
-digraph girls4foursTaft {Groton [URL="girls4foursTaftGroton.html"];Canterbury [URL="girls4foursTaftCanterbury.html"];Hotchkiss [URL="girls4foursTaftHotchkiss.html"];LymeOldLyme [URL="girls4foursTaftLymeOldLyme.html"];BerkshireAcademy [URL="girls4foursTaftBerkshireAcademy.html"];NMH [URL="girls4foursTaftNMH.html"];Taft [URL="girls4foursTaftTaft.html"];Pomfret [URL="girls4foursTaftPomfret.html"];Choate [URL="girls4foursTaftChoate.html"];Hopkins [URL="girls4foursTaftHopkins.html"];Groton -> Taft[label="35.5
+digraph girls4foursTaft {Hopkins [URL="girls4foursTaftHopkins.html"];Choate [URL="girls4foursTaftChoate.html"];Canterbury [URL="girls4foursTaftCanterbury.html"];Pomfret [URL="girls4foursTaftPomfret.html"];NMH [URL="girls4foursTaftNMH.html"];Groton [URL="girls4foursTaftGroton.html"];BerkshireAcademy [URL="girls4foursTaftBerkshireAcademy.html"];Taft [URL="girls4foursTaftTaft.html"];LymeOldLyme [URL="girls4foursTaftLymeOldLyme.html"];Hotchkiss [URL="girls4foursTaftHotchkiss.html"];Groton -> Taft[label="35.5
 04/26", weight="65", tooltip="NEIRA Girls Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500m Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with boys. Order of girls races: G4, G3, G2, G1.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5150789F21FD9599874CA9451EBDC220&cat=1", random="random"]; 
@@ -16,19 +16,19 @@ Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph thro
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
 Choate -> Taft[label="18.0
 05/04", weight="82", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> Taft[label="11.87
 05/04", weight="89", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Taft[label="10.46
 05/04", weight="90", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Taft[label="6.11
 05/04", weight="94", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> LymeOldLyme[label="22.0
 05/04", weight="78", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> Canterbury[label="97.0
 05/04", weight="3", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

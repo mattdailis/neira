@@ -1,4 +1,4 @@
-digraph boys1foursBerkshireAcademy {Canterbury [URL="boys1foursBerkshireAcademyCanterbury.html"];BrewsterAcademy [URL="boys1foursBerkshireAcademyBrewsterAcademy.html"];Hotchkiss [URL="boys1foursBerkshireAcademyHotchkiss.html"];NotreDame [URL="boys1foursBerkshireAcademyNotreDame.html"];LymeOldLyme [URL="boys1foursBerkshireAcademyLymeOldLyme.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademyBerkshireAcademy.html"];Taft [URL="boys1foursBerkshireAcademyTaft.html"];Pomfret [URL="boys1foursBerkshireAcademyPomfret.html"];MarianapolisPrep [URL="boys1foursBerkshireAcademyMarianapolisPrep.html"];Choate [URL="boys1foursBerkshireAcademyChoate.html"];FrederickGunn [URL="boys1foursBerkshireAcademyFrederickGunn.html"];Taft -> BerkshireAcademy[label="3.2
+digraph boys1foursBerkshireAcademy {Choate [URL="boys1foursBerkshireAcademyChoate.html"];Canterbury [URL="boys1foursBerkshireAcademyCanterbury.html"];BrewsterAcademy [URL="boys1foursBerkshireAcademyBrewsterAcademy.html"];Pomfret [URL="boys1foursBerkshireAcademyPomfret.html"];Taft [URL="boys1foursBerkshireAcademyTaft.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademyBerkshireAcademy.html"];NotreDame [URL="boys1foursBerkshireAcademyNotreDame.html"];LymeOldLyme [URL="boys1foursBerkshireAcademyLymeOldLyme.html"];MarianapolisPrep [URL="boys1foursBerkshireAcademyMarianapolisPrep.html"];FrederickGunn [URL="boys1foursBerkshireAcademyFrederickGunn.html"];Hotchkiss [URL="boys1foursBerkshireAcademyHotchkiss.html"];Taft -> BerkshireAcademy[label="3.2
 04/19", weight="97", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -20,25 +20,25 @@ Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occa
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]; 
 Pomfret -> BerkshireAcademy[label="6.78
 05/04", weight="94", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Choate[label="0.43
 05/04", weight="100", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> FrederickGunn[label="27.77
 05/04", weight="73", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Canterbury[label="47.78
 05/04", weight="53", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> BrewsterAcademy[label="16.99
 05/04", weight="84", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NotreDame -> BerkshireAcademy[label="19.3
 05/04", weight="81", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> BerkshireAcademy[label="8.6
 05/04", weight="92", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> BerkshireAcademy[label="6.87
 05/04", weight="94", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

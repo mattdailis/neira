@@ -1,4 +1,4 @@
-digraph boys1foursPomfret {Groton [URL="boys1foursPomfretGroton.html"];Canterbury [URL="boys1foursPomfretCanterbury.html"];BrewsterAcademy [URL="boys1foursPomfretBrewsterAcademy.html"];Hotchkiss [URL="boys1foursPomfretHotchkiss.html"];BerkshireAcademy [URL="boys1foursPomfretBerkshireAcademy.html"];NMH [URL="boys1foursPomfretNMH.html"];StMarysLynn [URL="boys1foursPomfretStMarysLynn.html"];Taft [URL="boys1foursPomfretTaft.html"];Pomfret [URL="boys1foursPomfretPomfret.html"];MarianapolisPrep [URL="boys1foursPomfretMarianapolisPrep.html"];BelmontHill [URL="boys1foursPomfretBelmontHill.html"];Choate [URL="boys1foursPomfretChoate.html"];Hopkins [URL="boys1foursPomfretHopkins.html"];DexterSouthfield [URL="boys1foursPomfretDexterSouthfield.html"];FrederickGunn [URL="boys1foursPomfretFrederickGunn.html"];Groton -> Pomfret[label="12.3
+digraph boys1foursPomfret {Hopkins [URL="boys1foursPomfretHopkins.html"];Choate [URL="boys1foursPomfretChoate.html"];Canterbury [URL="boys1foursPomfretCanterbury.html"];BrewsterAcademy [URL="boys1foursPomfretBrewsterAcademy.html"];Pomfret [URL="boys1foursPomfretPomfret.html"];NMH [URL="boys1foursPomfretNMH.html"];Groton [URL="boys1foursPomfretGroton.html"];BerkshireAcademy [URL="boys1foursPomfretBerkshireAcademy.html"];Taft [URL="boys1foursPomfretTaft.html"];BelmontHill [URL="boys1foursPomfretBelmontHill.html"];MarianapolisPrep [URL="boys1foursPomfretMarianapolisPrep.html"];StMarysLynn [URL="boys1foursPomfretStMarysLynn.html"];DexterSouthfield [URL="boys1foursPomfretDexterSouthfield.html"];FrederickGunn [URL="boys1foursPomfretFrederickGunn.html"];Hotchkiss [URL="boys1foursPomfretHotchkiss.html"];Groton -> Pomfret[label="12.3
 04/26", weight="88", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
 Dexter-Southfield rowed their novice boat in the B5 race.
@@ -39,25 +39,25 @@ Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasio
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]; 
 Pomfret -> BerkshireAcademy[label="6.78
 05/04", weight="94", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> Choate[label="7.21
 05/04", weight="93", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> FrederickGunn[label="34.55
 05/04", weight="66", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> Canterbury[label="54.56
 05/04", weight="46", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> BrewsterAcademy[label="23.77
 05/04", weight="77", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Pomfret[label="2.63
 05/04", weight="98", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> Pomfret[label="1.9
 05/04", weight="99", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Pomfret[label="0.76
 05/04", weight="100", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

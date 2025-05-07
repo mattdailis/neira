@@ -1,4 +1,4 @@
-digraph boys1foursLymeOldLyme {Middletown [URL="boys1foursLymeOldLymeMiddletown.html"];BrewsterAcademy [URL="boys1foursLymeOldLymeBrewsterAcademy.html"];Hotchkiss [URL="boys1foursLymeOldLymeHotchkiss.html"];NotreDame [URL="boys1foursLymeOldLymeNotreDame.html"];LymeOldLyme [URL="boys1foursLymeOldLymeLymeOldLyme.html"];BerkshireAcademy [URL="boys1foursLymeOldLymeBerkshireAcademy.html"];NMH [URL="boys1foursLymeOldLymeNMH.html"];ValleyRegional [URL="boys1foursLymeOldLymeValleyRegional.html"];Taft [URL="boys1foursLymeOldLymeTaft.html"];Choate [URL="boys1foursLymeOldLymeChoate.html"];Hopkins [URL="boys1foursLymeOldLymeHopkins.html"];LymeOldLyme -> ValleyRegional[label="25.4
+digraph boys1foursLymeOldLyme {Hopkins [URL="boys1foursLymeOldLymeHopkins.html"];Choate [URL="boys1foursLymeOldLymeChoate.html"];BrewsterAcademy [URL="boys1foursLymeOldLymeBrewsterAcademy.html"];NMH [URL="boys1foursLymeOldLymeNMH.html"];Taft [URL="boys1foursLymeOldLymeTaft.html"];BerkshireAcademy [URL="boys1foursLymeOldLymeBerkshireAcademy.html"];LymeOldLyme [URL="boys1foursLymeOldLymeLymeOldLyme.html"];NotreDame [URL="boys1foursLymeOldLymeNotreDame.html"];ValleyRegional [URL="boys1foursLymeOldLymeValleyRegional.html"];Middletown [URL="boys1foursLymeOldLymeMiddletown.html"];Hotchkiss [URL="boys1foursLymeOldLymeHotchkiss.html"];LymeOldLyme -> ValleyRegional[label="25.4
 04/23", weight="75", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Valley regional			
 Distance: 1500m Conditions: 6-8 mph headwind throughout the course. Mostly cloudy day, more than normal spectator boat traffic causing some wakes to enter the later races. Comments: Lyme/Old Lyme G3V4 raced in the girls 2V4 race. Due to conditions and to avoid having to cause all boats to realign in the B1V4 Lyme/Old Lyme was started approximately a deck down on valley. 
 It was a great day of racing we’re glad that valley was able to join us on such a nice day. This was a race with another school Avon but only valley and LOLHS are NEIRA schools. If there is interest the LOL v Valley v Avon will be posted under the high school results.
@@ -10,25 +10,25 @@ For the B2V4 race Middletown put a 3rd boat in the race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAD018DDC045C2C851D08C5626506B6F&cat=5", random="random"]; 
 Hopkins -> LymeOldLyme[label="5.12
 05/04", weight="95", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> LymeOldLyme[label="2.15
 05/04", weight="98", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> Hotchkiss[label="0.62
 05/04", weight="100", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> NotreDame[label="4.92
 05/04", weight="96", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> LymeOldLyme[label="0.46
 05/04", weight="100", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> Choate[label="4.05
 05/04", weight="96", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> BerkshireAcademy[label="8.6
 05/04", weight="92", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> BrewsterAcademy[label="27.42
 05/04", weight="73", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

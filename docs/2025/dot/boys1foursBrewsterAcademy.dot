@@ -1,4 +1,4 @@
-digraph boys1foursBrewsterAcademy {Canterbury [URL="boys1foursBrewsterAcademyCanterbury.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademyBrewsterAcademy.html"];StMarks [URL="boys1foursBrewsterAcademyStMarks.html"];Berwick [URL="boys1foursBrewsterAcademyBerwick.html"];Bancroft [URL="boys1foursBrewsterAcademyBancroft.html"];NotreDame [URL="boys1foursBrewsterAcademyNotreDame.html"];WorcesterAcademy [URL="boys1foursBrewsterAcademyWorcesterAcademy.html"];LymeOldLyme [URL="boys1foursBrewsterAcademyLymeOldLyme.html"];BerkshireAcademy [URL="boys1foursBrewsterAcademyBerkshireAcademy.html"];Taft [URL="boys1foursBrewsterAcademyTaft.html"];Pomfret [URL="boys1foursBrewsterAcademyPomfret.html"];Nobles [URL="boys1foursBrewsterAcademyNobles.html"];Choate [URL="boys1foursBrewsterAcademyChoate.html"];FrederickGunn [URL="boys1foursBrewsterAcademyFrederickGunn.html"];Nobles -> BrewsterAcademy[label="47.7
+digraph boys1foursBrewsterAcademy {Choate [URL="boys1foursBrewsterAcademyChoate.html"];Canterbury [URL="boys1foursBrewsterAcademyCanterbury.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademyBrewsterAcademy.html"];Nobles [URL="boys1foursBrewsterAcademyNobles.html"];Pomfret [URL="boys1foursBrewsterAcademyPomfret.html"];BerkshireAcademy [URL="boys1foursBrewsterAcademyBerkshireAcademy.html"];Taft [URL="boys1foursBrewsterAcademyTaft.html"];NotreDame [URL="boys1foursBrewsterAcademyNotreDame.html"];Berwick [URL="boys1foursBrewsterAcademyBerwick.html"];LymeOldLyme [URL="boys1foursBrewsterAcademyLymeOldLyme.html"];StMarks [URL="boys1foursBrewsterAcademyStMarks.html"];WorcesterAcademy [URL="boys1foursBrewsterAcademyWorcesterAcademy.html"];FrederickGunn [URL="boys1foursBrewsterAcademyFrederickGunn.html"];Bancroft [URL="boys1foursBrewsterAcademyBancroft.html"];Nobles -> BrewsterAcademy[label="47.7
 04/26", weight="53", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
@@ -24,25 +24,25 @@ Distance: 1500m Conditions: Windy conditions. Stayed pretty much the same throug
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5", random="random"]; 
 Pomfret -> BrewsterAcademy[label="23.77
 05/04", weight="77", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> BrewsterAcademy[label="16.99
 05/04", weight="84", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> BrewsterAcademy[label="16.56
 05/04", weight="84", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BrewsterAcademy -> FrederickGunn[label="10.78
 05/04", weight="90", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BrewsterAcademy -> Canterbury[label="30.79
 05/04", weight="70", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NotreDame -> BrewsterAcademy[label="38.12
 05/04", weight="62", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> BrewsterAcademy[label="27.42
 05/04", weight="73", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> BrewsterAcademy[label="25.69
 05/04", weight="75", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

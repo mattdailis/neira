@@ -1,4 +1,4 @@
-digraph boys1foursChoate {Canterbury [URL="boys1foursChoateCanterbury.html"];BrewsterAcademy [URL="boys1foursChoateBrewsterAcademy.html"];NotreDame [URL="boys1foursChoateNotreDame.html"];LymeOldLyme [URL="boys1foursChoateLymeOldLyme.html"];BerkshireAcademy [URL="boys1foursChoateBerkshireAcademy.html"];Taft [URL="boys1foursChoateTaft.html"];Pomfret [URL="boys1foursChoatePomfret.html"];Choate [URL="boys1foursChoateChoate.html"];FrederickGunn [URL="boys1foursChoateFrederickGunn.html"];Taft -> Choate[label="8.1
+digraph boys1foursChoate {Choate [URL="boys1foursChoateChoate.html"];Canterbury [URL="boys1foursChoateCanterbury.html"];BrewsterAcademy [URL="boys1foursChoateBrewsterAcademy.html"];Pomfret [URL="boys1foursChoatePomfret.html"];Taft [URL="boys1foursChoateTaft.html"];BerkshireAcademy [URL="boys1foursChoateBerkshireAcademy.html"];NotreDame [URL="boys1foursChoateNotreDame.html"];LymeOldLyme [URL="boys1foursChoateLymeOldLyme.html"];FrederickGunn [URL="boys1foursChoateFrederickGunn.html"];Taft -> Choate[label="8.1
 04/19", weight="92", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -8,25 +8,25 @@ Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph thro
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
 Pomfret -> Choate[label="7.21
 05/04", weight="93", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Choate[label="0.43
 05/04", weight="100", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> FrederickGunn[label="27.34
 05/04", weight="73", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> Canterbury[label="47.35
 05/04", weight="53", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> BrewsterAcademy[label="16.56
 05/04", weight="84", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NotreDame -> Choate[label="14.75
 05/04", weight="86", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> Choate[label="4.05
 05/04", weight="96", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> Choate[label="2.32
 05/04", weight="98", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

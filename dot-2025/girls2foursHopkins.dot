@@ -1,4 +1,4 @@
-digraph girls2foursHopkins {Canterbury [URL="girls2foursHopkinsCanterbury.html"];Hotchkiss [URL="girls2foursHopkinsHotchkiss.html"];Brooks [URL="girls2foursHopkinsBrooks.html"];LymeOldLyme [URL="girls2foursHopkinsLymeOldLyme.html"];Suffield [URL="girls2foursHopkinsSuffield.html"];NMH [URL="girls2foursHopkinsNMH.html"];StMarysLynn [URL="girls2foursHopkinsStMarysLynn.html"];Middlesex [URL="girls2foursHopkinsMiddlesex.html"];Pomfret [URL="girls2foursHopkinsPomfret.html"];Taft [URL="girls2foursHopkinsTaft.html"];Hopkins [URL="girls2foursHopkinsHopkins.html"];CambridgeRLS [URL="girls2foursHopkinsCambridgeRLS.html"];FrederickGunn [URL="girls2foursHopkinsFrederickGunn.html"];Brooks -> Hopkins[label="34.0
+digraph girls2foursHopkins {Hopkins [URL="girls2foursHopkinsHopkins.html"];Brooks [URL="girls2foursHopkinsBrooks.html"];Canterbury [URL="girls2foursHopkinsCanterbury.html"];CambridgeRLS [URL="girls2foursHopkinsCambridgeRLS.html"];NMH [URL="girls2foursHopkinsNMH.html"];Pomfret [URL="girls2foursHopkinsPomfret.html"];Middlesex [URL="girls2foursHopkinsMiddlesex.html"];Taft [URL="girls2foursHopkinsTaft.html"];LymeOldLyme [URL="girls2foursHopkinsLymeOldLyme.html"];Suffield [URL="girls2foursHopkinsSuffield.html"];StMarysLynn [URL="girls2foursHopkinsStMarysLynn.html"];FrederickGunn [URL="girls2foursHopkinsFrederickGunn.html"];Hotchkiss [URL="girls2foursHopkinsHotchkiss.html"];Brooks -> Hopkins[label="34.0
 04/26", weight="66", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -28,25 +28,25 @@ Distance: 1500m Conditions: Consistent crossing tailwind (~7-13MPH), with occasi
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&cat=1", random="random"]; 
 Suffield -> Hopkins[label="3.97
 05/04", weight="97", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> Hopkins[label="2.1
 05/04", weight="98", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> FrederickGunn[label="9.5
 05/04", weight="91", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> Pomfret[label="16.07
 05/04", weight="84", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> Canterbury[label="97.03
 05/04", weight="3", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Hopkins[label="24.11
 05/04", weight="76", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> Hopkins[label="14.31
 05/04", weight="86", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Hopkins[label="19.49
 05/04", weight="81", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

@@ -1,24 +1,24 @@
-digraph girls2foursCanterbury {Canterbury [URL="girls2foursCanterburyCanterbury.html"];LymeOldLyme [URL="girls2foursCanterburyLymeOldLyme.html"];Suffield [URL="girls2foursCanterburySuffield.html"];BerkshireAcademy [URL="girls2foursCanterburyBerkshireAcademy.html"];GreenwichAcademy [URL="girls2foursCanterburyGreenwichAcademy.html"];Pomfret [URL="girls2foursCanterburyPomfret.html"];Choate [URL="girls2foursCanterburyChoate.html"];Hopkins [URL="girls2foursCanterburyHopkins.html"];FrederickGunn [URL="girls2foursCanterburyFrederickGunn.html"];Suffield -> Canterbury[label="101.0
+digraph girls2foursCanterbury {Hopkins [URL="girls2foursCanterburyHopkins.html"];Canterbury [URL="girls2foursCanterburyCanterbury.html"];Choate [URL="girls2foursCanterburyChoate.html"];GreenwichAcademy [URL="girls2foursCanterburyGreenwichAcademy.html"];Pomfret [URL="girls2foursCanterburyPomfret.html"];BerkshireAcademy [URL="girls2foursCanterburyBerkshireAcademy.html"];LymeOldLyme [URL="girls2foursCanterburyLymeOldLyme.html"];Suffield [URL="girls2foursCanterburySuffield.html"];FrederickGunn [URL="girls2foursCanterburyFrederickGunn.html"];Suffield -> Canterbury[label="101.0
 05/04", weight="-1", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> Canterbury[label="99.13
 05/04", weight="1", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> Canterbury[label="97.03
 05/04", weight="3", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 FrederickGunn -> Canterbury[label="87.53
 05/04", weight="13", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> Canterbury[label="80.96
 05/04", weight="20", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Choate -> Canterbury[label="129.0
 05/04", weight="-29", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Canterbury[label="125.0
 05/04", weight="-25", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 GreenwichAcademy -> Canterbury[label="110.19
 05/04", weight="-10", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

@@ -1,4 +1,4 @@
-digraph boys1foursHotchkiss {Middletown [URL="boys1foursHotchkissMiddletown.html"];Canterbury [URL="boys1foursHotchkissCanterbury.html"];Hotchkiss [URL="boys1foursHotchkissHotchkiss.html"];NotreDame [URL="boys1foursHotchkissNotreDame.html"];LymeOldLyme [URL="boys1foursHotchkissLymeOldLyme.html"];BerkshireAcademy [URL="boys1foursHotchkissBerkshireAcademy.html"];NMH [URL="boys1foursHotchkissNMH.html"];Taft [URL="boys1foursHotchkissTaft.html"];Pomfret [URL="boys1foursHotchkissPomfret.html"];Hopkins [URL="boys1foursHotchkissHopkins.html"];FrederickGunn [URL="boys1foursHotchkissFrederickGunn.html"];Hotchkiss -> NotreDame[label="2.4
+digraph boys1foursHotchkiss {Hopkins [URL="boys1foursHotchkissHopkins.html"];Canterbury [URL="boys1foursHotchkissCanterbury.html"];NMH [URL="boys1foursHotchkissNMH.html"];Pomfret [URL="boys1foursHotchkissPomfret.html"];BerkshireAcademy [URL="boys1foursHotchkissBerkshireAcademy.html"];Taft [URL="boys1foursHotchkissTaft.html"];NotreDame [URL="boys1foursHotchkissNotreDame.html"];LymeOldLyme [URL="boys1foursHotchkissLymeOldLyme.html"];Middletown [URL="boys1foursHotchkissMiddletown.html"];FrederickGunn [URL="boys1foursHotchkissFrederickGunn.html"];Hotchkiss [URL="boys1foursHotchkissHotchkiss.html"];Hotchkiss -> NotreDame[label="2.4
 04/20", weight="98", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
@@ -12,25 +12,25 @@ Distance: 1500 M Conditions: Chilly and cloudy with variable cross headwinds bui
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&cat=5", random="random"]; 
 Hopkins -> Hotchkiss[label="5.74
 05/04", weight="95", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 NMH -> Hotchkiss[label="2.77
 05/04", weight="98", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 LymeOldLyme -> Hotchkiss[label="0.62
 05/04", weight="100", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> NotreDame[label="4.3
 05/04", weight="96", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Taft -> Hotchkiss[label="1.08
 05/04", weight="99", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Pomfret[label="2.63
 05/04", weight="98", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> FrederickGunn[label="33.84
 05/04", weight="67", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> Canterbury[label="38.64
 05/04", weight="62", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]}

@@ -1,6 +1,6 @@
 {'Winsor', 'Brooks', "Miss Porter's", 'Nobles'}
 {'NMH'}
-Cycle detected: {'Choate', 'Berkshire Academy'}
+Cycle detected: {'Berkshire Academy', 'Choate'}
 {'Cambridge RLS'}
 {'BB&N'}
 {'Groton'}
@@ -12,5 +12,5 @@ Cycle detected: {'Choate', 'Berkshire Academy'}
 {'Hopkins'}
 {'Frederick Gunn'}
 {'Pomfret'}
-{'Greenwich Country Day', "St. Mary's-Lynn", "St. Mark's"}
-{'Middletown', 'Newton Country Day', 'Canterbury', 'Pingree', 'Valley Regional', 'Dexter-Southfield'}
+{"St. Mark's", 'Greenwich Country Day', "St. Mary's-Lynn"}
+{'Canterbury', 'Pingree', 'Newton Country Day', 'Valley Regional', 'Middletown', 'Dexter-Southfield'}
