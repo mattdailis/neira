@@ -1,4 +1,4 @@
-digraph boys3foursChoate {Choate [URL="boys3foursChoateChoate.html"];FrederickGunn [URL="boys3foursChoateFrederickGunn.html"];NMH [URL="boys3foursChoateNMH.html"];Pomfret [URL="boys3foursChoatePomfret.html"];Hotchkiss [URL="boys3foursChoateHotchkiss.html"];NMH -> Choate[label="33.54
+digraph boys3foursChoate {Hotchkiss [URL="boys3foursChoateHotchkiss.html"];NMH [URL="boys3foursChoateNMH.html"];Pomfret [URL="boys3foursChoatePomfret.html"];Choate [URL="boys3foursChoateChoate.html"];FrederickGunn [URL="boys3foursChoateFrederickGunn.html"];NMH -> Choate[label="33.54
 05/04", weight="67", tooltip="Founder's Day Regatta			
 ", URL="", random="random"]; 
 Pomfret -> Choate[label="25.26

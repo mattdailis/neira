@@ -1,11 +1,11 @@
-{'Pingree', 'Choate', 'Nobles'}
+{'Choate', 'Pingree', 'Nobles'}
 {'Winsor'}
 {'Cambridge RLS'}
-{'BB&N', 'Brooks'}
+{'Brooks', 'BB&N'}
 {'Groton'}
-Cycle detected: {'NMH', 'Middlesex', 'Hopkins'}
+Cycle detected: {'NMH', 'Hopkins', 'Middlesex'}
 {'Hotchkiss'}
 {'Berkshire Academy'}
 {'Taft'}
 {'Newton Country Day', 'Lyme/Old Lyme', 'Pomfret'}
-{"St. Mark's", 'Greenwich Country Day', 'Frederick Gunn', 'Canterbury'}
+{'Greenwich Country Day', 'Canterbury', "St. Mark's", 'Frederick Gunn'}

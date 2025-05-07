@@ -98,13 +98,25 @@ def build():
                 for varsity_index in heats[class_][gender]:
                     old_entry = heats[class_][gender][varsity_index]
                     new_entry = []
+                    included_founders = False
                     for date, results in sorted(old_entry.items(), key=lambda x: x[0], reverse=True):
                         parsed_date = datetime.strptime(date, "%Y-%m-%d")
+                        if date == "2025-05-04":
+                            results.insert(0, "founders-day")
+                            included_founders = True
                         new_entry.append({
                             "date": parsed_date.strftime("%A, %B {}, %Y").format(parsed_date.day), # Day without leading zero
                             "date-yyyy-mm-dd": date,
                             "results": results
                         })
+                    if not included_founders:
+                        parsed_date = datetime.strptime("2025-05-04", "%Y-%m-%d")
+                        new_entry.append({
+                            "date": parsed_date.strftime("%A, %B {}, %Y").format(parsed_date.day), # Day without leading zero
+                            "date-yyyy-mm-dd": "2025-05-04",
+                            "results": "founders-day"
+                        })
+                        new_entry.sort(key=lambda x: x["date-yyyy-mm-dd"], reverse=True)
                     heats[class_][gender][varsity_index] = new_entry
 
         template = env.get_template("category-index.jinja2")

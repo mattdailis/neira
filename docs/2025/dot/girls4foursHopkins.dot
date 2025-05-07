@@ -1,4 +1,4 @@
-digraph girls4foursHopkins {Hopkins [URL="girls4foursHopkinsHopkins.html"];Choate [URL="girls4foursHopkinsChoate.html"];NMH [URL="girls4foursHopkinsNMH.html"];CambridgeRLS [URL="girls4foursHopkinsCambridgeRLS.html"];Middlesex [URL="girls4foursHopkinsMiddlesex.html"];LymeOldLyme [URL="girls4foursHopkinsLymeOldLyme.html"];Hotchkiss [URL="girls4foursHopkinsHotchkiss.html"];Taft [URL="girls4foursHopkinsTaft.html"];Canterbury [URL="girls4foursHopkinsCanterbury.html"];Brooks [URL="girls4foursHopkinsBrooks.html"];CambridgeRLS -> Hopkins[label="36.2
+digraph girls4foursHopkins {Canterbury [URL="girls4foursHopkinsCanterbury.html"];Hotchkiss [URL="girls4foursHopkinsHotchkiss.html"];Brooks [URL="girls4foursHopkinsBrooks.html"];LymeOldLyme [URL="girls4foursHopkinsLymeOldLyme.html"];NMH [URL="girls4foursHopkinsNMH.html"];Middlesex [URL="girls4foursHopkinsMiddlesex.html"];Taft [URL="girls4foursHopkinsTaft.html"];Choate [URL="girls4foursHopkinsChoate.html"];Hopkins [URL="girls4foursHopkinsHopkins.html"];CambridgeRLS [URL="girls4foursHopkinsCambridgeRLS.html"];CambridgeRLS -> Hopkins[label="36.2
 04/26", weight="64", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -30,8 +30,8 @@ Hopkins -> Hotchkiss[label="5.76
 Hopkins -> Taft[label="11.87
 05/04", weight="89", tooltip="Founder's Day Regatta			
 ", URL="", random="random"]; 
-Hopkins -> LymeOldLyme[label="91.0
-05/04", weight="9", tooltip="Founder's Day Regatta			
+Hopkins -> LymeOldLyme[label="31.0
+05/04", weight="69", tooltip="Founder's Day Regatta			
 ", URL="", random="random"]; 
 Hopkins -> Canterbury[label="106.0
 05/04", weight="-6", tooltip="Founder's Day Regatta			

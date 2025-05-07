@@ -25,12 +25,12 @@
         {%  endif %}
         {% for result in results %}
             <h3>{{ result["date"] }}</h3>
-            {% if result["date-yyyy-mm-dd"] == "2025-05-03" %}
-            <div style="border-top: 1px solid black; width: fit-content; padding-bottom: 20px">
-            <a style="text-decoration: none" href="{{ base }}/{{ year }}/founders-day.html"><pre style="margin: 0">Founders Day</pre></a>
-            </div>
-            {% endif %}
             {% for heat in result["results"] %}
+                {% if heat == "founders-day" %}
+                <div style="border-top: 1px solid black; width: fit-content; padding-bottom: 20px">
+                <a style="text-decoration: none" href="{{ base }}/{{ year }}/founders-day.html"><pre style="margin: 0">Founders Day</pre></a>
+                </div>
+                {% else %}
 {#                <div class="w3-col s2" style="border-right: 1px solid black">#}
                 <div style="border-top: 1px solid black; width: fit-content; padding-bottom: 20px">
                     {% for result in heat -%}
@@ -41,6 +41,7 @@
                 </div>
 {#                <hr />#}
 {#                </div>#}
+                {% endif %}
             {% endfor %}
         {% endfor %}
     </div>
