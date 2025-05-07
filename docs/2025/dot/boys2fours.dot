@@ -1,4 +1,4 @@
-digraph boys2fours {Groton [URL="boys2foursGroton.html"];Hopkins [URL="boys2foursHopkins.html"];Pomfret [URL="boys2foursPomfret.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];BelmontHill [URL="boys2foursBelmontHill.html"];NMH [URL="boys2foursNMH.html"];DexterSouthfield [URL="boys2foursDexterSouthfield.html"];Suffield [URL="boys2foursSuffield.html"];Middlesex [URL="boys2foursMiddlesex.html"];Taft [URL="boys2foursTaft.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Brooks [URL="boys2foursBrooks.html"];Choate [URL="boys2foursChoate.html"];Nobles [URL="boys2foursNobles.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];StMarks [URL="boys2foursStMarks.html"];BBN [URL="boys2foursBBN.html"];ValleyRegional [URL="boys2foursValleyRegional.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];CambridgeRLS [URL="boys2foursCambridgeRLS.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];Middletown [URL="boys2foursMiddletown.html"];Berwick [URL="boys2foursBerwick.html"];NotreDame [URL="boys2foursNotreDame.html"];BelmontHill -> Nobles[label="14.1 (16.27)
+digraph boys2fours {BBN [URL="boys2foursBBN.html"];Hopkins [URL="boys2foursHopkins.html"];Berwick [URL="boys2foursBerwick.html"];DexterSouthfield [URL="boys2foursDexterSouthfield.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];NotreDame [URL="boys2foursNotreDame.html"];ValleyRegional [URL="boys2foursValleyRegional.html"];Suffield [URL="boys2foursSuffield.html"];StMarks [URL="boys2foursStMarks.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];Middletown [URL="boys2foursMiddletown.html"];Brooks [URL="boys2foursBrooks.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Taft [URL="boys2foursTaft.html"];Choate [URL="boys2foursChoate.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Middlesex [URL="boys2foursMiddlesex.html"];CambridgeRLS [URL="boys2foursCambridgeRLS.html"];NMH [URL="boys2foursNMH.html"];Pomfret [URL="boys2foursPomfret.html"];Nobles [URL="boys2foursNobles.html"];Groton [URL="boys2foursGroton.html"];BelmontHill [URL="boys2foursBelmontHill.html"];BelmontHill -> Nobles[label="14.1 (16.27)
 05/04", weight="86", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: Order of racing: 4V4-3V4-2V4-1V4-4V8-6V4-9V4-5V4. Building direct headwind for the first three races, strongest for the 2V4; the wind then lessened and shifted to a cross/cross headwind for the 1V4 and remaining races Comments: Thanks to Nobles for being patient and supportive through yesterday's weather-related postponement and for a great day of racing with our full programs today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=96DF6AF2C5DADCD1EB91A4088A314B11&cat=1", random="random"]; 
@@ -65,20 +65,20 @@ Nobles -> StMarks[label="46.9
 04/26", weight="54", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
-Nobles -> BrewsterAcademy[label="139.9
-04/26", weight="-39", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+Nobles -> BrewsterAcademy[label="89.9
+04/26", weight="11", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
 NotreDame -> StMarks[label="12.3
 04/26", weight="88", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
-NotreDame -> BrewsterAcademy[label="105.3
-04/26", weight="-5", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+NotreDame -> BrewsterAcademy[label="55.3
+04/26", weight="45", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
-StMarks -> BrewsterAcademy[label="93.0
-04/26", weight="7", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
+StMarks -> BrewsterAcademy[label="43.0
+04/26", weight="57", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
 Berwick -> BrewsterAcademy[label="28

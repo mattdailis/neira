@@ -1,4 +1,4 @@
-digraph girls3foursBrewsterAcademy {Hopkins [URL="girls3foursBrewsterAcademyHopkins.html"];NMH [URL="girls3foursBrewsterAcademyNMH.html"];BrewsterAcademy [URL="girls3foursBrewsterAcademyBrewsterAcademy.html"];GreenwichAcademy [URL="girls3foursBrewsterAcademyGreenwichAcademy.html"];Taft [URL="girls3foursBrewsterAcademyTaft.html"];NMH -> BrewsterAcademy[label="53.47
+digraph girls3foursBrewsterAcademy {GreenwichAcademy [URL="girls3foursBrewsterAcademyGreenwichAcademy.html"];Hopkins [URL="girls3foursBrewsterAcademyHopkins.html"];NMH [URL="girls3foursBrewsterAcademyNMH.html"];BrewsterAcademy [URL="girls3foursBrewsterAcademyBrewsterAcademy.html"];Taft [URL="girls3foursBrewsterAcademyTaft.html"];NMH -> BrewsterAcademy[label="53.47
 05/04", weight="47", tooltip="Founder's Day Regatta			
 ", URL="", random="random"]; 
 Taft -> BrewsterAcademy[label="46.35

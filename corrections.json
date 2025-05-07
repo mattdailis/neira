@@ -90,6 +90,10 @@
         "checksum": "44213be1dc3bd37dfe9a9ba23ad9687f",
         "corrections": []
     },
+    "332AC602A7184903C2BF632C3A15C1EB": {
+        "checksum": "e493c53751590135f8d5337ff1cda890",
+        "corrections": []
+    },
     "36B0F2AE8783F36592702B33F4094A30": {
         "checksum": "2dcbf7a8bad5987592fcc2cdb5189f3e",
         "corrections": []
@@ -120,29 +124,14 @@
         ]
     },
     "4232F2C9CF0B3800357AF3DC37D5407B": {
-        "checksum": "6aaafc5dd18f06b0c935d4111a82c56a",
+        "checksum": "c35a1b8eed88e58eccb353ce23408c0c",
         "corrections": [
             {
-                "heat": "boys 2",
-                "margins": [
-                    {
-                        "margin_from_winner": 0,
-                        "school": "Nobles"
-                    },
-                    {
-                        "margin_from_winner": 34.6,
-                        "school": "Notre Dame"
-                    },
-                    {
-                        "margin_from_winner": 46.9,
-                        "school": "St. Mark's"
-                    },
-                    {
-                        "margin_from_winner": 139.9,
-                        "school": "Brewster Academy"
-                    }
+                "heat": "boys 3",
+                "schools": [
+                    "Brewster Academy"
                 ],
-                "type": "set_margins"
+                "type": "exclude_schools_from_heat"
             }
         ]
     },
@@ -189,7 +178,7 @@
         ]
     },
     "5100A5CA83A99A9CD2E37FEC65103FEF": {
-        "checksum": "60b652be8e68f683ad4a8b880d34e226",
+        "checksum": "10cfd679725397f829b49854a88fef7b",
         "corrections": [
             {
                 "comment": "is Sacred Heart Greenwich in NEIRA?",
@@ -249,6 +238,15 @@
     "74320C9FA98FF40EF58ED5364AA5D062": {
         "checksum": "8826046ed0f8b9cd31064edcfad6257f",
         "corrections": []
+    },
+    "7883E3E9F1598D30B271DBFF0F534924": {
+        "checksum": "a6cc6a465f3ffe86d39338ad15db486a",
+        "corrections": [
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            }
+        ]
     },
     "7E1D2CF89CCC96BDC0B810EABF272B1D": {
         "checksum": "6c49ef751f97045f788613afdd249b54",

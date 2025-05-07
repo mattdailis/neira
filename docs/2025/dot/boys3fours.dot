@@ -1,4 +1,4 @@
-digraph boys3fours {Groton [URL="boys3foursGroton.html"];Hopkins [URL="boys3foursHopkins.html"];Pomfret [URL="boys3foursPomfret.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];BelmontHill [URL="boys3foursBelmontHill.html"];NMH [URL="boys3foursNMH.html"];DexterSouthfield [URL="boys3foursDexterSouthfield.html"];Middlesex [URL="boys3foursMiddlesex.html"];Canterbury [URL="boys3foursCanterbury.html"];Taft [URL="boys3foursTaft.html"];Brooks [URL="boys3foursBrooks.html"];Choate [URL="boys3foursChoate.html"];Nobles [URL="boys3foursNobles.html"];BrewsterAcademy [URL="boys3foursBrewsterAcademy.html"];StMarks [URL="boys3foursStMarks.html"];BBN [URL="boys3foursBBN.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];Middletown [URL="boys3foursMiddletown.html"];FrederickGunn [URL="boys3foursFrederickGunn.html"];Berwick [URL="boys3foursBerwick.html"];BelmontHill -> Nobles[label="10.8 (12.46)
+digraph boys3fours {BBN [URL="boys3foursBBN.html"];Hopkins [URL="boys3foursHopkins.html"];Berwick [URL="boys3foursBerwick.html"];DexterSouthfield [URL="boys3foursDexterSouthfield.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];StMarks [URL="boys3foursStMarks.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Middletown [URL="boys3foursMiddletown.html"];Brooks [URL="boys3foursBrooks.html"];FrederickGunn [URL="boys3foursFrederickGunn.html"];Taft [URL="boys3foursTaft.html"];Canterbury [URL="boys3foursCanterbury.html"];Choate [URL="boys3foursChoate.html"];NMH [URL="boys3foursNMH.html"];Middlesex [URL="boys3foursMiddlesex.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];Pomfret [URL="boys3foursPomfret.html"];Nobles [URL="boys3foursNobles.html"];Groton [URL="boys3foursGroton.html"];BelmontHill [URL="boys3foursBelmontHill.html"];BelmontHill -> Nobles[label="10.8 (12.46)
 05/04", weight="90", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: Order of racing: 4V4-3V4-2V4-1V4-4V8-6V4-9V4-5V4. Building direct headwind for the first three races, strongest for the 2V4; the wind then lessened and shifted to a cross/cross headwind for the 1V4 and remaining races Comments: Thanks to Nobles for being patient and supportive through yesterday's weather-related postponement and for a great day of racing with our full programs today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=96DF6AF2C5DADCD1EB91A4088A314B11&cat=1", random="random"]; 
@@ -59,14 +59,6 @@ Girls 7th - 3:24.32, BB&N 3:32.06
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
 Nobles -> StMarks[label="41.5
 04/26", weight="59", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
-Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
-Nobles -> BrewsterAcademy[label="64.3
-04/26", weight="36", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
-Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
-StMarks -> BrewsterAcademy[label="22.8
-04/26", weight="78", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
 Groton -> CambridgeRLS[label="11.0 (13.31)

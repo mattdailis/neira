@@ -1,4 +1,4 @@
-digraph boys1foursBancroft {Bancroft [URL="boys1foursBancroftBancroft.html"];Derryfield [URL="boys1foursBancroftDerryfield.html"];WorcesterAcademy [URL="boys1foursBancroftWorcesterAcademy.html"];Berwick [URL="boys1foursBancroftBerwick.html"];BrewsterAcademy [URL="boys1foursBancroftBrewsterAcademy.html"];Berwick -> Bancroft[label="75.3
+digraph boys1foursBancroft {WorcesterAcademy [URL="boys1foursBancroftWorcesterAcademy.html"];Berwick [URL="boys1foursBancroftBerwick.html"];BrewsterAcademy [URL="boys1foursBancroftBrewsterAcademy.html"];Derryfield [URL="boys1foursBancroftDerryfield.html"];Bancroft [URL="boys1foursBancroftBancroft.html"];Berwick -> Bancroft[label="75.3
 04/27", weight="25", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
