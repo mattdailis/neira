@@ -1,0 +1,9 @@
+digraph boys4foursBrewsterAcademy {BrewsterAcademy [URL="boys4foursBrewsterAcademyBrewsterAcademy.html"];BerkshireAcademy [URL="boys4foursBrewsterAcademyBerkshireAcademy.html"];Hotchkiss [URL="boys4foursBrewsterAcademyHotchkiss.html"];Taft [URL="boys4foursBrewsterAcademyTaft.html"];Taft -> BrewsterAcademy[label="12.17
+05/04", weight="88", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+BrewsterAcademy -> BerkshireAcademy[label="30.42
+05/04", weight="70", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hotchkiss -> BrewsterAcademy[label="1.59
+05/04", weight="99", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

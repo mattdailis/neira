@@ -1,4 +1,4 @@
-digraph boys2foursSuffield {NotreDame [URL="boys2foursSuffieldNotreDame.html"];Taft [URL="boys2foursSuffieldTaft.html"];Choate [URL="boys2foursSuffieldChoate.html"];NMH [URL="boys2foursSuffieldNMH.html"];BerkshireAcademy [URL="boys2foursSuffieldBerkshireAcademy.html"];Suffield [URL="boys2foursSuffieldSuffield.html"];LymeOldLyme [URL="boys2foursSuffieldLymeOldLyme.html"];BrewsterAcademy [URL="boys2foursSuffieldBrewsterAcademy.html"];Suffield -> BerkshireAcademy[label="3.5
+digraph boys2foursSuffield {NotreDame [URL="boys2foursSuffieldNotreDame.html"];Choate [URL="boys2foursSuffieldChoate.html"];BerkshireAcademy [URL="boys2foursSuffieldBerkshireAcademy.html"];Suffield [URL="boys2foursSuffieldSuffield.html"];NMH [URL="boys2foursSuffieldNMH.html"];BrewsterAcademy [URL="boys2foursSuffieldBrewsterAcademy.html"];LymeOldLyme [URL="boys2foursSuffieldLymeOldLyme.html"];Taft [URL="boys2foursSuffieldTaft.html"];Suffield -> BerkshireAcademy[label="3.5
 05/04", weight="97", tooltip="Founder's Day Regatta			
 ", URL="", random="random"]; 
 Suffield -> Choate[label="13.83

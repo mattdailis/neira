@@ -1,4 +1,4 @@
-digraph boys4foursTaft {Taft [URL="boys4foursTaftTaft.html"];NMH [URL="boys4foursTaftNMH.html"];Hotchkiss [URL="boys4foursTaftHotchkiss.html"];Groton [URL="boys4foursTaftGroton.html"];BerkshireAcademy [URL="boys4foursTaftBerkshireAcademy.html"];Hopkins [URL="boys4foursTaftHopkins.html"];Pomfret [URL="boys4foursTaftPomfret.html"];Taft -> BerkshireAcademy[label="47.5
+digraph boys4foursTaft {Groton [URL="boys4foursTaftGroton.html"];Pomfret [URL="boys4foursTaftPomfret.html"];Hopkins [URL="boys4foursTaftHopkins.html"];BerkshireAcademy [URL="boys4foursTaftBerkshireAcademy.html"];NMH [URL="boys4foursTaftNMH.html"];BrewsterAcademy [URL="boys4foursTaftBrewsterAcademy.html"];Hotchkiss [URL="boys4foursTaftHotchkiss.html"];Taft [URL="boys4foursTaftTaft.html"];Taft -> BerkshireAcademy[label="47.5
 04/19", weight="53", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -23,4 +23,10 @@ Taft -> Hopkins[label="34.51
 ", URL="", random="random"]; 
 Taft -> Hotchkiss[label="35.23
 05/04", weight="65", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Taft -> BrewsterAcademy[label="12.17
+05/04", weight="88", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Taft -> BerkshireAcademy[label="42.59
+05/04", weight="58", tooltip="Founder's Day Regatta			
 ", URL="", random="random"]}

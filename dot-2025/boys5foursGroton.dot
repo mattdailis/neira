@@ -1,4 +1,4 @@
-digraph boys5foursGroton {Pomfret [URL="boys5foursGrotonPomfret.html"];Taft [URL="boys5foursGrotonTaft.html"];CambridgeRLS [URL="boys5foursGrotonCambridgeRLS.html"];Groton [URL="boys5foursGrotonGroton.html"];Groton -> CambridgeRLS[label="9.8 (11.85)
+digraph boys5foursGroton {Groton [URL="boys5foursGrotonGroton.html"];Pomfret [URL="boys5foursGrotonPomfret.html"];CambridgeRLS [URL="boys5foursGrotonCambridgeRLS.html"];Taft [URL="boys5foursGrotonTaft.html"];Groton -> CambridgeRLS[label="9.8 (11.85)
 05/03", weight="91", tooltip="NEIRA Boys & Girls Fours,CRLS at Groton			
 Distance: 1240 m Conditions: A tail wind was significant in the first races, by the time o the first boats, n0 wind at all. Very little current; the river is very low.We finished the last race just before thunder and lightning began. Minimal rain. Comments: Racing order:
 G5, B5, G4, B4, G2, B2, G3, B3, G1, B1
