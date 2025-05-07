@@ -1,9 +1,0 @@
-digraph girls4foursFrederickGunn {Pomfret [URL="girls4foursFrederickGunnPomfret.html"];FrederickGunn [URL="girls4foursFrederickGunnFrederickGunn.html"];Hotchkiss [URL="girls4foursFrederickGunnHotchkiss.html"];Choate [URL="girls4foursFrederickGunnChoate.html"];Choate -> FrederickGunn[label="70.93
-05/04", weight="30", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
-Hotchkiss -> FrederickGunn[label="66.19
-05/04", weight="34", tooltip="Founder's Day Regatta			
-", URL="", random="random"]; 
-Pomfret -> FrederickGunn[label="9.4
-05/04", weight="91", tooltip="Founder's Day Regatta			
-", URL="", random="random"]}

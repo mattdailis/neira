@@ -1,4 +1,4 @@
-digraph boys3foursBBN {BelmontHill [URL="boys3foursBBNBelmontHill.html"];Nobles [URL="boys3foursBBNNobles.html"];Groton [URL="boys3foursBBNGroton.html"];Middlesex [URL="boys3foursBBNMiddlesex.html"];CambridgeRLS [URL="boys3foursBBNCambridgeRLS.html"];Berwick [URL="boys3foursBBNBerwick.html"];BBN [URL="boys3foursBBNBBN.html"];BBN -> Berwick[label="18.0 (20.0)
+digraph boys3foursBBN {BBN [URL="boys3foursBBNBBN.html"];Nobles [URL="boys3foursBBNNobles.html"];CambridgeRLS [URL="boys3foursBBNCambridgeRLS.html"];Groton [URL="boys3foursBBNGroton.html"];Middlesex [URL="boys3foursBBNMiddlesex.html"];BelmontHill [URL="boys3foursBBNBelmontHill.html"];Berwick [URL="boys3foursBBNBerwick.html"];BBN -> Berwick[label="18.0 (20.0)
 04/05", weight="82", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Berwick Academy			
 Distance: 1350 Conditions: Overall very good conditions and flat water. Very slight cross wind but consistent for all races. Thanks to Berwick for making the trip!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CE456225129ACDB361E1BEAB29CB57A4&cat=5", random="random"]; 
