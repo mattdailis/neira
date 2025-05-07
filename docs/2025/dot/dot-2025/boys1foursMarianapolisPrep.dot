@@ -1,0 +1,16 @@
+digraph boys1foursMarianapolisPrep {BerkshireAcademy [URL="boys1foursMarianapolisPrepBerkshireAcademy.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrepMarianapolisPrep.html"];Suffield [URL="boys1foursMarianapolisPrepSuffield.html"];Pomfret [URL="boys1foursMarianapolisPrepPomfret.html"];WorcesterAcademy [URL="boys1foursMarianapolisPrepWorcesterAcademy.html"];BerkshireAcademy -> MarianapolisPrep[label="99.2
+04/23", weight="1", tooltip="NEIRA Boys ,Pomfret v. Berkshire, Marianapolis			
+Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occasional gusty crosswinds, light chop, but generally good water. Comments: Alternated races with girls. Order of boys races: B3, B2, B1, B4
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]; 
+Pomfret -> MarianapolisPrep[label="95.7
+04/23", weight="5", tooltip="NEIRA Boys ,Pomfret v. Berkshire, Marianapolis			
+Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occasional gusty crosswinds, light chop, but generally good water. Comments: Alternated races with girls. Order of boys races: B3, B2, B1, B4
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A209E2EC05D6A0148020795D781654C0&cat=1", random="random"]; 
+WorcesterAcademy -> MarianapolisPrep[label="107.6
+04/30", weight="-7", tooltip="NEIRA Boys , Worcester Academy vs. Suffield Academy, Marianapolis Prep			
+Distance: 1500 Conditions: Moderate Crossing tailwind and some chop. Comments: Great day of racing. Thank you to Marianapolis and Suffield! The coxswains and crews did a great job staying on schedule during a busy racing day.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7E1D2CF89CCC96BDC0B810EABF272B1D&cat=1", random="random"]; 
+Suffield -> MarianapolisPrep[label="83.9
+04/30", weight="17", tooltip="NEIRA Boys , Worcester Academy vs. Suffield Academy, Marianapolis Prep			
+Distance: 1500 Conditions: Moderate Crossing tailwind and some chop. Comments: Great day of racing. Thank you to Marianapolis and Suffield! The coxswains and crews did a great job staying on schedule during a busy racing day.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7E1D2CF89CCC96BDC0B810EABF272B1D&cat=1", random="random"]}

@@ -1,0 +1,43 @@
+digraph girls1foursNobles {NewtonCountryDay [URL="girls1foursNoblesNewtonCountryDay.html"];Winsor [URL="girls1foursNoblesWinsor.html"];Nobles [URL="girls1foursNoblesNobles.html"];BrewsterAcademy [URL="girls1foursNoblesBrewsterAcademy.html"];Brooks [URL="girls1foursNoblesBrooks.html"];Groton [URL="girls1foursNoblesGroton.html"];Pomfret [URL="girls1foursNoblesPomfret.html"];BBN [URL="girls1foursNoblesBBN.html"];StMarks [URL="girls1foursNoblesStMarks.html"];Hopkins [URL="girls1foursNoblesHopkins.html"];NMH [URL="girls1foursNoblesNMH.html"];Nobles -> Winsor[label="3.5 (4.04)
+05/04", weight="97", tooltip="NEIRA Girls Fours, The Winsor School vs. Nobles			
+Distance: 1300 Conditions: Thank you Nobles for a great race!
+Steady crossing head wind for all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=04A0E710667843CC6B974150865EFE56&cat=1", random="random"]; 
+Nobles -> NMH[label="35.0
+05/11", weight="65", tooltip="NEIRA Boys & Girls Fours,NMH vs Nobles and Deerfield			
+Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&cat=5", random="random"]; 
+Nobles -> Groton[label="0.1 (0.11)
+04/20", weight="100", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
+Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
+Girls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=61611297C2B5882317693DAB1794C8C4&cat=1", random="random"]; 
+Nobles -> BBN[label="5.6 (6.22)
+04/20", weight="95", tooltip="NEIRA Girls Fours, Nobles, Groton, BB&N (hosted)			
+Distance: 1350 M Conditions: Good conditions all day, even across lanes Comments: Good racing by all, in the 1V Nobles drifted in to the BB&N lane in the last 100 meters, then cut back out, finish order was not impacted but margin was.
+Girls 7th, 8th and 9th for BB&N and Nobles raced in the JV course, Great to see everyone out there.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=61611297C2B5882317693DAB1794C8C4&cat=1", random="random"]; 
+Nobles -> Hopkins[label="7.2
+05/18", weight="93", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, Nobles			
+Distance: 1500m Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: G3, G4, G2, G1, G-Novices. The G-Novices race is listed under the 5th boat and only included Nobles crews. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05F1824A635516BB2A75FC769B7DED45&cat=1", random="random"]; 
+Nobles -> Pomfret[label="41.6
+05/18", weight="59", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, Nobles			
+Distance: 1500m Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: G3, G4, G2, G1, G-Novices. The G-Novices race is listed under the 5th boat and only included Nobles crews. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05F1824A635516BB2A75FC769B7DED45&cat=1", random="random"]; 
+Nobles -> Brooks[label="4.0
+04/13", weight="96", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
+Distance: ~1500m Conditions: Gusty headwind (15-25 mph) in moderate chop along lee shore. Crews had approximately the same conditions. Lane assignments probably affected times somewhat. Comments: Challenging conditions overcome by the constructive attitudes of all the coaches and race enthusiasm of athletes. Thanks to a strong Nobles team for coming up for some raw weather racing in early April. We were pleased to get the races in.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&cat=5", random="random"]; 
+Nobles -> StMarks[label="14.6
+04/27", weight="86", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
+Nobles -> BrewsterAcademy[label="19.3
+04/27", weight="81", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
+Nobles -> NewtonCountryDay[label="71.5
+04/27", weight="29", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]}

@@ -1,0 +1,12 @@
+digraph boys2foursBerwick {BBN [URL="boys2foursBerwickBBN.html"];WorcesterAcademy [URL="boys2foursBerwickWorcesterAcademy.html"];BrewsterAcademy [URL="boys2foursBerwickBrewsterAcademy.html"];Berwick [URL="boys2foursBerwickBerwick.html"];BBN -> Berwick[label="32.6 (36.22)
+04/05", weight="68", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Berwick Academy			
+Distance: 1350 Conditions: Overall very good conditions and flat water. Very slight cross wind but consistent for all races. Thanks to Berwick for making the trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CE456225129ACDB361E1BEAB29CB57A4&cat=5", random="random"]; 
+Berwick -> BrewsterAcademy[label="28
+04/19", weight="72", tooltip="NEIRA Boys & Girls Fours,Dublin School, Berwick Academy, Brewster Academy			
+Distance: 1400m'ish
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F633B39B972009BAAE9DBEA29158C86C&cat=5", random="random"]; 
+Berwick -> WorcesterAcademy[label="31.8
+04/27", weight="69", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
+Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]}

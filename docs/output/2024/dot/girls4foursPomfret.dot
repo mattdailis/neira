@@ -1,0 +1,36 @@
+digraph girls4foursPomfret {Winsor [URL="girls4foursPomfretWinsor.html"];Hopkins [URL="girls4foursPomfretHopkins.html"];Nobles [URL="girls4foursPomfretNobles.html"];Groton [URL="girls4foursPomfretGroton.html"];Pomfret [URL="girls4foursPomfretPomfret.html"];BBN [URL="girls4foursPomfretBBN.html"];StMarks [URL="girls4foursPomfretStMarks.html"];Taft [URL="girls4foursPomfretTaft.html"];NMH [URL="girls4foursPomfretNMH.html"];BBN -> Pomfret[label="40.5
+05/11", weight="60", tooltip="NEIRA Girls Fours, du Pont Cup: Pomfret vs. BB&N, Gunn, Miss Porter's, St. Mark's, Taft, Winsor			
+Distance: 1500m Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (G1). Comments: Alternated races with boys races. Order of girls races: G-Novice, G4, G3, G5, G2, G1. The novice boat race is listed in the sixth boat category. Crossing wind pushed almost all boats at least one lane to port. Several referee calls for boats to move to starboard in the lower boat races. Congratulations to Taft G1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&cat=1", random="random"]; 
+Winsor -> Pomfret[label="39.4
+05/11", weight="61", tooltip="NEIRA Girls Fours, du Pont Cup: Pomfret vs. BB&N, Gunn, Miss Porter's, St. Mark's, Taft, Winsor			
+Distance: 1500m Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (G1). Comments: Alternated races with boys races. Order of girls races: G-Novice, G4, G3, G5, G2, G1. The novice boat race is listed in the sixth boat category. Crossing wind pushed almost all boats at least one lane to port. Several referee calls for boats to move to starboard in the lower boat races. Congratulations to Taft G1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&cat=1", random="random"]; 
+StMarks -> Pomfret[label="21.0
+05/11", weight="79", tooltip="NEIRA Girls Fours, du Pont Cup: Pomfret vs. BB&N, Gunn, Miss Porter's, St. Mark's, Taft, Winsor			
+Distance: 1500m Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (G1). Comments: Alternated races with boys races. Order of girls races: G-Novice, G4, G3, G5, G2, G1. The novice boat race is listed in the sixth boat category. Crossing wind pushed almost all boats at least one lane to port. Several referee calls for boats to move to starboard in the lower boat races. Congratulations to Taft G1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&cat=1", random="random"]; 
+Taft -> Pomfret[label="16.5
+05/11", weight="84", tooltip="NEIRA Girls Fours, du Pont Cup: Pomfret vs. BB&N, Gunn, Miss Porter's, St. Mark's, Taft, Winsor			
+Distance: 1500m Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (G1). Comments: Alternated races with boys races. Order of girls races: G-Novice, G4, G3, G5, G2, G1. The novice boat race is listed in the sixth boat category. Crossing wind pushed almost all boats at least one lane to port. Several referee calls for boats to move to starboard in the lower boat races. Congratulations to Taft G1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&cat=1", random="random"]; 
+NMH -> Pomfret[label="32.2
+04/20", weight="68", tooltip="NEIRA Girls Fours,Pomfret vs. NMH, Hopkins			
+Distance: 1500m Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout, with a slight tailwind developing in the last race. No current. Comments: Race order: G3, G2, G1, G4/5. Thanks to NMH and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=00FD5442533029F3F8C5DFD9A3F09907&cat=1", random="random"]; 
+Groton -> Pomfret[label="33.0
+04/27", weight="67", tooltip="NEIRA,Pomfret vs. Groton, Taft			
+Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&cat=1", random="random"]; 
+Pomfret -> Taft[label="4.9
+04/27", weight="96", tooltip="NEIRA,Pomfret vs. Groton, Taft			
+Distance: 1500m Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: G4, G3, G2, G1 (with boys' races interspersed). Winds made aligning starts challenging. Commendable job by aligner. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected. Taft's 1st boat was a late scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B2DEAF649BD92E4956E382AFF1E67D1D&cat=1", random="random"]; 
+Nobles -> Pomfret[label="42.3
+05/18", weight="58", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, Nobles			
+Distance: 1500m Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: G3, G4, G2, G1, G-Novices. The G-Novices race is listed under the 5th boat and only included Nobles crews. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05F1824A635516BB2A75FC769B7DED45&cat=1", random="random"]; 
+Pomfret -> Hopkins[label="17.9
+05/18", weight="83", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, Nobles			
+Distance: 1500m Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: G3, G4, G2, G1, G-Novices. The G-Novices race is listed under the 5th boat and only included Nobles crews. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05F1824A635516BB2A75FC769B7DED45&cat=1", random="random"]}
