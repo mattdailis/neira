@@ -1,0 +1,40 @@
+{% extends "base.jinja2" %}
+{% from 'graphviz-link.jinja2' import doturl %}
+
+{# Input:
+- class_: fours/eights
+- gender: boys/girls
+- varsity_index: 1/2/3/4
+- results: [{
+  "date",
+  "results"
+}]
+- year
+
+#}
+{% block title %}
+    Founders Day {{ year }}
+{% endblock %}
+{% block content %}
+    <div class="w3-row-padding w3-margin-bottom">        
+    <h3>Founders Day 2025</h3>
+    {% for heat in founders_day_data["heats"] %}
+        <div style="border-top: 1px solid black; width: fit-content; padding-bottom: 20px">
+            {{ heat["Boat"] }}
+            {# {{ heat["class"] }}
+            {{ heat["gender"] }}
+            {{ heat["heat_or_final"] }}
+            {{ heat["varsity_index"] }} #}
+            {% for result in heat["results"] -%}
+                <pre style="margin: 0">{{ "%-20s" | format(result["school"]) }} {{ result["raw_time"] }}</pre>
+                
+                {#    <p>{{ result["margin_from_winner"] }}</p>#}
+                {#    <p>{{ result["raw_time"] }}</p>#}
+            {% endfor %}
+        </div>
+            {% endfor %}
+    </div>
+
+
+
+{% endblock %}

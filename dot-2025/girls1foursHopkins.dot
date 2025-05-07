@@ -1,4 +1,4 @@
-digraph girls1foursHopkins {Brooks [URL="girls1foursHopkinsBrooks.html"];NMH [URL="girls1foursHopkinsNMH.html"];Middlesex [URL="girls1foursHopkinsMiddlesex.html"];CambridgeRLS [URL="girls1foursHopkinsCambridgeRLS.html"];Taft [URL="girls1foursHopkinsTaft.html"];Hopkins [URL="girls1foursHopkinsHopkins.html"];Pomfret [URL="girls1foursHopkinsPomfret.html"];Choate [URL="girls1foursHopkinsChoate.html"];StMarysLynn [URL="girls1foursHopkinsStMarysLynn.html"];BerkshireAcademy [URL="girls1foursHopkinsBerkshireAcademy.html"];Hotchkiss [URL="girls1foursHopkinsHotchkiss.html"];Brooks -> Hopkins[label="22.0
+digraph girls1foursHopkins {BerkshireAcademy [URL="girls1foursHopkinsBerkshireAcademy.html"];NMH [URL="girls1foursHopkinsNMH.html"];Hopkins [URL="girls1foursHopkinsHopkins.html"];Middlesex [URL="girls1foursHopkinsMiddlesex.html"];Hotchkiss [URL="girls1foursHopkinsHotchkiss.html"];Choate [URL="girls1foursHopkinsChoate.html"];BrewsterAcademy [URL="girls1foursHopkinsBrewsterAcademy.html"];CambridgeRLS [URL="girls1foursHopkinsCambridgeRLS.html"];Brooks [URL="girls1foursHopkinsBrooks.html"];Taft [URL="girls1foursHopkinsTaft.html"];Canterbury [URL="girls1foursHopkinsCanterbury.html"];StMarysLynn [URL="girls1foursHopkinsStMarysLynn.html"];Pomfret [URL="girls1foursHopkinsPomfret.html"];Brooks -> Hopkins[label="22.0
 04/26", weight="78", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -28,16 +28,25 @@ Distance: 1500m Conditions: Consistent crossing tailwind (~7-13MPH), with occasi
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&cat=1", random="random"]; 
 NMH -> Hopkins[label="20.0
 05/04", weight="80", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Hotchkiss -> Hopkins[label="16.0
 05/04", weight="84", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Taft -> Hopkins[label="14.55
 05/04", weight="86", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Choate -> Hopkins[label="10.3
 05/04", weight="90", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 BerkshireAcademy -> Hopkins[label="4.95
 05/04", weight="96", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+Hopkins -> BrewsterAcademy[label="3.23
+05/04", weight="97", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hopkins -> Canterbury[label="34.35
+05/04", weight="66", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hopkins -> Pomfret[label="31.4
+05/04", weight="69", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

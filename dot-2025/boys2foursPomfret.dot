@@ -1,4 +1,4 @@
-digraph boys2foursPomfret {NMH [URL="boys2foursPomfretNMH.html"];DexterSouthfield [URL="boys2foursPomfretDexterSouthfield.html"];Groton [URL="boys2foursPomfretGroton.html"];Taft [URL="boys2foursPomfretTaft.html"];Pomfret [URL="boys2foursPomfretPomfret.html"];Hopkins [URL="boys2foursPomfretHopkins.html"];StMarysLynn [URL="boys2foursPomfretStMarysLynn.html"];LymeOldLyme [URL="boys2foursPomfretLymeOldLyme.html"];BerkshireAcademy [URL="boys2foursPomfretBerkshireAcademy.html"];Hotchkiss [URL="boys2foursPomfretHotchkiss.html"];BelmontHill [URL="boys2foursPomfretBelmontHill.html"];Groton -> Pomfret[label="28.6
+digraph boys2foursPomfret {BelmontHill [URL="boys2foursPomfretBelmontHill.html"];BerkshireAcademy [URL="boys2foursPomfretBerkshireAcademy.html"];Groton [URL="boys2foursPomfretGroton.html"];NMH [URL="boys2foursPomfretNMH.html"];Hopkins [URL="boys2foursPomfretHopkins.html"];DexterSouthfield [URL="boys2foursPomfretDexterSouthfield.html"];LymeOldLyme [URL="boys2foursPomfretLymeOldLyme.html"];Hotchkiss [URL="boys2foursPomfretHotchkiss.html"];Choate [URL="boys2foursPomfretChoate.html"];Taft [URL="boys2foursPomfretTaft.html"];StMarysLynn [URL="boys2foursPomfretStMarysLynn.html"];Pomfret [URL="boys2foursPomfretPomfret.html"];Groton -> Pomfret[label="28.6
 04/26", weight="72", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
 Dexter-Southfield rowed their novice boat in the B5 race.
@@ -35,16 +35,22 @@ Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasio
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]; 
 NMH -> Pomfret[label="24.11
 05/04", weight="76", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Taft -> Pomfret[label="18.58
 05/04", weight="82", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Hotchkiss -> Pomfret[label="12.46
 05/04", weight="88", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 LymeOldLyme -> Pomfret[label="11.17
 05/04", weight="89", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Hopkins -> Pomfret[label="8.04
 05/04", weight="92", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+Pomfret -> BerkshireAcademy[label="8.14
+05/04", weight="92", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Pomfret -> Choate[label="26.9
+05/04", weight="74", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

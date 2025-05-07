@@ -1,0 +1,12 @@
+digraph girls4foursCanterbury {NMH [URL="girls4foursCanterburyNMH.html"];Hopkins [URL="girls4foursCanterburyHopkins.html"];LymeOldLyme [URL="girls4foursCanterburyLymeOldLyme.html"];Taft [URL="girls4foursCanterburyTaft.html"];Canterbury [URL="girls4foursCanterburyCanterbury.html"];NMH -> Canterbury[label="108.0
+05/04", weight="-8", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hopkins -> Canterbury[label="106.0
+05/04", weight="-6", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Taft -> Canterbury[label="37.0
+05/04", weight="63", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+LymeOldLyme -> Canterbury[label="15.0
+05/04", weight="85", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

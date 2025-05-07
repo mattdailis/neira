@@ -1,0 +1,9 @@
+digraph boys4foursLymeOldLyme {NMH [URL="boys4foursLymeOldLymeNMH.html"];Hopkins [URL="boys4foursLymeOldLymeHopkins.html"];Pomfret [URL="boys4foursLymeOldLymePomfret.html"];LymeOldLyme [URL="boys4foursLymeOldLymeLymeOldLyme.html"];NMH -> LymeOldLyme[label="15.37
+05/04", weight="85", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hopkins -> LymeOldLyme[label="10.52
+05/04", weight="90", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Pomfret -> LymeOldLyme[label="5.41
+05/04", weight="95", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

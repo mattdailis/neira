@@ -1,13 +1,15 @@
-{'Brooks', 'Suffield', 'Belmont Hill'}
+{'Belmont Hill', 'Brooks'}
 {'Nobles'}
 {'Groton'}
 {'Cambridge RLS'}
 {'NMH'}
 {'Taft', 'Middlesex'}
-{'BB&N', 'Hotchkiss'}
-{'Lyme/Old Lyme', 'Notre Dame', 'Berwick'}
-Cycle detected: {'Pomfret', 'Hopkins'}
-{'Berkshire Academy', 'Dexter-Southfield'}
+{'Hotchkiss', 'BB&N'}
+{'Berwick', 'Lyme/Old Lyme'}
+{'Suffield'}
+{'Notre Dame'}
+Cycle detected: {'Hopkins', 'Pomfret'}
+{'Dexter-Southfield', 'Berkshire Academy'}
 {'Choate', "St. Mark's"}
 {'Brewster Academy'}
 {"St. Mary's-Lynn", 'Worcester Academy'}

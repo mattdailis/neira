@@ -1,4 +1,4 @@
-digraph girls3foursPomfret {NMH [URL="girls3foursPomfretNMH.html"];Groton [URL="girls3foursPomfretGroton.html"];Taft [URL="girls3foursPomfretTaft.html"];Pomfret [URL="girls3foursPomfretPomfret.html"];Hopkins [URL="girls3foursPomfretHopkins.html"];BerkshireAcademy [URL="girls3foursPomfretBerkshireAcademy.html"];Groton -> Pomfret[label="17.8
+digraph girls3foursPomfret {BerkshireAcademy [URL="girls3foursPomfretBerkshireAcademy.html"];Groton [URL="girls3foursPomfretGroton.html"];NMH [URL="girls3foursPomfretNMH.html"];Hopkins [URL="girls3foursPomfretHopkins.html"];LymeOldLyme [URL="girls3foursPomfretLymeOldLyme.html"];Choate [URL="girls3foursPomfretChoate.html"];Hotchkiss [URL="girls3foursPomfretHotchkiss.html"];Taft [URL="girls3foursPomfretTaft.html"];Pomfret [URL="girls3foursPomfretPomfret.html"];Groton -> Pomfret[label="17.8
 04/26", weight="83", tooltip="NEIRA Girls Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500m Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with boys. Order of girls races: G4, G3, G2, G1.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5150789F21FD9599874CA9451EBDC220&cat=1", random="random"]; 
@@ -17,4 +17,16 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FC
 BerkshireAcademy -> Pomfret[label="6.0
 04/23", weight="94", tooltip="NEIRA Girls Fours, Pomfret v. Berkshire, Marianapolis			
 Distance: 1500m Conditions: 8MPH headwind, stronger gusts in the first 500. Occasional gusty crosswinds, light chop, but generally good water. Comments: Alternated races with boys. Order of girls races: G3, G2, G1, G4. The 3rd boat race had to restart because of an over-the-head crab in the first 100m in the Berkshire boat.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E5F9B2C1554A1FBD0FEB68B2E09DEB28&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E5F9B2C1554A1FBD0FEB68B2E09DEB28&cat=1", random="random"]; 
+Choate -> Pomfret[label="37.0
+05/04", weight="63", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+BerkshireAcademy -> Pomfret[label="30.0
+05/04", weight="70", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Pomfret -> LymeOldLyme[label="21.0
+05/04", weight="79", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hotchkiss -> Pomfret[label="24.0
+05/04", weight="76", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

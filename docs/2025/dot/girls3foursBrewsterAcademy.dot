@@ -1,0 +1,12 @@
+digraph girls3foursBrewsterAcademy {NMH [URL="girls3foursBrewsterAcademyNMH.html"];Hopkins [URL="girls3foursBrewsterAcademyHopkins.html"];GreenwichAcademy [URL="girls3foursBrewsterAcademyGreenwichAcademy.html"];BrewsterAcademy [URL="girls3foursBrewsterAcademyBrewsterAcademy.html"];Taft [URL="girls3foursBrewsterAcademyTaft.html"];NMH -> BrewsterAcademy[label="53.47
+05/04", weight="47", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Taft -> BrewsterAcademy[label="46.35
+05/04", weight="54", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hopkins -> BrewsterAcademy[label="35.93
+05/04", weight="65", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+GreenwichAcademy -> BrewsterAcademy[label="22.1
+05/04", weight="78", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

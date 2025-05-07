@@ -1,36 +1,41 @@
 <map id="boys2foursHotchkiss" name="boys2foursHotchkiss">
-<area shape="poly" id="node1" href="boys2foursHotchkissNMH.html" title="NMH" alt="" coords="346,29,344,22,337,15,328,10,316,7,302,5,288,7,276,10,266,15,260,22,258,29,260,37,266,43,276,49,288,52,302,53,316,52,328,49,337,43,344,37"/>
-<area shape="poly" id="node9" href="boys2foursHotchkissHotchkiss.html" title="Hotchkiss" alt="" coords="470,169,467,162,457,155,443,150,426,147,406,145,386,147,369,150,354,155,345,162,342,169,345,177,354,183,369,189,386,192,406,193,426,192,443,189,457,183,467,177"/>
+<area shape="poly" id="node1" href="boys2foursHotchkissMiddletown.html" title="Middletown" alt="" coords="156,309,152,302,142,295,125,290,104,287,81,285,57,287,36,290,20,295,9,302,5,309,9,317,20,323,36,329,57,332,81,333,104,332,125,329,142,323,152,317"/>
+<area shape="poly" id="node2" href="boys2foursHotchkissNotreDame.html" title="NotreDame" alt="" coords="325,309,322,302,311,295,295,290,275,287,253,285,230,287,210,290,194,295,184,302,180,309,184,317,194,323,210,329,230,332,253,333,275,332,295,329,311,323,322,317"/>
+<area shape="poly" id="node3" href="boys2foursHotchkissBerkshireAcademy.html" title="BerkshireAcademy" alt="" coords="569,309,564,302,548,295,524,290,493,287,459,285,425,287,395,290,370,295,355,302,349,309,355,317,370,323,395,329,425,332,459,333,493,332,524,329,548,323,564,317"/>
+<area shape="poly" id="node4" href="boys2foursHotchkissNMH.html" title="NMH" alt="" coords="590,29,588,22,581,15,572,10,560,7,546,5,532,7,520,10,510,15,504,22,502,29,504,37,510,43,520,49,532,52,546,53,560,52,572,49,581,43,588,37"/>
+<area shape="poly" id="node7" href="boys2foursHotchkissHotchkiss.html" title="Hotchkiss" alt="" coords="714,169,711,162,701,155,687,150,670,147,650,145,630,147,613,150,598,155,589,162,586,169,589,177,598,183,613,189,630,192,650,193,670,192,687,189,701,183,711,177"/>
 <area shape="poly" id="edge4" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="316,51,362,120,374,134,370,138,358,123,312,54"/>
-<area shape="poly" id="node2" href="boys2foursHotchkissMiddletown.html" title="Middletown" alt="" coords="156,309,152,302,142,295,125,290,104,287,81,285,57,287,36,290,20,295,9,302,5,309,9,317,20,323,36,329,57,332,81,333,104,332,125,329,142,323,152,317"/>
-<area shape="poly" id="node3" href="boys2foursHotchkissNotreDame.html" title="NotreDame" alt="" coords="325,309,322,302,311,295,295,290,275,287,253,285,230,287,210,290,194,295,184,302,180,309,184,317,194,323,210,329,230,332,253,333,275,332,295,329,311,323,322,317"/>
-<area shape="poly" id="node4" href="boys2foursHotchkissTaft.html" title="Taft" alt="" coords="442,29,440,22,435,15,427,10,417,7,406,5,395,7,385,10,377,15,372,22,370,29,372,37,377,43,385,49,395,52,406,53,417,52,427,49,435,43,440,37"/>
-<area shape="poly" id="edge5" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="409,54,409,130,403,130,403,54"/>
-<area shape="poly" id="node5" href="boys2foursHotchkissHopkins.html" title="Hopkins" alt="" coords="462,309,459,302,451,295,439,290,423,287,406,285,389,287,373,290,361,295,353,302,350,309,353,317,361,323,373,329,389,332,406,333,423,332,439,329,451,323,459,317"/>
-<area shape="poly" id="node6" href="boys2foursHotchkissPomfret.html" title="Pomfret" alt="" coords="595,309,593,302,585,295,573,290,558,287,541,285,524,287,508,290,496,295,488,302,486,309,488,317,496,323,508,329,524,332,541,333,558,332,573,329,585,323,593,317"/>
-<area shape="poly" id="node7" href="boys2foursHotchkissLymeOldLyme.html" title="LymeOldLyme" alt="" coords="803,309,798,302,785,295,765,290,740,287,711,285,683,287,657,290,637,295,624,302,620,309,624,317,637,323,657,329,683,332,711,333,740,332,765,329,785,323,798,317"/>
-<area shape="poly" id="node8" href="boys2foursHotchkissBerkshireAcademy.html" title="BerkshireAcademy" alt="" coords="1047,309,1041,302,1026,295,1001,290,971,287,937,285,903,287,872,290,848,295,832,302,827,309,832,317,848,323,872,329,903,332,937,333,971,332,1001,329,1026,323,1041,317"/>
+" alt="" coords="560,51,606,120,618,134,614,138,602,123,556,54"/>
+<area shape="poly" id="node5" href="boys2foursHotchkissHopkins.html" title="Hopkins" alt="" coords="706,309,703,302,695,295,683,290,667,287,650,285,633,287,617,290,605,295,597,302,594,309,597,317,605,323,617,329,633,332,650,333,667,332,683,329,695,323,703,317"/>
+<area shape="poly" id="node6" href="boys2foursHotchkissLymeOldLyme.html" title="LymeOldLyme" alt="" coords="914,309,909,302,896,295,876,290,850,287,822,285,794,287,768,290,748,295,735,302,730,309,735,317,748,323,768,329,794,332,822,333,850,332,876,329,896,323,909,317"/>
 <area shape="poly" id="edge2" href="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
-None" alt="" coords="356,187,261,220,192,251,131,283,129,278,190,246,259,215,355,182"/>
+None" alt="" coords="587,176,447,189,365,201,284,220,203,249,132,283,129,278,201,245,283,215,364,196,446,183,586,170"/>
 <area shape="rect" id="edge2-label" href="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&amp;cat=5" title="17.1
-04/20" alt="" coords="260,217,301,261"/>
+04/20" alt="" coords="284,217,325,261"/>
 <area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
-None" alt="" coords="384,194,290,278,286,274,380,190"/>
+None" alt="" coords="590,180,507,195,418,220,354,249,298,281,295,277,351,244,416,215,506,190,589,175"/>
 <area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&amp;cat=5" title="6.2
-04/20" alt="" coords="352,217,393,261"/>
-<area shape="poly" id="edge7" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="409,194,409,270,403,270,403,194"/>
-<area shape="poly" id="edge8" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="430,191,455,215,512,274,508,278,451,219,426,194"/>
-<area shape="poly" id="edge6" title="Founder&#39;s Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3." alt="" coords="455,183,542,215,606,246,664,277,661,282,603,251,540,220,453,188"/>
+04/20" alt="" coords="417,217,458,261"/>
 <area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Berkshire School vs. Hotchkiss			
 Distance: 1500 M Conditions: Chilly and cloudy with variable cross headwinds building over the afternoon; strongest in the middle 500. Generally flat water with some slight chop in middle 500. Comments: Order of racing: G3&#45;B4&#45;G2&#45;B3&#45;G1&#45;B2&#45;G4&#45;B1. Berkshire hotseated between G3 and G4. Great to be able to welcome our neighbors to the world of fours racing.
-None" alt="" coords="466,176,563,191,673,215,779,246,872,280,870,285,777,251,672,220,563,197,465,181"/>
+None" alt="" coords="588,176,534,190,509,202,487,219,472,243,464,270,459,269,467,241,483,216,506,198,532,185,586,171"/>
 <area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&amp;cat=5" title="19.6
-04/16" alt="" coords="811,217,852,261"/>
+04/16" alt="" coords="485,217,526,261"/>
+<area shape="poly" id="edge9" title="Founder&#39;s Day Regatta			
+" alt="" coords="624,194,528,263,505,279,502,275,524,259,620,189"/>
+<area shape="poly" id="edge7" title="Founder&#39;s Day Regatta			
+" alt="" coords="653,194,653,270,647,270,647,194"/>
+<area shape="poly" id="edge6" title="Founder&#39;s Day Regatta			
+" alt="" coords="678,189,784,275,781,279,674,194"/>
+<area shape="poly" id="node8" href="boys2foursHotchkissChoate.html" title="Choate" alt="" coords="1037,309,1034,302,1027,295,1016,290,1003,287,987,285,972,287,958,290,947,295,940,302,938,309,940,317,947,323,958,329,972,332,987,333,1003,332,1016,329,1027,323,1034,317"/>
+<area shape="poly" id="edge10" title="Founder&#39;s Day Regatta			
+" alt="" coords="703,181,808,215,881,247,944,280,942,285,878,252,806,220,701,186"/>
+<area shape="poly" id="node10" href="boys2foursHotchkissPomfret.html" title="Pomfret" alt="" coords="1170,309,1167,302,1160,295,1148,290,1132,287,1115,285,1098,287,1083,290,1071,295,1063,302,1060,309,1063,317,1071,323,1083,329,1098,332,1115,333,1132,332,1148,329,1160,323,1167,317"/>
+<area shape="poly" id="edge8" title="Founder&#39;s Day Regatta			
+" alt="" coords="713,172,825,185,888,197,950,215,1017,244,1075,278,1073,283,1015,249,948,220,887,203,824,190,712,177"/>
+<area shape="poly" id="node9" href="boys2foursHotchkissTaft.html" title="Taft" alt="" coords="686,29,684,22,679,15,671,10,661,7,650,5,639,7,629,10,621,15,616,22,614,29,616,37,621,43,629,49,639,52,650,53,661,52,671,49,679,43,684,37"/>
+<area shape="poly" id="edge5" title="Founder&#39;s Day Regatta			
+" alt="" coords="653,54,653,130,647,130,647,54"/>
 </map>

@@ -1,4 +1,4 @@
-digraph girls1foursNMH {Brooks [URL="girls1foursNMHBrooks.html"];NMH [URL="girls1foursNMHNMH.html"];Middlesex [URL="girls1foursNMHMiddlesex.html"];CambridgeRLS [URL="girls1foursNMHCambridgeRLS.html"];Taft [URL="girls1foursNMHTaft.html"];Hopkins [URL="girls1foursNMHHopkins.html"];Pomfret [URL="girls1foursNMHPomfret.html"];Choate [URL="girls1foursNMHChoate.html"];StMarysLynn [URL="girls1foursNMHStMarysLynn.html"];BerkshireAcademy [URL="girls1foursNMHBerkshireAcademy.html"];Hotchkiss [URL="girls1foursNMHHotchkiss.html"];Brooks -> NMH[label="17.8
+digraph girls1foursNMH {BerkshireAcademy [URL="girls1foursNMHBerkshireAcademy.html"];FrederickGunn [URL="girls1foursNMHFrederickGunn.html"];NMH [URL="girls1foursNMHNMH.html"];Hopkins [URL="girls1foursNMHHopkins.html"];Middlesex [URL="girls1foursNMHMiddlesex.html"];LymeOldLyme [URL="girls1foursNMHLymeOldLyme.html"];Hotchkiss [URL="girls1foursNMHHotchkiss.html"];Choate [URL="girls1foursNMHChoate.html"];CambridgeRLS [URL="girls1foursNMHCambridgeRLS.html"];Brooks [URL="girls1foursNMHBrooks.html"];Taft [URL="girls1foursNMHTaft.html"];StMarysLynn [URL="girls1foursNMHStMarysLynn.html"];Pomfret [URL="girls1foursNMHPomfret.html"];Brooks -> NMH[label="17.8
 04/26", weight="83", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -28,16 +28,22 @@ Distance: 1500m Conditions: Consistent crossing tailwind (~7-13MPH), with occasi
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&cat=1", random="random"]; 
 NMH -> Hotchkiss[label="4.0
 05/04", weight="96", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 NMH -> Taft[label="5.45
 05/04", weight="95", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 NMH -> Choate[label="9.7
 05/04", weight="91", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 NMH -> Hopkins[label="20.0
 05/04", weight="80", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 NMH -> BerkshireAcademy[label="15.05
 05/04", weight="85", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+NMH -> FrederickGunn[label="7.83
+05/04", weight="93", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+NMH -> LymeOldLyme[label="25.0
+05/04", weight="75", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

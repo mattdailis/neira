@@ -1,12 +1,21 @@
-digraph boys2foursSuffield {BrewsterAcademy [URL="boys2foursSuffieldBrewsterAcademy.html"];NotreDame [URL="boys2foursSuffieldNotreDame.html"];Choate [URL="boys2foursSuffieldChoate.html"];Suffield [URL="boys2foursSuffieldSuffield.html"];BerkshireAcademy [URL="boys2foursSuffieldBerkshireAcademy.html"];Suffield -> BerkshireAcademy[label="3.5
+digraph boys2foursSuffield {NotreDame [URL="boys2foursSuffieldNotreDame.html"];BerkshireAcademy [URL="boys2foursSuffieldBerkshireAcademy.html"];NMH [URL="boys2foursSuffieldNMH.html"];Suffield [URL="boys2foursSuffieldSuffield.html"];LymeOldLyme [URL="boys2foursSuffieldLymeOldLyme.html"];Choate [URL="boys2foursSuffieldChoate.html"];BrewsterAcademy [URL="boys2foursSuffieldBrewsterAcademy.html"];Taft [URL="boys2foursSuffieldTaft.html"];Suffield -> BerkshireAcademy[label="3.5
 05/04", weight="97", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Suffield -> Choate[label="13.83
 05/04", weight="87", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Suffield -> BrewsterAcademy[label="18.52
 05/04", weight="82", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Suffield -> NotreDame[label="0.9
 05/04", weight="100", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+NMH -> Suffield[label="7.89
+05/04", weight="93", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Taft -> Suffield[label="3.89
+05/04", weight="97", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+LymeOldLyme -> Suffield[label="1.89
+05/04", weight="99", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

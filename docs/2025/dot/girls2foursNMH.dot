@@ -1,4 +1,4 @@
-digraph girls2foursNMH {Brooks [URL="girls2foursNMHBrooks.html"];NMH [URL="girls2foursNMHNMH.html"];Middlesex [URL="girls2foursNMHMiddlesex.html"];CambridgeRLS [URL="girls2foursNMHCambridgeRLS.html"];GreenwichAcademy [URL="girls2foursNMHGreenwichAcademy.html"];Taft [URL="girls2foursNMHTaft.html"];Hopkins [URL="girls2foursNMHHopkins.html"];Pomfret [URL="girls2foursNMHPomfret.html"];Choate [URL="girls2foursNMHChoate.html"];StMarysLynn [URL="girls2foursNMHStMarysLynn.html"];BerkshireAcademy [URL="girls2foursNMHBerkshireAcademy.html"];Hotchkiss [URL="girls2foursNMHHotchkiss.html"];Brooks -> NMH[label="0.0
+digraph girls2foursNMH {BerkshireAcademy [URL="girls2foursNMHBerkshireAcademy.html"];FrederickGunn [URL="girls2foursNMHFrederickGunn.html"];NMH [URL="girls2foursNMHNMH.html"];Hopkins [URL="girls2foursNMHHopkins.html"];Middlesex [URL="girls2foursNMHMiddlesex.html"];Choate [URL="girls2foursNMHChoate.html"];Hotchkiss [URL="girls2foursNMHHotchkiss.html"];GreenwichAcademy [URL="girls2foursNMHGreenwichAcademy.html"];CambridgeRLS [URL="girls2foursNMHCambridgeRLS.html"];Brooks [URL="girls2foursNMHBrooks.html"];Taft [URL="girls2foursNMHTaft.html"];StMarysLynn [URL="girls2foursNMHStMarysLynn.html"];Pomfret [URL="girls2foursNMHPomfret.html"];Brooks -> NMH[label="0.0
 04/26", weight="100", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -28,16 +28,25 @@ Distance: 1500m Conditions: Consistent crossing tailwind (~7-13MPH), with occasi
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&cat=1", random="random"]; 
 NMH -> Choate[label="0.37
 05/04", weight="100", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 NMH -> BerkshireAcademy[label="2.84
 05/04", weight="98", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 NMH -> Hotchkiss[label="10.36
 05/04", weight="90", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 NMH -> GreenwichAcademy[label="33.0
 05/04", weight="67", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 NMH -> Taft[label="9.32
 05/04", weight="91", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+NMH -> Hopkins[label="24.11
+05/04", weight="76", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+NMH -> Pomfret[label="35.83
+05/04", weight="65", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+NMH -> FrederickGunn[label="40.39
+05/04", weight="60", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

@@ -1,15 +1,24 @@
-digraph girls2foursCanterbury {Canterbury [URL="girls2foursCanterburyCanterbury.html"];FrederickGunn [URL="girls2foursCanterburyFrederickGunn.html"];Hopkins [URL="girls2foursCanterburyHopkins.html"];Pomfret [URL="girls2foursCanterburyPomfret.html"];LymeOldLyme [URL="girls2foursCanterburyLymeOldLyme.html"];Suffield [URL="girls2foursCanterburySuffield.html"];Suffield -> Canterbury[label="101.0
+digraph girls2foursCanterbury {BerkshireAcademy [URL="girls2foursCanterburyBerkshireAcademy.html"];Suffield [URL="girls2foursCanterburySuffield.html"];Hopkins [URL="girls2foursCanterburyHopkins.html"];LymeOldLyme [URL="girls2foursCanterburyLymeOldLyme.html"];Choate [URL="girls2foursCanterburyChoate.html"];GreenwichAcademy [URL="girls2foursCanterburyGreenwichAcademy.html"];Canterbury [URL="girls2foursCanterburyCanterbury.html"];FrederickGunn [URL="girls2foursCanterburyFrederickGunn.html"];Pomfret [URL="girls2foursCanterburyPomfret.html"];Suffield -> Canterbury[label="101.0
 05/04", weight="-1", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 LymeOldLyme -> Canterbury[label="99.13
 05/04", weight="1", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Hopkins -> Canterbury[label="97.03
 05/04", weight="3", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 FrederickGunn -> Canterbury[label="87.53
 05/04", weight="13", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Pomfret -> Canterbury[label="80.96
 05/04", weight="20", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+Choate -> Canterbury[label="129.0
+05/04", weight="-29", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+BerkshireAcademy -> Canterbury[label="125.0
+05/04", weight="-25", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+GreenwichAcademy -> Canterbury[label="110.19
+05/04", weight="-10", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

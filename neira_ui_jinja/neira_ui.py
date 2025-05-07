@@ -102,6 +102,7 @@ def build():
                         parsed_date = datetime.strptime(date, "%Y-%m-%d")
                         new_entry.append({
                             "date": parsed_date.strftime("%A, %B {}, %Y").format(parsed_date.day), # Day without leading zero
+                            "date-yyyy-mm-dd": date,
                             "results": results
                         })
                     heats[class_][gender][varsity_index] = new_entry
@@ -123,8 +124,17 @@ def build():
                             results=heats[class_][gender][varsity_index]
                         ))
 
+    with open("/Users/dailis/neira/founders-day.json", "r") as f:
+        founders_day_data = json.load(f)
+        # TODO I removed Taft (B) from B4H1 and Brewster from B3H1
 
-
+    template = env.get_template("founders-day.jinja2")
+    with open(os.path.join(YEAR_ROOT, "founders-day.html"), "w") as f:
+        f.write(template.render(
+            base=base,
+            year=year,
+            founders_day_data=founders_day_data,
+        ))
 
 if __name__ == "__main__":
     main()

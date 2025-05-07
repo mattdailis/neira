@@ -1,4 +1,4 @@
-digraph boys2foursNotreDame {BrewsterAcademy [URL="boys2foursNotreDameBrewsterAcademy.html"];Nobles [URL="boys2foursNotreDameNobles.html"];StMarks [URL="boys2foursNotreDameStMarks.html"];Middletown [URL="boys2foursNotreDameMiddletown.html"];NotreDame [URL="boys2foursNotreDameNotreDame.html"];Choate [URL="boys2foursNotreDameChoate.html"];Suffield [URL="boys2foursNotreDameSuffield.html"];BerkshireAcademy [URL="boys2foursNotreDameBerkshireAcademy.html"];Hotchkiss [URL="boys2foursNotreDameHotchkiss.html"];Nobles -> NotreDame[label="34.6
+digraph boys2foursNotreDame {Middletown [URL="boys2foursNotreDameMiddletown.html"];NotreDame [URL="boys2foursNotreDameNotreDame.html"];StMarks [URL="boys2foursNotreDameStMarks.html"];BerkshireAcademy [URL="boys2foursNotreDameBerkshireAcademy.html"];Nobles [URL="boys2foursNotreDameNobles.html"];NMH [URL="boys2foursNotreDameNMH.html"];Suffield [URL="boys2foursNotreDameSuffield.html"];LymeOldLyme [URL="boys2foursNotreDameLymeOldLyme.html"];Hotchkiss [URL="boys2foursNotreDameHotchkiss.html"];Choate [URL="boys2foursNotreDameChoate.html"];BrewsterAcademy [URL="boys2foursNotreDameBrewsterAcademy.html"];Taft [URL="boys2foursNotreDameTaft.html"];Nobles -> NotreDame[label="34.6
 04/26", weight="66", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
@@ -20,13 +20,22 @@ Distance: 1500m Conditions: All races into an outgoing head current on the river
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
 Suffield -> NotreDame[label="0.9
 05/04", weight="100", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 NotreDame -> BerkshireAcademy[label="2.6
 05/04", weight="98", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 NotreDame -> Choate[label="12.93
 05/04", weight="88", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 NotreDame -> BrewsterAcademy[label="17.62
 05/04", weight="83", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+NMH -> NotreDame[label="24.92
+05/04", weight="76", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Taft -> NotreDame[label="20.92
+05/04", weight="80", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+LymeOldLyme -> NotreDame[label="18.92
+05/04", weight="82", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

@@ -1,0 +1,9 @@
+digraph boys3foursCanterbury {Taft [URL="boys3foursCanterburyTaft.html"];Canterbury [URL="boys3foursCanterburyCanterbury.html"];Hopkins [URL="boys3foursCanterburyHopkins.html"];BerkshireAcademy [URL="boys3foursCanterburyBerkshireAcademy.html"];Taft -> Canterbury[label="105.0
+05/04", weight="-5", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+BerkshireAcademy -> Canterbury[label="97.0
+05/04", weight="3", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hopkins -> Canterbury[label="74.0
+05/04", weight="26", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

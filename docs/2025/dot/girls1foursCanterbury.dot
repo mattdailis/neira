@@ -1,16 +1,25 @@
-digraph girls1foursCanterbury {BrewsterAcademy [URL="girls1foursCanterburyBrewsterAcademy.html"];FrederickGunn [URL="girls1foursCanterburyFrederickGunn.html"];Pomfret [URL="girls1foursCanterburyPomfret.html"];LymeOldLyme [URL="girls1foursCanterburyLymeOldLyme.html"];Canterbury [URL="girls1foursCanterburyCanterbury.html"];FrederickGunn -> Canterbury[label="20.0
+digraph girls1foursCanterbury {Hopkins [URL="girls1foursCanterburyHopkins.html"];LymeOldLyme [URL="girls1foursCanterburyLymeOldLyme.html"];Hotchkiss [URL="girls1foursCanterburyHotchkiss.html"];Choate [URL="girls1foursCanterburyChoate.html"];BrewsterAcademy [URL="girls1foursCanterburyBrewsterAcademy.html"];Canterbury [URL="girls1foursCanterburyCanterbury.html"];FrederickGunn [URL="girls1foursCanterburyFrederickGunn.html"];Pomfret [URL="girls1foursCanterburyPomfret.html"];FrederickGunn -> Canterbury[label="20.0
 04/19", weight="80", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Canterbury School			
 Distance: 1500 Conditions: Mostly protected waters with some crosswind and very slight chop in the first 500 in particular. Comments: Gunn second boats (B) raced up with the first boats.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FD9BF2C36AB3E5D3343A43D22FCCB16E&cat=5", random="random"]; 
 FrederickGunn -> Canterbury[label="28.0
 05/04", weight="72", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 BrewsterAcademy -> Canterbury[label="22.63
 05/04", weight="78", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Pomfret -> Canterbury[label="3.1
 05/04", weight="97", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 LymeOldLyme -> Canterbury[label="17.81
 05/04", weight="83", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+Hotchkiss -> Canterbury[label="40.84
+05/04", weight="60", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Choate -> Canterbury[label="39.24
+05/04", weight="61", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hopkins -> Canterbury[label="34.35
+05/04", weight="66", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

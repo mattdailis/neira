@@ -1,4 +1,4 @@
-digraph girls3foursHotchkiss {NMH [URL="girls3foursHotchkissNMH.html"];Middletown [URL="girls3foursHotchkissMiddletown.html"];Taft [URL="girls3foursHotchkissTaft.html"];Hopkins [URL="girls3foursHotchkissHopkins.html"];Choate [URL="girls3foursHotchkissChoate.html"];BerkshireAcademy [URL="girls3foursHotchkissBerkshireAcademy.html"];Hotchkiss [URL="girls3foursHotchkissHotchkiss.html"];Hotchkiss -> Middletown[label="90.4
+digraph girls3foursHotchkiss {Middletown [URL="girls3foursHotchkissMiddletown.html"];BerkshireAcademy [URL="girls3foursHotchkissBerkshireAcademy.html"];NMH [URL="girls3foursHotchkissNMH.html"];Hopkins [URL="girls3foursHotchkissHopkins.html"];LymeOldLyme [URL="girls3foursHotchkissLymeOldLyme.html"];Hotchkiss [URL="girls3foursHotchkissHotchkiss.html"];Choate [URL="girls3foursHotchkissChoate.html"];Taft [URL="girls3foursHotchkissTaft.html"];Pomfret [URL="girls3foursHotchkissPomfret.html"];Hotchkiss -> Middletown[label="90.4
 04/20", weight="10", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
@@ -8,16 +8,22 @@ Distance: 1500 M Conditions: Chilly and cloudy with variable cross headwinds bui
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&cat=5", random="random"]; 
 Choate -> Hotchkiss[label="1.73
 05/04", weight="99", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Hotchkiss -> NMH[label="2.26
 05/04", weight="98", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Hotchkiss -> BerkshireAcademy[label="3.33
 05/04", weight="97", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Hotchkiss -> Taft[label="11.35
 05/04", weight="89", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Hotchkiss -> Hopkins[label="21.27
 05/04", weight="79", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+Hotchkiss -> Pomfret[label="24.0
+05/04", weight="76", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hotchkiss -> LymeOldLyme[label="45.0
+05/04", weight="55", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

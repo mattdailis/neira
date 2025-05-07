@@ -1,4 +1,4 @@
-digraph girls1foursPomfret {BrewsterAcademy [URL="girls1foursPomfretBrewsterAcademy.html"];NMH [URL="girls1foursPomfretNMH.html"];DexterSouthfield [URL="girls1foursPomfretDexterSouthfield.html"];Groton [URL="girls1foursPomfretGroton.html"];MarianapolisPrep [URL="girls1foursPomfretMarianapolisPrep.html"];Taft [URL="girls1foursPomfretTaft.html"];FrederickGunn [URL="girls1foursPomfretFrederickGunn.html"];Pomfret [URL="girls1foursPomfretPomfret.html"];Hopkins [URL="girls1foursPomfretHopkins.html"];StMarysLynn [URL="girls1foursPomfretStMarysLynn.html"];LymeOldLyme [URL="girls1foursPomfretLymeOldLyme.html"];BerkshireAcademy [URL="girls1foursPomfretBerkshireAcademy.html"];Canterbury [URL="girls1foursPomfretCanterbury.html"];Groton -> Pomfret[label="37.9
+digraph girls1foursPomfret {BerkshireAcademy [URL="girls1foursPomfretBerkshireAcademy.html"];FrederickGunn [URL="girls1foursPomfretFrederickGunn.html"];Groton [URL="girls1foursPomfretGroton.html"];MarianapolisPrep [URL="girls1foursPomfretMarianapolisPrep.html"];NMH [URL="girls1foursPomfretNMH.html"];Hopkins [URL="girls1foursPomfretHopkins.html"];DexterSouthfield [URL="girls1foursPomfretDexterSouthfield.html"];LymeOldLyme [URL="girls1foursPomfretLymeOldLyme.html"];Hotchkiss [URL="girls1foursPomfretHotchkiss.html"];Choate [URL="girls1foursPomfretChoate.html"];BrewsterAcademy [URL="girls1foursPomfretBrewsterAcademy.html"];Taft [URL="girls1foursPomfretTaft.html"];Canterbury [URL="girls1foursPomfretCanterbury.html"];StMarysLynn [URL="girls1foursPomfretStMarysLynn.html"];Pomfret [URL="girls1foursPomfretPomfret.html"];Groton -> Pomfret[label="37.9
 04/26", weight="63", tooltip="NEIRA Girls Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500m Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with boys. Order of girls races: G4, G3, G2, G1.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5150789F21FD9599874CA9451EBDC220&cat=1", random="random"]; 
@@ -32,13 +32,22 @@ Distance: 1500m Conditions: 8MPH headwind, stronger gusts in the first 500. Occa
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E5F9B2C1554A1FBD0FEB68B2E09DEB28&cat=1", random="random"]; 
 FrederickGunn -> Pomfret[label="24.9
 05/04", weight="76", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 BrewsterAcademy -> Pomfret[label="19.53
 05/04", weight="81", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Pomfret -> Canterbury[label="3.1
 05/04", weight="97", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 LymeOldLyme -> Pomfret[label="14.71
 05/04", weight="86", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+Hotchkiss -> Pomfret[label="37.89
+05/04", weight="63", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Choate -> Pomfret[label="36.29
+05/04", weight="64", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hopkins -> Pomfret[label="31.4
+05/04", weight="69", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

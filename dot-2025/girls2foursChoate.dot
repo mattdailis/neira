@@ -1,4 +1,4 @@
-digraph girls2foursChoate {NMH [URL="girls2foursChoateNMH.html"];CambridgeRLS [URL="girls2foursChoateCambridgeRLS.html"];Winsor [URL="girls2foursChoateWinsor.html"];GreenwichAcademy [URL="girls2foursChoateGreenwichAcademy.html"];Taft [URL="girls2foursChoateTaft.html"];Choate [URL="girls2foursChoateChoate.html"];BerkshireAcademy [URL="girls2foursChoateBerkshireAcademy.html"];Hotchkiss [URL="girls2foursChoateHotchkiss.html"];BerkshireAcademy -> Choate[label="5.5
+digraph girls2foursChoate {BerkshireAcademy [URL="girls2foursChoateBerkshireAcademy.html"];Winsor [URL="girls2foursChoateWinsor.html"];NMH [URL="girls2foursChoateNMH.html"];Suffield [URL="girls2foursChoateSuffield.html"];LymeOldLyme [URL="girls2foursChoateLymeOldLyme.html"];Choate [URL="girls2foursChoateChoate.html"];Hotchkiss [URL="girls2foursChoateHotchkiss.html"];GreenwichAcademy [URL="girls2foursChoateGreenwichAcademy.html"];CambridgeRLS [URL="girls2foursChoateCambridgeRLS.html"];Taft [URL="girls2foursChoateTaft.html"];Canterbury [URL="girls2foursChoateCanterbury.html"];BerkshireAcademy -> Choate[label="5.5
 04/19", weight="95", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -18,16 +18,25 @@ Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resu
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&cat=1", random="random"]; 
 NMH -> Choate[label="0.37
 05/04", weight="100", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Choate -> BerkshireAcademy[label="2.47
 05/04", weight="98", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Choate -> Hotchkiss[label="9.99
 05/04", weight="91", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Choate -> GreenwichAcademy[label="32.63
 05/04", weight="68", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Choate -> Taft[label="8.95
 05/04", weight="92", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+Choate -> Suffield[label="27.89
+05/04", weight="73", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Choate -> LymeOldLyme[label="36.09
+05/04", weight="64", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Choate -> Canterbury[label="129.0
+05/04", weight="-29", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

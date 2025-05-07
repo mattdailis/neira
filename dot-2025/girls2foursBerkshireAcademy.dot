@@ -1,4 +1,4 @@
-digraph girls2foursBerkshireAcademy {NMH [URL="girls2foursBerkshireAcademyNMH.html"];GreenwichAcademy [URL="girls2foursBerkshireAcademyGreenwichAcademy.html"];Taft [URL="girls2foursBerkshireAcademyTaft.html"];Pomfret [URL="girls2foursBerkshireAcademyPomfret.html"];Choate [URL="girls2foursBerkshireAcademyChoate.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademyBerkshireAcademy.html"];Hotchkiss [URL="girls2foursBerkshireAcademyHotchkiss.html"];BerkshireAcademy -> Choate[label="5.5
+digraph girls2foursBerkshireAcademy {BerkshireAcademy [URL="girls2foursBerkshireAcademyBerkshireAcademy.html"];NMH [URL="girls2foursBerkshireAcademyNMH.html"];Suffield [URL="girls2foursBerkshireAcademySuffield.html"];LymeOldLyme [URL="girls2foursBerkshireAcademyLymeOldLyme.html"];Choate [URL="girls2foursBerkshireAcademyChoate.html"];Hotchkiss [URL="girls2foursBerkshireAcademyHotchkiss.html"];GreenwichAcademy [URL="girls2foursBerkshireAcademyGreenwichAcademy.html"];Taft [URL="girls2foursBerkshireAcademyTaft.html"];Canterbury [URL="girls2foursBerkshireAcademyCanterbury.html"];Pomfret [URL="girls2foursBerkshireAcademyPomfret.html"];BerkshireAcademy -> Choate[label="5.5
 04/19", weight="95", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -16,16 +16,25 @@ Distance: 1500m Conditions: 8MPH headwind, stronger gusts in the first 500. Occa
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E5F9B2C1554A1FBD0FEB68B2E09DEB28&cat=1", random="random"]; 
 NMH -> BerkshireAcademy[label="2.84
 05/04", weight="98", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Choate -> BerkshireAcademy[label="2.47
 05/04", weight="98", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 BerkshireAcademy -> Hotchkiss[label="7.52
 05/04", weight="93", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 BerkshireAcademy -> GreenwichAcademy[label="30.16
 05/04", weight="70", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 BerkshireAcademy -> Taft[label="6.48
 05/04", weight="94", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+BerkshireAcademy -> Suffield[label="23.89
+05/04", weight="77", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+BerkshireAcademy -> LymeOldLyme[label="32.09
+05/04", weight="68", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+BerkshireAcademy -> Canterbury[label="125.0
+05/04", weight="-25", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}

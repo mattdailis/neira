@@ -1,4 +1,4 @@
-digraph boys1foursPomfret {BrewsterAcademy [URL="boys1foursPomfretBrewsterAcademy.html"];NMH [URL="boys1foursPomfretNMH.html"];DexterSouthfield [URL="boys1foursPomfretDexterSouthfield.html"];Groton [URL="boys1foursPomfretGroton.html"];MarianapolisPrep [URL="boys1foursPomfretMarianapolisPrep.html"];Taft [URL="boys1foursPomfretTaft.html"];FrederickGunn [URL="boys1foursPomfretFrederickGunn.html"];Pomfret [URL="boys1foursPomfretPomfret.html"];Hopkins [URL="boys1foursPomfretHopkins.html"];Choate [URL="boys1foursPomfretChoate.html"];StMarysLynn [URL="boys1foursPomfretStMarysLynn.html"];BerkshireAcademy [URL="boys1foursPomfretBerkshireAcademy.html"];Canterbury [URL="boys1foursPomfretCanterbury.html"];BelmontHill [URL="boys1foursPomfretBelmontHill.html"];Groton -> Pomfret[label="12.3
+digraph boys1foursPomfret {BelmontHill [URL="boys1foursPomfretBelmontHill.html"];BerkshireAcademy [URL="boys1foursPomfretBerkshireAcademy.html"];FrederickGunn [URL="boys1foursPomfretFrederickGunn.html"];Groton [URL="boys1foursPomfretGroton.html"];MarianapolisPrep [URL="boys1foursPomfretMarianapolisPrep.html"];NMH [URL="boys1foursPomfretNMH.html"];Hopkins [URL="boys1foursPomfretHopkins.html"];DexterSouthfield [URL="boys1foursPomfretDexterSouthfield.html"];Choate [URL="boys1foursPomfretChoate.html"];Hotchkiss [URL="boys1foursPomfretHotchkiss.html"];BrewsterAcademy [URL="boys1foursPomfretBrewsterAcademy.html"];Taft [URL="boys1foursPomfretTaft.html"];Canterbury [URL="boys1foursPomfretCanterbury.html"];StMarysLynn [URL="boys1foursPomfretStMarysLynn.html"];Pomfret [URL="boys1foursPomfretPomfret.html"];Groton -> Pomfret[label="12.3
 04/26", weight="88", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
 Dexter-Southfield rowed their novice boat in the B5 race.
@@ -39,16 +39,25 @@ Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasio
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C1846FF4D524939343D2F034713639A4&cat=1", random="random"]; 
 Pomfret -> BerkshireAcademy[label="6.78
 05/04", weight="94", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Pomfret -> Choate[label="7.21
 05/04", weight="93", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Pomfret -> FrederickGunn[label="34.55
 05/04", weight="66", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Pomfret -> Canterbury[label="54.56
 05/04", weight="46", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]; 
+", URL="", random="random"]; 
 Pomfret -> BrewsterAcademy[label="23.77
 05/04", weight="77", tooltip="Founder's Day Regatta			
-Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="", random="random"]}
+", URL="", random="random"]; 
+Hotchkiss -> Pomfret[label="2.63
+05/04", weight="98", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+Hopkins -> Pomfret[label="1.9
+05/04", weight="99", tooltip="Founder's Day Regatta			
+", URL="", random="random"]; 
+NMH -> Pomfret[label="0.76
+05/04", weight="100", tooltip="Founder's Day Regatta			
+", URL="", random="random"]}
