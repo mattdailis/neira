@@ -132,7 +132,7 @@ boys_fours = {
     "Suffield",
     "Taft",
     "Thayer",
-    "Valley Regional",
+    # "Valley Regional",
     "Vermont Academy",
     "Worcester Academy",
 }
@@ -163,26 +163,26 @@ girls_eights = {
 }
 
 girls_fours = {
-    "Bancroft",
     "BB&N",
+    "Bancroft",
     "Berkshire Academy",
     "Berwick",
-    "BU Academy",
     "Brewster Academy",
     "Brooks",
+    "BU Academy",
+    "Cambridge RLS",
     "Canterbury",
     "Choate",
-    "Cambridge RLS",
     "Derryfield",
     "Dexter-Southfield",
     "Eagle Hill",
+    "EO Smith",
+    "Frederick Gunn",
     "Greenwich Academy",
     "Greenwich Country Day",
     "Groton",
-    "Frederick Gunn",
     "Hopkins",
     "Hotchkiss",
-    "Lincoln",
     "Lyme/Old Lyme",
     "Marianapolis Prep",
     "Medford",
@@ -190,8 +190,8 @@ girls_fours = {
     "Middletown",
     "Miss Porter's",
     "Newton Country Day",
-    "Nobles",
     "NMH",
+    "Nobles",
     "Pingree",
     "Pomfret",
     "Sacred Heart",
@@ -201,7 +201,6 @@ girls_fours = {
     "Suffield",
     "Taft",
     "Thayer",
-    "Valley Regional",
     "Vermont Academy",
     "Winsor",
     "Worcester Academy",
@@ -397,7 +396,7 @@ def match_school(name, class_, gender):
         score = compare(school, name_for_score)
         if school in other_schools:
             continue
-        for alias in aliases[school]:
+        for alias in aliases.get(school, []):
             new_score = compare(name_for_score, alias)
             if new_score > score:
                 score = new_score

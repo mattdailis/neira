@@ -1,4 +1,4 @@
-digraph boys4foursLymeOldLyme {Pomfret [URL="boys4foursPomfret.html"];Hopkins [URL="boys4foursHopkins.html"];LymeOldLyme [URL="boys4foursLymeOldLyme.html"];NMH [URL="boys4foursNMH.html"];NMH -> LymeOldLyme[label="15.37
+digraph boys4foursLymeOldLyme {Pomfret [URL="boys4foursPomfret.html"];NMH [URL="boys4foursNMH.html"];LymeOldLyme [URL="boys4foursLymeOldLyme.html"];Hopkins [URL="boys4foursHopkins.html"];NMH -> LymeOldLyme[label="15.37
 05/04", weight="85", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> LymeOldLyme[label="10.52
