@@ -1,0 +1,26 @@
+digraph girls2foursSacredHeart {GreenwichCountryDay [URL="girls2foursSacredHeartGreenwichCountryDay.html"];Derryfield [URL="girls2foursSacredHeartDerryfield.html"];NewtonCountryDay [URL="girls2foursSacredHeartNewtonCountryDay.html"];GreenwichAcademy [URL="girls2foursSacredHeartGreenwichAcademy.html"];SacredHeart [URL="girls2foursSacredHeartSacredHeart.html"];SacredHeart -> Derryfield[label="15.2
+04/27", weight="85", tooltip="NEIRA Girls Fours, Worcester Academy, Berwick Academy, Derryfield, Sacred Heart-Greenwich			
+Conditions: Strong cross/tailwind (20mph), heavy chop throughout races. Wind picked up considerably between 1st and last races Comments: Girls V1 race was approximately 1550 meters. Girls 2V race was approximately 1475 meters.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5100A5CA83A99A9CD2E37FEC65103FEF&cat=1", random="random"]; 
+NewtonCountryDay -> SacredHeart[label="102.1 (109.39)
+05/10", weight="-2", tooltip="NEIRA Girls Fours, Sacred Heart Greenwich vs Newton Country Day School			
+Distance: 1400 Conditions: Gusty winds for the first 1k-1.1k, cross head coming from NW. Wind gusts up to 32 MPH. Wind increased tremendously throughout racing, 3V race saw the worst of it. Comments: Newton had a 4V so they raced in the 3V category as well. Although wind was not great, everyone had a safe and good race. Thank you Newton for coming!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=69E2534D24EE4C0304E7D5167863CA1A&cat=1", random="random"]; 
+GreenwichAcademy -> SacredHeart[label="39.1 (41.89)
+04/30", weight="61", tooltip="NEIRA Girls Fours,Greenwich Academy, Sacred Heart, Greenwich Country Day			
+Distance: 1400m Conditions: Race order: 2V, 3V, 1V.
+2V race rowed into approximately 12 mph cross headwind. Due to the wind, alignment took a little longer, and pushed the race to about 1420m.
+3V saw an increase in winds and a pronounced shift to a truer crosswind in the last 400m.
+1V had the balmiest conditions, with a weaker cross head.
+Water for all races was relatively flat, with the 1V seeing the best water. All racing was against the tide. Comments: GA and SH fielded three varsity boats; GCDS fielded a 1V and 2V and entered a novice boys boat into the 3V as an exhibition event.
+Thanks to SH and GCDS for coming out to race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7F031922B617DDED37366A28DFAE8830&cat=1", random="random"]; 
+SacredHeart -> GreenwichCountryDay[label="16.5 (17.68)
+04/30", weight="84", tooltip="NEIRA Girls Fours,Greenwich Academy, Sacred Heart, Greenwich Country Day			
+Distance: 1400m Conditions: Race order: 2V, 3V, 1V.
+2V race rowed into approximately 12 mph cross headwind. Due to the wind, alignment took a little longer, and pushed the race to about 1420m.
+3V saw an increase in winds and a pronounced shift to a truer crosswind in the last 400m.
+1V had the balmiest conditions, with a weaker cross head.
+Water for all races was relatively flat, with the 1V seeing the best water. All racing was against the tide. Comments: GA and SH fielded three varsity boats; GCDS fielded a 1V and 2V and entered a novice boys boat into the 3V as an exhibition event.
+Thanks to SH and GCDS for coming out to race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7F031922B617DDED37366A28DFAE8830&cat=1", random="random"]}

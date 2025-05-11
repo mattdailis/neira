@@ -1,4 +1,4 @@
-digraph boys2foursBerkshireAcademy {Hopkins [URL="boys2foursBerkshireAcademyHopkins.html"];Choate [URL="boys2foursBerkshireAcademyChoate.html"];BrewsterAcademy [URL="boys2foursBerkshireAcademyBrewsterAcademy.html"];Pomfret [URL="boys2foursBerkshireAcademyPomfret.html"];Taft [URL="boys2foursBerkshireAcademyTaft.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademyBerkshireAcademy.html"];NotreDame [URL="boys2foursBerkshireAcademyNotreDame.html"];Suffield [URL="boys2foursBerkshireAcademySuffield.html"];Hotchkiss [URL="boys2foursBerkshireAcademyHotchkiss.html"];Taft -> BerkshireAcademy[label="28.9
+digraph boys2foursBerkshireAcademy {Taft [URL="boys2foursBerkshireAcademyTaft.html"];Suffield [URL="boys2foursBerkshireAcademySuffield.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademyBerkshireAcademy.html"];Choate [URL="boys2foursBerkshireAcademyChoate.html"];Hopkins [URL="boys2foursBerkshireAcademyHopkins.html"];NotreDame [URL="boys2foursBerkshireAcademyNotreDame.html"];Hotchkiss [URL="boys2foursBerkshireAcademyHotchkiss.html"];Pomfret [URL="boys2foursBerkshireAcademyPomfret.html"];LymeOldLyme [URL="boys2foursBerkshireAcademyLymeOldLyme.html"];BrewsterAcademy [URL="boys2foursBerkshireAcademyBrewsterAcademy.html"];Taft -> BerkshireAcademy[label="28.9
 04/19", weight="72", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -10,6 +10,20 @@ Hotchkiss -> BerkshireAcademy[label="19.6
 04/16", weight="81", tooltip="NEIRA Boys & Girls Fours,Berkshire School vs. Hotchkiss			
 Distance: 1500 M Conditions: Chilly and cloudy with variable cross headwinds building over the afternoon; strongest in the middle 500. Generally flat water with some slight chop in middle 500. Comments: Order of racing: G3-B4-G2-B3-G1-B2-G4-B1. Berkshire hotseated between G3 and G4. Great to be able to welcome our neighbors to the world of fours racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&cat=5", random="random"]; 
+LymeOldLyme -> BerkshireAcademy[label="35.9
+05/10", weight="65", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+Hopkins -> BerkshireAcademy[label="29.6
+05/10", weight="71", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
 Pomfret -> BerkshireAcademy[label="16.0
 04/23", weight="84", tooltip="NEIRA Boys ,Pomfret v. Berkshire, Marianapolis			
 Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occasional gusty crosswinds, light chop, but generally good water. Comments: Alternated races with girls. Order of boys races: B3, B2, B1, B4

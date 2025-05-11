@@ -1,4 +1,4 @@
-digraph boys1foursThayer {Thayer [URL="boys1foursThayerThayer.html"];CambridgeRLS [URL="boys1foursThayerCambridgeRLS.html"];BBN [URL="boys1foursThayerBBN.html"];CambridgeRLS -> Thayer[label="64.3 (71.44)
+digraph boys1foursThayer {Bancroft [URL="boys1foursThayerBancroft.html"];StMarysLynn [URL="boys1foursThayerStMarysLynn.html"];CambridgeRLS [URL="boys1foursThayerCambridgeRLS.html"];WorcesterAcademy [URL="boys1foursThayerWorcesterAcademy.html"];BBN [URL="boys1foursThayerBBN.html"];EagleHill [URL="boys1foursThayerEagleHill.html"];Thayer [URL="boys1foursThayerThayer.html"];CambridgeRLS -> Thayer[label="64.3 (71.44)
 04/23", weight="36", tooltip="NEIRA Boys Fours, BB&N, CRLS and Thayer (Mayor's Cup)			
 Distance: 1350 Conditions: Slight cross tailwind getting stronger throughout the afternoon. Order of races 4, 3, 2, 1. Thanks to Thayer for making the trip! Comments: During the last 250m of the 3rd boat race, the Charles River Cruise Ship was coming upstream causing both coxswains to divert their course slightly to starboard. The coxswains handled it quite well, and it did not impact order of finish. 
 During the last 300m of the 1st boat race, CRLS veered strongly to starboard cutting across into BB&N's lane and causing BB&N to alter their course slightly and steer to avoid a collision. CRLS continued to move to starboard, ending up about 2-3 lanes over from where they started. It is unclear whether this altered order of finish. Given how close the margin was and the lane violation by CRLS, the coaches mutually decided not to award the Mayor's Cup (the winner of the 1st boat race) to either team, but to award the Cup later this season to whichever team finishes in a higher seed at the NEIRA regatta.
@@ -7,4 +7,20 @@ BBN -> Thayer[label="62.4 (69.33)
 04/23", weight="38", tooltip="NEIRA Boys Fours, BB&N, CRLS and Thayer (Mayor's Cup)			
 Distance: 1350 Conditions: Slight cross tailwind getting stronger throughout the afternoon. Order of races 4, 3, 2, 1. Thanks to Thayer for making the trip! Comments: During the last 250m of the 3rd boat race, the Charles River Cruise Ship was coming upstream causing both coxswains to divert their course slightly to starboard. The coxswains handled it quite well, and it did not impact order of finish. 
 During the last 300m of the 1st boat race, CRLS veered strongly to starboard cutting across into BB&N's lane and causing BB&N to alter their course slightly and steer to avoid a collision. CRLS continued to move to starboard, ending up about 2-3 lanes over from where they started. It is unclear whether this altered order of finish. Given how close the margin was and the lane violation by CRLS, the coaches mutually decided not to award the Mayor's Cup (the winner of the 1st boat race) to either team, but to award the Cup later this season to whichever team finishes in a higher seed at the NEIRA regatta.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=70A75824096A2554B9F78A0E50641458&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=70A75824096A2554B9F78A0E50641458&cat=1", random="random"]; 
+WorcesterAcademy -> Thayer[label="34.6
+05/07", weight="66", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
+StMarysLynn -> Thayer[label="25.7
+05/07", weight="75", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
+Thayer -> EagleHill[label="14.5
+05/07", weight="86", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
+Thayer -> Bancroft[label="34.5
+05/07", weight="66", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]}

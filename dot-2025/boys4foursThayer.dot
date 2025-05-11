@@ -1,0 +1,8 @@
+digraph boys4foursThayer {Bancroft [URL="boys4foursThayerBancroft.html"];Thayer [URL="boys4foursThayerThayer.html"];WorcesterAcademy [URL="boys4foursThayerWorcesterAcademy.html"];Thayer -> Bancroft[label="63.1
+05/07", weight="37", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
+Thayer -> WorcesterAcademy[label="76.5
+05/07", weight="24", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]}

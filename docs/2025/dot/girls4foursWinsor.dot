@@ -1,4 +1,4 @@
-digraph girls4foursWinsor {GreenwichAcademy [URL="girls4foursWinsorGreenwichAcademy.html"];Choate [URL="girls4foursWinsorChoate.html"];CambridgeRLS [URL="girls4foursWinsorCambridgeRLS.html"];BBN [URL="girls4foursWinsorBBN.html"];Winsor [URL="girls4foursWinsorWinsor.html"];Choate -> Winsor[label="0.9 (1.04)
+digraph girls4foursWinsor {Winsor [URL="girls4foursWinsorWinsor.html"];CambridgeRLS [URL="girls4foursWinsorCambridgeRLS.html"];Nobles [URL="girls4foursWinsorNobles.html"];Choate [URL="girls4foursWinsorChoate.html"];GreenwichAcademy [URL="girls4foursWinsorGreenwichAcademy.html"];BBN [URL="girls4foursWinsorBBN.html"];Choate -> Winsor[label="0.9 (1.04)
 04/30", weight="100", tooltip="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge & Latin School (CRLS)			
 Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
 Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting--CRLS: 5:15.71 Choate: 5:52.01.
@@ -19,4 +19,9 @@ Winsor -> GreenwichAcademy[label="46.9 (52.11)
 Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.
 In the 1 V race Winsor left thier lane, and into BB&Ns lane in the last 250.
 Thanks to Winsor and GA for the racing and GA making the trip to Boston.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF21FB49C1A5BFE18B2AC227D72047A7&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF21FB49C1A5BFE18B2AC227D72047A7&cat=1", random="random"]; 
+Nobles -> Winsor[label="21.7 (25.04)
+05/07", weight="79", tooltip="NEIRA, The Winsor School vs. Nobles			
+Distance: 1300 Conditions: Exciting day of racing on the powerhouse! The day began with a heavy headwind, very gusty (20mph) with chop through the last 300m. The wind lightened up as the racing went on, with no gusts by the last race. Order: 4V, 1V, 2V, 5V, 3V. 
+The 3V race had oncoming crews under Western ave, but both coxswains expertly navigated around them and this did not impede overall results. Thank you to Nobles for making the trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=07B4E28BE6117D60DF9019B4C6FC53D7&cat=1", random="random"]}

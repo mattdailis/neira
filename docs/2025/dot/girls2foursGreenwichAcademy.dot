@@ -1,4 +1,25 @@
-digraph girls2foursGreenwichAcademy {GreenwichAcademy [URL="girls2foursGreenwichAcademyGreenwichAcademy.html"];Choate [URL="girls2foursGreenwichAcademyChoate.html"];Canterbury [URL="girls2foursGreenwichAcademyCanterbury.html"];NMH [URL="girls2foursGreenwichAcademyNMH.html"];GreenwichCountryDay [URL="girls2foursGreenwichAcademyGreenwichCountryDay.html"];BerkshireAcademy [URL="girls2foursGreenwichAcademyBerkshireAcademy.html"];Taft [URL="girls2foursGreenwichAcademyTaft.html"];LymeOldLyme [URL="girls2foursGreenwichAcademyLymeOldLyme.html"];BBN [URL="girls2foursGreenwichAcademyBBN.html"];Winsor [URL="girls2foursGreenwichAcademyWinsor.html"];Suffield [URL="girls2foursGreenwichAcademySuffield.html"];Hotchkiss [URL="girls2foursGreenwichAcademyHotchkiss.html"];Winsor -> GreenwichAcademy[label="26.1 (29.0)
+digraph girls2foursGreenwichAcademy {Canterbury [URL="girls2foursGreenwichAcademyCanterbury.html"];NMH [URL="girls2foursGreenwichAcademyNMH.html"];Winsor [URL="girls2foursGreenwichAcademyWinsor.html"];Taft [URL="girls2foursGreenwichAcademyTaft.html"];Suffield [URL="girls2foursGreenwichAcademySuffield.html"];BerkshireAcademy [URL="girls2foursGreenwichAcademyBerkshireAcademy.html"];GreenwichCountryDay [URL="girls2foursGreenwichAcademyGreenwichCountryDay.html"];Choate [URL="girls2foursGreenwichAcademyChoate.html"];Hopkins [URL="girls2foursGreenwichAcademyHopkins.html"];Hotchkiss [URL="girls2foursGreenwichAcademyHotchkiss.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademyGreenwichAcademy.html"];LymeOldLyme [URL="girls2foursGreenwichAcademyLymeOldLyme.html"];SacredHeart [URL="girls2foursGreenwichAcademySacredHeart.html"];BBN [URL="girls2foursGreenwichAcademyBBN.html"];BerkshireAcademy -> GreenwichAcademy[label="18.8
+05/10", weight="82", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+GreenwichAcademy -> Hopkins[label="14.0
+05/10", weight="86", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+GreenwichAcademy -> LymeOldLyme[label="20.7
+05/10", weight="80", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+Winsor -> GreenwichAcademy[label="26.1 (29.0)
 04/26", weight="74", tooltip="NEIRA Girls Fours, BB&N, Winsor, Greenwich Academy			
 Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.
 In the 1 V race Winsor left thier lane, and into BB&Ns lane in the last 250.
@@ -10,6 +31,15 @@ Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy 
 In the 1 V race Winsor left thier lane, and into BB&Ns lane in the last 250.
 Thanks to Winsor and GA for the racing and GA making the trip to Boston.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF21FB49C1A5BFE18B2AC227D72047A7&cat=1", random="random"]; 
+GreenwichAcademy -> SacredHeart[label="39.1 (41.89)
+04/30", weight="61", tooltip="NEIRA Girls Fours,Greenwich Academy, Sacred Heart, Greenwich Country Day			
+Distance: 1400m Conditions: Race order: 2V, 3V, 1V.
+2V race rowed into approximately 12 mph cross headwind. Due to the wind, alignment took a little longer, and pushed the race to about 1420m.
+3V saw an increase in winds and a pronounced shift to a truer crosswind in the last 400m.
+1V had the balmiest conditions, with a weaker cross head.
+Water for all races was relatively flat, with the 1V seeing the best water. All racing was against the tide. Comments: GA and SH fielded three varsity boats; GCDS fielded a 1V and 2V and entered a novice boys boat into the 3V as an exhibition event.
+Thanks to SH and GCDS for coming out to race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7F031922B617DDED37366A28DFAE8830&cat=1", random="random"]; 
 GreenwichAcademy -> GreenwichCountryDay[label="55.6 (59.57)
 04/30", weight="45", tooltip="NEIRA Girls Fours,Greenwich Academy, Sacred Heart, Greenwich Country Day			
 Distance: 1400m Conditions: Race order: 2V, 3V, 1V.

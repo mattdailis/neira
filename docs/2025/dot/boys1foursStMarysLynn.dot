@@ -1,7 +1,23 @@
-digraph boys1foursStMarysLynn {Hopkins [URL="boys1foursStMarysLynnHopkins.html"];NMH [URL="boys1foursStMarysLynnNMH.html"];Pomfret [URL="boys1foursStMarysLynnPomfret.html"];BelmontHill [URL="boys1foursStMarysLynnBelmontHill.html"];Pingree [URL="boys1foursStMarysLynnPingree.html"];StMarysLynn [URL="boys1foursStMarysLynnStMarysLynn.html"];StMarysLynn -> Pingree[label="0.5
+digraph boys1foursStMarysLynn {Bancroft [URL="boys1foursStMarysLynnBancroft.html"];NMH [URL="boys1foursStMarysLynnNMH.html"];StMarysLynn [URL="boys1foursStMarysLynnStMarysLynn.html"];BelmontHill [URL="boys1foursStMarysLynnBelmontHill.html"];WorcesterAcademy [URL="boys1foursStMarysLynnWorcesterAcademy.html"];Hopkins [URL="boys1foursStMarysLynnHopkins.html"];EagleHill [URL="boys1foursStMarysLynnEagleHill.html"];Pomfret [URL="boys1foursStMarysLynnPomfret.html"];Thayer [URL="boys1foursStMarysLynnThayer.html"];Pingree [URL="boys1foursStMarysLynnPingree.html"];StMarysLynn -> Pingree[label="0.5
 05/04", weight="100", tooltip="NEIRA Boys & Girls Fours,Pingree, Lowell High, St. Mary's, Dublin			
 Distance: 1500 Conditions: Flat conditions until the mixed and varsity races, which encountered an 8mph headwind. Comments: Boys' and Girls' third boats were novice crews. Girls' fourth race was a mixed race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=332AC602A7184903C2BF632C3A15C1EB&cat=5", random="random"]; 
+WorcesterAcademy -> StMarysLynn[label="8.9
+05/07", weight="92", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
+StMarysLynn -> Thayer[label="25.7
+05/07", weight="75", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
+StMarysLynn -> EagleHill[label="40.2
+05/07", weight="60", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
+StMarysLynn -> Bancroft[label="60.2
+05/07", weight="40", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
 BelmontHill -> StMarysLynn[label="44.6
 04/19", weight="56", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
 Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).

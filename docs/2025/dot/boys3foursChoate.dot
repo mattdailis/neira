@@ -1,4 +1,19 @@
-digraph boys3foursChoate {Choate [URL="boys3foursChoateChoate.html"];Pomfret [URL="boys3foursChoatePomfret.html"];NMH [URL="boys3foursChoateNMH.html"];FrederickGunn [URL="boys3foursChoateFrederickGunn.html"];Hotchkiss [URL="boys3foursChoateHotchkiss.html"];NMH -> Choate[label="33.54
+digraph boys3foursChoate {NMH [URL="boys3foursChoateNMH.html"];Groton [URL="boys3foursChoateGroton.html"];Choate [URL="boys3foursChoateChoate.html"];BelmontHill [URL="boys3foursChoateBelmontHill.html"];Brooks [URL="boys3foursChoateBrooks.html"];Hotchkiss [URL="boys3foursChoateHotchkiss.html"];Pomfret [URL="boys3foursChoatePomfret.html"];FrederickGunn [URL="boys3foursChoateFrederickGunn.html"];BelmontHill -> Choate[label="53.7
+05/10", weight="47", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Belmont Hill, Choate and Groton			
+Distance: 1500m Conditions: Direct 10-15 mph tailwind increasing to 20 mph throughout the afternoon. Significant chop in the last 1000m. Race order was 5-4-3-2-1 Comments: The girls 2nd boat event was run as planned between Brooks, Choate and Groton. Following the day of racing, after a complaint was lodged, the coaches and race officials reached consensus that a clash of blades between Choate and Groton in the first 20 strokes of the race should in retrospect have warranted a re-start of the race, and therefore the race results are deemed invalid for purposes of seeding and comparison. Accordingly, no results have been posted for this race. 
+Thank you to all coaches and teams for braving some choppy seas and racing well today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2BB05E7EC137B8057B4AC49769B62E55&cat=5", random="random"]; 
+Groton -> Choate[label="45.6
+05/10", weight="55", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Belmont Hill, Choate and Groton			
+Distance: 1500m Conditions: Direct 10-15 mph tailwind increasing to 20 mph throughout the afternoon. Significant chop in the last 1000m. Race order was 5-4-3-2-1 Comments: The girls 2nd boat event was run as planned between Brooks, Choate and Groton. Following the day of racing, after a complaint was lodged, the coaches and race officials reached consensus that a clash of blades between Choate and Groton in the first 20 strokes of the race should in retrospect have warranted a re-start of the race, and therefore the race results are deemed invalid for purposes of seeding and comparison. Accordingly, no results have been posted for this race. 
+Thank you to all coaches and teams for braving some choppy seas and racing well today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2BB05E7EC137B8057B4AC49769B62E55&cat=5", random="random"]; 
+Brooks -> Choate[label="43.0
+05/10", weight="57", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Belmont Hill, Choate and Groton			
+Distance: 1500m Conditions: Direct 10-15 mph tailwind increasing to 20 mph throughout the afternoon. Significant chop in the last 1000m. Race order was 5-4-3-2-1 Comments: The girls 2nd boat event was run as planned between Brooks, Choate and Groton. Following the day of racing, after a complaint was lodged, the coaches and race officials reached consensus that a clash of blades between Choate and Groton in the first 20 strokes of the race should in retrospect have warranted a re-start of the race, and therefore the race results are deemed invalid for purposes of seeding and comparison. Accordingly, no results have been posted for this race. 
+Thank you to all coaches and teams for braving some choppy seas and racing well today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2BB05E7EC137B8057B4AC49769B62E55&cat=5", random="random"]; 
+NMH -> Choate[label="33.54
 05/04", weight="67", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Pomfret -> Choate[label="25.26

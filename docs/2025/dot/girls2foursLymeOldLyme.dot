@@ -1,8 +1,29 @@
-digraph girls2foursLymeOldLyme {Hopkins [URL="girls2foursLymeOldLymeHopkins.html"];Canterbury [URL="girls2foursLymeOldLymeCanterbury.html"];Choate [URL="girls2foursLymeOldLymeChoate.html"];GreenwichAcademy [URL="girls2foursLymeOldLymeGreenwichAcademy.html"];Pomfret [URL="girls2foursLymeOldLymePomfret.html"];BerkshireAcademy [URL="girls2foursLymeOldLymeBerkshireAcademy.html"];LymeOldLyme [URL="girls2foursLymeOldLymeLymeOldLyme.html"];Suffield [URL="girls2foursLymeOldLymeSuffield.html"];ValleyRegional [URL="girls2foursLymeOldLymeValleyRegional.html"];Middletown [URL="girls2foursLymeOldLymeMiddletown.html"];FrederickGunn [URL="girls2foursLymeOldLymeFrederickGunn.html"];LymeOldLyme -> ValleyRegional[label="13.5
+digraph girls2foursLymeOldLyme {Canterbury [URL="girls2foursLymeOldLymeCanterbury.html"];Suffield [URL="girls2foursLymeOldLymeSuffield.html"];BerkshireAcademy [URL="girls2foursLymeOldLymeBerkshireAcademy.html"];Choate [URL="girls2foursLymeOldLymeChoate.html"];Hopkins [URL="girls2foursLymeOldLymeHopkins.html"];Middletown [URL="girls2foursLymeOldLymeMiddletown.html"];Pomfret [URL="girls2foursLymeOldLymePomfret.html"];GreenwichAcademy [URL="girls2foursLymeOldLymeGreenwichAcademy.html"];LymeOldLyme [URL="girls2foursLymeOldLymeLymeOldLyme.html"];FrederickGunn [URL="girls2foursLymeOldLymeFrederickGunn.html"];ValleyRegional [URL="girls2foursLymeOldLymeValleyRegional.html"];LymeOldLyme -> ValleyRegional[label="13.5
 04/23", weight="87", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Valley regional			
 Distance: 1500m Conditions: 6-8 mph headwind throughout the course. Mostly cloudy day, more than normal spectator boat traffic causing some wakes to enter the later races. Comments: Lyme/Old Lyme G3V4 raced in the girls 2V4 race. Due to conditions and to avoid having to cause all boats to realign in the B1V4 Lyme/Old Lyme was started approximately a deck down on valley. 
 It was a great day of racing we’re glad that valley was able to join us on such a nice day. This was a race with another school Avon but only valley and LOLHS are NEIRA schools. If there is interest the LOL v Valley v Avon will be posted under the high school results.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FBDCA5CCB2EE6264F2D1F77FEFB9FE93&cat=5", random="random"]; 
+BerkshireAcademy -> LymeOldLyme[label="39.5
+05/10", weight="61", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+GreenwichAcademy -> LymeOldLyme[label="20.7
+05/10", weight="80", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+Hopkins -> LymeOldLyme[label="6.7
+05/10", weight="94", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
 LymeOldLyme -> Middletown[label="1.5
 04/30", weight="99", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Middletown			
 Distance: 1500 Conditions: 7-11 mph cross tail wind. Waves challenging for 300-400 meters. Comments: It was a great day of racing. Lyme/Old Lyme was excited to host Middletown at our lake. 

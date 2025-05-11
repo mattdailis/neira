@@ -1,4 +1,9 @@
-digraph girls5fours {Hopkins [URL="girls5foursHopkins.html"];Brooks [URL="girls5foursBrooks.html"];Choate [URL="girls5foursChoate.html"];Nobles [URL="girls5foursNobles.html"];CambridgeRLS [URL="girls5foursCambridgeRLS.html"];NMH [URL="girls5foursNMH.html"];Groton [URL="girls5foursGroton.html"];Middlesex [URL="girls5foursMiddlesex.html"];BBN [URL="girls5foursBBN.html"];Winsor [URL="girls5foursWinsor.html"];BBN -> CambridgeRLS[label="1.0 (1.2)
+digraph girls5fours {Canterbury [URL="girls5foursCanterbury.html"];NMH [URL="girls5foursNMH.html"];Winsor [URL="girls5foursWinsor.html"];Groton [URL="girls5foursGroton.html"];CambridgeRLS [URL="girls5foursCambridgeRLS.html"];Nobles [URL="girls5foursNobles.html"];Choate [URL="girls5foursChoate.html"];Brooks [URL="girls5foursBrooks.html"];Hopkins [URL="girls5foursHopkins.html"];LymeOldLyme [URL="girls5foursLymeOldLyme.html"];Middlesex [URL="girls5foursMiddlesex.html"];BBN [URL="girls5foursBBN.html"];Choate -> Brooks[label="5.6
+05/10", weight="95", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Belmont Hill, Choate and Groton			
+Distance: 1500m Conditions: Direct 10-15 mph tailwind increasing to 20 mph throughout the afternoon. Significant chop in the last 1000m. Race order was 5-4-3-2-1 Comments: The girls 2nd boat event was run as planned between Brooks, Choate and Groton. Following the day of racing, after a complaint was lodged, the coaches and race officials reached consensus that a clash of blades between Choate and Groton in the first 20 strokes of the race should in retrospect have warranted a re-start of the race, and therefore the race results are deemed invalid for purposes of seeding and comparison. Accordingly, no results have been posted for this race. 
+Thank you to all coaches and teams for braving some choppy seas and racing well today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2BB05E7EC137B8057B4AC49769B62E55&cat=5", random="random"]; 
+BBN -> CambridgeRLS[label="1.0 (1.2)
 04/16", weight="99", tooltip="NEIRA Girls Fours, Cambridge Mayor's Cup: BB&N vs. CRLS			
 Distance: 1250m Conditions: Brisk 15-20mph crosswind, swirling and gusting, increasing throughout races. Race order 5-4-3-2-1. 
 Water mostly ok until significant chop in the middle of the 1V race. 
@@ -65,6 +70,27 @@ Choate -> Winsor[label="7.6 (8.77)
 Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
 Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting--CRLS: 5:15.71 Choate: 5:52.01.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&cat=1", random="random"]; 
+LymeOldLyme -> Hopkins[label="10.2
+05/10", weight="90", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+LymeOldLyme -> Canterbury[label="42.5
+05/10", weight="58", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+Hopkins -> Canterbury[label="32.4
+05/10", weight="68", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
 Winsor -> BBN[label="33.3 (37.0)
 04/26", weight="67", tooltip="NEIRA Girls Fours, BB&N, Winsor, Greenwich Academy			
 Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.

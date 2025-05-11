@@ -1,0 +1,76 @@
+{
+    "comment": "\nDistance: 1300 Conditions: Exciting day of racing on the powerhouse! The day began with a heavy headwind, very gusty (20mph) with chop through the last 300m. The wind lightened up as the racing went on, with no gusts by the last race. Order: 4V, 1V, 2V, 5V, 3V. \r\n\r\nThe 3V race had oncoming crews under Western ave, but both coxswains expertly navigated around them and this did not impede overall results. Thank you to Nobles for making the trip!\n\nNone",
+    "day": "2025-05-07",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "4:58.9",
+                    "school": "Nobles"
+                },
+                {
+                    "margin_from_winner": 11.44,
+                    "raw_time": "5:10.34",
+                    "school": "Winsor"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:07.35",
+                    "school": "Nobles"
+                },
+                {
+                    "margin_from_winner": 14.06,
+                    "raw_time": "5:21.41",
+                    "school": "Winsor"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:07.2",
+                    "school": "Nobles"
+                },
+                {
+                    "margin_from_winner": 12.95,
+                    "raw_time": "5:20.15",
+                    "school": "Winsor"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:30.9",
+                    "school": "Nobles"
+                },
+                {
+                    "margin_from_winner": 21.66,
+                    "raw_time": "5:52.56",
+                    "school": "Winsor"
+                }
+            ],
+            "varsity_index": "4"
+        }
+    ],
+    "regatta_display_name": "NEIRA, The Winsor School vs. Nobles",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=07B4E28BE6117D60DF9019B4C6FC53D7&cat=1"
+}

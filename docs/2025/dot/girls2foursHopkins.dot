@@ -1,4 +1,4 @@
-digraph girls2foursHopkins {Hopkins [URL="girls2foursHopkinsHopkins.html"];Brooks [URL="girls2foursHopkinsBrooks.html"];Canterbury [URL="girls2foursHopkinsCanterbury.html"];CambridgeRLS [URL="girls2foursHopkinsCambridgeRLS.html"];NMH [URL="girls2foursHopkinsNMH.html"];Pomfret [URL="girls2foursHopkinsPomfret.html"];Middlesex [URL="girls2foursHopkinsMiddlesex.html"];Taft [URL="girls2foursHopkinsTaft.html"];LymeOldLyme [URL="girls2foursHopkinsLymeOldLyme.html"];Suffield [URL="girls2foursHopkinsSuffield.html"];StMarysLynn [URL="girls2foursHopkinsStMarysLynn.html"];FrederickGunn [URL="girls2foursHopkinsFrederickGunn.html"];Hotchkiss [URL="girls2foursHopkinsHotchkiss.html"];Brooks -> Hopkins[label="34.0
+digraph girls2foursHopkins {Canterbury [URL="girls2foursHopkinsCanterbury.html"];NMH [URL="girls2foursHopkinsNMH.html"];StMarysLynn [URL="girls2foursHopkinsStMarysLynn.html"];CambridgeRLS [URL="girls2foursHopkinsCambridgeRLS.html"];Suffield [URL="girls2foursHopkinsSuffield.html"];BerkshireAcademy [URL="girls2foursHopkinsBerkshireAcademy.html"];Taft [URL="girls2foursHopkinsTaft.html"];Brooks [URL="girls2foursHopkinsBrooks.html"];Hopkins [URL="girls2foursHopkinsHopkins.html"];Hotchkiss [URL="girls2foursHopkinsHotchkiss.html"];Pomfret [URL="girls2foursHopkinsPomfret.html"];GreenwichAcademy [URL="girls2foursHopkinsGreenwichAcademy.html"];LymeOldLyme [URL="girls2foursHopkinsLymeOldLyme.html"];Middlesex [URL="girls2foursHopkinsMiddlesex.html"];FrederickGunn [URL="girls2foursHopkinsFrederickGunn.html"];Brooks -> Hopkins[label="34.0
 04/26", weight="66", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -26,6 +26,27 @@ Hopkins -> StMarysLynn[label="36.4
 04/19", weight="64", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, NMB, St. Mary's-Lynn			
 Distance: 1500m Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Hopkins' oar popped out of the oarlock in the 3rd boat race in the last 200m and they had to stop to reset for a few seconds. Comments: Tailwinds increased somewhat during the course of racing. Order of girls races: G1, G4, G3, G2, G5. (There was an hour and fifteen minutes between the G2 and G5 race. 15 minutes between the other four races.)
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&cat=1", random="random"]; 
+BerkshireAcademy -> Hopkins[label="32.8
+05/10", weight="68", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+GreenwichAcademy -> Hopkins[label="14.0
+05/10", weight="86", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+Hopkins -> LymeOldLyme[label="6.7
+05/10", weight="94", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
 Suffield -> Hopkins[label="3.97
 05/04", weight="97", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 

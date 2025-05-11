@@ -1,4 +1,25 @@
-digraph boys1foursCanterbury {Hopkins [URL="boys1foursCanterburyHopkins.html"];Canterbury [URL="boys1foursCanterburyCanterbury.html"];Choate [URL="boys1foursCanterburyChoate.html"];BrewsterAcademy [URL="boys1foursCanterburyBrewsterAcademy.html"];Pomfret [URL="boys1foursCanterburyPomfret.html"];NMH [URL="boys1foursCanterburyNMH.html"];BerkshireAcademy [URL="boys1foursCanterburyBerkshireAcademy.html"];FrederickGunn [URL="boys1foursCanterburyFrederickGunn.html"];Hotchkiss [URL="boys1foursCanterburyHotchkiss.html"];FrederickGunn -> Canterbury[label="14.0
+digraph boys1foursCanterbury {Canterbury [URL="boys1foursCanterburyCanterbury.html"];NMH [URL="boys1foursCanterburyNMH.html"];BerkshireAcademy [URL="boys1foursCanterburyBerkshireAcademy.html"];Choate [URL="boys1foursCanterburyChoate.html"];Hopkins [URL="boys1foursCanterburyHopkins.html"];Hotchkiss [URL="boys1foursCanterburyHotchkiss.html"];Pomfret [URL="boys1foursCanterburyPomfret.html"];LymeOldLyme [URL="boys1foursCanterburyLymeOldLyme.html"];FrederickGunn [URL="boys1foursCanterburyFrederickGunn.html"];BrewsterAcademy [URL="boys1foursCanterburyBrewsterAcademy.html"];Hopkins -> Canterbury[label="72.7
+05/10", weight="28", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+LymeOldLyme -> Canterbury[label="67.4
+05/10", weight="33", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+BerkshireAcademy -> Canterbury[label="58.6
+05/10", weight="42", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
+Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+FrederickGunn -> Canterbury[label="14.0
 04/19", weight="86", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Canterbury School			
 Distance: 1500 Conditions: Mostly protected waters with some crosswind and very slight chop in the first 500 in particular. Comments: Gunn second boats (B) raced up with the first boats.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FD9BF2C36AB3E5D3343A43D22FCCB16E&cat=5", random="random"]; 

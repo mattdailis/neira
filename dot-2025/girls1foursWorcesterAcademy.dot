@@ -1,5 +1,9 @@
-digraph girls1foursWorcesterAcademy {WorcesterAcademy [URL="girls1foursWorcesterAcademyWorcesterAcademy.html"];BrewsterAcademy [URL="girls1foursWorcesterAcademyBrewsterAcademy.html"];Berwick [URL="girls1foursWorcesterAcademyBerwick.html"];Derryfield [URL="girls1foursWorcesterAcademyDerryfield.html"];Derryfield -> WorcesterAcademy[label="31.6
+digraph girls1foursWorcesterAcademy {StMarysLynn [URL="girls1foursWorcesterAcademyStMarysLynn.html"];Suffield [URL="girls1foursWorcesterAcademySuffield.html"];Derryfield [URL="girls1foursWorcesterAcademyDerryfield.html"];Berwick [URL="girls1foursWorcesterAcademyBerwick.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademyWorcesterAcademy.html"];MarianapolisPrep [URL="girls1foursWorcesterAcademyMarianapolisPrep.html"];SacredHeart [URL="girls1foursWorcesterAcademySacredHeart.html"];BrewsterAcademy [URL="girls1foursWorcesterAcademyBrewsterAcademy.html"];Derryfield -> WorcesterAcademy[label="31.6
 04/27", weight="69", tooltip="NEIRA Girls Fours, Worcester Academy, Berwick Academy, Derryfield, Sacred Heart-Greenwich			
+Conditions: Strong cross/tailwind (20mph), heavy chop throughout races. Wind picked up considerably between 1st and last races Comments: Girls V1 race was approximately 1550 meters. Girls 2V race was approximately 1475 meters.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5100A5CA83A99A9CD2E37FEC65103FEF&cat=1", random="random"]; 
+SacredHeart -> WorcesterAcademy[label="1.6
+04/27", weight="99", tooltip="NEIRA Girls Fours, Worcester Academy, Berwick Academy, Derryfield, Sacred Heart-Greenwich			
 Conditions: Strong cross/tailwind (20mph), heavy chop throughout races. Wind picked up considerably between 1st and last races Comments: Girls V1 race was approximately 1550 meters. Girls 2V race was approximately 1475 meters.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5100A5CA83A99A9CD2E37FEC65103FEF&cat=1", random="random"]; 
 WorcesterAcademy -> Berwick[label="21.0
@@ -9,4 +13,16 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5100A5CA83A99A9CD2
 BrewsterAcademy -> WorcesterAcademy[label="51.5
 04/16", weight="49", tooltip="NEIRA Boys & Girls Fours,'Worcester Academy' and 'Brewster Academy'			
 Distance: 1500m Conditions: Windy conditions. Stayed pretty much the same throughout all races. Slight crosswind coming across from the Worcester side to the Shrewsbury side of the lake. Comments: The results for the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Brewster Academy raced.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5", random="random"]; 
+StMarysLynn -> WorcesterAcademy[label="41.6
+05/07", weight="59", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
+Suffield -> WorcesterAcademy[label="1.5
+04/30", weight="99", tooltip="NEIRA Girls , Worcester Academy vs. Suffield Academy, Marianapolis			
+Distance: 1500 meters Conditions: Moderate tailwind, slight chop throughout races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3E2795D2BE91D9DEA1F8805FF62566D7&cat=1", random="random"]; 
+WorcesterAcademy -> MarianapolisPrep[label="79.3
+04/30", weight="21", tooltip="NEIRA Girls , Worcester Academy vs. Suffield Academy, Marianapolis			
+Distance: 1500 meters Conditions: Moderate tailwind, slight chop throughout races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3E2795D2BE91D9DEA1F8805FF62566D7&cat=1", random="random"]}

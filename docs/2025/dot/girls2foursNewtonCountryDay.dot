@@ -1,4 +1,4 @@
-digraph girls2foursNewtonCountryDay {Nobles [URL="girls2foursNewtonCountryDayNobles.html"];Middlesex [URL="girls2foursNewtonCountryDayMiddlesex.html"];BBN [URL="girls2foursNewtonCountryDayBBN.html"];StMarks [URL="girls2foursNewtonCountryDayStMarks.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDayNewtonCountryDay.html"];BBN -> NewtonCountryDay[label="16.0
+digraph girls2foursNewtonCountryDay {StMarks [URL="girls2foursNewtonCountryDayStMarks.html"];Nobles [URL="girls2foursNewtonCountryDayNobles.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDayNewtonCountryDay.html"];SacredHeart [URL="girls2foursNewtonCountryDaySacredHeart.html"];Middlesex [URL="girls2foursNewtonCountryDayMiddlesex.html"];BBN [URL="girls2foursNewtonCountryDayBBN.html"];BBN -> NewtonCountryDay[label="16.0
 05/03", weight="84", tooltip="NEIRA Girls Fours, Middlesex v BBN & NCDS			
 Distance: 1500m Conditions: Gusting tailwind and chop. and sometimes cross tail throughout. Reverse Order, Some crews started over the line. In G4 race a NCDS boat waring up cause BBN to swerve, it did not effect results, may have effected the margin.. In the G1 race MX coxswain got dizzy and verred off course, but corrected and stay in her bouyed lane it did not effect results,may have effected the margin. Comments: Thanks BBN & NCDS for coming and egtting races in before the storm!!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D27CC871138C3E791602802FD4420F5F&cat=1", random="random"]; 
@@ -13,4 +13,8 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B380035
 StMarks -> NewtonCountryDay[label="31.1
 04/26", weight="69", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+NewtonCountryDay -> SacredHeart[label="102.1 (109.39)
+05/10", weight="-2", tooltip="NEIRA Girls Fours, Sacred Heart Greenwich vs Newton Country Day School			
+Distance: 1400 Conditions: Gusty winds for the first 1k-1.1k, cross head coming from NW. Wind gusts up to 32 MPH. Wind increased tremendously throughout racing, 3V race saw the worst of it. Comments: Newton had a 4V so they raced in the 3V category as well. Although wind was not great, everyone had a safe and good race. Thank you Newton for coming!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=69E2534D24EE4C0304E7D5167863CA1A&cat=1", random="random"]}

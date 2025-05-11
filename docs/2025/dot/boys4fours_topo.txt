@@ -1,7 +1,9 @@
-{'Groton', 'Brooks', 'Belmont Hill', 'Notre Dame'}
-{'Middletown', 'Taft', 'Nobles', 'Cambridge RLS'}
-{"St. Mark's", 'NMH', 'BB&N'}
+{'Belmont Hill', 'Thayer', 'Notre Dame'}
+{'Bancroft', 'Middletown', 'Brooks'}
+{'Groton'}
+{'Nobles', 'Cambridge RLS', 'Taft'}
+{'NMH', 'BB&N'}
+{"St. Mark's"}
 {'Middlesex', 'Pomfret'}
-{'Hopkins'}
-Cycle detected: {'Berkshire Academy', 'Hotchkiss', 'Brewster Academy'}
-{'Greenwich Country Day'}
+Cycle detected: {'Hotchkiss', 'Hopkins', 'Brewster Academy', 'Berkshire Academy'}
+{'Lyme/Old Lyme', 'Greenwich Country Day'}

@@ -12,6 +12,11 @@
                     "school": "Derryfield"
                 },
                 {
+                    "margin_from_winner": 29.95,
+                    "raw_time": "7:56.59",
+                    "school": "Sacred Heart"
+                },
+                {
                     "margin_from_winner": 31.58,
                     "raw_time": "7:58.22",
                     "school": "Worcester Academy"
@@ -23,6 +28,23 @@
                 }
             ],
             "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "7:00.20",
+                    "school": "Sacred Heart"
+                },
+                {
+                    "margin_from_winner": 15.16,
+                    "raw_time": "7:15.36",
+                    "school": "Derryfield"
+                }
+            ],
+            "varsity_index": "2"
         }
     ],
     "regatta_display_name": "NEIRA Girls Fours, Worcester Academy, Berwick Academy, Derryfield, Sacred Heart-Greenwich",

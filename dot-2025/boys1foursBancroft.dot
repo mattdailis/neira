@@ -1,4 +1,4 @@
-digraph boys1foursBancroft {BrewsterAcademy [URL="boys1foursBancroftBrewsterAcademy.html"];Berwick [URL="boys1foursBancroftBerwick.html"];Derryfield [URL="boys1foursBancroftDerryfield.html"];WorcesterAcademy [URL="boys1foursBancroftWorcesterAcademy.html"];Bancroft [URL="boys1foursBancroftBancroft.html"];Berwick -> Bancroft[label="75.3
+digraph boys1foursBancroft {Bancroft [URL="boys1foursBancroftBancroft.html"];StMarysLynn [URL="boys1foursBancroftStMarysLynn.html"];Derryfield [URL="boys1foursBancroftDerryfield.html"];Berwick [URL="boys1foursBancroftBerwick.html"];WorcesterAcademy [URL="boys1foursBancroftWorcesterAcademy.html"];EagleHill [URL="boys1foursBancroftEagleHill.html"];Thayer [URL="boys1foursBancroftThayer.html"];BrewsterAcademy [URL="boys1foursBancroftBrewsterAcademy.html"];Berwick -> Bancroft[label="75.3
 04/27", weight="25", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 
@@ -18,6 +18,22 @@ BrewsterAcademy -> Bancroft[label="52.8
 04/16", weight="48", tooltip="NEIRA Boys & Girls Fours,'Worcester Academy' and 'Brewster Academy'			
 Distance: 1500m Conditions: Windy conditions. Stayed pretty much the same throughout all races. Slight crosswind coming across from the Worcester side to the Shrewsbury side of the lake. Comments: The results for the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Brewster Academy raced.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=89B923A079203B9788590BB072E28088&cat=5", random="random"]; 
+WorcesterAcademy -> Bancroft[label="69.1
+05/07", weight="31", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
+StMarysLynn -> Bancroft[label="60.2
+05/07", weight="40", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
+Thayer -> Bancroft[label="34.5
+05/07", weight="66", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
+EagleHill -> Bancroft[label="20.0
+05/07", weight="80", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
+Distance: 1500m Conditions: Slight head/cross wind throughout the races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 
 WorcesterAcademy -> Bancroft[label="62.9
 04/23", weight="38", tooltip="NEIRA Boys & Girls Fours,St. Mark's and Worcester Academy			
 Distance: 1500m Conditions: Nice weather; slight wind coming across from the Worcester side to the Shrewsbury side of the lake Comments: The results under the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Bancroft raced.

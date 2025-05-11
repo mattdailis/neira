@@ -1,4 +1,4 @@
-digraph girls4foursFrederickGunn {FrederickGunn [URL="girls4foursFrederickGunnFrederickGunn.html"];Choate [URL="girls4foursFrederickGunnChoate.html"];Hotchkiss [URL="girls4foursFrederickGunnHotchkiss.html"];Pomfret [URL="girls4foursFrederickGunnPomfret.html"];Choate -> FrederickGunn[label="70.93
+digraph girls4foursFrederickGunn {Hotchkiss [URL="girls4foursFrederickGunnHotchkiss.html"];Choate [URL="girls4foursFrederickGunnChoate.html"];FrederickGunn [URL="girls4foursFrederickGunnFrederickGunn.html"];Pomfret [URL="girls4foursFrederickGunnPomfret.html"];Choate -> FrederickGunn[label="70.93
 05/04", weight="30", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hotchkiss -> FrederickGunn[label="66.19

@@ -1,4 +1,4 @@
-digraph girls4foursNobles {Nobles [URL="girls4foursNoblesNobles.html"];Groton [URL="girls4foursNoblesGroton.html"];BBN [URL="girls4foursNoblesBBN.html"];StMarks [URL="girls4foursNoblesStMarks.html"];NewtonCountryDay [URL="girls4foursNoblesNewtonCountryDay.html"];Nobles -> BBN[label="5.1 (5.67)
+digraph girls4foursNobles {Winsor [URL="girls4foursNoblesWinsor.html"];Groton [URL="girls4foursNoblesGroton.html"];StMarks [URL="girls4foursNoblesStMarks.html"];Nobles [URL="girls4foursNoblesNobles.html"];NewtonCountryDay [URL="girls4foursNoblesNewtonCountryDay.html"];BBN [URL="girls4foursNoblesBBN.html"];Nobles -> BBN[label="5.1 (5.67)
 04/19", weight="95", tooltip="NEIRA Boys & Girls Fours,BB&N, Nobles and Groton			
 Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1-2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
@@ -19,4 +19,9 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B380035
 Nobles -> StMarks[label="57.7
 04/26", weight="43", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+Nobles -> Winsor[label="21.7 (25.04)
+05/07", weight="79", tooltip="NEIRA, The Winsor School vs. Nobles			
+Distance: 1300 Conditions: Exciting day of racing on the powerhouse! The day began with a heavy headwind, very gusty (20mph) with chop through the last 300m. The wind lightened up as the racing went on, with no gusts by the last race. Order: 4V, 1V, 2V, 5V, 3V. 
+The 3V race had oncoming crews under Western ave, but both coxswains expertly navigated around them and this did not impede overall results. Thank you to Nobles for making the trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=07B4E28BE6117D60DF9019B4C6FC53D7&cat=1", random="random"]}
