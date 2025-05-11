@@ -1,4 +1,4 @@
-digraph girls4foursLymeOldLyme {Hopkins [URL="girls4foursHopkins.html"];NMH [URL="girls4foursNMH.html"];Taft [URL="girls4foursTaft.html"];LymeOldLyme [URL="girls4foursLymeOldLyme.html"];Canterbury [URL="girls4foursCanterbury.html"];NMH -> LymeOldLyme[label="33.0
+digraph girls4foursLymeOldLyme {Hopkins [URL="girls4foursHopkins.html"];Canterbury [URL="girls4foursCanterbury.html"];Taft [URL="girls4foursTaft.html"];LymeOldLyme [URL="girls4foursLymeOldLyme.html"];NMH [URL="girls4foursNMH.html"];NMH -> LymeOldLyme[label="33.0
 05/04", weight="67", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Hopkins -> LymeOldLyme[label="31.0

@@ -2,8 +2,8 @@
 {'Middletown', 'Bancroft', 'Brooks'}
 {'Groton'}
 {'Nobles', 'Cambridge RLS', 'Taft'}
-{'NMH', 'BB&N'}
+{'BB&N', 'NMH'}
 {"St. Mark's"}
-{'Middlesex', 'Pomfret'}
-Cycle detected: {'Hotchkiss', 'Hopkins', 'Berkshire Academy', 'Brewster Academy'}
-{'Lyme/Old Lyme', 'Greenwich Country Day'}
+{'Pomfret', 'Middlesex'}
+Cycle detected: {'Berkshire Academy', 'Hopkins', 'Hotchkiss', 'Brewster Academy'}
+{'Greenwich Country Day', 'Lyme/Old Lyme'}

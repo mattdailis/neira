@@ -163,39 +163,41 @@
     },
     "3E2795D2BE91D9DEA1F8805FF62566D7": {
         "checksum": "21035e5fba5ee1558df91c3ccfe48f42",
-        "corrections": [{
-            "new_contents": {
-                "comment": "\nDistance: 1500 meters Conditions: Moderate tailwind, slight chop throughout races.\n\nNone",
-                "day": "2025-04-30",
-                "heats": [
-                    {
-                        "class": "fours",
-                        "gender": "girls",
-                        "results": [
-                            {
-                                "margin_from_winner": 0,
-                                "raw_time": "6:18.45",
-                                "school": "Suffield"
-                            },
-                            {
-                                "margin_from_winner": 1.47,
-                                "raw_time": "6:19.92",
-                                "school": "Worcester Academy"
-                            },
-                            {
-                                "margin_from_winner": 80.8,
-                                "raw_time": "7:39.25",
-                                "school": "Marianapolis Prep"
-                            }
-                        ],
-                        "varsity_index": "1"
-                    }
-                ],
-                "regatta_display_name": "NEIRA Girls , Worcester Academy vs. Suffield Academy, Marianapolis",
-                "url": "https://www.row2k.com/results/resultspage.cfm?UID=3E2795D2BE91D9DEA1F8805FF62566D7&cat=1"
-            },
-            "type": "manual_override"
-        }]
+        "corrections": [
+            {
+                "new_contents": {
+                    "comment": "\nDistance: 1500 meters Conditions: Moderate tailwind, slight chop throughout races.\n\nNone",
+                    "day": "2025-04-30",
+                    "heats": [
+                        {
+                            "class": "fours",
+                            "gender": "girls",
+                            "results": [
+                                {
+                                    "margin_from_winner": 0,
+                                    "raw_time": "6:18.45",
+                                    "school": "Suffield"
+                                },
+                                {
+                                    "margin_from_winner": 1.47,
+                                    "raw_time": "6:19.92",
+                                    "school": "Worcester Academy"
+                                },
+                                {
+                                    "margin_from_winner": 80.8,
+                                    "raw_time": "7:39.25",
+                                    "school": "Marianapolis Prep"
+                                }
+                            ],
+                            "varsity_index": "1"
+                        }
+                    ],
+                    "regatta_display_name": "NEIRA Girls , Worcester Academy vs. Suffield Academy, Marianapolis",
+                    "url": "https://www.row2k.com/results/resultspage.cfm?UID=3E2795D2BE91D9DEA1F8805FF62566D7&cat=1"
+                },
+                "type": "manual_override"
+            }
+        ]
     },
     "4232F2C9CF0B3800357AF3DC37D5407B": {
         "checksum": "c35a1b8eed88e58eccb353ce23408c0c",
@@ -490,6 +492,17 @@
         "checksum": "9ceb871f69d6fa8e163226d6bc72269c",
         "corrections": []
     },
+    "9E9FBCF7615155630E407DCED0B617CE": {
+        "checksum": "30307bfc643c5396f6176a472431b5d4",
+        "corrections": [
+            {
+                "heats": [
+                    "girls 4"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
     "A160D3395A9521C6012812C95AC5B8E8": {
         "checksum": "2f7a452e8aa3f2801d707a29ef172e02",
         "corrections": []
@@ -697,6 +710,15 @@
                     }
                 ],
                 "type": "set_margins"
+            }
+        ]
+    },
+    "F7D181438A9DB3A2D01746FB694CA9D5": {
+        "checksum": "c96a5a8af1fdddea026c0e5c3f8acd56",
+        "corrections": [
+            {
+                "gender": "girls",
+                "type": "set_gender_all_heats"
             }
         ]
     },

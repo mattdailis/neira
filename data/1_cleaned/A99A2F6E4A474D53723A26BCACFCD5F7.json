@@ -1,0 +1,42 @@
+{
+    "comment": "\nDistance: 1250 Conditions: Floating starts, times should not be compared. Tail current with slight tailwind in 1V & 4V/novice race, with the tailwind picking up considerably for the 2V race\n\nNone",
+    "day": "2025-05-11",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "3:51.1",
+                    "school": "Hingham"
+                },
+                {
+                    "margin_from_winner": 7.2,
+                    "raw_time": "3:58.3",
+                    "school": "Boston Latin"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "3:56.6",
+                    "school": "Boston Latin"
+                },
+                {
+                    "margin_from_winner": 1.2,
+                    "raw_time": "3:57.8",
+                    "school": "Hingham"
+                }
+            ],
+            "varsity_index": "2"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys Eights, Boston Latin vs. Hingham",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=A99A2F6E4A474D53723A26BCACFCD5F7&cat=1"
+}

@@ -1,11 +1,11 @@
-{'Eagle Hill', 'Belmont Hill'}
+{'Belmont Hill', 'Eagle Hill'}
 {'Groton'}
 {'Nobles', 'Taft', 'Brooks'}
-{'Hotchkiss', 'BB&N'}
+{'BB&N', 'Hotchkiss'}
 {'Cambridge RLS'}
 {'Middlesex'}
-{'NMH', "St. Mark's"}
+{"St. Mark's", 'NMH'}
 {'Hopkins'}
-Cycle detected: {'Pomfret', 'Berkshire Academy'}
+Cycle detected: {'Berkshire Academy', 'Pomfret'}
 {'Choate'}
 {'Frederick Gunn', 'Canterbury'}
