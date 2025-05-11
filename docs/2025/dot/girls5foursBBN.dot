@@ -1,4 +1,4 @@
-digraph girls5foursBBN {Taft [URL="girls5foursTaft.html"];MissPorters [URL="girls5foursMissPorters.html"];CambridgeRLS [URL="girls5foursCambridgeRLS.html"];BBN [URL="girls5foursBBN.html"];StMarks [URL="girls5foursStMarks.html"];Winsor [URL="girls5foursWinsor.html"];Nobles [URL="girls5foursNobles.html"];BBN -> CambridgeRLS[label="1.0 (1.2)
+digraph girls5foursBBN {Nobles [URL="girls5foursNobles.html"];MissPorters [URL="girls5foursMissPorters.html"];StMarks [URL="girls5foursStMarks.html"];Winsor [URL="girls5foursWinsor.html"];Taft [URL="girls5foursTaft.html"];BBN [URL="girls5foursBBN.html"];CambridgeRLS [URL="girls5foursCambridgeRLS.html"];BBN -> CambridgeRLS[label="1.0 (1.2)
 04/16", weight="99", tooltip="NEIRA Girls Fours, Cambridge Mayor's Cup: BB&N vs. CRLS			
 Distance: 1250m Conditions: Brisk 15-20mph crosswind, swirling and gusting, increasing throughout races. Race order 5-4-3-2-1. 
 Water mostly ok until significant chop in the middle of the 1V race. 

@@ -1,4 +1,4 @@
-digraph boys2foursCambridgeRLS {NMH [URL="boys2foursNMH.html"];Middlesex [URL="boys2foursMiddlesex.html"];CambridgeRLS [URL="boys2foursCambridgeRLS.html"];BBN [URL="boys2foursBBN.html"];Hopkins [URL="boys2foursHopkins.html"];Groton [URL="boys2foursGroton.html"];Brooks [URL="boys2foursBrooks.html"];Groton -> CambridgeRLS[label="14.8 (17.9)
+digraph boys2foursCambridgeRLS {Hopkins [URL="boys2foursHopkins.html"];Brooks [URL="boys2foursBrooks.html"];Groton [URL="boys2foursGroton.html"];BBN [URL="boys2foursBBN.html"];NMH [URL="boys2foursNMH.html"];Middlesex [URL="boys2foursMiddlesex.html"];CambridgeRLS [URL="boys2foursCambridgeRLS.html"];Groton -> CambridgeRLS[label="14.8 (17.9)
 05/03", weight="86", tooltip="NEIRA Boys & Girls Fours,CRLS at Groton			
 Distance: 1240 m Conditions: A tail wind was significant in the first races, by the time o the first boats, n0 wind at all. Very little current; the river is very low.We finished the last race just before thunder and lightning began. Minimal rain. Comments: Racing order:
 G5, B5, G4, B4, G2, B2, G3, B3, G1, B1

@@ -1,25 +1,43 @@
-Cambridge RLS and Hopkins have never raced head to head
+Cambridge RLS and Hopkins have raced head to head once on 2025-04-26
+Cambridge RLS won the race by 36.2 seconds
 
-There is exactly one path of length 2 between Cambridge RLS and Hopkins, via Cambridge RLS--(-31.3 4/27)-->NMH--(54.79 5/5)-->Hopkins [Cambridge RLS net +23.49]
-It favors Cambridge RLS by a cumulative margin of 23.49 seconds
-
-There are 17 paths of length 3 between Cambridge RLS and Hopkins
-14/17 of them favor Cambridge RLS
+There are 3 paths of length 2 between Cambridge RLS and Hopkins
+2/3 of them favor Hopkins
 From most recent to least recent:
-Cambridge RLS--(-23.51 5/4)-->Groton--(6.0 5/11)-->Choate--(51.16 5/5)-->Hopkins [Cambridge RLS net +33.65]
-Cambridge RLS--(-42.69 5/1)-->Winsor--(39.4 5/11)-->Pomfret--(17.9 5/18)-->Hopkins [Cambridge RLS net +14.61]
-Cambridge RLS--(-42.69 5/1)-->Winsor--(-1.62 5/4)-->Nobles--(60.2 5/18)-->Hopkins [Cambridge RLS net +15.89]
-Cambridge RLS--(2.31 5/1)-->Newton Country Day--(-88.5 4/27)-->Nobles--(60.2 5/18)-->Hopkins [Hopkins net +25.99]
-Cambridge RLS--(-31.3 4/27)-->NMH--(-37.5 5/11)-->Nobles--(60.2 5/18)-->Hopkins [Hopkins net +8.6]
-Cambridge RLS--(-34.1 5/11)-->Middlesex--(-18.7 4/27)-->NMH--(54.79 5/5)-->Hopkins [Cambridge RLS net +1.99]
-Cambridge RLS--(-31.3 4/27)-->NMH--(3.63 5/5)-->Choate--(51.16 5/5)-->Hopkins [Cambridge RLS net +23.49]
-Cambridge RLS--(-28.8 4/27)-->Brooks--(-2.5 4/27)-->NMH--(54.79 5/5)-->Hopkins [Cambridge RLS net +23.49]
-Cambridge RLS--(-12.6 4/27)-->Middlesex--(-18.7 4/27)-->NMH--(54.79 5/5)-->Hopkins [Cambridge RLS net +23.49]
-Cambridge RLS--(-23.51 5/4)-->Groton--(33.0 4/27)-->Pomfret--(17.9 5/18)-->Hopkins [Cambridge RLS net +27.39]
-Cambridge RLS--(-28.8 4/27)-->Brooks--(16.0 5/11)-->Choate--(51.16 5/5)-->Hopkins [Cambridge RLS net +38.36]
-Cambridge RLS--(-31.3 4/27)-->NMH--(32.2 4/20)-->Pomfret--(17.9 5/18)-->Hopkins [Cambridge RLS net +18.8]
-Cambridge RLS--(-23.51 5/4)-->Groton--(-15.78 4/20)-->Nobles--(60.2 5/18)-->Hopkins [Cambridge RLS net +20.91]
-Cambridge RLS--(-28.8 4/27)-->Brooks--(-51.0 4/13)-->Nobles--(60.2 5/18)-->Hopkins [Hopkins net +19.6]
-Cambridge RLS--(-31.3 4/27)-->NMH--(-5.5 4/13)-->Choate--(51.16 5/5)-->Hopkins [Cambridge RLS net +14.36]
-Cambridge RLS--(-20.44 4/13)-->BB&N--(-15.33 4/20)-->Nobles--(60.2 5/18)-->Hopkins [Cambridge RLS net +24.43]
-Cambridge RLS--(-20.44 4/13)-->BB&N--(40.5 5/11)-->Pomfret--(17.9 5/18)-->Hopkins [Cambridge RLS net +37.96]
+Cambridge RLS--(-16.62 4/30)-->Choate--(6.13 5/4)-->Hopkins [Hopkins net +10.49]
+Cambridge RLS--(10.6 4/26)-->NMH--(-1.41 5/4)-->Hopkins [Cambridge RLS net +9.19]
+Cambridge RLS--(10.6 4/26)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +5.4]
+
+There are 30 paths of length 3 between Cambridge RLS and Hopkins
+20/30 of them favor Cambridge RLS
+From most recent to least recent:
+Cambridge RLS--(6.53 5/3)-->Groton--(-15.2 5/10)-->Choate--(6.13 5/4)-->Hopkins [Hopkins net +2.54]
+Cambridge RLS--(-16.62 4/30)-->Choate--(7.54 5/4)-->NMH--(-1.41 5/4)-->Hopkins [Hopkins net +10.49]
+Cambridge RLS--(-16.62 4/30)-->Choate--(11.89 5/4)-->Hotchkiss--(-5.76 5/4)-->Hopkins [Hopkins net +10.49]
+Cambridge RLS--(-16.62 4/30)-->Choate--(18.0 5/4)-->Taft--(-11.87 5/4)-->Hopkins [Hopkins net +10.49]
+Cambridge RLS--(-15.58 4/30)-->Winsor--(-1.04 4/30)-->Choate--(6.13 5/4)-->Hopkins [Hopkins net +10.49]
+Cambridge RLS--(-15.58 4/30)-->Winsor--(31.8 5/10)-->Taft--(-11.87 5/4)-->Hopkins [Cambridge RLS net +4.35]
+Cambridge RLS--(10.6 4/26)-->NMH--(108.0 5/4)-->Canterbury--(-122.2 5/10)-->Hopkins [Hopkins net +3.6]
+Cambridge RLS--(0.9 4/26)-->Brooks--(9.7 4/26)-->NMH--(-1.41 5/4)-->Hopkins [Cambridge RLS net +9.19]
+Cambridge RLS--(10.6 4/26)-->NMH--(-7.54 5/4)-->Choate--(6.13 5/4)-->Hopkins [Cambridge RLS net +9.19]
+Cambridge RLS--(10.6 4/26)-->NMH--(4.35 5/4)-->Hotchkiss--(-5.76 5/4)-->Hopkins [Cambridge RLS net +9.19]
+Cambridge RLS--(10.6 4/26)-->NMH--(10.46 5/4)-->Taft--(-11.87 5/4)-->Hopkins [Cambridge RLS net +9.19]
+Cambridge RLS--(23.5 4/26)-->Middlesex--(-12.9 4/26)-->NMH--(-1.41 5/4)-->Hopkins [Cambridge RLS net +9.19]
+Cambridge RLS--(-16.62 4/30)-->Choate--(-7.2 5/10)-->Brooks--(35.3 4/26)-->Hopkins [Cambridge RLS net +11.48]
+Cambridge RLS--(10.6 4/26)-->NMH--(33.0 5/4)-->Lyme/Old Lyme--(-31.0 5/4)-->Hopkins [Cambridge RLS net +12.6]
+Cambridge RLS--(10.6 4/26)-->NMH--(108.0 5/4)-->Canterbury--(-106.0 5/4)-->Hopkins [Cambridge RLS net +12.6]
+Cambridge RLS--(-15.58 4/30)-->Winsor--(52.11 4/26)-->Greenwich Academy--(-23.2 5/10)-->Hopkins [Cambridge RLS net +13.33]
+Cambridge RLS--(0.9 4/26)-->Brooks--(7.2 5/10)-->Choate--(6.13 5/4)-->Hopkins [Cambridge RLS net +14.23]
+Cambridge RLS--(-16.62 4/30)-->Choate--(7.54 5/4)-->NMH--(25.6 4/26)-->Hopkins [Cambridge RLS net +16.52]
+Cambridge RLS--(6.53 5/3)-->Groton--(-22.4 5/10)-->Brooks--(35.3 4/26)-->Hopkins [Cambridge RLS net +19.43]
+Cambridge RLS--(6.53 5/3)-->Groton--(35.5 4/26)-->Taft--(-11.87 5/4)-->Hopkins [Cambridge RLS net +30.16]
+Cambridge RLS--(-16.62 4/30)-->Choate--(7.54 5/4)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +25.08]
+Cambridge RLS--(0.9 4/26)-->Brooks--(9.7 4/26)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +5.4]
+Cambridge RLS--(23.5 4/26)-->Middlesex--(-12.9 4/26)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +5.4]
+Cambridge RLS--(-16.62 4/30)-->Choate--(24.6 4/19)-->Taft--(-11.87 5/4)-->Hopkins [Hopkins net +3.89]
+Cambridge RLS--(-16.62 4/30)-->Choate--(19.5 4/19)-->Berkshire Academy--(7.5 5/10)-->Hopkins [Cambridge RLS net +10.38]
+Cambridge RLS--(23.5 4/26)-->Middlesex--(-25.4 4/19)-->Brooks--(35.3 4/26)-->Hopkins [Cambridge RLS net +33.4]
+Cambridge RLS--(0.9 4/26)-->Brooks--(25.4 4/19)-->Middlesex--(12.7 4/26)-->Hopkins [Cambridge RLS net +39.0]
+Cambridge RLS--(10.8 4/16)-->BB&N--(25.78 4/26)-->Greenwich Academy--(-23.2 5/10)-->Hopkins [Cambridge RLS net +13.38]
+Cambridge RLS--(10.8 4/16)-->BB&N--(14.7 5/10)-->Taft--(-11.87 5/4)-->Hopkins [Cambridge RLS net +13.63]
+Cambridge RLS--(10.8 4/16)-->BB&N--(2.2 5/3)-->Middlesex--(12.7 4/26)-->Hopkins [Cambridge RLS net +25.7]

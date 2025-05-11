@@ -1,4 +1,4 @@
-digraph boys3foursCanterbury {Taft [URL="boys3foursTaft.html"];Hopkins [URL="boys3foursHopkins.html"];Canterbury [URL="boys3foursCanterbury.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Taft -> Canterbury[label="105.0
+digraph boys3foursCanterbury {Canterbury [URL="boys3foursCanterbury.html"];Hopkins [URL="boys3foursHopkins.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Taft [URL="boys3foursTaft.html"];Taft -> Canterbury[label="105.0
 05/04", weight="-5", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BerkshireAcademy -> Canterbury[label="97.0

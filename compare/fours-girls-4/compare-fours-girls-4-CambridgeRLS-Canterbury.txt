@@ -1,6 +1,44 @@
 Cambridge RLS and Canterbury have never raced head to head
 
-There are no paths of length 2 between Cambridge RLS and Canterbury
+There are 3 paths of length 2 between Cambridge RLS and Canterbury
+All of them favor Cambridge RLS
+From most recent to least recent:
+Cambridge RLS--(10.6 4/26)-->NMH--(108.0 5/4)-->Canterbury [Cambridge RLS net +118.6]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(106.0 5/4)-->Canterbury [Cambridge RLS net +142.2]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(122.2 5/10)-->Canterbury [Cambridge RLS net +158.4]
 
-There is exactly one path of length 3 between Cambridge RLS and Canterbury, via Cambridge RLS--(-31.3 4/27)-->NMH--(54.79 5/5)-->Hopkins--(83.5 5/11)-->Canterbury [Cambridge RLS net +106.99]
-It favors Cambridge RLS by a cumulative margin of 106.99 seconds
+There are 32 paths of length 3 between Cambridge RLS and Canterbury
+All of them favor Cambridge RLS
+From most recent to least recent:
+Cambridge RLS--(-16.62 4/30)-->Choate--(6.13 5/4)-->Hopkins--(106.0 5/4)-->Canterbury [Cambridge RLS net +95.51]
+Cambridge RLS--(-16.62 4/30)-->Choate--(18.0 5/4)-->Taft--(97.0 5/4)-->Canterbury [Cambridge RLS net +98.38]
+Cambridge RLS--(-16.62 4/30)-->Choate--(7.54 5/4)-->NMH--(108.0 5/4)-->Canterbury [Cambridge RLS net +98.92]
+Cambridge RLS--(-16.62 4/30)-->Choate--(6.13 5/4)-->Hopkins--(122.2 5/10)-->Canterbury [Cambridge RLS net +111.71]
+Cambridge RLS--(-15.58 4/30)-->Winsor--(31.8 5/10)-->Taft--(97.0 5/4)-->Canterbury [Cambridge RLS net +113.22]
+Cambridge RLS--(10.6 4/26)-->NMH--(-1.41 5/4)-->Hopkins--(106.0 5/4)-->Canterbury [Cambridge RLS net +115.19]
+Cambridge RLS--(10.6 4/26)-->NMH--(10.46 5/4)-->Taft--(97.0 5/4)-->Canterbury [Cambridge RLS net +118.06]
+Cambridge RLS--(0.9 4/26)-->Brooks--(9.7 4/26)-->NMH--(108.0 5/4)-->Canterbury [Cambridge RLS net +118.6]
+Cambridge RLS--(10.6 4/26)-->NMH--(33.0 5/4)-->Lyme/Old Lyme--(75.0 5/4)-->Canterbury [Cambridge RLS net +118.6]
+Cambridge RLS--(23.5 4/26)-->Middlesex--(-12.9 4/26)-->NMH--(108.0 5/4)-->Canterbury [Cambridge RLS net +118.6]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(-25.6 4/26)-->NMH--(108.0 5/4)-->Canterbury [Cambridge RLS net +118.6]
+Cambridge RLS--(10.6 4/26)-->NMH--(-1.41 5/4)-->Hopkins--(122.2 5/10)-->Canterbury [Cambridge RLS net +131.39]
+Cambridge RLS--(-15.58 4/30)-->Winsor--(52.11 4/26)-->Greenwich Academy--(99.0 5/10)-->Canterbury [Cambridge RLS net +135.53]
+Cambridge RLS--(6.53 5/3)-->Groton--(35.5 4/26)-->Taft--(97.0 5/4)-->Canterbury [Cambridge RLS net +139.03]
+Cambridge RLS--(0.9 4/26)-->Brooks--(35.3 4/26)-->Hopkins--(106.0 5/4)-->Canterbury [Cambridge RLS net +142.2]
+Cambridge RLS--(10.6 4/26)-->NMH--(25.6 4/26)-->Hopkins--(106.0 5/4)-->Canterbury [Cambridge RLS net +142.2]
+Cambridge RLS--(23.5 4/26)-->Middlesex--(12.7 4/26)-->Hopkins--(106.0 5/4)-->Canterbury [Cambridge RLS net +142.2]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(31.0 5/4)-->Lyme/Old Lyme--(75.0 5/4)-->Canterbury [Cambridge RLS net +142.2]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(11.87 5/4)-->Taft--(97.0 5/4)-->Canterbury [Cambridge RLS net +145.07]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(1.41 5/4)-->NMH--(108.0 5/4)-->Canterbury [Cambridge RLS net +145.61]
+Cambridge RLS--(0.9 4/26)-->Brooks--(35.3 4/26)-->Hopkins--(122.2 5/10)-->Canterbury [Cambridge RLS net +158.4]
+Cambridge RLS--(10.6 4/26)-->NMH--(25.6 4/26)-->Hopkins--(122.2 5/10)-->Canterbury [Cambridge RLS net +158.4]
+Cambridge RLS--(23.5 4/26)-->Middlesex--(12.7 4/26)-->Hopkins--(122.2 5/10)-->Canterbury [Cambridge RLS net +158.4]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(-7.5 5/10)-->Berkshire Academy--(129.7 5/10)-->Canterbury [Cambridge RLS net +158.4]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(23.2 5/10)-->Greenwich Academy--(99.0 5/10)-->Canterbury [Cambridge RLS net +158.4]
+Cambridge RLS--(10.6 4/26)-->NMH--(-16.0 4/19)-->Hopkins--(106.0 5/4)-->Canterbury [Cambridge RLS net +100.6]
+Cambridge RLS--(-16.62 4/30)-->Choate--(24.6 4/19)-->Taft--(97.0 5/4)-->Canterbury [Cambridge RLS net +104.98]
+Cambridge RLS--(10.6 4/26)-->NMH--(-16.0 4/19)-->Hopkins--(122.2 5/10)-->Canterbury [Cambridge RLS net +116.8]
+Cambridge RLS--(-16.62 4/30)-->Choate--(19.5 4/19)-->Berkshire Academy--(129.7 5/10)-->Canterbury [Cambridge RLS net +132.58]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(16.0 4/19)-->NMH--(108.0 5/4)-->Canterbury [Cambridge RLS net +160.2]
+Cambridge RLS--(10.8 4/16)-->BB&N--(14.7 5/10)-->Taft--(97.0 5/4)-->Canterbury [Cambridge RLS net +122.5]
+Cambridge RLS--(10.8 4/16)-->BB&N--(25.78 4/26)-->Greenwich Academy--(99.0 5/10)-->Canterbury [Cambridge RLS net +135.58]

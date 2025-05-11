@@ -1,16 +1,39 @@
-Canterbury and NMH have never raced head to head
+Canterbury and NMH have raced head to head once on 2025-05-04
+NMH won the race by 108.0 seconds
 
-There is exactly one path of length 2 between Canterbury and NMH, via Canterbury--(-83.5 5/11)-->Hopkins--(-54.79 5/5)-->NMH [NMH net +138.29]
-It favors NMH by a cumulative margin of 138.29 seconds
-
-There are 8 paths of length 3 between Canterbury and NMH
+There are 5 paths of length 2 between Canterbury and NMH
 All of them favor NMH
 From most recent to least recent:
-Canterbury--(-83.5 5/11)-->Hopkins--(-60.2 5/18)-->Nobles--(37.5 5/11)-->NMH [NMH net +106.2]
-Canterbury--(-117.0 5/11)-->Berkshire Academy--(33.5 5/11)-->Hopkins--(-54.79 5/5)-->NMH [NMH net +138.29]
-Canterbury--(-83.5 5/11)-->Hopkins--(-51.16 5/5)-->Choate--(-3.63 5/5)-->NMH [NMH net +138.29]
-Canterbury--(-71.2 5/11)-->Lyme/Old Lyme--(-12.3 5/11)-->Hopkins--(-54.79 5/5)-->NMH [NMH net +138.29]
-Canterbury--(-71.2 5/11)-->Lyme/Old Lyme--(-39.26 5/5)-->Choate--(-3.63 5/5)-->NMH [NMH net +114.09]
-Canterbury--(-83.5 5/11)-->Hopkins--(-17.9 5/18)-->Pomfret--(-32.2 4/20)-->NMH [NMH net +133.6]
-Canterbury--(-83.5 5/11)-->Hopkins--(-51.16 5/5)-->Choate--(5.5 4/13)-->NMH [NMH net +129.16]
-Canterbury--(-71.2 5/11)-->Lyme/Old Lyme--(-39.26 5/5)-->Choate--(5.5 4/13)-->NMH [NMH net +104.96]
+Canterbury--(-122.2 5/10)-->Hopkins--(1.41 5/4)-->NMH [NMH net +120.79]
+Canterbury--(-122.2 5/10)-->Hopkins--(-25.6 4/26)-->NMH [NMH net +147.8]
+Canterbury--(-106.0 5/4)-->Hopkins--(-25.6 4/26)-->NMH [NMH net +131.6]
+Canterbury--(-122.2 5/10)-->Hopkins--(16.0 4/19)-->NMH [NMH net +106.2]
+Canterbury--(-106.0 5/4)-->Hopkins--(16.0 4/19)-->NMH [NMH net +90.0]
+
+There are 24 paths of length 3 between Canterbury and NMH
+All of them favor NMH
+From most recent to least recent:
+Canterbury--(-122.2 5/10)-->Hopkins--(31.0 5/4)-->Lyme/Old Lyme--(-33.0 5/4)-->NMH [NMH net +124.2]
+Canterbury--(-129.7 5/10)-->Berkshire Academy--(7.5 5/10)-->Hopkins--(1.41 5/4)-->NMH [NMH net +120.79]
+Canterbury--(-122.2 5/10)-->Hopkins--(-6.13 5/4)-->Choate--(7.54 5/4)-->NMH [NMH net +120.79]
+Canterbury--(-122.2 5/10)-->Hopkins--(5.76 5/4)-->Hotchkiss--(-4.35 5/4)-->NMH [NMH net +120.79]
+Canterbury--(-122.2 5/10)-->Hopkins--(11.87 5/4)-->Taft--(-10.46 5/4)-->NMH [NMH net +120.79]
+Canterbury--(-99.0 5/10)-->Greenwich Academy--(-23.2 5/10)-->Hopkins--(1.41 5/4)-->NMH [NMH net +120.79]
+Canterbury--(-129.7 5/10)-->Berkshire Academy--(7.5 5/10)-->Hopkins--(-25.6 4/26)-->NMH [NMH net +147.8]
+Canterbury--(-122.2 5/10)-->Hopkins--(-36.2 4/26)-->Cambridge RLS--(10.6 4/26)-->NMH [NMH net +147.8]
+Canterbury--(-122.2 5/10)-->Hopkins--(-35.3 4/26)-->Brooks--(9.7 4/26)-->NMH [NMH net +147.8]
+Canterbury--(-122.2 5/10)-->Hopkins--(-12.7 4/26)-->Middlesex--(-12.9 4/26)-->NMH [NMH net +147.8]
+Canterbury--(-99.0 5/10)-->Greenwich Academy--(-23.2 5/10)-->Hopkins--(-25.6 4/26)-->NMH [NMH net +147.8]
+Canterbury--(-97.0 5/4)-->Taft--(-11.87 5/4)-->Hopkins--(-25.6 4/26)-->NMH [NMH net +134.47]
+Canterbury--(-106.0 5/4)-->Hopkins--(-36.2 4/26)-->Cambridge RLS--(10.6 4/26)-->NMH [NMH net +131.6]
+Canterbury--(-106.0 5/4)-->Hopkins--(-35.3 4/26)-->Brooks--(9.7 4/26)-->NMH [NMH net +131.6]
+Canterbury--(-106.0 5/4)-->Hopkins--(-12.7 4/26)-->Middlesex--(-12.9 4/26)-->NMH [NMH net +131.6]
+Canterbury--(-75.0 5/4)-->Lyme/Old Lyme--(-31.0 5/4)-->Hopkins--(-25.6 4/26)-->NMH [NMH net +131.6]
+Canterbury--(-129.7 5/10)-->Berkshire Academy--(-19.5 4/19)-->Choate--(7.54 5/4)-->NMH [NMH net +141.66]
+Canterbury--(-129.7 5/10)-->Berkshire Academy--(5.2 4/19)-->Taft--(-10.46 5/4)-->NMH [NMH net +134.96]
+Canterbury--(-97.0 5/4)-->Taft--(-24.6 4/19)-->Choate--(7.54 5/4)-->NMH [NMH net +114.06]
+Canterbury--(-129.7 5/10)-->Berkshire Academy--(7.5 5/10)-->Hopkins--(16.0 4/19)-->NMH [NMH net +106.2]
+Canterbury--(-99.0 5/10)-->Greenwich Academy--(-23.2 5/10)-->Hopkins--(16.0 4/19)-->NMH [NMH net +106.2]
+Canterbury--(-97.0 5/4)-->Taft--(-11.87 5/4)-->Hopkins--(16.0 4/19)-->NMH [NMH net +92.87]
+Canterbury--(-75.0 5/4)-->Lyme/Old Lyme--(-31.0 5/4)-->Hopkins--(16.0 4/19)-->NMH [NMH net +90.0]
+Canterbury--(-129.7 5/10)-->Berkshire Academy--(-16.7 4/16)-->Hotchkiss--(-4.35 5/4)-->NMH [NMH net +150.75]
