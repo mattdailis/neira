@@ -1,8 +1,8 @@
-{'Nobles', 'Brooks', "Miss Porter's"}
+{'Nobles', "Miss Porter's", 'Brooks'}
 {'NMH', 'Winsor'}
-Cycle detected: {'Groton', 'Taft', 'Cambridge RLS', 'Berkshire Academy', 'Suffield', 'Choate', 'Hopkins', 'Hotchkiss', 'Greenwich Academy', 'Lyme/Old Lyme', 'Middlesex', 'BB&N'}
+Cycle detected: {'Cambridge RLS', 'Berkshire Academy', 'Groton', 'Greenwich Academy', 'Middlesex', 'Hopkins', 'Taft', 'Lyme/Old Lyme', 'Suffield', 'BB&N', 'Hotchkiss', 'Choate'}
 {"St. Mark's"}
-{'Frederick Gunn', 'Newton Country Day'}
-{'Sacred Heart', 'Pomfret'}
-{"St. Mary's-Lynn", 'Greenwich Country Day'}
-{'Canterbury', 'Dexter-Southfield', 'Derryfield', 'Middletown', 'Valley Regional', 'Pingree'}
+{'Newton Country Day', 'Frederick Gunn'}
+{'Pomfret', 'Sacred Heart'}
+{'Greenwich Country Day', "St. Mary's-Lynn"}
+{'Pingree', 'Canterbury', 'Middletown', 'Dexter-Southfield', 'Valley Regional', 'Derryfield'}

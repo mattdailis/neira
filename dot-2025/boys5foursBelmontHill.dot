@@ -1,4 +1,4 @@
-digraph boys5foursBelmontHill {Nobles [URL="boys5foursBelmontHillNobles.html"];BelmontHill [URL="boys5foursBelmontHillBelmontHill.html"];BBN [URL="boys5foursBelmontHillBBN.html"];Hopkins [URL="boys5foursBelmontHillHopkins.html"];BelmontHill -> Nobles[label="15.4 (17.77)
+digraph boys5foursBelmontHill {Nobles [URL="boys5foursNobles.html"];Hopkins [URL="boys5foursHopkins.html"];BelmontHill [URL="boys5foursBelmontHill.html"];BBN [URL="boys5foursBBN.html"];BelmontHill -> Nobles[label="15.4 (17.77)
 05/04", weight="85", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: Order of racing: 4V4-3V4-2V4-1V4-4V8-6V4-9V4-5V4. Building direct headwind for the first three races, strongest for the 2V4; the wind then lessened and shifted to a cross/cross headwind for the 1V4 and remaining races Comments: Thanks to Nobles for being patient and supportive through yesterday's weather-related postponement and for a great day of racing with our full programs today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=96DF6AF2C5DADCD1EB91A4088A314B11&cat=1", random="random"]; 
