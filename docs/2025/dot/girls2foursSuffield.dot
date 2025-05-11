@@ -1,4 +1,4 @@
-digraph girls2foursSuffield {Pomfret [URL="girls2foursPomfret.html"];FrederickGunn [URL="girls2foursFrederickGunn.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];Canterbury [URL="girls2foursCanterbury.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Hopkins [URL="girls2foursHopkins.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];Suffield [URL="girls2foursSuffield.html"];Choate [URL="girls2foursChoate.html"];Suffield -> LymeOldLyme[label="1.87
+digraph girls2foursSuffield {Hopkins [URL="girls2foursHopkins.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Suffield [URL="girls2foursSuffield.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];FrederickGunn [URL="girls2foursFrederickGunn.html"];Pomfret [URL="girls2foursPomfret.html"];Choate [URL="girls2foursChoate.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];Canterbury [URL="girls2foursCanterbury.html"];Suffield -> LymeOldLyme[label="1.87
 05/04", weight="99", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 Suffield -> Hopkins[label="3.97

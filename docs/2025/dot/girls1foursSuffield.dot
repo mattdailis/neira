@@ -1,4 +1,4 @@
-digraph girls1foursSuffield {MarianapolisPrep [URL="girls1foursMarianapolisPrep.html"];Suffield [URL="girls1foursSuffield.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];Suffield -> WorcesterAcademy[label="1.5
+digraph girls1foursSuffield {WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];MarianapolisPrep [URL="girls1foursMarianapolisPrep.html"];Suffield [URL="girls1foursSuffield.html"];Suffield -> WorcesterAcademy[label="1.5
 04/30", weight="99", tooltip="NEIRA Girls , Worcester Academy vs. Suffield Academy, Marianapolis			
 Distance: 1500 meters Conditions: Moderate tailwind, slight chop throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3E2795D2BE91D9DEA1F8805FF62566D7&cat=1", random="random"]; 

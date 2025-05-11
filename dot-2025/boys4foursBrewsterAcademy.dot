@@ -1,4 +1,4 @@
-digraph boys4foursBrewsterAcademy {Hotchkiss [URL="boys4foursHotchkiss.html"];BerkshireAcademy [URL="boys4foursBerkshireAcademy.html"];BrewsterAcademy [URL="boys4foursBrewsterAcademy.html"];Taft [URL="boys4foursTaft.html"];Taft -> BrewsterAcademy[label="12.17
+digraph boys4foursBrewsterAcademy {Hotchkiss [URL="boys4foursHotchkiss.html"];Taft [URL="boys4foursTaft.html"];BerkshireAcademy [URL="boys4foursBerkshireAcademy.html"];BrewsterAcademy [URL="boys4foursBrewsterAcademy.html"];Taft -> BrewsterAcademy[label="12.17
 05/04", weight="88", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 
 BrewsterAcademy -> BerkshireAcademy[label="30.42

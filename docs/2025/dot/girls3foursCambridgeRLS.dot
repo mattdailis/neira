@@ -1,4 +1,4 @@
-digraph girls3foursCambridgeRLS {NMH [URL="girls3foursNMH.html"];CambridgeRLS [URL="girls3foursCambridgeRLS.html"];Winsor [URL="girls3foursWinsor.html"];Groton [URL="girls3foursGroton.html"];Middlesex [URL="girls3foursMiddlesex.html"];Hopkins [URL="girls3foursHopkins.html"];BBN [URL="girls3foursBBN.html"];Choate [URL="girls3foursChoate.html"];Brooks [URL="girls3foursBrooks.html"];CambridgeRLS -> BBN[label="20.0 (24.0)
+digraph girls3foursCambridgeRLS {Hopkins [URL="girls3foursHopkins.html"];Middlesex [URL="girls3foursMiddlesex.html"];Winsor [URL="girls3foursWinsor.html"];Brooks [URL="girls3foursBrooks.html"];Choate [URL="girls3foursChoate.html"];NMH [URL="girls3foursNMH.html"];CambridgeRLS [URL="girls3foursCambridgeRLS.html"];Groton [URL="girls3foursGroton.html"];BBN [URL="girls3foursBBN.html"];CambridgeRLS -> BBN[label="20.0 (24.0)
 04/16", weight="80", tooltip="NEIRA Girls Fours, Cambridge Mayor's Cup: BB&N vs. CRLS			
 Distance: 1250m Conditions: Brisk 15-20mph crosswind, swirling and gusting, increasing throughout races. Race order 5-4-3-2-1. 
 Water mostly ok until significant chop in the middle of the 1V race. 
