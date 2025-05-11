@@ -1,115 +1,135 @@
 <map id="girls5fours" name="girls5fours">
-<area shape="poly" id="node1" href="girls5foursGroton.html" title="Groton" alt="" coords="104,169,102,162,95,155,84,150,70,147,55,145,39,147,26,150,15,155,8,162,5,169,8,177,15,183,26,189,39,192,55,193,70,192,84,189,95,183,102,177"/>
-<area shape="poly" id="node2" href="girls5foursNMH.html" title="NMH" alt="" coords="836,589,834,582,828,575,818,570,806,567,792,565,778,567,766,570,757,575,750,582,748,589,750,597,757,603,766,609,778,612,792,613,806,612,818,609,828,603,834,597"/>
-<area shape="poly" id="node3" href="girls5foursMiddlesex.html" title="Middlesex" alt="" coords="839,169,836,162,826,155,811,150,793,147,772,145,751,147,733,150,718,155,708,162,705,169,708,177,718,183,733,189,751,192,772,193,793,192,811,189,826,183,836,177"/>
-<area shape="poly" id="node11" href="girls5foursBrooks.html" title="Brooks" alt="" coords="702,309,700,302,693,295,681,290,667,287,652,285,637,287,623,290,612,295,604,302,602,309,604,317,612,323,623,329,637,332,652,333,667,332,681,329,693,323,700,317"/>
-<area shape="poly" id="edge8" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
-Distance: 1500 Conditions: Occasional rain and 10&#45;12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5&#45;1&#45;2&#45;3&#45;4 Comments: Girls second boat event was a dead heat for 1st &#45; even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5&#45;lane floating start.
-None" alt="" coords="744,193,714,219,674,275,670,271,710,216,740,189"/>
-<area shape="rect" id="edge8-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="1.0
-04/26" alt="" coords="712,217,753,261"/>
-<area shape="poly" id="node12" href="girls5foursHopkins.html" title="Hopkins" alt="" coords="848,449,845,442,837,435,825,430,809,427,792,425,775,427,759,430,747,435,739,442,736,449,739,457,747,463,759,469,775,472,792,473,809,472,825,469,837,463,845,457"/>
-<area shape="poly" id="edge9" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
-Distance: 1500 Conditions: Occasional rain and 10&#45;12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5&#45;1&#45;2&#45;3&#45;4 Comments: Girls second boat event was a dead heat for 1st &#45; even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5&#45;lane floating start.
-None" alt="" coords="776,194,792,409,787,410,771,194"/>
-<area shape="rect" id="edge9-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="55.0
-04/26" alt="" coords="784,287,825,331"/>
-<area shape="poly" id="node4" href="girls5foursLymeOldLyme.html" title="LymeOldLyme" alt="" coords="1021,309,1017,302,1004,295,983,290,958,287,929,285,901,287,875,290,855,295,842,302,838,309,842,317,855,323,875,329,901,332,929,333,958,332,983,329,1004,323,1017,317"/>
-<area shape="poly" id="node5" href="girls5foursCanterbury.html" title="Canterbury" alt="" coords="999,589,996,582,986,575,970,570,951,567,929,565,908,567,888,570,873,575,863,582,860,589,863,597,873,603,888,609,908,612,929,613,951,612,970,609,986,603,996,597"/>
+<area shape="poly" id="node1" href="girls5foursNMH.html" title="NMH" alt="" coords="278,1009,276,1002,270,995,260,990,248,987,234,985,221,987,209,990,199,995,193,1002,190,1009,193,1017,199,1023,209,1029,221,1032,234,1033,248,1032,260,1029,270,1023,276,1017"/>
+<area shape="poly" id="node2" href="girls5foursTaft.html" title="Taft" alt="" coords="873,729,871,722,866,715,858,710,848,707,837,705,826,707,816,710,808,715,803,722,801,729,803,737,808,743,816,749,826,752,837,753,848,752,858,749,866,743,871,737"/>
+<area shape="poly" id="node3" href="girls5foursLymeOldLyme.html" title="LymeOldLyme" alt="" coords="189,729,184,722,171,715,151,710,125,707,97,705,69,707,43,710,23,715,10,722,5,729,10,737,23,743,43,749,69,752,97,753,125,752,151,749,171,743,184,737"/>
+<area shape="poly" id="node5" href="girls5foursCanterbury.html" title="Canterbury" alt="" coords="167,1009,163,1002,154,995,138,990,119,987,97,985,75,987,56,990,41,995,31,1002,27,1009,31,1017,41,1023,56,1029,75,1032,97,1033,119,1032,138,1029,154,1023,163,1017"/>
 <area shape="poly" id="edge16" href="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&amp;cat=5" title="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme&#45;Old Lyme			
 Distance: 1500 M Conditions: 10&#45;15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
 G4: Berkshire and Greenwich each hotseated rowers from G3; 
 G5: all novice boats
 B5: all novice boats
-None" alt="" coords="932,334,932,550,927,550,927,334"/>
+None" alt="" coords="100,754,100,970,94,970,94,754"/>
 <area shape="rect" id="edge16-label" href="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&amp;cat=5" title="42.5
-05/10" alt="" coords="929,427,970,471"/>
+05/10" alt="" coords="97,847,138,891"/>
+<area shape="poly" id="node11" href="girls5foursHopkins.html" title="Hopkins" alt="" coords="291,869,288,862,280,855,267,850,252,847,234,845,217,847,201,850,189,855,181,862,178,869,181,877,189,883,201,889,217,892,234,893,252,892,267,889,280,883,288,877"/>
 <area shape="poly" id="edge15" href="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&amp;cat=5" title="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme&#45;Old Lyme			
 Distance: 1500 M Conditions: 10&#45;15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
 G4: Berkshire and Greenwich each hotseated rowers from G3; 
 G5: all novice boats
 B5: all novice boats
-None" alt="" coords="901,334,872,359,820,416,816,413,868,355,898,330"/>
+None" alt="" coords="121,751,204,834,201,838,117,755"/>
 <area shape="rect" id="edge15-label" href="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&amp;cat=5" title="10.2
-05/10" alt="" coords="870,357,911,401"/>
-<area shape="poly" id="node6" href="girls5foursStMarks.html" title="StMarks" alt="" coords="489,729,486,722,478,715,465,710,450,707,432,705,414,707,399,710,386,715,378,722,375,729,378,737,386,743,399,749,414,752,432,753,450,752,465,749,478,743,486,737"/>
-<area shape="poly" id="node7" href="girls5foursTaft.html" title="Taft" alt="" coords="468,869,466,862,461,855,453,850,443,847,432,845,421,847,411,850,403,855,398,862,396,869,398,877,403,883,411,889,421,892,432,893,443,892,453,889,461,883,466,877"/>
-<area shape="poly" id="edge28" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
-Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
-G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
-G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
-G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
-Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
-None" alt="" coords="435,754,435,830,429,830,429,754"/>
-<area shape="rect" id="edge28-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="33.1
-05/10" alt="" coords="432,777,473,821"/>
-<area shape="poly" id="node8" href="girls5foursMissPorters.html" title="MissPorters" alt="" coords="611,589,608,582,597,575,581,570,560,567,537,565,515,567,494,570,478,575,467,582,463,589,467,597,478,603,494,609,515,612,537,613,560,612,581,609,597,603,608,597"/>
-<area shape="poly" id="edge24" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
-Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
-G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
-G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
-G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
-Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
-None" alt="" coords="507,614,480,639,462,665,448,693,444,690,458,662,476,636,504,610"/>
-<area shape="rect" id="edge24-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="17.3
-05/10" alt="" coords="478,637,519,681"/>
+05/10" alt="" coords="186,777,227,821"/>
+<area shape="poly" id="node4" href="girls5foursMiddlesex.html" title="Middlesex" alt="" coords="461,589,458,582,449,575,434,570,415,567,394,565,374,567,355,570,340,575,331,582,327,589,331,597,340,603,355,609,374,612,394,613,415,612,434,609,449,603,458,597"/>
+<area shape="poly" id="edge9" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
+Distance: 1500 Conditions: Occasional rain and 10&#45;12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5&#45;1&#45;2&#45;3&#45;4 Comments: Girls second boat event was a dead heat for 1st &#45; even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5&#45;lane floating start.
+None" alt="" coords="392,614,381,657,363,711,336,769,300,823,280,842,276,838,296,820,332,767,358,709,376,655,387,613"/>
+<area shape="rect" id="edge9-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="55.0
+04/26" alt="" coords="362,707,403,751"/>
+<area shape="poly" id="node14" href="girls5foursBrooks.html" title="Brooks" alt="" coords="312,729,310,722,303,715,292,710,278,707,262,705,247,707,233,710,222,715,215,722,212,729,215,737,222,743,233,749,247,752,262,753,278,752,292,749,303,743,310,737"/>
+<area shape="poly" id="edge8" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
+Distance: 1500 Conditions: Occasional rain and 10&#45;12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5&#45;1&#45;2&#45;3&#45;4 Comments: Girls second boat event was a dead heat for 1st &#45; even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5&#45;lane floating start.
+None" alt="" coords="363,613,330,639,306,666,286,694,282,691,302,663,326,635,360,609"/>
+<area shape="rect" id="edge8-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="1.0
+04/26" alt="" coords="328,637,369,681"/>
+<area shape="poly" id="node6" href="girls5foursMissPorters.html" title="MissPorters" alt="" coords="806,449,802,442,791,435,775,430,755,427,732,425,709,427,688,430,672,435,661,442,658,449,661,457,672,463,688,469,709,472,732,473,755,472,775,469,791,463,802,457"/>
 <area shape="poly" id="edge25" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
 Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
 G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
 G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
 G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
 Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
-None" alt="" coords="539,614,534,655,524,709,507,767,481,823,467,841,463,838,476,820,502,766,519,708,529,655,533,613"/>
+None" alt="" coords="759,470,781,496,805,545,821,598,831,648,837,690,832,690,826,649,816,599,800,547,776,499,755,474"/>
 <area shape="rect" id="edge25-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="50.4
-05/10" alt="" coords="522,707,563,751"/>
-<area shape="poly" id="node14" href="girls5foursWinsor.html" title="Winsor" alt="" coords="527,309,524,302,517,295,506,290,492,287,476,285,460,287,446,290,435,295,428,302,425,309,428,317,435,323,446,329,460,332,476,333,492,332,506,329,517,323,524,317"/>
+05/10" alt="" coords="822,567,863,611"/>
+<area shape="poly" id="node10" href="girls5foursStMarks.html" title="StMarks" alt="" coords="789,589,786,582,778,575,765,570,749,567,732,565,714,567,698,570,686,575,678,582,675,589,678,597,686,603,698,609,714,612,732,613,749,612,765,609,778,603,786,597"/>
+<area shape="poly" id="edge24" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
+Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
+G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
+G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
+G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
+Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
+None" alt="" coords="734,474,734,550,729,550,729,474"/>
+<area shape="rect" id="edge24-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="17.3
+05/10" alt="" coords="732,497,773,541"/>
+<area shape="poly" id="node13" href="girls5foursWinsor.html" title="Winsor" alt="" coords="722,169,720,162,713,155,701,150,687,147,672,145,656,147,642,150,631,155,623,162,621,169,623,177,631,183,642,189,656,192,672,193,687,192,701,189,713,183,720,177"/>
 <area shape="poly" id="edge23" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
 Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
 G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
 G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
 G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
 Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
-None" alt="" coords="537,565,538,525,537,472,529,414,512,358,505,345,510,343,517,356,534,413,542,472,544,525,542,565"/>
+None" alt="" coords="705,428,688,402,672,352,665,299,663,250,665,209,670,209,669,250,670,299,678,351,693,400,710,425"/>
 <area shape="rect" id="edge23-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="0.8
-05/10" alt="" coords="539,427,580,471"/>
-<area shape="poly" id="node9" href="girls5foursBBN.html" title="BBN" alt="" coords="404,449,402,442,396,435,387,430,376,427,364,425,352,427,341,430,332,435,326,442,324,449,326,457,332,463,341,469,352,472,364,473,376,472,387,469,396,463,402,457"/>
-<area shape="poly" id="edge21" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
-Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
-G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
-G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
-G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
-Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
-None" alt="" coords="372,473,425,690,420,691,367,474"/>
-<area shape="rect" id="edge21-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="25.8
-05/10" alt="" coords="404,567,445,611"/>
+05/10" alt="" coords="671,287,712,331"/>
+<area shape="poly" id="node7" href="girls5foursChoate.html" title="Choate" alt="" coords="421,29,419,22,412,15,401,10,387,7,372,5,356,7,343,10,332,15,325,22,322,29,325,37,332,43,343,49,356,52,372,53,387,52,401,49,412,43,419,37"/>
+<area shape="poly" id="edge14" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge &amp; Latin School (CRLS)			
+Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
+Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting&#45;&#45;CRLS: 5:15.71 Choate: 5:52.01.
+None" alt="" coords="408,44,623,143,621,148,406,49"/>
+<area shape="rect" id="edge14-label" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="7.6 (8.77)
+04/30" alt="" coords="566,77,638,121"/>
+<area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=2BB05E7EC137B8057B4AC49769B62E55&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs.Belmont Hill, Choate and Groton			
+Distance: 1500m Conditions: Direct 10&#45;15 mph tailwind increasing to 20 mph throughout the afternoon. Significant chop in the last 1000m. Race order was 5&#45;4&#45;3&#45;2&#45;1 Comments: The girls 2nd boat event was run as planned between Brooks, Choate and Groton. Following the day of racing, after a complaint was lodged, the coaches and race officials reached consensus that a clash of blades between Choate and Groton in the first 20 strokes of the race should in retrospect have warranted a re&#45;start of the race, and therefore the race results are deemed invalid for purposes of seeding and comparison. Accordingly, no results have been posted for this race. 
+Thank you to all coaches and teams for braving some choppy seas and racing well today.
+None" alt="" coords="332,46,290,64,249,90,231,106,216,125,207,145,204,168,204,591,207,618,215,645,240,693,235,695,210,648,202,620,198,591,198,168,202,144,212,122,227,102,245,86,288,59,330,41"/>
+<area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=2BB05E7EC137B8057B4AC49769B62E55&amp;cat=5" title="5.6
+05/10" alt="" coords="201,357,242,401"/>
+<area shape="poly" id="node8" href="girls5foursCambridgeRLS.html" title="CambridgeRLS" alt="" coords="573,449,569,442,556,435,535,430,510,427,481,425,452,427,427,430,406,435,393,442,389,449,393,457,406,463,427,469,452,472,481,473,510,472,535,469,556,463,569,457"/>
+<area shape="poly" id="edge5" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
+Distance: 1500 Conditions: Occasional rain and 10&#45;12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5&#45;1&#45;2&#45;3&#45;4 Comments: Girls second boat event was a dead heat for 1st &#45; even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5&#45;lane floating start.
+None" alt="" coords="429,471,412,483,398,499,390,524,389,550,384,550,385,523,394,496,408,479,426,467"/>
+<area shape="rect" id="edge5-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="27.0
+04/26" alt="" coords="396,497,437,541"/>
+<area shape="poly" id="edge12" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge &amp; Latin School (CRLS)			
+Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
+Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting&#45;&#45;CRLS: 5:15.71 Choate: 5:52.01.
+None" alt="" coords="471,426,422,262,377,69,382,68,427,261,476,424"/>
+<area shape="rect" id="edge12-label" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="10.8 (12.46)
+04/30" alt="" coords="424,217,514,261"/>
+<area shape="poly" id="edge7" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
+Distance: 1500 Conditions: Occasional rain and 10&#45;12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5&#45;1&#45;2&#45;3&#45;4 Comments: Girls second boat event was a dead heat for 1st &#45; even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5&#45;lane floating start.
+None" alt="" coords="482,474,481,497,480,556,476,614,464,656,452,689,435,719,410,755,375,794,333,824,289,848,286,843,330,819,372,790,406,752,431,716,447,687,459,655,470,613,475,555,476,497,477,474"/>
+<area shape="rect" id="edge7-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="82.0
+04/26" alt="" coords="467,637,508,681"/>
+<area shape="poly" id="node12" href="girls5foursGroton.html" title="Groton" alt="" coords="634,589,632,582,625,575,614,570,600,567,585,565,570,567,556,570,545,575,538,582,536,589,538,597,545,603,556,609,570,612,585,613,600,612,614,609,625,603,632,597"/>
+<area shape="poly" id="edge4" href="https://www.row2k.com/results/resultspage.cfm?UID=FF45AC48CF863069B998EA93AF28A674&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,CRLS at Groton			
+Distance: 1240 m Conditions: A tail wind was significant in the first races, by the time o the first boats, n0 wind at all. Very little current; the river is very low.We finished the last race just before thunder and lightning began. Minimal rain. Comments: Racing order:
+G5, B5, G4, B4, G2, B2, G3, B3, G1, B1
+Good competition. Good fun.
+None" alt="" coords="484,473,489,507,504,540,517,554,534,565,531,569,514,558,499,543,484,508,479,474"/>
+<area shape="rect" id="edge4-label" href="https://www.row2k.com/results/resultspage.cfm?UID=FF45AC48CF863069B998EA93AF28A674&amp;cat=5" title="22.7 (27.46)
+05/03" alt="" coords="502,497,592,541"/>
+<area shape="poly" id="edge13" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge &amp; Latin School (CRLS)			
+Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
+Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting&#45;&#45;CRLS: 5:15.71 Choate: 5:52.01.
+None" alt="" coords="476,425,477,359,484,320,499,284,523,252,553,226,586,205,617,189,620,194,589,210,557,230,527,256,504,287,489,322,482,360,481,425"/>
+<area shape="rect" id="edge13-label" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="18.4 (21.23)
+04/30" alt="" coords="502,287,592,331"/>
+<area shape="poly" id="edge6" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
+Distance: 1500 Conditions: Occasional rain and 10&#45;12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5&#45;1&#45;2&#45;3&#45;4 Comments: Girls second boat event was a dead heat for 1st &#45; even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5&#45;lane floating start.
+None" alt="" coords="418,470,380,485,341,505,305,532,277,567,264,597,258,629,259,690,253,690,253,628,259,595,272,564,301,529,338,501,378,480,416,465"/>
+<area shape="rect" id="edge6-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="28.0
+04/26" alt="" coords="275,567,316,611"/>
+<area shape="poly" id="node9" href="girls5foursBBN.html" title="BBN" alt="" coords="867,309,866,302,860,295,851,290,840,287,828,285,815,287,804,290,795,295,790,302,788,309,790,317,795,323,804,329,815,332,828,333,840,332,851,329,860,323,866,317"/>
 <area shape="poly" id="edge22" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
 Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
 G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
 G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
 G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
 Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
-None" alt="" coords="362,474,355,525,350,595,352,674,357,714,365,753,384,797,408,834,404,837,379,799,360,754,352,715,346,674,345,595,350,525,357,473"/>
+None" alt="" coords="852,328,874,356,888,389,894,425,897,462,897,500,887,574,871,640,854,692,849,691,866,639,882,573,891,500,892,462,889,426,883,391,869,359,848,332"/>
 <area shape="rect" id="edge22-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="58.9
-05/10" alt="" coords="350,637,391,681"/>
+05/10" alt="" coords="894,497,935,541"/>
 <area shape="poly" id="edge19" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
 Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
 G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
 G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
 G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
 Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
-None" alt="" coords="389,467,479,539,500,555,496,559,476,543,385,471"/>
+None" alt="" coords="821,334,804,368,782,403,769,418,765,414,778,400,799,365,816,332"/>
 <area shape="rect" id="edge19-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="8.5
-05/10" alt="" coords="478,497,519,541"/>
-<area shape="poly" id="edge20" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
-Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
-G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
-G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
-G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
-Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
-None" alt="" coords="397,433,422,419,445,400,459,375,468,348,473,349,464,377,449,403,425,424,399,438"/>
-<area shape="rect" id="edge20-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="9.3
-05/10" alt="" coords="468,357,509,401"/>
-<area shape="poly" id="node15" href="girls5foursCambridgeRLS.html" title="CambridgeRLS" alt="" coords="368,29,364,22,351,15,330,10,305,7,276,5,247,7,222,10,201,15,188,22,184,29,188,37,201,43,222,49,247,52,276,53,305,52,330,49,351,43,364,37"/>
+05/10" alt="" coords="806,357,847,401"/>
 <area shape="poly" id="edge2" href="https://www.row2k.com/results/resultspage.cfm?UID=181E3474D2FC1C1BDC3CD092B1E1976C&amp;cat=1" title="NEIRA Girls Fours, Cambridge Mayor&#39;s Cup: BB&amp;N vs. CRLS			
 Distance: 1250m Conditions: Brisk 15&#45;20mph crosswind, swirling and gusting, increasing throughout races. Race order 5&#45;4&#45;3&#45;2&#45;1. 
 Water mostly ok until significant chop in the middle of the 1V race. 
@@ -119,106 +139,86 @@ Slight mutual blade clashing in the last 500m of the 5V race.
 BB&amp;N 2V broke their skeg during their warmup and hot&#45;seated into the 5V crew&#39;s shell.
 Congrats to all crews and especially the coxswains for getting lined up and navigating challenging wind conditions and river traffic.
 Thanks to BB&amp;N for great early&#45;season racing and flexibility in rescheduling to a weekday afternoon!
-None" alt="" coords="325,444,277,430,252,419,229,403,202,373,188,334,182,297,182,259,187,221,197,184,223,117,251,65,255,68,228,120,202,186,193,222,187,259,187,296,193,333,206,370,232,399,254,414,278,425,326,439"/>
+None" alt="" coords="794,324,754,339,713,360,686,382,675,393,658,404,616,421,572,434,571,429,614,416,656,399,672,389,683,378,710,355,752,334,792,319"/>
 <area shape="rect" id="edge2-label" href="https://www.row2k.com/results/resultspage.cfm?UID=181E3474D2FC1C1BDC3CD092B1E1976C&amp;cat=1" title="1.0 (1.2)
-04/16" alt="" coords="191,217,254,261"/>
-<area shape="poly" id="node10" href="girls5foursChoate.html" title="Choate" alt="" coords="540,169,538,162,531,155,520,150,506,147,491,145,475,147,462,150,451,155,444,162,441,169,444,177,451,183,462,189,475,192,491,193,506,192,520,189,531,183,538,177"/>
-<area shape="poly" id="edge1" href="https://www.row2k.com/results/resultspage.cfm?UID=2BB05E7EC137B8057B4AC49769B62E55&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs.Belmont Hill, Choate and Groton			
-Distance: 1500m Conditions: Direct 10&#45;15 mph tailwind increasing to 20 mph throughout the afternoon. Significant chop in the last 1000m. Race order was 5&#45;4&#45;3&#45;2&#45;1 Comments: The girls 2nd boat event was run as planned between Brooks, Choate and Groton. Following the day of racing, after a complaint was lodged, the coaches and race officials reached consensus that a clash of blades between Choate and Groton in the first 20 strokes of the race should in retrospect have warranted a re&#45;start of the race, and therefore the race results are deemed invalid for purposes of seeding and comparison. Accordingly, no results have been posted for this race. 
-Thank you to all coaches and teams for braving some choppy seas and racing well today.
-None" alt="" coords="520,188,551,216,567,238,582,259,609,280,606,285,578,263,562,241,547,219,516,192"/>
-<area shape="rect" id="edge1-label" href="https://www.row2k.com/results/resultspage.cfm?UID=2BB05E7EC137B8057B4AC49769B62E55&amp;cat=5" title="5.6
-05/10" alt="" coords="580,217,621,261"/>
-<area shape="poly" id="edge14" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge &amp; Latin School (CRLS)			
-Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
-Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting&#45;&#45;CRLS: 5:15.71 Choate: 5:52.01.
-None" alt="" coords="485,194,480,218,477,270,472,270,475,217,480,193"/>
-<area shape="rect" id="edge14-label" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="7.6 (8.77)
-04/30" alt="" coords="477,217,549,261"/>
-<area shape="poly" id="edge10" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
-Distance: 1500 Conditions: Occasional rain and 10&#45;12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5&#45;1&#45;2&#45;3&#45;4 Comments: Girls second boat event was a dead heat for 1st &#45; even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5&#45;lane floating start.
-None" alt="" coords="668,331,714,399,743,421,740,425,710,403,664,334"/>
-<area shape="rect" id="edge10-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="54.0
-04/26" alt="" coords="712,357,753,401"/>
-<area shape="poly" id="edge11" href="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&amp;cat=1" title="NEIRA Girls Fours, Pomfret vs. Hopkins, NMB, St. Mary&#39;s&#45;Lynn			
-Distance: 1500m Conditions: Consistent crossing tailwind (~7&#45;13MPH), with occasional stronger gusts. Light chop after the first 500M. Hopkins&#39; oar popped out of the oarlock in the 3rd boat race in the last 200m and they had to stop to reset for a few seconds. Comments: Tailwinds increased somewhat during the course of racing. Order of girls races: G1, G4, G3, G2, G5. (There was an hour and fifteen minutes between the G2 and G5 race. 15 minutes between the other four races.)
-None" alt="" coords="795,474,795,550,789,550,789,474"/>
-<area shape="rect" id="edge11-label" href="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&amp;cat=1" title="37.7
-04/19" alt="" coords="792,497,833,541"/>
-<area shape="poly" id="edge17" href="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&amp;cat=5" title="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme&#45;Old Lyme			
-Distance: 1500 M Conditions: 10&#45;15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
-G4: Berkshire and Greenwich each hotseated rowers from G3; 
-G5: all novice boats
-B5: all novice boats
-None" alt="" coords="816,470,839,496,855,518,872,540,889,556,886,560,868,543,851,521,835,499,812,474"/>
-<area shape="rect" id="edge17-label" href="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&amp;cat=5" title="32.4
-05/10" alt="" coords="870,497,911,541"/>
-<area shape="poly" id="node13" href="girls5foursNobles.html" title="Nobles" alt="" coords="301,309,299,302,292,295,281,290,267,287,252,285,237,287,223,290,212,295,205,302,203,309,205,317,212,323,223,329,237,332,252,333,267,332,281,329,292,323,299,317"/>
-<area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,BB&amp;N, Nobles and Groton			
-Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1&#45;2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
-Boys 7th/8th &#45; Nobles 2:49, BB&amp;N 3:05
-Girls 8th &#45; BB&amp;N 3:11, Nobles 3:17
-Girls 7th &#45; 3:24.32, BB&amp;N 3:32.06
-None" alt="" coords="245,334,239,367,240,384,247,400,259,414,275,424,311,438,309,443,273,429,256,418,242,403,235,386,234,367,240,333"/>
-<area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&amp;cat=5" title="26.6 (29.56)
-04/19" alt="" coords="245,357,335,401"/>
-<area shape="poly" id="edge26" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
+04/16" alt="" coords="711,357,774,401"/>
+<area shape="poly" id="edge21" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
 Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
 G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
 G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
 G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
 Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
-None" alt="" coords="431,322,389,336,351,359,322,390,306,420,298,454,291,498,290,550,297,610,310,680,335,701,365,714,363,719,332,705,306,683,292,611,285,550,286,497,293,453,301,418,317,387,348,355,387,331,429,317"/>
-<area shape="rect" id="edge26-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="16.5
-05/10" alt="" coords="288,497,329,541"/>
+None" alt="" coords="844,331,854,357,858,379,854,402,842,445,827,477,780,543,767,558,763,555,776,540,823,475,837,443,849,401,852,379,849,358,839,333"/>
+<area shape="rect" id="edge21-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="25.8
+05/10" alt="" coords="845,427,886,471"/>
+<area shape="poly" id="edge20" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
+Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
+G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
+G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
+G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
+Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
+None" alt="" coords="823,286,815,251,807,234,796,219,767,198,733,184,735,179,770,193,800,215,812,231,820,250,828,284"/>
+<area shape="rect" id="edge20-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="9.3
+05/10" alt="" coords="821,217,862,261"/>
+<area shape="poly" id="edge28" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
+Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
+G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
+G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
+G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
+Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
+None" alt="" coords="742,612,758,646,779,680,801,701,798,705,775,683,753,648,737,615"/>
+<area shape="rect" id="edge28-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="33.1
+05/10" alt="" coords="777,637,818,681"/>
+<area shape="poly" id="edge11" href="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&amp;cat=1" title="NEIRA Girls Fours, Pomfret vs. Hopkins, NMB, St. Mary&#39;s&#45;Lynn			
+Distance: 1500m Conditions: Consistent crossing tailwind (~7&#45;13MPH), with occasional stronger gusts. Light chop after the first 500M. Hopkins&#39; oar popped out of the oarlock in the 3rd boat race in the last 200m and they had to stop to reset for a few seconds. Comments: Tailwinds increased somewhat during the course of racing. Order of girls races: G1, G4, G3, G2, G5. (There was an hour and fifteen minutes between the G2 and G5 race. 15 minutes between the other four races.)
+None" alt="" coords="237,894,237,970,232,970,232,894"/>
+<area shape="rect" id="edge11-label" href="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&amp;cat=1" title="37.7
+04/19" alt="" coords="234,917,275,961"/>
+<area shape="poly" id="edge17" href="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&amp;cat=5" title="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme&#45;Old Lyme			
+Distance: 1500 M Conditions: 10&#45;15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
+G4: Berkshire and Greenwich each hotseated rowers from G3; 
+G5: all novice boats
+B5: all novice boats
+None" alt="" coords="215,894,131,977,128,974,211,890"/>
+<area shape="rect" id="edge17-label" href="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&amp;cat=5" title="32.4
+05/10" alt="" coords="186,917,227,961"/>
 <area shape="poly" id="edge27" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
 Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
 G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
 G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
 G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
 Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
-None" alt="" coords="508,327,542,355,593,416,611,444,623,473,631,503,633,536,625,614,610,681,591,732,559,777,510,823,474,848,471,844,506,819,555,773,586,729,605,679,620,613,628,536,625,504,618,474,606,447,589,419,538,359,504,331"/>
+None" alt="" coords="719,177,804,196,900,225,944,243,979,262,1004,284,1011,296,1013,308,1013,591,1010,614,1000,636,986,655,968,671,927,698,885,716,883,711,924,693,965,667,982,651,996,633,1004,613,1008,590,1008,308,1006,297,1000,287,976,266,941,247,898,230,803,201,718,182"/>
 <area shape="rect" id="edge27-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="49.6
-05/10" alt="" coords="630,567,671,611"/>
+05/10" alt="" coords="1010,427,1051,471"/>
 <area shape="poly" id="edge18" href="https://www.row2k.com/results/resultspage.cfm?UID=AF21FB49C1A5BFE18B2AC227D72047A7&amp;cat=1" title="NEIRA Girls Fours, BB&amp;N, Winsor, Greenwich Academy			
 Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&amp;N Boat A&#39;s oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.
 In the 1 V race Winsor left thier lane, and into BB&amp;Ns lane in the last 250.
 Thanks to Winsor and GA for the racing and GA making the trip to Boston.
-None" alt="" coords="430,321,395,335,380,345,368,359,359,383,358,410,353,410,354,382,363,356,377,341,393,330,428,316"/>
+None" alt="" coords="681,193,695,227,719,259,747,279,778,292,775,297,744,283,715,263,691,229,676,195"/>
 <area shape="rect" id="edge18-label" href="https://www.row2k.com/results/resultspage.cfm?UID=AF21FB49C1A5BFE18B2AC227D72047A7&amp;cat=1" title="33.3 (37.0)
-04/26" alt="" coords="366,357,447,401"/>
-<area shape="poly" id="edge4" href="https://www.row2k.com/results/resultspage.cfm?UID=FF45AC48CF863069B998EA93AF28A674&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,CRLS at Groton			
-Distance: 1240 m Conditions: A tail wind was significant in the first races, by the time o the first boats, n0 wind at all. Very little current; the river is very low.We finished the last race just before thunder and lightning began. Minimal rain. Comments: Racing order:
-G5, B5, G4, B4, G2, B2, G3, B3, G1, B1
-Good competition. Good fun.
-None" alt="" coords="190,41,110,55,78,66,59,79,48,103,48,130,43,130,43,102,55,76,76,61,109,50,189,36"/>
-<area shape="rect" id="edge4-label" href="https://www.row2k.com/results/resultspage.cfm?UID=FF45AC48CF863069B998EA93AF28A674&amp;cat=5" title="22.7 (27.46)
-05/03" alt="" coords="57,77,147,121"/>
-<area shape="poly" id="edge5" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
+04/26" alt="" coords="717,217,798,261"/>
+<area shape="poly" id="edge26" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="NEIRA Fours, du Pont Cup: Pomfret v. BB&amp;N, Gunn, St. Mark&#39;s, Taft, Miss Porter&#39;s, Winsor			
+Distance: 1500m Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed with the worst conditions in the G2 and then a lull in the wind in the G1. Comments: Alternated races with boys&#39; teams. Order of girls races: G3, G6/Novice, G4, G5, G2, G1. (Note: winds/gusts grew stronger as races progressed.) The delay of a boat flipping in a boys race and delays in restarting races and aligning boats in headwind delayed races beginning with G2 as much as ~20 to 30 minutes. Thanks to all for your patience. 
+G6/Novice: This race was restarted due to a collision in the first few strokes between BB&amp;N and Gunn. Porter&#39;s repeatedly veered into Pomfret&#39;s lane throughout the first 500&#45;750m meters of the race, resulting in repeated maneuvers from Pomfret to keep from being hit. Taft and Winsor collided in the last 300m and took 10&#45;15 seconds to disentangle themselves before beginning to race again.
+G5: This race was restarted because St. Mark&#39;s and Porter&#39;s collided just off the start. In the restarted race, Porter&#39;s veered into St. Mark&#39;s lane while just ahead of them at the 750m and St. Mark&#39;s needed to steer the long way around them. Taft caught an over the head crab at the 1000m and stopped to reset.
+G2: Winsor petitioned the results due to a clashing of oars between Winsor and St. Mark&#39;s at the start of the race.
+Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
+None" alt="" coords="666,194,654,233,641,285,633,342,633,401,637,438,649,472,674,516,704,554,699,557,670,519,644,474,632,439,628,401,628,342,636,284,648,232,661,193"/>
+<area shape="rect" id="edge26-label" href="https://www.row2k.com/results/resultspage.cfm?UID=F7D181438A9DB3A2D01746FB694CA9D5&amp;cat=1" title="16.5
+05/10" alt="" coords="631,357,672,401"/>
+<area shape="poly" id="edge10" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10&#45;12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5&#45;1&#45;2&#45;3&#45;4 Comments: Girls second boat event was a dead heat for 1st &#45; even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5&#45;lane floating start.
-None" alt="" coords="365,33,529,48,605,60,660,75,705,101,743,133,739,137,702,106,658,80,604,65,528,54,365,39"/>
-<area shape="rect" id="edge5-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="27.0
-04/26" alt="" coords="724,77,765,121"/>
-<area shape="poly" id="edge12" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge &amp; Latin School (CRLS)			
-Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
-Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting&#45;&#45;CRLS: 5:15.71 Choate: 5:52.01.
-None" alt="" coords="350,42,388,55,424,75,452,101,474,131,469,134,448,105,421,79,386,60,348,47"/>
-<area shape="rect" id="edge12-label" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="10.8 (12.46)
-04/30" alt="" coords="463,77,553,121"/>
-<area shape="poly" id="edge6" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
-Distance: 1500 Conditions: Occasional rain and 10&#45;12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5&#45;1&#45;2&#45;3&#45;4 Comments: Girls second boat event was a dead heat for 1st &#45; even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5&#45;lane floating start.
-None" alt="" coords="365,34,477,48,526,60,559,75,580,95,598,118,625,170,642,223,651,269,645,270,637,225,620,172,594,121,577,99,556,80,524,65,476,53,365,39"/>
-<area shape="rect" id="edge6-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="28.0
-04/26" alt="" coords="630,147,671,191"/>
-<area shape="poly" id="edge7" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
-Distance: 1500 Conditions: Occasional rain and 10&#45;12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5&#45;1&#45;2&#45;3&#45;4 Comments: Girls second boat event was a dead heat for 1st &#45; even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5&#45;lane floating start.
-None" alt="" coords="304,51,347,92,388,144,401,177,405,207,411,234,418,246,430,259,443,268,456,273,481,274,508,274,540,283,556,295,567,307,576,319,591,331,606,339,620,342,634,346,650,355,662,367,669,378,676,388,687,399,735,426,733,431,684,403,672,392,665,381,658,370,646,359,632,351,618,347,604,344,588,336,572,323,562,310,553,299,538,288,508,279,481,280,455,278,441,273,427,263,414,249,406,236,400,208,396,179,383,147,343,95,301,55"/>
-<area shape="rect" id="edge7-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="82.0
-04/26" alt="" coords="428,217,469,261"/>
-<area shape="poly" id="edge13" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge &amp; Latin School (CRLS)			
-Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
-Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting&#45;&#45;CRLS: 5:15.71 Choate: 5:52.01.
-None" alt="" coords="276,54,277,119,284,157,298,192,322,225,353,251,388,272,421,287,419,292,385,277,350,255,318,228,293,195,279,158,272,119,271,54"/>
-<area shape="rect" id="edge13-label" href="https://www.row2k.com/results/resultspage.cfm?UID=97F7AB1A3583B5AD0B685E7720855CFF&amp;cat=1" title="18.4 (21.23)
-04/30" alt="" coords="295,147,385,191"/>
+None" alt="" coords="260,754,245,830,240,829,255,753"/>
+<area shape="rect" id="edge10-label" href="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&amp;cat=5" title="54.0
+04/26" alt="" coords="252,777,293,821"/>
+<area shape="poly" id="node15" href="girls5foursNobles.html" title="Nobles" alt="" coords="1104,169,1101,162,1094,155,1083,150,1070,147,1054,145,1039,147,1025,150,1014,155,1007,162,1005,169,1007,177,1014,183,1025,189,1039,192,1054,193,1070,192,1083,189,1094,183,1101,177"/>
+<area shape="poly" id="edge3" href="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&amp;cat=5" title="NEIRA Boys &amp; Girls Fours,BB&amp;N, Nobles and Groton			
+Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1&#45;2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
+Boys 7th/8th &#45; Nobles 2:49, BB&amp;N 3:05
+Girls 8th &#45; BB&amp;N 3:11, Nobles 3:17
+Girls 7th &#45; 3:24.32, BB&amp;N 3:32.06
+None" alt="" coords="1026,191,869,286,867,281,1023,187"/>
+<area shape="rect" id="edge3-label" href="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&amp;cat=5" title="26.6 (29.56)
+04/19" alt="" coords="975,217,1065,261"/>
 </map>

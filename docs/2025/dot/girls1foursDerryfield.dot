@@ -1,4 +1,4 @@
-digraph girls1foursDerryfield {Derryfield [URL="girls1foursDerryfield.html"];Berwick [URL="girls1foursBerwick.html"];SacredHeart [URL="girls1foursSacredHeart.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];Derryfield -> SacredHeart[label="29.9
+digraph girls1foursDerryfield {SacredHeart [URL="girls1foursSacredHeart.html"];Berwick [URL="girls1foursBerwick.html"];Derryfield [URL="girls1foursDerryfield.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];Derryfield -> SacredHeart[label="29.9
 04/27", weight="71", tooltip="NEIRA Girls Fours, Worcester Academy, Berwick Academy, Derryfield, Sacred Heart-Greenwich			
 Conditions: Strong cross/tailwind (20mph), heavy chop throughout races. Wind picked up considerably between 1st and last races Comments: Girls V1 race was approximately 1550 meters. Girls 2V race was approximately 1475 meters.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5100A5CA83A99A9CD2E37FEC65103FEF&cat=1", random="random"]; 
