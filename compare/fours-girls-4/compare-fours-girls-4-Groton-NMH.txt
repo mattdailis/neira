@@ -8,13 +8,15 @@ Groton--(-22.4 5/10)-->Brooks--(9.7 4/26)-->NMH [NMH net +12.7]
 Groton--(-6.53 5/3)-->Cambridge RLS--(10.6 4/26)-->NMH [Groton net +4.07]
 Groton--(35.5 4/26)-->Taft--(-10.46 5/4)-->NMH [Groton net +25.04]
 
-There are 36 paths of length 3 between Groton and NMH
-20/36 of them favor Groton
+There are 42 paths of length 3 between Groton and NMH
+24/42 of them favor Groton
 From most recent to least recent:
+Groton--(-15.2 5/10)-->Choate--(8.0 5/17)-->Taft--(-10.46 5/4)-->NMH [NMH net +17.66]
 Groton--(-22.4 5/10)-->Brooks--(7.2 5/10)-->Choate--(7.54 5/4)-->NMH [NMH net +7.66]
 Groton--(-15.2 5/10)-->Choate--(6.13 5/4)-->Hopkins--(1.41 5/4)-->NMH [NMH net +7.66]
 Groton--(-15.2 5/10)-->Choate--(11.89 5/4)-->Hotchkiss--(-4.35 5/4)-->NMH [NMH net +7.66]
 Groton--(-15.2 5/10)-->Choate--(18.0 5/4)-->Taft--(-10.46 5/4)-->NMH [NMH net +7.66]
+Groton--(-15.2 5/10)-->Choate--(11.89 5/4)-->Hotchkiss--(5.36 5/14)-->NMH [Groton net +2.05]
 Groton--(-6.53 5/3)-->Cambridge RLS--(-16.62 4/30)-->Choate--(7.54 5/4)-->NMH [NMH net +15.61]
 Groton--(-15.2 5/10)-->Choate--(6.13 5/4)-->Hopkins--(-25.6 4/26)-->NMH [NMH net +34.67]
 Groton--(-22.4 5/10)-->Brooks--(-0.9 4/26)-->Cambridge RLS--(10.6 4/26)-->NMH [NMH net +12.7]
@@ -36,9 +38,13 @@ Groton--(35.5 4/26)-->Taft--(-6.11 5/4)-->Hotchkiss--(-4.35 5/4)-->NMH [Groton n
 Groton--(85.0 4/26)-->Pomfret--(-49.5 4/26)-->Taft--(-10.46 5/4)-->NMH [Groton net +25.04]
 Groton--(85.0 4/26)-->Pomfret--(-61.53 5/4)-->Choate--(7.54 5/4)-->NMH [Groton net +31.01]
 Groton--(-6.53 5/3)-->Cambridge RLS--(36.2 4/26)-->Hopkins--(1.41 5/4)-->NMH [Groton net +31.08]
+Groton--(85.0 4/26)-->Pomfret--(-56.79 5/4)-->Hotchkiss--(5.36 5/14)-->NMH [Groton net +33.57]
+Groton--(35.5 4/26)-->Taft--(-6.11 5/4)-->Hotchkiss--(5.36 5/14)-->NMH [Groton net +34.75]
+Groton--(35.5 4/26)-->Taft--(-8.0 5/17)-->Choate--(7.54 5/4)-->NMH [Groton net +35.04]
 Groton--(85.0 4/26)-->Pomfret--(-17.3 5/10)-->Taft--(-10.46 5/4)-->NMH [Groton net +57.24]
 Groton--(-22.44 4/19)-->BB&N--(2.2 5/3)-->Middlesex--(-12.9 4/26)-->NMH [NMH net +33.14]
 Groton--(-22.44 4/19)-->BB&N--(14.7 5/10)-->Taft--(-10.46 5/4)-->NMH [NMH net +18.2]
+Groton--(-22.44 4/19)-->BB&N--(-0.1 5/14)-->Brooks--(9.7 4/26)-->NMH [NMH net +12.84]
 Groton--(-22.4 5/10)-->Brooks--(25.4 4/19)-->Middlesex--(-12.9 4/26)-->NMH [NMH net +9.9]
 Groton--(-15.2 5/10)-->Choate--(24.6 4/19)-->Taft--(-10.46 5/4)-->NMH [NMH net +1.06]
 Groton--(-15.2 5/10)-->Choate--(6.13 5/4)-->Hopkins--(16.0 4/19)-->NMH [Groton net +6.93]

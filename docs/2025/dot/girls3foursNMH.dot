@@ -1,4 +1,20 @@
-digraph girls3foursNMH {Hopkins [URL="girls3foursHopkins.html"];Pomfret [URL="girls3foursPomfret.html"];GreenwichAcademy [URL="girls3foursGreenwichAcademy.html"];Hotchkiss [URL="girls3foursHotchkiss.html"];Brooks [URL="girls3foursBrooks.html"];BrewsterAcademy [URL="girls3foursBrewsterAcademy.html"];BerkshireAcademy [URL="girls3foursBerkshireAcademy.html"];Choate [URL="girls3foursChoate.html"];Taft [URL="girls3foursTaft.html"];NMH [URL="girls3foursNMH.html"];Middlesex [URL="girls3foursMiddlesex.html"];CambridgeRLS [URL="girls3foursCambridgeRLS.html"];CambridgeRLS -> NMH[label="27.3
+digraph girls3foursNMH {GreenwichAcademy [URL="girls3foursGreenwichAcademy.html"];Hotchkiss [URL="girls3foursHotchkiss.html"];Choate [URL="girls3foursChoate.html"];NewtonCountryDay [URL="girls3foursNewtonCountryDay.html"];BrewsterAcademy [URL="girls3foursBrewsterAcademy.html"];Pomfret [URL="girls3foursPomfret.html"];Hopkins [URL="girls3foursHopkins.html"];Taft [URL="girls3foursTaft.html"];StMarysLynn [URL="girls3foursStMarysLynn.html"];Brooks [URL="girls3foursBrooks.html"];Middlesex [URL="girls3foursMiddlesex.html"];NMH [URL="girls3foursNMH.html"];BerkshireAcademy [URL="girls3foursBerkshireAcademy.html"];CambridgeRLS [URL="girls3foursCambridgeRLS.html"];NMH -> NewtonCountryDay[label="22.0 (23.57)
+05/17", weight="78", tooltip="NEIRA Boys & Girls Fours,NMH vs Middlesex, Newton Country Day and St. Mary's - Lynn			
+Distance: 1400m (upstream) Conditions: A strong current continued to provide plenty of extra length to our standard course; moderate chop due to blustery tailwinds but good conditions overall Comments: In the boys 4th boat race, a Middlesex seat broke a wheel early in the contest that made it difficult for its oarsman to use his full drive for the rest of the race. Please consider this when assessing the margin for NEIRA seeding purposes. 
+One of our final events was the Eights race, which featured two NMH crews and one St Mary's crew. Results were: 
+1. NMH Girls novice eight - 6:35
+2. NMH mixed eight - 7:02
+3. St Mary's - Lynn - 7:49
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=30B60C8D1DD9BD66CE6EB65F1C28CCEB&cat=5", random="random"]; 
+NMH -> StMarysLynn[label="91.0 (97.5)
+05/17", weight="9", tooltip="NEIRA Boys & Girls Fours,NMH vs Middlesex, Newton Country Day and St. Mary's - Lynn			
+Distance: 1400m (upstream) Conditions: A strong current continued to provide plenty of extra length to our standard course; moderate chop due to blustery tailwinds but good conditions overall Comments: In the boys 4th boat race, a Middlesex seat broke a wheel early in the contest that made it difficult for its oarsman to use his full drive for the rest of the race. Please consider this when assessing the margin for NEIRA seeding purposes. 
+One of our final events was the Eights race, which featured two NMH crews and one St Mary's crew. Results were: 
+1. NMH Girls novice eight - 6:35
+2. NMH mixed eight - 7:02
+3. St Mary's - Lynn - 7:49
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=30B60C8D1DD9BD66CE6EB65F1C28CCEB&cat=5", random="random"]; 
+CambridgeRLS -> NMH[label="27.3
 04/26", weight="73", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -22,6 +38,10 @@ NMH -> Pomfret[label="28.2
 04/19", weight="72", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, NMB, St. Mary's-Lynn			
 Distance: 1500m Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Hopkins' oar popped out of the oarlock in the 3rd boat race in the last 200m and they had to stop to reset for a few seconds. Comments: Tailwinds increased somewhat during the course of racing. Order of girls races: G1, G4, G3, G2, G5. (There was an hour and fifteen minutes between the G2 and G5 race. 15 minutes between the other four races.)
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&cat=1", random="random"]; 
+Hotchkiss -> NMH[label="5.0 (5.36)
+05/14", weight="95", tooltip="NEIRA Boys & Girls Fours,NMH vs Hotchkiss			
+Distance: 1400 m (upstream) Conditions: Strong current to work against, but low levels of debris and great conditions for racing; starting locations varied somewhat for each race so comparisons between different events are not valid Comments: Great racing by all crews. The boys first boat race was a dead heat until the last ten strokes. Thank you to Hotchkiss crews and coaches for making the mid-week trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DDC5426ECBA0CD8A43E8BFC5C78F3C69&cat=5", random="random"]; 
 Choate -> NMH[label="3.99
 05/04", weight="97", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 

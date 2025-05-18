@@ -1,4 +1,16 @@
-digraph boys2foursNotreDame {Hotchkiss [URL="boys2foursHotchkiss.html"];Nobles [URL="boys2foursNobles.html"];NotreDame [URL="boys2foursNotreDame.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Suffield [URL="boys2foursSuffield.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];Middletown [URL="boys2foursMiddletown.html"];StMarks [URL="boys2foursStMarks.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Taft [URL="boys2foursTaft.html"];NMH [URL="boys2foursNMH.html"];Choate [URL="boys2foursChoate.html"];Nobles -> NotreDame[label="34.6
+digraph boys2foursNotreDame {StMarks [URL="boys2foursStMarks.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];Choate [URL="boys2foursChoate.html"];NotreDame [URL="boys2foursNotreDame.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Hopkins [URL="boys2foursHopkins.html"];Suffield [URL="boys2foursSuffield.html"];Nobles [URL="boys2foursNobles.html"];Taft [URL="boys2foursTaft.html"];Middletown [URL="boys2foursMiddletown.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];NMH [URL="boys2foursNMH.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];Hotchkiss -> NotreDame[label="22.0
+05/18", weight="78", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+Hopkins -> NotreDame[label="15.4
+05/18", weight="85", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+Nobles -> NotreDame[label="34.6
 04/26", weight="66", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 

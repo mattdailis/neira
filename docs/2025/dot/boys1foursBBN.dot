@@ -1,4 +1,4 @@
-digraph boys1foursBBN {Pomfret [URL="boys1foursPomfret.html"];Thayer [URL="boys1foursThayer.html"];BelmontHill [URL="boys1foursBelmontHill.html"];StMarks [URL="boys1foursStMarks.html"];Berwick [URL="boys1foursBerwick.html"];Taft [URL="boys1foursTaft.html"];BBN [URL="boys1foursBBN.html"];Middlesex [URL="boys1foursMiddlesex.html"];CambridgeRLS [URL="boys1foursCambridgeRLS.html"];BBN -> Berwick[label="7.6 (8.44)
+digraph boys1foursBBN {StMarks [URL="boys1foursStMarks.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];Pomfret [URL="boys1foursPomfret.html"];BBN [URL="boys1foursBBN.html"];Taft [URL="boys1foursTaft.html"];Thayer [URL="boys1foursThayer.html"];BelmontHill [URL="boys1foursBelmontHill.html"];Berwick [URL="boys1foursBerwick.html"];Brooks [URL="boys1foursBrooks.html"];Middlesex [URL="boys1foursMiddlesex.html"];CambridgeRLS [URL="boys1foursCambridgeRLS.html"];BBN -> Berwick[label="7.6 (8.44)
 04/05", weight="93", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Berwick Academy			
 Distance: 1350 Conditions: Overall very good conditions and flat water. Very slight cross wind but consistent for all races. Thanks to Berwick for making the trip!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CE456225129ACDB361E1BEAB29CB57A4&cat=5", random="random"]; 
@@ -14,6 +14,18 @@ BBN -> StMarks[label="26.9
 05/10", weight="74", tooltip="NEIRA Boys Fours, du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
 Distance: 1500 Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed. Comments: Alternated races with girls' teams. Order of boys races: B4, B5, B6, B3, B2, B1. (Note: winds/gusts grew stronger as raced progressed.) Gunn raced down with their 1st boat racing in the B2 and their 2nd in B3. In the B2 race, Gunn's boat flipped in the last 250 meters (all okay). That delay and delays in aligning boats in headwind delayed races beginning, for boys, with B3 as much as ~20 to 30 minutes. Thanks to all for your patience. Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BC0E341089C0A527BA3CCC47DE8BD6C4&cat=1", random="random"]; 
+Brooks -> BBN[label="15.5
+05/14", weight="85", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
+BBN -> StMarks[label="17.6
+05/14", weight="83", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
+BBN -> BrewsterAcademy[label="36.9
+05/14", weight="64", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
 BBN -> Middlesex[label="2.7 (3.0)
 05/03", weight="98", tooltip="NEIRA Boys Fours, BB&N vs. Middlesex			
 Distance: 1350 Conditions: Strong headwind (~20 mph) with occasional whitecaps throughout racing, getting stronger towards the finish line. The wind seemed to lighten up a little at the start of the 1st boat race. Order of racing was 4, 3, 2, 1. Comments: The wind made it challenging for all coxswains to maintain good courses. In the last 300 meters of the 3rd boat race, both teams veered off course a bit such that they ended up in each other's lane. It did not impact margin or finish order. 

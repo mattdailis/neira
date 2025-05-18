@@ -1,26 +1,39 @@
 Cambridge RLS and St. Mark's have never raced head to head
 
-There are 4 paths of length 2 between Cambridge RLS and St. Mark's
+There are 6 paths of length 2 between Cambridge RLS and St. Mark's
 All of them favor Cambridge RLS
 From most recent to least recent:
 Cambridge RLS--(-15.58 4/30)-->Winsor--(77.3 5/10)-->St. Mark's [Cambridge RLS net +61.72]
+Cambridge RLS--(0.9 4/26)-->Brooks--(56.4 5/14)-->St. Mark's [Cambridge RLS net +57.3]
 Cambridge RLS--(23.5 4/26)-->Middlesex--(7.7 4/19)-->St. Mark's [Cambridge RLS net +31.2]
 Cambridge RLS--(0.9 4/26)-->Brooks--(33.1 4/19)-->St. Mark's [Cambridge RLS net +34.0]
+Cambridge RLS--(10.8 4/16)-->BB&N--(56.3 5/14)-->St. Mark's [Cambridge RLS net +67.1]
 Cambridge RLS--(10.8 4/16)-->BB&N--(60.2 5/10)-->St. Mark's [Cambridge RLS net +71.0]
 
-There are 34 paths of length 3 between Cambridge RLS and St. Mark's
+There are 49 paths of length 3 between Cambridge RLS and St. Mark's
 All of them favor Cambridge RLS
 From most recent to least recent:
+Cambridge RLS--(6.53 5/3)-->Groton--(-22.4 5/10)-->Brooks--(56.4 5/14)-->St. Mark's [Cambridge RLS net +40.53]
+Cambridge RLS--(-16.62 4/30)-->Choate--(-7.2 5/10)-->Brooks--(56.4 5/14)-->St. Mark's [Cambridge RLS net +32.58]
+Cambridge RLS--(-16.62 4/30)-->Choate--(8.0 5/17)-->Taft--(45.5 5/10)-->St. Mark's [Cambridge RLS net +36.88]
 Cambridge RLS--(-16.62 4/30)-->Choate--(18.0 5/4)-->Taft--(45.5 5/10)-->St. Mark's [Cambridge RLS net +46.88]
+Cambridge RLS--(-15.58 4/30)-->Winsor--(17.1 5/10)-->BB&N--(56.3 5/14)-->St. Mark's [Cambridge RLS net +57.82]
 Cambridge RLS--(-16.62 4/30)-->Choate--(1.04 4/30)-->Winsor--(77.3 5/10)-->St. Mark's [Cambridge RLS net +61.72]
 Cambridge RLS--(-15.58 4/30)-->Winsor--(17.1 5/10)-->BB&N--(60.2 5/10)-->St. Mark's [Cambridge RLS net +61.72]
 Cambridge RLS--(-15.58 4/30)-->Winsor--(31.8 5/10)-->Taft--(45.5 5/10)-->St. Mark's [Cambridge RLS net +61.72]
 Cambridge RLS--(-15.58 4/30)-->Winsor--(49.1 5/10)-->Pomfret--(28.2 5/10)-->St. Mark's [Cambridge RLS net +61.72]
 Cambridge RLS--(-16.62 4/30)-->Choate--(61.53 5/4)-->Pomfret--(28.2 5/10)-->St. Mark's [Cambridge RLS net +73.11]
 Cambridge RLS--(-15.58 4/30)-->Winsor--(-25.04 5/7)-->Nobles--(57.7 4/26)-->St. Mark's [Cambridge RLS net +17.08]
+Cambridge RLS--(0.9 4/26)-->Brooks--(0.1 5/14)-->BB&N--(56.3 5/14)-->St. Mark's [Cambridge RLS net +57.3]
+Cambridge RLS--(10.6 4/26)-->NMH--(-9.7 4/26)-->Brooks--(56.4 5/14)-->St. Mark's [Cambridge RLS net +57.3]
+Cambridge RLS--(23.5 4/26)-->Middlesex--(-22.6 4/26)-->Brooks--(56.4 5/14)-->St. Mark's [Cambridge RLS net +57.3]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(-35.3 4/26)-->Brooks--(56.4 5/14)-->St. Mark's [Cambridge RLS net +57.3]
 Cambridge RLS--(23.5 4/26)-->Middlesex--(30.6 5/3)-->Newton Country Day--(6.6 4/26)-->St. Mark's [Cambridge RLS net +60.7]
+Cambridge RLS--(0.9 4/26)-->Brooks--(0.1 5/14)-->BB&N--(60.2 5/10)-->St. Mark's [Cambridge RLS net +61.2]
 Cambridge RLS--(10.6 4/26)-->NMH--(10.46 5/4)-->Taft--(45.5 5/10)-->St. Mark's [Cambridge RLS net +66.56]
+Cambridge RLS--(-15.58 4/30)-->Winsor--(26.33 4/26)-->BB&N--(56.3 5/14)-->St. Mark's [Cambridge RLS net +67.05]
 Cambridge RLS--(-15.58 4/30)-->Winsor--(26.33 4/26)-->BB&N--(60.2 5/10)-->St. Mark's [Cambridge RLS net +70.95]
+Cambridge RLS--(23.5 4/26)-->Middlesex--(-2.2 5/3)-->BB&N--(56.3 5/14)-->St. Mark's [Cambridge RLS net +77.6]
 Cambridge RLS--(23.5 4/26)-->Middlesex--(-2.2 5/3)-->BB&N--(60.2 5/10)-->St. Mark's [Cambridge RLS net +81.5]
 Cambridge RLS--(6.53 5/3)-->Groton--(35.5 4/26)-->Taft--(45.5 5/10)-->St. Mark's [Cambridge RLS net +87.53]
 Cambridge RLS--(36.2 4/26)-->Hopkins--(11.87 5/4)-->Taft--(45.5 5/10)-->St. Mark's [Cambridge RLS net +93.57]
@@ -36,12 +49,16 @@ Cambridge RLS--(10.6 4/26)-->NMH--(-9.7 4/26)-->Brooks--(33.1 4/19)-->St. Mark's
 Cambridge RLS--(23.5 4/26)-->Middlesex--(-22.6 4/26)-->Brooks--(33.1 4/19)-->St. Mark's [Cambridge RLS net +34.0]
 Cambridge RLS--(36.2 4/26)-->Hopkins--(-35.3 4/26)-->Brooks--(33.1 4/19)-->St. Mark's [Cambridge RLS net +34.0]
 Cambridge RLS--(6.53 5/3)-->Groton--(-28.11 4/19)-->Nobles--(57.7 4/26)-->St. Mark's [Cambridge RLS net +36.12]
+Cambridge RLS--(6.53 5/3)-->Groton--(-22.44 4/19)-->BB&N--(56.3 5/14)-->St. Mark's [Cambridge RLS net +40.39]
 Cambridge RLS--(6.53 5/3)-->Groton--(-22.44 4/19)-->BB&N--(60.2 5/10)-->St. Mark's [Cambridge RLS net +44.29]
 Cambridge RLS--(-16.62 4/30)-->Choate--(24.6 4/19)-->Taft--(45.5 5/10)-->St. Mark's [Cambridge RLS net +53.48]
+Cambridge RLS--(23.5 4/26)-->Middlesex--(-25.4 4/19)-->Brooks--(56.4 5/14)-->St. Mark's [Cambridge RLS net +54.5]
 Cambridge RLS--(10.8 4/16)-->BB&N--(2.2 5/3)-->Middlesex--(7.7 4/19)-->St. Mark's [Cambridge RLS net +20.7]
+Cambridge RLS--(10.8 4/16)-->BB&N--(-0.1 5/14)-->Brooks--(33.1 4/19)-->St. Mark's [Cambridge RLS net +43.8]
 Cambridge RLS--(10.8 4/16)-->BB&N--(32.8 5/3)-->Newton Country Day--(6.6 4/26)-->St. Mark's [Cambridge RLS net +50.2]
 Cambridge RLS--(10.8 4/16)-->BB&N--(-26.33 4/26)-->Winsor--(77.3 5/10)-->St. Mark's [Cambridge RLS net +61.77]
 Cambridge RLS--(10.8 4/16)-->BB&N--(-5.67 4/19)-->Nobles--(57.7 4/26)-->St. Mark's [Cambridge RLS net +62.83]
+Cambridge RLS--(10.8 4/16)-->BB&N--(-0.1 5/14)-->Brooks--(56.4 5/14)-->St. Mark's [Cambridge RLS net +67.1]
 Cambridge RLS--(10.8 4/16)-->BB&N--(-17.1 5/10)-->Winsor--(77.3 5/10)-->St. Mark's [Cambridge RLS net +71.0]
 Cambridge RLS--(10.8 4/16)-->BB&N--(14.7 5/10)-->Taft--(45.5 5/10)-->St. Mark's [Cambridge RLS net +71.0]
 Cambridge RLS--(10.8 4/16)-->BB&N--(32.0 5/10)-->Pomfret--(28.2 5/10)-->St. Mark's [Cambridge RLS net +71.0]

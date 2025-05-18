@@ -1,4 +1,4 @@
-digraph boys2foursBerwick {BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Berwick [URL="boys2foursBerwick.html"];BBN [URL="boys2foursBBN.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];BBN -> Berwick[label="32.6 (36.22)
+digraph boys2foursBerwick {WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];BBN [URL="boys2foursBBN.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];Berwick [URL="boys2foursBerwick.html"];DexterSouthfield [URL="boys2foursDexterSouthfield.html"];BBN -> Berwick[label="32.6 (36.22)
 04/05", weight="68", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Berwick Academy			
 Distance: 1350 Conditions: Overall very good conditions and flat water. Very slight cross wind but consistent for all races. Thanks to Berwick for making the trip!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CE456225129ACDB361E1BEAB29CB57A4&cat=5", random="random"]; 
@@ -6,6 +6,18 @@ Berwick -> BrewsterAcademy[label="28
 04/19", weight="72", tooltip="NEIRA Boys & Girls Fours,Dublin School, Berwick Academy, Brewster Academy			
 Distance: 1400m'ish
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F633B39B972009BAAE9DBEA29158C86C&cat=5", random="random"]; 
+Berwick -> BrewsterAcademy[label="4.8
+05/17", weight="96", tooltip="NEIRA Boys & Girls Fours,Berwick, Brewster, Pingree			
+Distance: 1500 Conditions: No wind, flat water. Strong head current from outgoing tide. Comments: Thank you to Pingree and Brewster for making this regatta happen! Boys 3rd boat and girls 2nd boat races are novice races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05875CE784A53152B98A2FCDE4912B97&cat=5", random="random"]; 
+Berwick -> DexterSouthfield[label="18.6
+05/11", weight="82", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, St. Mary's Lynn, Dexter Southfield, Dublin School			
+Distance: 1500 Conditions: Strong crosswind at the start, becoming protected by the shore as race went on. Flat water conditions. Incoming tide but strong down stream current. Conditions consistent for all races. Comments: Boys 4V was novices and boys 5V was mixed novices. Girls 3V and 4 were novice races. All novice races served as scrimmages to get athletes racing experience. Thank you to all teams for traveling Berwick!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FDB08A4983B97B133607F94BDB7F822B&cat=5", random="random"]; 
+Berwick -> StMarysLynn[label="56.3
+05/11", weight="44", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, St. Mary's Lynn, Dexter Southfield, Dublin School			
+Distance: 1500 Conditions: Strong crosswind at the start, becoming protected by the shore as race went on. Flat water conditions. Incoming tide but strong down stream current. Conditions consistent for all races. Comments: Boys 4V was novices and boys 5V was mixed novices. Girls 3V and 4 were novice races. All novice races served as scrimmages to get athletes racing experience. Thank you to all teams for traveling Berwick!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FDB08A4983B97B133607F94BDB7F822B&cat=5", random="random"]; 
 Berwick -> WorcesterAcademy[label="31.8
 04/27", weight="69", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.

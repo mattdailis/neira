@@ -1,10 +1,14 @@
-digraph girls6foursBBN {Pomfret [URL="girls6foursPomfret.html"];Nobles [URL="girls6foursNobles.html"];Taft [URL="girls6foursTaft.html"];MissPorters [URL="girls6foursMissPorters.html"];Winsor [URL="girls6foursWinsor.html"];FrederickGunn [URL="girls6foursFrederickGunn.html"];BBN [URL="girls6foursBBN.html"];Nobles -> BBN[label="29.4 (32.67)
+digraph girls6foursBBN {Pomfret [URL="girls6foursPomfret.html"];Nobles [URL="girls6foursNobles.html"];BBN [URL="girls6foursBBN.html"];Taft [URL="girls6foursTaft.html"];FrederickGunn [URL="girls6foursFrederickGunn.html"];MissPorters [URL="girls6foursMissPorters.html"];Brooks [URL="girls6foursBrooks.html"];Winsor [URL="girls6foursWinsor.html"];Nobles -> BBN[label="29.4 (32.67)
 04/19", weight="71", tooltip="NEIRA Boys & Girls Fours,BB&N, Nobles and Groton			
 Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1-2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
 Girls 8th - BB&N 3:11, Nobles 3:17
 Girls 7th - 3:24.32, BB&N 3:32.06
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+Brooks -> BBN[label="5.5
+05/14", weight="95", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
 BBN -> Winsor[label="13.1 (14.56)
 04/26", weight="87", tooltip="NEIRA Girls Fours, BB&N, Winsor, Greenwich Academy			
 Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.

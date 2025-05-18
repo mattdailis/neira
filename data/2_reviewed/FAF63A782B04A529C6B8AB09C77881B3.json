@@ -1,0 +1,42 @@
+{
+    "comment": "\nDistance: 1500m Conditions: Slight crosswind and light rain with low chop for both events.\n\nNone",
+    "day": "2025-05-10",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:08",
+                    "school": "Eagle Hill"
+                },
+                {
+                    "margin_from_winner": 25.0,
+                    "raw_time": "6:33",
+                    "school": "Marianapolis Prep"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:15",
+                    "school": "Eagle Hill"
+                },
+                {
+                    "margin_from_winner": 20.0,
+                    "raw_time": "6:35",
+                    "school": "Marianapolis Prep"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Fours,Eagle Hill School vs. Marianapolis Prep",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=FAF63A782B04A529C6B8AB09C77881B3&cat=5"
+}

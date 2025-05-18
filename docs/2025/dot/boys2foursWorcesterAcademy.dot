@@ -1,4 +1,8 @@
-digraph boys2foursWorcesterAcademy {BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Berwick [URL="boys2foursBerwick.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];Berwick -> WorcesterAcademy[label="31.8
+digraph boys2foursWorcesterAcademy {WorcesterAcademy [URL="boys2foursWorcesterAcademy.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];Berwick [URL="boys2foursBerwick.html"];DexterSouthfield [URL="boys2foursDexterSouthfield.html"];DexterSouthfield -> WorcesterAcademy[label="11.3
+05/14", weight="89", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Dexter-Southfield and Bancroft			
+Distance: 1500 meters Conditions: Strong crosswind throughout all races. In GV1 race, Dexter-Southfield A was GV1 and Dexter-Southfield B was GV2. In BV2 race, Dexter-Southfield A was BV2 and Dexter-Southfield B was BV3. The BV4 event was a Mixed Novice 4 scrimmage in order to get more kids racing. Thank you to Dexter-Southfield and Bancroft for racing today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=11355464469ECB76F8D6E495FB0C1364&cat=5", random="random"]; 
+Berwick -> WorcesterAcademy[label="31.8
 04/27", weight="69", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 

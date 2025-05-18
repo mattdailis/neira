@@ -1,7 +1,23 @@
-digraph girls1foursFrederickGunn {Pomfret [URL="girls1foursPomfret.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademy.html"];BerkshireAcademy [URL="girls1foursBerkshireAcademy.html"];Winsor [URL="girls1foursWinsor.html"];Taft [URL="girls1foursTaft.html"];NMH [URL="girls1foursNMH.html"];MissPorters [URL="girls1foursMissPorters.html"];StMarks [URL="girls1foursStMarks.html"];Canterbury [URL="girls1foursCanterbury.html"];LymeOldLyme [URL="girls1foursLymeOldLyme.html"];FrederickGunn [URL="girls1foursFrederickGunn.html"];BBN [URL="girls1foursBBN.html"];MissPorters -> FrederickGunn[label="13.0
+digraph girls1foursFrederickGunn {StMarks [URL="girls1foursStMarks.html"];Choate [URL="girls1foursChoate.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademy.html"];Pomfret [URL="girls1foursPomfret.html"];Taft [URL="girls1foursTaft.html"];BBN [URL="girls1foursBBN.html"];FrederickGunn [URL="girls1foursFrederickGunn.html"];Canterbury [URL="girls1foursCanterbury.html"];MissPorters [URL="girls1foursMissPorters.html"];LymeOldLyme [URL="girls1foursLymeOldLyme.html"];Winsor [URL="girls1foursWinsor.html"];NMH [URL="girls1foursNMH.html"];BerkshireAcademy [URL="girls1foursBerkshireAcademy.html"];MissPorters -> FrederickGunn[label="13.0
 04/30", weight="87", tooltip="NEIRA Girls Fours,Frederick Gunn vs. Miss Porter's			
 Distance: 1500 Conditions: Girls' V1 & V2 - steady headwind of six mph on the course, gusting periodically to eight mph. Comments: Thanks to Porter's for making the trip. It was a beautiful day for racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=07BC4C309730A2ABBEA83E7AAD4B7A9E&cat=1", random="random"]; 
+Taft -> FrederickGunn[label="4.1
+05/17", weight="96", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+BerkshireAcademy -> FrederickGunn[label="2.7
+05/17", weight="98", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+Choate -> FrederickGunn[label="1.3
+05/17", weight="99", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+FrederickGunn -> MissPorters[label="5.0
+05/17", weight="95", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
 FrederickGunn -> Canterbury[label="20.0
 04/19", weight="80", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Canterbury School			
 Distance: 1500 Conditions: Mostly protected waters with some crosswind and very slight chop in the first 500 in particular. Comments: Gunn second boats (B) raced up with the first boats.

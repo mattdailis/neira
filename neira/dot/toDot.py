@@ -153,9 +153,15 @@ def genHtml(out_dir, name, graph):
     target.write("</head>")
     target.write("<body>")
     target.write('<a href="../index.html">Back to index</a>')
-    if name != graph:
+    if not (name.endswith("fours") or graph.endswith("eights")):
         target.write("<br />")
-        target.write('<a href="' + graph + '.html">Back to ' + graph + "</a>")
+
+        res = graph
+        for class_ in ("fours", "eights"):
+            if class_ in res:
+                res = res.split(class_)[0] + class_
+
+        target.write('<a href="' + res + '.html">Back to ' + res + "</a>")
     target.write(
         '<IMG SRC="./'
         + graphName(name)
@@ -197,7 +203,11 @@ def viz(out_dir, name, url, orders):
     links = {}
     nodes = getNodes(orders)
     for node in nodes:
-        links[node] = nodeName(name) + nodeName(node)
+        prefix = nodeName(name)
+        for class_ in ("fours", "eights"):
+            if class_ in prefix:
+                prefix = prefix.split(class_)[0] + class_
+        links[node] = prefix + nodeName(node)
     genDot(
         os.path.join(out_dir, graphName(url) + ".dot"),
         pairsToDot(name, orders, links=links),

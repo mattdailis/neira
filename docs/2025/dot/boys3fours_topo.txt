@@ -1,11 +1,8 @@
-{'Eagle Hill', 'Belmont Hill'}
+{'Belmont Hill', 'Eagle Hill'}
 {'Groton'}
-{'Brooks', 'Taft', 'Nobles'}
+{'Brooks', 'Nobles', 'Taft'}
 {'BB&N', 'Hotchkiss'}
 {'Cambridge RLS'}
-{'Middlesex'}
-{'NMH', "St. Mark's"}
-{'Hopkins'}
-Cycle detected: {'Berkshire Academy', 'Pomfret'}
-{'Choate'}
-{'Canterbury', 'Frederick Gunn'}
+Cycle detected: {"St. Mark's", 'Choate', 'Pomfret', 'Hopkins', 'Frederick Gunn', 'Middlesex', 'NMH', 'Berkshire Academy'}
+{'Dexter-Southfield'}
+{'Notre Dame', 'Middletown', 'Canterbury', 'Berwick'}

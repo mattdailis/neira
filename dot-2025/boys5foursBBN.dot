@@ -1,4 +1,4 @@
-digraph boys5foursBBN {Nobles [URL="boys5foursNobles.html"];Taft [URL="boys5foursTaft.html"];BBN [URL="boys5foursBBN.html"];BelmontHill [URL="boys5foursBelmontHill.html"];Nobles -> BBN[label="38.9 (43.22)
+digraph boys5foursBBN {Nobles [URL="boys5foursNobles.html"];BBN [URL="boys5foursBBN.html"];Taft [URL="boys5foursTaft.html"];BelmontHill [URL="boys5foursBelmontHill.html"];Brooks [URL="boys5foursBrooks.html"];Nobles -> BBN[label="38.9 (43.22)
 04/19", weight="62", tooltip="NEIRA Boys & Girls Fours,BB&N, Nobles and Groton			
 Distance: 1350 Conditions: Moderate crosswind at the start growing stronger throughout the course. Comments: 5th and 6th boats often started 1-2 lengths ahead of the line. The 7th and 8th boats raced on the JV course between Northeastern and Eliot Bridge. Boys 7th/8th boats combined into an 8. Thank to Nobles and Groton for making the trip! 
 Boys 7th/8th - Nobles 2:49, BB&N 3:05
@@ -9,6 +9,10 @@ Taft -> BBN[label="21.1
 05/10", weight="79", tooltip="NEIRA Boys Fours, du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
 Distance: 1500 Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed. Comments: Alternated races with girls' teams. Order of boys races: B4, B5, B6, B3, B2, B1. (Note: winds/gusts grew stronger as raced progressed.) Gunn raced down with their 1st boat racing in the B2 and their 2nd in B3. In the B2 race, Gunn's boat flipped in the last 250 meters (all okay). That delay and delays in aligning boats in headwind delayed races beginning, for boys, with B3 as much as ~20 to 30 minutes. Thanks to all for your patience. Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BC0E341089C0A527BA3CCC47DE8BD6C4&cat=1", random="random"]; 
+Brooks -> BBN[label="19.9
+05/14", weight="81", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
 BelmontHill -> BBN[label="36.0 (40.0)
 04/26", weight="64", tooltip="NEIRA Boys Fours, The Ducey Cup: Belmont Hill vs. BB&N			
 Distance: 1350m Conditions: consistent very strong headwind throughout all racing, heavy rain through the first four races that stopped for the 1st boat race. Comments: Very unpleasant conditions.

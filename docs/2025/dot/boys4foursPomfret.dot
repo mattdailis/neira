@@ -1,4 +1,4 @@
-digraph boys4foursPomfret {Hopkins [URL="boys4foursHopkins.html"];Pomfret [URL="boys4foursPomfret.html"];Hotchkiss [URL="boys4foursHotchkiss.html"];Groton [URL="boys4foursGroton.html"];BerkshireAcademy [URL="boys4foursBerkshireAcademy.html"];NMH [URL="boys4foursNMH.html"];StMarks [URL="boys4foursStMarks.html"];LymeOldLyme [URL="boys4foursLymeOldLyme.html"];Taft [URL="boys4foursTaft.html"];BBN [URL="boys4foursBBN.html"];Taft -> Pomfret[label="34.2
+digraph boys4foursPomfret {StMarks [URL="boys4foursStMarks.html"];Hotchkiss [URL="boys4foursHotchkiss.html"];Pomfret [URL="boys4foursPomfret.html"];Hopkins [URL="boys4foursHopkins.html"];Taft [URL="boys4foursTaft.html"];BBN [URL="boys4foursBBN.html"];Middletown [URL="boys4foursMiddletown.html"];LymeOldLyme [URL="boys4foursLymeOldLyme.html"];Groton [URL="boys4foursGroton.html"];NMH [URL="boys4foursNMH.html"];BerkshireAcademy [URL="boys4foursBerkshireAcademy.html"];Taft -> Pomfret[label="34.2
 05/10", weight="66", tooltip="NEIRA Boys Fours, du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
 Distance: 1500 Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed. Comments: Alternated races with girls' teams. Order of boys races: B4, B5, B6, B3, B2, B1. (Note: winds/gusts grew stronger as raced progressed.) Gunn raced down with their 1st boat racing in the B2 and their 2nd in B3. In the B2 race, Gunn's boat flipped in the last 250 meters (all okay). That delay and delays in aligning boats in headwind delayed races beginning, for boys, with B3 as much as ~20 to 30 minutes. Thanks to all for your patience. Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BC0E341089C0A527BA3CCC47DE8BD6C4&cat=1", random="random"]; 
@@ -20,6 +20,10 @@ Taft -> Pomfret[label="30.1
 Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
 Dexter-Southfield rowed their novice boat in the B5 race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]; 
+Pomfret -> Middletown[label="11.8
+05/17", weight="89", tooltip="NEIRA Boys , Pomfret v. Middletown			
+Distance: 1500M Conditions: Very slight tailwind (2 to 5 mph), which was somewhat more pronounced in second half of race course. Good water. Comments: Alternated races with girls. The order of the boys' races was: B4, B2, B3, B1. During the warm-up and the B2 race, there were heavy downpours that mostly subsided by the end of the B2 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=382FC1E4D16CE7CDEFA550FE6850E783&cat=1", random="random"]; 
 Pomfret -> BerkshireAcademy[label="14.7
 04/23", weight="86", tooltip="NEIRA Boys ,Pomfret v. Berkshire, Marianapolis			
 Distance: 1500M Conditions: 8MPH headwind, stronger gusts in the first 500. Occasional gusty crosswinds, light chop, but generally good water. Comments: Alternated races with girls. Order of boys races: B3, B2, B1, B4

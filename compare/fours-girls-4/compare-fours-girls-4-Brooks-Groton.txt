@@ -1,13 +1,21 @@
 Brooks and Groton have raced head to head once on 2025-05-10
 Brooks won the race by 22.4 seconds
 
-There is exactly one path of length 2 between Brooks and Groton, via Brooks--(-0.9 4/26)-->Cambridge RLS--(6.53 5/3)-->Groton [Brooks net +5.63]
-It favors Brooks by a cumulative margin of 5.63 seconds
+There are 2 paths of length 2 between Brooks and Groton
+All of them favor Brooks
+From most recent to least recent:
+Brooks--(-0.9 4/26)-->Cambridge RLS--(6.53 5/3)-->Groton [Brooks net +5.63]
+Brooks--(0.1 5/14)-->BB&N--(22.44 4/19)-->Groton [Brooks net +22.54]
 
-There are 20 paths of length 3 between Brooks and Groton
-12/20 of them favor Brooks
+There are 31 paths of length 3 between Brooks and Groton
+16/31 of them favor Brooks
 From most recent to least recent:
 Brooks--(7.2 5/10)-->Choate--(16.62 4/30)-->Cambridge RLS--(6.53 5/3)-->Groton [Brooks net +30.35]
+Brooks--(56.4 5/14)-->St. Mark's--(-28.2 5/10)-->Pomfret--(-85.0 4/26)-->Groton [Groton net +56.8]
+Brooks--(0.1 5/14)-->BB&N--(32.0 5/10)-->Pomfret--(-85.0 4/26)-->Groton [Groton net +52.9]
+Brooks--(56.4 5/14)-->St. Mark's--(-45.5 5/10)-->Taft--(-35.5 4/26)-->Groton [Groton net +24.6]
+Brooks--(0.1 5/14)-->BB&N--(14.7 5/10)-->Taft--(-35.5 4/26)-->Groton [Groton net +20.7]
+Brooks--(7.2 5/10)-->Choate--(8.0 5/17)-->Taft--(-35.5 4/26)-->Groton [Groton net +20.3]
 Brooks--(7.2 5/10)-->Choate--(61.53 5/4)-->Pomfret--(-85.0 4/26)-->Groton [Groton net +16.27]
 Brooks--(9.7 4/26)-->NMH--(10.46 5/4)-->Taft--(-35.5 4/26)-->Groton [Groton net +15.34]
 Brooks--(7.2 5/10)-->Choate--(18.0 5/4)-->Taft--(-35.5 4/26)-->Groton [Groton net +10.3]
@@ -22,8 +30,14 @@ Brooks--(33.1 4/19)-->St. Mark's--(-28.2 5/10)-->Pomfret--(-85.0 4/26)-->Groton 
 Brooks--(33.1 4/19)-->St. Mark's--(-45.5 5/10)-->Taft--(-35.5 4/26)-->Groton [Groton net +47.9]
 Brooks--(33.1 4/19)-->St. Mark's--(-60.2 5/10)-->BB&N--(22.44 4/19)-->Groton [Groton net +4.66]
 Brooks--(7.2 5/10)-->Choate--(24.6 4/19)-->Taft--(-35.5 4/26)-->Groton [Groton net +3.7]
+Brooks--(33.1 4/19)-->St. Mark's--(-56.3 5/14)-->BB&N--(22.44 4/19)-->Groton [Groton net +0.76]
 Brooks--(33.1 4/19)-->St. Mark's--(-57.7 4/26)-->Nobles--(28.11 4/19)-->Groton [Brooks net +3.51]
 Brooks--(25.4 4/19)-->Middlesex--(-23.5 4/26)-->Cambridge RLS--(6.53 5/3)-->Groton [Brooks net +8.43]
+Brooks--(56.4 5/14)-->St. Mark's--(-60.2 5/10)-->BB&N--(22.44 4/19)-->Groton [Brooks net +18.64]
+Brooks--(0.1 5/14)-->BB&N--(-5.67 4/19)-->Nobles--(28.11 4/19)-->Groton [Brooks net +22.54]
+Brooks--(56.4 5/14)-->St. Mark's--(-56.3 5/14)-->BB&N--(22.44 4/19)-->Groton [Brooks net +22.54]
+Brooks--(56.4 5/14)-->St. Mark's--(-57.7 4/26)-->Nobles--(28.11 4/19)-->Groton [Brooks net +26.81]
 Brooks--(22.6 4/26)-->Middlesex--(-2.2 5/3)-->BB&N--(22.44 4/19)-->Groton [Brooks net +42.84]
 Brooks--(25.4 4/19)-->Middlesex--(-2.2 5/3)-->BB&N--(22.44 4/19)-->Groton [Brooks net +45.64]
+Brooks--(0.1 5/14)-->BB&N--(-10.8 4/16)-->Cambridge RLS--(6.53 5/3)-->Groton [Groton net +4.17]
 Brooks--(-0.9 4/26)-->Cambridge RLS--(10.8 4/16)-->BB&N--(22.44 4/19)-->Groton [Brooks net +32.34]

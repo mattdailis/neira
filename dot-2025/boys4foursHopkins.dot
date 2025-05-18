@@ -1,4 +1,16 @@
-digraph boys4foursHopkins {Hopkins [URL="boys4foursHopkins.html"];Pomfret [URL="boys4foursPomfret.html"];Hotchkiss [URL="boys4foursHotchkiss.html"];Brooks [URL="boys4foursBrooks.html"];BerkshireAcademy [URL="boys4foursBerkshireAcademy.html"];BelmontHill [URL="boys4foursBelmontHill.html"];LymeOldLyme [URL="boys4foursLymeOldLyme.html"];Taft [URL="boys4foursTaft.html"];NMH [URL="boys4foursNMH.html"];Middlesex [URL="boys4foursMiddlesex.html"];CambridgeRLS [URL="boys4foursCambridgeRLS.html"];Brooks -> Hopkins[label="64.0
+digraph boys4foursHopkins {Hotchkiss [URL="boys4foursHotchkiss.html"];Pomfret [URL="boys4foursPomfret.html"];Hopkins [URL="boys4foursHopkins.html"];Taft [URL="boys4foursTaft.html"];LymeOldLyme [URL="boys4foursLymeOldLyme.html"];BelmontHill [URL="boys4foursBelmontHill.html"];Brooks [URL="boys4foursBrooks.html"];Middlesex [URL="boys4foursMiddlesex.html"];GreenwichCountryDay [URL="boys4foursGreenwichCountryDay.html"];NMH [URL="boys4foursNMH.html"];BerkshireAcademy [URL="boys4foursBerkshireAcademy.html"];CambridgeRLS [URL="boys4foursCambridgeRLS.html"];Hopkins -> Hotchkiss[label="9.0
+05/18", weight="91", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+Hopkins -> GreenwichCountryDay[label="42.1
+05/18", weight="58", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+Brooks -> Hopkins[label="64.0
 04/26", weight="36", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 

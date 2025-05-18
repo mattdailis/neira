@@ -1,4 +1,4 @@
-digraph boys1foursTaft {Hopkins [URL="boys1foursHopkins.html"];Pomfret [URL="boys1foursPomfret.html"];DexterSouthfield [URL="boys1foursDexterSouthfield.html"];Hotchkiss [URL="boys1foursHotchkiss.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];NotreDame [URL="boys1foursNotreDame.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];Groton [URL="boys1foursGroton.html"];NMH [URL="boys1foursNMH.html"];StMarks [URL="boys1foursStMarks.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];Taft [URL="boys1foursTaft.html"];BBN [URL="boys1foursBBN.html"];Choate [URL="boys1foursChoate.html"];Pomfret -> Taft[label="6.9
+digraph boys1foursTaft {StMarks [URL="boys1foursStMarks.html"];Hotchkiss [URL="boys1foursHotchkiss.html"];Choate [URL="boys1foursChoate.html"];NotreDame [URL="boys1foursNotreDame.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];Pomfret [URL="boys1foursPomfret.html"];Hopkins [URL="boys1foursHopkins.html"];BBN [URL="boys1foursBBN.html"];Taft [URL="boys1foursTaft.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];DexterSouthfield [URL="boys1foursDexterSouthfield.html"];Groton [URL="boys1foursGroton.html"];NMH [URL="boys1foursNMH.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];Pomfret -> Taft[label="6.9
 05/10", weight="94", tooltip="NEIRA Boys Fours, du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
 Distance: 1500 Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed. Comments: Alternated races with girls' teams. Order of boys races: B4, B5, B6, B3, B2, B1. (Note: winds/gusts grew stronger as raced progressed.) Gunn raced down with their 1st boat racing in the B2 and their 2nd in B3. In the B2 race, Gunn's boat flipped in the last 250 meters (all okay). That delay and delays in aligning boats in headwind delayed races beginning, for boys, with B3 as much as ~20 to 30 minutes. Thanks to all for your patience. Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BC0E341089C0A527BA3CCC47DE8BD6C4&cat=1", random="random"]; 
@@ -18,6 +18,18 @@ Taft -> Choate[label="8.1
 04/19", weight="92", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
+Taft -> BerkshireAcademy[label="3.0
+05/17", weight="97", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+Taft -> Choate[label="6.1
+05/17", weight="94", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+Taft -> FrederickGunn[label="33.7
+05/17", weight="67", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
 Groton -> Taft[label="0.9
 04/26", weight="100", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 

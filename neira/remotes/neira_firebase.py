@@ -16,17 +16,17 @@ def main():
 
     firebase = fb.FirebaseApplication(firebase_config["databaseURL"], None)
 
-    # data_dir = "data/2_reviewed"
-    # for filename in os.listdir(data_dir):
-    #     uid = os.path.splitext(filename)[-2]
-    #     with open(os.path.join(data_dir, filename), "r") as f:
-    #         contents = json.load(f)
-    #     result = firebase.put("/races", uid, contents)
-    #     print(result)
+    data_dir = "data/2_reviewed"
+    for filename in os.listdir(data_dir):
+        uid = os.path.splitext(filename)[-2]
+        with open(os.path.join(data_dir, filename), "r") as f:
+            contents = json.load(f)
+        result = firebase.put("/races", uid, contents)
+        print(result)
 
     with open("founders-day-head-to-head.json", "r") as f:
         contents = json.load(f)
-    result = firebase.put("/founders-day", "2024", contents)
+    result = firebase.put("/founders-day", "2025", contents)
 
 
 if __name__ == "__main__":

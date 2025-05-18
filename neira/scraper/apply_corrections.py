@@ -38,6 +38,8 @@ def apply_corrections(corrections_file, input_dir, output_dir):
                 race_object["heats"][correction["heat_index"]]["varsity_index"] = (
                     correction["varsity_index"]
                 )
+            elif correction["type"] == "manual_override":
+                race_object = correction["new_contents"]
             else:
                 raise Exception("Unhandled correction type: " + correction["type"])
 

@@ -36,7 +36,6 @@ def get(data_dir):
 
 
 def founders_day_head_to_head_tuples():
-    return []
     with open("founders-day-head-to-head.json", "r") as f:
         founders_day_head_to_head = json.load(f)
     results = []
@@ -119,33 +118,34 @@ def get_head_to_head_tuples(data_dir, class_=None, gender=None) -> List[Datum]:
                         - fasterBoat["margin_from_winner"],
                         1,
                         )
-                else:
-                    margin = None
-                if distance == 1500:
-                    adjusted_margin = None
-                else:
-                    adjusted_margin = (
-                        round((1500.0 / distance) * margin, 2)
-                        if distance is not None and margin is not None
-                        else None
-                    )
+                
+                    if distance == 1500:
+                        adjusted_margin = None
+                    else:
+                        adjusted_margin = (
+                            round((1500.0 / distance) * margin, 2)
+                            if distance is not None and margin is not None
+                            else None
+                        )
 
-                results.append(
-                    Datum(
-                        date.strftime("%Y-%m-%d"),
-                        gender,
-                        boatName,
-                        fasterBoat["school"],
-                        varsity_index,
-                        slowerBoat["school"],
-                        varsity_index,
-                        margin,
-                        adjusted_margin,
-                        regatta_display_name,
-                        comment,
-                        url,
+                    results.append(
+                        Datum(
+                            date.strftime("%Y-%m-%d"),
+                            gender,
+                            boatName,
+                            fasterBoat["school"],
+                            varsity_index,
+                            slowerBoat["school"],
+                            varsity_index,
+                            margin,
+                            adjusted_margin,
+                            regatta_display_name,
+                            comment,
+                            url,
+                        )
                     )
-                )
+                else:
+                    margin = None  # This result is excluded
     results.extend(founders_day_head_to_head_tuples())
     return results
 
@@ -162,7 +162,7 @@ def parse_distance(comment):
             .replace(",", "")
             .replace("~", "")
             .split()[0]
-            .rstrip("m")
+            .rstrip("m'")
         )
     except Exception as e:
         traceback.print_exc()

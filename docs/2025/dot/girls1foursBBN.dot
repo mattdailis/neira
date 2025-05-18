@@ -1,4 +1,4 @@
-digraph girls1foursBBN {Pomfret [URL="girls1foursPomfret.html"];GreenwichAcademy [URL="girls1foursGreenwichAcademy.html"];Thayer [URL="girls1foursThayer.html"];Nobles [URL="girls1foursNobles.html"];Groton [URL="girls1foursGroton.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDay.html"];Taft [URL="girls1foursTaft.html"];MissPorters [URL="girls1foursMissPorters.html"];StMarks [URL="girls1foursStMarks.html"];Winsor [URL="girls1foursWinsor.html"];Berwick [URL="girls1foursBerwick.html"];FrederickGunn [URL="girls1foursFrederickGunn.html"];BBN [URL="girls1foursBBN.html"];Middlesex [URL="girls1foursMiddlesex.html"];CambridgeRLS [URL="girls1foursCambridgeRLS.html"];BBN -> Berwick[label="78.0 (86.67)
+digraph girls1foursBBN {StMarks [URL="girls1foursStMarks.html"];GreenwichAcademy [URL="girls1foursGreenwichAcademy.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDay.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademy.html"];Pomfret [URL="girls1foursPomfret.html"];Nobles [URL="girls1foursNobles.html"];BBN [URL="girls1foursBBN.html"];Brooks [URL="girls1foursBrooks.html"];Thayer [URL="girls1foursThayer.html"];FrederickGunn [URL="girls1foursFrederickGunn.html"];MissPorters [URL="girls1foursMissPorters.html"];Berwick [URL="girls1foursBerwick.html"];Groton [URL="girls1foursGroton.html"];Middlesex [URL="girls1foursMiddlesex.html"];Winsor [URL="girls1foursWinsor.html"];Taft [URL="girls1foursTaft.html"];CambridgeRLS [URL="girls1foursCambridgeRLS.html"];BBN -> Berwick[label="78.0 (86.67)
 04/05", weight="22", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Berwick Academy			
 Distance: 1350 Conditions: Overall very good conditions and flat water. Very slight cross wind but consistent for all races. Thanks to Berwick for making the trip!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CE456225129ACDB361E1BEAB29CB57A4&cat=5", random="random"]; 
@@ -35,6 +35,18 @@ Boys 7th/8th - Nobles 2:49, BB&N 3:05
 Girls 8th - BB&N 3:11, Nobles 3:17
 Girls 7th - 3:24.32, BB&N 3:32.06
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=74320C9FA98FF40EF58ED5364AA5D062&cat=5", random="random"]; 
+Brooks -> BBN[label="11.5
+05/14", weight="89", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
+BBN -> StMarks[label="2.3
+05/14", weight="98", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
+BBN -> BrewsterAcademy[label="20.5
+05/14", weight="80", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
 BBN -> Thayer[label="55.0 (61.11)
 04/23", weight="45", tooltip="NEIRA Girls Fours, Thayer & BB&N			
 Distance: 1350 M Conditions: Pretty neutral at the start, slight crossing wind from Boston to Cambridge Comments: Warm and sunny and good racing by all boats.

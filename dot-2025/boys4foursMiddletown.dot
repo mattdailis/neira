@@ -1,4 +1,4 @@
-digraph boys4foursMiddletown {NotreDame [URL="boys4foursNotreDame.html"];Hotchkiss [URL="boys4foursHotchkiss.html"];GreenwichCountryDay [URL="boys4foursGreenwichCountryDay.html"];Middletown [URL="boys4foursMiddletown.html"];NotreDame -> Middletown[label="24.4
+digraph boys4foursMiddletown {Hotchkiss [URL="boys4foursHotchkiss.html"];NotreDame [URL="boys4foursNotreDame.html"];Pomfret [URL="boys4foursPomfret.html"];Middletown [URL="boys4foursMiddletown.html"];GreenwichCountryDay [URL="boys4foursGreenwichCountryDay.html"];NotreDame -> Middletown[label="24.4
 04/20", weight="76", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
@@ -9,4 +9,8 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81
 Middletown -> GreenwichCountryDay[label="31.3
 04/20", weight="69", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
+Pomfret -> Middletown[label="11.8
+05/17", weight="89", tooltip="NEIRA Boys , Pomfret v. Middletown			
+Distance: 1500M Conditions: Very slight tailwind (2 to 5 mph), which was somewhat more pronounced in second half of race course. Good water. Comments: Alternated races with girls. The order of the boys' races was: B4, B2, B3, B1. During the warm-up and the B2 race, there were heavy downpours that mostly subsided by the end of the B2 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=382FC1E4D16CE7CDEFA550FE6850E783&cat=1", random="random"]}

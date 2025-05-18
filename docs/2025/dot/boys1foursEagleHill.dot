@@ -1,4 +1,8 @@
-digraph boys1foursEagleHill {WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Bancroft [URL="boys1foursBancroft.html"];Thayer [URL="boys1foursThayer.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];EagleHill [URL="boys1foursEagleHill.html"];WorcesterAcademy -> EagleHill[label="49.1
+digraph boys1foursEagleHill {WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Bancroft [URL="boys1foursBancroft.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Thayer [URL="boys1foursThayer.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];EagleHill [URL="boys1foursEagleHill.html"];EagleHill -> MarianapolisPrep[label="25.0
+05/10", weight="75", tooltip="NEIRA Boys & Girls Fours,Eagle Hill School vs. Marianapolis Prep			
+Distance: 1500m Conditions: Slight crosswind and light rain with low chop for both events.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FAF63A782B04A529C6B8AB09C77881B3&cat=5", random="random"]; 
+WorcesterAcademy -> EagleHill[label="49.1
 05/07", weight="51", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
 Distance: 1500m Conditions: Slight head/cross wind throughout the races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 

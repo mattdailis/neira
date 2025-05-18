@@ -1,4 +1,5 @@
 export const prerender = true;
+export const ssr = false;
 
 // Import the functions you need from the SDKs you need
 
@@ -51,7 +52,7 @@ export async function load({ params }) {
     console.log({ update })
 
     const racesRef = ref(db, 'races');
-    const foundersDayRef = ref(db, 'founders-day/2024');
+    const foundersDayRef = ref(db, 'founders-day/2025');
 
     const promises = await Promise.all([new Promise(resolve => {
         const unsubscribe = onValue(racesRef, snapshot => {

@@ -1,27 +1,45 @@
 NMH and Taft have raced head to head once on 2025-05-04
 NMH won the race by 10.46 seconds
 
-There are 3 paths of length 2 between NMH and Taft
-2/3 of them favor NMH
+There are 5 paths of length 2 between NMH and Taft
+4/5 of them favor NMH
 From most recent to least recent:
+NMH--(-7.54 5/4)-->Choate--(8.0 5/17)-->Taft [NMH net +0.46]
+NMH--(-5.36 5/14)-->Hotchkiss--(6.11 5/4)-->Taft [NMH net +0.75]
 NMH--(25.6 4/26)-->Hopkins--(11.87 5/4)-->Taft [NMH net +37.47]
 NMH--(-16.0 4/19)-->Hopkins--(11.87 5/4)-->Taft [Taft net +4.13]
 NMH--(-7.54 5/4)-->Choate--(24.6 4/19)-->Taft [NMH net +17.06]
 
-There are 42 paths of length 3 between NMH and Taft
-30/42 of them favor NMH
+There are 62 paths of length 3 between NMH and Taft
+45/62 of them favor NMH
 From most recent to least recent:
+NMH--(-5.36 5/14)-->Hotchkiss--(-11.89 5/4)-->Choate--(8.0 5/17)-->Taft [Taft net +9.25]
 NMH--(108.0 5/4)-->Canterbury--(-122.2 5/10)-->Hopkins--(11.87 5/4)-->Taft [Taft net +2.33]
+NMH--(-1.41 5/4)-->Hopkins--(-6.4 5/18)-->Hotchkiss--(6.11 5/4)-->Taft [Taft net +1.7]
+NMH--(-1.41 5/4)-->Hopkins--(-6.13 5/4)-->Choate--(8.0 5/17)-->Taft [NMH net +0.46]
+NMH--(4.35 5/4)-->Hotchkiss--(-11.89 5/4)-->Choate--(8.0 5/17)-->Taft [NMH net +0.46]
+NMH--(-5.36 5/14)-->Hotchkiss--(-11.89 5/4)-->Choate--(18.0 5/4)-->Taft [NMH net +0.75]
+NMH--(-5.36 5/14)-->Hotchkiss--(-5.76 5/4)-->Hopkins--(11.87 5/4)-->Taft [NMH net +0.75]
+NMH--(-5.36 5/14)-->Hotchkiss--(6.4 5/18)-->Hopkins--(11.87 5/4)-->Taft [NMH net +12.91]
+NMH--(4.35 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins--(11.87 5/4)-->Taft [NMH net +22.62]
 NMH--(-1.41 5/4)-->Hopkins--(122.2 5/10)-->Canterbury--(-97.0 5/4)-->Taft [NMH net +23.79]
+NMH--(-5.36 5/14)-->Hotchkiss--(56.79 5/4)-->Pomfret--(-17.3 5/10)-->Taft [NMH net +34.13]
 NMH--(-7.54 5/4)-->Choate--(61.53 5/4)-->Pomfret--(-17.3 5/10)-->Taft [NMH net +36.69]
 NMH--(4.35 5/4)-->Hotchkiss--(56.79 5/4)-->Pomfret--(-17.3 5/10)-->Taft [NMH net +43.84]
 NMH--(-7.54 5/4)-->Choate--(1.04 4/30)-->Winsor--(31.8 5/10)-->Taft [NMH net +25.3]
+NMH--(-10.6 4/26)-->Cambridge RLS--(-16.62 4/30)-->Choate--(8.0 5/17)-->Taft [Taft net +19.22]
 NMH--(-10.6 4/26)-->Cambridge RLS--(-16.62 4/30)-->Choate--(18.0 5/4)-->Taft [Taft net +9.22]
+NMH--(-9.7 4/26)-->Brooks--(56.4 5/14)-->St. Mark's--(-45.5 5/10)-->Taft [NMH net +1.2]
+NMH--(-5.36 5/14)-->Hotchkiss--(56.79 5/4)-->Pomfret--(-49.5 4/26)-->Taft [NMH net +1.93]
 NMH--(-7.54 5/4)-->Choate--(61.53 5/4)-->Pomfret--(-49.5 4/26)-->Taft [NMH net +4.49]
+NMH--(-9.7 4/26)-->Brooks--(0.1 5/14)-->BB&N--(14.7 5/10)-->Taft [NMH net +5.1]
+NMH--(-9.7 4/26)-->Brooks--(7.2 5/10)-->Choate--(8.0 5/17)-->Taft [NMH net +5.5]
 NMH--(-10.6 4/26)-->Cambridge RLS--(-15.58 4/30)-->Winsor--(31.8 5/10)-->Taft [NMH net +5.62]
 NMH--(4.35 5/4)-->Hotchkiss--(56.79 5/4)-->Pomfret--(-49.5 4/26)-->Taft [NMH net +11.64]
 NMH--(-9.7 4/26)-->Brooks--(7.2 5/10)-->Choate--(18.0 5/4)-->Taft [NMH net +15.5]
+NMH--(25.6 4/26)-->Hopkins--(-6.4 5/18)-->Hotchkiss--(6.11 5/4)-->Taft [NMH net +25.31]
 NMH--(12.9 4/26)-->Middlesex--(-2.2 5/3)-->BB&N--(14.7 5/10)-->Taft [NMH net +25.4]
+NMH--(25.6 4/26)-->Hopkins--(-6.13 5/4)-->Choate--(8.0 5/17)-->Taft [NMH net +27.47]
 NMH--(-10.6 4/26)-->Cambridge RLS--(6.53 5/3)-->Groton--(35.5 4/26)-->Taft [NMH net +31.43]
 NMH--(25.6 4/26)-->Hopkins--(31.0 5/4)-->Lyme/Old Lyme--(-22.0 5/4)-->Taft [NMH net +34.6]
 NMH--(25.6 4/26)-->Hopkins--(106.0 5/4)-->Canterbury--(-97.0 5/4)-->Taft [NMH net +34.6]
@@ -37,6 +55,8 @@ NMH--(12.9 4/26)-->Middlesex--(7.7 4/19)-->St. Mark's--(-45.5 5/10)-->Taft [Taft
 NMH--(-9.7 4/26)-->Brooks--(33.1 4/19)-->St. Mark's--(-45.5 5/10)-->Taft [Taft net +22.1]
 NMH--(-16.0 4/19)-->Hopkins--(-7.5 5/10)-->Berkshire Academy--(5.2 4/19)-->Taft [Taft net +18.3]
 NMH--(108.0 5/4)-->Canterbury--(-129.7 5/10)-->Berkshire Academy--(5.2 4/19)-->Taft [Taft net +16.5]
+NMH--(-16.0 4/19)-->Hopkins--(-6.4 5/18)-->Hotchkiss--(6.11 5/4)-->Taft [Taft net +16.29]
+NMH--(-16.0 4/19)-->Hopkins--(-6.13 5/4)-->Choate--(8.0 5/17)-->Taft [Taft net +14.13]
 NMH--(-16.0 4/19)-->Hopkins--(31.0 5/4)-->Lyme/Old Lyme--(-22.0 5/4)-->Taft [Taft net +7.0]
 NMH--(-16.0 4/19)-->Hopkins--(106.0 5/4)-->Canterbury--(-97.0 5/4)-->Taft [Taft net +7.0]
 NMH--(-16.0 4/19)-->Hopkins--(-6.13 5/4)-->Choate--(18.0 5/4)-->Taft [Taft net +4.13]
@@ -44,6 +64,7 @@ NMH--(-16.0 4/19)-->Hopkins--(5.76 5/4)-->Hotchkiss--(6.11 5/4)-->Taft [Taft net
 NMH--(-1.41 5/4)-->Hopkins--(-7.5 5/10)-->Berkshire Academy--(5.2 4/19)-->Taft [Taft net +3.71]
 NMH--(-10.6 4/26)-->Cambridge RLS--(-16.62 4/30)-->Choate--(24.6 4/19)-->Taft [Taft net +2.62]
 NMH--(-16.0 4/19)-->Hopkins--(-6.13 5/4)-->Choate--(24.6 4/19)-->Taft [NMH net +2.47]
+NMH--(-5.36 5/14)-->Hotchkiss--(-11.89 5/4)-->Choate--(24.6 4/19)-->Taft [NMH net +7.35]
 NMH--(-16.0 4/19)-->Hopkins--(122.2 5/10)-->Canterbury--(-97.0 5/4)-->Taft [NMH net +9.2]
 NMH--(-1.41 5/4)-->Hopkins--(-6.13 5/4)-->Choate--(24.6 4/19)-->Taft [NMH net +17.06]
 NMH--(4.35 5/4)-->Hotchkiss--(-11.89 5/4)-->Choate--(24.6 4/19)-->Taft [NMH net +17.06]
@@ -52,4 +73,5 @@ NMH--(-9.7 4/26)-->Brooks--(7.2 5/10)-->Choate--(24.6 4/19)-->Taft [NMH net +22.
 NMH--(25.6 4/26)-->Hopkins--(-7.5 5/10)-->Berkshire Academy--(5.2 4/19)-->Taft [NMH net +23.3]
 NMH--(25.6 4/26)-->Hopkins--(-6.13 5/4)-->Choate--(24.6 4/19)-->Taft [NMH net +44.07]
 NMH--(-10.6 4/26)-->Cambridge RLS--(10.8 4/16)-->BB&N--(14.7 5/10)-->Taft [NMH net +14.9]
+NMH--(-5.36 5/14)-->Hotchkiss--(16.7 4/16)-->Berkshire Academy--(5.2 4/19)-->Taft [NMH net +16.54]
 NMH--(4.35 5/4)-->Hotchkiss--(16.7 4/16)-->Berkshire Academy--(5.2 4/19)-->Taft [NMH net +26.25]

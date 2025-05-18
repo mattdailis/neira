@@ -1,4 +1,16 @@
-digraph boys1foursFrederickGunn {Hopkins [URL="boys1foursHopkins.html"];Pomfret [URL="boys1foursPomfret.html"];Hotchkiss [URL="boys1foursHotchkiss.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];Canterbury [URL="boys1foursCanterbury.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];NMH [URL="boys1foursNMH.html"];Choate [URL="boys1foursChoate.html"];FrederickGunn -> Canterbury[label="14.0
+digraph boys1foursFrederickGunn {Hotchkiss [URL="boys1foursHotchkiss.html"];Choate [URL="boys1foursChoate.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];Pomfret [URL="boys1foursPomfret.html"];Hopkins [URL="boys1foursHopkins.html"];Taft [URL="boys1foursTaft.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];Canterbury [URL="boys1foursCanterbury.html"];NMH [URL="boys1foursNMH.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];Taft -> FrederickGunn[label="33.7
+05/17", weight="67", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+BerkshireAcademy -> FrederickGunn[label="30.6
+05/17", weight="70", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+Choate -> FrederickGunn[label="27.6
+05/17", weight="73", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+FrederickGunn -> Canterbury[label="14.0
 04/19", weight="86", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Canterbury School			
 Distance: 1500 Conditions: Mostly protected waters with some crosswind and very slight chop in the first 500 in particular. Comments: Gunn second boats (B) raced up with the first boats.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FD9BF2C36AB3E5D3343A43D22FCCB16E&cat=5", random="random"]; 

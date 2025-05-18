@@ -1,4 +1,8 @@
-digraph boys3foursMiddletown {Middletown [URL="boys3foursMiddletown.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];Hotchkiss -> Middletown[label="80.9
+digraph boys3foursMiddletown {Pomfret [URL="boys3foursPomfret.html"];Middletown [URL="boys3foursMiddletown.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];Hotchkiss -> Middletown[label="80.9
 04/20", weight="20", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
+Pomfret -> Middletown[label="31.5
+05/17", weight="69", tooltip="NEIRA Boys , Pomfret v. Middletown			
+Distance: 1500M Conditions: Very slight tailwind (2 to 5 mph), which was somewhat more pronounced in second half of race course. Good water. Comments: Alternated races with girls. The order of the boys' races was: B4, B2, B3, B1. During the warm-up and the B2 race, there were heavy downpours that mostly subsided by the end of the B2 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=382FC1E4D16CE7CDEFA550FE6850E783&cat=1", random="random"]}

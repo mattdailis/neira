@@ -1,4 +1,28 @@
-digraph girls1foursStMarysLynn {Hopkins [URL="girls1foursHopkins.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];Pomfret [URL="girls1foursPomfret.html"];StMarysLynn [URL="girls1foursStMarysLynn.html"];NMH [URL="girls1foursNMH.html"];NMH -> StMarysLynn[label="20.3
+digraph girls1foursStMarysLynn {WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDay.html"];Pomfret [URL="girls1foursPomfret.html"];Hopkins [URL="girls1foursHopkins.html"];StMarysLynn [URL="girls1foursStMarysLynn.html"];Berwick [URL="girls1foursBerwick.html"];DexterSouthfield [URL="girls1foursDexterSouthfield.html"];NMH [URL="girls1foursNMH.html"];StMarysLynn -> DexterSouthfield[label="21.1
+05/11", weight="79", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, St. Mary's Lynn, Dexter Southfield, Dublin School			
+Distance: 1500 Conditions: Strong crosswind at the start, becoming protected by the shore as race went on. Flat water conditions. Incoming tide but strong down stream current. Conditions consistent for all races. Comments: Boys 4V was novices and boys 5V was mixed novices. Girls 3V and 4 were novice races. All novice races served as scrimmages to get athletes racing experience. Thank you to all teams for traveling Berwick!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FDB08A4983B97B133607F94BDB7F822B&cat=5", random="random"]; 
+StMarysLynn -> Berwick[label="51.4
+05/11", weight="49", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, St. Mary's Lynn, Dexter Southfield, Dublin School			
+Distance: 1500 Conditions: Strong crosswind at the start, becoming protected by the shore as race went on. Flat water conditions. Incoming tide but strong down stream current. Conditions consistent for all races. Comments: Boys 4V was novices and boys 5V was mixed novices. Girls 3V and 4 were novice races. All novice races served as scrimmages to get athletes racing experience. Thank you to all teams for traveling Berwick!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FDB08A4983B97B133607F94BDB7F822B&cat=5", random="random"]; 
+NMH -> StMarysLynn[label="29.0 (31.07)
+05/17", weight="71", tooltip="NEIRA Boys & Girls Fours,NMH vs Middlesex, Newton Country Day and St. Mary's - Lynn			
+Distance: 1400m (upstream) Conditions: A strong current continued to provide plenty of extra length to our standard course; moderate chop due to blustery tailwinds but good conditions overall Comments: In the boys 4th boat race, a Middlesex seat broke a wheel early in the contest that made it difficult for its oarsman to use his full drive for the rest of the race. Please consider this when assessing the margin for NEIRA seeding purposes. 
+One of our final events was the Eights race, which featured two NMH crews and one St Mary's crew. Results were: 
+1. NMH Girls novice eight - 6:35
+2. NMH mixed eight - 7:02
+3. St Mary's - Lynn - 7:49
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=30B60C8D1DD9BD66CE6EB65F1C28CCEB&cat=5", random="random"]; 
+NewtonCountryDay -> StMarysLynn[label="16.0 (17.14)
+05/17", weight="84", tooltip="NEIRA Boys & Girls Fours,NMH vs Middlesex, Newton Country Day and St. Mary's - Lynn			
+Distance: 1400m (upstream) Conditions: A strong current continued to provide plenty of extra length to our standard course; moderate chop due to blustery tailwinds but good conditions overall Comments: In the boys 4th boat race, a Middlesex seat broke a wheel early in the contest that made it difficult for its oarsman to use his full drive for the rest of the race. Please consider this when assessing the margin for NEIRA seeding purposes. 
+One of our final events was the Eights race, which featured two NMH crews and one St Mary's crew. Results were: 
+1. NMH Girls novice eight - 6:35
+2. NMH mixed eight - 7:02
+3. St Mary's - Lynn - 7:49
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=30B60C8D1DD9BD66CE6EB65F1C28CCEB&cat=5", random="random"]; 
+NMH -> StMarysLynn[label="20.3
 04/19", weight="80", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, NMB, St. Mary's-Lynn			
 Distance: 1500m Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Hopkins' oar popped out of the oarlock in the 3rd boat race in the last 200m and they had to stop to reset for a few seconds. Comments: Tailwinds increased somewhat during the course of racing. Order of girls races: G1, G4, G3, G2, G5. (There was an hour and fifteen minutes between the G2 and G5 race. 15 minutes between the other four races.)
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4DE358C946007063FCBBB37DE8C21C1A&cat=1", random="random"]; 

@@ -1,4 +1,12 @@
-digraph boys4foursNMH {Hopkins [URL="boys4foursHopkins.html"];Pomfret [URL="boys4foursPomfret.html"];Hotchkiss [URL="boys4foursHotchkiss.html"];Brooks [URL="boys4foursBrooks.html"];BelmontHill [URL="boys4foursBelmontHill.html"];LymeOldLyme [URL="boys4foursLymeOldLyme.html"];Taft [URL="boys4foursTaft.html"];NMH [URL="boys4foursNMH.html"];Middlesex [URL="boys4foursMiddlesex.html"];CambridgeRLS [URL="boys4foursCambridgeRLS.html"];Brooks -> NMH[label="43.0
+digraph boys4foursNMH {Hotchkiss [URL="boys4foursHotchkiss.html"];Pomfret [URL="boys4foursPomfret.html"];Hopkins [URL="boys4foursHopkins.html"];Taft [URL="boys4foursTaft.html"];LymeOldLyme [URL="boys4foursLymeOldLyme.html"];BelmontHill [URL="boys4foursBelmontHill.html"];Brooks [URL="boys4foursBrooks.html"];Middlesex [URL="boys4foursMiddlesex.html"];NMH [URL="boys4foursNMH.html"];CambridgeRLS [URL="boys4foursCambridgeRLS.html"];NMH -> Middlesex[label="39.0 (41.79)
+05/17", weight="61", tooltip="NEIRA Boys & Girls Fours,NMH vs Middlesex, Newton Country Day and St. Mary's - Lynn			
+Distance: 1400m (upstream) Conditions: A strong current continued to provide plenty of extra length to our standard course; moderate chop due to blustery tailwinds but good conditions overall Comments: In the boys 4th boat race, a Middlesex seat broke a wheel early in the contest that made it difficult for its oarsman to use his full drive for the rest of the race. Please consider this when assessing the margin for NEIRA seeding purposes. 
+One of our final events was the Eights race, which featured two NMH crews and one St Mary's crew. Results were: 
+1. NMH Girls novice eight - 6:35
+2. NMH mixed eight - 7:02
+3. St Mary's - Lynn - 7:49
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=30B60C8D1DD9BD66CE6EB65F1C28CCEB&cat=5", random="random"]; 
+Brooks -> NMH[label="43.0
 04/26", weight="57", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
@@ -14,6 +22,10 @@ NMH -> Hopkins[label="21.0
 04/26", weight="79", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
+NMH -> Hotchkiss[label="1.7 (1.82)
+05/14", weight="99", tooltip="NEIRA Boys & Girls Fours,NMH vs Hotchkiss			
+Distance: 1400 m (upstream) Conditions: Strong current to work against, but low levels of debris and great conditions for racing; starting locations varied somewhat for each race so comparisons between different events are not valid Comments: Great racing by all crews. The boys first boat race was a dead heat until the last ten strokes. Thank you to Hotchkiss crews and coaches for making the mid-week trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DDC5426ECBA0CD8A43E8BFC5C78F3C69&cat=5", random="random"]; 
 BelmontHill -> NMH[label="40.6
 04/19", weight="60", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
 Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).

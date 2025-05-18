@@ -1,4 +1,4 @@
-digraph girls2foursDexterSouthfield {Groton [URL="girls2foursGroton.html"];Taft [URL="girls2foursTaft.html"];DexterSouthfield [URL="girls2foursDexterSouthfield.html"];Pomfret [URL="girls2foursPomfret.html"];Groton -> DexterSouthfield[label="58.5
+digraph girls2foursDexterSouthfield {Pomfret [URL="girls2foursPomfret.html"];Taft [URL="girls2foursTaft.html"];StMarysLynn [URL="girls2foursStMarysLynn.html"];DexterSouthfield [URL="girls2foursDexterSouthfield.html"];Groton [URL="girls2foursGroton.html"];Groton -> DexterSouthfield[label="58.5
 04/26", weight="42", tooltip="NEIRA Girls Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500m Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with boys. Order of girls races: G4, G3, G2, G1.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5150789F21FD9599874CA9451EBDC220&cat=1", random="random"]; 
@@ -9,4 +9,8 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5150789F21FD959987
 Pomfret -> DexterSouthfield[label="34.3
 04/26", weight="66", tooltip="NEIRA Girls Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500m Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with boys. Order of girls races: G4, G3, G2, G1.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5150789F21FD9599874CA9451EBDC220&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5150789F21FD9599874CA9451EBDC220&cat=1", random="random"]; 
+DexterSouthfield -> StMarysLynn[label="21.7
+05/11", weight="79", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, St. Mary's Lynn, Dexter Southfield, Dublin School			
+Distance: 1500 Conditions: Strong crosswind at the start, becoming protected by the shore as race went on. Flat water conditions. Incoming tide but strong down stream current. Conditions consistent for all races. Comments: Boys 4V was novices and boys 5V was mixed novices. Girls 3V and 4 were novice races. All novice races served as scrimmages to get athletes racing experience. Thank you to all teams for traveling Berwick!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FDB08A4983B97B133607F94BDB7F822B&cat=5", random="random"]}

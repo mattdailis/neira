@@ -1,4 +1,4 @@
-digraph boys2foursMiddletown {NotreDame [URL="boys2foursNotreDame.html"];Middletown [URL="boys2foursMiddletown.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];Hotchkiss -> Middletown[label="17.1
+digraph boys2foursMiddletown {Hotchkiss [URL="boys2foursHotchkiss.html"];NotreDame [URL="boys2foursNotreDame.html"];Pomfret [URL="boys2foursPomfret.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Middletown [URL="boys2foursMiddletown.html"];Hotchkiss -> Middletown[label="17.1
 04/20", weight="83", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
@@ -6,6 +6,10 @@ NotreDame -> Middletown[label="10.9
 04/20", weight="90", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
+Pomfret -> Middletown[label="8.7
+05/17", weight="92", tooltip="NEIRA Boys , Pomfret v. Middletown			
+Distance: 1500M Conditions: Very slight tailwind (2 to 5 mph), which was somewhat more pronounced in second half of race course. Good water. Comments: Alternated races with girls. The order of the boys' races was: B4, B2, B3, B1. During the warm-up and the B2 race, there were heavy downpours that mostly subsided by the end of the B2 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=382FC1E4D16CE7CDEFA550FE6850E783&cat=1", random="random"]; 
 LymeOldLyme -> Middletown[label="19.6
 04/30", weight="81", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Middletown			
 Distance: 1500 Conditions: 7-11 mph cross tail wind. Waves challenging for 300-400 meters. Comments: It was a great day of racing. Lyme/Old Lyme was excited to host Middletown at our lake. 

@@ -8,13 +8,15 @@ Groton--(-22.4 5/10)-->Brooks--(35.3 4/26)-->Hopkins [Groton net +12.9]
 Groton--(35.5 4/26)-->Taft--(-11.87 5/4)-->Hopkins [Groton net +23.63]
 Groton--(-6.53 5/3)-->Cambridge RLS--(36.2 4/26)-->Hopkins [Groton net +29.67]
 
-There are 41 paths of length 3 between Groton and Hopkins
-28/41 of them favor Groton
+There are 48 paths of length 3 between Groton and Hopkins
+33/48 of them favor Groton
 From most recent to least recent:
+Groton--(-15.2 5/10)-->Choate--(8.0 5/17)-->Taft--(-11.87 5/4)-->Hopkins [Hopkins net +19.07]
 Groton--(-22.4 5/10)-->Brooks--(7.2 5/10)-->Choate--(6.13 5/4)-->Hopkins [Hopkins net +9.07]
 Groton--(-15.2 5/10)-->Choate--(7.54 5/4)-->NMH--(-1.41 5/4)-->Hopkins [Hopkins net +9.07]
 Groton--(-15.2 5/10)-->Choate--(11.89 5/4)-->Hotchkiss--(-5.76 5/4)-->Hopkins [Hopkins net +9.07]
 Groton--(-15.2 5/10)-->Choate--(18.0 5/4)-->Taft--(-11.87 5/4)-->Hopkins [Hopkins net +9.07]
+Groton--(-15.2 5/10)-->Choate--(11.89 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins [Groton net +3.09]
 Groton--(-6.53 5/3)-->Cambridge RLS--(-16.62 4/30)-->Choate--(6.13 5/4)-->Hopkins [Hopkins net +17.02]
 Groton--(-22.4 5/10)-->Brooks--(9.7 4/26)-->NMH--(-1.41 5/4)-->Hopkins [Hopkins net +14.11]
 Groton--(-6.53 5/3)-->Cambridge RLS--(10.6 4/26)-->NMH--(-1.41 5/4)-->Hopkins [Groton net +2.66]
@@ -35,10 +37,14 @@ Groton--(85.0 4/26)-->Pomfret--(-61.53 5/4)-->Choate--(6.13 5/4)-->Hopkins [Grot
 Groton--(-6.53 5/3)-->Cambridge RLS--(0.9 4/26)-->Brooks--(35.3 4/26)-->Hopkins [Groton net +29.67]
 Groton--(-6.53 5/3)-->Cambridge RLS--(10.6 4/26)-->NMH--(25.6 4/26)-->Hopkins [Groton net +29.67]
 Groton--(-6.53 5/3)-->Cambridge RLS--(23.5 4/26)-->Middlesex--(12.7 4/26)-->Hopkins [Groton net +29.67]
+Groton--(35.5 4/26)-->Taft--(-8.0 5/17)-->Choate--(6.13 5/4)-->Hopkins [Groton net +33.63]
+Groton--(85.0 4/26)-->Pomfret--(-56.79 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins [Groton net +34.61]
+Groton--(35.5 4/26)-->Taft--(-6.11 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins [Groton net +35.79]
 Groton--(-15.2 5/10)-->Choate--(16.62 4/30)-->Cambridge RLS--(36.2 4/26)-->Hopkins [Groton net +37.62]
 Groton--(35.5 4/26)-->Taft--(-10.46 5/4)-->NMH--(25.6 4/26)-->Hopkins [Groton net +50.64]
 Groton--(85.0 4/26)-->Pomfret--(-17.3 5/10)-->Taft--(-11.87 5/4)-->Hopkins [Groton net +55.83]
 Groton--(85.0 4/26)-->Pomfret--(-32.1 4/23)-->Berkshire Academy--(7.5 5/10)-->Hopkins [Groton net +60.4]
+Groton--(-22.44 4/19)-->BB&N--(25.78 4/26)-->Greenwich Academy--(-54.2 5/18)-->Hopkins [Hopkins net +50.86]
 Groton--(-22.4 5/10)-->Brooks--(9.7 4/26)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +28.7]
 Groton--(-15.2 5/10)-->Choate--(7.54 5/4)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +23.66]
 Groton--(-22.44 4/19)-->BB&N--(25.78 4/26)-->Greenwich Academy--(-23.2 5/10)-->Hopkins [Hopkins net +19.86]
@@ -48,6 +54,7 @@ Groton--(-22.44 4/19)-->BB&N--(2.2 5/3)-->Middlesex--(12.7 4/26)-->Hopkins [Hopk
 Groton--(-15.2 5/10)-->Choate--(24.6 4/19)-->Taft--(-11.87 5/4)-->Hopkins [Hopkins net +2.47]
 Groton--(35.5 4/26)-->Taft--(-10.46 5/4)-->NMH--(-16.0 4/19)-->Hopkins [Groton net +9.04]
 Groton--(-15.2 5/10)-->Choate--(19.5 4/19)-->Berkshire Academy--(7.5 5/10)-->Hopkins [Groton net +11.8]
+Groton--(-22.44 4/19)-->BB&N--(-0.1 5/14)-->Brooks--(35.3 4/26)-->Hopkins [Groton net +12.76]
 Groton--(-22.4 5/10)-->Brooks--(25.4 4/19)-->Middlesex--(12.7 4/26)-->Hopkins [Groton net +15.7]
 Groton--(35.5 4/26)-->Taft--(-24.6 4/19)-->Choate--(6.13 5/4)-->Hopkins [Groton net +17.03]
 Groton--(35.5 4/26)-->Taft--(-5.2 4/19)-->Berkshire Academy--(7.5 5/10)-->Hopkins [Groton net +37.8]

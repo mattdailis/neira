@@ -66,38 +66,61 @@
 
 	let uid = 1;
 
+	// let schools = [
+	// 	'Nobles',
+	// 	'Groton',
+	// 	'Brooks',
+	// 	'BB&N',
+	// 	'Middlesex',
+	// 	'Taft',
+	// 	'Cambridge RLS',
+	// 	'Choate',
+	// 	'Hopkins',
+	// 	'Winsor',
+	// 	'Frederick Gunn',
+	// 	"Miss Porter's",
+	// 	'Brewster Academy',
+	// 	'Canterbury',
+	// 	'Greenwich Academy',
+	// 	'Lyme/Old Lyme',
+	// 	"St. Mark's",
+	// 	'NMH',
+	// 	'Berkshire Academy',
+	// 	'Newton Country Day',
+	// 	'Pomfret'
+	// ];
 	let schools = [
-		'Nobles',
-		'Groton',
-		'Brooks',
-		'BB&N',
-		'Middlesex',
-		'Taft',
-		'Cambridge RLS',
-		'Choate',
-		'Hopkins',
-		'Winsor',
-		'Frederick Gunn',
-		"Miss Porter's",
-		'Brewster Academy',
-		'Canterbury',
-		'Greenwich Academy',
-		'Lyme/Old Lyme',
+		"Brooks",
+		"Nobles",
+		"Groton",
+		"Winsor",
+		"NMH",
+		"BB&N",
 		"St. Mark's",
-		'NMH',
-		'Berkshire Academy',
-		'Newton Country Day',
-		'Pomfret'
-	];
+		"Hotchkiss",
+		"Miss Porter's",
+		"Taft",
+		"Choate",
+		"Berkshire Academy",
+		"Frederick Gunn",
+		"Greenwich Academy",
+		"Hopkins",
+		"Brewster Academy",
+		"Middlesex",
+		"Cambridge RLS",
+		"Lyme/Old Lyme"
+	]
 
 	let unseeded = schools.map((school) => ({
 		id: uid++,
 		description: school
-	}));
+	}))
 
 	let seeding = [];
 
 	let selected = [unseeded[0]];
+
+	loadState();
 
 	function add(input) {
 		const todo = {
@@ -133,6 +156,9 @@
 		seeding = [...seeding.slice(0, index), newValue, ...seeding.slice(index)];
 		unseeded = unseeded.filter((x) => x.id != newValue.id);
 		selected = [newValue];
+		localStorage.setItem("seeding", JSON.stringify(seeding));
+		localStorage.setItem("unseeded", JSON.stringify(unseeded));
+		localStorage.setItem("selected", JSON.stringify(selected));
 	}
 
 	function moveToUnseeded(x) {
@@ -142,6 +168,7 @@
 		unseeded = [...unseeded.slice(0, index), newValue, ...unseeded.slice(index)];
 		seeding = seeding.filter((x) => x.id != newValue.id);
 		selected = [newValue];
+		saveState();
 	}
 
 	// function mark(todo, done) {
@@ -149,12 +176,6 @@
 	// 	remove(todo);
 	// 	todos = todos.concat(todo);
 	// }
-
-	function mark(todo, seeded) {
-		todo.seeded = seeded;
-		remove(todo);
-		todos = todos.concat(todo);
-	}
 
 	function onKeyDown(e) {
 		if (showModal) return;
@@ -173,10 +194,11 @@
 			switch (e.keyCode) {
 				case 38: // up = 38
 					seeding = moveUp(seeding, index);
-
+					localStorage.setItem("seeding", JSON.stringify(seeding));
 					break;
 				case 40: // down = 40
 					seeding = moveDown(seeding, index);
+					localStorage.setItem("seeding", JSON.stringify(seeding));
 					break;
 				case 37: // left = 37
 					moveToUnseeded(selected[0]);
@@ -190,10 +212,12 @@
 			switch (e.keyCode) {
 				case 38: // up = 38
 					unseeded = moveUp(unseeded, index);
+					localStorage.setItem("unseeded", JSON.stringify(unseeded));
 
 					break;
 				case 40: // down = 40
 					unseeded = moveDown(unseeded, index);
+					localStorage.setItem("unseeded", JSON.stringify(unseeded));
 					break;
 				case 37: // left = 37
 					// moveToUnseeded(selected[0]);
@@ -205,6 +229,24 @@
 			}
 		}
 	}
+
+	function saveState() {
+		localStorage.setItem("seeding", JSON.stringify(seeding));
+		localStorage.setItem("unseeded", JSON.stringify(unseeded));
+		localStorage.setItem("selected", JSON.stringify(selected));
+	}
+
+	function loadState() {
+		let storedUnseeded = JSON.parse(localStorage.getItem("unseeded"));
+		let storedSeeding = JSON.parse(localStorage.getItem("seeding"));
+		let storedSelected = JSON.parse(localStorage.getItem("selected"));
+
+		if (storedSeeding !== null) {
+			unseeded = storedUnseeded;
+			seeding = storedSeeding;
+			selected = storedSelected;
+		}
+	}
 </script>
 
 <!-- <h1>Yo</h1> -->
@@ -213,6 +255,12 @@
 	style="height: calc(100vh - 43px); overflow: hidden"
 >
 	<div class="w3-col s4" style="justify-content: left">
+		<!-- <select style="margin-top:10px">
+			<option>G1</option>
+			<option>G2</option>
+			<option>G3</option>
+			<option>G4</option>
+		</select> -->
 		<div class="board">
 			<div class="left">
 				<h2>Unseeded</h2>
@@ -228,8 +276,10 @@
 							on:click={(e) => {
 								if (e.shiftKey) {
 									selected = [selected[0], todo];
+									saveState();
 								} else {
 									selected = [todo];
+									saveState();
 								}
 							}}
 						>
@@ -344,7 +394,7 @@
 				</ul>
 			{/if}
 		</div>
-		<div class="researchpane">
+		<!-- <div class="researchpane">
 			<input
 				placeholder="this box does nothing yet..."
 				on:keydown={(e) => e.key === 'Enter' && add(e.target)}
@@ -373,7 +423,7 @@
 					</tbody>
 				</table>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </div>
 

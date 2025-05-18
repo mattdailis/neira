@@ -1,4 +1,4 @@
-digraph girls1foursWorcesterAcademy {WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];SacredHeart [URL="girls1foursSacredHeart.html"];MarianapolisPrep [URL="girls1foursMarianapolisPrep.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademy.html"];Suffield [URL="girls1foursSuffield.html"];StMarysLynn [URL="girls1foursStMarysLynn.html"];Derryfield [URL="girls1foursDerryfield.html"];Berwick [URL="girls1foursBerwick.html"];Derryfield -> WorcesterAcademy[label="31.6
+digraph girls1foursWorcesterAcademy {WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademy.html"];Suffield [URL="girls1foursSuffield.html"];StMarysLynn [URL="girls1foursStMarysLynn.html"];Berwick [URL="girls1foursBerwick.html"];DexterSouthfield [URL="girls1foursDexterSouthfield.html"];Derryfield [URL="girls1foursDerryfield.html"];SacredHeart [URL="girls1foursSacredHeart.html"];MarianapolisPrep [URL="girls1foursMarianapolisPrep.html"];Derryfield -> WorcesterAcademy[label="31.6
 04/27", weight="69", tooltip="NEIRA Girls Fours, Worcester Academy, Berwick Academy, Derryfield, Sacred Heart-Greenwich			
 Conditions: Strong cross/tailwind (20mph), heavy chop throughout races. Wind picked up considerably between 1st and last races Comments: Girls V1 race was approximately 1550 meters. Girls 2V race was approximately 1475 meters.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5100A5CA83A99A9CD2E37FEC65103FEF&cat=1", random="random"]; 
@@ -10,6 +10,10 @@ WorcesterAcademy -> Berwick[label="21.0
 04/27", weight="79", tooltip="NEIRA Girls Fours, Worcester Academy, Berwick Academy, Derryfield, Sacred Heart-Greenwich			
 Conditions: Strong cross/tailwind (20mph), heavy chop throughout races. Wind picked up considerably between 1st and last races Comments: Girls V1 race was approximately 1550 meters. Girls 2V race was approximately 1475 meters.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5100A5CA83A99A9CD2E37FEC65103FEF&cat=1", random="random"]; 
+DexterSouthfield -> WorcesterAcademy[label="61.6
+05/14", weight="39", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Dexter-Southfield and Bancroft			
+Distance: 1500 meters Conditions: Strong crosswind throughout all races. In GV1 race, Dexter-Southfield A was GV1 and Dexter-Southfield B was GV2. In BV2 race, Dexter-Southfield A was BV2 and Dexter-Southfield B was BV3. The BV4 event was a Mixed Novice 4 scrimmage in order to get more kids racing. Thank you to Dexter-Southfield and Bancroft for racing today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=11355464469ECB76F8D6E495FB0C1364&cat=5", random="random"]; 
 BrewsterAcademy -> WorcesterAcademy[label="51.5
 04/16", weight="49", tooltip="NEIRA Boys & Girls Fours,'Worcester Academy' and 'Brewster Academy'			
 Distance: 1500m Conditions: Windy conditions. Stayed pretty much the same throughout all races. Slight crosswind coming across from the Worcester side to the Shrewsbury side of the lake. Comments: The results for the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Brewster Academy raced.

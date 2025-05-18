@@ -1,9 +1,11 @@
 Choate and Hopkins have raced head to head once on 2025-05-04
 Choate won the race by 6.13 seconds
 
-There are 6 paths of length 2 between Choate and Hopkins
-5/6 of them favor Choate
+There are 8 paths of length 2 between Choate and Hopkins
+6/8 of them favor Choate
 From most recent to least recent:
+Choate--(8.0 5/17)-->Taft--(-11.87 5/4)-->Hopkins [Hopkins net +3.87]
+Choate--(11.89 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins [Choate net +18.29]
 Choate--(-7.2 5/10)-->Brooks--(35.3 4/26)-->Hopkins [Choate net +28.1]
 Choate--(7.54 5/4)-->NMH--(25.6 4/26)-->Hopkins [Choate net +33.14]
 Choate--(16.62 4/30)-->Cambridge RLS--(36.2 4/26)-->Hopkins [Choate net +52.82]
@@ -11,15 +13,32 @@ Choate--(7.54 5/4)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +8.46]
 Choate--(24.6 4/19)-->Taft--(-11.87 5/4)-->Hopkins [Choate net +12.73]
 Choate--(19.5 4/19)-->Berkshire Academy--(7.5 5/10)-->Hopkins [Choate net +27.0]
 
-There are 44 paths of length 3 between Choate and Hopkins
-36/44 of them favor Choate
+There are 68 paths of length 3 between Choate and Hopkins
+51/68 of them favor Choate
 From most recent to least recent:
+Choate--(8.0 5/17)-->Taft--(97.0 5/4)-->Canterbury--(-122.2 5/10)-->Hopkins [Hopkins net +17.2]
 Choate--(18.0 5/4)-->Taft--(97.0 5/4)-->Canterbury--(-122.2 5/10)-->Hopkins [Hopkins net +7.2]
 Choate--(7.54 5/4)-->NMH--(108.0 5/4)-->Canterbury--(-122.2 5/10)-->Hopkins [Hopkins net +6.66]
+Choate--(8.0 5/17)-->Taft--(-10.46 5/4)-->NMH--(-1.41 5/4)-->Hopkins [Hopkins net +3.87]
+Choate--(8.0 5/17)-->Taft--(-6.11 5/4)-->Hotchkiss--(-5.76 5/4)-->Hopkins [Hopkins net +3.87]
+Choate--(7.54 5/4)-->NMH--(-5.36 5/14)-->Hotchkiss--(-5.76 5/4)-->Hopkins [Hopkins net +3.58]
+Choate--(8.0 5/17)-->Taft--(22.0 5/4)-->Lyme/Old Lyme--(-31.0 5/4)-->Hopkins [Hopkins net +1.0]
+Choate--(8.0 5/17)-->Taft--(97.0 5/4)-->Canterbury--(-106.0 5/4)-->Hopkins [Hopkins net +1.0]
+Choate--(8.0 5/17)-->Taft--(-6.11 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins [Choate net +8.29]
+Choate--(7.54 5/4)-->NMH--(-5.36 5/14)-->Hotchkiss--(6.4 5/18)-->Hopkins [Choate net +8.58]
+Choate--(61.53 5/4)-->Pomfret--(-56.79 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins [Choate net +11.14]
+Choate--(70.93 5/4)-->Frederick Gunn--(-66.19 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins [Choate net +11.14]
+Choate--(11.89 5/4)-->Hotchkiss--(5.36 5/14)-->NMH--(-1.41 5/4)-->Hopkins [Choate net +15.84]
+Choate--(7.54 5/4)-->NMH--(4.35 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins [Choate net +18.29]
+Choate--(11.89 5/4)-->Hotchkiss--(60.6 5/18)-->Greenwich Academy--(-54.2 5/18)-->Hopkins [Choate net +18.29]
+Choate--(18.0 5/4)-->Taft--(-6.11 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins [Choate net +18.29]
 Choate--(61.53 5/4)-->Pomfret--(-17.3 5/10)-->Taft--(-11.87 5/4)-->Hopkins [Choate net +32.36]
+Choate--(11.89 5/4)-->Hotchkiss--(60.6 5/18)-->Greenwich Academy--(-23.2 5/10)-->Hopkins [Choate net +49.29]
 Choate--(1.04 4/30)-->Winsor--(31.8 5/10)-->Taft--(-11.87 5/4)-->Hopkins [Choate net +20.97]
+Choate--(1.04 4/30)-->Winsor--(52.11 4/26)-->Greenwich Academy--(-54.2 5/18)-->Hopkins [Hopkins net +1.05]
 Choate--(61.53 5/4)-->Pomfret--(-49.5 4/26)-->Taft--(-11.87 5/4)-->Hopkins [Choate net +0.16]
 Choate--(-7.2 5/10)-->Brooks--(9.7 4/26)-->NMH--(-1.41 5/4)-->Hopkins [Choate net +1.09]
+Choate--(8.0 5/17)-->Taft--(-10.46 5/4)-->NMH--(25.6 4/26)-->Hopkins [Choate net +23.14]
 Choate--(16.62 4/30)-->Cambridge RLS--(10.6 4/26)-->NMH--(-1.41 5/4)-->Hopkins [Choate net +25.81]
 Choate--(-7.2 5/10)-->Brooks--(-0.9 4/26)-->Cambridge RLS--(36.2 4/26)-->Hopkins [Choate net +28.1]
 Choate--(-7.2 5/10)-->Brooks--(9.7 4/26)-->NMH--(25.6 4/26)-->Hopkins [Choate net +28.1]
@@ -32,17 +51,22 @@ Choate--(7.54 5/4)-->NMH--(12.9 4/26)-->Middlesex--(12.7 4/26)-->Hopkins [Choate
 Choate--(11.89 5/4)-->Hotchkiss--(-4.35 5/4)-->NMH--(25.6 4/26)-->Hopkins [Choate net +33.14]
 Choate--(18.0 5/4)-->Taft--(-10.46 5/4)-->NMH--(25.6 4/26)-->Hopkins [Choate net +33.14]
 Choate--(15.2 5/10)-->Groton--(35.5 4/26)-->Taft--(-11.87 5/4)-->Hopkins [Choate net +38.83]
+Choate--(11.89 5/4)-->Hotchkiss--(5.36 5/14)-->NMH--(25.6 4/26)-->Hopkins [Choate net +42.85]
 Choate--(15.2 5/10)-->Groton--(-6.53 5/3)-->Cambridge RLS--(36.2 4/26)-->Hopkins [Choate net +44.87]
 Choate--(1.04 4/30)-->Winsor--(15.58 4/30)-->Cambridge RLS--(36.2 4/26)-->Hopkins [Choate net +52.82]
 Choate--(16.62 4/30)-->Cambridge RLS--(0.9 4/26)-->Brooks--(35.3 4/26)-->Hopkins [Choate net +52.82]
 Choate--(16.62 4/30)-->Cambridge RLS--(10.6 4/26)-->NMH--(25.6 4/26)-->Hopkins [Choate net +52.82]
 Choate--(16.62 4/30)-->Cambridge RLS--(23.5 4/26)-->Middlesex--(12.7 4/26)-->Hopkins [Choate net +52.82]
 Choate--(61.53 5/4)-->Pomfret--(-32.1 4/23)-->Berkshire Academy--(7.5 5/10)-->Hopkins [Choate net +36.93]
+Choate--(8.0 5/17)-->Taft--(-10.46 5/4)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +18.46]
 Choate--(-7.2 5/10)-->Brooks--(9.7 4/26)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +13.5]
 Choate--(11.89 5/4)-->Hotchkiss--(-4.35 5/4)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +8.46]
 Choate--(18.0 5/4)-->Taft--(-10.46 5/4)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +8.46]
+Choate--(19.5 4/19)-->Berkshire Academy--(30.7 5/10)-->Greenwich Academy--(-54.2 5/18)-->Hopkins [Hopkins net +4.0]
 Choate--(24.6 4/19)-->Taft--(-10.46 5/4)-->NMH--(-16.0 4/19)-->Hopkins [Hopkins net +1.86]
 Choate--(24.6 4/19)-->Taft--(97.0 5/4)-->Canterbury--(-122.2 5/10)-->Hopkins [Hopkins net +0.6]
+Choate--(11.89 5/4)-->Hotchkiss--(5.36 5/14)-->NMH--(-16.0 4/19)-->Hopkins [Choate net +1.25]
+Choate--(8.0 5/17)-->Taft--(-5.2 4/19)-->Berkshire Academy--(7.5 5/10)-->Hopkins [Choate net +10.3]
 Choate--(16.62 4/30)-->Cambridge RLS--(10.6 4/26)-->NMH--(-16.0 4/19)-->Hopkins [Choate net +11.22]
 Choate--(24.6 4/19)-->Taft--(-10.46 5/4)-->NMH--(-1.41 5/4)-->Hopkins [Choate net +12.73]
 Choate--(24.6 4/19)-->Taft--(-6.11 5/4)-->Hotchkiss--(-5.76 5/4)-->Hopkins [Choate net +12.73]
@@ -50,6 +74,7 @@ Choate--(19.5 4/19)-->Berkshire Academy--(5.2 4/19)-->Taft--(-11.87 5/4)-->Hopki
 Choate--(24.6 4/19)-->Taft--(22.0 5/4)-->Lyme/Old Lyme--(-31.0 5/4)-->Hopkins [Choate net +15.6]
 Choate--(24.6 4/19)-->Taft--(97.0 5/4)-->Canterbury--(-106.0 5/4)-->Hopkins [Choate net +15.6]
 Choate--(18.0 5/4)-->Taft--(-5.2 4/19)-->Berkshire Academy--(7.5 5/10)-->Hopkins [Choate net +20.3]
+Choate--(24.6 4/19)-->Taft--(-6.11 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins [Choate net +24.89]
 Choate--(24.6 4/19)-->Taft--(-5.2 4/19)-->Berkshire Academy--(7.5 5/10)-->Hopkins [Choate net +26.9]
 Choate--(19.5 4/19)-->Berkshire Academy--(30.7 5/10)-->Greenwich Academy--(-23.2 5/10)-->Hopkins [Choate net +27.0]
 Choate--(19.5 4/19)-->Berkshire Academy--(129.7 5/10)-->Canterbury--(-122.2 5/10)-->Hopkins [Choate net +27.0]
@@ -57,4 +82,5 @@ Choate--(-7.2 5/10)-->Brooks--(25.4 4/19)-->Middlesex--(12.7 4/26)-->Hopkins [Ch
 Choate--(24.6 4/19)-->Taft--(-10.46 5/4)-->NMH--(25.6 4/26)-->Hopkins [Choate net +39.74]
 Choate--(19.5 4/19)-->Berkshire Academy--(129.7 5/10)-->Canterbury--(-106.0 5/4)-->Hopkins [Choate net +43.2]
 Choate--(19.5 4/19)-->Berkshire Academy--(-16.7 4/16)-->Hotchkiss--(-5.76 5/4)-->Hopkins [Hopkins net +2.96]
+Choate--(19.5 4/19)-->Berkshire Academy--(-16.7 4/16)-->Hotchkiss--(6.4 5/18)-->Hopkins [Choate net +9.2]
 Choate--(11.89 5/4)-->Hotchkiss--(16.7 4/16)-->Berkshire Academy--(7.5 5/10)-->Hopkins [Choate net +36.09]

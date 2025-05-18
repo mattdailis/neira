@@ -71,6 +71,7 @@ def review(data_dir):
             else b"[]"
         )
 
+        should_skip = False
         while True:
             contents = editor.edit(contents=contents)
             try:
@@ -82,14 +83,18 @@ def review(data_dir):
             except json.JSONDecodeError:
                 if contents.decode().strip() == "exit":
                     return
+                if contents.decode().strip() == "skip":
+                    should_skip = True
+                    break
                 contents = b"# Not valid json, please try again\n" + contents
                 pass  # Try again
 
-        # Check validity of json
-        json.dumps(corrections)
+        if not should_skip:    
+            # Check validity of json
+            json.dumps(corrections)
 
-        with open("corrections.json", "w") as f:
-            json.dump(corrections, f, sort_keys=True, indent=4)
+            with open("corrections.json", "w") as f:
+                json.dump(corrections, f, sort_keys=True, indent=4)
 
         input("Press Enter to continue...")
         print()

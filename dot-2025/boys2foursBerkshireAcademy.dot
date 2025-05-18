@@ -1,4 +1,4 @@
-digraph boys2foursBerkshireAcademy {Hopkins [URL="boys2foursHopkins.html"];Pomfret [URL="boys2foursPomfret.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];Suffield [URL="boys2foursSuffield.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];NotreDame [URL="boys2foursNotreDame.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Taft [URL="boys2foursTaft.html"];Choate [URL="boys2foursChoate.html"];Taft -> BerkshireAcademy[label="28.9
+digraph boys2foursBerkshireAcademy {Hotchkiss [URL="boys2foursHotchkiss.html"];Choate [URL="boys2foursChoate.html"];NotreDame [URL="boys2foursNotreDame.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Pomfret [URL="boys2foursPomfret.html"];Hopkins [URL="boys2foursHopkins.html"];Suffield [URL="boys2foursSuffield.html"];Taft [URL="boys2foursTaft.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];Taft -> BerkshireAcademy[label="28.9
 04/19", weight="72", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -6,6 +6,14 @@ BerkshireAcademy -> Choate[label="17.1
 04/19", weight="83", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
+Taft -> BerkshireAcademy[label="17.8
+05/17", weight="83", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+BerkshireAcademy -> Choate[label="16.9
+05/17", weight="84", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
 Hotchkiss -> BerkshireAcademy[label="19.6
 04/16", weight="81", tooltip="NEIRA Boys & Girls Fours,Berkshire School vs. Hotchkiss			
 Distance: 1500 M Conditions: Chilly and cloudy with variable cross headwinds building over the afternoon; strongest in the middle 500. Generally flat water with some slight chop in middle 500. Comments: Order of racing: G3-B4-G2-B3-G1-B2-G4-B1. Berkshire hotseated between G3 and G4. Great to be able to welcome our neighbors to the world of fours racing.

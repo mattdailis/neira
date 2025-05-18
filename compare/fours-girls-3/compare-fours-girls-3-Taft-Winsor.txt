@@ -1,26 +1,36 @@
 Taft and Winsor have raced head to head once on 2025-05-10
 Winsor won the race by 12.8 seconds
 
-There are 5 paths of length 2 between Taft and Winsor
+There are 6 paths of length 2 between Taft and Winsor
 All of them favor Winsor
 From most recent to least recent:
 Taft--(-13.08 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +18.73]
+Taft--(-12.1 5/17)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +17.75]
 Taft--(0.7 4/26)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +52.1]
 Taft--(24.25 5/4)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +12.97]
 Taft--(-3.8 5/10)-->BB&N--(-4.22 4/26)-->Winsor [Winsor net +8.02]
 Taft--(-37.3 4/19)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +42.95]
 
-There are 45 paths of length 3 between Taft and Winsor
+There are 61 paths of length 3 between Taft and Winsor
 All of them favor Winsor
 From most recent to least recent:
+Taft--(-3.8 5/10)-->BB&N--(-5.1 5/14)-->St. Mark's--(-10.0 5/10)-->Winsor [Winsor net +18.9]
+Taft--(-2.8 5/10)-->St. Mark's--(5.1 5/14)-->BB&N--(-9.0 5/10)-->Winsor [Winsor net +6.7]
 Taft--(-11.35 5/4)-->Hotchkiss--(24.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +40.15]
 Taft--(-8.02 5/4)-->Berkshire Academy--(30.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +30.82]
 Taft--(-13.08 5/4)-->Choate--(37.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +28.88]
+Taft--(-12.1 5/17)-->Choate--(37.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +27.9]
+Taft--(-3.7 5/17)-->Berkshire Academy--(30.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +26.5]
+Taft--(-8.02 5/4)-->Berkshire Academy--(-8.4 5/17)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +22.07]
 Taft--(-13.08 5/4)-->Choate--(-9.69 4/30)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +18.73]
 Taft--(-9.09 5/4)-->NMH--(-3.99 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +18.73]
 Taft--(-8.02 5/4)-->Berkshire Academy--(-5.06 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +18.73]
 Taft--(9.92 5/4)-->Hopkins--(-23.0 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +18.73]
 Taft--(-11.35 5/4)-->Hotchkiss--(-1.73 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +18.73]
+Taft--(-12.1 5/17)-->Choate--(-9.69 4/30)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +17.75]
+Taft--(-3.7 5/17)-->Berkshire Academy--(-8.4 5/17)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +17.75]
+Taft--(25.6 5/17)-->Frederick Gunn--(-37.7 5/17)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +17.75]
+Taft--(-3.7 5/17)-->Berkshire Academy--(-5.06 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +14.41]
 Taft--(40.0 5/10)-->Pomfret--(-37.0 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +2.65]
 Taft--(-17.1 4/26)-->Groton--(17.8 4/26)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +52.1]
 Taft--(0.7 4/26)-->Pomfret--(-43.8 5/10)-->BB&N--(-9.0 5/10)-->Winsor [Winsor net +52.1]
@@ -28,10 +38,13 @@ Taft--(0.7 4/26)-->Pomfret--(-42.8 5/10)-->St. Mark's--(-10.0 5/10)-->Winsor [Wi
 Taft--(0.7 4/26)-->Pomfret--(-43.8 5/10)-->BB&N--(-4.22 4/26)-->Winsor [Winsor net +47.32]
 Taft--(0.7 4/26)-->Pomfret--(-37.0 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +41.95]
 Taft--(-9.09 5/4)-->NMH--(-27.3 4/26)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +32.35]
+Taft--(-11.35 5/4)-->Hotchkiss--(19.1 5/18)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +29.47]
 Taft--(-17.1 4/26)-->Groton--(-13.31 5/3)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +26.37]
 Taft--(9.92 5/4)-->Hopkins--(-39.6 4/26)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +25.64]
 Taft--(-8.02 5/4)-->Berkshire Academy--(22.0 5/10)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +23.24]
+Taft--(9.92 5/4)-->Hopkins--(4.4 5/18)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +22.9]
 Taft--(-17.1 4/26)-->Groton--(2.5 5/10)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +20.25]
+Taft--(-3.7 5/17)-->Berkshire Academy--(22.0 5/10)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +18.92]
 Taft--(24.25 5/4)-->Greenwich Academy--(-33.0 4/26)-->BB&N--(-9.0 5/10)-->Winsor [Winsor net +17.75]
 Taft--(-9.09 5/4)-->NMH--(31.37 5/4)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +14.94]
 Taft--(9.92 5/4)-->Hopkins--(13.83 5/4)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +13.47]
@@ -42,7 +55,9 @@ Taft--(-3.8 5/10)-->BB&N--(33.0 4/26)-->Greenwich Academy--(-37.22 4/26)-->Winso
 Taft--(-2.8 5/10)-->St. Mark's--(-1.0 5/10)-->BB&N--(-4.22 4/26)-->Winsor [Winsor net +8.02]
 Taft--(40.0 5/10)-->Pomfret--(-43.8 5/10)-->BB&N--(-4.22 4/26)-->Winsor [Winsor net +8.02]
 Taft--(9.92 5/4)-->Hopkins--(21.0 5/10)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +6.3]
+Taft--(-2.8 5/10)-->St. Mark's--(5.1 5/14)-->BB&N--(-4.22 4/26)-->Winsor [Winsor net +1.92]
 Taft--(-8.02 5/4)-->Berkshire Academy--(6.0 4/23)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +54.82]
+Taft--(-3.7 5/17)-->Berkshire Academy--(6.0 4/23)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +50.5]
 Taft--(-20.6 4/19)-->Berkshire Academy--(6.0 4/23)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +67.4]
 Taft--(-37.3 4/19)-->Choate--(37.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +53.1]
 Taft--(-20.6 4/19)-->Berkshire Academy--(30.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +43.4]
@@ -50,11 +65,13 @@ Taft--(-37.3 4/19)-->Choate--(-9.69 4/30)-->Cambridge RLS--(4.04 4/30)-->Winsor 
 Taft--(-20.6 4/19)-->Berkshire Academy--(-16.7 4/19)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +42.95]
 Taft--(9.92 5/4)-->Hopkins--(6.3 4/19)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +36.58]
 Taft--(-20.6 4/19)-->Berkshire Academy--(22.0 5/10)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +35.82]
+Taft--(-20.6 4/19)-->Berkshire Academy--(-8.4 5/17)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +34.65]
 Taft--(-17.1 4/26)-->Groton--(-31.56 4/19)-->Nobles--(14.88 5/7)-->Winsor [Winsor net +33.78]
 Taft--(-9.09 5/4)-->NMH--(28.2 4/19)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +33.69]
 Taft--(-17.1 4/26)-->Groton--(-6.67 4/19)-->BB&N--(-9.0 5/10)-->Winsor [Winsor net +32.77]
 Taft--(-20.6 4/19)-->Berkshire Academy--(-5.06 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +31.31]
 Taft--(-8.02 5/4)-->Berkshire Academy--(-16.7 4/19)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +30.37]
 Taft--(-17.1 4/26)-->Groton--(-6.67 4/19)-->BB&N--(-4.22 4/26)-->Winsor [Winsor net +27.99]
+Taft--(-3.7 5/17)-->Berkshire Academy--(-16.7 4/19)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +26.05]
 Taft--(-3.8 5/10)-->BB&N--(-24.89 4/19)-->Nobles--(14.88 5/7)-->Winsor [Winsor net +13.81]
 Taft--(-3.8 5/10)-->BB&N--(-24.0 4/16)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +23.76]

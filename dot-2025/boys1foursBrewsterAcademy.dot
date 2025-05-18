@@ -1,4 +1,4 @@
-digraph boys1foursBrewsterAcademy {WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Bancroft [URL="boys1foursBancroft.html"];Pomfret [URL="boys1foursPomfret.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];Nobles [URL="boys1foursNobles.html"];NotreDame [URL="boys1foursNotreDame.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];Taft [URL="boys1foursTaft.html"];StMarks [URL="boys1foursStMarks.html"];Canterbury [URL="boys1foursCanterbury.html"];Berwick [URL="boys1foursBerwick.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];Choate [URL="boys1foursChoate.html"];Nobles -> BrewsterAcademy[label="47.7
+digraph boys1foursBrewsterAcademy {StMarks [URL="boys1foursStMarks.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Choate [URL="boys1foursChoate.html"];NotreDame [URL="boys1foursNotreDame.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];Pomfret [URL="boys1foursPomfret.html"];Pingree [URL="boys1foursPingree.html"];Nobles [URL="boys1foursNobles.html"];BBN [URL="boys1foursBBN.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];Canterbury [URL="boys1foursCanterbury.html"];Taft [URL="boys1foursTaft.html"];Berwick [URL="boys1foursBerwick.html"];Brooks [URL="boys1foursBrooks.html"];Bancroft [URL="boys1foursBancroft.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];Nobles -> BrewsterAcademy[label="47.7
 04/26", weight="53", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
@@ -14,6 +14,26 @@ Berwick -> BrewsterAcademy[label="21.2
 04/19", weight="79", tooltip="NEIRA Boys & Girls Fours,Dublin School, Berwick Academy, Brewster Academy			
 Distance: 1400m'ish
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F633B39B972009BAAE9DBEA29158C86C&cat=5", random="random"]; 
+Berwick -> BrewsterAcademy[label="40.1
+05/17", weight="60", tooltip="NEIRA Boys & Girls Fours,Berwick, Brewster, Pingree			
+Distance: 1500 Conditions: No wind, flat water. Strong head current from outgoing tide. Comments: Thank you to Pingree and Brewster for making this regatta happen! Boys 3rd boat and girls 2nd boat races are novice races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05875CE784A53152B98A2FCDE4912B97&cat=5", random="random"]; 
+Pingree -> BrewsterAcademy[label="16.6
+05/17", weight="84", tooltip="NEIRA Boys & Girls Fours,Berwick, Brewster, Pingree			
+Distance: 1500 Conditions: No wind, flat water. Strong head current from outgoing tide. Comments: Thank you to Pingree and Brewster for making this regatta happen! Boys 3rd boat and girls 2nd boat races are novice races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05875CE784A53152B98A2FCDE4912B97&cat=5", random="random"]; 
+Brooks -> BrewsterAcademy[label="52.4
+05/14", weight="48", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
+BBN -> BrewsterAcademy[label="36.9
+05/14", weight="64", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
+StMarks -> BrewsterAcademy[label="19.3
+05/14", weight="81", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
 WorcesterAcademy -> BrewsterAcademy[label="10.7
 04/16", weight="90", tooltip="NEIRA Boys & Girls Fours,'Worcester Academy' and 'Brewster Academy'			
 Distance: 1500m Conditions: Windy conditions. Stayed pretty much the same throughout all races. Slight crosswind coming across from the Worcester side to the Shrewsbury side of the lake. Comments: The results for the Boys Sixth Boat are for Mixed Novice 8+'s that both Worcester Academy and Brewster Academy raced.

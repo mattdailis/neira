@@ -1,4 +1,4 @@
-digraph boys2foursMiddlesex {Hopkins [URL="boys2foursHopkins.html"];DexterSouthfield [URL="boys2foursDexterSouthfield.html"];Brooks [URL="boys2foursBrooks.html"];BelmontHill [URL="boys2foursBelmontHill.html"];StMarks [URL="boys2foursStMarks.html"];BBN [URL="boys2foursBBN.html"];NMH [URL="boys2foursNMH.html"];Middlesex [URL="boys2foursMiddlesex.html"];CambridgeRLS [URL="boys2foursCambridgeRLS.html"];Brooks -> Middlesex[label="17.5
+digraph boys2foursMiddlesex {StMarks [URL="boys2foursStMarks.html"];Hopkins [URL="boys2foursHopkins.html"];BBN [URL="boys2foursBBN.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];BelmontHill [URL="boys2foursBelmontHill.html"];Brooks [URL="boys2foursBrooks.html"];Middlesex [URL="boys2foursMiddlesex.html"];DexterSouthfield [URL="boys2foursDexterSouthfield.html"];NMH [URL="boys2foursNMH.html"];CambridgeRLS [URL="boys2foursCambridgeRLS.html"];Brooks -> Middlesex[label="17.5
 04/19", weight="83", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
@@ -13,6 +13,22 @@ Middlesex -> StMarks[label="18.0
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2988C5F873833C8F0A00A6D6ED650D95&cat=5", random="random"]; 
+NMH -> Middlesex[label="10.0 (10.71)
+05/17", weight="90", tooltip="NEIRA Boys & Girls Fours,NMH vs Middlesex, Newton Country Day and St. Mary's - Lynn			
+Distance: 1400m (upstream) Conditions: A strong current continued to provide plenty of extra length to our standard course; moderate chop due to blustery tailwinds but good conditions overall Comments: In the boys 4th boat race, a Middlesex seat broke a wheel early in the contest that made it difficult for its oarsman to use his full drive for the rest of the race. Please consider this when assessing the margin for NEIRA seeding purposes. 
+One of our final events was the Eights race, which featured two NMH crews and one St Mary's crew. Results were: 
+1. NMH Girls novice eight - 6:35
+2. NMH mixed eight - 7:02
+3. St Mary's - Lynn - 7:49
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=30B60C8D1DD9BD66CE6EB65F1C28CCEB&cat=5", random="random"]; 
+Middlesex -> StMarysLynn[label="96.8 (103.71)
+05/17", weight="4", tooltip="NEIRA Boys & Girls Fours,NMH vs Middlesex, Newton Country Day and St. Mary's - Lynn			
+Distance: 1400m (upstream) Conditions: A strong current continued to provide plenty of extra length to our standard course; moderate chop due to blustery tailwinds but good conditions overall Comments: In the boys 4th boat race, a Middlesex seat broke a wheel early in the contest that made it difficult for its oarsman to use his full drive for the rest of the race. Please consider this when assessing the margin for NEIRA seeding purposes. 
+One of our final events was the Eights race, which featured two NMH crews and one St Mary's crew. Results were: 
+1. NMH Girls novice eight - 6:35
+2. NMH mixed eight - 7:02
+3. St Mary's - Lynn - 7:49
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=30B60C8D1DD9BD66CE6EB65F1C28CCEB&cat=5", random="random"]; 
 BelmontHill -> Middlesex[label="40.7
 04/23", weight="60", tooltip="NEIRA Boys Fours,Middlesex vs. Belmont Hill			
 Distance: 1,500m Conditions: Race order was B4, B3, B2, B1 and conditions were fairly consistent across all races: a moderate crossing head wind at the start that evolved into a sporadic light cross head wind at points throughout the course. A good day for racing all around.

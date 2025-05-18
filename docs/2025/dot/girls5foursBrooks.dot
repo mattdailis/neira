@@ -1,4 +1,4 @@
-digraph girls5foursBrooks {Hopkins [URL="girls5foursHopkins.html"];Brooks [URL="girls5foursBrooks.html"];Choate [URL="girls5foursChoate.html"];Middlesex [URL="girls5foursMiddlesex.html"];CambridgeRLS [URL="girls5foursCambridgeRLS.html"];Choate -> Brooks[label="5.6
+digraph girls5foursBrooks {Choate [URL="girls5foursChoate.html"];Hopkins [URL="girls5foursHopkins.html"];BBN [URL="girls5foursBBN.html"];Brooks [URL="girls5foursBrooks.html"];Middlesex [URL="girls5foursMiddlesex.html"];CambridgeRLS [URL="girls5foursCambridgeRLS.html"];Choate -> Brooks[label="5.6
 05/10", weight="95", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Belmont Hill, Choate and Groton			
 Distance: 1500m Conditions: Direct 10-15 mph tailwind increasing to 20 mph throughout the afternoon. Significant chop in the last 1000m. Race order was 5-4-3-2-1 Comments: The girls 2nd boat event was run as planned between Brooks, Choate and Groton. Following the day of racing, after a complaint was lodged, the coaches and race officials reached consensus that a clash of blades between Choate and Groton in the first 20 strokes of the race should in retrospect have warranted a re-start of the race, and therefore the race results are deemed invalid for purposes of seeding and comparison. Accordingly, no results have been posted for this race. 
 Thank you to all coaches and teams for braving some choppy seas and racing well today.
@@ -14,4 +14,8 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC
 Brooks -> Hopkins[label="54.0
 04/26", weight="46", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
+Brooks -> BBN[label="25.1
+05/14", weight="75", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]}

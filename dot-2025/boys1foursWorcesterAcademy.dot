@@ -1,4 +1,12 @@
-digraph boys1foursWorcesterAcademy {WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Bancroft [URL="boys1foursBancroft.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];Thayer [URL="boys1foursThayer.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];Suffield [URL="boys1foursSuffield.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Derryfield [URL="boys1foursDerryfield.html"];EagleHill [URL="boys1foursEagleHill.html"];Berwick [URL="boys1foursBerwick.html"];Berwick -> WorcesterAcademy[label="15.9
+digraph boys1foursWorcesterAcademy {WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];Suffield [URL="boys1foursSuffield.html"];Thayer [URL="boys1foursThayer.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Berwick [URL="boys1foursBerwick.html"];DexterSouthfield [URL="boys1foursDexterSouthfield.html"];Derryfield [URL="boys1foursDerryfield.html"];Bancroft [URL="boys1foursBancroft.html"];EagleHill [URL="boys1foursEagleHill.html"];DexterSouthfield -> WorcesterAcademy[label="7.9
+05/14", weight="93", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Dexter-Southfield and Bancroft			
+Distance: 1500 meters Conditions: Strong crosswind throughout all races. In GV1 race, Dexter-Southfield A was GV1 and Dexter-Southfield B was GV2. In BV2 race, Dexter-Southfield A was BV2 and Dexter-Southfield B was BV3. The BV4 event was a Mixed Novice 4 scrimmage in order to get more kids racing. Thank you to Dexter-Southfield and Bancroft for racing today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=11355464469ECB76F8D6E495FB0C1364&cat=5", random="random"]; 
+WorcesterAcademy -> Bancroft[label="91.2
+05/14", weight="9", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Dexter-Southfield and Bancroft			
+Distance: 1500 meters Conditions: Strong crosswind throughout all races. In GV1 race, Dexter-Southfield A was GV1 and Dexter-Southfield B was GV2. In BV2 race, Dexter-Southfield A was BV2 and Dexter-Southfield B was BV3. The BV4 event was a Mixed Novice 4 scrimmage in order to get more kids racing. Thank you to Dexter-Southfield and Bancroft for racing today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=11355464469ECB76F8D6E495FB0C1364&cat=5", random="random"]; 
+Berwick -> WorcesterAcademy[label="15.9
 04/27", weight="85", tooltip="NEIRA Boys Fours, Worcester Academy vs. Berwick Academy, Derryfield, Bancroft			
 Distance: 1500 meters Conditions: Strong cross/tailwind throughout races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1808367AD98242D8BD57C6BB7F9BC019&cat=1", random="random"]; 

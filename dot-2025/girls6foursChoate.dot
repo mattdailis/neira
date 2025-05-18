@@ -1,4 +1,12 @@
-digraph girls6foursChoate {Winsor [URL="girls6foursWinsor.html"];Choate [URL="girls6foursChoate.html"];CambridgeRLS [URL="girls6foursCambridgeRLS.html"];CambridgeRLS -> Choate[label="3.4 (3.92)
+digraph girls6foursChoate {Choate [URL="girls6foursChoate.html"];FrederickGunn [URL="girls6foursFrederickGunn.html"];MissPorters [URL="girls6foursMissPorters.html"];Winsor [URL="girls6foursWinsor.html"];CambridgeRLS [URL="girls6foursCambridgeRLS.html"];Choate -> FrederickGunn[label="48.9
+05/17", weight="52", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+Choate -> MissPorters[label="60.5
+05/17", weight="40", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+CambridgeRLS -> Choate[label="3.4 (3.92)
 04/30", weight="97", tooltip="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge & Latin School (CRLS)			
 Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!
 Race order: 3V,4V,1V,2V,5V,6V,7V Comments: CRLS and Choate also raced a 7V, resulting--CRLS: 5:15.71 Choate: 5:52.01.

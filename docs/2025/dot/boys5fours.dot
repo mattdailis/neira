@@ -1,4 +1,4 @@
-digraph boys5fours {Hopkins [URL="boys5foursHopkins.html"];Pomfret [URL="boys5foursPomfret.html"];Nobles [URL="boys5foursNobles.html"];Brooks [URL="boys5foursBrooks.html"];Groton [URL="boys5foursGroton.html"];BelmontHill [URL="boys5foursBelmontHill.html"];LymeOldLyme [URL="boys5foursLymeOldLyme.html"];Taft [URL="boys5foursTaft.html"];BBN [URL="boys5foursBBN.html"];Middlesex [URL="boys5foursMiddlesex.html"];CambridgeRLS [URL="boys5foursCambridgeRLS.html"];BelmontHill -> Nobles[label="15.4 (17.77)
+digraph boys5fours {Pomfret [URL="boys5foursPomfret.html"];Hopkins [URL="boys5foursHopkins.html"];Middlesex [URL="boys5foursMiddlesex.html"];Nobles [URL="boys5foursNobles.html"];BBN [URL="boys5foursBBN.html"];Taft [URL="boys5foursTaft.html"];LymeOldLyme [URL="boys5foursLymeOldLyme.html"];BelmontHill [URL="boys5foursBelmontHill.html"];Brooks [URL="boys5foursBrooks.html"];Groton [URL="boys5foursGroton.html"];CambridgeRLS [URL="boys5foursCambridgeRLS.html"];BelmontHill -> Nobles[label="15.4 (17.77)
 05/04", weight="85", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: Order of racing: 4V4-3V4-2V4-1V4-4V8-6V4-9V4-5V4. Building direct headwind for the first three races, strongest for the 2V4; the wind then lessened and shifted to a cross/cross headwind for the 1V4 and remaining races Comments: Thanks to Nobles for being patient and supportive through yesterday's weather-related postponement and for a great day of racing with our full programs today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=96DF6AF2C5DADCD1EB91A4088A314B11&cat=1", random="random"]; 
@@ -31,6 +31,10 @@ Middlesex -> Hopkins[label="98.0
 04/26", weight="2", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
+Brooks -> BBN[label="19.9
+05/14", weight="81", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
 Groton -> Pomfret[label="19.9
 04/26", weight="81", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
@@ -59,6 +63,10 @@ G4: Berkshire and Greenwich each hotseated rowers from G3;
 G5: all novice boats
 B5: all novice boats
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+Nobles -> Groton[label="6.0 (8.57)
+05/14", weight="94", tooltip="NEIRA Boys & Girls Fours,Nobles vs Groton JV racing			
+Distance: 1050m Conditions: Beautiful sunny afternoon with mild cross wind and reasonable current against direction of racing. Comments: Thank you to both teams and coaches for making the last minute switch of venue work. Really glad we were able to make the racing happen.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6A41180662579C4E7DA88D8CE599F756&cat=5", random="random"]; 
 BelmontHill -> Hopkins[label="81.8
 04/19", weight="19", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
 Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).

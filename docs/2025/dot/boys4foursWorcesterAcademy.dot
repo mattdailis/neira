@@ -1,4 +1,12 @@
-digraph boys4foursWorcesterAcademy {WorcesterAcademy [URL="boys4foursWorcesterAcademy.html"];Bancroft [URL="boys4foursBancroft.html"];Thayer [URL="boys4foursThayer.html"];Thayer -> WorcesterAcademy[label="76.5
+digraph boys4foursWorcesterAcademy {DexterSouthfield [URL="boys4foursDexterSouthfield.html"];WorcesterAcademy [URL="boys4foursWorcesterAcademy.html"];Bancroft [URL="boys4foursBancroft.html"];Thayer [URL="boys4foursThayer.html"];DexterSouthfield -> WorcesterAcademy[label="74.0
+05/14", weight="26", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Dexter-Southfield and Bancroft			
+Distance: 1500 meters Conditions: Strong crosswind throughout all races. In GV1 race, Dexter-Southfield A was GV1 and Dexter-Southfield B was GV2. In BV2 race, Dexter-Southfield A was BV2 and Dexter-Southfield B was BV3. The BV4 event was a Mixed Novice 4 scrimmage in order to get more kids racing. Thank you to Dexter-Southfield and Bancroft for racing today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=11355464469ECB76F8D6E495FB0C1364&cat=5", random="random"]; 
+WorcesterAcademy -> Bancroft[label="40.6
+05/14", weight="60", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Dexter-Southfield and Bancroft			
+Distance: 1500 meters Conditions: Strong crosswind throughout all races. In GV1 race, Dexter-Southfield A was GV1 and Dexter-Southfield B was GV2. In BV2 race, Dexter-Southfield A was BV2 and Dexter-Southfield B was BV3. The BV4 event was a Mixed Novice 4 scrimmage in order to get more kids racing. Thank you to Dexter-Southfield and Bancroft for racing today!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=11355464469ECB76F8D6E495FB0C1364&cat=5", random="random"]; 
+Thayer -> WorcesterAcademy[label="76.5
 05/07", weight="24", tooltip="NEIRA Boys & Girls Fours,Bancroft School, St. Mary's Lynn, Eagle Hill School, Worcester Academy, Thayer Academy, St. Mark's			
 Distance: 1500m Conditions: Slight head/cross wind throughout the races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9F3FD47837D8C36A90E1613F9F35A67&cat=5", random="random"]; 

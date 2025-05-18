@@ -4,7 +4,7 @@ import neira.scraper.clean
 
 
 def founders_day():
-    with open("founders-day-transcribed.csv", "r") as f:
+    with open("founders-day-transcribed-2025.csv", "r") as f:
         reader = csv.DictReader(f)
 
         data = []
@@ -125,10 +125,12 @@ def founders_day():
             }
         )
 
-    comment = "Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3."
+    # comment = "Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3."
+    comment = ""
 
-    day = "2024-05-05"
-    url = "https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6"
+    day = "2025-05-04"
+    # url = "https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6"
+    url = "https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6"
 
     with open("founders-day.json", "w") as f:
         json.dump(

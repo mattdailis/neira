@@ -1,6 +1,6 @@
 {'Nobles', 'Pingree'}
-Cycle detected: {'Hopkins', 'Hotchkiss', 'Brooks', 'Berkshire Academy', 'NMH', 'Winsor', 'Cambridge RLS', 'BB&N', 'Choate', 'Middlesex'}
+Cycle detected: {'Hotchkiss', 'Choate', 'Hopkins', 'BB&N', 'Brooks', 'Middlesex', 'Winsor', 'NMH', 'Berkshire Academy', 'Cambridge RLS'}
 {'Groton'}
 {'Taft'}
-{'Lyme/Old Lyme', 'Pomfret', 'Greenwich Academy', 'Newton Country Day'}
-{'Canterbury', 'Frederick Gunn', 'Greenwich Country Day', "St. Mark's"}
+{'Greenwich Academy', 'Pomfret', 'Newton Country Day', 'Lyme/Old Lyme'}
+{"St. Mark's", 'Middletown', 'Frederick Gunn', 'Canterbury', 'Greenwich Country Day'}

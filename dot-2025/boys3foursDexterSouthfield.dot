@@ -1,4 +1,4 @@
-digraph boys3foursDexterSouthfield {Brooks [URL="boys3foursBrooks.html"];DexterSouthfield [URL="boys3foursDexterSouthfield.html"];Middlesex [URL="boys3foursMiddlesex.html"];StMarks [URL="boys3foursStMarks.html"];Brooks -> DexterSouthfield[label="67.0
+digraph boys3foursDexterSouthfield {StMarks [URL="boys3foursStMarks.html"];Berwick [URL="boys3foursBerwick.html"];Brooks [URL="boys3foursBrooks.html"];Middlesex [URL="boys3foursMiddlesex.html"];DexterSouthfield [URL="boys3foursDexterSouthfield.html"];Brooks -> DexterSouthfield[label="67.0
 04/19", weight="33", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
@@ -12,4 +12,8 @@ StMarks -> DexterSouthfield[label="45.5
 04/19", weight="55", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield			
 Distance: 1500m Conditions: 10-13mph crossing headwind from SSW. Occasional gusts of 20mph in the first half hour of racing. Race order was 4-3-2-1. Comments: D/S 1V caught an over the head crab at 300m to go and had to reset. D/S 2V had steering issue and DNF.
 Thank you to all crews who came out to race on Lake Q!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2988C5F873833C8F0A00A6D6ED650D95&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2988C5F873833C8F0A00A6D6ED650D95&cat=5", random="random"]; 
+DexterSouthfield -> Berwick[label="24.6
+05/11", weight="76", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, St. Mary's Lynn, Dexter Southfield, Dublin School			
+Distance: 1500 Conditions: Strong crosswind at the start, becoming protected by the shore as race went on. Flat water conditions. Incoming tide but strong down stream current. Conditions consistent for all races. Comments: Boys 4V was novices and boys 5V was mixed novices. Girls 3V and 4 were novice races. All novice races served as scrimmages to get athletes racing experience. Thank you to all teams for traveling Berwick!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FDB08A4983B97B133607F94BDB7F822B&cat=5", random="random"]}

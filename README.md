@@ -140,6 +140,18 @@ Example:
 }
 ```
 
+## "type": "manual_override"
+
+The nuclear option. Replace the entire JSON file with your own.
+
+Example:
+```json
+{
+    "type": "manual_override",
+    "new_contents": {}
+}
+```
+
 # Hosting
 This website is hosted on GitHub Pages. GitHub Pages allows for two options for hosting: dedicate a branch to be the hosted branch, or host from the `docs` folder of your main branch. This website is hosted from the `docs` folder.
 
@@ -241,3 +253,29 @@ g) A program must have at least one race in May
 - **race**: A page on row2k. A race may contain multiple heats
 - **heat**: A set of boats that competed simultaneously
 - **head-to-head**: A term for comparing boats by using their performance relative to each other in the same heat
+
+# Schedules and school websites
+Pomfret has their full schedule online, along with recaps of their races:
+https://www.pomfret.org/athletics/teams-schedules/crew-girls
+
+2025-04-19,Race,Pomfret,Pomfret;Hopkins;NMH;SML
+2025-04-26,Race,Pomfret,Marianapolis;Berkshire
+2025-05-04,Founders Day,Gunn,Numerous
+2025-05-10,du Pont Cup,Pomfret,
+2025-05-24,NEIRA,
+
+Hopkins schedule:
+https://www.hopkins.edu/team-detail?Team=114693
+https://www.hopkins.edu/athletics/athletic-calendar?ts=114693&sDate=20250524&selStartDate=20250524&eDate=20250524&selEndDate=20250524&showAll=0
+2025-04-19,Race,Pomfret;Belmont Hill;Hopkins;NMH;SML
+2025-04-26,Race,Brooks;NMH;Roxbury Latin
+2025-05-04,Founders Day
+2025-05-10,Race,Berkshire;Canterbury;Dexter;LOL
+2025-05-18,Sacred Heart;GA;GCDS;Hotchkiss;Notre Dame
+
+
+https://www.nmhschool.org/athletics-home/news-scoreboard/calendar
+
+https://www.cbury.org/athletics/teams/spring-teams/boys-varsity-crew
+
+https://www.cbury.org/athletics/teams/spring-teams/girls-varsity-crew

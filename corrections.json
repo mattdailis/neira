@@ -3,6 +3,18 @@
         "checksum": "903d43f751559518822b2381f268ae7a",
         "corrections": []
     },
+    "05875CE784A53152B98A2FCDE4912B97": {
+        "checksum": "d5263b7d2c732b605c500c3bb84839e6",
+        "corrections": [
+            {
+                "heats": [
+                    "girls 2",
+                    "boys 3"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
+    },
     "07B4E28BE6117D60DF9019B4C6FC53D7": {
         "checksum": "286386704c2606996cf5f273000dc1ea",
         "corrections": [
@@ -42,6 +54,10 @@
     },
     "0F3A7E9D0F14F87D93D423B45A1E2984": {
         "checksum": "e4f899e9e2ee302557c4922cd3eecf5f",
+        "corrections": []
+    },
+    "11355464469ECB76F8D6E495FB0C1364": {
+        "checksum": "fa2084271c1ab48970f32593170121a3",
         "corrections": []
     },
     "12F78D09579CE06CA40CF5EF88354411": {
@@ -111,6 +127,10 @@
             }
         ]
     },
+    "25056CA58B9EAFBCDB43CF1922201A32": {
+        "checksum": "a9b2b92de1f3d78403824b0b345dffe9",
+        "corrections": []
+    },
     "2988C5F873833C8F0A00A6D6ED650D95": {
         "checksum": "3f1c5e89579fe1b6830a066fc71a1b23",
         "corrections": []
@@ -121,6 +141,18 @@
             {
                 "comment": "G2 omitted due to complaint about oar clash",
                 "type": "comment"
+            }
+        ]
+    },
+    "30B60C8D1DD9BD66CE6EB65F1C28CCEB": {
+        "checksum": "cd68e0d8826ec45a6b49486ac3cfbc4a",
+        "corrections": [
+            {
+                "heats": [
+                    "girls 4",
+                    "boys 5"
+                ],
+                "type": "ignore_heats"
             }
         ]
     },
@@ -139,6 +171,15 @@
     "36E227C5D5306D2B66289F9BEFE8B31D": {
         "checksum": "deacce927c95874759a6157a496a1c82",
         "corrections": []
+    },
+    "382FC1E4D16CE7CDEFA550FE6850E783": {
+        "checksum": "975d876044bfbff9bf89e07704a462a2",
+        "corrections": [
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
+            }
+        ]
     },
     "3C6B9CB8A1F554662118E4D2AD13F16A": {
         "checksum": "48ba9bacf035c01fd5f619876e2e12c0",
@@ -198,6 +239,10 @@
                 "type": "manual_override"
             }
         ]
+    },
+    "401BE979CEC2F2A9517D6AE420918B56": {
+        "checksum": "c1058a98ecc77e9cc6b399772d72701f",
+        "corrections": []
     },
     "4232F2C9CF0B3800357AF3DC37D5407B": {
         "checksum": "c35a1b8eed88e58eccb353ce23408c0c",
@@ -340,6 +385,10 @@
             }
         ]
     },
+    "6A41180662579C4E7DA88D8CE599F756": {
+        "checksum": "e70aeedf70d50905453a0676507eccd5",
+        "corrections": []
+    },
     "6D37204313ADD015CB0882600479249C": {
         "checksum": "313432bebd7b0c0c0c755cc912cde0ab",
         "corrections": [
@@ -386,6 +435,10 @@
             }
         ]
     },
+    "7CA1DA0EFA208B68A07415C9DA541D12": {
+        "checksum": "6c5baeb7db14841a9c3da49768d829fd",
+        "corrections": []
+    },
     "7E1D2CF89CCC96BDC0B810EABF272B1D": {
         "checksum": "6c49ef751f97045f788613afdd249b54",
         "corrections": [
@@ -415,6 +468,10 @@
                 "type": "comment"
             }
         ]
+    },
+    "7FE2290879E1C3151B93CD8FCA2A71D5": {
+        "checksum": "b022a3bcb8e16cd55875f5067ac0eb5d",
+        "corrections": []
     },
     "83FDA153BDEA3FE48C9FDD5D9884FAD9": {
         "checksum": "87433274cf08c05672e72ebed5212ba9",
@@ -472,6 +529,14 @@
             }
         ]
     },
+    "9552FAE92922D7B81EF0B2A25A15D0E2": {
+        "checksum": "e1c3a2dfb6fe95c549156c8a499f940a",
+        "corrections": []
+    },
+    "95FD106DFDCEC13E4123EEAA631894B9": {
+        "checksum": "748e522e6076f34889bdf94761d4fd6b",
+        "corrections": []
+    },
     "96DF6AF2C5DADCD1EB91A4088A314B11": {
         "checksum": "a87ee15dfdfe3e63458c26e25bb04579",
         "corrections": []
@@ -493,7 +558,7 @@
         "corrections": []
     },
     "9E9FBCF7615155630E407DCED0B617CE": {
-        "checksum": "30307bfc643c5396f6176a472431b5d4",
+        "checksum": "87b83bdc1056637e8d27b465f04f63bb",
         "corrections": [
             {
                 "heats": [
@@ -524,12 +589,25 @@
         "checksum": "2a7c0d75671f78e35872f5fa000390d8",
         "corrections": []
     },
+    "AC99F841DF71889B89D6BB3296BF937A": {
+        "checksum": "c0f72d07883c7accb2a0090398aa71e1",
+        "corrections": []
+    },
     "AF21FB49C1A5BFE18B2AC227D72047A7": {
         "checksum": "15d717ab34476e48fb155ab2294bae3f",
         "corrections": [
             {
                 "comment": "In the 1 V race Winsor left their lane, and into BB&Ns lane in the last 250.",
                 "type": "comment"
+            }
+        ]
+    },
+    "B16147A2AB97999075FCA0E244F3C0D3": {
+        "checksum": "552a120977379b6da30bfe3da1449d27",
+        "corrections": [
+            {
+                "class": "fours",
+                "type": "set_class_all_heats"
             }
         ]
     },
@@ -599,6 +677,10 @@
             }
         ]
     },
+    "C57E489C53167EDA9258A96D6AA7BA96": {
+        "checksum": "d10daa9dec842d57c02545f2f1da12ec",
+        "corrections": []
+    },
     "CAD018DDC045C2C851D08C5626506B6F": {
         "checksum": "84b9e442d77c9a3914459ad4210fec01",
         "corrections": []
@@ -655,6 +737,10 @@
         "checksum": "21ff48f9a526bbf2c323a4e0817f813e",
         "corrections": []
     },
+    "DDC5426ECBA0CD8A43E8BFC5C78F3C69": {
+        "checksum": "412a9ff195514e23a0e67a553e5ec27a",
+        "corrections": []
+    },
     "DF878DF04C15534AB1690F59BC52F588": {
         "checksum": "a46d2f79905a251f3591fdc9b0570b14",
         "corrections": []
@@ -687,6 +773,18 @@
     },
     "E5F9B2C1554A1FBD0FEB68B2E09DEB28": {
         "checksum": "77e0acd027bb8903890e82b0fbea4b43",
+        "corrections": []
+    },
+    "E7711FCA135E09C7D32FB6466D6CA7D5": {
+        "checksum": "0fcce6bc9f47006354c8e47e061b8097",
+        "corrections": []
+    },
+    "EB763ADAB6EF8B83B597DBF629BE6DE4": {
+        "checksum": "3d685a6811a79ff04725951bfb8e0a20",
+        "corrections": []
+    },
+    "EBD8E998F6F21ED0253A5E7029DB7C0B": {
+        "checksum": "a55db565e28e4ca4ad53cabb30720dda",
         "corrections": []
     },
     "EEDE0779D930B65B65EABC9F7BA090B0": {
@@ -726,6 +824,10 @@
             }
         ]
     },
+    "FAF63A782B04A529C6B8AB09C77881B3": {
+        "checksum": "8339cddfcda00c827361a9b2a3f7a3d1",
+        "corrections": []
+    },
     "FBDCA5CCB2EE6264F2D1F77FEFB9FE93": {
         "checksum": "a59bc8ad24e2988a7eedce59b72d4d33",
         "corrections": []
@@ -742,6 +844,20 @@
     "FD9BF2C36AB3E5D3343A43D22FCCB16E": {
         "checksum": "fea593165ca6d4880b3e263543a406ac",
         "corrections": []
+    },
+    "FDB08A4983B97B133607F94BDB7F822B": {
+        "checksum": "55009bc51718fed8e6a84fd1244b85f6",
+        "corrections": [
+            {
+                "heats": [
+                    "girls 3",
+                    "girls 4",
+                    "boys 4",
+                    "boys 5"
+                ],
+                "type": "ignore_heats"
+            }
+        ]
     },
     "FF45AC48CF863069B998EA93AF28A674": {
         "checksum": "40571a484be6a2d6f650e7030f85f2fd",

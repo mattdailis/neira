@@ -1,4 +1,4 @@
-digraph boys5foursGroton {Taft [URL="boys5foursTaft.html"];Groton [URL="boys5foursGroton.html"];Pomfret [URL="boys5foursPomfret.html"];CambridgeRLS [URL="boys5foursCambridgeRLS.html"];Groton -> CambridgeRLS[label="9.8 (11.85)
+digraph boys5foursGroton {Pomfret [URL="boys5foursPomfret.html"];Nobles [URL="boys5foursNobles.html"];Taft [URL="boys5foursTaft.html"];Groton [URL="boys5foursGroton.html"];CambridgeRLS [URL="boys5foursCambridgeRLS.html"];Groton -> CambridgeRLS[label="9.8 (11.85)
 05/03", weight="91", tooltip="NEIRA Boys & Girls Fours,CRLS at Groton			
 Distance: 1240 m Conditions: A tail wind was significant in the first races, by the time o the first boats, n0 wind at all. Very little current; the river is very low.We finished the last race just before thunder and lightning began. Minimal rain. Comments: Racing order:
 G5, B5, G4, B4, G2, B2, G3, B3, G1, B1
@@ -13,4 +13,8 @@ Groton -> Taft[label="25.0
 04/26", weight="75", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500 Conditions: Tailwind (9-12mph) with occasional gusts. Good water for first 500-700 meters, increasing chop for second half of race. Overall, decent conditions. Comments: Alternated races with girls. Order of boys races: B2, B4, B3, B1, B5. 
 Dexter-Southfield rowed their novice boat in the B5 race.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3C973C60394C29BDB6CB3B01E88929E2&cat=1", random="random"]; 
+Nobles -> Groton[label="6.0 (8.57)
+05/14", weight="94", tooltip="NEIRA Boys & Girls Fours,Nobles vs Groton JV racing			
+Distance: 1050m Conditions: Beautiful sunny afternoon with mild cross wind and reasonable current against direction of racing. Comments: Thank you to both teams and coaches for making the last minute switch of venue work. Really glad we were able to make the racing happen.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6A41180662579C4E7DA88D8CE599F756&cat=5", random="random"]}

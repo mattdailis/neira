@@ -1,4 +1,4 @@
-digraph girls2foursNewtonCountryDay {SacredHeart [URL="girls2foursSacredHeart.html"];Nobles [URL="girls2foursNobles.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDay.html"];StMarks [URL="girls2foursStMarks.html"];BBN [URL="girls2foursBBN.html"];Middlesex [URL="girls2foursMiddlesex.html"];BBN -> NewtonCountryDay[label="16.0
+digraph girls2foursNewtonCountryDay {StMarks [URL="girls2foursStMarks.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDay.html"];Nobles [URL="girls2foursNobles.html"];BBN [URL="girls2foursBBN.html"];StMarysLynn [URL="girls2foursStMarysLynn.html"];Middlesex [URL="girls2foursMiddlesex.html"];SacredHeart [URL="girls2foursSacredHeart.html"];NMH [URL="girls2foursNMH.html"];BBN -> NewtonCountryDay[label="16.0
 05/03", weight="84", tooltip="NEIRA Girls Fours, Middlesex v BBN & NCDS			
 Distance: 1500m Conditions: Gusting tailwind and chop. and sometimes cross tail throughout. Reverse Order, Some crews started over the line. In G4 race a NCDS boat waring up cause BBN to swerve, it did not effect results, may have effected the margin.. In the G1 race MX coxswain got dizzy and verred off course, but corrected and stay in her bouyed lane it did not effect results,may have effected the margin. Comments: Thanks BBN & NCDS for coming and egtting races in before the storm!!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D27CC871138C3E791602802FD4420F5F&cat=1", random="random"]; 
@@ -14,6 +14,22 @@ StMarks -> NewtonCountryDay[label="31.1
 04/26", weight="69", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, Notre Dame, NCDS			
 Distance: 1500m Conditions: Steady 14mph headwind all afternoon, steady chop across whole course. Comments: Great racing today despite the chop and wind. Thank you to all for making the trek to Lake Q.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4232F2C9CF0B3800357AF3DC37D5407B&cat=5", random="random"]; 
+NMH -> NewtonCountryDay[label="13.0 (13.93)
+05/17", weight="87", tooltip="NEIRA Boys & Girls Fours,NMH vs Middlesex, Newton Country Day and St. Mary's - Lynn			
+Distance: 1400m (upstream) Conditions: A strong current continued to provide plenty of extra length to our standard course; moderate chop due to blustery tailwinds but good conditions overall Comments: In the boys 4th boat race, a Middlesex seat broke a wheel early in the contest that made it difficult for its oarsman to use his full drive for the rest of the race. Please consider this when assessing the margin for NEIRA seeding purposes. 
+One of our final events was the Eights race, which featured two NMH crews and one St Mary's crew. Results were: 
+1. NMH Girls novice eight - 6:35
+2. NMH mixed eight - 7:02
+3. St Mary's - Lynn - 7:49
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=30B60C8D1DD9BD66CE6EB65F1C28CCEB&cat=5", random="random"]; 
+NewtonCountryDay -> StMarysLynn[label="82.0 (87.86)
+05/17", weight="18", tooltip="NEIRA Boys & Girls Fours,NMH vs Middlesex, Newton Country Day and St. Mary's - Lynn			
+Distance: 1400m (upstream) Conditions: A strong current continued to provide plenty of extra length to our standard course; moderate chop due to blustery tailwinds but good conditions overall Comments: In the boys 4th boat race, a Middlesex seat broke a wheel early in the contest that made it difficult for its oarsman to use his full drive for the rest of the race. Please consider this when assessing the margin for NEIRA seeding purposes. 
+One of our final events was the Eights race, which featured two NMH crews and one St Mary's crew. Results were: 
+1. NMH Girls novice eight - 6:35
+2. NMH mixed eight - 7:02
+3. St Mary's - Lynn - 7:49
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=30B60C8D1DD9BD66CE6EB65F1C28CCEB&cat=5", random="random"]; 
 NewtonCountryDay -> SacredHeart[label="102.1 (109.39)
 05/10", weight="-2", tooltip="NEIRA Girls Fours, Sacred Heart Greenwich vs Newton Country Day School			
 Distance: 1400 Conditions: Gusty winds for the first 1k-1.1k, cross head coming from NW. Wind gusts up to 32 MPH. Wind increased tremendously throughout racing, 3V race saw the worst of it. Comments: Newton had a 4V so they raced in the 3V category as well. Although wind was not great, everyone had a safe and good race. Thank you Newton for coming!

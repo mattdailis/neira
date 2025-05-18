@@ -1,4 +1,4 @@
-digraph girls3foursMiddletown {Middletown [URL="girls3foursMiddletown.html"];MissPorters [URL="girls3foursMissPorters.html"];LymeOldLyme [URL="girls3foursLymeOldLyme.html"];Hotchkiss [URL="girls3foursHotchkiss.html"];Hotchkiss -> Middletown[label="90.4
+digraph girls3foursMiddletown {Hotchkiss [URL="girls3foursHotchkiss.html"];Pomfret [URL="girls3foursPomfret.html"];LymeOldLyme [URL="girls3foursLymeOldLyme.html"];Middletown [URL="girls3foursMiddletown.html"];MissPorters [URL="girls3foursMissPorters.html"];Hotchkiss -> Middletown[label="90.4
 04/20", weight="10", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
@@ -11,4 +11,8 @@ LymeOldLyme -> Middletown[label="16.9
 04/30", weight="84", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Middletown			
 Distance: 1500 Conditions: 7-11 mph cross tail wind. Waves challenging for 300-400 meters. Comments: It was a great day of racing. Lyme/Old Lyme was excited to host Middletown at our lake. 
 For the B2V4 race Middletown put a 3rd boat in the race.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAD018DDC045C2C851D08C5626506B6F&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAD018DDC045C2C851D08C5626506B6F&cat=5", random="random"]; 
+Pomfret -> Middletown[label="50.4
+05/17", weight="50", tooltip="NEIRA Girls Fours, Pomfret vs. Middletown			
+Distance: 1500m Conditions: Very slight tailwind (2 to 5 mph), which was somewhat more pronounced in second half of race course. Good water. Comments: Alternated races with boys. The order of the girls' races was: G3, G2, G1, G4. During the G2 race, there were heavy downpours that subsided before the beginning of the G1 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7FE2290879E1C3151B93CD8FCA2A71D5&cat=1", random="random"]}

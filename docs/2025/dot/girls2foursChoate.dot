@@ -1,4 +1,4 @@
-digraph girls2foursChoate {GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Hotchkiss [URL="girls2foursHotchkiss.html"];Suffield [URL="girls2foursSuffield.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];Canterbury [URL="girls2foursCanterbury.html"];Winsor [URL="girls2foursWinsor.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];Taft [URL="girls2foursTaft.html"];NMH [URL="girls2foursNMH.html"];Choate [URL="girls2foursChoate.html"];CambridgeRLS [URL="girls2foursCambridgeRLS.html"];BerkshireAcademy -> Choate[label="5.5
+digraph girls2foursChoate {GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Hotchkiss [URL="girls2foursHotchkiss.html"];Choate [URL="girls2foursChoate.html"];Suffield [URL="girls2foursSuffield.html"];Taft [URL="girls2foursTaft.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];Canterbury [URL="girls2foursCanterbury.html"];MissPorters [URL="girls2foursMissPorters.html"];Winsor [URL="girls2foursWinsor.html"];NMH [URL="girls2foursNMH.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];CambridgeRLS [URL="girls2foursCambridgeRLS.html"];BerkshireAcademy -> Choate[label="5.5
 04/19", weight="95", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
@@ -6,6 +6,18 @@ Choate -> Taft[label="8.7
 04/19", weight="92", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
+Choate -> BerkshireAcademy[label="2.1
+05/17", weight="98", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+Choate -> MissPorters[label="5.5
+05/17", weight="95", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+Choate -> Taft[label="14.7
+05/17", weight="86", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
 Winsor -> Choate[label="4.5 (5.19)
 04/30", weight="96", tooltip="NEIRA Girls Fours, The Winsor School, Choate, Cambridge Rindge & Latin School (CRLS)			
 Distance: 1300 Conditions: Great day of racing. Crossing tailwind with a few gusts, but nothing to impede racing or steering. 5th, 6th, 7th boats raced a shortened course due to current and timing restraints. Thank you to Choate for making the trip to Boston and CRLS for a great afternoon of racing!

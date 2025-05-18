@@ -1,4 +1,28 @@
-digraph girls2foursHotchkiss {Hopkins [URL="girls2foursHopkins.html"];Pomfret [URL="girls2foursPomfret.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Hotchkiss [URL="girls2foursHotchkiss.html"];FrederickGunn [URL="girls2foursFrederickGunn.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];Middletown [URL="girls2foursMiddletown.html"];Taft [URL="girls2foursTaft.html"];NMH [URL="girls2foursNMH.html"];Choate [URL="girls2foursChoate.html"];Hotchkiss -> Middletown[label="43.1
+digraph girls2foursHotchkiss {GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Hotchkiss [URL="girls2foursHotchkiss.html"];Choate [URL="girls2foursChoate.html"];Pomfret [URL="girls2foursPomfret.html"];SacredHeart [URL="girls2foursSacredHeart.html"];Hopkins [URL="girls2foursHopkins.html"];Taft [URL="girls2foursTaft.html"];Middletown [URL="girls2foursMiddletown.html"];FrederickGunn [URL="girls2foursFrederickGunn.html"];GreenwichCountryDay [URL="girls2foursGreenwichCountryDay.html"];NMH [URL="girls2foursNMH.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];Hotchkiss -> GreenwichAcademy[label="4.8
+05/18", weight="96", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+Hotchkiss -> Hopkins[label="18.0
+05/18", weight="82", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+Hotchkiss -> GreenwichCountryDay[label="34.5
+05/18", weight="66", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+Hotchkiss -> SacredHeart[label="73.6
+05/18", weight="27", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+Hotchkiss -> Middletown[label="43.1
 04/20", weight="57", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
@@ -6,6 +30,10 @@ BerkshireAcademy -> Hotchkiss[label="16.3
 04/16", weight="84", tooltip="NEIRA Boys & Girls Fours,Berkshire School vs. Hotchkiss			
 Distance: 1500 M Conditions: Chilly and cloudy with variable cross headwinds building over the afternoon; strongest in the middle 500. Generally flat water with some slight chop in middle 500. Comments: Order of racing: G3-B4-G2-B3-G1-B2-G4-B1. Berkshire hotseated between G3 and G4. Great to be able to welcome our neighbors to the world of fours racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=146036DC0D57AEEFDD13651887C3B194&cat=5", random="random"]; 
+NMH -> Hotchkiss[label="13.0 (13.93)
+05/14", weight="87", tooltip="NEIRA Boys & Girls Fours,NMH vs Hotchkiss			
+Distance: 1400 m (upstream) Conditions: Strong current to work against, but low levels of debris and great conditions for racing; starting locations varied somewhat for each race so comparisons between different events are not valid Comments: Great racing by all crews. The boys first boat race was a dead heat until the last ten strokes. Thank you to Hotchkiss crews and coaches for making the mid-week trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DDC5426ECBA0CD8A43E8BFC5C78F3C69&cat=5", random="random"]; 
 NMH -> Hotchkiss[label="10.36
 05/04", weight="90", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 

@@ -5,17 +5,26 @@ From most recent to least recent:
 2025-05-10: Taft won by 17.3 seconds
 2025-04-26: Taft won by 49.5 seconds
 
-There are 2 paths of length 2 between Pomfret and Taft
+There are 3 paths of length 2 between Pomfret and Taft
 All of them favor Taft
 From most recent to least recent:
+Pomfret--(-61.53 5/4)-->Choate--(8.0 5/17)-->Taft [Taft net +53.53]
 Pomfret--(-61.53 5/4)-->Choate--(24.6 4/19)-->Taft [Taft net +36.93]
 Pomfret--(-32.1 4/23)-->Berkshire Academy--(5.2 4/19)-->Taft [Taft net +26.9]
 
-There are 19 paths of length 3 between Pomfret and Taft
-17/19 of them favor Taft
+There are 28 paths of length 3 between Pomfret and Taft
+26/28 of them favor Taft
 From most recent to least recent:
+Pomfret--(-32.0 5/10)-->BB&N--(56.3 5/14)-->St. Mark's--(-45.5 5/10)-->Taft [Taft net +21.2]
+Pomfret--(28.2 5/10)-->St. Mark's--(-56.3 5/14)-->BB&N--(14.7 5/10)-->Taft [Taft net +13.4]
+Pomfret--(-56.79 5/4)-->Hotchkiss--(-11.89 5/4)-->Choate--(8.0 5/17)-->Taft [Taft net +60.68]
+Pomfret--(9.4 5/4)-->Frederick Gunn--(-70.93 5/4)-->Choate--(8.0 5/17)-->Taft [Taft net +53.53]
+Pomfret--(-56.79 5/4)-->Hotchkiss--(5.36 5/14)-->NMH--(10.46 5/4)-->Taft [Taft net +40.97]
+Pomfret--(-56.79 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins--(11.87 5/4)-->Taft [Taft net +38.52]
+Pomfret--(-49.1 5/10)-->Winsor--(-1.04 4/30)-->Choate--(8.0 5/17)-->Taft [Taft net +42.14]
 Pomfret--(-49.1 5/10)-->Winsor--(-1.04 4/30)-->Choate--(18.0 5/4)-->Taft [Taft net +32.14]
 Pomfret--(-61.53 5/4)-->Choate--(1.04 4/30)-->Winsor--(31.8 5/10)-->Taft [Taft net +28.69]
+Pomfret--(-85.0 4/26)-->Groton--(-15.2 5/10)-->Choate--(8.0 5/17)-->Taft [Taft net +92.2]
 Pomfret--(-85.0 4/26)-->Groton--(-15.2 5/10)-->Choate--(18.0 5/4)-->Taft [Taft net +82.2]
 Pomfret--(-32.0 5/10)-->BB&N--(-26.33 4/26)-->Winsor--(31.8 5/10)-->Taft [Taft net +26.53]
 Pomfret--(-61.53 5/4)-->Choate--(15.2 5/10)-->Groton--(35.5 4/26)-->Taft [Taft net +10.83]
@@ -25,6 +34,7 @@ Pomfret--(-32.1 4/23)-->Berkshire Academy--(129.7 5/10)-->Canterbury--(-97.0 5/4
 Pomfret--(-85.0 4/26)-->Groton--(-22.44 4/19)-->BB&N--(14.7 5/10)-->Taft [Taft net +92.74]
 Pomfret--(-85.0 4/26)-->Groton--(-15.2 5/10)-->Choate--(24.6 4/19)-->Taft [Taft net +75.6]
 Pomfret--(-56.79 5/4)-->Hotchkiss--(-11.89 5/4)-->Choate--(24.6 4/19)-->Taft [Taft net +44.08]
+Pomfret--(-32.1 4/23)-->Berkshire Academy--(-19.5 4/19)-->Choate--(8.0 5/17)-->Taft [Taft net +43.6]
 Pomfret--(9.4 5/4)-->Frederick Gunn--(-70.93 5/4)-->Choate--(24.6 4/19)-->Taft [Taft net +36.93]
 Pomfret--(-61.53 5/4)-->Choate--(19.5 4/19)-->Berkshire Academy--(5.2 4/19)-->Taft [Taft net +36.83]
 Pomfret--(-32.1 4/23)-->Berkshire Academy--(-19.5 4/19)-->Choate--(18.0 5/4)-->Taft [Taft net +33.6]

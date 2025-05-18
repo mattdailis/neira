@@ -1,4 +1,4 @@
-digraph girls5fours {Hopkins [URL="girls5foursHopkins.html"];Brooks [URL="girls5foursBrooks.html"];Nobles [URL="girls5foursNobles.html"];Groton [URL="girls5foursGroton.html"];Middlesex [URL="girls5foursMiddlesex.html"];NMH [URL="girls5foursNMH.html"];MissPorters [URL="girls5foursMissPorters.html"];StMarks [URL="girls5foursStMarks.html"];Canterbury [URL="girls5foursCanterbury.html"];Winsor [URL="girls5foursWinsor.html"];LymeOldLyme [URL="girls5foursLymeOldLyme.html"];Taft [URL="girls5foursTaft.html"];BBN [URL="girls5foursBBN.html"];Choate [URL="girls5foursChoate.html"];CambridgeRLS [URL="girls5foursCambridgeRLS.html"];Choate -> Brooks[label="5.6
+digraph girls5fours {StMarks [URL="girls5foursStMarks.html"];Choate [URL="girls5foursChoate.html"];Hopkins [URL="girls5foursHopkins.html"];Middlesex [URL="girls5foursMiddlesex.html"];Nobles [URL="girls5foursNobles.html"];BBN [URL="girls5foursBBN.html"];Taft [URL="girls5foursTaft.html"];LymeOldLyme [URL="girls5foursLymeOldLyme.html"];Canterbury [URL="girls5foursCanterbury.html"];MissPorters [URL="girls5foursMissPorters.html"];Brooks [URL="girls5foursBrooks.html"];Groton [URL="girls5foursGroton.html"];Winsor [URL="girls5foursWinsor.html"];NMH [URL="girls5foursNMH.html"];CambridgeRLS [URL="girls5foursCambridgeRLS.html"];Choate -> Brooks[label="5.6
 05/10", weight="95", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Belmont Hill, Choate and Groton			
 Distance: 1500m Conditions: Direct 10-15 mph tailwind increasing to 20 mph throughout the afternoon. Significant chop in the last 1000m. Race order was 5-4-3-2-1 Comments: The girls 2nd boat event was run as planned between Brooks, Choate and Groton. Following the day of racing, after a complaint was lodged, the coaches and race officials reached consensus that a clash of blades between Choate and Groton in the first 20 strokes of the race should in retrospect have warranted a re-start of the race, and therefore the race results are deemed invalid for purposes of seeding and comparison. Accordingly, no results have been posted for this race. 
 Thank you to all coaches and teams for braving some choppy seas and racing well today.
@@ -27,6 +27,18 @@ Distance: 1240 m Conditions: A tail wind was significant in the first races, by 
 G5, B5, G4, B4, G2, B2, G3, B3, G1, B1
 Good competition. Good fun.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FF45AC48CF863069B998EA93AF28A674&cat=5", random="random"]; 
+Choate -> MissPorters[label="15.2
+05/17", weight="85", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+Choate -> Taft[label="44.4
+05/17", weight="56", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+MissPorters -> Taft[label="29.1
+05/17", weight="71", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
 CambridgeRLS -> Middlesex[label="27.0
 04/26", weight="73", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
@@ -51,6 +63,10 @@ Brooks -> Hopkins[label="54.0
 04/26", weight="46", tooltip="NEIRA Boys & Girls Fours,Brooks vs. CRLS, Hopkins, Middlesex and NMH			
 Distance: 1500 Conditions: Occasional rain and 10-12 mph cross headwind for first 1000 meters with choppy waters; wind and chop diminished in last 500. Conditions improved somewhat for the later races. Race order 5-1-2-3-4 Comments: Girls second boat event was a dead heat for 1st - even the finish line camera was inconclusive. Thanks to all crews for taking a risk on the weather and making the trip to Brooks for a good afternoon of racing. Thanks for the great cooperation of all crews and especially the coxswains in a 5-lane floating start.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=168B5F55B689601CCC0CC8B65FAE5BAC&cat=5", random="random"]; 
+Brooks -> BBN[label="25.1
+05/14", weight="75", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
 Hopkins -> NMH[label="37.7
 04/19", weight="63", tooltip="NEIRA Girls Fours, Pomfret vs. Hopkins, NMB, St. Mary's-Lynn			
 Distance: 1500m Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Hopkins' oar popped out of the oarlock in the 3rd boat race in the last 200m and they had to stop to reset for a few seconds. Comments: Tailwinds increased somewhat during the course of racing. Order of girls races: G1, G4, G3, G2, G5. (There was an hour and fifteen minutes between the G2 and G5 race. 15 minutes between the other four races.)
@@ -91,6 +107,10 @@ G4: Berkshire and Greenwich each hotseated rowers from G3;
 G5: all novice boats
 B5: all novice boats
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=191C2D2320D794EC0A5D0402CEB56984&cat=5", random="random"]; 
+Nobles -> Groton[label="21.0 (30.0)
+05/14", weight="79", tooltip="NEIRA Boys & Girls Fours,Nobles vs Groton JV racing			
+Distance: 1050m Conditions: Beautiful sunny afternoon with mild cross wind and reasonable current against direction of racing. Comments: Thank you to both teams and coaches for making the last minute switch of venue work. Really glad we were able to make the racing happen.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6A41180662579C4E7DA88D8CE599F756&cat=5", random="random"]; 
 Winsor -> BBN[label="33.3 (37.0)
 04/26", weight="67", tooltip="NEIRA Girls Fours, BB&N, Winsor, Greenwich Academy			
 Distance: 1350 M Conditions: Rain, heavy at times, consistant head wind, sloppy conditions in the last 300M Comments: In the 6V race BB&N Boat A's oar popped out of the oar lock multi times, forcing Winsor to alter course close to a bridge.

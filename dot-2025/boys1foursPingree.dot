@@ -1,4 +1,12 @@
-digraph boys1foursPingree {Pingree [URL="boys1foursPingree.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];StMarysLynn -> Pingree[label="0.5
+digraph boys1foursPingree {BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];Pingree [URL="boys1foursPingree.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Berwick [URL="boys1foursBerwick.html"];Berwick -> Pingree[label="23.5
+05/17", weight="77", tooltip="NEIRA Boys & Girls Fours,Berwick, Brewster, Pingree			
+Distance: 1500 Conditions: No wind, flat water. Strong head current from outgoing tide. Comments: Thank you to Pingree and Brewster for making this regatta happen! Boys 3rd boat and girls 2nd boat races are novice races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05875CE784A53152B98A2FCDE4912B97&cat=5", random="random"]; 
+Pingree -> BrewsterAcademy[label="16.6
+05/17", weight="84", tooltip="NEIRA Boys & Girls Fours,Berwick, Brewster, Pingree			
+Distance: 1500 Conditions: No wind, flat water. Strong head current from outgoing tide. Comments: Thank you to Pingree and Brewster for making this regatta happen! Boys 3rd boat and girls 2nd boat races are novice races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=05875CE784A53152B98A2FCDE4912B97&cat=5", random="random"]; 
+StMarysLynn -> Pingree[label="0.5
 05/04", weight="100", tooltip="NEIRA Boys & Girls Fours,Pingree, Lowell High, St. Mary's, Dublin			
 Distance: 1500 Conditions: Flat conditions until the mixed and varsity races, which encountered an 8mph headwind. Comments: Boys' and Girls' third boats were novice crews. Girls' fourth race was a mixed race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=332AC602A7184903C2BF632C3A15C1EB&cat=5", random="random"]}

@@ -1,19 +1,23 @@
 Choate and Groton have raced head to head once on 2025-05-10
 Groton won the race by 16.8 seconds
 
-There are 4 paths of length 2 between Choate and Groton
+There are 5 paths of length 2 between Choate and Groton
 All of them favor Groton
 From most recent to least recent:
 Choate--(-3.12 4/30)-->Cambridge RLS--(-11.85 5/3)-->Groton [Groton net +14.97]
 Choate--(-4.25 5/4)-->Taft--(-17.8 4/26)-->Groton [Groton net +22.05]
+Choate--(-2.9 5/17)-->Taft--(-17.8 4/26)-->Groton [Groton net +20.7]
 Choate--(36.29 5/4)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +1.61]
 Choate--(7.2 4/19)-->Taft--(-17.8 4/26)-->Groton [Groton net +10.6]
 
-There are 42 paths of length 3 between Choate and Groton
-37/42 of them favor Groton
+There are 65 paths of length 3 between Choate and Groton
+60/65 of them favor Groton
 From most recent to least recent:
+Choate--(8.12 5/4)-->Brewster Academy--(-32.0 5/14)-->Brooks--(4.3 5/10)-->Groton [Groton net +19.58]
 Choate--(-9.58 4/30)-->Winsor--(6.46 4/30)-->Cambridge RLS--(-11.85 5/3)-->Groton [Groton net +14.97]
 Choate--(-4.25 5/4)-->Taft--(10.0 5/10)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +32.15]
+Choate--(-2.9 5/17)-->Taft--(10.0 5/10)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +30.8]
+Choate--(-1.5 5/17)-->Berkshire Academy--(-9.6 5/4)-->Taft--(-17.8 4/26)-->Groton [Groton net +28.9]
 Choate--(-3.12 4/30)-->Cambridge RLS--(-24.5 4/26)-->Brooks--(4.3 5/10)-->Groton [Groton net +23.32]
 Choate--(-9.7 5/4)-->NMH--(-17.8 4/26)-->Brooks--(4.3 5/10)-->Groton [Groton net +23.2]
 Choate--(-9.7 5/4)-->NMH--(5.45 5/4)-->Taft--(-17.8 4/26)-->Groton [Groton net +22.05]
@@ -22,11 +26,23 @@ Choate--(-4.25 5/4)-->Taft--(20.1 4/26)-->Pomfret--(-37.9 4/26)-->Groton [Groton
 Choate--(-4.25 5/4)-->Taft--(27.5 4/26)-->Dexter-Southfield--(-45.3 4/26)-->Groton [Groton net +22.05]
 Choate--(10.3 5/4)-->Hopkins--(-14.55 5/4)-->Taft--(-17.8 4/26)-->Groton [Groton net +22.05]
 Choate--(5.35 5/4)-->Berkshire Academy--(-9.6 5/4)-->Taft--(-17.8 4/26)-->Groton [Groton net +22.05]
+Choate--(-2.9 5/17)-->Taft--(20.1 4/26)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +20.7]
+Choate--(-2.9 5/17)-->Taft--(27.5 4/26)-->Dexter-Southfield--(-45.3 4/26)-->Groton [Groton net +20.7]
+Choate--(-1.5 5/17)-->Berkshire Academy--(-1.4 5/17)-->Taft--(-17.8 4/26)-->Groton [Groton net +20.7]
+Choate--(6.3 5/17)-->Miss Porter's--(-9.2 5/17)-->Taft--(-17.8 4/26)-->Groton [Groton net +20.7]
+Choate--(1.3 5/17)-->Frederick Gunn--(-4.1 5/17)-->Taft--(-17.8 4/26)-->Groton [Groton net +20.6]
+Choate--(6.3 5/17)-->Miss Porter's--(11.0 5/10)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +20.6]
+Choate--(1.3 5/17)-->Frederick Gunn--(-3.21 5/4)-->Taft--(-17.8 4/26)-->Groton [Groton net +19.71]
 Choate--(-9.58 4/30)-->Winsor--(28.0 5/10)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +19.48]
+Choate--(1.3 5/17)-->Frederick Gunn--(18.3 5/10)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +18.3]
 Choate--(-9.7 5/4)-->NMH--(6.7 4/26)-->Cambridge RLS--(-11.85 5/3)-->Groton [Groton net +14.85]
+Choate--(5.35 5/4)-->Berkshire Academy--(-1.4 5/17)-->Taft--(-17.8 4/26)-->Groton [Groton net +13.85]
+Choate--(1.3 5/17)-->Frederick Gunn--(24.9 5/4)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +11.7]
+Choate--(6.3 5/17)-->Miss Porter's--(1.0 5/10)-->Taft--(-17.8 4/26)-->Groton [Groton net +10.5]
 Choate--(8.12 5/4)-->Brewster Academy--(19.53 5/4)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +10.25]
 Choate--(-9.58 4/30)-->Winsor--(18.0 5/10)-->Taft--(-17.8 4/26)-->Groton [Groton net +9.38]
 Choate--(-21.1 5/10)-->Brooks--(24.5 4/26)-->Cambridge RLS--(-11.85 5/3)-->Groton [Groton net +8.45]
+Choate--(1.3 5/17)-->Frederick Gunn--(8.3 5/10)-->Taft--(-17.8 4/26)-->Groton [Groton net +8.2]
 Choate--(10.3 5/4)-->Hopkins--(-22.0 4/26)-->Brooks--(4.3 5/10)-->Groton [Groton net +7.4]
 Choate--(-5.7 5/4)-->Hotchkiss--(37.89 5/4)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +5.71]
 Choate--(39.24 5/4)-->Canterbury--(-3.1 5/4)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +1.76]
@@ -35,21 +51,29 @@ Choate--(36.29 5/4)-->Pomfret--(7.4 4/26)-->Dexter-Southfield--(-45.3 4/26)-->Gr
 Choate--(10.3 5/4)-->Hopkins--(2.5 4/26)-->Cambridge RLS--(-11.85 5/3)-->Groton [Choate net +0.95]
 Choate--(10.3 5/4)-->Hopkins--(31.4 5/4)-->Pomfret--(-37.9 4/26)-->Groton [Choate net +3.8]
 Choate--(36.29 5/4)-->Pomfret--(-10.0 5/10)-->Taft--(-17.8 4/26)-->Groton [Choate net +8.49]
+Choate--(-1.5 5/17)-->Berkshire Academy--(27.2 4/23)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +12.2]
 Choate--(5.35 5/4)-->Berkshire Academy--(27.2 4/23)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +5.35]
 Choate--(-6.0 4/19)-->Berkshire Academy--(-9.6 5/4)-->Taft--(-17.8 4/26)-->Groton [Groton net +33.4]
 Choate--(-4.25 5/4)-->Taft--(-13.5 5/10)-->BB&N--(-14.11 4/19)-->Groton [Groton net +31.86]
+Choate--(-2.9 5/17)-->Taft--(-13.5 5/10)-->BB&N--(-14.11 4/19)-->Groton [Groton net +30.51]
 Choate--(-9.7 5/4)-->NMH--(17.3 4/19)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +30.3]
+Choate--(8.12 5/4)-->Brewster Academy--(-20.5 5/14)-->BB&N--(-14.11 4/19)-->Groton [Groton net +26.49]
+Choate--(-6.0 4/19)-->Berkshire Academy--(-1.4 5/17)-->Taft--(-17.8 4/26)-->Groton [Groton net +25.2]
+Choate--(-21.1 5/10)-->Brooks--(11.5 5/14)-->BB&N--(-14.11 4/19)-->Groton [Groton net +23.71]
 Choate--(7.2 4/19)-->Taft--(10.0 5/10)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +20.7]
 Choate--(7.2 4/19)-->Taft--(-13.5 5/10)-->BB&N--(-14.11 4/19)-->Groton [Groton net +20.41]
+Choate--(6.3 5/17)-->Miss Porter's--(-12.5 5/10)-->BB&N--(-14.11 4/19)-->Groton [Groton net +20.31]
 Choate--(-9.58 4/30)-->Winsor--(4.5 5/10)-->BB&N--(-14.11 4/19)-->Groton [Groton net +19.19]
 Choate--(-9.58 4/30)-->Winsor--(-13.15 5/7)-->Nobles--(3.67 4/19)-->Groton [Groton net +19.06]
 Choate--(-9.58 4/30)-->Winsor--(4.89 4/26)-->BB&N--(-14.11 4/19)-->Groton [Groton net +18.8]
 Choate--(10.3 5/4)-->Hopkins--(8.8 4/19)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +18.8]
+Choate--(1.3 5/17)-->Frederick Gunn--(-5.2 5/10)-->BB&N--(-14.11 4/19)-->Groton [Groton net +18.01]
 Choate--(-6.0 4/19)-->Berkshire Academy--(27.2 4/23)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +16.7]
 Choate--(8.12 5/4)-->Brewster Academy--(-22.6 4/26)-->Nobles--(3.67 4/19)-->Groton [Groton net +10.81]
 Choate--(-6.0 4/19)-->Berkshire Academy--(13.2 4/19)-->Taft--(-17.8 4/26)-->Groton [Groton net +10.6]
 Choate--(7.2 4/19)-->Taft--(20.1 4/26)-->Pomfret--(-37.9 4/26)-->Groton [Groton net +10.6]
 Choate--(7.2 4/19)-->Taft--(27.5 4/26)-->Dexter-Southfield--(-45.3 4/26)-->Groton [Groton net +10.6]
+Choate--(-1.5 5/17)-->Berkshire Academy--(13.2 4/19)-->Taft--(-17.8 4/26)-->Groton [Groton net +6.1]
 Choate--(36.29 5/4)-->Pomfret--(-23.5 5/10)-->BB&N--(-14.11 4/19)-->Groton [Groton net +1.32]
 Choate--(5.35 5/4)-->Berkshire Academy--(13.2 4/19)-->Taft--(-17.8 4/26)-->Groton [Choate net +0.75]
 Choate--(-21.1 5/10)-->Brooks--(95.6 4/19)-->Dexter-Southfield--(-45.3 4/26)-->Groton [Choate net +29.2]

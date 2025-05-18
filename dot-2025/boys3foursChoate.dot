@@ -1,4 +1,4 @@
-digraph boys3foursChoate {Pomfret [URL="boys3foursPomfret.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];Brooks [URL="boys3foursBrooks.html"];Groton [URL="boys3foursGroton.html"];BelmontHill [URL="boys3foursBelmontHill.html"];FrederickGunn [URL="boys3foursFrederickGunn.html"];NMH [URL="boys3foursNMH.html"];Choate [URL="boys3foursChoate.html"];BelmontHill -> Choate[label="53.7
+digraph boys3foursChoate {Hotchkiss [URL="boys3foursHotchkiss.html"];Choate [URL="boys3foursChoate.html"];Pomfret [URL="boys3foursPomfret.html"];Taft [URL="boys3foursTaft.html"];FrederickGunn [URL="boys3foursFrederickGunn.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Brooks [URL="boys3foursBrooks.html"];Groton [URL="boys3foursGroton.html"];NMH [URL="boys3foursNMH.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];BelmontHill -> Choate[label="53.7
 05/10", weight="47", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Belmont Hill, Choate and Groton			
 Distance: 1500m Conditions: Direct 10-15 mph tailwind increasing to 20 mph throughout the afternoon. Significant chop in the last 1000m. Race order was 5-4-3-2-1 Comments: The girls 2nd boat event was run as planned between Brooks, Choate and Groton. Following the day of racing, after a complaint was lodged, the coaches and race officials reached consensus that a clash of blades between Choate and Groton in the first 20 strokes of the race should in retrospect have warranted a re-start of the race, and therefore the race results are deemed invalid for purposes of seeding and comparison. Accordingly, no results have been posted for this race. 
 Thank you to all coaches and teams for braving some choppy seas and racing well today.
@@ -13,6 +13,18 @@ Brooks -> Choate[label="43.0
 Distance: 1500m Conditions: Direct 10-15 mph tailwind increasing to 20 mph throughout the afternoon. Significant chop in the last 1000m. Race order was 5-4-3-2-1 Comments: The girls 2nd boat event was run as planned between Brooks, Choate and Groton. Following the day of racing, after a complaint was lodged, the coaches and race officials reached consensus that a clash of blades between Choate and Groton in the first 20 strokes of the race should in retrospect have warranted a re-start of the race, and therefore the race results are deemed invalid for purposes of seeding and comparison. Accordingly, no results have been posted for this race. 
 Thank you to all coaches and teams for braving some choppy seas and racing well today.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2BB05E7EC137B8057B4AC49769B62E55&cat=5", random="random"]; 
+Taft -> Choate[label="49.7
+05/17", weight="51", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+BerkshireAcademy -> Choate[label="30.0
+05/17", weight="70", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+FrederickGunn -> Choate[label="2.8
+05/17", weight="98", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
 NMH -> Choate[label="33.54
 05/04", weight="67", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 

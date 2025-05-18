@@ -1,4 +1,4 @@
-digraph boys1foursMiddletown {GreenwichCountryDay [URL="boys1foursGreenwichCountryDay.html"];Hotchkiss [URL="boys1foursHotchkiss.html"];NotreDame [URL="boys1foursNotreDame.html"];Middletown [URL="boys1foursMiddletown.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];Hotchkiss -> Middletown[label="34.1
+digraph boys1foursMiddletown {Hotchkiss [URL="boys1foursHotchkiss.html"];NotreDame [URL="boys1foursNotreDame.html"];Pomfret [URL="boys1foursPomfret.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];Middletown [URL="boys1foursMiddletown.html"];GreenwichCountryDay [URL="boys1foursGreenwichCountryDay.html"];Hotchkiss -> Middletown[label="34.1
 04/20", weight="66", tooltip="NEIRA Boys & Girls Fours,Notre Dame Invite #1: Notre Dame vs. Hotchkiss vs. Middletown vs. Greenwich Country Day School			
 Distance: 1500m Conditions: All races into an outgoing head current on the river. Light cross/ tail wind for all races. G1 and B1 had small chop starting to build. Comments: Great Racing by all today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0B5A12BEAF8945DD81EB9EFB206E62F1&cat=5", random="random"]; 
@@ -11,6 +11,10 @@ Middletown -> GreenwichCountryDay[label="10.8
 Distance: 1500m Conditions: Floating starts, down river on a 1500m course with a slight turn to port at 750m. 10mph East wind off the starboard. Incoming tide, but minimal current still flowing down river. Comments: Girls 3rd boat was a novice race (not middletown's 3rd varsity). Boys first boat was a novice boys race. Not Middletown's first boat. 
 Greenwich Country Day Girls 2V port oar hit a piece of river debris at approx 1200m. They continued to row through it.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7883E3E9F1598D30B271DBFF0F534924&cat=5", random="random"]; 
+Pomfret -> Middletown[label="14.1
+05/17", weight="86", tooltip="NEIRA Boys , Pomfret v. Middletown			
+Distance: 1500M Conditions: Very slight tailwind (2 to 5 mph), which was somewhat more pronounced in second half of race course. Good water. Comments: Alternated races with girls. The order of the boys' races was: B4, B2, B3, B1. During the warm-up and the B2 race, there were heavy downpours that mostly subsided by the end of the B2 race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=382FC1E4D16CE7CDEFA550FE6850E783&cat=1", random="random"]; 
 LymeOldLyme -> Middletown[label="7.2
 04/30", weight="93", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme V Middletown			
 Distance: 1500 Conditions: 7-11 mph cross tail wind. Waves challenging for 300-400 meters. Comments: It was a great day of racing. Lyme/Old Lyme was excited to host Middletown at our lake. 

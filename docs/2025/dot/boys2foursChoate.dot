@@ -1,4 +1,4 @@
-digraph boys2foursChoate {Hopkins [URL="boys2foursHopkins.html"];Pomfret [URL="boys2foursPomfret.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];Brooks [URL="boys2foursBrooks.html"];Suffield [URL="boys2foursSuffield.html"];Groton [URL="boys2foursGroton.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];NotreDame [URL="boys2foursNotreDame.html"];BelmontHill [URL="boys2foursBelmontHill.html"];Taft [URL="boys2foursTaft.html"];Choate [URL="boys2foursChoate.html"];BelmontHill -> Choate[label="68.0
+digraph boys2foursChoate {Hotchkiss [URL="boys2foursHotchkiss.html"];Choate [URL="boys2foursChoate.html"];NotreDame [URL="boys2foursNotreDame.html"];BrewsterAcademy [URL="boys2foursBrewsterAcademy.html"];Pomfret [URL="boys2foursPomfret.html"];Hopkins [URL="boys2foursHopkins.html"];Suffield [URL="boys2foursSuffield.html"];Taft [URL="boys2foursTaft.html"];BelmontHill [URL="boys2foursBelmontHill.html"];Brooks [URL="boys2foursBrooks.html"];Groton [URL="boys2foursGroton.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];BelmontHill -> Choate[label="68.0
 05/10", weight="32", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Belmont Hill, Choate and Groton			
 Distance: 1500m Conditions: Direct 10-15 mph tailwind increasing to 20 mph throughout the afternoon. Significant chop in the last 1000m. Race order was 5-4-3-2-1 Comments: The girls 2nd boat event was run as planned between Brooks, Choate and Groton. Following the day of racing, after a complaint was lodged, the coaches and race officials reached consensus that a clash of blades between Choate and Groton in the first 20 strokes of the race should in retrospect have warranted a re-start of the race, and therefore the race results are deemed invalid for purposes of seeding and comparison. Accordingly, no results have been posted for this race. 
 Thank you to all coaches and teams for braving some choppy seas and racing well today.
@@ -21,6 +21,14 @@ BerkshireAcademy -> Choate[label="17.1
 04/19", weight="83", tooltip="NEIRA Boys & Girls Fours,Berkshire v. Choate & Taft			
 Distance: 1500 M Conditions: Warm, partly cloudy. Steady tailwind ~8-12 mph throughout the afternoon; strongest in the latter 1000 M. Comments: In the G2 race, Berkshire stopped before the finish line and drifted across. Thanks to Choate and Taft for traveling to Camp Sloane for our annual early season tilt.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9D6EF532608DCE0FFB64EAEAE8781272&cat=5", random="random"]; 
+Taft -> Choate[label="34.7
+05/17", weight="66", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
+BerkshireAcademy -> Choate[label="16.9
+05/17", weight="84", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn School vs. Berkshire, Choate, Miss Porter's, and Taft			
+Distance: 1500 Conditions: A mostly consistent mild-to-moderate tailwind starting at about 300m and running the length of the course; the starting area was protected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95FD106DFDCEC13E4123EEAA631894B9&cat=5", random="random"]; 
 Suffield -> Choate[label="13.83
 05/04", weight="87", tooltip="Founder's Day Regatta			
 ", URL="https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6", random="random"]; 

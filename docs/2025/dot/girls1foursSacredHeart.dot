@@ -1,4 +1,28 @@
-digraph girls1foursSacredHeart {WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];SacredHeart [URL="girls1foursSacredHeart.html"];GreenwichAcademy [URL="girls1foursGreenwichAcademy.html"];GreenwichCountryDay [URL="girls1foursGreenwichCountryDay.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDay.html"];Derryfield [URL="girls1foursDerryfield.html"];Berwick [URL="girls1foursBerwick.html"];Derryfield -> SacredHeart[label="29.9
+digraph girls1foursSacredHeart {WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];GreenwichAcademy [URL="girls1foursGreenwichAcademy.html"];Hotchkiss [URL="girls1foursHotchkiss.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDay.html"];SacredHeart [URL="girls1foursSacredHeart.html"];Hopkins [URL="girls1foursHopkins.html"];Berwick [URL="girls1foursBerwick.html"];Derryfield [URL="girls1foursDerryfield.html"];GreenwichCountryDay [URL="girls1foursGreenwichCountryDay.html"];Hotchkiss -> SacredHeart[label="56.2
+05/18", weight="44", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+GreenwichAcademy -> SacredHeart[label="45.7
+05/18", weight="55", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+Hopkins -> SacredHeart[label="38.2
+05/18", weight="62", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+GreenwichCountryDay -> SacredHeart[label="24.2
+05/18", weight="76", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+Derryfield -> SacredHeart[label="29.9
 04/27", weight="71", tooltip="NEIRA Girls Fours, Worcester Academy, Berwick Academy, Derryfield, Sacred Heart-Greenwich			
 Conditions: Strong cross/tailwind (20mph), heavy chop throughout races. Wind picked up considerably between 1st and last races Comments: Girls V1 race was approximately 1550 meters. Girls 2V race was approximately 1475 meters.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5100A5CA83A99A9CD2E37FEC65103FEF&cat=1", random="random"]; 

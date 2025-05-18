@@ -555,6 +555,11 @@ def put_margin(head_to_head, faster_boat, slower_boat, margin, date, metadata=No
     """
     if metadata is None:
         metadata = []
+
+    if not margin:
+        print("margin=None", head_to_head, faster_boat, slower_boat, date)
+        margin=1000
+
     if faster_boat > slower_boat:
         pair = (slower_boat, faster_boat)
         margin = -margin
@@ -978,7 +983,7 @@ def critique(data_dir, class_, gender, varsity_index, ranking):
     for x in ranking:
         if x.strip() not in evidence.schools:
             print(evidence.schools)
-            raise Exception(x + "not in schools")
+            raise Exception(x + " does not have any results for " + gender + " " + varsity_index + " " + class_)
 
     critiques = []
 
@@ -1092,8 +1097,8 @@ def critique(data_dir, class_, gender, varsity_index, ranking):
                             )
                         )
 
-    with open(f"critiques-{class_}-{gender}-{varsity_index}.txt", "w") as f:
-        print(f"critiques-{class_}-{gender}-{varsity_index}.txt")
+    with open(f"critiques/critiques-{class_}-{gender}-{varsity_index}.txt", "w") as f:
+        print(f"critiques/critiques-{class_}-{gender}-{varsity_index}.txt")
         for type_, critique in sorted(critiques):
             f.write(type_ + " " + critique)
             f.write("\n")

@@ -1,4 +1,28 @@
-digraph boys1foursStMarysLynn {Hopkins [URL="boys1foursHopkins.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Bancroft [URL="boys1foursBancroft.html"];Pomfret [URL="boys1foursPomfret.html"];Thayer [URL="boys1foursThayer.html"];BelmontHill [URL="boys1foursBelmontHill.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];EagleHill [URL="boys1foursEagleHill.html"];NMH [URL="boys1foursNMH.html"];Pingree [URL="boys1foursPingree.html"];StMarysLynn -> Pingree[label="0.5
+digraph boys1foursStMarysLynn {WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Pomfret [URL="boys1foursPomfret.html"];Hopkins [URL="boys1foursHopkins.html"];Pingree [URL="boys1foursPingree.html"];Bancroft [URL="boys1foursBancroft.html"];Thayer [URL="boys1foursThayer.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];BelmontHill [URL="boys1foursBelmontHill.html"];Berwick [URL="boys1foursBerwick.html"];DexterSouthfield [URL="boys1foursDexterSouthfield.html"];Middlesex [URL="boys1foursMiddlesex.html"];NMH [URL="boys1foursNMH.html"];EagleHill [URL="boys1foursEagleHill.html"];DexterSouthfield -> StMarysLynn[label="18.5
+05/11", weight="82", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, St. Mary's Lynn, Dexter Southfield, Dublin School			
+Distance: 1500 Conditions: Strong crosswind at the start, becoming protected by the shore as race went on. Flat water conditions. Incoming tide but strong down stream current. Conditions consistent for all races. Comments: Boys 4V was novices and boys 5V was mixed novices. Girls 3V and 4 were novice races. All novice races served as scrimmages to get athletes racing experience. Thank you to all teams for traveling Berwick!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FDB08A4983B97B133607F94BDB7F822B&cat=5", random="random"]; 
+Berwick -> StMarysLynn[label="13.7
+05/11", weight="87", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, St. Mary's Lynn, Dexter Southfield, Dublin School			
+Distance: 1500 Conditions: Strong crosswind at the start, becoming protected by the shore as race went on. Flat water conditions. Incoming tide but strong down stream current. Conditions consistent for all races. Comments: Boys 4V was novices and boys 5V was mixed novices. Girls 3V and 4 were novice races. All novice races served as scrimmages to get athletes racing experience. Thank you to all teams for traveling Berwick!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FDB08A4983B97B133607F94BDB7F822B&cat=5", random="random"]; 
+NMH -> StMarysLynn[label="26.1 (27.96)
+05/17", weight="74", tooltip="NEIRA Boys & Girls Fours,NMH vs Middlesex, Newton Country Day and St. Mary's - Lynn			
+Distance: 1400m (upstream) Conditions: A strong current continued to provide plenty of extra length to our standard course; moderate chop due to blustery tailwinds but good conditions overall Comments: In the boys 4th boat race, a Middlesex seat broke a wheel early in the contest that made it difficult for its oarsman to use his full drive for the rest of the race. Please consider this when assessing the margin for NEIRA seeding purposes. 
+One of our final events was the Eights race, which featured two NMH crews and one St Mary's crew. Results were: 
+1. NMH Girls novice eight - 6:35
+2. NMH mixed eight - 7:02
+3. St Mary's - Lynn - 7:49
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=30B60C8D1DD9BD66CE6EB65F1C28CCEB&cat=5", random="random"]; 
+Middlesex -> StMarysLynn[label="20.4 (21.86)
+05/17", weight="80", tooltip="NEIRA Boys & Girls Fours,NMH vs Middlesex, Newton Country Day and St. Mary's - Lynn			
+Distance: 1400m (upstream) Conditions: A strong current continued to provide plenty of extra length to our standard course; moderate chop due to blustery tailwinds but good conditions overall Comments: In the boys 4th boat race, a Middlesex seat broke a wheel early in the contest that made it difficult for its oarsman to use his full drive for the rest of the race. Please consider this when assessing the margin for NEIRA seeding purposes. 
+One of our final events was the Eights race, which featured two NMH crews and one St Mary's crew. Results were: 
+1. NMH Girls novice eight - 6:35
+2. NMH mixed eight - 7:02
+3. St Mary's - Lynn - 7:49
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=30B60C8D1DD9BD66CE6EB65F1C28CCEB&cat=5", random="random"]; 
+StMarysLynn -> Pingree[label="0.5
 05/04", weight="100", tooltip="NEIRA Boys & Girls Fours,Pingree, Lowell High, St. Mary's, Dublin			
 Distance: 1500 Conditions: Flat conditions until the mixed and varsity races, which encountered an 8mph headwind. Comments: Boys' and Girls' third boats were novice crews. Girls' fourth race was a mixed race.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=332AC602A7184903C2BF632C3A15C1EB&cat=5", random="random"]; 

@@ -1,8 +1,11 @@
 Brooks and Taft have never raced head to head
 
-There are 6 paths of length 2 between Brooks and Taft
-5/6 of them favor Brooks
+There are 9 paths of length 2 between Brooks and Taft
+8/9 of them favor Brooks
 From most recent to least recent:
+Brooks--(56.4 5/14)-->St. Mark's--(-45.5 5/10)-->Taft [Brooks net +10.9]
+Brooks--(0.1 5/14)-->BB&N--(14.7 5/10)-->Taft [Brooks net +14.8]
+Brooks--(7.2 5/10)-->Choate--(8.0 5/17)-->Taft [Brooks net +15.2]
 Brooks--(7.2 5/10)-->Choate--(18.0 5/4)-->Taft [Brooks net +25.2]
 Brooks--(9.7 4/26)-->NMH--(10.46 5/4)-->Taft [Brooks net +20.16]
 Brooks--(35.3 4/26)-->Hopkins--(11.87 5/4)-->Taft [Brooks net +47.17]
@@ -10,16 +13,31 @@ Brooks--(22.4 5/10)-->Groton--(35.5 4/26)-->Taft [Brooks net +57.9]
 Brooks--(33.1 4/19)-->St. Mark's--(-45.5 5/10)-->Taft [Taft net +12.4]
 Brooks--(7.2 5/10)-->Choate--(24.6 4/19)-->Taft [Brooks net +31.8]
 
-There are 50 paths of length 3 between Brooks and Taft
-44/50 of them favor Brooks
+There are 69 paths of length 3 between Brooks and Taft
+59/69 of them favor Brooks
 From most recent to least recent:
+Brooks--(0.1 5/14)-->BB&N--(56.3 5/14)-->St. Mark's--(-45.5 5/10)-->Taft [Brooks net +10.9]
+Brooks--(56.4 5/14)-->St. Mark's--(-77.3 5/10)-->Winsor--(31.8 5/10)-->Taft [Brooks net +10.9]
+Brooks--(56.4 5/14)-->St. Mark's--(-60.2 5/10)-->BB&N--(14.7 5/10)-->Taft [Brooks net +10.9]
+Brooks--(56.4 5/14)-->St. Mark's--(-28.2 5/10)-->Pomfret--(-17.3 5/10)-->Taft [Brooks net +10.9]
+Brooks--(0.1 5/14)-->BB&N--(-17.1 5/10)-->Winsor--(31.8 5/10)-->Taft [Brooks net +14.8]
+Brooks--(0.1 5/14)-->BB&N--(32.0 5/10)-->Pomfret--(-17.3 5/10)-->Taft [Brooks net +14.8]
+Brooks--(0.1 5/14)-->BB&N--(60.2 5/10)-->St. Mark's--(-45.5 5/10)-->Taft [Brooks net +14.8]
+Brooks--(56.4 5/14)-->St. Mark's--(-56.3 5/14)-->BB&N--(14.7 5/10)-->Taft [Brooks net +14.8]
+Brooks--(22.4 5/10)-->Groton--(-15.2 5/10)-->Choate--(8.0 5/17)-->Taft [Brooks net +15.2]
 Brooks--(7.2 5/10)-->Choate--(6.13 5/4)-->Hopkins--(11.87 5/4)-->Taft [Brooks net +25.2]
 Brooks--(7.2 5/10)-->Choate--(7.54 5/4)-->NMH--(10.46 5/4)-->Taft [Brooks net +25.2]
 Brooks--(7.2 5/10)-->Choate--(11.89 5/4)-->Hotchkiss--(6.11 5/4)-->Taft [Brooks net +25.2]
 Brooks--(22.4 5/10)-->Groton--(-15.2 5/10)-->Choate--(18.0 5/4)-->Taft [Brooks net +25.2]
 Brooks--(7.2 5/10)-->Choate--(61.53 5/4)-->Pomfret--(-17.3 5/10)-->Taft [Brooks net +51.43]
 Brooks--(7.2 5/10)-->Choate--(1.04 4/30)-->Winsor--(31.8 5/10)-->Taft [Brooks net +40.04]
+Brooks--(56.4 5/14)-->St. Mark's--(-28.2 5/10)-->Pomfret--(-49.5 4/26)-->Taft [Taft net +21.3]
+Brooks--(0.1 5/14)-->BB&N--(32.0 5/10)-->Pomfret--(-49.5 4/26)-->Taft [Taft net +17.4]
+Brooks--(-0.9 4/26)-->Cambridge RLS--(-16.62 4/30)-->Choate--(8.0 5/17)-->Taft [Taft net +9.52]
 Brooks--(-0.9 4/26)-->Cambridge RLS--(-16.62 4/30)-->Choate--(18.0 5/4)-->Taft [Brooks net +0.48]
+Brooks--(0.1 5/14)-->BB&N--(-26.33 4/26)-->Winsor--(31.8 5/10)-->Taft [Brooks net +5.57]
+Brooks--(9.7 4/26)-->NMH--(-7.54 5/4)-->Choate--(8.0 5/17)-->Taft [Brooks net +10.16]
+Brooks--(9.7 4/26)-->NMH--(-5.36 5/14)-->Hotchkiss--(6.11 5/4)-->Taft [Brooks net +10.45]
 Brooks--(-0.9 4/26)-->Cambridge RLS--(-15.58 4/30)-->Winsor--(31.8 5/10)-->Taft [Brooks net +15.32]
 Brooks--(7.2 5/10)-->Choate--(61.53 5/4)-->Pomfret--(-49.5 4/26)-->Taft [Brooks net +19.23]
 Brooks--(-0.9 4/26)-->Cambridge RLS--(10.6 4/26)-->NMH--(10.46 5/4)-->Taft [Brooks net +20.16]
@@ -30,7 +48,9 @@ Brooks--(22.6 4/26)-->Middlesex--(-12.9 4/26)-->NMH--(10.46 5/4)-->Taft [Brooks 
 Brooks--(35.3 4/26)-->Hopkins--(-25.6 4/26)-->NMH--(10.46 5/4)-->Taft [Brooks net +20.16]
 Brooks--(9.7 4/26)-->NMH--(33.0 5/4)-->Lyme/Old Lyme--(-22.0 5/4)-->Taft [Brooks net +20.7]
 Brooks--(9.7 4/26)-->NMH--(108.0 5/4)-->Canterbury--(-97.0 5/4)-->Taft [Brooks net +20.7]
+Brooks--(35.3 4/26)-->Hopkins--(-6.4 5/18)-->Hotchkiss--(6.11 5/4)-->Taft [Brooks net +35.01]
 Brooks--(22.6 4/26)-->Middlesex--(-2.2 5/3)-->BB&N--(14.7 5/10)-->Taft [Brooks net +35.1]
+Brooks--(35.3 4/26)-->Hopkins--(-6.13 5/4)-->Choate--(8.0 5/17)-->Taft [Brooks net +37.17]
 Brooks--(-0.9 4/26)-->Cambridge RLS--(6.53 5/3)-->Groton--(35.5 4/26)-->Taft [Brooks net +41.13]
 Brooks--(35.3 4/26)-->Hopkins--(31.0 5/4)-->Lyme/Old Lyme--(-22.0 5/4)-->Taft [Brooks net +44.3]
 Brooks--(35.3 4/26)-->Hopkins--(106.0 5/4)-->Canterbury--(-97.0 5/4)-->Taft [Brooks net +44.3]
@@ -50,6 +70,7 @@ Brooks--(25.4 4/19)-->Middlesex--(7.7 4/19)-->St. Mark's--(-45.5 5/10)-->Taft [T
 Brooks--(33.1 4/19)-->St. Mark's--(-77.3 5/10)-->Winsor--(31.8 5/10)-->Taft [Taft net +12.4]
 Brooks--(33.1 4/19)-->St. Mark's--(-60.2 5/10)-->BB&N--(14.7 5/10)-->Taft [Taft net +12.4]
 Brooks--(33.1 4/19)-->St. Mark's--(-28.2 5/10)-->Pomfret--(-17.3 5/10)-->Taft [Taft net +12.4]
+Brooks--(33.1 4/19)-->St. Mark's--(-56.3 5/14)-->BB&N--(14.7 5/10)-->Taft [Taft net +8.5]
 Brooks--(9.7 4/26)-->NMH--(-16.0 4/19)-->Hopkins--(11.87 5/4)-->Taft [Brooks net +5.57]
 Brooks--(-0.9 4/26)-->Cambridge RLS--(-16.62 4/30)-->Choate--(24.6 4/19)-->Taft [Brooks net +7.08]
 Brooks--(22.4 5/10)-->Groton--(-22.44 4/19)-->BB&N--(14.7 5/10)-->Taft [Brooks net +14.66]
@@ -61,5 +82,6 @@ Brooks--(35.3 4/26)-->Hopkins--(-7.5 5/10)-->Berkshire Academy--(5.2 4/19)-->Taf
 Brooks--(25.4 4/19)-->Middlesex--(-2.2 5/3)-->BB&N--(14.7 5/10)-->Taft [Brooks net +37.9]
 Brooks--(25.4 4/19)-->Middlesex--(12.7 4/26)-->Hopkins--(11.87 5/4)-->Taft [Brooks net +49.97]
 Brooks--(35.3 4/26)-->Hopkins--(-6.13 5/4)-->Choate--(24.6 4/19)-->Taft [Brooks net +53.77]
+Brooks--(0.1 5/14)-->BB&N--(22.44 4/19)-->Groton--(35.5 4/26)-->Taft [Brooks net +58.04]
 Brooks--(35.3 4/26)-->Hopkins--(16.0 4/19)-->NMH--(10.46 5/4)-->Taft [Brooks net +61.76]
 Brooks--(-0.9 4/26)-->Cambridge RLS--(10.8 4/16)-->BB&N--(14.7 5/10)-->Taft [Brooks net +24.6]

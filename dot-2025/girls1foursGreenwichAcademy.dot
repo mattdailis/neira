@@ -1,4 +1,28 @@
-digraph girls1foursGreenwichAcademy {Hopkins [URL="girls1foursHopkins.html"];GreenwichAcademy [URL="girls1foursGreenwichAcademy.html"];GreenwichCountryDay [URL="girls1foursGreenwichCountryDay.html"];SacredHeart [URL="girls1foursSacredHeart.html"];BerkshireAcademy [URL="girls1foursBerkshireAcademy.html"];Winsor [URL="girls1foursWinsor.html"];Canterbury [URL="girls1foursCanterbury.html"];LymeOldLyme [URL="girls1foursLymeOldLyme.html"];BBN [URL="girls1foursBBN.html"];BerkshireAcademy -> GreenwichAcademy[label="11.2
+digraph girls1foursGreenwichAcademy {GreenwichAcademy [URL="girls1foursGreenwichAcademy.html"];Hotchkiss [URL="girls1foursHotchkiss.html"];SacredHeart [URL="girls1foursSacredHeart.html"];Hopkins [URL="girls1foursHopkins.html"];LymeOldLyme [URL="girls1foursLymeOldLyme.html"];BBN [URL="girls1foursBBN.html"];Canterbury [URL="girls1foursCanterbury.html"];Winsor [URL="girls1foursWinsor.html"];GreenwichCountryDay [URL="girls1foursGreenwichCountryDay.html"];BerkshireAcademy [URL="girls1foursBerkshireAcademy.html"];Hotchkiss -> GreenwichAcademy[label="10.5
+05/18", weight="90", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+GreenwichAcademy -> Hopkins[label="7.5
+05/18", weight="93", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+GreenwichAcademy -> GreenwichCountryDay[label="21.5
+05/18", weight="79", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+GreenwichAcademy -> SacredHeart[label="45.7
+05/18", weight="55", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+BerkshireAcademy -> GreenwichAcademy[label="11.2
 05/10", weight="89", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
 Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
 G4: Berkshire and Greenwich each hotseated rowers from G3; 

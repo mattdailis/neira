@@ -1,22 +1,28 @@
 Hopkins and Winsor have never raced head to head
 
-There are 6 paths of length 2 between Hopkins and Winsor
+There are 7 paths of length 2 between Hopkins and Winsor
 All of them favor Winsor
 From most recent to least recent:
 Hopkins--(-9.92 5/4)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +22.72]
 Hopkins--(-23.0 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +28.65]
 Hopkins--(-39.6 4/26)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +35.56]
+Hopkins--(4.4 5/18)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +32.82]
 Hopkins--(13.83 5/4)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +23.39]
 Hopkins--(21.0 5/10)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +16.22]
 Hopkins--(6.3 4/19)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +46.5]
 
-There are 71 paths of length 3 between Hopkins and Winsor
-68/71 of them favor Winsor
+There are 90 paths of length 3 between Hopkins and Winsor
+87/90 of them favor Winsor
 From most recent to least recent:
+Hopkins--(-1.0 5/10)-->Berkshire Academy--(3.7 5/17)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +10.1]
 Hopkins--(-21.27 5/4)-->Hotchkiss--(24.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +50.07]
+Hopkins--(-14.7 5/18)-->Hotchkiss--(24.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +43.5]
 Hopkins--(-17.94 5/4)-->Berkshire Academy--(30.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +40.74]
 Hopkins--(-23.0 5/4)-->Choate--(37.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +38.8]
+Hopkins--(4.4 5/18)-->Greenwich Academy--(-24.25 5/4)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +32.65]
+Hopkins--(-17.94 5/4)-->Berkshire Academy--(3.7 5/17)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +27.04]
 Hopkins--(-1.0 5/10)-->Berkshire Academy--(30.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +23.8]
+Hopkins--(-23.0 5/4)-->Choate--(12.1 5/17)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +23.7]
 Hopkins--(13.83 5/4)-->Greenwich Academy--(-24.25 5/4)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +23.22]
 Hopkins--(35.93 5/4)-->Brewster Academy--(-46.35 5/4)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +23.22]
 Hopkins--(-23.0 5/4)-->Choate--(13.08 5/4)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +22.72]
@@ -26,26 +32,40 @@ Hopkins--(-9.92 5/4)-->Taft--(-3.8 5/10)-->BB&N--(-9.0 5/10)-->Winsor [Winsor ne
 Hopkins--(-9.92 5/4)-->Taft--(-2.8 5/10)-->St. Mark's--(-10.0 5/10)-->Winsor [Winsor net +22.72]
 Hopkins--(-9.92 5/4)-->Taft--(40.0 5/10)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +22.72]
 Hopkins--(-21.27 5/4)-->Hotchkiss--(11.35 5/4)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +22.72]
+Hopkins--(-14.7 5/18)-->Hotchkiss--(11.35 5/4)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +16.15]
 Hopkins--(21.0 5/10)-->Greenwich Academy--(-24.25 5/4)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +16.05]
 Hopkins--(-1.0 5/10)-->Berkshire Academy--(8.02 5/4)-->Taft--(-12.8 5/10)-->Winsor [Winsor net +5.78]
 Hopkins--(71.9 5/10)-->Lyme/Old Lyme--(-21.0 5/4)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +1.9]
+Hopkins--(-17.94 5/4)-->Berkshire Academy--(-8.4 5/17)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +31.99]
 Hopkins--(-23.0 5/4)-->Choate--(-9.69 4/30)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +28.65]
 Hopkins--(-19.01 5/4)-->NMH--(-3.99 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +28.65]
 Hopkins--(-17.94 5/4)-->Berkshire Academy--(-5.06 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +28.65]
 Hopkins--(-9.92 5/4)-->Taft--(-13.08 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +28.65]
 Hopkins--(-21.27 5/4)-->Hotchkiss--(-1.73 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +28.65]
+Hopkins--(-9.92 5/4)-->Taft--(-12.1 5/17)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +27.67]
+Hopkins--(-14.7 5/18)-->Hotchkiss--(-1.73 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +22.08]
+Hopkins--(-1.0 5/10)-->Berkshire Academy--(-8.4 5/17)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +15.05]
 Hopkins--(-1.0 5/10)-->Berkshire Academy--(-5.06 5/4)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +11.71]
 Hopkins--(71.9 5/10)-->Lyme/Old Lyme--(-58.0 5/4)-->Choate--(-5.65 4/30)-->Winsor [Hopkins net +8.25]
+Hopkins--(21.3 5/18)-->Sacred Heart--(-77.46 4/30)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +93.38]
 Hopkins--(-9.92 5/4)-->Taft--(0.7 4/26)-->Pomfret--(-52.8 5/10)-->Winsor [Winsor net +62.02]
 Hopkins--(-34.9 4/26)-->Brooks--(-2.2 5/10)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +42.75]
 Hopkins--(-19.01 5/4)-->NMH--(-27.3 4/26)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +42.27]
+Hopkins--(-34.9 4/26)-->Brooks--(3.4 5/14)-->St. Mark's--(-10.0 5/10)-->Winsor [Winsor net +41.5]
+Hopkins--(-21.27 5/4)-->Hotchkiss--(19.1 5/18)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +39.39]
 Hopkins--(-26.7 4/26)-->Middlesex--(-3.3 5/3)-->BB&N--(-9.0 5/10)-->Winsor [Winsor net +39.0]
+Hopkins--(4.4 5/18)-->Greenwich Academy--(-33.0 4/26)-->BB&N--(-9.0 5/10)-->Winsor [Winsor net +37.6]
 Hopkins--(-39.6 4/26)-->Cambridge RLS--(9.69 4/30)-->Choate--(-5.65 4/30)-->Winsor [Winsor net +35.56]
 Hopkins--(-34.9 4/26)-->Brooks--(-4.7 4/26)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +35.56]
 Hopkins--(-26.7 4/26)-->Middlesex--(-12.9 4/26)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +35.56]
 Hopkins--(-12.3 4/26)-->NMH--(-27.3 4/26)-->Cambridge RLS--(4.04 4/30)-->Winsor [Winsor net +35.56]
+Hopkins--(-34.9 4/26)-->Brooks--(8.5 5/14)-->BB&N--(-9.0 5/10)-->Winsor [Winsor net +35.4]
 Hopkins--(-26.7 4/26)-->Middlesex--(-3.3 5/3)-->BB&N--(-4.22 4/26)-->Winsor [Winsor net +34.22]
 Hopkins--(-17.94 5/4)-->Berkshire Academy--(22.0 5/10)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +33.16]
+Hopkins--(-14.7 5/18)-->Hotchkiss--(19.1 5/18)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +32.82]
+Hopkins--(4.4 5/18)-->Greenwich Academy--(-33.0 4/26)-->BB&N--(-4.22 4/26)-->Winsor [Winsor net +32.82]
+Hopkins--(21.3 5/18)-->Sacred Heart--(-16.9 5/18)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +32.82]
+Hopkins--(-34.9 4/26)-->Brooks--(8.5 5/14)-->BB&N--(-4.22 4/26)-->Winsor [Winsor net +30.62]
 Hopkins--(13.83 5/4)-->Greenwich Academy--(-33.0 4/26)-->BB&N--(-9.0 5/10)-->Winsor [Winsor net +28.17]
 Hopkins--(-19.01 5/4)-->NMH--(31.37 5/4)-->Greenwich Academy--(-37.22 4/26)-->Winsor [Winsor net +24.86]
 Hopkins--(13.83 5/4)-->Greenwich Academy--(-33.0 4/26)-->BB&N--(-4.22 4/26)-->Winsor [Winsor net +23.39]

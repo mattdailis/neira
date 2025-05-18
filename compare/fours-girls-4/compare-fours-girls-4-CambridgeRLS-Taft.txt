@@ -1,8 +1,9 @@
 Cambridge RLS and Taft have never raced head to head
 
-There are 7 paths of length 2 between Cambridge RLS and Taft
-All of them favor Cambridge RLS
+There are 8 paths of length 2 between Cambridge RLS and Taft
+7/8 of them favor Cambridge RLS
 From most recent to least recent:
+Cambridge RLS--(-16.62 4/30)-->Choate--(8.0 5/17)-->Taft [Taft net +8.62]
 Cambridge RLS--(-16.62 4/30)-->Choate--(18.0 5/4)-->Taft [Cambridge RLS net +1.38]
 Cambridge RLS--(-15.58 4/30)-->Winsor--(31.8 5/10)-->Taft [Cambridge RLS net +16.22]
 Cambridge RLS--(10.6 4/26)-->NMH--(10.46 5/4)-->Taft [Cambridge RLS net +21.06]
@@ -11,10 +12,12 @@ Cambridge RLS--(36.2 4/26)-->Hopkins--(11.87 5/4)-->Taft [Cambridge RLS net +48.
 Cambridge RLS--(-16.62 4/30)-->Choate--(24.6 4/19)-->Taft [Cambridge RLS net +7.98]
 Cambridge RLS--(10.8 4/16)-->BB&N--(14.7 5/10)-->Taft [Cambridge RLS net +25.5]
 
-There are 54 paths of length 3 between Cambridge RLS and Taft
-48/54 of them favor Cambridge RLS
+There are 64 paths of length 3 between Cambridge RLS and Taft
+56/64 of them favor Cambridge RLS
 From most recent to least recent:
+Cambridge RLS--(6.53 5/3)-->Groton--(-15.2 5/10)-->Choate--(8.0 5/17)-->Taft [Taft net +0.67]
 Cambridge RLS--(6.53 5/3)-->Groton--(-15.2 5/10)-->Choate--(18.0 5/4)-->Taft [Cambridge RLS net +9.33]
+Cambridge RLS--(-15.58 4/30)-->Winsor--(-1.04 4/30)-->Choate--(8.0 5/17)-->Taft [Taft net +8.62]
 Cambridge RLS--(-16.62 4/30)-->Choate--(6.13 5/4)-->Hopkins--(11.87 5/4)-->Taft [Cambridge RLS net +1.38]
 Cambridge RLS--(-16.62 4/30)-->Choate--(7.54 5/4)-->NMH--(10.46 5/4)-->Taft [Cambridge RLS net +1.38]
 Cambridge RLS--(-16.62 4/30)-->Choate--(11.89 5/4)-->Hotchkiss--(6.11 5/4)-->Taft [Cambridge RLS net +1.38]
@@ -26,6 +29,11 @@ Cambridge RLS--(-15.58 4/30)-->Winsor--(77.3 5/10)-->St. Mark's--(-45.5 5/10)-->
 Cambridge RLS--(-16.62 4/30)-->Choate--(61.53 5/4)-->Pomfret--(-17.3 5/10)-->Taft [Cambridge RLS net +27.61]
 Cambridge RLS--(-15.58 4/30)-->Winsor--(49.1 5/10)-->Pomfret--(-49.5 4/26)-->Taft [Taft net +15.98]
 Cambridge RLS--(-16.62 4/30)-->Choate--(61.53 5/4)-->Pomfret--(-49.5 4/26)-->Taft [Taft net +4.59]
+Cambridge RLS--(10.6 4/26)-->NMH--(-7.54 5/4)-->Choate--(8.0 5/17)-->Taft [Cambridge RLS net +11.06]
+Cambridge RLS--(10.6 4/26)-->NMH--(-5.36 5/14)-->Hotchkiss--(6.11 5/4)-->Taft [Cambridge RLS net +11.35]
+Cambridge RLS--(0.9 4/26)-->Brooks--(56.4 5/14)-->St. Mark's--(-45.5 5/10)-->Taft [Cambridge RLS net +11.8]
+Cambridge RLS--(0.9 4/26)-->Brooks--(0.1 5/14)-->BB&N--(14.7 5/10)-->Taft [Cambridge RLS net +15.7]
+Cambridge RLS--(0.9 4/26)-->Brooks--(7.2 5/10)-->Choate--(8.0 5/17)-->Taft [Cambridge RLS net +16.1]
 Cambridge RLS--(0.9 4/26)-->Brooks--(9.7 4/26)-->NMH--(10.46 5/4)-->Taft [Cambridge RLS net +21.06]
 Cambridge RLS--(10.6 4/26)-->NMH--(-7.54 5/4)-->Choate--(18.0 5/4)-->Taft [Cambridge RLS net +21.06]
 Cambridge RLS--(10.6 4/26)-->NMH--(-1.41 5/4)-->Hopkins--(11.87 5/4)-->Taft [Cambridge RLS net +21.06]
@@ -37,7 +45,9 @@ Cambridge RLS--(10.6 4/26)-->NMH--(108.0 5/4)-->Canterbury--(-97.0 5/4)-->Taft [
 Cambridge RLS--(-15.58 4/30)-->Winsor--(26.33 4/26)-->BB&N--(14.7 5/10)-->Taft [Cambridge RLS net +25.45]
 Cambridge RLS--(0.9 4/26)-->Brooks--(7.2 5/10)-->Choate--(18.0 5/4)-->Taft [Cambridge RLS net +26.1]
 Cambridge RLS--(-16.62 4/30)-->Choate--(15.2 5/10)-->Groton--(35.5 4/26)-->Taft [Cambridge RLS net +34.08]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(-6.4 5/18)-->Hotchkiss--(6.11 5/4)-->Taft [Cambridge RLS net +35.91]
 Cambridge RLS--(23.5 4/26)-->Middlesex--(-2.2 5/3)-->BB&N--(14.7 5/10)-->Taft [Cambridge RLS net +36.0]
+Cambridge RLS--(36.2 4/26)-->Hopkins--(-6.13 5/4)-->Choate--(8.0 5/17)-->Taft [Cambridge RLS net +38.07]
 Cambridge RLS--(6.53 5/3)-->Groton--(85.0 4/26)-->Pomfret--(-49.5 4/26)-->Taft [Cambridge RLS net +42.03]
 Cambridge RLS--(36.2 4/26)-->Hopkins--(31.0 5/4)-->Lyme/Old Lyme--(-22.0 5/4)-->Taft [Cambridge RLS net +45.2]
 Cambridge RLS--(36.2 4/26)-->Hopkins--(106.0 5/4)-->Canterbury--(-97.0 5/4)-->Taft [Cambridge RLS net +45.2]
@@ -64,6 +74,7 @@ Cambridge RLS--(36.2 4/26)-->Hopkins--(-6.13 5/4)-->Choate--(24.6 4/19)-->Taft [
 Cambridge RLS--(36.2 4/26)-->Hopkins--(16.0 4/19)-->NMH--(10.46 5/4)-->Taft [Cambridge RLS net +62.66]
 Cambridge RLS--(10.8 4/16)-->BB&N--(32.0 5/10)-->Pomfret--(-49.5 4/26)-->Taft [Taft net +6.7]
 Cambridge RLS--(10.8 4/16)-->BB&N--(-26.33 4/26)-->Winsor--(31.8 5/10)-->Taft [Cambridge RLS net +16.27]
+Cambridge RLS--(10.8 4/16)-->BB&N--(56.3 5/14)-->St. Mark's--(-45.5 5/10)-->Taft [Cambridge RLS net +21.6]
 Cambridge RLS--(10.8 4/16)-->BB&N--(-17.1 5/10)-->Winsor--(31.8 5/10)-->Taft [Cambridge RLS net +25.5]
 Cambridge RLS--(10.8 4/16)-->BB&N--(32.0 5/10)-->Pomfret--(-17.3 5/10)-->Taft [Cambridge RLS net +25.5]
 Cambridge RLS--(10.8 4/16)-->BB&N--(60.2 5/10)-->St. Mark's--(-45.5 5/10)-->Taft [Cambridge RLS net +25.5]

@@ -1,4 +1,4 @@
-digraph boys6fours {Hopkins [URL="boys6foursHopkins.html"];Pomfret [URL="boys6foursPomfret.html"];Nobles [URL="boys6foursNobles.html"];BelmontHill [URL="boys6foursBelmontHill.html"];StMarysLynn [URL="boys6foursStMarysLynn.html"];BBN [URL="boys6foursBBN.html"];BelmontHill -> Nobles[label="9.0 (10.38)
+digraph boys6fours {Pomfret [URL="boys6foursPomfret.html"];Hopkins [URL="boys6foursHopkins.html"];Nobles [URL="boys6foursNobles.html"];BBN [URL="boys6foursBBN.html"];BelmontHill [URL="boys6foursBelmontHill.html"];StMarysLynn [URL="boys6foursStMarysLynn.html"];Brooks [URL="boys6foursBrooks.html"];Groton [URL="boys6foursGroton.html"];BelmontHill -> Nobles[label="9.0 (10.38)
 05/04", weight="91", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
 Distance: 1300m Conditions: Order of racing: 4V4-3V4-2V4-1V4-4V8-6V4-9V4-5V4. Building direct headwind for the first three races, strongest for the 2V4; the wind then lessened and shifted to a cross/cross headwind for the 1V4 and remaining races Comments: Thanks to Nobles for being patient and supportive through yesterday's weather-related postponement and for a great day of racing with our full programs today!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=96DF6AF2C5DADCD1EB91A4088A314B11&cat=1", random="random"]; 
@@ -13,6 +13,14 @@ BBN -> Pomfret[label="13.4
 05/10", weight="87", tooltip="NEIRA Boys Fours, du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
 Distance: 1500 Conditions: Quarting Headwind ~9 mph, but occasional strong gusts up to 20 mph. Light chop in places, but the water was generally good. Winds increased as races progressed. Comments: Alternated races with girls' teams. Order of boys races: B4, B5, B6, B3, B2, B1. (Note: winds/gusts grew stronger as raced progressed.) Gunn raced down with their 1st boat racing in the B2 and their 2nd in B3. In the B2 race, Gunn's boat flipped in the last 250 meters (all okay). That delay and delays in aligning boats in headwind delayed races beginning, for boys, with B3 as much as ~20 to 30 minutes. Thanks to all for your patience. Congratulations to Pomfret Boys and Winsor Girls for winning the 2025 du Pont Cup.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BC0E341089C0A527BA3CCC47DE8BD6C4&cat=1", random="random"]; 
+Brooks -> BBN[label="56.8
+05/14", weight="44", tooltip="NEIRA,Brooks vs. BB&N, St. Marks and Brewster			
+Distance: 1500m Conditions: 8-10 mph direct headwind on the course, remaining fairly consistent throughout the afternoon. Some might chop but generally good conditions - best this spring! Race order 4-3-2-1-5-6 Comments: Photo-finish in the G4 event showed a 3-5 inch gap between Brooks and BB&N. Thanks to all the coaches and athletes for making the beautiful afternoon productive on the water. Good luck to all crews in your remaining races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B16147A2AB97999075FCA0E244F3C0D3&cat=5", random="random"]; 
+Nobles -> Groton[label="19.0 (27.14)
+05/14", weight="81", tooltip="NEIRA Boys & Girls Fours,Nobles vs Groton JV racing			
+Distance: 1050m Conditions: Beautiful sunny afternoon with mild cross wind and reasonable current against direction of racing. Comments: Thank you to both teams and coaches for making the last minute switch of venue work. Really glad we were able to make the racing happen.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6A41180662579C4E7DA88D8CE599F756&cat=5", random="random"]; 
 StMarysLynn -> Hopkins[label="19.9
 04/19", weight="81", tooltip="NEIRA Boys , Pomfret v. Belmont Hill, Hopkins, Northfield Mount Hermon, St. Mary's			
 Distance: 1500 Conditions: Consistent crossing tailwind (~7-13MPH), with occasional stronger gusts. Light chop after the first 500M. Comments: Tailwinds increased somewhat during the course of racing. Order of boys races: B4, B3, B2, B1, B6, B5. (B5 and B6 were a mix of novice and JV rowers).

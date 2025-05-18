@@ -1,0 +1,86 @@
+{
+    "comment": "\nDistance: 1500 meters Conditions: Strong crosswind throughout all races. In GV1 race, Dexter-Southfield \"A\" was GV1 and Dexter-Southfield \"B\" was GV2.   In BV2 race, Dexter-Southfield \"A\" was BV2 and Dexter-Southfield \"B\" was BV3.  The BV4 event was a Mixed Novice 4 scrimmage in order to get more kids racing. Thank you to Dexter-Southfield and Bancroft for racing today!\n\nNone",
+    "day": "2025-05-14",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "5:49.0",
+                    "school": "Dexter-Southfield"
+                },
+                {
+                    "margin_from_winner": 7.9,
+                    "raw_time": "5:56.9",
+                    "school": "Worcester Academy"
+                },
+                {
+                    "margin_from_winner": 99.1,
+                    "raw_time": "7:28.1",
+                    "school": "Bancroft"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "6:29.37",
+                    "school": "Dexter-Southfield"
+                },
+                {
+                    "margin_from_winner": 11.32,
+                    "raw_time": "6:40.69",
+                    "school": "Worcester Academy"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "7:37.4",
+                    "school": "Dexter-Southfield"
+                },
+                {
+                    "margin_from_winner": 74.0,
+                    "raw_time": "8:51.4",
+                    "school": "Worcester Academy"
+                },
+                {
+                    "margin_from_winner": 114.6,
+                    "raw_time": "9:32.0",
+                    "school": "Bancroft"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "margin_from_winner": 0,
+                    "raw_time": "7:24.3",
+                    "school": "Dexter-Southfield"
+                },
+                {
+                    "margin_from_winner": 61.6,
+                    "raw_time": "8:25.9",
+                    "school": "Worcester Academy"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "regatta_display_name": "NEIRA Boys & Girls Fours,Worcester Academy vs. Dexter-Southfield and Bancroft",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=11355464469ECB76F8D6E495FB0C1364&cat=5"
+}

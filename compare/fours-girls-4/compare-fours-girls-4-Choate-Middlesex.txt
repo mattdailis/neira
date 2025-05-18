@@ -9,18 +9,23 @@ Choate--(7.54 5/4)-->NMH--(12.9 4/26)-->Middlesex [Choate net +20.44]
 Choate--(16.62 4/30)-->Cambridge RLS--(23.5 4/26)-->Middlesex [Choate net +40.12]
 Choate--(-7.2 5/10)-->Brooks--(25.4 4/19)-->Middlesex [Choate net +18.2]
 
-There are 42 paths of length 3 between Choate and Middlesex
-33/42 of them favor Choate
+There are 50 paths of length 3 between Choate and Middlesex
+38/50 of them favor Choate
 From most recent to least recent:
+Choate--(-7.2 5/10)-->Brooks--(0.1 5/14)-->BB&N--(2.2 5/3)-->Middlesex [Middlesex net +4.9]
+Choate--(8.0 5/17)-->Taft--(-14.7 5/10)-->BB&N--(2.2 5/3)-->Middlesex [Middlesex net +4.5]
 Choate--(18.0 5/4)-->Taft--(-14.7 5/10)-->BB&N--(2.2 5/3)-->Middlesex [Choate net +5.5]
 Choate--(61.53 5/4)-->Pomfret--(-32.0 5/10)-->BB&N--(2.2 5/3)-->Middlesex [Choate net +31.73]
 Choate--(1.04 4/30)-->Winsor--(17.1 5/10)-->BB&N--(2.2 5/3)-->Middlesex [Choate net +20.34]
+Choate--(8.0 5/17)-->Taft--(-11.87 5/4)-->Hopkins--(-12.7 4/26)-->Middlesex [Middlesex net +16.57]
 Choate--(6.13 5/4)-->Hopkins--(-36.2 4/26)-->Cambridge RLS--(23.5 4/26)-->Middlesex [Middlesex net +6.57]
 Choate--(6.13 5/4)-->Hopkins--(-35.3 4/26)-->Brooks--(22.6 4/26)-->Middlesex [Middlesex net +6.57]
 Choate--(6.13 5/4)-->Hopkins--(-25.6 4/26)-->NMH--(12.9 4/26)-->Middlesex [Middlesex net +6.57]
 Choate--(7.54 5/4)-->NMH--(-1.41 5/4)-->Hopkins--(-12.7 4/26)-->Middlesex [Middlesex net +6.57]
 Choate--(11.89 5/4)-->Hotchkiss--(-5.76 5/4)-->Hopkins--(-12.7 4/26)-->Middlesex [Middlesex net +6.57]
 Choate--(18.0 5/4)-->Taft--(-11.87 5/4)-->Hopkins--(-12.7 4/26)-->Middlesex [Middlesex net +6.57]
+Choate--(11.89 5/4)-->Hotchkiss--(6.4 5/18)-->Hopkins--(-12.7 4/26)-->Middlesex [Choate net +5.59]
+Choate--(8.0 5/17)-->Taft--(-10.46 5/4)-->NMH--(12.9 4/26)-->Middlesex [Choate net +10.44]
 Choate--(-7.2 5/10)-->Brooks--(-0.9 4/26)-->Cambridge RLS--(23.5 4/26)-->Middlesex [Choate net +15.4]
 Choate--(-7.2 5/10)-->Brooks--(9.7 4/26)-->NMH--(12.9 4/26)-->Middlesex [Choate net +15.4]
 Choate--(-7.2 5/10)-->Brooks--(35.3 4/26)-->Hopkins--(-12.7 4/26)-->Middlesex [Choate net +15.4]
@@ -32,6 +37,7 @@ Choate--(7.54 5/4)-->NMH--(25.6 4/26)-->Hopkins--(-12.7 4/26)-->Middlesex [Choat
 Choate--(11.89 5/4)-->Hotchkiss--(-4.35 5/4)-->NMH--(12.9 4/26)-->Middlesex [Choate net +20.44]
 Choate--(18.0 5/4)-->Taft--(-10.46 5/4)-->NMH--(12.9 4/26)-->Middlesex [Choate net +20.44]
 Choate--(1.04 4/30)-->Winsor--(26.33 4/26)-->BB&N--(2.2 5/3)-->Middlesex [Choate net +29.57]
+Choate--(11.89 5/4)-->Hotchkiss--(5.36 5/14)-->NMH--(12.9 4/26)-->Middlesex [Choate net +30.15]
 Choate--(15.2 5/10)-->Groton--(-6.53 5/3)-->Cambridge RLS--(23.5 4/26)-->Middlesex [Choate net +32.17]
 Choate--(1.04 4/30)-->Winsor--(15.58 4/30)-->Cambridge RLS--(23.5 4/26)-->Middlesex [Choate net +40.12]
 Choate--(16.62 4/30)-->Cambridge RLS--(0.9 4/26)-->Brooks--(22.6 4/26)-->Middlesex [Choate net +40.12]
@@ -48,7 +54,9 @@ Choate--(15.2 5/10)-->Groton--(-22.4 5/10)-->Brooks--(25.4 4/19)-->Middlesex [Ch
 Choate--(7.54 5/4)-->NMH--(-9.7 4/26)-->Brooks--(25.4 4/19)-->Middlesex [Choate net +23.24]
 Choate--(24.6 4/19)-->Taft--(-10.46 5/4)-->NMH--(12.9 4/26)-->Middlesex [Choate net +27.04]
 Choate--(6.13 5/4)-->Hopkins--(16.0 4/19)-->NMH--(12.9 4/26)-->Middlesex [Choate net +35.03]
+Choate--(-7.2 5/10)-->Brooks--(56.4 5/14)-->St. Mark's--(-7.7 4/19)-->Middlesex [Choate net +41.5]
 Choate--(16.62 4/30)-->Cambridge RLS--(0.9 4/26)-->Brooks--(25.4 4/19)-->Middlesex [Choate net +42.92]
+Choate--(8.0 5/17)-->Taft--(45.5 5/10)-->St. Mark's--(-7.7 4/19)-->Middlesex [Choate net +45.8]
 Choate--(18.0 5/4)-->Taft--(45.5 5/10)-->St. Mark's--(-7.7 4/19)-->Middlesex [Choate net +55.8]
 Choate--(24.6 4/19)-->Taft--(45.5 5/10)-->St. Mark's--(-7.7 4/19)-->Middlesex [Choate net +62.4]
 Choate--(1.04 4/30)-->Winsor--(77.3 5/10)-->St. Mark's--(-7.7 4/19)-->Middlesex [Choate net +70.64]

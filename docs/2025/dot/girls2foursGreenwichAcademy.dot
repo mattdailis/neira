@@ -1,4 +1,28 @@
-digraph girls2foursGreenwichAcademy {Hopkins [URL="girls2foursHopkins.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];SacredHeart [URL="girls2foursSacredHeart.html"];GreenwichCountryDay [URL="girls2foursGreenwichCountryDay.html"];Hotchkiss [URL="girls2foursHotchkiss.html"];Suffield [URL="girls2foursSuffield.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];NMH [URL="girls2foursNMH.html"];Canterbury [URL="girls2foursCanterbury.html"];Winsor [URL="girls2foursWinsor.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];Taft [URL="girls2foursTaft.html"];BBN [URL="girls2foursBBN.html"];Choate [URL="girls2foursChoate.html"];BerkshireAcademy -> GreenwichAcademy[label="18.8
+digraph girls2foursGreenwichAcademy {GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Hotchkiss [URL="girls2foursHotchkiss.html"];Choate [URL="girls2foursChoate.html"];SacredHeart [URL="girls2foursSacredHeart.html"];Hopkins [URL="girls2foursHopkins.html"];Suffield [URL="girls2foursSuffield.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];BBN [URL="girls2foursBBN.html"];Taft [URL="girls2foursTaft.html"];Canterbury [URL="girls2foursCanterbury.html"];Winsor [URL="girls2foursWinsor.html"];GreenwichCountryDay [URL="girls2foursGreenwichCountryDay.html"];NMH [URL="girls2foursNMH.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];Hotchkiss -> GreenwichAcademy[label="4.8
+05/18", weight="96", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+GreenwichAcademy -> Hopkins[label="13.1
+05/18", weight="87", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+GreenwichAcademy -> GreenwichCountryDay[label="29.6
+05/18", weight="71", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+GreenwichAcademy -> SacredHeart[label="68.8
+05/18", weight="32", tooltip="NEIRA Boys & Girls Fours,Shelton Sprints - Hotchkiss vs Nopkins vs Notre Dame vs GCDS vs Sacred Heart vs Greenwich Academy			
+Distance: 1500 Conditions: Strong winds through out the race. Mostly a cross head wind with gusts along the course. 
+Racing against a strong outgoing tide.
+Water conditions were calm desite the wind Comments: Great racing by all crews! Good luck at NEIRA's!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EB763ADAB6EF8B83B597DBF629BE6DE4&cat=5", random="random"]; 
+BerkshireAcademy -> GreenwichAcademy[label="18.8
 05/10", weight="82", tooltip="NEIRA,Berkshire v. Canterbury, Greenwich Academy, Hopkins, Lyme-Old Lyme			
 Distance: 1500 M Conditions: 10-15 mph headwind throughout racing; strongest in middle 750 with consistent chop and whitecaps; calmer in final 400M. Comments: G3: Hopkins paused prior to the finish line then resumed and rowed across. 
 G4: Berkshire and Greenwich each hotseated rowers from G3; 
