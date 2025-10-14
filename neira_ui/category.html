@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEIRA - Category</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Import components -->
+  <script type="module" src="js/components/page-layout.js"></script>
+  <script type="module" src="js/pages/category.js"></script>
+
+  <!-- Templates for rendering -->
+  <template id="category-header-template">
+    <div class="section content-width">
+      <h1 id="title"></h1>
+      <p>
+        <a href="index.html">Back to home</a>
+      </p>
+      <div class="tabs">
+        <button class="tab-button active" data-tab="results">Results</button>
+        <button class="tab-button" data-tab="graph">Graph</button>
+      </div>
+    </div>
+  </template>
+
+  <template id="race-date-template">
+    <div class="section content-width">
+      <h3 class="date"></h3>
+      <div class="races-container"></div>
+    </div>
+  </template>
+
+  <template id="race-results-template">
+    <div class="race-results">
+      <div class="race-header">
+        <strong class="regatta-name"></strong>
+        <span class="distance"></span>
+        <br>
+        <a class="row2k-link" target="_blank">View on row2k →</a>
+      </div>
+      <pre class="results-table"></pre>
+    </div>
+  </template>
+
+  <template id="no-results-template">
+    <div class="section content-width">
+      <p>No results yet for this category.</p>
+    </div>
+  </template>
+
+  <page-layout>
+    <div id="category-content">
+      <div style="text-align: center; padding: 40px;">
+        Loading...
+      </div>
+    </div>
+  </page-layout>
+</body>
+
+</html>

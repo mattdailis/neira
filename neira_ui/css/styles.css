@@ -46,7 +46,7 @@ a:hover {
 
 /* Layout utilities */
 .section {
-  padding: 16px;
+  margin-top: 16px;
   margin-bottom: 16px;
 }
 
@@ -68,4 +68,42 @@ page-layout {
 /* Utility classes */
 .hidden {
   display: none !important;
+}
+
+/* Race results styling */
+.race-results {
+  margin-bottom: 24px;
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.race-header {
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.results-table {
+  font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+  background-color: #f8f8f8;
+  padding: 12px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.result-row {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+.result-row:hover {
+  background-color: #e8e8e8;
+  text-decoration: none;
 }
