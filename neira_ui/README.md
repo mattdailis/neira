@@ -1,38 +1,61 @@
-# create-svelte
+# NEIRA UI - Web Components Version
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Simple, no-build web interface for NEIRA rowing data.
 
-## Creating a project
+## Testing Locally
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Start a local web server:
 
 ```bash
-npm run dev
+# Using Python 3
+python3 -m http.server 8000
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# Or using Python 2
+python -m SimpleHTTPServer 8000
+
+# Or using Node.js (if you have npx)
+npx http-server -p 8000
 ```
 
-## Building
+Then open http://localhost:8000 in your browser.
 
-To create a production version of your app:
+## Structure
 
-```bash
-npm run build
+```
+neira_ui/
+├── index.html              # Home page
+├── css/
+│   ├── styles.css          # Global styles
+│   └── page-layout.css     # Layout component styles
+├── js/
+│   ├── components/
+│   │   └── page-layout.js  # Page layout web component
+│   ├── utils/
+│   │   ├── router.js       # Routing utilities
+│   │   └── csv-parser.js   # CSV parsing utilities
+│   └── pages/
+│       └── home.js         # Home page logic
+└── static/                 # Symlink to neira_ui_svelte/static
+    ├── dot/                # Generated graph visualizations
+    └── tables/             # Generated comparison tables
 ```
 
-You can preview the production build with `npm run preview`.
+## Current Status
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+**Phase 1-3 Complete:**
+- ✅ Directory structure
+- ✅ Shared utilities (router, CSV parser)
+- ✅ Page layout web component
+- ✅ Home page
+
+**Not Yet Implemented:**
+- Ranking page with reorderable list
+- Seeding tool
+- Modal dialog component
+
+## Development Notes
+
+- Uses ES modules (type="module")
+- Uses Shadow DOM for component encapsulation
+- No build step required
+- Works with modern browsers only
