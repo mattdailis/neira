@@ -1,0 +1,36 @@
+/* Page Layout Component Styles */
+
+:host {
+  display: block;
+}
+
+/* Top navigation bar */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 16px;
+  font-size: 18px;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Main content area */
+.main-content {
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-right: 30px;
+  padding-bottom: 40px;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .main-content {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
