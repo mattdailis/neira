@@ -1,0 +1,36 @@
+digraph boys2foursLymeOldLyme {BerkshireAcademy [URL="boys2foursLymeOldLymeBerkshireAcademy.html"];NotreDame [URL="boys2foursLymeOldLymeNotreDame.html"];BrewsterAcademy [URL="boys2foursLymeOldLymeBrewsterAcademy.html"];Middletown [URL="boys2foursLymeOldLymeMiddletown.html"];Taft [URL="boys2foursLymeOldLymeTaft.html"];Pomfret [URL="boys2foursLymeOldLymePomfret.html"];LymeOldLyme [URL="boys2foursLymeOldLymeLymeOldLyme.html"];Hopkins [URL="boys2foursLymeOldLymeHopkins.html"];NMH [URL="boys2foursLymeOldLymeNMH.html"];LymeOldLyme -> Middletown[label="12.6
+05/01", weight="88", tooltip="NEIRA Boys & Girls Fours,Lyme/Old Lyme v Middletown V Mills			
+Distance: 1500 Conditions: It was a partly cloudy day when all three crews got out into the lake, there was a constant 6-8 mph head wind that ran straight up the course for all races. Comments: One race worth noting is the G2V4 Lyme/old Lyme launched their G3V4 to participate in the race as well.
+Lyme/Old Lyme would like thank Middletown and Mills for coming out to race on our lake. We are always excited to have teams come and visit and enjoy our facility with us.
+Thank you for a great day of racing and we look forward to seeing you all again soon!!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B21A566F53808695C158764AE049824A&cat=5", random="random"]; 
+BerkshireAcademy -> LymeOldLyme[label="15.2
+05/11", weight="85", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
+Hopkins -> LymeOldLyme[label="9.6
+05/11", weight="91", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
+NotreDame -> LymeOldLyme[label="4.2
+04/27", weight="96", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+NMH -> LymeOldLyme[label="18.54
+05/05", weight="82", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BerkshireAcademy -> LymeOldLyme[label="9.29
+05/05", weight="91", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Hopkins -> LymeOldLyme[label="3.33
+05/05", weight="97", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> Taft[label="1.26
+05/05", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> Pomfret[label="1.02
+05/05", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> BrewsterAcademy[label="40.08
+05/05", weight="60", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

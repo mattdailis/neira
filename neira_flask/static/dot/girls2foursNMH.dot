@@ -1,0 +1,53 @@
+digraph girls2foursNMH {Canterbury [URL="girls2foursNMHCanterbury.html"];GreenwichAcademy [URL="girls2foursNMHGreenwichAcademy.html"];Nobles [URL="girls2foursNMHNobles.html"];BrewsterAcademy [URL="girls2foursNMHBrewsterAcademy.html"];Taft [URL="girls2foursNMHTaft.html"];Brooks [URL="girls2foursNMHBrooks.html"];Pomfret [URL="girls2foursNMHPomfret.html"];Middlesex [URL="girls2foursNMHMiddlesex.html"];CambridgeRLS [URL="girls2foursNMHCambridgeRLS.html"];StMarks [URL="girls2foursNMHStMarks.html"];LymeOldLyme [URL="girls2foursNMHLymeOldLyme.html"];Hopkins [URL="girls2foursNMHHopkins.html"];Choate [URL="girls2foursNMHChoate.html"];NMH [URL="girls2foursNMHNMH.html"];NMH -> Hopkins[label="16.2
+04/20", weight="84", tooltip="NEIRA Girls Fours,Pomfret vs. NMH, Hopkins			
+Distance: 1500m Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout, with a slight tailwind developing in the last race. No current. Comments: Race order: G3, G2, G1, G4/5. Thanks to NMH and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=00FD5442533029F3F8C5DFD9A3F09907&cat=1", random="random"]; 
+NMH -> Pomfret[label="42.9
+04/20", weight="58", tooltip="NEIRA Girls Fours,Pomfret vs. NMH, Hopkins			
+Distance: 1500m Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout, with a slight tailwind developing in the last race. No current. Comments: Race order: G3, G2, G1, G4/5. Thanks to NMH and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=00FD5442533029F3F8C5DFD9A3F09907&cat=1", random="random"]; 
+Brooks -> NMH[label="9.9
+04/27", weight="91", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
+NMH -> Middlesex[label="1.8
+04/27", weight="99", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
+NMH -> CambridgeRLS[label="3.2
+04/27", weight="97", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
+Nobles -> NMH[label="22.0
+05/11", weight="78", tooltip="NEIRA Boys & Girls Fours,NMH vs Nobles and Deerfield			
+Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&cat=5", random="random"]; 
+Choate -> NMH[label="12.3
+04/13", weight="88", tooltip="NEIRA Boys & Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
+Distance: 1500m Conditions: A prevailing 12-14mph crosswind shifting to a cross/tail for some races. Two small short-lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3-G4-B2-G1-B1-G2-G3. There was no B4 race. Races aren't comparable because of very shifty conditions. Boys 2V started 50m over the line.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&cat=5", random="random"]; 
+NMH -> StMarks[label="17.1
+04/13", weight="83", tooltip="NEIRA Boys & Girls Fours,St. Marks, F. Gunn, NMH, Choate, Worcester Academy, Bancroft			
+Distance: 1500m Conditions: A prevailing 12-14mph crosswind shifting to a cross/tail for some races. Two small short-lived squalls came through with wind gusts over 30mph. Other times, gusts were up to 24mph. Conditions gradually improved over the course of the races. Comments: Race order was B3-G4-B2-G1-B1-G2-G3. There was no B4 race. Races aren't comparable because of very shifty conditions. Boys 2V started 50m over the line.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9C1DB7774C31E9EA330687778E1F93EB&cat=5", random="random"]; 
+Choate -> NMH[label="1.13
+05/05", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> Taft[label="2.44
+05/05", weight="98", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> LymeOldLyme[label="17.36
+05/05", weight="83", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> BrewsterAcademy[label="40.23
+05/05", weight="60", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> GreenwichAcademy[label="12.08
+05/05", weight="88", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> Hopkins[label="17.75
+05/05", weight="83", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> Canterbury[label="94.12
+05/05", weight="6", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

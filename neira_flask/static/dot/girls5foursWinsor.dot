@@ -1,0 +1,16 @@
+digraph girls5foursWinsor {BBN [URL="girls5foursWinsorBBN.html"];Winsor [URL="girls5foursWinsorWinsor.html"];StMarks [URL="girls5foursWinsorStMarks.html"];CambridgeRLS [URL="girls5foursWinsorCambridgeRLS.html"];Winsor -> BBN[label="2.3
+05/11", weight="98", tooltip="NEIRA Girls Fours, du Pont Cup: Pomfret vs. BB&N, Gunn, Miss Porter's, St. Mark's, Taft, Winsor			
+Distance: 1500m Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (G1). Comments: Alternated races with boys races. Order of girls races: G-Novice, G4, G3, G5, G2, G1. The novice boat race is listed in the sixth boat category. Crossing wind pushed almost all boats at least one lane to port. Several referee calls for boats to move to starboard in the lower boat races. Congratulations to Taft G1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&cat=1", random="random"]; 
+Winsor -> StMarks[label="10.3
+05/11", weight="90", tooltip="NEIRA Girls Fours, du Pont Cup: Pomfret vs. BB&N, Gunn, Miss Porter's, St. Mark's, Taft, Winsor			
+Distance: 1500m Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (G1). Comments: Alternated races with boys races. Order of girls races: G-Novice, G4, G3, G5, G2, G1. The novice boat race is listed in the sixth boat category. Crossing wind pushed almost all boats at least one lane to port. Several referee calls for boats to move to starboard in the lower boat races. Congratulations to Taft G1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=377BB86A75BE9B00AD40E99984E7D587&cat=1", random="random"]; 
+Winsor -> CambridgeRLS[label="3.0 (3.46)
+05/01", weight="97", tooltip="NEIRA Fours,NCDS, Winsor, CRLS			
+Distance: 1300 Conditions: Conditions remained the same through all races. Flat water, no wind. Comments: 5th boat race ran a shorter course due to novice coxswains and rowers (~1100m)
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C55D042DC8DE58BCD614F6CCB55D1228&cat=1", random="random"]; 
+BBN -> Winsor[label="6.7 (7.73)
+04/27", weight="94", tooltip="NEIRA,The Winsor School vs. BB&N			
+Distance: 1300 Conditions: Flat and equal conditions across all races. Steering in 3V race resulted in both crews finishing off the course with an indistinguishable margin (deemed a tie). 4V crews reversed lanes mid-race, potentially impacting margin but not finish order. 5th and 6th boats were composite to provide a race for all athletes. Thank you to BB&N for a fun race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=0A06BB5337D4EBAFB4A716F6CCD660BF&cat=1", random="random"]}
