@@ -22,8 +22,9 @@ const [class_, gender, varsity] = slug.split('-');
 
 // Load and display data
 async function init() {
-  const container = document.getElementById('category-content');
-  container.innerHTML = ''; // Clear loading message
+  const headerContainer = document.getElementById('category-content');
+  const resultsContainer = document.getElementById('results-tab');
+  headerContainer.innerHTML = ''; // Clear loading message
 
   // Show category title
   const title = formatCategoryName(class_, gender, varsity);
@@ -31,14 +32,29 @@ async function init() {
 
   // Add header
   const header = createHeader(title, class_, gender, varsity);
-  container.appendChild(header);
+  headerContainer.appendChild(header);
+
+  // Set up tab switching
+  setupTabs();
+
+  // Set initial tab from URL hash
+  const hash = window.location.hash.slice(1); // Remove the '#'
+  if (hash === 'graph' || hash === 'results') {
+    switchTab(hash);
+  }
+
+  // Set up graph iframe and link
+  const graphUrl = `static/dot/${gender}${varsityNums[varsity]}${class_}.html`;
+  const fullGraphUrl = router.buildUrl(graphUrl);
+  document.getElementById('graph-iframe').src = fullGraphUrl;
+  document.getElementById('graph-fullscreen-link').href = fullGraphUrl;
 
   // Load race data
   const races = await getRacesForCategory(year, class_, gender, varsity);
 
   if (!races || races.length === 0) {
     const noResults = createNoResults();
-    container.appendChild(noResults);
+    resultsContainer.appendChild(noResults);
     return;
   }
 
@@ -58,8 +74,56 @@ async function init() {
   for (const date of sortedDates) {
     const racesForDate = racesByDate[date];
     const raceSection = createRaceSection(racesForDate);
-    container.appendChild(raceSection);
+    resultsContainer.appendChild(raceSection);
   }
+}
+
+/**
+ * Switch to a specific tab
+ */
+function switchTab(tabName) {
+  const tabButtons = document.querySelectorAll('.tab-button');
+  const tabContents = document.querySelectorAll('.tab-content');
+
+  // Remove active class from all buttons and contents
+  tabButtons.forEach(btn => btn.classList.remove('active'));
+  tabContents.forEach(content => content.classList.remove('active'));
+
+  // Add active class to selected button and corresponding content
+  const targetButton = document.querySelector(`.tab-button[data-tab="${tabName}"]`);
+  const targetContent = document.getElementById(`${tabName}-tab`);
+
+  if (targetButton && targetContent) {
+    targetButton.classList.add('active');
+    targetContent.classList.add('active');
+  }
+}
+
+/**
+ * Set up tab switching functionality
+ */
+function setupTabs() {
+  const tabButtons = document.querySelectorAll('.tab-button');
+
+  tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const targetTab = button.dataset.tab;
+
+      // Update URL hash
+      window.location.hash = targetTab;
+
+      // Switch to the tab
+      switchTab(targetTab);
+    });
+  });
+
+  // Handle browser back/forward buttons
+  window.addEventListener('hashchange', () => {
+    const hash = window.location.hash.slice(1);
+    if (hash === 'graph' || hash === 'results') {
+      switchTab(hash);
+    }
+  });
 }
 
 /**
@@ -71,9 +135,6 @@ function createHeader(title, class_, gender, varsity) {
 
   // Fill in data
   clone.getElementById('title').textContent = title;
-
-  const graphLink = clone.getElementById('graph-link');
-  graphLink.href = router.buildUrl(`static/dot/${gender}${varsityNums[varsity]}${class_}.html`);
 
   return clone;
 }

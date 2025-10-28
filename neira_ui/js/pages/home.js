@@ -50,3 +50,5 @@ function generateCategoryLinks(class_, gender, containerId) {
 
 generateCategoryLinks('fours', 'girls', 'girls-fours-links');
 generateCategoryLinks('fours', 'boys', 'boys-fours-links');
+generateCategoryLinks('eights', 'girls', 'girls-eights-links');
+generateCategoryLinks('eights', 'boys', 'boys-eights-links');

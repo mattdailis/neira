@@ -2,7 +2,7 @@ import datetime
 import os
 
 import numpy as np
-from scipy.linalg import eig
+# from scipy.linalg import eig
 
 from neira.dot.associationList import Edge
 from neira.dot.associationList import getNodes

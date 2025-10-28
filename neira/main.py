@@ -215,5 +215,12 @@ def compare_all():
         )
 
 
+@cli.command()
+def manifest():
+    """Generate UI manifest from reviewed race data"""
+    import neira.manifest
+    neira.manifest.main(CONFIG)
+
+
 if __name__ == "__main__":
     cli()
