@@ -1,1 +1,76 @@
-<h1>Hello world!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEIRA</title>
+  <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+  <!-- Import the page layout component -->
+  <script type="module" src="static/js/components/page-layout.js"></script>
+  <script type="module" src="static/js/pages/home.js"></script>
+
+  <page-layout>
+    <div class="section content-width">
+      <h1 id="season-header"></h1>
+    </div>
+
+    <div class="section content-width">
+      <h3>Girls Fours</h3>
+      <div id="girls-fours-links"></div>
+      <br>
+      <a href="static/tables/fours-girls.html">Girls Fours Sheet</a>
+    </div>
+
+    <div class="section content-width">
+      <h3>Boys Fours</h3>
+      <div id="boys-fours-links"></div>
+    </div>
+
+    <div class="section content-width">
+      <h3>Girls Eights</h3>
+      <div id="girls-eights-links"></div>
+    </div>
+
+    <div class="section content-width">
+      <h3>Boys Eights</h3>
+      <div id="boys-eights-links"></div>
+    </div>
+
+    <hr>
+
+    <div class="section content-width">
+      <h5>Table pages [experimental]</h5>
+      <a href="ranking.html?slug=1">Girls First Boat</a><br>
+    </div>
+
+    <div class="section content-width">
+      <h3>About</h3>
+      <h4>Purpose and target audience</h4>
+      <p>
+        The purpose of this website is to visualize data from row2k to help the NEIRA seeding
+        committee do their job. At this time, it is specifically intended for use by the NEIRA Girls
+        Fours seeding committee, but if there is sufficient interest it can be expanded to support
+        other NEIRA committees, coaches, and rowers.
+      </p>
+
+      <h4>Data sources</h4>
+      <p>
+        All data presented here comes from
+        <a href="https://www.row2k.com/results/index.cfm?league=NEIRA&year=2025">https://www.row2k.com/results/index.cfm?league=NEIRA&year=2025</a>.
+        Any mistakes found in the data should be corrected on the row2k website, since that is the
+        authoritative source of information.
+      </p>
+      <p>
+        If you find that row2k is correct, but this site is wrong, please let us know by opening an
+        <a href="https://github.com/mattdailis/neira/issues/new">issue</a>.
+      </p>
+    </div>
+
+    <div class="section">
+      <a href="seeding-tool.html">Seeding Tool (experimental)</a>
+    </div>
+  </page-layout>
+</body>
+</html>
