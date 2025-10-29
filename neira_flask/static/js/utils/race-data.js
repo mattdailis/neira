@@ -17,7 +17,7 @@ export async function loadRaceManifest(year) {
   }
 
   try {
-    const response = await fetch(router.buildUrl(`static/data/races-index-${year}.json`));
+    const response = await fetch(router.buildUrl(`api/races?year=${year}`));
     if (!response.ok) {
       throw new Error(`Failed to load race manifest: ${response.status}`);
     }
