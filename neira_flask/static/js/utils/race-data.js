@@ -37,7 +37,30 @@ export async function loadRaceManifest(year) {
  * @returns {Promise<Array>} Array of race objects
  */
 export async function getRacesForCategory(year, class_, gender, varsity) {
-  const manifest = await loadRaceManifest(year);
+  varsity = varsityNums[varsity];
+  // const manifest = await loadRaceManifest(year);
+  const response = await fetch(router.buildUrl(`api/heats?year=${year}&class=${class_}&gender=${gender}&varsity_index=${varsity}`));
+  if (!response.ok) {
+    throw new Error(`Failed to load race manifest: ${response.status}`);
+  }
+
+  const responseJson = await response.json();
+
+  console.log({responseJson});
+
+  return responseJson.map(heat => ({
+    date: heat.date,
+    displayDate: heat.date,
+    raceId: heat.regatta_uid,
+    regattaName: heat.regatta_name,
+    url: `https://www.row2k.com/results/resultspage.cfm?UID=${heat.regatta_uid}&cat=5`,
+    distance: heat.distance,
+    results: heat.results.map(result => ({
+      school: result.school,
+      time: result.raw_time,
+      margin: result.margin_from_winner,
+    }))
+  }));
 
   if (!manifest || !manifest.categories) {
     return [];
