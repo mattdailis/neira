@@ -48,9 +48,11 @@ export async function getRacesForCategory(year, class_, gender, varsity) {
 
   console.log({responseJson});
 
+  var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' };
+
   return responseJson.map(heat => ({
     date: heat.date,
-    displayDate: heat.date,
+    displayDate: new Date(heat.date).toLocaleDateString("en-US", options),
     raceId: heat.regatta_uid,
     regattaName: heat.regatta_name,
     url: `https://www.row2k.com/results/resultspage.cfm?UID=${heat.regatta_uid}&cat=5`,
