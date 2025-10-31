@@ -17,7 +17,7 @@ class PageLayout extends HTMLElement {
 
       <!-- Top navigation bar -->
       <div class="top-bar">
-        <span>neira seeding</span>
+        <span onclick="login">neira seeding</span>
       </div>
 
       <!-- Main page content area -->

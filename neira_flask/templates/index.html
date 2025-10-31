@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NEIRA</title>
   <link rel="stylesheet" href="static/css/styles.css">
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+  <script src="static/js/utils/auth.js"></script>
 </head>
 <body>
   <!-- Import the page layout component -->
@@ -14,6 +16,9 @@
   <page-layout>
     <div class="section content-width">
       <h1 id="season-header"></h1>
+      <button id="login-button">Log in</button>
+      <button id="logout-button">Log out</button>
+      <button id="api-test">Test API</button>
     </div>
 
     <div class="section content-width">

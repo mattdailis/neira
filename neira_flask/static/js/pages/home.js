@@ -5,6 +5,11 @@
 
 import { router } from '../utils/router.js';
 
+import { login, logout, foo } from '../utils/auth.js';
+document.getElementById('login-button').addEventListener('click', login);
+document.getElementById('logout-button').addEventListener('click', logout);
+document.getElementById('api-test').addEventListener('click', foo);
+
 // Home page is mostly static, but we import router for future dynamic features
 console.log('Home page loaded');
 
