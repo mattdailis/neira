@@ -95,7 +95,7 @@ def requires_auth(func):
         public_key = None
         for jwk in jwks["keys"]:
             if jwk["kid"] == unverified_header["kid"]:
-                public_key = jwt.algorithms.RSAAlgorithm.from_jwk(json.dumps(jwk))
+                public_key = jwt.PyJWK(jwk).key
         if public_key:
             try:
                 payload = jwt.decode(
