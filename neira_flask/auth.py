@@ -71,6 +71,17 @@ def user_has_scope(required_scope: str) -> bool:
     return False
 
 
+_cached_jwks = {}
+def get_jwk(kid):
+    if kid not in _cached_jwks:
+        jsonurl = urlopen("https://" + AUTH0_DOMAIN + "/.well-known/jwks.json")
+        jwks = json.loads(jsonurl.read())
+        _cached_jwks.clear()
+        for jwk in jwks["keys"]:
+            _cached_jwks[jwk["kid"]] = jwk
+    return _cached_jwks.get(kid)
+
+
 def requires_auth(func):
     """Determines if the access token is valid
     """
@@ -78,8 +89,6 @@ def requires_auth(func):
     @wraps(func)
     def decorated(*args, **kwargs):
         token = get_token_auth_header()
-        jsonurl = urlopen("https://" + AUTH0_DOMAIN + "/.well-known/jwks.json")
-        jwks = json.loads(jsonurl.read())
         try:
             unverified_header = jwt.get_unverified_header(token)
         except jwt.PyJWTError as jwt_error:
@@ -92,10 +101,9 @@ def requires_auth(func):
                              "description":
                                  "Invalid header. "
                                  "Use an RS256 signed JWT Access Token"}, 401)
-        public_key = None
-        for jwk in jwks["keys"]:
-            if jwk["kid"] == unverified_header["kid"]:
-                public_key = jwt.PyJWK(jwk).key
+        jwk = get_jwk(unverified_header["kid"])
+        if jwk is not None:
+            public_key = jwt.PyJWK(jwk).key
         if public_key:
             try:
                 payload = jwt.decode(
