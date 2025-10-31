@@ -6,11 +6,11 @@ from urllib.request import urlopen
 from flask import g, request
 import jwt
 import os
-from dotenv import find_dotenv, load_dotenv
+# from dotenv import find_dotenv, load_dotenv
 
-ENV_FILE = find_dotenv()
-if ENV_FILE:
-    load_dotenv(ENV_FILE)
+# ENV_FILE = find_dotenv()
+# if ENV_FILE:
+#     load_dotenv(ENV_FILE)
 AUTH0_DOMAIN = os.environ.get("AUTH0_DOMAIN")
 API_IDENTIFIER = os.environ.get("API_IDENTIFIER")
 ALGORITHMS = ["RS256"]
