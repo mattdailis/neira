@@ -5,7 +5,7 @@ export async function login() {
     await auth0Client.loginWithRedirect({
         authorizationParams: {
             redirect_uri: window.location.origin,
-            scope: 'curate'
+            scope: 'review'
         }
     });
 };

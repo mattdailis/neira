@@ -24,6 +24,14 @@ def index():
 def category():
     return render_template("category.html")
 
+@app.route("/review.html")
+def review():
+    return render_template("review.html")
+
+@app.route("/review-regatta.html")
+def review_regatta():
+    return render_template("review-regatta.html")
+
 @app.route("/api/heats")
 def api_heats():
     year = request.args.get('year')
@@ -39,7 +47,22 @@ def api_heats():
 @app.route("/api/test")
 @requires_auth
 def api_test():
-    if user_has_scope('curate'):
+    if user_has_scope('review'):
         return jsonify("success, " + str(g.current_user))
     else:
         return jsonify("failure, " + str(g.current_user))
+
+@app.route("/api/regattas")
+def api_regattas():
+    return jsonify(db.get_regattas_review_status(2025))
+
+@app.route("/api/review-regatta")
+def api_regatta():
+    uid = request.args.get('uid')
+    if uid is None:
+        return "uid query parameter is required", 400
+    all_corrections = db.get_corrections()
+    return jsonify({
+        "regatta": db.get_regatta_for_review(uid),
+        "corrections": all_corrections[uid]
+    })

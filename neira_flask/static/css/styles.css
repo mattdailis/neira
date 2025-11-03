@@ -29,10 +29,10 @@ h3 { font-size: 1.75em; }
 h4 { font-size: 1.5em; }
 h5 { font-size: 1.25em; }
 
-p {
+/* p {
   margin-top: 0;
   margin-bottom: 1em;
-}
+} */
 
 /* Links */
 a {
@@ -50,8 +50,24 @@ a:hover {
   margin-bottom: 16px;
 }
 
+.columns {
+  display: flex
+}
+
+#corrections-container {
+  margin-left: 20px;
+}
+
 .content-width {
   max-width: 900px;
+}
+
+.heat {
+  margin-bottom: 4px;
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 hr {

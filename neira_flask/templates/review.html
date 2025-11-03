@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEIRA</title>
+  <link rel="stylesheet" href="static/css/styles.css">
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+  <script type="module" src="static/js/utils/auth.js"></script>
+</head>
+<body>
+  <!-- Import the page layout component -->
+  <script type="module" src="static/js/components/page-layout.js"></script>
+  <script type="module" src="static/js/pages/review.js"></script>
+
+  <page-layout>
+    <div id="races-container"></div>
+  </page-layout>
+
+  <template id="regatta-template">
+    <a class="name"></a><br />
+  </template>
+</body>
+</html>

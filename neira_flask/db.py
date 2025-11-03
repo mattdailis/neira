@@ -49,9 +49,9 @@ def write_regatta(uid, regatta, status, scrape_id):
         cursor.execute(
             """
             insert into neira.regattas
-            (scrape_id, uid, year, date, name, comment, distance, status)
+            (scrape_id, uid, year, date, name, comment, distance, status, url)
             values
-            (%(scrape_id)s, %(uid)s, %(year)s, %(date)s, %(name)s, %(comment)s, %(distance)s, %(status)s)
+            (%(scrape_id)s, %(uid)s, %(year)s, %(date)s, %(name)s, %(comment)s, %(distance)s, %(status)s, %(url)s)
             returning id;
             """,
             dict(
@@ -62,7 +62,8 @@ def write_regatta(uid, regatta, status, scrape_id):
                 name=regatta["regatta_display_name"],
                 comment=regatta["comment"].strip(),
                 distance=None,
-                status=status
+                status=status,
+                url=regatta["url"]
             ))
         regatta_id = int(cursor.fetchone()[0])
         
@@ -133,17 +134,16 @@ def load_school_ids(cursor):
 
 
 def get_heats(year, class_, gender, varsity_index):
-    print("get_heats")
+    status = "1_cleaned"
     pool = get_pool()
     with pool.connection() as conn, conn.cursor() as cursor:
-        print("starting query")
         cursor.execute(
             """
             with relevant_regattas as (
                 select distinct on (uid) id
                 from neira.regattas regatta
                 where regatta.year = %(year)s
-                and regatta.status = '2_reviewed'
+                and regatta.status = %(status)s
                 order by uid, scrape_id desc
             )
 
@@ -170,6 +170,7 @@ def get_heats(year, class_, gender, varsity_index):
                 year=year,
                 gender=gender,
                 varsity_index=int(varsity_index),
+                status=status,
                 **{
                     "class": class_
                 }
@@ -178,7 +179,6 @@ def get_heats(year, class_, gender, varsity_index):
         print("finished query")
         heats = {}
         for heat_id, regatta_uid, regatta_name, regatta_date, distance, finish_order, raw_time, margin_from_winner, school in cursor:
-            print(regatta_uid)
             if not heat_id in heats:
                 heats[heat_id] = {
                     "regatta_name": regatta_name,
@@ -236,6 +236,125 @@ def get_regatta_uids(year):
     return regattas
 
 
+def get_regattas_review_status(year):
+    pool = get_pool()
+    with pool.connection() as conn:
+        with conn.cursor() as cursor:
+            cursor.execute(
+                """
+                select id, scrape_id, uid, year,  date, name, status, comment, distance from neira.regattas
+                where year=%(year)s
+                order by scrape_id
+                """,
+                dict(
+                    year=year
+                )
+            )
+            regattas = {}
+            for regatta_id, scrape_id, regatta_uid, year, date, name, status, comment, distance in cursor:
+                if regatta_uid not in regattas:
+                    regattas[regatta_uid] = []
+                regattas[regatta_uid].append({
+                    "regatta_id": regatta_id, 
+                    "scrape_id": scrape_id,
+                    "regatta_uid": regatta_uid,
+                    "year": year,
+                    "date": date,
+                    "name": name,
+                    "status": status,
+                    "comment": comment,
+                    "distance": distance,
+                })
+    
+    return sorted(regattas.values(), key=lambda x: x[0]["date"])
+
+
+def get_regatta_for_review(regatta_uid):
+    print(regatta_uid)
+    pool = get_pool()
+    with pool.connection() as conn, conn.cursor() as cursor:
+        cursor.execute(
+            """
+            with relevant_regattas as (
+              select distinct on (status) id
+              from neira.regattas regatta
+              where uid = %(regatta_uid)s
+              order by status, scrape_id desc
+            )
+            select
+                regatta.id as regatta_id,
+                regatta.status as status,
+                regatta.name,
+                regatta.date,
+                regatta.distance,
+                regatta.comment,
+                regatta.url
+            from neira.regattas regatta
+            where regatta.id in (select id from relevant_regattas)
+            """,
+            dict(
+                regatta_uid=regatta_uid
+            )
+        )
+        regattas = {}
+        for regatta_id, status, name, date, distance, comment, url in cursor:
+            regattas[regatta_id] = {
+                    "status": status,
+                    "comment": comment,
+                    "day": date,
+                    "date": date,
+                    "heats": {},
+                    "regatta_display_name": name,
+                    "name": name,
+                    "url": url
+                }
+        cursor.execute(
+            """
+            select
+                heat.regatta_id,
+                heat.id as heat_id,
+                heat.class,
+                heat.gender,
+                heat.varsity_index,
+                result.finish_order,
+                result.raw_time,
+                result.margin_from_winner,
+                school.name
+            from neira.heats heat
+            join neira.results result on heat.id = result.heat_id
+            join neira.schools school on result.school_id = school.id
+            and heat.regatta_id = any(%(regatta_ids)s);
+            """,
+            dict(regatta_ids=list(regattas)),
+        )
+        heats = {}
+        for regatta_id, heat_id, class_, gender, varsity_index, finish_order, raw_time, margin_from_winner, school in cursor:
+            if heat_id not in heats:
+                heats[heat_id] = {
+                    "class": class_,
+                    "gender": gender,
+                    "varsity_index": str(varsity_index),
+                    "results": []
+                }
+            heats[heat_id]["results"].append({
+                "margin_from_winner": None if margin_from_winner is None else (float(margin_from_winner) if margin_from_winner != 0 else 0),
+                "raw_time": raw_time,
+                "school": school,
+                "finish_order": finish_order
+            })
+            heats[heat_id]["results"].sort(key=lambda x: x["finish_order"])
+            regattas[regatta_id]["heats"][heat_id] = heats[heat_id]
+        res = {}
+        for regatta in regattas.values():
+            res[regatta["status"]] = regatta
+            regatta["heats"] = list(regatta["heats"].values())
+            for heat in regatta["heats"]:
+                for result in heat["results"]:
+                    del result["finish_order"]
+        return res
+    
+
+
 def get_regatta(regatta_uid, status):
     pool = get_pool()
     with pool.connection() as conn:
@@ -261,7 +380,8 @@ def get_regatta(regatta_uid, status):
                   result.finish_order,
                   result.raw_time,
                   result.margin_from_winner,
-                  school.name
+                  school.name,
+                  regatta.url
                 from neira.regattas regatta
                 join neira.heats heat on regatta.id = heat.regatta_id
                 join neira.results result on heat.id = result.heat_id
@@ -278,14 +398,16 @@ def get_regatta(regatta_uid, status):
             )
             regatta = None
             heats = {}
-            for heat_id, class_, gender, varsity_index, regatta_name, date, distance, comment, finish_order, raw_time, margin_from_winner, school in cursor:
+            for heat_id, class_, gender, varsity_index, regatta_name, date, distance, comment, finish_order, raw_time, margin_from_winner, school, url in cursor:
                 if regatta is None:
                     regatta = {
                         "comment": comment,
                         "day": date,
+                        "date": date,
                         "heats": [],
                         "regatta_display_name": regatta_name,
-                        "url": f"https://www.row2k.com/results/resultspage.cfm?UID={regatta_uid}&cat=1"
+                        "name": regatta_name,
+                        "url": url
                     }
                 if heat_id not in heats:
                     heats[heat_id] = {
@@ -350,5 +472,7 @@ def update_correction(uid, details, checksum):
 
 if __name__ == '__main__':
     # print(get_regatta("0B5A12BEAF8945DD81EB9EFB206E62F1", status="1_cleaned"))
-    insert_corrections()
+    # insert_corrections()
+    main()
+
     

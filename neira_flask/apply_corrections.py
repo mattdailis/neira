@@ -11,51 +11,18 @@ def apply_corrections():
     
     all_corrections = db.get_corrections()
     for uid, corrections in all_corrections.items():
-        race_object = db.get_regatta(uid, status="1_cleaned")
+        regatta = db.get_regatta(uid, status="1_cleaned")
         print(uid, corrections)
-        for correction in corrections["corrections"]:
-            if correction["type"] == "comment":
-                pass
-            elif correction["type"] == "ignore_heats":
-                ignore_heats(race_object, correction)
-            elif correction["type"] == "exclude_schools_from_heat":
-                exclude_schools_from_heat(race_object, correction)
-            elif correction["type"] == "rename_heat":
-                gender, varsity_index = correction["from"].split()
-                new_gender, new_varsity_index = correction["to"].split()
-                for heat in race_object["heats"]:
-                    if (
-                        heat["gender"] == gender
-                        and heat["varsity_index"] == varsity_index
-                    ):
-                        heat["gender"] = new_gender
-                        heat["varsity_index"] = new_varsity_index
-            elif correction["type"] == "set_class_all_heats":
-                for heat in race_object["heats"]:
-                    heat["class"] = correction["class"]
-            elif correction["type"] == "set_gender_all_heats":
-                for heat in race_object["heats"]:
-                    heat["gender"] = correction["gender"]
-            elif correction["type"] == "set_margins":
-                set_margins(race_object, correction)
-            elif correction["type"] == "set_varsity_index":
-                race_object["heats"][correction["heat_index"]]["varsity_index"] = (
-                    correction["varsity_index"]
-                )
-            elif correction["type"] == "manual_override":
-                race_object = correction["new_contents"]
-            else:
-                raise Exception("Unhandled correction type: " + correction["type"])
-
-        if race_object is None:
+        if regatta is None:
             print("Could not apply corrections to " + uid)
             continue
-        for heat in race_object["heats"]:
+        apply_corrections_single(regatta, corrections["corrections"])
+        for heat in regatta["heats"]:
             if heat["gender"] not in ("boys", "girls"):
                 raise Exception("Unrecognized gender: " + str(heat["gender"]))
             if heat["class"] not in ("eights", "fours"):
                 raise Exception("Unrecognized boat class: " + str(heat["class"]))
-        db.write_regatta(uid, race_object, status="2_reviewed", scrape_id=scrape_id)
+        db.write_regatta(uid, regatta, status="2_reviewed", scrape_id=scrape_id)
 
 
 def ignore_heats(race_object, correction):
@@ -108,6 +75,48 @@ def set_margins(race_object, correction):
             break
     else:
         raise Exception("No heat matched " + entry)
+
+
+def apply_corrections_single(regatta, corrections):
+    for correction in corrections:
+        if correction["type"] == "comment":
+            pass
+        elif correction["type"] == "ignore_heats":
+            ignore_heats(regatta, correction)
+        elif correction["type"] == "exclude_schools_from_heat":
+            exclude_schools_from_heat(regatta, correction)
+        elif correction["type"] == "rename_heat":
+            gender, varsity_index = correction["from"].split()
+            new_gender, new_varsity_index = correction["to"].split()
+            for heat in regatta["heats"]:
+                if (
+                    heat["gender"] == gender
+                    and heat["varsity_index"] == varsity_index
+                ):
+                    heat["gender"] = new_gender
+                    heat["varsity_index"] = new_varsity_index
+        elif correction["type"] == "set_class_all_heats":
+            for heat in regatta["heats"]:
+                heat["class"] = correction["class"]
+        elif correction["type"] == "set_gender_all_heats":
+            for heat in regatta["heats"]:
+                heat["gender"] = correction["gender"]
+        elif correction["type"] == "set_margins":
+            set_margins(regatta, correction)
+        elif correction["type"] == "set_varsity_index":
+            regatta["heats"][correction["heat_index"]]["varsity_index"] = (
+                correction["varsity_index"]
+            )
+        elif correction["type"] == "manual_override":
+            regatta = correction["new_contents"]
+        else:
+            raise Exception("Unhandled correction type: " + correction["type"])
+
+    for heat in regatta["heats"]:
+        if heat["gender"] not in ("boys", "girls"):
+            raise Exception("Unrecognized gender: " + str(heat["gender"]))
+        if heat["class"] not in ("eights", "fours"):
+            raise Exception("Unrecognized boat class: " + str(heat["class"]))
 
 
 if __name__ == "__main__":
