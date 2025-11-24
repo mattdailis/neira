@@ -3,6 +3,8 @@ import os
 
 from flask import Flask, jsonify, render_template, request, g
 
+from neira_flask.checksum import compute_checksum
+
 from . import db
 from neira_flask.auth import requires_auth, user_has_scope
 
@@ -62,7 +64,9 @@ def api_regatta():
     if uid is None:
         return "uid query parameter is required", 400
     all_corrections = db.get_corrections()
+    regattas = db.get_regatta_for_review(uid)
     return jsonify({
-        "regatta": db.get_regatta_for_review(uid),
-        "corrections": all_corrections[uid]
+        "regatta": regattas,
+        "corrections": all_corrections[uid],
+        "checksums": { status: compute_checksum(regatta) for status, regatta in regattas.items() }
     })

@@ -7,6 +7,8 @@ import sys
 import atexit
 import signal
 
+from neira_flask.checksum import compute_checksum, get_checksum_version
+
 _pool = None
 
 def exit_handler():
@@ -29,8 +31,8 @@ def get_pool():
 
 
 def main():
-    datadir = "/Users/dailis/neiraseeding/neira/data/1_cleaned"
-    status = "1_cleaned"
+    datadir = "/Users/dailis/neiraseeding/neira/data/1_parsed"
+    status = "1_parsed"
     pool = get_pool()
     with pool.connection() as conn, conn.cursor() as cursor:
         cursor.execute("select trunc(extract(epoch from now() )* 1000);")
@@ -43,9 +45,35 @@ def main():
             regatta = json.load(f)
         write_regatta(uid, regatta, status=status, scrape_id=scrape_id)
 
-def write_regatta(uid, regatta, status, scrape_id):    
+
+def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None, correction_id=None):
+    if parent_id is None or producer is None or correction_id is None:
+        if not (parent_id is None and producer is None and correction_id is None):
+            raise Exception("parent_id, producer, and correction_id must either all be omitted or all provided")
+
+    checksum_version, regatta_checksum = compute_checksum(regatta)
+
     pool = get_pool()
     with pool.connection() as conn, conn.cursor() as cursor:
+        cursor.execute(
+            """
+            select regatta.id
+            from neira.regattas regatta
+            join neira.regatta_checksums checksum on regatta.id = checksum.regatta_id
+            where regatta.status = %(status)s
+            and checksum.checksum = %(regatta_checksum)s
+            and checksum.checksum_version = %(checksum_version)s
+            """,
+            dict(
+                status=status,
+                regatta_checksum=regatta_checksum,
+                checksum_version=checksum_version,
+            )
+        )
+        for _ in cursor:
+            print(f"Skipping inserting regatta with uid={uid}, status={status}, checksum={regatta_checksum}")
+            return # If result is non-empty, do not insert
+
         cursor.execute(
             """
             insert into neira.regattas
@@ -57,9 +85,9 @@ def write_regatta(uid, regatta, status, scrape_id):
             dict(
                 scrape_id=scrape_id,
                 uid=uid, 
-                year=2025,
-                date=regatta["day"],
-                name=regatta["regatta_display_name"],
+                year=int(regatta["date"].split("-")[0]),
+                date=regatta["date"],
+                name=regatta["name"],
                 comment=regatta["comment"].strip(),
                 distance=None,
                 status=status,
@@ -115,9 +143,38 @@ def write_regatta(uid, regatta, status, scrape_id):
                 from stdin
                 """) as copy:
                 for i, result in enumerate(heat["results"]):
-                    finish_order = i + 1
-                    copy.write_row((heat_id, finish_order, result["raw_time"], result["margin_from_winner"], school_ids[result["school"]]))
+                    copy.write_row((heat_id, result["finish_order"], result["raw_time"], result["margin_from_winner"], school_ids[result["school"]]))
                     print("Inserted result", json.dumps(result))
+
+        cursor.execute(
+            """
+            insert into neira.regatta_checksums
+            (regatta_id, checksum, checksum_version)
+            values
+            (%(regatta_id)s, %(regatta_checksum)s, %(checksum_version)s);
+            """,
+            dict(
+                regatta_id=regatta_id,
+                regatta_checksum=regatta_checksum,
+                checksum_version=checksum_version,
+            )
+        )
+
+        if parent_id is not None:
+            cursor.execute(
+            """
+            insert into neira.regatta_parents
+            (parent_id, child_id, producer, correction_id)
+            values
+            (%(parent_id)s, %(child_id)s, %(producer)s, %(correction_id)s);
+            """,
+            dict(
+                parent_id=parent_id,
+                child_id=regatta_id,
+                producer=producer,
+                correction_id=correction_id,
+            )
+        )
     print("Finished", uid)
 
 
@@ -134,7 +191,7 @@ def load_school_ids(cursor):
 
 
 def get_heats(year, class_, gender, varsity_index):
-    status = "1_cleaned"
+    status = "2_cleaned"
     pool = get_pool()
     with pool.connection() as conn, conn.cursor() as cursor:
         cursor.execute(
@@ -156,7 +213,8 @@ def get_heats(year, class_, gender, varsity_index):
                 result.finish_order,
                 result.raw_time,
                 result.margin_from_winner,
-                school.name
+                school.name,
+                regatta.url
             from neira.regattas regatta
             join neira.heats heat on regatta.id = heat.regatta_id
             join neira.results result on heat.id = result.heat_id
@@ -178,14 +236,15 @@ def get_heats(year, class_, gender, varsity_index):
         )
         print("finished query")
         heats = {}
-        for heat_id, regatta_uid, regatta_name, regatta_date, distance, finish_order, raw_time, margin_from_winner, school in cursor:
+        for heat_id, regatta_uid, regatta_name, regatta_date, distance, finish_order, raw_time, margin_from_winner, school, url in cursor:
             if not heat_id in heats:
                 heats[heat_id] = {
                     "regatta_name": regatta_name,
                     "regatta_uid": regatta_uid,
                     "date": regatta_date,
                     "distance": distance,
-                    "results": []
+                    "results": [],
+                    "url": url
                 }
             heats[heat_id]["results"].append({
                 "finish_order": finish_order,
@@ -202,14 +261,15 @@ def get_corrections():
     with pool.connection() as conn, conn.cursor() as cursor:
         cursor.execute(
             """
-            select distinct on (regatta_uid) regatta_uid, details, checksum
+            select distinct on (regatta_uid) regatta_uid, id, details, checksum
             from neira.corrections
             order by regatta_uid, id desc
             """
         )
         corrections = {}
-        for regatta_uid, details, checksum in cursor:
+        for regatta_uid, correction_id, details, checksum in cursor:
             corrections[regatta_uid] = {
+                "correction_id": correction_id,
                 "checksum": checksum,
                 "corrections": details
             }
@@ -238,33 +298,47 @@ def get_regatta_uids(year):
 
 def get_regattas_review_status(year):
     pool = get_pool()
-    with pool.connection() as conn:
-        with conn.cursor() as cursor:
-            cursor.execute(
-                """
-                select id, scrape_id, uid, year,  date, name, status, comment, distance from neira.regattas
-                where year=%(year)s
-                order by scrape_id
-                """,
-                dict(
-                    year=year
-                )
+    with pool.connection() as conn, conn.cursor() as cursor:
+        cursor.execute(
+            """
+            select regatta.id as regatta_id, scrape_id, uid, year,  date, name, status, comment, distance, correction.id as correction_id, rp.parent_id
+            from neira.regattas regatta
+            left join neira.regatta_parents rp on regatta.id = rp.child_id
+            left join neira.regatta_checksums checksum on regatta.id = checksum.regatta_id
+            left join neira.corrections correction on regatta.uid = correction.regatta_uid and checksum.checksum = correction.checksum
+            where year=%(year)s
+            order by scrape_id
+            """,
+            dict(
+                year=year
             )
-            regattas = {}
-            for regatta_id, scrape_id, regatta_uid, year, date, name, status, comment, distance in cursor:
-                if regatta_uid not in regattas:
-                    regattas[regatta_uid] = []
-                regattas[regatta_uid].append({
-                    "regatta_id": regatta_id, 
-                    "scrape_id": scrape_id,
-                    "regatta_uid": regatta_uid,
-                    "year": year,
-                    "date": date,
-                    "name": name,
-                    "status": status,
-                    "comment": comment,
-                    "distance": distance,
-                })
+        )
+        regattas = {}
+        for regatta_id, scrape_id, regatta_uid, year, date, name, status, comment, distance, correction_id, parent_id in cursor:
+            if regatta_uid not in regattas:
+                regattas[regatta_uid] = []
+            regattas[regatta_uid].append({
+                "regatta_id": regatta_id, 
+                "scrape_id": scrape_id,
+                "regatta_uid": regatta_uid,
+                "year": year,
+                "date": date,
+                "name": name,
+                "status": status,
+                "comment": comment,
+                "distance": distance,
+                "correction_id": correction_id,
+                "parent_id": parent_id,
+            })
+
+        for uid, subregattas in list(regattas.items()):
+            regattas_by_id = {}
+            for regatta in subregattas:
+                regattas_by_id[regatta["regatta_id"]] = regatta
+            for regatta in subregattas:
+                if regatta["status"] == "3_reviewed" and regatta["parent_id"] not in regattas_by_id:
+                    del regattas_by_id[regatta["regatta_id"]]
+            regattas[uid] = list(regattas_by_id.values())
     
     return sorted(regattas.values(), key=lambda x: x[0]["date"])
 
@@ -288,8 +362,10 @@ def get_regatta_for_review(regatta_uid):
                 regatta.date,
                 regatta.distance,
                 regatta.comment,
-                regatta.url
+                regatta.url,
+                regatta_parent.parent_id
             from neira.regattas regatta
+            left join neira.regatta_parents regatta_parent on regatta.id = regatta_parent.child_id
             where regatta.id in (select id from relevant_regattas)
             """,
             dict(
@@ -297,16 +373,16 @@ def get_regatta_for_review(regatta_uid):
             )
         )
         regattas = {}
-        for regatta_id, status, name, date, distance, comment, url in cursor:
+        for regatta_id, status, name, date, distance, comment, url, parent_id in cursor:
             regattas[regatta_id] = {
                     "status": status,
                     "comment": comment,
                     "day": date,
                     "date": date,
                     "heats": {},
-                    "regatta_display_name": name,
                     "name": name,
-                    "url": url
+                    "url": url,
+                    "parent_id": parent_id,
                 }
         cursor.execute(
             """
@@ -345,91 +421,112 @@ def get_regatta_for_review(regatta_uid):
             heats[heat_id]["results"].sort(key=lambda x: x["finish_order"])
             regattas[regatta_id]["heats"][heat_id] = heats[heat_id]
         res = {}
-        for regatta in regattas.values():
+        for regatta_id, regatta in regattas.items():
             res[regatta["status"]] = regatta
             regatta["heats"] = list(regatta["heats"].values())
-            for heat in regatta["heats"]:
-                for result in heat["results"]:
-                    del result["finish_order"]
+            regatta["id"] = regatta_id
         return res
     
 
 
 def get_regatta(regatta_uid, status):
     pool = get_pool()
-    with pool.connection() as conn:
-        with conn.cursor() as cursor:
-            cursor.execute(
-                """
-                with relevant_regattas as (
-                  select distinct on (uid) id
-                  from neira.regattas regatta
-                  where regatta.status = %(status)s
-                  order by uid, scrape_id desc
-                )
-
-                select
-                  heat.id as heat_id,
-                  heat.class,
-                  heat.gender,
-                  heat.varsity_index,
-                  regatta.name,
-                  regatta.date,
-                  regatta.distance,
-                  regatta.comment,
-                  result.finish_order,
-                  result.raw_time,
-                  result.margin_from_winner,
-                  school.name,
-                  regatta.url
-                from neira.regattas regatta
-                join neira.heats heat on regatta.id = heat.regatta_id
-                join neira.results result on heat.id = result.heat_id
-                join neira.schools school on result.school_id = school.id
-                and regatta.uid = %(regatta_uid)s
-                and regatta.id in (select id from relevant_regattas);
-
-
-                """,
-                dict(
-                    status=status,
-                    regatta_uid=regatta_uid
-                )
+    with pool.connection() as conn, conn.cursor() as cursor:
+        cursor.execute(
+            """
+            select id
+            from neira.regattas regatta
+            where regatta.status = %(status)s
+            and regatta.uid = %(regatta_uid)s
+            order by scrape_id desc
+            limit 1
+            """,
+            dict(
+                regatta_uid=regatta_uid,
+                status=status,
             )
-            regatta = None
-            heats = {}
-            for heat_id, class_, gender, varsity_index, regatta_name, date, distance, comment, finish_order, raw_time, margin_from_winner, school, url in cursor:
-                if regatta is None:
-                    regatta = {
-                        "comment": comment,
-                        "day": date,
-                        "date": date,
-                        "heats": [],
-                        "regatta_display_name": regatta_name,
-                        "name": regatta_name,
-                        "url": url
-                    }
-                if heat_id not in heats:
-                    heats[heat_id] = {
-                        "class": class_,
-                        "gender": gender,
-                        "varsity_index": str(varsity_index),
-                        "results": []
-                    }
-                heats[heat_id]["results"].append({
-                    "margin_from_winner": None if margin_from_winner is None else (float(margin_from_winner) if margin_from_winner != 0 else 0),
-                    "raw_time": raw_time,
-                    "school": school,
-                    "finish_order": finish_order
-                })
-                heats[heat_id]["results"].sort(key=lambda x: x["finish_order"])
-            if regatta is None:
-                return None
-            regatta["heats"] = list(heats.values())
-            for heat in regatta["heats"]:
-                for result in heat["results"]:
-                    del result["finish_order"]
-            return regatta
+        )
+        regatta_ids = [x for (x,) in cursor]
+
+        if len(regatta_ids) != 1:
+            raise Exception("Expected exactly one regatta but found " + str(regatta_ids))
+        
+        return regatta_ids[0], list(get_regattas_by_id(regatta_ids).values())[0]
+
+
+def get_regattas_by_id(regatta_ids):
+    pool = get_pool()
+    with pool.connection() as conn, conn.cursor() as cursor:
+        cursor.execute(
+            """
+            select
+                regatta.id as regatta_id,
+                regatta.status as status,
+                regatta.name,
+                regatta.date,
+                regatta.distance,
+                regatta.comment,
+                regatta.url
+            from neira.regattas regatta
+            where regatta.id = any(%(regatta_ids)s);
+            """,
+            dict(
+                regatta_ids=regatta_ids
+            )
+        )
+        regattas = {}
+        for regatta_id, status, name, date, distance, comment, url in cursor:
+            regattas[regatta_id] = {
+                    "status": status,
+                    "comment": comment,
+                    "day": date,
+                    "date": date,
+                    "heats": {},
+                    "name": name,
+                    "url": url
+                }
+        cursor.execute(
+            """
+            select
+                heat.regatta_id,
+                heat.id as heat_id,
+                heat.class,
+                heat.gender,
+                heat.varsity_index,
+                result.finish_order,
+                result.raw_time,
+                result.margin_from_winner,
+                school.name
+            from neira.heats heat
+            join neira.results result on heat.id = result.heat_id
+            join neira.schools school on result.school_id = school.id
+            and heat.regatta_id = any(%(regatta_ids)s);
+            """,
+            dict(
+                regatta_ids=regatta_ids
+            )
+        )
+        for regatta_id, heat_id, class_, gender, varsity_index, finish_order, raw_time, margin_from_winner, school in cursor:
+            heats = regattas[regatta_id]["heats"]
+            if heat_id not in heats:
+                heats[heat_id] = {
+                    "class": class_,
+                    "gender": gender,
+                    "varsity_index": str(varsity_index),
+                    "results": []
+                }
+            heats[heat_id]["results"].append({
+                "margin_from_winner": None if margin_from_winner is None else (float(margin_from_winner) if margin_from_winner != 0 else 0),
+                "raw_time": raw_time,
+                "school": school,
+                "finish_order": finish_order
+            })
+            heats[heat_id]["results"].sort(key=lambda x: x["finish_order"])
+        
+        for regatta in regattas.values():
+            regatta["heats"] = list(regatta["heats"].values())
+        return regattas
+
         
 def insert_corrections():
     with open("corrections.json", "r") as f:
@@ -451,28 +548,43 @@ def insert_corrections():
                     details=Jsonb(correction["corrections"]),
                     checksum=correction["checksum"]
                 ))
+                print("Inserted", correction)
 
 
 def update_correction(uid, details, checksum):
     pool = get_pool()
-    with pool.connection() as conn:
-        with conn.cursor() as cursor:
-            cursor.execute(
+    with pool.connection() as conn, conn.cursor() as cursor:
+        cursor.execute(
+        """
+        insert into neira.corrections
+        (regatta_uid, details, checksum)
+        values
+        (%(uid)s, %(details)s, %(checksum)s);
+        """,
+        dict(
+            uid=uid,
+            details=Jsonb(details),
+            checksum=checksum,
+        ))
+
+
+def lookup_checksum(regatta_id):
+    pool = get_pool()
+    with pool.connection() as conn, conn.cursor() as cursor:
+        cursor.execute(
             """
-            insert into neira.corrections
-            (regatta_uid, details, checksum)
-            values
-            (%(uid)s, %(details)s, %(checksum)s);
+            select checksum
+            from neira.regatta_checksums
+            where regatta_id = '%(regatta_id)s'
             """,
-            dict(
-                uid=uid,
-                details=Jsonb(details),
-                checksum=checksum
-            ))
+            dict(regatta_id=regatta_id)
+        )
+        return cursor.fetchone()[0]
+
 
 if __name__ == '__main__':
-    # print(get_regatta("0B5A12BEAF8945DD81EB9EFB206E62F1", status="1_cleaned"))
-    # insert_corrections()
-    main()
+    # print(get_regatta("0B5A12BEAF8945DD81EB9EFB206E62F1", status="2_cleaned"))
+    insert_corrections()
+    # main()
 
     

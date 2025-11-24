@@ -23,18 +23,18 @@ async function init() {
 
   const responseJson = await response.json();
 
-  document.getElementById("row2k-link").href = responseJson["regatta"]["1_cleaned"]["url"];
-  console.log(responseJson["regatta"]["1_cleaned"]["url"]);
+  document.getElementById("row2k-link").href = responseJson["regatta"]["2_cleaned"]["url"];
+  console.log(responseJson["regatta"]["2_cleaned"]["url"]);
 
-  document.getElementById("regatta-name").textContent = responseJson["regatta"]["1_cleaned"]["name"];
-  document.getElementById("regatta-comment").textContent = responseJson["regatta"]["1_cleaned"]["comment"];
+  document.getElementById("regatta-name").textContent = responseJson["regatta"]["2_cleaned"]["name"];
+  document.getElementById("regatta-comment").textContent = responseJson["regatta"]["2_cleaned"]["comment"];
 
   console.log({responseJson});
 
 
   // Add each date section with all its races
   const racesContainer = document.getElementById('races-container');
-  for (const heat of responseJson["regatta"]["1_cleaned"]["heats"]) {
+  for (const heat of responseJson["regatta"]["2_cleaned"]["heats"]) {
     racesContainer.appendChild(createHeat(heat))
   }
 

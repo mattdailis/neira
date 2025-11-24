@@ -61,6 +61,8 @@ async function init() {
 
   const responseJson = await response.json();
 
+  console.log({responseJson});
+
   // Add each date section with all its races
   const racesContainer = document.getElementById('races-container');
   for (const regattas of responseJson) {
@@ -75,9 +77,12 @@ function createRegattaRow(regattas) {
   const template = document.getElementById('regatta-template');
   const clone = template.content.cloneNode(true);
 
-  console.log(regattas);
+  // console.log(regattas);
 
-  clone.querySelector('.name').textContent = regattas[regattas.length - 1].date + " " + regattas[regattas.length - 1].name + " (" + regattas.map(x => x.status).join(", ") + ")";
+  regattas.sort((a, b) => a.date.localeCompare(b.date));
+  regattas.sort((a, b) => a.status.localeCompare(b.status));
+
+  clone.querySelector('.name').innerHTML = regattas[regattas.length - 1].date + " " + regattas[regattas.length - 1].name + " (" + regattas.map(x => (x.status != '2_cleaned' || x.correction_id == null) ? x.status : `<b>${x.status}</b>`).join(", ") + ")";
   clone.querySelector('.name').href = `/review-regatta.html?uid=${regattas[regattas.length - 1].regatta_uid}`;
 
   // // Add all race results for this date

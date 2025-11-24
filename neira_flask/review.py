@@ -1,11 +1,9 @@
 import json
-import os
 
 import editor
 
-import hashlib
-
 from neira_flask import db
+from neira_flask.checksum import compute_checksum
 
 
 def review():
@@ -19,11 +17,11 @@ def review():
 
     for i, uid in enumerate(uids):
         if uid in corrections:
-            regatta = db.get_regatta(uid, status="1_cleaned")
-            regattas[uid] = regatta
+            parent_regatta_id, regatta = db.get_regatta(uid, status="2_cleaned")
+            regattas[uid] = parent_regatta_id, regatta
             if regatta is None:
                 continue
-            new_checksum = compute_checksum(regatta)
+            checksum_version, new_checksum = compute_checksum(regatta)
 
             if corrections[uid]["checksum"] == new_checksum:
                 continue
@@ -41,11 +39,10 @@ def review():
         print(str(len(to_review) - i) + " to go...")
         print(message)
 
-        race_object = regattas[uid] # db.get_regatta(uid, status="1_cleaned")  # TODO we've already queried this above, could cache
-        checksum = compute_checksum(race_object)
+        parent_regatta_id, regatta = regattas[uid] # db.get_regatta(uid, status="2_cleaned")  # TODO we've already queried this above, could cache
 
-        print(race_object["regatta_display_name"])
-        print(race_object["url"])
+        print(regatta["name"])
+        print(regatta["url"])
 
         with open("review-sandbox/tmp.json", "w") as f:
             f.write(json.dumps(regatta, sort_keys=True, indent=4))
@@ -67,7 +64,7 @@ def review():
             try:
                 corrections[uid] = {
                     "corrections": json.loads(contents.decode()),
-                    "checksum": checksum,
+                    "checksum": new_checksum,
                 }
                 break
             except json.JSONDecodeError:
@@ -85,17 +82,11 @@ def review():
 
             # with open("corrections.json", "w") as f:
             #     json.dump(corrections, f, sort_keys=True, indent=4)
-            db.update_correction(uid, corrections[uid]["corrections"], checksum)
+            db.update_correction(uid, corrections[uid]["corrections"], new_checksum)
 
         input("Press Enter to continue...")
         print()
 
-
-def compute_checksum(regatta):
-    # with open(os.path.join(data_dir, filename)) as f:
-    #     new_checksum = hashlib.md5(f.read().encode()).hexdigest()
-    regatta_json = json.dumps(regatta, sort_keys=True, indent=4)
-    return hashlib.md5(regatta_json.encode()).hexdigest()
 
 if __name__ == "__main__":
     review()

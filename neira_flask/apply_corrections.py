@@ -1,6 +1,3 @@
-import json
-import os
-
 from neira_flask import db
 
 
@@ -11,7 +8,7 @@ def apply_corrections():
     
     all_corrections = db.get_corrections()
     for uid, corrections in all_corrections.items():
-        regatta = db.get_regatta(uid, status="1_cleaned")
+        parent_regatta_id, regatta = db.get_regatta(uid, status="2_cleaned")
         print(uid, corrections)
         if regatta is None:
             print("Could not apply corrections to " + uid)
@@ -22,24 +19,24 @@ def apply_corrections():
                 raise Exception("Unrecognized gender: " + str(heat["gender"]))
             if heat["class"] not in ("eights", "fours"):
                 raise Exception("Unrecognized boat class: " + str(heat["class"]))
-        db.write_regatta(uid, regatta, status="2_reviewed", scrape_id=scrape_id)
+        db.write_regatta(uid, regatta, status="3_reviewed", scrape_id=scrape_id, parent_id=parent_regatta_id, producer="apply_corrections", correction_id=corrections["correction_id"])
 
 
-def ignore_heats(race_object, correction):
+def ignore_heats(regatta, correction):
     for entry in correction["heats"]:
         gender, varsity_index = entry.split()
-        for i, heat in enumerate(race_object["heats"]):
+        for i, heat in enumerate(regatta["heats"]):
             if heat["gender"] == gender and heat["varsity_index"] == varsity_index:
                 break
         else:
             raise Exception("No heat matched " + entry)
-        del race_object["heats"][i]
+        del regatta["heats"][i]
 
 
-def exclude_schools_from_heat(race_object, correction):
+def exclude_schools_from_heat(regatta, correction):
     entry = correction["heat"]
     gender, varsity_index = entry.split()
-    for heat in race_object["heats"]:
+    for heat in regatta["heats"]:
         if heat["gender"] == gender and heat["varsity_index"] == varsity_index:
             results = []
             for result in heat["results"]:
@@ -51,10 +48,10 @@ def exclude_schools_from_heat(race_object, correction):
         raise Exception("No heat matched " + entry)
 
 
-def set_margins(race_object, correction):
+def set_margins(regatta, correction):
     entry = correction["heat"]
     gender, varsity_index = entry.split()
-    for heat in race_object["heats"]:
+    for heat in regatta["heats"]:
         if heat["gender"] == gender and heat["varsity_index"] == varsity_index:
             if len(heat["results"]) != len(correction["margins"]):
                 raise Exception(
