@@ -23,21 +23,35 @@
     <div class="section content-width">
       <a id="row2k-link" href="">View on row2k</a>
     </div>
-    <div class="section columns">
-      <div id="races-container"></div>
+    <div class="section">
+      <div class="comparison-table">
+        <div class="table-header">
+          <div class="table-cell header-cell">Heat</div>
+          <div class="table-cell header-cell">Parsed</div>
+          <div class="table-cell header-cell">Cleaned</div>
+          <div class="table-cell header-cell">Reviewed</div>
+        </div>
+        <div id="table-body"></div>
+      </div>
+    </div>
+    <div class="section content-width">
+      <h3>Corrections</h3>
       <div id="corrections-container"></div>
     </div>
   </page-layout>
 
-  <template id="regatta-template">
-    <div class="name"></div>
-  </template>
-
-  <template id="heat-template">
-    <div class="heat">
-      <div class="heat-header name">
+  <template id="heat-row-template">
+    <div class="table-row">
+      <div class="table-cell heat-name-cell"></div>
+      <div class="table-cell heat-data-cell parsed-cell">
+        <pre class="results-table"></pre>
       </div>
-      <pre class="results-table"></pre>
+      <div class="table-cell heat-data-cell cleaned-cell">
+        <pre class="results-table"></pre>
+      </div>
+      <div class="table-cell heat-data-cell reviewed-cell">
+        <pre class="results-table"></pre>
+      </div>
     </div>
   </template>
 </body>
