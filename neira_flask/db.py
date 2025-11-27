@@ -212,7 +212,6 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
         read_regatta = read_regatta[regatta_id]
         current_checksum_version, checksum = compute_checksum(read_regatta)
         if checksum != regatta_checksum:
-            breakpoint()
             logger.error("Checksum mismatch on write. Writing correct checksum now.")
             cursor.execute(
                 """
@@ -228,6 +227,7 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
             )
 
     logger.info("Finished %s", uid)
+    return regatta_id
 
 
 def load_school_ids(cursor):

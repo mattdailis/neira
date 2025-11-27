@@ -1,5 +1,6 @@
 import logging
 
+from neira.scraper import clean
 from neira_flask import db
 
 import neira.scraper.download
@@ -11,6 +12,8 @@ logger = logging.getLogger(__name__)
 def download_regatta(args):
     url = args["url"]
     logger.info(f"download_regatta({url})")
+
+    # Download step
 
     downloaded = neira.scraper.download.download_one((args["name"], args["uid"], args["url"]))
 
@@ -29,10 +32,15 @@ def download_regatta(args):
 
     db.write_regatta(args["uid"], scraped, "1_parsed", scrape_id)  # Will skip if checksum matches
 
+    # Parse/Scrape step
+    cleaned = clean.clean(scraped)
+    db.write_regatta(args["uid"], cleaned, "2_cleaned", scrape_id)  # Will skip if checksum matches
 
 
 def create_download_regatta_jobs():
     for regatta_name, uid, url in neira.scraper.download.get_race_urls(2025):
+        if not "7FE2290879E1C3151B93CD8FCA2A71D5" in url:
+            continue
         args = "download_regatta", {"url": url, "name": regatta_name, "uid": uid}
         print("inserting", args)
         db.insert_job(*args)

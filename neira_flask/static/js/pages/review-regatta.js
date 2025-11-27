@@ -24,18 +24,18 @@ async function init() {
 
   const responseJson = await response.json();
 
-  document.getElementById("row2k-link").href = responseJson["regatta"]["2_cleaned"]["url"];
-  console.log(responseJson["regatta"]["2_cleaned"]["url"]);
+  document.getElementById("row2k-link").href = responseJson["regatta"]["1_parsed"]["url"];
+  console.log(responseJson["regatta"]["1_parsed"]["url"]);
 
-  document.getElementById("regatta-name").textContent = responseJson["regatta"]["2_cleaned"]["name"];
-  document.getElementById("regatta-comment").textContent = responseJson["regatta"]["2_cleaned"]["comment"];
+  document.getElementById("regatta-name").textContent = responseJson["regatta"]["1_parsed"]["name"];
+  document.getElementById("regatta-comment").textContent = responseJson["regatta"]["1_parsed"]["comment"];
 
   console.log({responseJson});
 
   // Add each heat as a table row
   const tableBody = document.getElementById('table-body');
   const parsedHeats = responseJson["regatta"]["1_parsed"]["heats"];
-  const cleanedHeats = responseJson["regatta"]["2_cleaned"]["heats"];
+  const cleanedHeats = responseJson["regatta"]["2_cleaned"]?.["heats"] || [];
   const reviewedHeats = responseJson["regatta"]["3_reviewed"]?.["heats"] || [];
 
   console.log({parsedHeats, cleanedHeats, reviewedHeats});
@@ -66,7 +66,7 @@ function createHeatRow(parsedHeat, cleanedHeat, reviewedHeat) {
   } else if (cleanedHeat) {
     heatName = `${cleanedHeat.gender} ${cleanedHeat.class} ${cleanedHeat.varsity_index}`;
   } else {
-    heatName = '???';
+    heatName = `${parsedHeat.gender} ${parsedHeat.class} ${parsedHeat.varsity_index}`;
   }
   clone.querySelector('.heat-name-cell').textContent = heatName;
 
