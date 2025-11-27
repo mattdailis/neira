@@ -86,7 +86,7 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
 
         skip_insert = False
         regatta_id = None
-        for regatta_id in cursor:
+        for regatta_id, in cursor:
             logger.info(f"Skipping inserting regatta with uid={uid}, status={status}, checksum={regatta_checksum}")
             skip_insert = True
             regatta_id = regatta_id
