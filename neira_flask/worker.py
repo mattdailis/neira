@@ -5,6 +5,8 @@ import psycopg
 from psycopg.rows import dict_row
 import logging
 
+from neira_flask import jobs
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
@@ -23,25 +25,37 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 signal.signal(signal.SIGTERM, signal_handler)
 
+job_handlers = {
+    # "download_regatta": jobs.download_regatta
+}
+
 def process_job(job):
     """
     Process a single job from the jobs table.
 
     Args:
-        job: Dict containing job data with keys like id, job_type, payload, etc.
+        job: Dict containing job data with keys like id, job_type, arguments, etc.
     """
     logger.info(f"Processing job {job['id']}: {job.get('job_type', 'unknown')}")
 
     # TODO: Implement your job processing logic here
     # Example:
     # if job['job_type'] == 'apply_corrections':
-    #     apply_corrections(job['payload'])
+    #     apply_corrections(job['arguments'])
     # elif job['job_type'] == 'regenerate_visualizations':
-    #     regenerate_visualizations(job['payload'])
+    #     regenerate_visualizations(job['arguments'])
 
     logger.info(f"Job {job['id']} processed successfully")
 
-def fetch_and_process_job(conn, job_id):
+    handler = job_handlers.get(job['job_type'])
+    if handler is None:
+        logger.error(f"Unknown job type: {job['job_type']}")
+        return
+
+    handler(job['arguments'])
+    
+
+def fetch_and_process_job(job_id):
     """
     Fetch a job by ID and process it, updating its status.
 
@@ -49,18 +63,16 @@ def fetch_and_process_job(conn, job_id):
         conn: Database connection
         job_id: ID of the job to process
     """
-    logger.info("start fetch_and_process_job")
     with psycopg.connect(os.environ.get('DATABASE_URL')) as conn:
         with conn.cursor(row_factory=dict_row) as cursor:
             # Fetch the job with FOR UPDATE SKIP LOCKED to prevent concurrent processing
-            logger.info("fetch_and_process_job 1")
             cursor.execute("""
                 UPDATE neira.jobs
                 SET status = 'processing',
                     started_at = NOW()
                 WHERE id = %s
-                AND status = 'pending'
-                returning id;
+                --AND status = 'pending'
+                returning id, job_type, arguments;
             """, (job_id,))
             logger.info("fetch_and_process_job 2")
 
@@ -72,12 +84,9 @@ def fetch_and_process_job(conn, job_id):
                 logger.debug(f"Job {job_id} already processed or not found")
                 return
             
-            logger.info("fetch_and_process_job 4")
 
             try:
-                logger.info("fetch_and_process_job 5")
                 process_job(job)
-                logger.info("fetch_and_process_job 6")
 
                 # Mark job as completed
                 cursor.execute("""
@@ -131,51 +140,39 @@ def listen_for_jobs():
 
                     # Also process any pending jobs on startup
                     logger.info("Processing any pending jobs...")
-                    logger.info("01")
                     cursor.execute("""
                         SELECT id FROM neira.jobs
                         WHERE status = 'pending'
                         ORDER BY created_at ASC
                     """)
-                    logger.info("12")
                     pending_jobs = cursor.fetchall()
-                    logger.info("34")
 
                     for (job_id,) in pending_jobs:
                         if not running:
                             break
-                        fetch_and_process_job(conn, job_id)
+                        fetch_and_process_job(job_id)
 
-                    # Enter the notification loop
-                    logger.info("pre-gen")
-                    gen = conn.notifies()
-                    logger.info("post-gen")
+                    logged_waiting = False
                     while running:
-                        # Wait for notifications (with 1 second timeout)
-                        try:
+                        if not logged_waiting:
                             logger.info("waiting...")
-                            notify = next(gen)
-
+                        logged_waiting = True
+                        for notify in conn.notifies(timeout=5):
                             if not running:
-                                logger.info("not running!")
                                 break
 
+                            logged_waiting = False
                             logger.info(f"Received notification: {notify.payload}")
 
-                            # The payload should be the job ID
                             try:
-                                logger.info("try")
-                                job_id = int(notify.payload)
-                                logger.info(f"job_id: {job_id}")
-                                fetch_and_process_job(conn, job_id)
-                                logger.info(f"after fetch_and_process_job")
-                            except ValueError:
-                                logger.error(f"Invalid job ID in notification: {notify.payload}")
+                                job_id, job_type = notify.payload.split(',')
+                                job_id = int(job_id)
+                                if job_type in job_handlers:
+                                    fetch_and_process_job(job_id)
+                                else:
+                                    logger.info(f"No handler defined for job_type: {job_type}")
                             except Exception as e:
                                 logger.error(f"Error processing notification: {e}", exc_info=True)
-                        except StopIteration:
-                            # Timeout - no notification received, continue loop
-                            pass
 
         except psycopg.OperationalError as e:
             if running:
@@ -194,6 +191,3 @@ def listen_for_jobs():
                 break
 
     logger.info("Worker shutting down...")
-
-if __name__ == "__main__":
-    listen_for_jobs()
