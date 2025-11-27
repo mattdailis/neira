@@ -1,6 +1,7 @@
 import os
 import sys
 import signal
+import traceback
 import psycopg
 from psycopg.rows import dict_row
 import logging
@@ -26,7 +27,7 @@ signal.signal(signal.SIGINT, signal_handler)
 signal.signal(signal.SIGTERM, signal_handler)
 
 job_handlers = {
-    # "download_regatta": jobs.download_regatta
+    "download_regatta": jobs.download_regatta
 }
 
 def process_job(job):
@@ -38,21 +39,13 @@ def process_job(job):
     """
     logger.info(f"Processing job {job['id']}: {job.get('job_type', 'unknown')}")
 
-    # TODO: Implement your job processing logic here
-    # Example:
-    # if job['job_type'] == 'apply_corrections':
-    #     apply_corrections(job['arguments'])
-    # elif job['job_type'] == 'regenerate_visualizations':
-    #     regenerate_visualizations(job['arguments'])
-
-    logger.info(f"Job {job['id']} processed successfully")
-
     handler = job_handlers.get(job['job_type'])
     if handler is None:
         logger.error(f"Unknown job type: {job['job_type']}")
         return
 
     handler(job['arguments'])
+    logger.info(f"Job {job['id']} processed successfully")
     
 
 def fetch_and_process_job(job_id):
@@ -74,17 +67,13 @@ def fetch_and_process_job(job_id):
                 AND status = 'pending'
                 returning id, job_type, arguments;
             """, (job_id,))
-            logger.info("fetch_and_process_job 2")
 
             job = cursor.fetchone()
-
-            logger.info("fetch_and_process_job 3")
 
             if not job:
                 logger.debug(f"Job {job_id} already processed or not found")
                 return
             
-
             try:
                 process_job(job)
 
@@ -96,14 +85,14 @@ def fetch_and_process_job(job_id):
                     WHERE id = %s
                 """, (job_id,))
 
-                logger.info("fetch_and_process_job 7")
 
                 logger.info("committing")
                 conn.commit()
 
             except Exception as e:
-                logger.info("fetch_and_process_job 8")
                 logger.error(f"Error processing job {job_id}: {e}", exc_info=True)
+
+                error_details = traceback.format_exc()
 
                 # Mark job as failed
                 cursor.execute("""
@@ -112,10 +101,9 @@ def fetch_and_process_job(job_id):
                         error_message = %s,
                         completed_at = NOW()
                     WHERE id = %s
-                """, (str(e), job_id))
+                """, (error_details, job_id))
 
                 conn.commit()
-            logger.info("fetch_and_process_job 9")
 
 def listen_for_jobs():
     """
@@ -170,7 +158,7 @@ def listen_for_jobs():
                                 if job_type in job_handlers:
                                     fetch_and_process_job(job_id)
                                 else:
-                                    logger.info(f"No handler defined for job_type: {job_type}")
+                                    logger.info(f"No handler defined for job_type: '{job_type}'")
                             except Exception as e:
                                 logger.error(f"Error processing notification: {e}", exc_info=True)
                             if not logged_waiting:

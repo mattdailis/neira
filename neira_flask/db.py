@@ -1,4 +1,6 @@
+from contextlib import contextmanager
 import json
+import logging
 import os
 from psycopg_pool import ConnectionPool
 from psycopg.types.json import Jsonb
@@ -9,12 +11,13 @@ import signal
 
 from neira_flask.checksum import compute_checksum, get_checksum_version
 
+logger = logging.getLogger(__name__)
 _pool = None
 
 def exit_handler():
     if _pool is not None:
         _pool.close()
-    print("Cleaning up")
+    logger.info("Cleaning up")
 
 def kill_handler(*args):
     sys.exit(0)
@@ -30,6 +33,17 @@ def get_pool():
     return _pool
 
 
+@contextmanager
+def get_cursor(cursor):
+    if cursor is not None:
+        yield cursor
+    else:
+        with get_pool().connection() as conn, conn.cursor() as cursor:
+            yield cursor
+
+    
+
+
 def main():
     datadir = "/Users/dailis/neiraseeding/neira/data/1_parsed"
     status = "1_parsed"
@@ -38,7 +52,7 @@ def main():
         cursor.execute("select trunc(extract(epoch from now() )* 1000);")
         scrape_id = int(cursor.fetchone()[0])
 
-    print(f"{scrape_id=}")
+    logger.info(f"{scrape_id=}")
     for json_file in os.listdir(datadir):
         uid = os.path.splitext(os.path.basename(json_file))[0]
         with open(os.path.join(datadir, json_file)) as f:
@@ -46,15 +60,14 @@ def main():
         write_regatta(uid, regatta, status=status, scrape_id=scrape_id)
 
 
-def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None, correction_id=None):
+def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None, correction_id=None, cursor=None):
     if parent_id is None or producer is None or correction_id is None:
         if not (parent_id is None and producer is None and correction_id is None):
             raise Exception("parent_id, producer, and correction_id must either all be omitted or all provided")
 
     checksum_version, regatta_checksum = compute_checksum(regatta)
 
-    pool = get_pool()
-    with pool.connection() as conn, conn.cursor() as cursor:
+    with get_cursor(cursor) as cursor:
         cursor.execute(
             """
             select regatta.id
@@ -70,112 +83,152 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
                 checksum_version=checksum_version,
             )
         )
-        for _ in cursor:
-            print(f"Skipping inserting regatta with uid={uid}, status={status}, checksum={regatta_checksum}")
+
+        skip_insert = False
+        regatta_id = None
+        for regatta_id in cursor:
+            logger.info(f"Skipping inserting regatta with uid={uid}, status={status}, checksum={regatta_checksum}")
+            skip_insert = True
+            regatta_id = regatta_id
             return # If result is non-empty, do not insert
 
-        cursor.execute(
-            """
-            insert into neira.regattas
-            (scrape_id, uid, year, date, name, comment, distance, status, url)
-            values
-            (%(scrape_id)s, %(uid)s, %(year)s, %(date)s, %(name)s, %(comment)s, %(distance)s, %(status)s, %(url)s)
-            returning id;
-            """,
-            dict(
-                scrape_id=scrape_id,
-                uid=uid, 
-                year=int(regatta["date"].split("-")[0]),
-                date=regatta["date"],
-                name=regatta["name"],
-                comment=regatta["comment"].strip(),
-                distance=None,
-                status=status,
-                url=regatta["url"]
-            ))
-        regatta_id = int(cursor.fetchone()[0])
-        
-        schools = set()
-        for heat in regatta["heats"]:
-            for result in heat["results"]:
-                schools.add(result["school"])
-        schools = sorted(schools)
+        if not skip_insert:
+            cursor.execute(
+                """
+                insert into neira.regattas
+                (uid, year, date, name, comment, distance, url)
+                values
+                (%(uid)s, %(year)s, %(date)s, %(name)s, %(comment)s, %(distance)s, %(url)s)
+                returning id;
+                """,
+                dict(
+                    uid=uid, 
+                    year=int(regatta["date"].split("-")[0]),
+                    date=regatta["date"],
+                    name=regatta["name"],
+                    comment=regatta["comment"].strip(),
+                    distance=None,
+                    url=regatta["url"]
+                ))
+            regatta_id = int(cursor.fetchone()[0])
+            
+            schools = set()
+            for heat in regatta["heats"]:
+                for result in heat["results"]:
+                    schools.add(result["school"])
+            schools = sorted(schools)
 
-        school_ids = load_school_ids(cursor)
+            school_ids = load_school_ids(cursor)
 
-        for school in schools:
-            if school not in school_ids:       
+            for school in schools:
+                if school not in school_ids:       
+                    cursor.execute(
+                        """
+                        insert into neira.schools
+                        (name)
+                        values
+                        (%(name)s)
+                        on conflict do nothing
+                        """,
+                        dict(name=school)
+                    )
+
+            school_ids = load_school_ids(cursor)
+
+            for heat in regatta["heats"]:
                 cursor.execute(
-                    """
-                    insert into neira.schools
-                    (name)
-                    values
-                    (%(name)s)
-                    on conflict do nothing
-                    """,
-                    dict(name=school)
-                )
+                """
+                insert into neira.heats
+                (regatta_id, class, gender, varsity_index)
+                values
+                (%(regatta_id)s, %(class)s, %(gender)s, %(varsity_index)s)
+                returning id;
+                """,
+                dict(
+                    regatta_id=regatta_id,
+                    gender=heat["gender"],
+                    varsity_index=heat["varsity_index"],
+                    **{
+                        "class": heat["class"]
+                    }
+                ))
+                heat_id = int(cursor.fetchone()[0])
 
-        school_ids = load_school_ids(cursor)
+                with cursor.copy("""
+                    copy neira.results
+                    (heat_id, finish_order, raw_time, margin_from_winner, school_id)
+                    from stdin
+                    """) as copy:
+                    for i, result in enumerate(heat["results"]):
+                        copy.write_row((heat_id, result["finish_order"], result["raw_time"], result["margin_from_winner"], school_ids[result["school"]]))
+                        logger.info("Inserted result %s", json.dumps(result))
 
-        for heat in regatta["heats"]:
             cursor.execute(
-            """
-            insert into neira.heats
-            (regatta_id, class, gender, varsity_index)
-            values
-            (%(regatta_id)s, %(class)s, %(gender)s, %(varsity_index)s)
-            returning id;
-            """,
-            dict(
-                regatta_id=regatta_id,
-                gender=heat["gender"],
-                varsity_index=heat["varsity_index"],
-                **{
-                    "class": heat["class"]
-                }
-            ))
-            heat_id = int(cursor.fetchone()[0])
+                """
+                insert into neira.regatta_checksums
+                (regatta_id, checksum, checksum_version)
+                values
+                (%(regatta_id)s, %(regatta_checksum)s, %(checksum_version)s);
+                """,
+                dict(
+                    regatta_id=regatta_id,
+                    regatta_checksum=regatta_checksum,
+                    checksum_version=checksum_version,
+                )
+            )
 
-            with cursor.copy("""
-                copy neira.results
-                (heat_id, finish_order, raw_time, margin_from_winner, school_id)
-                from stdin
-                """) as copy:
-                for i, result in enumerate(heat["results"]):
-                    copy.write_row((heat_id, result["finish_order"], result["raw_time"], result["margin_from_winner"], school_ids[result["school"]]))
-                    print("Inserted result", json.dumps(result))
+            if parent_id is not None:
+                cursor.execute(
+                """
+                insert into neira.regatta_parents
+                (parent_id, child_id, producer, correction_id)
+                values
+                (%(parent_id)s, %(child_id)s, %(producer)s, %(correction_id)s);
+                """,
+                dict(
+                    parent_id=parent_id,
+                    child_id=regatta_id,
+                    producer=producer,
+                    correction_id=correction_id,
+                )
+            )
 
+        # Unconditionally insert a status 
         cursor.execute(
             """
-            insert into neira.regatta_checksums
-            (regatta_id, checksum, checksum_version)
+            insert into neira.regatta_statuses
+            (regatta_id, status, scrape_id)
             values
-            (%(regatta_id)s, %(regatta_checksum)s, %(checksum_version)s);
+            (%(regatta_id)s, %(status)s, %(scrape_id)s)
             """,
             dict(
                 regatta_id=regatta_id,
-                regatta_checksum=regatta_checksum,
-                checksum_version=checksum_version,
+                status=status,
+                scrape_id=scrape_id
             )
         )
 
-        if parent_id is not None:
+        read_regatta = get_regattas_by_id([regatta_id], cursor=cursor)
+        logger.info("read_regatta_keys: %s", list(read_regatta))
+        read_regatta = read_regatta[regatta_id]
+        current_checksum_version, checksum = compute_checksum(read_regatta)
+        if checksum != regatta_checksum:
+            breakpoint()
+            logger.error("Checksum mismatch on write. Writing correct checksum now.")
             cursor.execute(
-            """
-            insert into neira.regatta_parents
-            (parent_id, child_id, producer, correction_id)
-            values
-            (%(parent_id)s, %(child_id)s, %(producer)s, %(correction_id)s);
-            """,
-            dict(
-                parent_id=parent_id,
-                child_id=regatta_id,
-                producer=producer,
-                correction_id=correction_id,
+                """
+                update neira.regatta_checksums
+                set checksum=%(checksum)s, checksum_version=%(checksum_version)s
+                where regatta_id=%(regatta_id)s
+                """,
+                dict(
+                    regatta_id=regatta_id,
+                    checksum=checksum,
+                    checksum_version=current_checksum_version,
+                )
             )
-        )
-    print("Finished", uid)
+
+    logger.info("Finished %s", uid)
 
 
 def load_school_ids(cursor):
@@ -190,10 +243,9 @@ def load_school_ids(cursor):
     return school_ids
 
 
-def get_heats(year, class_, gender, varsity_index):
+def get_heats(year, class_, gender, varsity_index, cursor=None):
     status = "2_cleaned"
-    pool = get_pool()
-    with pool.connection() as conn, conn.cursor() as cursor:
+    with get_cursor(cursor) as cursor:
         cursor.execute(
             """
             with relevant_regattas as (
@@ -234,7 +286,7 @@ def get_heats(year, class_, gender, varsity_index):
                 }
             )
         )
-        print("finished query")
+        logger.info("finished query")
         heats = {}
         for heat_id, regatta_uid, regatta_name, regatta_date, distance, finish_order, raw_time, margin_from_winner, school, url in cursor:
             if not heat_id in heats:
@@ -256,9 +308,8 @@ def get_heats(year, class_, gender, varsity_index):
         return sorted(heats.values(), key=lambda heat: heat["date"])
 
 
-def get_corrections():
-    pool = get_pool()
-    with pool.connection() as conn, conn.cursor() as cursor:
+def get_corrections(cursor=None):
+    with get_cursor(cursor) as cursor:
         cursor.execute(
             """
             select distinct on (regatta_uid) regatta_uid, id, details, checksum
@@ -296,9 +347,8 @@ def get_regatta_uids(year):
     return regattas
 
 
-def get_regattas_review_status(year):
-    pool = get_pool()
-    with pool.connection() as conn, conn.cursor() as cursor:
+def get_regattas_review_status(year, cursor=None):
+    with get_cursor(cursor) as cursor:
         cursor.execute(
             """
             select regatta.id as regatta_id, scrape_id, uid, year,  date, name, status, comment, distance, correction.id as correction_id, rp.parent_id
@@ -343,10 +393,9 @@ def get_regattas_review_status(year):
     return sorted(regattas.values(), key=lambda x: x[0]["date"])
 
 
-def get_regatta_for_review(regatta_uid):
-    print(regatta_uid)
-    pool = get_pool()
-    with pool.connection() as conn, conn.cursor() as cursor:
+def get_regatta_for_review(regatta_uid, cursor=None):
+    logger.info(regatta_uid)
+    with get_cursor(cursor) as cursor:
         cursor.execute(
             """
             with relevant_regattas as (
@@ -429,9 +478,8 @@ def get_regatta_for_review(regatta_uid):
     
 
 
-def get_regatta(regatta_uid, status):
-    pool = get_pool()
-    with pool.connection() as conn, conn.cursor() as cursor:
+def get_regatta(regatta_uid, status, cursor=None):
+    with get_cursor(cursor) as cursor:
         cursor.execute(
             """
             select id
@@ -454,9 +502,8 @@ def get_regatta(regatta_uid, status):
         return regatta_ids[0], list(get_regattas_by_id(regatta_ids).values())[0]
 
 
-def get_regattas_by_id(regatta_ids):
-    pool = get_pool()
-    with pool.connection() as conn, conn.cursor() as cursor:
+def get_regattas_by_id(regatta_ids, cursor=None):
+    with get_cursor(cursor) as cursor:
         cursor.execute(
             """
             select
@@ -548,12 +595,11 @@ def insert_corrections():
                     details=Jsonb(correction["corrections"]),
                     checksum=correction["checksum"]
                 ))
-                print("Inserted", correction)
+                logger.info("Inserted", correction)
 
 
-def update_correction(uid, details, checksum):
-    pool = get_pool()
-    with pool.connection() as conn, conn.cursor() as cursor:
+def update_correction(uid, details, checksum, cursor=None):
+    with get_cursor(cursor) as cursor:
         cursor.execute(
         """
         insert into neira.corrections
@@ -568,9 +614,8 @@ def update_correction(uid, details, checksum):
         ))
 
 
-def lookup_checksum(regatta_id):
-    pool = get_pool()
-    with pool.connection() as conn, conn.cursor() as cursor:
+def lookup_checksum(regatta_id, cursor=None):
+    with get_cursor(cursor) as cursor:
         cursor.execute(
             """
             select checksum
@@ -582,8 +627,23 @@ def lookup_checksum(regatta_id):
         return cursor.fetchone()[0]
 
 
+def insert_job(job_type, args, cursor=None):
+    with get_cursor(cursor) as cursor:
+        cursor.execute(
+        """
+        insert into neira.jobs
+        (status, job_type, arguments)
+        values
+        ('pending', %(job_type)s, %(arguments)s);
+        """,
+        dict(
+            job_type=job_type,
+            arguments=Jsonb(args)
+        ))
+
+
 if __name__ == '__main__':
-    # print(get_regatta("0B5A12BEAF8945DD81EB9EFB206E62F1", status="2_cleaned"))
+    # logger.info(get_regatta("0B5A12BEAF8945DD81EB9EFB206E62F1", status="2_cleaned"))
     insert_corrections()
     # main()
 
