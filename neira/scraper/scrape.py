@@ -1,24 +1,72 @@
+import datetime
 from bs4 import BeautifulSoup
 
 
-def scrapeRegatta(name, html):
-    """
-    Given the name of the regatta (From the list of regattas) and the link to the row2k page for that regatta,
-    return an object representing the important information in that page.
-    TODO: Make a class representing the contents of a page
-    """
+def scrape_cat_1(name, html, url):
+    name = name.strip()
+
+    # Open the url
+    soup = BeautifulSoup(html, features="html.parser")
+    
+    date, comment = scrape_regatta_metadata(soup)
+
+    heats = []
+    for result_block in soup.findAll(True, {"class": ["results-block"]}):
+        scrape_result_block(result_block, heats)
+
+    scraped = {
+        "date": date,
+        "name": name,
+        "date": date,
+        "comment": comment,
+        "url": url,
+        "heats": heats,
+    }
+
+    return scraped
+
+
+def scrape_cat_5(name, html, url):
     name = name.strip()
 
     # Open the url
     soup = BeautifulSoup(html, features="html.parser")
 
+    date, comment = scrape_regatta_metadata(soup)
+
+    span_name_to_gender = {
+        "Men's Racing": "boys",
+        "Women's Racing": "girls",
+    }
+
+    gender = None
+    heats = []
+    for result_block in soup.findAll(True, {"class": ["results-block", "midhead2"]}):
+        if result_block.name == "span":
+            gender = span_name_to_gender.get(result_block.text)
+        else:
+            scrape_result_block(result_block, heats, gender=gender)
+
+    scraped = {
+        "date": date,
+        "name": name,
+        "date": date,
+        "comment": comment,
+        "url": url,
+        "heats": heats,
+    }
+
+    return scraped
+
+
+def scrape_regatta_metadata(soup):
     # Get the title of the page
     try:
         title = soup.findAll("meta", {"name": "description"})[0]["content"]
         date = ",".join(title.split("-")[-2].split(",")[-2:]).strip()
     except Exception as e:
         date = " ".join(
-            (soup.findAll("title")[0].text.split("2024")[0] + "2024").split()[-3:]
+            (soup.findAll("title")[0].text.split("2025")[0] + "2025").split()[-3:]
         ).strip()
 
     # Get the comment for the day
@@ -31,40 +79,42 @@ def scrapeRegatta(name, html):
     if comment == None:
         comment = ""
 
-    spans = []
-    heats = []
-    for result_block in soup.findAll(True, {"class": ["results-block", "midhead2"]}):
-        if result_block.name == "span":
-            heats = []
-            spans.append({"name": result_block.text, "heats": heats})
-            continue
-        elif not spans:
-            spans.append({"name": None, "heats": heats})
+    date = clean_date(date)
 
-        heat = result_block.findAll("tr", {"align": "center"})[0].text.strip()
+    return date, comment.strip()
 
-        school_times = []
-        for school_time in result_block.findAll("tr")[1:]:
-            school_time = school_time.findAll("td")
-            rawschool = school_time[0].text.encode("utf-8").strip().decode()
-            if rawschool == "":
-                continue
-            time = school_time[1].text.encode("utf-8").strip().decode()
-            school_times.append({"school": rawschool, "time": time})
+def scrape_result_block(result_block, heats, gender=None):
+    heat = result_block.findAll("tr", {"align": "center"})[0].text.strip()
 
-        heats.append(
-            {
-                "heat": heat,
-                "school_times": school_times,
-            }
-        )
-
-    scraped = {
-        "spans": spans,
-        "date": date,
-        "name": name,
-        "date": date,
-        "comment": comment,
+    varsity_indexes = {
+        "First Boat": "1",
+        "Second Boat": "2",
+        "Third Boat": "3",
+        "Fourth Boat": "4",
+        "Fifth Boat": "5",
+        "Sixth Boat": "6",
     }
 
-    return scraped
+    varsity_index = varsity_indexes.get(heat.rstrip(':'))
+
+    school_times = []
+    for school_time in result_block.findAll("tr")[1:]:
+        school_time = school_time.findAll("td")
+        rawschool = school_time[0].text.encode("utf-8").strip().decode()
+        if rawschool == "":
+            continue
+        time = school_time[1].text.encode("utf-8").strip().decode()
+        school_times.append({"school": rawschool, "raw_time": time, "margin_from_winner": None, "finish_order": len(school_times) + 1})
+
+    heats.append(
+        {
+            "class": None,
+            "varsity_index": varsity_index,
+            "results": school_times,
+            "gender": gender,
+        }
+    )
+
+
+def clean_date(date):
+    return datetime.datetime.strptime(date, "%B %d, %Y").strftime("%Y-%m-%d")

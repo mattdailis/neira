@@ -24,11 +24,11 @@ def clean(scraped):
     - All dates are valid
     - No school appears in a heat twice
     """
-    race_object = {
-        "regatta_display_name": scraped["name"],
+    regatta = {
+        "date": scraped["date"],
+        "name": scraped["name"],
         "comment": scraped["comment"],
         "url": scraped["url"],
-        "day": clean_date(scraped["date"]),
     }
 
     name = scraped["name"]
@@ -57,70 +57,71 @@ def clean(scraped):
         boatSize = "fours"
 
     heats = []
-    for span in scraped["spans"]:
-        if span["name"] and "women" in span["name"].lower():
-            gender = "girls"
-        elif span["name"] and "men" in span["name"].lower():
-            gender = "boys"
-        for heat in span["heats"]:
-            (gender, boatNum, boatSize) = parseBoat(gender, boatSize, heat["heat"])
-            school_times = []
-            schools = []
-            for x in heat["school_times"]:
-                school = x["school"]
+    for heat in scraped["heats"]:
+        if heat["gender"] is not None:
+            gender = heat["gender"]
+        (gender, boatNum, boatSize) = parseBoat(gender, boatSize, "")
+        boatNum = heat["varsity_index"]
+        school_times = []
+        schools = []
+        for x in heat["results"]:
+            school = x["school"]
 
-                cleaned_school = clean_school(school, boatSize, gender)
+            cleaned_school = clean_school(school, boatSize, gender)
 
-                if cleaned_school is None or cleaned_school in schools:
-                    continue  # Skip subsequent occurrences of a school in a heat
+            if cleaned_school is None or cleaned_school in schools:
+                continue  # Skip subsequent occurrences of a school in a heat
 
-                schools.append(cleaned_school)
+            schools.append(cleaned_school)
 
-                if school_times:
-                    school_times.append(
-                        {
-                            "school": cleaned_school,
-                            "raw_time": x["time"],
-                            "margin_from_winner": get_margin(
-                                school_times[0]["raw_time"], x["time"]
-                            ),
-                        }
-                    )
-                else:
-                    school_times.append(
-                        {
-                            "school": cleaned_school,
-                            "raw_time": x["time"],
-                            "margin_from_winner": 0,
-                        }
-                    )
-
-            if len(school_times) > 1:
-                heats.append(
+            if not school_times:
+                school_times.append(
                     {
-                        "class": boatSize,
-                        "varsity_index": str(boatNum),
-                        "results": school_times,
-                        "gender": gender,
+                        "school": cleaned_school,
+                        "raw_time": x["raw_time"],
+                        "finish_order": 1,
+                        "margin_from_winner": 0,
                     }
                 )
             else:
-                print(
-                    "Skipping "
-                    + heat["heat"]
-                    + ". Not enough neira schools "
-                    + scraped["name"]
-                    + " "
-                    + scraped["url"]
-                    + "\n"
-                    + "\n".join(map(str, schools))
-                    if len(schools) > 1
-                    else ""
+                school_times.append(
+                    {
+                        "school": cleaned_school,
+                        "raw_time": x["raw_time"],
+                        "finish_order": len(school_times) + 1,
+                        "margin_from_winner": get_margin(
+                            school_times[0]["raw_time"], x["raw_time"]
+                        ),
+                    }
                 )
+                
 
-    race_object["heats"] = heats
+        if len(school_times) > 1:
+            heats.append(
+                {
+                    "class": boatSize,
+                    "varsity_index": str(boatNum),
+                    "results": school_times,
+                    "gender": gender,
+                }
+            )
+        else:
+            print(
+                "Skipping "
+                + heat["heat"]
+                + ". Not enough neira schools "
+                + scraped["name"]
+                + " "
+                + scraped["url"]
+                + "\n"
+                + "\n".join(map(str, schools))
+                if len(schools) > 1
+                else ""
+            )
 
-    return race_object
+    regatta["heats"] = heats
+
+    return regatta
 
 
 def clean_maybe(data_raw, out_dir):
@@ -136,9 +137,9 @@ def clean_maybe(data_raw, out_dir):
         with open(os.path.join(out_dir, prefix + "-meta.json"), "w") as f:
             json.dump(
                 {
+                    "date": race["day"],
+                    "name": race["name"],
                     "comment": race["comment"],
-                    "date": clean_date(race["day"]),
-                    "regatta_display_name": race["regatta_display_name"],
                     "url": race["url"],
                 },
                 f,
@@ -152,7 +153,9 @@ def clean_maybe(data_raw, out_dir):
                 contents.append(
                     {
                         "school": clean_school(result["school"]),
-                        "time": clean_time(result["time"]),
+                        "time": clean_time(result["raw_time"]),
+                        "finish_order": result["finish_order"],
+                        "margin_from_winner": None,
                     }
                 )
 
@@ -202,9 +205,6 @@ def clean_class(class_):
         raise Exception("Unrecognized class: " + class_)
     return class_
 
-
-def clean_date(date):
-    return datetime.datetime.strptime(date, "%B %d, %Y").strftime("%Y-%m-%d")
 
 
 # string to date object

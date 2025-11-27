@@ -1,4 +1,5 @@
 import re
+from typing import Tuple
 from bs4 import BeautifulSoup
 import requests
 
@@ -16,22 +17,22 @@ def download_one(name_uid_url):
 
 
 # Returns a list of urls
-def get_race_urls(year):
-    res_url = "https://www.row2k.com"
-    res_html = requests.get(
-        res_url + f"/results/index.cfm?league=NEIRA&year={year}"
+def get_race_urls(year) -> Tuple[str, str, str]:
+    base_url = "https://www.row2k.com"
+    html = requests.get(
+        base_url + f"/results/index.cfm?league=NEIRA&year={year}"
     ).text
     urls = []
-    soup = BeautifulSoup(res_html, features="html.parser")
+    soup = BeautifulSoup(html, features="html.parser")
     highschool = soup.findChildren("span", string="High School/Scholastic")
     for bulletList in highschool:
         links = bulletList.parent.parent.find_all("a")
         for link in links:
             if link.get("href").startswith("/results"):
-                raceName = link.text.encode("utf-8").decode()
+                regatta_name = link.text.encode("utf-8").decode()
                 url = link.get("href").encode("utf-8").decode()
                 uid = re.match(r".*UID=([0-9|A-Z]+)", url, re.M | re.I).group(1)
-                urls.append((raceName, uid, res_url + url))
+                urls.append((regatta_name, uid, base_url + url))
             else:
                 print((link.get("href"), "could not be scraped"))
     return urls

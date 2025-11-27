@@ -56,7 +56,7 @@ def review(data_dir):
             race_object = json.loads(file_contents)
             checksum = hashlib.md5(file_contents.encode()).hexdigest()
 
-        print(race_object["regatta_display_name"])
+        print(race_object["name"])
         print(race_object["url"])
         print(os.path.join(data_dir, filename))
 
