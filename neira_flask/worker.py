@@ -173,6 +173,9 @@ def listen_for_jobs():
                                     logger.info(f"No handler defined for job_type: {job_type}")
                             except Exception as e:
                                 logger.error(f"Error processing notification: {e}", exc_info=True)
+                            if not logged_waiting:
+                                logger.info("waiting...")
+                            logged_waiting = True
 
         except psycopg.OperationalError as e:
             if running:
