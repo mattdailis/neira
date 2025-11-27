@@ -90,7 +90,6 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
             logger.info(f"Skipping inserting regatta with uid={uid}, status={status}, checksum={regatta_checksum}")
             skip_insert = True
             regatta_id = regatta_id
-            return # If result is non-empty, do not insert
 
         if not skip_insert:
             cursor.execute(
