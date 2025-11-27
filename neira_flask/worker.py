@@ -71,7 +71,7 @@ def fetch_and_process_job(job_id):
                 SET status = 'processing',
                     started_at = NOW()
                 WHERE id = %s
-                --AND status = 'pending'
+                AND status = 'pending'
                 returning id, job_type, arguments;
             """, (job_id,))
             logger.info("fetch_and_process_job 2")
