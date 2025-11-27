@@ -41,8 +41,6 @@ def get_cursor(cursor):
         with get_pool().connection() as conn, conn.cursor() as cursor:
             yield cursor
 
-    
-
 
 def main():
     datadir = "/Users/dailis/neiraseeding/neira/data/1_parsed"
@@ -72,8 +70,10 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
             """
             select regatta.id
             from neira.regattas regatta
+            join neira.regatta_statuses rstatus
+            on regatta.id = rstatus.regatta_id
             join neira.regatta_checksums checksum on regatta.id = checksum.regatta_id
-            where regatta.status = %(status)s
+            where rstatus.status = %(status)s
             and checksum.checksum = %(regatta_checksum)s
             and checksum.checksum_version = %(checksum_version)s
             """,
@@ -251,9 +251,11 @@ def get_heats(year, class_, gender, varsity_index, cursor=None):
             with relevant_regattas as (
                 select distinct on (uid) id
                 from neira.regattas regatta
+                join neira.regatta_statuses rstatus
+                on regatta.id = rstatus.regatta_id
                 where regatta.year = %(year)s
-                and regatta.status = %(status)s
-                order by uid, scrape_id desc
+                and rstatus.status = %(status)s
+                order by uid, rstatus.scrape_id desc
             )
 
             select
@@ -351,13 +353,15 @@ def get_regattas_review_status(year, cursor=None):
     with get_cursor(cursor) as cursor:
         cursor.execute(
             """
-            select regatta.id as regatta_id, scrape_id, uid, year,  date, name, status, comment, distance, correction.id as correction_id, rp.parent_id
+            select regatta.id as regatta_id, rstatus.scrape_id, uid, year,  date, name, rstatus.status, comment, distance, correction.id as correction_id, rp.parent_id
             from neira.regattas regatta
+            join neira.regatta_statuses rstatus
+            on regatta.id = rstatus.regatta_id
             left join neira.regatta_parents rp on regatta.id = rp.child_id
             left join neira.regatta_checksums checksum on regatta.id = checksum.regatta_id
             left join neira.corrections correction on regatta.uid = correction.regatta_uid and checksum.checksum = correction.checksum
             where year=%(year)s
-            order by scrape_id
+            order by rstatus.scrape_id
             """,
             dict(
                 year=year
@@ -399,14 +403,16 @@ def get_regatta_for_review(regatta_uid, cursor=None):
         cursor.execute(
             """
             with relevant_regattas as (
-              select distinct on (status) id
-              from neira.regattas regatta
-              where uid = %(regatta_uid)s
-              order by status, scrape_id desc
+                select distinct on (rstatus.status) id
+                from neira.regattas regatta
+                join neira.regatta_statuses rstatus
+                on regatta.id = rstatus.regatta_id
+                where regatta.uid = %(regatta_uid)s
+                order by rstatus.status, rstatus.scrape_id desc
             )
             select
                 regatta.id as regatta_id,
-                regatta.status as status,
+                rstatus.status as status,
                 regatta.name,
                 regatta.date,
                 regatta.distance,
@@ -414,6 +420,8 @@ def get_regatta_for_review(regatta_uid, cursor=None):
                 regatta.url,
                 regatta_parent.parent_id
             from neira.regattas regatta
+            join neira.regatta_statuses rstatus
+            on regatta.id = rstatus.regatta_id
             left join neira.regatta_parents regatta_parent on regatta.id = regatta_parent.child_id
             where regatta.id in (select id from relevant_regattas)
             """,
@@ -484,9 +492,11 @@ def get_regatta(regatta_uid, status, cursor=None):
             """
             select id
             from neira.regattas regatta
-            where regatta.status = %(status)s
+            join neira.regatta_statuses rstatus
+            on regatta.id = rstatus.regatta_id
+            where rstatus.status = %(status)s
             and regatta.uid = %(regatta_uid)s
-            order by scrape_id desc
+            order by rstatus.scrape_id desc
             limit 1
             """,
             dict(
@@ -508,13 +518,15 @@ def get_regattas_by_id(regatta_ids, cursor=None):
             """
             select
                 regatta.id as regatta_id,
-                regatta.status as status,
+                rstatus.status as status,
                 regatta.name,
                 regatta.date,
                 regatta.distance,
                 regatta.comment,
                 regatta.url
             from neira.regattas regatta
+            join neira.regatta_statuses rstatus
+            on regatta.id = rstatus.regatta_id
             where regatta.id = any(%(regatta_ids)s);
             """,
             dict(
