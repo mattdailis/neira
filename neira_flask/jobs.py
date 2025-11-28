@@ -5,7 +5,7 @@ from neira_flask import db
 
 import neira.scraper.download
 import neira.scraper.scrape
-from neira_flask.checksum import compute_checksum
+from neira_flask.apply_corrections import apply_corrections_single
 
 logger = logging.getLogger(__name__)
 
@@ -24,11 +24,7 @@ def download_regatta(args):
     else:
         raise Exception("Unhandled cat: " + downloaded["url"])
 
-    # checksum_version, regatta_checksum = compute_checksum(scraped)
-    # Compute checksum of parsed result
-    with db.get_pool().connection() as conn, conn.cursor() as cursor:
-        cursor.execute("select trunc(extract(epoch from now() )* 1000);")
-        scrape_id = int(cursor.fetchone()[0])
+    scrape_id = db.get_scrape_id()
 
     db.write_regatta(args["uid"], scraped, "1_parsed", scrape_id)  # Will skip if checksum matches
 
@@ -39,11 +35,30 @@ def download_regatta(args):
 
 def create_download_regatta_jobs():
     for regatta_name, uid, url in neira.scraper.download.get_race_urls(2025):
-        if not "7FE2290879E1C3151B93CD8FCA2A71D5" in url:
-            continue
         args = "download_regatta", {"url": url, "name": regatta_name, "uid": uid}
-        print("inserting", args)
+        logger.info("inserting", args)
         db.insert_job(*args)
+
+
+def apply_corrections(args):
+    uid = args["uid"]
+    correction_id = args["correction_id"]
+
+    scrape_id = db.get_scrape_id()
+
+    corrections = db.get_corrections_by_id(correction_id)[0]
+
+    parent_regatta_id, regatta = db.get_regatta(uid, status="2_cleaned")
+    if regatta is None:
+        logger.error("Could not apply corrections to " + uid)
+        return
+    apply_corrections_single(regatta, corrections["corrections"])
+    for heat in regatta["heats"]:
+        if heat["gender"] not in ("boys", "girls"):
+            raise Exception("Unrecognized gender: " + str(heat["gender"]))
+        if heat["class"] not in ("eights", "fours"):
+            raise Exception("Unrecognized boat class: " + str(heat["class"]))
+    db.write_regatta(uid, regatta, status="3_reviewed", scrape_id=scrape_id, parent_id=parent_regatta_id, producer="apply_corrections", correction_id=corrections["correction_id"])
 
 
 if __name__ == "__main__":

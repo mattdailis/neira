@@ -2,24 +2,23 @@ from neira_flask import db
 
 
 def apply_corrections():
-    with db.get_pool().connection() as conn, conn.cursor() as cursor:
-        cursor.execute("select trunc(extract(epoch from now() )* 1000);")
-        scrape_id = int(cursor.fetchone()[0])
-    
-    all_corrections = db.get_corrections()
-    for uid, corrections in all_corrections.items():
-        parent_regatta_id, regatta = db.get_regatta(uid, status="2_cleaned")
-        print(uid, corrections)
-        if regatta is None:
-            print("Could not apply corrections to " + uid)
-            continue
-        apply_corrections_single(regatta, corrections["corrections"])
-        for heat in regatta["heats"]:
-            if heat["gender"] not in ("boys", "girls"):
-                raise Exception("Unrecognized gender: " + str(heat["gender"]))
-            if heat["class"] not in ("eights", "fours"):
-                raise Exception("Unrecognized boat class: " + str(heat["class"]))
-        db.write_regatta(uid, regatta, status="3_reviewed", scrape_id=scrape_id, parent_id=parent_regatta_id, producer="apply_corrections", correction_id=corrections["correction_id"])
+    with db.get_cursor(cursor=None) as cursor:
+        scrape_id = db.get_scrape_id(cursor=cursor)
+        
+        all_corrections = db.get_corrections(cursor=cursor)
+        for uid, corrections in all_corrections.items():
+            parent_regatta_id, regatta = db.get_regatta(uid, status="2_cleaned", cursor=cursor)
+            print(uid, corrections)
+            if regatta is None:
+                print("Could not apply corrections to " + uid)
+                continue
+            apply_corrections_single(regatta, corrections["corrections"])
+            for heat in regatta["heats"]:
+                if heat["gender"] not in ("boys", "girls"):
+                    raise Exception("Unrecognized gender: " + str(heat["gender"]))
+                if heat["class"] not in ("eights", "fours"):
+                    raise Exception("Unrecognized boat class: " + str(heat["class"]))
+            db.write_regatta(uid, regatta, status="3_reviewed", scrape_id=scrape_id, parent_id=parent_regatta_id, producer="apply_corrections", correction_id=corrections["correction_id"], cursor=cursor)
 
 
 def ignore_heats(regatta, correction):

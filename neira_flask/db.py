@@ -29,7 +29,7 @@ signal.signal(signal.SIGTERM, kill_handler)
 def get_pool():
     global _pool
     if _pool is None:
-        _pool = ConnectionPool(os.environ['DATABASE_URL'])
+        _pool = ConnectionPool(os.environ['DATABASE_URL'], min_size=2, max_size=2)
     return _pool
 
 
@@ -45,10 +45,8 @@ def get_cursor(cursor):
 def main():
     datadir = "/Users/dailis/neiraseeding/neira/data/1_parsed"
     status = "1_parsed"
-    pool = get_pool()
-    with pool.connection() as conn, conn.cursor() as cursor:
-        cursor.execute("select trunc(extract(epoch from now() )* 1000);")
-        scrape_id = int(cursor.fetchone()[0])
+
+    scrape_id = get_scrape_id()
 
     logger.info(f"{scrape_id=}")
     for json_file in os.listdir(datadir):
@@ -317,6 +315,27 @@ def get_corrections(cursor=None):
             from neira.corrections
             order by regatta_uid, id desc
             """
+        )
+        corrections = {}
+        for regatta_uid, correction_id, details, checksum in cursor:
+            corrections[regatta_uid] = {
+                "correction_id": correction_id,
+                "checksum": checksum,
+                "corrections": details
+            }
+    return corrections
+
+def get_corrections_by_id(cursor=None):
+    with get_cursor(cursor) as cursor:
+        cursor.execute(
+            """
+            select regatta_uid, id, details, checksum
+            from neira.corrections
+            where id = %(correction_id)s
+            """,
+            dict(
+                correction_id=correction_id
+            )
         )
         corrections = {}
         for regatta_uid, correction_id, details, checksum in cursor:
@@ -651,6 +670,12 @@ def insert_job(job_type, args, cursor=None):
             job_type=job_type,
             arguments=Jsonb(args)
         ))
+
+
+def get_scrape_id(cursor=None):
+    with get_cursor(cursor) as cursor:
+        cursor.execute("select trunc(extract(epoch from now() )* 1000);")
+        return int(cursor.fetchone()[0])
 
 
 if __name__ == '__main__':

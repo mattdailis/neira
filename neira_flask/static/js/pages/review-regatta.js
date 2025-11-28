@@ -261,6 +261,13 @@ function renderCorrections() {
   addButton.className = 'btn-primary';
   addButton.onclick = () => openCorrectionModal();
   correctionsContainer.appendChild(addButton);
+
+  // Add "Apply Corrections" button
+  const applyButton = document.createElement('button');
+  applyButton.textContent = 'Apply Corrections';
+  applyButton.className = 'btn-primary';
+  applyButton.onclick = () => alert("Apply Corrections");
+  correctionsContainer.appendChild(applyButton);
 }
 
 function editCorrection(index, correction) {
