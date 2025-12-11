@@ -20,7 +20,7 @@ Data is updated following this process:
 1. Download data from row2k. This saves data in a local `data/0_raw` directory
 2. Read from the `data/0_raw` directory and apply an automated cleaning process. This matches the schools in the data with known schools in NEIRA, and determines genders and classes if it can.
 3. Guide a human reviewer through reviewing and correcting the cleaned data. This is an interactive process run by the `review.py` script.
-4. Apply the corrections to `data/1_cleaned`, and produce data in `data/2_reviewed`.
+4. Apply the corrections to `data/2_cleaned`, and produce data in `data/3_reviewed`.
 5. Run any analyses that depend on this data, and save their output to `neira_ui/static`, where it can be included in the website.
 
 Here are the commands needed for the above process. See the Corrections documentation for help with the review process.
@@ -30,7 +30,7 @@ neira scrape --refresh
 neira review
 neira apply-corrections
 
-neira dot data/2_reviewed neira_ui/static/dot
+neira dot data/3_reviewed neira_ui/static/dot
 
 neira head-to-head neira_ui/static/tables
 
@@ -56,7 +56,7 @@ For example, when the results on row2k are `[* corrected *]`, the script will di
 D6D52D54154A8C5187F60A8C03258D60 has changed since it was last reviewed
 NEIRA Boys Eights, Koshivos Cup
 https://www.row2k.com/results/resultspage.cfm?UID=D6D52D54154A8C5187F60A8C03258D60&cat=1
-data/1_cleaned/D6D52D54154A8C5187F60A8C03258D60.json
+data/2_cleaned/D6D52D54154A8C5187F60A8C03258D60.json
 Press Enter to edit corrections...
 ```
 

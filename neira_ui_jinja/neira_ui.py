@@ -48,12 +48,12 @@ def build():
     years = {
         "2024": {
             "template": 'index.jinja2',
-            "reviewed_data": "/Users/dailis/neira/data-2024/2_reviewed",
+            "reviewed_data": "/Users/dailis/neira/data-2024/3_reviewed",
             "dot": DOT_DIRECTORY,
         },
         "2025": {
             "template": 'index.jinja2',
-            "reviewed_data": "/Users/dailis/neira/data/2_reviewed",
+            "reviewed_data": "/Users/dailis/neira/data/3_reviewed",
             "dot": None
         },
     }

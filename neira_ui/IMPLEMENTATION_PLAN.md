@@ -319,7 +319,7 @@ Modify commands to output to `neira_ui/static` instead of `neira_ui_svelte/stati
 
 ```python
 # neira/main.py
-neira dot data/2_reviewed neira_ui/static/dot
+neira dot data/3_reviewed neira_ui/static/dot
 neira head-to-head neira_ui/static/tables
 ```
 

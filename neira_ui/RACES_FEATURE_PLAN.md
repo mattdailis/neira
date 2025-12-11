@@ -28,7 +28,7 @@ The `neira_ui_jinja` version generates:
 **Create:** `js/utils/race-data.js`
 
 ```javascript
-// Fetch and parse race data from data/2_reviewed/
+// Fetch and parse race data from data/3_reviewed/
 async function loadRaceData() {
   // Returns structure:
   // {
@@ -41,11 +41,11 @@ async function loadRaceData() {
 }
 
 async function loadRaceDetail(raceId) {
-  // Fetch specific race JSON: /data/2_reviewed/{raceId}.json
+  // Fetch specific race JSON: /data/3_reviewed/{raceId}.json
 }
 ```
 
-**Challenge:** The Python script reads from `data/2_reviewed/` which isn't in `static/`. We need to either:
+**Challenge:** The Python script reads from `data/3_reviewed/` which isn't in `static/`. We need to either:
 - **Option 1:** Copy reviewed data to `static/data/` during build
 - **Option 2:** Generate JSON index files during Python build
 - **Option 3:** Have Python generate the HTML (not pure web components)
@@ -158,7 +158,7 @@ Keep the direct dot links as secondary:
 ### Option 2: Pure Client-Side (No Python Changes)
 
 **Fetch all race JSONs:**
-- Read `static/data/2_reviewed/` directory listing (if available)
+- Read `static/data/3_reviewed/` directory listing (if available)
 - Or: Create a simple `races-index.json` by hand once
 
 **Pros:**
@@ -191,7 +191,7 @@ Keep using Python to generate full HTML, but:
    # In neira/main.py or new command
    @cli.command()
    def generate_ui_data():
-       # Read from data/2_reviewed
+       # Read from data/3_reviewed
        # Generate static/data/races-manifest.json
    ```
 

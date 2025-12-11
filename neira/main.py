@@ -15,7 +15,7 @@ import os
 import click
 
 from neira.scraper.download import download_all
-from neira.scraper.scrape import scrapeRegatta
+from neira.scraper.scrape import scrape_cat_1, scrape_cat_5
 
 from difflib import unified_diff
 
@@ -43,11 +43,14 @@ def scrape(refresh=False):
     global CONFIG
     out_dir = CONFIG["cleaned_dir"]
     raw_cache = CONFIG.get("raw_dir", None)
+    parsed_dir = CONFIG.get("parsed_dir")
 
     OVERWRITE = True
 
+    year = 2025
+
     if refresh and raw_cache:
-        for downloaded in download_all(2025):
+        for downloaded in download_all(year):
             print("Downloading " + downloaded["uid"])
             with open(
                 os.path.join(raw_cache, downloaded["uid"] + "-raw.json"), "w"
@@ -57,31 +60,40 @@ def scrape(refresh=False):
     if raw_cache:
         iterator = read_from_cache(raw_cache)
     else:
-        iterator = download_all(2025)
+        iterator = download_all(year)
 
     for downloaded in iterator:
-        scraped_filename = os.path.join(
-            out_dir, "{}-scraped.json".format(downloaded["uid"])
-        )
+        parsed_filename = os.path.join(parsed_dir, "{}.json".format(downloaded["uid"]))
         cleaned_filename = os.path.join(out_dir, "{}.json".format(downloaded["uid"]))
         if OVERWRITE or not os.path.isfile(cleaned_filename):
             # print(f"Scraping: {downloaded['name']}")
-            scraped = scrapeRegatta(downloaded["name"], downloaded["html"])
+
+            if downloaded["url"].endswith("cat=1"):
+                scraped = scrape_cat_1(downloaded["name"], downloaded["html"], downloaded["url"], year)
+            elif downloaded["url"].endswith("cat=5"):
+                scraped = scrape_cat_5(downloaded["name"], downloaded["html"], downloaded["url"])
+            else:
+                raise Exception("Unhandled cat: " + downloaded["url"])
+                scraped = scrape_regatta(downloaded["name"], downloaded["html"])
+
+            with open(parsed_filename, "w") as f:
+                json.dump(scraped, f, indent=4, sort_keys=True)
+
             scraped["url"] = downloaded["url"]
             # with open(scraped_filename, "w") as f:
             #     f.write(json.dumps(scraped, sort_keys=True, indent=4))
 
-            race_object = clean.clean(scraped)
+            regatta = clean.clean(scraped)
 
-            if not race_object["heats"]:
+            if not regatta["heats"]:
                 print(
                     "No heats in "
-                    + race_object["regatta_display_name"]
+                    + regatta["name"]
                     + " "
-                    + race_object["url"]
+                    + regatta["url"]
                 )
 
-            new_text = json.dumps(race_object, sort_keys=True, indent=4)
+            new_text = json.dumps(regatta, sort_keys=True, indent=4)
 
             if os.path.exists(cleaned_filename):
                 with open(cleaned_filename, "r") as f:
@@ -91,7 +103,7 @@ def scrape(refresh=False):
                     for line in diff:
                         print(line)
             with open(cleaned_filename, "w") as f:
-                json.dump(race_object, f, sort_keys=True, indent=4)
+                json.dump(regatta, f, sort_keys=True, indent=4)
         # else:
         #     print(f"Already scraped {downloaded['name']}")
 

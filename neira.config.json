@@ -1,7 +1,8 @@
 {
     "raw_dir": "data/0_raw",
-    "cleaned_dir": "data/1_cleaned",
-    "reviewed_dir": "data/2_reviewed",
+    "parsed_dir": "data/1_parsed",
+    "cleaned_dir": "data/2_cleaned",
+    "reviewed_dir": "data/3_reviewed",
     "corrections_file": "corrections.json",
     "rankings": {
         "fours-girls-1": "ranking-fours-girls-1.json",

@@ -5,7 +5,7 @@
 
 import { router } from '../utils/router.js';
 
-import { login, logout, foo } from '../utils/auth.js';
+import { login, logout, foo, auth0Client } from '../utils/auth.js';
 // document.getElementById('login-button').addEventListener('click', login);
 // document.getElementById('logout-button').addEventListener('click', logout);
 // document.getElementById('api-test').addEventListener('click', foo);
@@ -15,6 +15,7 @@ console.log('Home page loaded');
 
 const regatta_uid = router.getParam('uid');
 let currentCorrections = [];
+let currentChecksum = '';
 
 async function init() {
   const response = await fetch(router.buildUrl(`api/review-regatta?uid=${regatta_uid}`));
@@ -23,6 +24,13 @@ async function init() {
   }
 
   const responseJson = await response.json();
+
+  // Use 2_cleaned checksum if available, otherwise 1_parsed
+  if (responseJson.checksums?.['2_cleaned']) {
+    currentChecksum = responseJson.checksums['2_cleaned'][1];
+  } else if (responseJson.checksums?.['1_parsed']) {
+    currentChecksum = responseJson.checksums['1_parsed'][1];
+  }
 
   document.getElementById("row2k-link").href = responseJson["regatta"]["1_parsed"]["url"];
   console.log(responseJson["regatta"]["1_parsed"]["url"]);
@@ -60,39 +68,47 @@ function createHeatRow(parsedHeat, cleanedHeat, reviewedHeat) {
   const clone = template.content.cloneNode(true);
 
   // Set heat name
-  let heatName = "";
-  if (reviewedHeat) {
-    heatName = `${reviewedHeat.gender} ${reviewedHeat.class} ${reviewedHeat.varsity_index}`;
-  } else if (cleanedHeat) {
-    heatName = `${cleanedHeat.gender} ${cleanedHeat.class} ${cleanedHeat.varsity_index}`;
-  } else {
-    heatName = `${parsedHeat.gender} ${parsedHeat.class} ${parsedHeat.varsity_index}`;
-  }
-  clone.querySelector('.heat-name-cell').textContent = heatName;
+  // let heatName = "";
+  // if (reviewedHeat) {
+  //   heatName = `${reviewedHeat.gender} ${reviewedHeat.class} ${reviewedHeat.varsity_index}`;
+  // } else if (cleanedHeat) {
+  //   heatName = `${cleanedHeat.gender} ${cleanedHeat.class} ${cleanedHeat.varsity_index}`;
+  // } else {
+  //   heatName = `${parsedHeat.gender} ${parsedHeat.class} ${parsedHeat.varsity_index}`;
+  // }
+  // clone.querySelector('.heat-name-cell').textContent = heatName;
 
-  // Populate parsed column
-  const parsedTable = clone.querySelector('.parsed-cell .results-table');
-  populateResultsTable(parsedTable, parsedHeat);
-
-  // Populate cleaned column
-  const cleanedTable = clone.querySelector('.cleaned-cell .results-table');
-  if (cleanedTable) {
-    populateResultsTable(cleanedTable, cleanedHeat);
-  } else {
-    cleanedTable.textContent = '(not present)';
-    cleanedTable.style.color = '#999';
+  {
+    let cell = clone.querySelector(`.parsed-cell`);
+    let table = clone.querySelector(`.parsed-cell .results-table`);
+    createHeatCell(cell, table, parsedHeat);
   }
 
-  // Populate reviewed column
-  const reviewedTable = clone.querySelector('.reviewed-cell .results-table');
-  if (reviewedHeat) {
-    populateResultsTable(reviewedTable, reviewedHeat);
-  } else {
-    reviewedTable.textContent = '(not present)';
-    reviewedTable.style.color = '#999';
+  {
+    let cell = clone.querySelector(`.cleaned-cell`);
+    let table = clone.querySelector(`.cleaned-cell .results-table`);
+    createHeatCell(cell, table, cleanedHeat);
   }
 
+  {
+    let cell = clone.querySelector(`.reviewed-cell`);
+    let table = clone.querySelector(`.reviewed-cell .results-table`);
+    createHeatCell(cell, table, reviewedHeat);
+  }
   return clone;
+}
+
+function createHeatCell(cell, table, heat) {
+  const cellHeader = document.createElement('b');
+  
+  if (heat) {
+    cellHeader.textContent = `${heat?.gender} ${heat?.class} ${heat?.varsity_index}`;
+    cell.insertBefore(cellHeader, table);
+    populateResultsTable(table, heat);
+  } else {
+    table.textContent = '(not present)';
+    table.style.color = '#999';
+  }
 }
 
 /**
@@ -139,7 +155,7 @@ function createCorrection(correction, index) {
   const editBtn = document.createElement('button');
   editBtn.textContent = 'Edit';
   editBtn.className = 'btn-small';
-  editBtn.onclick = () => editCorrection(index, correction);
+  editBtn.onclick = () => openCorrectionModal(index, correction);
 
   const deleteBtn = document.createElement('button');
   deleteBtn.textContent = 'Delete';
@@ -270,21 +286,41 @@ function renderCorrections() {
   correctionsContainer.appendChild(applyButton);
 }
 
-function editCorrection(index, correction) {
-  openCorrectionModal(index, correction);
+async function saveCorrections() {
+  const accessToken = await auth0Client.getTokenSilently();
+  return fetch(router.buildUrl("/api/save-corrections"), {
+    method: "POST",
+    headers: {
+      "Authorization": 'Bearer ' + accessToken,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      "regatta_uid": regatta_uid,
+      "checksum": currentChecksum,
+      "details": currentCorrections
+    })
+  })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to save corrections: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log('Corrections saved successfully:', data);
+    })
+    .catch(error => {
+      console.error('Error saving corrections:', error);
+      alert('Failed to save corrections. Please try again.');
+    });
 }
 
 function deleteCorrection(index) {
   if (confirm('Are you sure you want to delete this correction?')) {
     currentCorrections.splice(index, 1);
     renderCorrections();
-    // TODO: Save to backend
-    console.log('Correction deleted (not yet saved to backend)');
+    saveCorrections();
   }
-}
-
-function addNewCorrection() {
-  openCorrectionModal();
 }
 
 function openCorrectionModal(index = null, correction = null) {
@@ -519,9 +555,7 @@ function saveCorrectionFromForm(form, index) {
 
   renderCorrections();
   closeModal();
-
-  // TODO: Save to backend
-  console.log('Correction saved (not yet saved to backend):', correction);
+  saveCorrections();
 }
 
 function closeModal() {

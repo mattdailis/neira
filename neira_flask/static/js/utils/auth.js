@@ -1,11 +1,11 @@
-let auth0Client = null;
+export let auth0Client = null;
 const fetchAuthConfig = () => fetch("/static/auth_config.json");
 
 export async function login() {
     await auth0Client.loginWithRedirect({
         authorizationParams: {
             redirect_uri: window.location.origin,
-            scope: 'review'
+            scope: 'edit:corrections'
         }
     });
 };

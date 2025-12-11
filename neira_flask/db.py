@@ -10,6 +10,8 @@ import atexit
 import signal
 
 from neira_flask.checksum import compute_checksum, get_checksum_version
+# from rich.traceback import install
+# install(show_locals=True)
 
 logger = logging.getLogger(__name__)
 _pool = None
@@ -34,7 +36,7 @@ def get_pool():
 
 
 @contextmanager
-def get_cursor(cursor):
+def get_cursor(cursor=None):
     if cursor is not None:
         yield cursor
     else:
@@ -93,9 +95,9 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
             cursor.execute(
                 """
                 insert into neira.regattas
-                (uid, year, date, name, comment, distance, url)
+                (uid, year, date, name, comment, distance, url, location)
                 values
-                (%(uid)s, %(year)s, %(date)s, %(name)s, %(comment)s, %(distance)s, %(url)s)
+                (%(uid)s, %(year)s, %(date)s, %(name)s, %(comment)s, %(distance)s, %(url)s, %(location)s)
                 returning id;
                 """,
                 dict(
@@ -105,7 +107,8 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
                     name=regatta["name"],
                     comment=regatta["comment"].strip(),
                     distance=None,
-                    url=regatta["url"]
+                    url=regatta["url"],
+                    location=regatta["location"],
                 ))
             regatta_id = int(cursor.fetchone()[0])
             
@@ -157,7 +160,7 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
                     from stdin
                     """) as copy:
                     for i, result in enumerate(heat["results"]):
-                        copy.write_row((heat_id, result["finish_order"], result["raw_time"], result["margin_from_winner"], school_ids[result["school"]]))
+                        copy.write_row((heat_id, result["finish_order"] if "finish_order" in result else (i + 1), result["raw_time"], result["margin_from_winner"], school_ids[result["school"]]))
                         logger.info("Inserted result %s", json.dumps(result))
 
             cursor.execute(
@@ -325,7 +328,8 @@ def get_corrections(cursor=None):
             }
     return corrections
 
-def get_corrections_by_id(cursor=None):
+def get_corrections_by_id(correction_id, cursor=None):
+    logger.info(correction_id)
     with get_cursor(cursor) as cursor:
         cursor.execute(
             """
@@ -344,7 +348,8 @@ def get_corrections_by_id(cursor=None):
                 "checksum": checksum,
                 "corrections": details
             }
-    return corrections
+        logger.info(corrections)
+        return corrections
 
 
 def get_regatta_uids(year):
@@ -436,10 +441,13 @@ def get_regatta_for_review(regatta_uid, cursor=None):
                 regatta.distance,
                 regatta.comment,
                 regatta.url,
-                regatta_parent.parent_id
+                regatta_parent.parent_id,
+                checksum.checksum
             from neira.regattas regatta
             join neira.regatta_statuses rstatus
             on regatta.id = rstatus.regatta_id
+            join neira.regatta_checksums checksum
+            on regatta.id = checksum.regatta_id
             left join neira.regatta_parents regatta_parent on regatta.id = regatta_parent.child_id
             where regatta.id in (select id from relevant_regattas)
             """,
@@ -448,7 +456,7 @@ def get_regatta_for_review(regatta_uid, cursor=None):
             )
         )
         regattas = {}
-        for regatta_id, status, name, date, distance, comment, url, parent_id in cursor:
+        for regatta_id, status, name, date, distance, comment, url, parent_id, checksum in cursor:
             regattas[regatta_id] = {
                     "status": status,
                     "comment": comment,
@@ -458,6 +466,7 @@ def get_regatta_for_review(regatta_uid, cursor=None):
                     "name": name,
                     "url": url,
                     "parent_id": parent_id,
+                    "checksum": checksum
                 }
         cursor.execute(
             """
@@ -503,6 +512,33 @@ def get_regatta_for_review(regatta_uid, cursor=None):
         return res
     
 
+def get_regatta_by_checksum(regatta_uid, checksum, cursor=None):
+    logger.info("get_regatta_by_checksum(%s, %s)", regatta_uid, checksum)
+    with get_cursor(cursor=cursor) as cursor:
+        cursor.execute(
+            """
+            select id
+            from neira.regattas regatta
+            join neira.regatta_checksums checksum
+            on regatta.id = checksum.regatta_id
+            where checksum.checksum = %(checksum)s
+            and regatta.uid = %(regatta_uid)s
+            order by regatta.id desc
+            limit 1
+            """,
+            dict(
+                regatta_uid=regatta_uid,
+                checksum=checksum,
+            )
+        )
+        regatta_ids = [x for (x,) in cursor]
+
+        if len(regatta_ids) != 1:
+            raise Exception("Expected exactly one regatta but found " + str(regatta_ids))
+        
+        return regatta_ids[0], list(get_regattas_by_id(regatta_ids).values())[0]
+
+
 
 def get_regatta(regatta_uid, status, cursor=None):
     with get_cursor(cursor) as cursor:
@@ -541,7 +577,8 @@ def get_regattas_by_id(regatta_ids, cursor=None):
                 regatta.date,
                 regatta.distance,
                 regatta.comment,
-                regatta.url
+                regatta.url,
+                regatta.location
             from neira.regattas regatta
             join neira.regatta_statuses rstatus
             on regatta.id = rstatus.regatta_id
@@ -552,7 +589,7 @@ def get_regattas_by_id(regatta_ids, cursor=None):
             )
         )
         regattas = {}
-        for regatta_id, status, name, date, distance, comment, url in cursor:
+        for regatta_id, status, name, date, distance, comment, url, location in cursor:
             regattas[regatta_id] = {
                     "status": status,
                     "comment": comment,
@@ -560,7 +597,8 @@ def get_regattas_by_id(regatta_ids, cursor=None):
                     "date": date,
                     "heats": {},
                     "name": name,
-                    "url": url
+                    "url": url,
+                    "location": location
                 }
         cursor.execute(
             """
@@ -605,27 +643,32 @@ def get_regattas_by_id(regatta_ids, cursor=None):
         return regattas
 
         
-def insert_corrections():
-    with open("corrections.json", "r") as f:
-        corrections = json.load(f)
-
-    pool = get_pool()
-    with pool.connection() as conn:
-        with conn.cursor() as cursor:
+def insert_corrections(cursor=None):
+    with get_cursor(cursor=cursor) as cursor:
+        with open("corrections.json", "r") as f:
+            corrections = json.load(f)
             for uid, correction in corrections.items():
-                cursor.execute(
-                """
-                insert into neira.corrections
-                (regatta_uid, details, checksum)
-                values
-                (%(uid)s, %(details)s, %(checksum)s);
-                """,
-                dict(
-                    uid=uid,
-                    details=Jsonb(correction["corrections"]),
-                    checksum=correction["checksum"]
-                ))
+                insert_correction_single(uid, correction["checksum"], correction["corrections"])
                 logger.info("Inserted", correction)
+
+
+def insert_correction_single(uid, checksum, details, cursor=None):
+    with get_cursor(cursor=cursor) as cursor:
+        cursor.execute(
+        """
+        insert into neira.corrections
+        (regatta_uid, details, checksum)
+        values
+        (%(uid)s, %(details)s, %(checksum)s)
+        returning id;
+        """,
+        dict(
+            uid=uid,
+            details=Jsonb(details),
+            checksum=checksum
+        ))
+        for correction_id, in cursor:
+            return correction_id
 
 
 def update_correction(uid, details, checksum, cursor=None):
@@ -677,10 +720,80 @@ def get_scrape_id(cursor=None):
         cursor.execute("select trunc(extract(epoch from now() )* 1000);")
         return int(cursor.fetchone()[0])
 
+def set_coords(cursor=None):
+    defs = """
+ Boston, MA                                          | 42.35397256001751, -71.09392979236829
+ Cambridge, MA                                       | 42.35397256001751, -71.09392979236829
+ Charles River, Auburndale, MA                       | 42.34660075551339, -71.25995897166757
+ Charles River Powerhouse                            | 42.36443115308227, -71.11654347288069
+ Charles River - Power House                         | 42.36443115308227, -71.11654347288069
+ Charles River Powerhouse Stretch - Cambridge, MA    | 42.36443115308227, -71.11654347288069
+ Concord River, Billerica, MA                        | 42.55710662715271, -71.28233193253637
+ Connecticut River (25 Jones Ferry Road Holyoke, MA) | 42.1721548388209, -72.63092108799832
+ Connecticut River, Gill MA                          | 42.64613269047004, -72.4758913623132
+ Cos Cob Harbor, Greenwich, CT                       | 41.02844293088989, -73.59523659193667
+ Farmington, CT                                      | 41.742383808137106, -72.8633175680925
+ Farmington River, Farmington CT                     | 41.742383808137106, -72.8633175680925
+ Hanover, NH                                         | 43.738601938783134, -72.25169536687028
+ Hooksett, NH                                        | 43.08100387932582, -71.4665797840369
+ Housatonic River                                    | ???
+ Kent CT                                             | 41.7110681825339, -73.48776651415368
+ Lake Chebacco, Essex, MA                            | 42.609294277238746, -70.81040129476798
+ Lake Cochichewick                                   | 42.70404698589618, -71.09626683844864
+ Lake Pocotopaug, East Hampton, CT                   | 41.59596954476194, -72.50109433863295
+ Lake Quinsigamond                                   | 42.276094343474966, -71.75610320977776
+ Lake Quinsigamond, Shrewsbury MA                    | 42.276094343474966, -71.75610320977776
+ Lake Quinsigamond, Shrewsbury, MA                   | 42.276094343474966, -71.75610320977776
+ Lake Quinsigamond, Worcester, MA                    | 42.276094343474966, -71.75610320977776
+ Lake Quonnipaug                                     | 41.397762788542586, -72.69712762538448
+ Lake Quonnipaug, Guilford, Ct                       | 41.397762788542586, -72.69712762538448
+ Lake Waramaug, Connecticut                          | 41.686188896425556, -73.35179277465254
+ Lake Waramaug, CT                                   | 41.686188896425556, -73.35179277465254
+ Lake Washinee, Salisbury, CT                        | 42.02577600947489, -73.40421112926074
+ Lake Wickaboag, West Brookfield, MA                 | 42.239976826738996, -72.15415594785118
+ Lake Wononpakook, CT                                | 41.93859658521218, -73.4553223799735
+ Methuen, MA                                         | 42.696981854738056, -71.22194826155892
+ Mianus River                                        | 41.03923360258101, -73.58987700926227
+ Mianus River, Greenwich, CT                         | 41.03923360258101, -73.58987700926227
+ Middletown, CT                                      | 41.55735567921841, -72.57869229552692
+ Mystic, CT                                          | 41.36503363878109, -71.96702593961498
+ Nashua River, Groton, MA                            | 42.628563639349935, -71.60756831553016
+ Power House Course, Boston                          | 42.36443115308227, -71.11654347288069
+ Quasset Lake, Woodstock, CT                         | 41.92377189487075, -71.98318677406132
+ Rogers lake                                         | 41.36449627452393, -72.30413588098156
+ Salmon Falls River, ME                              | 43.28470343333258, -70.89324606029045
+ The Powerhouse, Charles River                       | 42.36443115308227, -71.11654347288069
+ Thorndike Pond                                      | 42.862256377543595, -72.05494883363608
+ Turkey Pond, Concord NH                             | 43.17487210978318, -71.58402618140506
+ Turkey Pond, Concord, NH                            | 43.17487210978318, -71.58402618140506
+ Watuppa Pond, Fall River, MA                        | 41.69007166771546, -71.11524947094684
+    """
+
+    with get_cursor(cursor=cursor) as cursor:
+        for line in defs.strip().splitlines():
+            location, coordinates = line.split("|")
+            location = location.strip()
+            coordinates = coordinates.strip()
+            coordinates = coordinates.replace(',', '')
+            if "???" in coordinates:
+                continue
+            query = f"""
+            update neira.locations set coords=ST_GeomFromText('POINT({coordinates})', 3857) where name=%(location)s;
+            """
+            print(query, flush=True)
+            cursor.execute(query,
+            dict(
+                location=location
+            ))
+    
+
+
+
 
 if __name__ == '__main__':
     # logger.info(get_regatta("0B5A12BEAF8945DD81EB9EFB206E62F1", status="2_cleaned"))
-    insert_corrections()
+    # insert_corrections()
+    set_coords()
     # main()
 
     

@@ -16,7 +16,7 @@ def main():
 
     firebase = fb.FirebaseApplication(firebase_config["databaseURL"], None)
 
-    data_dir = "data/2_reviewed"
+    data_dir = "data/3_reviewed"
     for filename in os.listdir(data_dir):
         uid = os.path.splitext(filename)[-2]
         with open(os.path.join(data_dir, filename), "r") as f:

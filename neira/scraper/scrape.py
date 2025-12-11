@@ -2,13 +2,13 @@ import datetime
 from bs4 import BeautifulSoup
 
 
-def scrape_cat_1(name, html, url):
+def scrape_cat_1(name, html, url, year):
     name = name.strip()
 
     # Open the url
     soup = BeautifulSoup(html, features="html.parser")
     
-    date, comment = scrape_regatta_metadata(soup)
+    date, comment, location = scrape_regatta_metadata(soup, year)
 
     heats = []
     for result_block in soup.findAll(True, {"class": ["results-block"]}):
@@ -21,18 +21,19 @@ def scrape_cat_1(name, html, url):
         "comment": comment,
         "url": url,
         "heats": heats,
+        "location": location,
     }
 
     return scraped
 
 
-def scrape_cat_5(name, html, url):
+def scrape_cat_5(name, html, url, year):
     name = name.strip()
 
     # Open the url
     soup = BeautifulSoup(html, features="html.parser")
 
-    date, comment = scrape_regatta_metadata(soup)
+    date, comment, location = scrape_regatta_metadata(soup, year)
 
     span_name_to_gender = {
         "Men's Racing": "boys",
@@ -54,19 +55,20 @@ def scrape_cat_5(name, html, url):
         "comment": comment,
         "url": url,
         "heats": heats,
+        "location": location
     }
 
     return scraped
 
 
-def scrape_regatta_metadata(soup):
+def scrape_regatta_metadata(soup, year):
     # Get the title of the page
     try:
         title = soup.findAll("meta", {"name": "description"})[0]["content"]
         date = ",".join(title.split("-")[-2].split(",")[-2:]).strip()
     except Exception as e:
         date = " ".join(
-            (soup.findAll("title")[0].text.split("2025")[0] + "2025").split()[-3:]
+            (soup.findAll("title")[0].text.split(year)[0] + year).split()[-3:]
         ).strip()
 
     # Get the comment for the day
@@ -81,7 +83,14 @@ def scrape_regatta_metadata(soup):
 
     date = clean_date(date)
 
-    return date, comment.strip()
+    for line in soup.findAll("span", {"class": "midhead"})[0].parent.text.strip().split("\n"):
+        if str(year) in line and "-" in line and "NEIRA" not in line:
+            location = "-".join(line.split("-")[1:]).strip()
+            break
+    else:
+        location = ""
+
+    return date, comment.strip(), location
 
 def scrape_result_block(result_block, heats, gender=None):
     heat = result_block.findAll("tr", {"align": "center"})[0].text.strip()
@@ -118,3 +127,11 @@ def scrape_result_block(result_block, heats, gender=None):
 
 def clean_date(date):
     return datetime.datetime.strptime(date, "%B %d, %Y").strftime("%Y-%m-%d")
+
+
+if __name__ == "__main__":
+    import requests
+    url = "https://www.row2k.com/results/resultspage.cfm?UID=F633B39B972009BAAE9DBEA29158C86C&cat=5"
+    html = requests.get(url).text
+    downloaded = {"html": html, "name": "foo", "url": url, "uid": "F633B39B972009BAAE9DBEA29158C86C"}
+    scrape_cat_5("foo", html, url)

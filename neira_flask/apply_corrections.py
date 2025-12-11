@@ -104,7 +104,8 @@ def apply_corrections_single(regatta, corrections):
                 correction["varsity_index"]
             )
         elif correction["type"] == "manual_override":
-            regatta = correction["new_contents"]
+            regatta.clear()
+            regatta.update(correction["new_contents"])
         else:
             raise Exception("Unhandled correction type: " + correction["type"])
 

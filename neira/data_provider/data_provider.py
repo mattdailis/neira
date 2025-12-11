@@ -25,7 +25,7 @@ def get(data_dir):
         heats = scraped_json["heats"]
         for heat in heats:
             heat["url"] = scraped_json["url"]
-            heat["regatta_display_name"] = scraped_json["regatta_display_name"]
+            heat["name"] = scraped_json["name"]
             heat["comment"] = scraped_json["comment"]
             heat["date"] = scraped_json["day"]
             all_heats[
@@ -52,7 +52,7 @@ def founders_day_head_to_head_tuples():
                     entry["varsity_index"],
                     head_to_head["margin"],
                     None,
-                    founders_day_head_to_head["regatta_display_name"],
+                    founders_day_head_to_head["name"],
                     founders_day_head_to_head["comment"],
                     founders_day_head_to_head["url"],
                 )
@@ -74,7 +74,7 @@ def get_head_to_head_tuples(data_dir, class_=None, gender=None) -> List[Datum]:
         date = datetime.datetime.strptime(day, "%Y-%m-%d")
 
         heats = scraped_json["heats"]
-        regatta_display_name = scraped_json["regatta_display_name"]
+        regatta_display_name = scraped_json["name"]
         comment = scraped_json["comment"]
         url = scraped_json["url"]
 

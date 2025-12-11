@@ -137,7 +137,9 @@ def founders_day():
             {
                 "comment": comment,
                 "day": day,
-                "regatta_display_name": "Founder's Day Regatta",
+                "date": day,
+                "name": "Founder's Day Regatta",
+                "name": "Founder's Day Regatta",
                 "url": url,
                 "heats": heats,
             },
@@ -200,7 +202,9 @@ def founders_day():
             {
                 "comment": comment,
                 "day": day,
-                "regatta_display_name": "Founder's Day Regatta",
+                "date": day,
+                "name": "Founder's Day Regatta",
+                "name": "Founder's Day Regatta",
                 "url": url,
                 "head_to_head": all_head_to_head,
             },

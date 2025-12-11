@@ -54,11 +54,11 @@ export async function getRacesForCategory(year, class_, gender, varsity) {
 /**
  * Get a specific race by ID
  * @param {string} raceId - Race identifier (e.g., "ABCD1234")
- * @returns {Promise<Object>} Race data from data/2_reviewed/{raceId}.json
+ * @returns {Promise<Object>} Race data from data/3_reviewed/{raceId}.json
  */
 export async function getRaceDetail(raceId) {
   try {
-    const response = await fetch(router.buildUrl(`static/data/2_reviewed/${raceId}.json`));
+    const response = await fetch(router.buildUrl(`static/data/3_reviewed/${raceId}.json`));
     if (!response.ok) {
       throw new Error(`Failed to load race ${raceId}: ${response.status}`);
     }

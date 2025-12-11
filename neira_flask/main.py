@@ -8,6 +8,8 @@ from neira_flask.checksum import compute_checksum
 from . import db
 from neira_flask.auth import requires_auth, user_has_scope
 
+logger = logging.getLogger(__name__)
+
 HERE = os.path.dirname(__file__)
 
 app = Flask(__name__, static_url_path='/static')
@@ -15,7 +17,7 @@ print("Started app!")
 
 @app.route("/")
 def root():
-    logging.debug('root route called')
+    logger.debug('root route called')
     return render_template("index.html")
 
 @app.route("/index.html")
@@ -68,5 +70,27 @@ def api_regatta():
     return jsonify({
         "regatta": regattas,
         "corrections": all_corrections[uid],
-        "checksums": { status: compute_checksum(regatta) for status, regatta in regattas.items() }
+        "checksums": { status: (4, regatta["checksum"]) for status, regatta in regattas.items() }
     })
+
+@app.route("/api/save-corrections", methods=["POST"])
+@requires_auth
+def save_corrections():
+    if not user_has_scope('edit:corrections'):
+        return jsonify({"status": "unauthorized"}), 403
+    
+    content = request.get_json()
+    regatta_uid = content["regatta_uid"]
+    checksum = content["checksum"]
+    details = content["details"]
+    correction_id = db.insert_correction_single(regatta_uid, checksum, details)
+    logger.info("inserted %s %s %s", regatta_uid, checksum, details)
+
+    db.insert_job("apply_corrections", {"uid": regatta_uid, "correction_id": correction_id})
+
+    return jsonify({
+        "status": "success",
+        "correction_id": correction_id
+    })
+
+    

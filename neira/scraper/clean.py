@@ -29,6 +29,7 @@ def clean(scraped):
         "name": scraped["name"],
         "comment": scraped["comment"],
         "url": scraped["url"],
+        "location": scraped["location"],
     }
 
     name = scraped["name"]
