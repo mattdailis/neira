@@ -27,7 +27,8 @@ signal.signal(signal.SIGINT, signal_handler)
 signal.signal(signal.SIGTERM, signal_handler)
 
 job_handlers = {
-    "download_regatta": jobs.download_regatta
+    "download_regatta": jobs.download_regatta,
+    "apply_corrections": jobs.apply_corrections
 }
 
 def process_job(job):
