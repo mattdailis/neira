@@ -340,6 +340,7 @@ function openCorrectionModal(index = null, correction = null) {
 
   const form = document.createElement('form');
   form.onsubmit = (e) => {
+    console.log("onsubmit");
     e.preventDefault();
     saveCorrectionFromForm(form, index);
   };

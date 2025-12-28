@@ -36,6 +36,10 @@ def review():
 def review_regatta():
     return render_template("review-regatta.html")
 
+@app.route("/map.html")
+def map_page():
+    return render_template("map.html")
+
 @app.route("/api/heats")
 def api_heats():
     year = request.args.get('year')
@@ -60,6 +64,24 @@ def api_test():
 def api_regattas():
     return jsonify(db.get_regattas_review_status(2025))
 
+@app.route("/api/map-data")
+def get_map_data():
+    res = []
+    i = 0
+    for name, coords in db.get_coordinates():
+        i += 1
+        res.append({
+            "uid": f"example-uid-{i}",
+            "name": name,
+            "date": "2025-05-15",
+            "coordinates": coords
+        })
+    # Stub implementation - returns sample data structure
+    # Coordinates are in EPSG:3857 format (Web Mercator)
+    return jsonify({
+        "regattas": res
+    })
+    
 @app.route("/api/review-regatta")
 def api_regatta():
     uid = request.args.get('uid')

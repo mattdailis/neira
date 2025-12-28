@@ -728,7 +728,9 @@ def set_coords(cursor=None):
  Charles River Powerhouse                            | 42.36443115308227, -71.11654347288069
  Charles River - Power House                         | 42.36443115308227, -71.11654347288069
  Charles River Powerhouse Stretch - Cambridge, MA    | 42.36443115308227, -71.11654347288069
- Concord River, Billerica, MA                        | 42.55710662715271, -71.28233193253637
+ Charles River-Powerhouse                            | 42.36443115308227, -71.11654347288069
+ Concord River, Billerica, MA                        | 42.534219714998784, -71.30078700494671
+ Concord River                                       | 42.534219714998784, -71.30078700494671
  Connecticut River (25 Jones Ferry Road Holyoke, MA) | 42.1721548388209, -72.63092108799832
  Connecticut River, Gill MA                          | 42.64613269047004, -72.4758913623132
  Cos Cob Harbor, Greenwich, CT                       | 41.02844293088989, -73.59523659193667
@@ -767,6 +769,10 @@ def set_coords(cursor=None):
  Turkey Pond, Concord NH                             | 43.17487210978318, -71.58402618140506
  Turkey Pond, Concord, NH                            | 43.17487210978318, -71.58402618140506
  Watuppa Pond, Fall River, MA                        | 41.69007166771546, -71.11524947094684
+ Glastonbury, CT                                     | 41.71055502346872, -72.61794408641155
+ Pattagansett Lake, East Lyme CT                     | 41.37382002075274, -72.23023123097646
+ Shelton, CT                                         | 41.270031250772995, -73.08848655606869
+ Shelton, CT (Housatonic River)                      | 41.270031250772995, -73.08848655606869
     """
 
     with get_cursor(cursor=cursor) as cursor:
@@ -786,8 +792,20 @@ def set_coords(cursor=None):
                 location=location
             ))
     
-
-
+def get_coordinates(cursor=None):
+    res = []
+    with get_cursor(cursor=cursor) as cursor:
+        cursor.execute("select name, ST_AsText(coords) from neira.locations order by name;")
+        for name, coords in cursor:
+            if not name:
+                continue
+            if not coords:
+                continue
+            coords = coords.split("(")[1].split(")")[0].split()
+            coords = [float(x) for x in coords]
+            print(coords)
+            res.append((name, coords))
+    return res
 
 
 if __name__ == '__main__':
@@ -795,5 +813,6 @@ if __name__ == '__main__':
     # insert_corrections()
     set_coords()
     # main()
+    # get_coordinates()
 
     

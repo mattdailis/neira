@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="static/css/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+  <script type="module" src="static/js/utils/auth.js"></script>
+</head>
+<body>
+  <script type="module" src="static/js/components/page-layout.js"></script>
+  <script type="module" src="static/js/pages/map.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <page-layout>
+    <h1>Regatta Locations</h1>
+    <div id="map"></div>
+  </page-layout>
+
+  <template id="popup-template">
+    <div class="regatta-popup">
+      <strong class="regatta-name"></strong>
+      <div class="regatta-date"></div>
+    </div>
+  </template>
+</body>
+</html>
