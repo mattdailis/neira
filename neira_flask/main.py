@@ -76,8 +76,6 @@ def get_map_data():
             "date": "2025-05-15",
             "coordinates": coords
         })
-    # Stub implementation - returns sample data structure
-    # Coordinates are in EPSG:3857 format (Web Mercator)
     return jsonify({
         "regattas": res
     })

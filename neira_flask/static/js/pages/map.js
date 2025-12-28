@@ -1,18 +1,6 @@
 import {router} from '../utils/router.js';
 
 /**
- * Convert EPSG:3857 (Web Mercator) coordinates to WGS84 lat/lng
- * @param {number} x - X coordinate in meters
- * @param {number} y - Y coordinate in meters
- * @returns {Array} [lat, lng] in WGS84
- */
-function convertWebMercatorToLatLng(x, y) {
-  const lng = (x / 20037508.34) * 180;
-  const lat = (Math.atan(Math.exp((y / 20037508.34) * Math.PI)) * 360 / Math.PI) - 90;
-  return [lat, lng];
-}
-
-/**
  * Create popup content using template cloning pattern
  * @param {Object} regatta - Regatta data object
  * @returns {HTMLElement} Popup content

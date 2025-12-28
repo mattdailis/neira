@@ -118,23 +118,6 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
                     schools.add(result["school"])
             schools = sorted(schools)
 
-            school_ids = load_school_ids(cursor)
-
-            for school in schools:
-                if school not in school_ids:       
-                    cursor.execute(
-                        """
-                        insert into neira.schools
-                        (name)
-                        values
-                        (%(name)s)
-                        on conflict do nothing
-                        """,
-                        dict(name=school)
-                    )
-
-            school_ids = load_school_ids(cursor)
-
             for heat in regatta["heats"]:
                 cursor.execute(
                 """
@@ -156,11 +139,11 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
 
                 with cursor.copy("""
                     copy neira.results
-                    (heat_id, finish_order, raw_time, margin_from_winner, school_id)
+                    (heat_id, finish_order, raw_time, margin_from_winner, school_name)
                     from stdin
                     """) as copy:
                     for i, result in enumerate(heat["results"]):
-                        copy.write_row((heat_id, result["finish_order"] if "finish_order" in result else (i + 1), result["raw_time"], result["margin_from_winner"], school_ids[result["school"]]))
+                        copy.write_row((heat_id, result["finish_order"] if "finish_order" in result else (i + 1), result["raw_time"], result["margin_from_winner"], result["school"]))
                         logger.info("Inserted result %s", json.dumps(result))
 
             cursor.execute(
@@ -231,18 +214,6 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
     return regatta_id
 
 
-def load_school_ids(cursor):
-    cursor.execute(
-        """
-        select name, id from neira.schools;
-        """
-    )
-    school_ids = {}
-    for school_name, school_id in cursor:
-        school_ids[str(school_name)] = int(school_id)
-    return school_ids
-
-
 def get_heats(year, class_, gender, varsity_index, cursor=None):
     status = "2_cleaned"
     with get_cursor(cursor) as cursor:
@@ -267,12 +238,11 @@ def get_heats(year, class_, gender, varsity_index, cursor=None):
                 result.finish_order,
                 result.raw_time,
                 result.margin_from_winner,
-                school.name,
+                result.school_name,
                 regatta.url
             from neira.regattas regatta
             join neira.heats heat on regatta.id = heat.regatta_id
             join neira.results result on heat.id = result.heat_id
-            join neira.schools school on result.school_id = school.id
             where heat.gender = %(gender)s
             and heat.class = %(class)s
             and heat.varsity_index = %(varsity_index)s
@@ -479,10 +449,9 @@ def get_regatta_for_review(regatta_uid, cursor=None):
                 result.finish_order,
                 result.raw_time,
                 result.margin_from_winner,
-                school.name
+                result.school_name
             from neira.heats heat
             join neira.results result on heat.id = result.heat_id
-            join neira.schools school on result.school_id = school.id
             and heat.regatta_id = any(%(regatta_ids)s);
             """,
             dict(regatta_ids=list(regattas)),
@@ -611,10 +580,9 @@ def get_regattas_by_id(regatta_ids, cursor=None):
                 result.finish_order,
                 result.raw_time,
                 result.margin_from_winner,
-                school.name
+                result.school_name
             from neira.heats heat
             join neira.results result on heat.id = result.heat_id
-            join neira.schools school on result.school_id = school.id
             and heat.regatta_id = any(%(regatta_ids)s);
             """,
             dict(
