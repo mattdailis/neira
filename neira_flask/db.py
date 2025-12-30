@@ -759,6 +759,89 @@ def set_coords(cursor=None):
             dict(
                 location=location
             ))
+
+def set_school_locations(cursor=None):
+    defs = """
+  1 | Andover               | 42.649166645077244, -71.131942420082 | https://andovercrew.com/#SpringSchedule25
+  2 | Bancroft              | 42.30479876302297, -71.81404489874943 | https://www.bancroftschool.org/athletics/teams-programs/varsity-crew
+  3 | Bedford               | 42.93736565963292, -71.51930104110538 | https://www.bedfordcrew.org/
+  4 | Suffield              | 41.9853512623523, -72.65095729616736 | https://www.suffieldacademy.org/athletics/teams/crew
+  5 | Farmington            | 41.74987533847976, -72.86589126423837 | https://sites.google.com/a/fpsct.org/farmingtoncrew/
+  6 | BB&N                  | 42.371018422362056, -71.1347819569751 | https://www.bbns.org/athletics/teams/crew-boys-varsity/,https://www.bbns.org/athletics/teams/crew-girls-varsity/
+  7 | Nobles                | 42.262683094311505, -71.18181631225478 | https://nobilis.nobles.edu/Athletics/team_detail.php?team_id=51487,https://nobilis.nobles.edu/Athletics/team_detail.php?team_id=51488
+  8 | Cambridge RLS         | 42.374590373496204, -71.11154453418106 | https://crlsrowing.org/
+  9 | Exeter                | 42.981135820480674, -70.95176551894771 | http://www.exetercrew.com/wp/,https://weareexeter.com/sports/mens-crew,https://weareexeter.com/sports/womens-crew
+ 10 | Thayer                | 42.21172023627747, -70.98504981576848 | https://www.thayer.org/athletics/teams-schedules-results/team-details/~athletics-team-id/85
+ 11 | St. Mark's            | 42.30912958998844, -71.52964933715647 | https://www.stmarksschool.org/athletics/teams/team-details/~athletics-team-id/124
+ 12 | Greenwich Academy     | 41.041763066195536, -73.6275052992362 | https://www.greenwichacademy.org/athletics/teams-and-schedules/detail/~athletics-team-id/145
+ 13 | Middletown            | 41.57740560765142, -72.67910789437065 | https://mhscrew.wixsite.com/rowing
+ 14 | Middlesex             | 42.49809913939459, -71.36694813614666 | https://athletics.mxschool.edu/sports/mens-crew,https://athletics.mxschool.edu/sports/womens-crew
+ 15 | Sacred Heart          | 41.066336533359234, -73.69432446149902 | https://www.shgreenwich.org/athletics/our-teams/rowing/rowing-spring
+ 16 | Brooks                | 42.71825814387373, -71.07602335085038 | https://www.brooksschool.org/athletics/teams-and-schedules/athletic-details/~athletics-team-id/127,https://www.brooksschool.org/athletics/teams-and-schedules/athletic-details/~athletics-team-id/129
+ 17 | Tabor                 | 41.707994006249024, -70.76638598135509 | https://www.taboracademy.org/athletics/teams/team-details/~athletics-team-id/451,https://www.taboracademy.org/athletics/teams/team-details/~athletics-team-id/452
+ 18 | St. John's Prep       | 42.582693496935605, -70.95266566673605 | https://www.stjohnsprep.org/athletics/teams-and-schedules/team-profile/~athletics-team-id/186
+ 19 | Glastonbury           | 41.70329182593176, -72.59330716705634
+ 20 | Brookline             | 42.33351980662681, -71.12849842891532
+ 21 | Greenwich Country Day | 41.07243706192967, -73.60242704549414
+ 22 | Brewster Academy      | 43.58351703389131, -71.20745683444784
+ 23 | BC High               | 42.31629900842828, -71.04543231088985
+ 24 | St. Mary's-Lynn       | 42.46273327072896, -70.95107563745171
+ 25 | Simsbury              | 41.87091058133808, -72.82158639530752 | https://www.simsburycrew.org/
+ 26 | Derryfield            | 43.03521672063977, -71.45876373940982
+ 27 | Kent                  | 41.724706743932735, -73.48538497337518
+ 28 | Hopkins               | 41.31888653199366, -72.97179982332575
+ 29 | Choate                | 41.45824990327572, -72.81105320102319
+ 30 | Pingree               | 42.63870675994496, -70.88091380988602
+ 31 | Winsor                | 42.34121543932388, -71.10716943544193
+ 32 | Pomfret               | 41.88588067082968, -71.96510917108326
+ 33 | Berkshire Academy     | 42.117112108555446, -73.41626606311702
+ 34 | Brunswick             | 41.03854804914525, -73.62608838190707
+ 35 | East Lyme             | 41.36945079509881, -72.21270101818163
+ 36 | Hanover               | 43.740408822468154, -72.24363558383608 | https://www.friendsofhanovercrew.org/
+ 37 | St. John's            | 42.292267205182796, -71.72914455369558 | https://www.stjohnshigh.org/athletics/teams/crew
+ 38 | Fairfield Prep        | 41.160421738843965, -73.254474629838
+ 39 | Notre Dame            | 41.224367631386194, -73.24663070095812
+ 40 | Dexter-Southfield     | 42.308235788006094, -71.13762266413642
+ 41 | Guilford              | 41.312924553647974, -72.71053941948553
+ 42 | Hotchkiss             | 41.94385937876665, -73.43977537567805
+ 43 | Taft                  | 41.603580677066226, -73.12380800016918
+ 44 | Lyme/Old Lyme         | 41.31878187858171, -72.32475193367665
+ 45 | Duxbury               | 42.04712770190913, -70.67846433276358
+ 46 | NMH                   | 42.670499941768554, -72.48384948529896
+ 47 | Eagle Hill            | 42.36426323809319, -72.20090156779503
+ 48 | St. Paul's            | 43.19479458322583, -71.57423591061186
+ 49 | Worcester Academy     | 42.253104069546595, -71.79255395890557
+ 50 | Boston Latin          | 42.338044784761586, -71.10107668634988
+ 51 | Shrewsbury            | 42.30356365446944, -71.74422895869041 | https://shrewsburycrew.org/
+ 52 | Berwick               | 43.243500377736005, -70.80058235230409
+ 53 | Deerfield             | 42.54863920998165, -72.60689219457522
+ 54 | Canterbury            | 41.58662416058128, -73.41196746340371
+ 55 | Miss Porter's         | 41.722497503405606, -72.82932190671829
+ 56 | Newton Country Day    | 42.34565954031322, -71.19134179448142
+ 57 | Stonington            | 41.36670809484514, -71.86064700007726
+ 58 | Groton                | 42.593573455970045, -71.58400713228848
+ 59 | Frederick Gunn        | 41.628069391659004, -73.31150175943694
+ 60 | Hingham               | 42.227493175590624, -70.87799015180899
+ 61 | Salisbury             | 42.00156623827821, -73.39013088651699
+ 62 | Marianapolis Prep     | 41.956240014159285, -71.86840827710347
+ 63 | Belmont Hill          | 42.40719025388106, -71.18165581907573
+"""
+
+    with get_cursor(cursor) as cursor:
+        for line in defs.strip().splitlines():
+            id, school_name, coordinates = line.split("|")[:3]
+            school_name = school_name.strip()
+            coordinates = coordinates.strip()
+            coordinates = coordinates.replace(',', '')
+            if "???" in coordinates:
+                continue
+            query = f"""
+            update neira.schools set location=ST_GeomFromText('POINT({coordinates})', 3857) where name=%(school_name)s;
+            """
+            cursor.execute(query,
+            dict(
+                school_name=school_name
+            ))
     
 def get_coordinates(cursor=None):
     res = []
@@ -779,8 +862,8 @@ def get_coordinates(cursor=None):
 if __name__ == '__main__':
     # logger.info(get_regatta("0B5A12BEAF8945DD81EB9EFB206E62F1", status="2_cleaned"))
     # insert_corrections()
-    set_coords()
+    # set_coords()
     # main()
     # get_coordinates()
-
+    set_school_locations()
     
