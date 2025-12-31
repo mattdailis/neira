@@ -1,3 +1,4 @@
+from collections import defaultdict
 from contextlib import contextmanager
 import json
 import logging
@@ -879,6 +880,59 @@ def get_regattas_for_map(year, cursor=None):
     with get_cursor(cursor) as cursor:
         cursor.execute(
             """
+            with relevant_regattas as (
+                select distinct on (uid) id
+                from neira.regattas regatta
+                join neira.regatta_statuses rstatus
+                on regatta.id = rstatus.regatta_id
+                where regatta.year=%(year)s
+                and rstatus.status = '3_reviewed'
+                order by uid, rstatus.scrape_id desc
+            )
+            select distinct regatta.uid, result.school_name
+                from neira.results result
+                join neira.heats heat on heat.id = result.heat_id
+                join neira.regattas regatta on regatta.id = heat.regatta_id
+                where regatta_id in (select id from relevant_regattas)
+                order by regatta.uid;
+            """,
+            dict(year=year)
+        )
+
+        schools_by_uid = defaultdict(list)
+
+        for uid, school_name in cursor:
+            schools_by_uid[uid].append(school_name)
+
+        cursor.execute(
+            """
+            with relevant_regattas as (
+                select distinct on (uid) id
+                from neira.regattas regatta
+                join neira.regatta_statuses rstatus
+                on regatta.id=rstatus.regatta_id
+                where regatta.year=%(year)s
+                and rstatus.status='3_reviewed'
+                order by uid, rstatus.scrape_id desc
+            )
+            select distinct regatta.uid, heat.class, heat.gender
+                from neira.heats heat
+                join neira.regattas regatta on regatta.id = heat.regatta_id
+                where regatta_id in (select id from relevant_regattas)
+                order by regatta.uid;
+            """,
+            dict(
+                year=year
+            )
+        )
+
+        class_gender_by_uid = defaultdict(list)
+
+        for uid, class_, gender in cursor:
+            class_gender_by_uid[uid].append((class_, gender))
+
+        cursor.execute(
+            """
             select regatta.id as regatta_id, rstatus.scrape_id, uid, year,  date, name, rstatus.status, comment, distance, location, url
             from neira.regattas regatta
             join neira.regatta_statuses rstatus
@@ -907,7 +961,9 @@ def get_regattas_for_map(year, cursor=None):
                 "comment": comment,
                 "distance": distance,
                 "location": location,
-                "url": url
+                "url": url,
+                "categories": class_gender_by_uid[regatta_uid],
+                "schools": schools_by_uid[regatta_uid]
             })
 
         for uid, subregattas in list(regattas.items()):

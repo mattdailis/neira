@@ -81,9 +81,24 @@ def get_map_data():
                 "name": regatta["name"],
                 "date": regatta["date"],
                 "url": regatta["url"],
-                "coordinates": locations[regatta["location"]]
+                "coordinates": locations[regatta["location"]],
+                "categories": regatta["categories"],
+                "schools": regatta["schools"]
             })
             break
+
+    regattas.append({
+        "uid": "",
+        "location": "Lake Waramaug, CT",
+        "name": "Founder's Day Regatta",
+        "date": "2025-05-04",
+        "url": "https://www.row2k.com/results/resultspage.cfm?UID=9400921B2CB64E59B0F43EC7E58300B4&cat=6",
+        "coordinates": locations["Lake Waramaug, CT"],
+        "categories": [["fours","girls"], ["fours","boys"]],
+        "schools": []# TODO
+    })
+
+    regattas.sort(key=lambda x: x["date"])
 
     schools = []
     for name, coords in db.get_school_locations():
