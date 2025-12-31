@@ -66,18 +66,35 @@ def api_regattas():
 
 @app.route("/api/map-data")
 def get_map_data():
-    res = []
-    i = 0
+    locations = {}
     for name, coords in db.get_coordinates():
-        i += 1
-        res.append({
-            "uid": f"example-uid-{i}",
+        locations[name] = coords
+
+    regattas = []
+    for regatta_list in db.get_regattas_for_map(2025):
+        for regatta in regatta_list:
+            if regatta["location"] not in locations:
+                continue
+            regattas.append({
+                "uid": regatta["regatta_uid"],
+                "location": regatta["location"],
+                "name": regatta["name"],
+                "date": regatta["date"],
+                "url": regatta["url"],
+                "coordinates": locations[regatta["location"]]
+            })
+            break
+
+    schools = []
+    for name, coords in db.get_school_locations():
+        schools.append({
             "name": name,
-            "date": "2025-05-15",
             "coordinates": coords
         })
+
     return jsonify({
-        "regattas": res
+        "regattas": regattas,
+        "schools": schools
     })
     
 @app.route("/api/review-regatta")

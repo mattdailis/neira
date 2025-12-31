@@ -723,8 +723,8 @@ def set_coords(cursor=None):
  Lake Wickaboag, West Brookfield, MA                 | 42.239976826738996, -72.15415594785118
  Lake Wononpakook, CT                                | 41.93859658521218, -73.4553223799735
  Methuen, MA                                         | 42.696981854738056, -71.22194826155892
- Mianus River                                        | 41.03923360258101, -73.58987700926227
- Mianus River, Greenwich, CT                         | 41.03923360258101, -73.58987700926227
+ Mianus River                                        | 41.02844293088989, -73.59523659193667
+ Mianus River, Greenwich, CT                         | 41.02844293088989, -73.59523659193667
  Middletown, CT                                      | 41.55735567921841, -72.57869229552692
  Mystic, CT                                          | 41.36503363878109, -71.96702593961498
  Nashua River, Groton, MA                            | 42.628563639349935, -71.60756831553016
@@ -800,7 +800,7 @@ def set_school_locations(cursor=None):
  36 | Hanover               | 43.740408822468154, -72.24363558383608 | https://www.friendsofhanovercrew.org/
  37 | St. John's            | 42.292267205182796, -71.72914455369558 | https://www.stjohnshigh.org/athletics/teams/crew
  38 | Fairfield Prep        | 41.160421738843965, -73.254474629838
- 39 | Notre Dame            | 41.224367631386194, -73.24663070095812
+ 39 | Notre Dame            | 41.288040006053, -72.96088886679294
  40 | Dexter-Southfield     | 42.308235788006094, -71.13762266413642
  41 | Guilford              | 41.312924553647974, -72.71053941948553
  42 | Hotchkiss             | 41.94385937876665, -73.43977537567805
@@ -859,11 +859,74 @@ def get_coordinates(cursor=None):
     return res
 
 
+def get_school_locations(cursor=None):
+    res = []
+    with get_cursor(cursor=cursor) as cursor:
+        cursor.execute("select name, ST_AsText(location) from neira.schools order by name;")
+        for name, coords in cursor:
+            if not name:
+                continue
+            if not coords:
+                continue
+            coords = coords.split("(")[1].split(")")[0].split()
+            coords = [float(x) for x in coords]
+            print(coords)
+            res.append((name, coords))
+    return res
+
+
+def get_regattas_for_map(year, cursor=None):
+    with get_cursor(cursor) as cursor:
+        cursor.execute(
+            """
+            select regatta.id as regatta_id, rstatus.scrape_id, uid, year,  date, name, rstatus.status, comment, distance, location, url
+            from neira.regattas regatta
+            join neira.regatta_statuses rstatus
+            on regatta.id = rstatus.regatta_id
+            where year=%(year)s
+            and rstatus.status='2_cleaned'
+            and location is not null
+            order by rstatus.scrape_id
+            """,
+            dict(
+                year=year
+            )
+        )
+        regattas = {}
+        for regatta_id, scrape_id, regatta_uid, year, date, name, status, comment, distance, location, url in cursor:
+            if regatta_uid not in regattas:
+                regattas[regatta_uid] = []
+            regattas[regatta_uid].append({
+                "regatta_id": regatta_id, 
+                "scrape_id": scrape_id,
+                "regatta_uid": regatta_uid,
+                "year": year,
+                "date": date,
+                "name": name,
+                "status": status,
+                "comment": comment,
+                "distance": distance,
+                "location": location,
+                "url": url
+            })
+
+        for uid, subregattas in list(regattas.items()):
+            regattas_by_id = {}
+            for regatta in subregattas:
+                regattas_by_id[regatta["regatta_id"]] = regatta
+            for regatta in subregattas:
+                if regatta["status"] == "3_reviewed" and regatta["parent_id"] not in regattas_by_id:
+                    del regattas_by_id[regatta["regatta_id"]]
+            regattas[uid] = list(regattas_by_id.values())
+    
+    return sorted(regattas.values(), key=lambda x: x[0]["date"])
+
+
 if __name__ == '__main__':
     # logger.info(get_regatta("0B5A12BEAF8945DD81EB9EFB206E62F1", status="2_cleaned"))
     # insert_corrections()
-    # set_coords()
+    set_coords()
     # main()
     # get_coordinates()
-    set_school_locations()
+    # set_school_locations()
     
