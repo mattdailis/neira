@@ -26,10 +26,10 @@ function getFilterState() {
  * @returns {boolean} True if regatta should be shown
  */
 function regattaMatchesFilters(regatta, filters) {
-  // Always show regattas without categories (e.g., Founder's Day)
-  if (!regatta.categories || regatta.categories.length === 0) {
-    return true;
-  }
+  // // Always show regattas without categories (e.g., Founder's Day)
+  // if (!regatta.categories || regatta.categories.length === 0) {
+  //   return true;
+  // }
 
   // Show if ANY category tuple matches selected filters
   return regatta.categories.some(([boatClass, gender]) =>
