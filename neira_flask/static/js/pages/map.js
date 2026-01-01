@@ -11,10 +11,11 @@ let allMarkers = [];
  */
 function getFilterState() {
   return {
-    boys: router.getParam('boys') !== 'false',
-    girls: router.getParam('girls') !== 'false',
+    boys: true, // router.getParam('boys') !== 'false',
+    girls: true, // router.getParam('girls') !== 'false',
     fours: router.getParam('fours') !== 'false',
-    eights: router.getParam('eights') !== 'false'
+    eights: router.getParam('eights') !== 'false',
+    schools: router.getParam('schools') !== 'false'
   };
 }
 
@@ -53,14 +54,15 @@ function createPopup(regattas) {
   list.style.margin = '8px 0';
   list.style.paddingLeft = '20px';
 
-  var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' };
+  var options = { weekday: 'short',/* year: 'numeric',*/ month: 'long', day: 'numeric', timeZone: 'UTC' };
 
   regattas.forEach(regatta => {
+    regatta.schools.sort();
     const item = document.createElement('li');
     const anchor = document.createElement('a');
     anchor.href = regatta.url;
     const displayDate = new Date(regatta.date).toLocaleDateString("en-US", options);
-    anchor.textContent = `${displayDate} (${regatta.name})`;
+    anchor.textContent = `${displayDate} (${regatta.schools.join(", ")})`;
     item.appendChild(anchor);
     list.appendChild(item);
   });
@@ -89,6 +91,8 @@ function createMarkers(map, data, filters) {
     shadowSize: [41, 41]
   });
 
+  const schoolsToShow = new Set();
+
   // Group regattas by coordinates (with filtering)
   const regattasByLocation = new Map();
   data.regattas.forEach(regatta => {
@@ -104,6 +108,10 @@ function createMarkers(map, data, filters) {
       regattasByLocation.set(coordKey, []);
     }
     regattasByLocation.get(coordKey).push(regatta);
+
+    for (const school of regatta.schools) {
+      schoolsToShow.add(school);
+    }
   });
 
   // Add markers for each unique location
@@ -137,11 +145,14 @@ function createMarkers(map, data, filters) {
     </div>`;
 
     // Add red marker to map
-    const marker = L.marker(latlng, { icon: redIcon })
-      .bindPopup(popupHtml)
-      .addTo(map);
 
-    markers.push(marker);
+    if (filters.schools && schoolsToShow.has(school.name)) {
+      const marker = L.marker(latlng, { icon: redIcon })
+        .bindPopup(popupHtml)
+        .addTo(map);
+
+      markers.push(marker);
+    }
   });
 
   return markers;
@@ -167,7 +178,7 @@ function setupFilterListeners() {
       });
 
       // Redraw markers
-      redrawMarkers();
+      redrawMarkers(false);
     });
   });
 }
@@ -175,7 +186,7 @@ function setupFilterListeners() {
 /**
  * Redraw map markers based on current filter state
  */
-function redrawMarkers() {
+function redrawMarkers(fitBounds) {
   if (!mapInstance || !mapData) {
     return;
   }
@@ -192,7 +203,7 @@ function redrawMarkers() {
   allMarkers = createMarkers(mapInstance, mapData, filters);
 
   // Fit bounds if we have markers
-  if (allMarkers.length > 0) {
+  if (fitBounds && allMarkers.length > 0) {
     const group = new L.featureGroup(allMarkers);
     mapInstance.fitBounds(group.getBounds().pad(0.1));
   }
