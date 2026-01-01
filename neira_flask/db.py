@@ -692,7 +692,7 @@ def get_scrape_id(cursor=None):
 def set_coords(cursor=None):
     defs = """
  Boston, MA                                          | 42.35397256001751, -71.09392979236829
- Cambridge, MA                                       | 42.35397256001751, -71.09392979236829
+ Cambridge, MA                                       | 42.36443115308227, -71.11654347288069
  Charles River, Auburndale, MA                       | 42.34660075551339, -71.25995897166757
  Charles River Powerhouse                            | 42.36443115308227, -71.11654347288069
  Charles River - Power House                         | 42.36443115308227, -71.11654347288069
@@ -981,8 +981,8 @@ def get_regattas_for_map(year, cursor=None):
 if __name__ == '__main__':
     # logger.info(get_regatta("0B5A12BEAF8945DD81EB9EFB206E62F1", status="2_cleaned"))
     # insert_corrections()
-    # set_coords()
+    set_coords()
     # main()
     # get_coordinates()
-    set_school_locations()
+    # set_school_locations()
     
