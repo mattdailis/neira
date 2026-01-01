@@ -778,7 +778,7 @@ def set_school_locations(cursor=None):
  13 | Middletown            | 41.57740560765142, -72.67910789437065 | https://mhscrew.wixsite.com/rowing
  14 | Middlesex             | 42.49809913939459, -71.36694813614666 | https://athletics.mxschool.edu/sports/mens-crew,https://athletics.mxschool.edu/sports/womens-crew
  15 | Sacred Heart          | 41.066336533359234, -73.69432446149902 | https://www.shgreenwich.org/athletics/our-teams/rowing/rowing-spring
- 16 | Brooks                | 42.71825814387373, -71.07602335085038 | https://www.brooksschool.org/athletics/teams-and-schedules/athletic-details/~athletics-team-id/127,https://www.brooksschool.org/athletics/teams-and-schedules/athletic-details/~athletics-team-id/129
+ 16 | Brooks                | 42.70763620724626, -71.08556396003952 | https://www.brooksschool.org/athletics/teams-and-schedules/athletic-details/~athletics-team-id/127,https://www.brooksschool.org/athletics/teams-and-schedules/athletic-details/~athletics-team-id/129
  17 | Tabor                 | 41.707994006249024, -70.76638598135509 | https://www.taboracademy.org/athletics/teams/team-details/~athletics-team-id/451,https://www.taboracademy.org/athletics/teams/team-details/~athletics-team-id/452
  18 | St. John's Prep       | 42.582693496935605, -70.95266566673605 | https://www.stjohnsprep.org/athletics/teams-and-schedules/team-profile/~athletics-team-id/186
  19 | Glastonbury           | 41.70329182593176, -72.59330716705634
@@ -801,7 +801,7 @@ def set_school_locations(cursor=None):
  36 | Hanover               | 43.740408822468154, -72.24363558383608 | https://www.friendsofhanovercrew.org/
  37 | St. John's            | 42.292267205182796, -71.72914455369558 | https://www.stjohnshigh.org/athletics/teams/crew
  38 | Fairfield Prep        | 41.160421738843965, -73.254474629838
- 39 | Notre Dame            | 41.288040006053, -72.96088886679294
+ 39 | Notre Dame            | 41.288040006053, -72.96088886679294 | https://www.notredamehs.com/giving/notre-dame-varsity-club/crew
  40 | Dexter-Southfield     | 42.308235788006094, -71.13762266413642
  41 | Guilford              | 41.312924553647974, -72.71053941948553
  42 | Hotchkiss             | 41.94385937876665, -73.43977537567805
@@ -981,8 +981,8 @@ def get_regattas_for_map(year, cursor=None):
 if __name__ == '__main__':
     # logger.info(get_regatta("0B5A12BEAF8945DD81EB9EFB206E62F1", status="2_cleaned"))
     # insert_corrections()
-    set_coords()
+    # set_coords()
     # main()
     # get_coordinates()
-    # set_school_locations()
+    set_school_locations()
     
