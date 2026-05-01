@@ -1,0 +1,20 @@
+digraph girls1foursBrewsterAcademy {Brooks [URL="girls1foursBrooks.html"];Middlesex [URL="girls1foursMiddlesex.html"];DexterSouthfield [URL="girls1foursDexterSouthfield.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademy.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];StMarks [URL="girls1foursStMarks.html"];BrewsterAcademy -> WorcesterAcademy[label="78.8
+04/22", weight="22", tooltip="NEIRA Boys & Girls Fours,Worcester Academy, Brewster Academy, Bancroft			
+Distance: 1500 meters Conditions: Clear, 15 mph ctoss/tail wind throughout races. Significant chop. Comments: The 2nd place in the Girls V1 boat waa Brewster's 2V.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A02EF64D21763F7CE3DF883D95C6810C&cat=5", random="random"]; 
+Brooks -> BrewsterAcademy[label="52.6
+04/18", weight="48", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+StMarks -> BrewsterAcademy[label="48.3
+04/18", weight="52", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Middlesex -> BrewsterAcademy[label="24.9
+04/18", weight="76", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+DexterSouthfield -> BrewsterAcademy[label="17.5
+04/18", weight="83", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]}

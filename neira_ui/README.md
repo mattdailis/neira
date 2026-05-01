@@ -1,61 +1,38 @@
-# NEIRA UI - Web Components Version
+# create-svelte
 
-Simple, no-build web interface for NEIRA rowing data.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-## Testing Locally
+## Creating a project
 
-Start a local web server:
+If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
-# Using Python 3
-python3 -m http.server 8000
+# create a new project in the current directory
+npm create svelte@latest
 
-# Or using Python 2
-python -m SimpleHTTPServer 8000
-
-# Or using Node.js (if you have npx)
-npx http-server -p 8000
+# create a new project in my-app
+npm create svelte@latest my-app
 ```
 
-Then open http://localhost:8000 in your browser.
+## Developing
 
-## Structure
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-```
-neira_ui/
-├── index.html              # Home page
-├── css/
-│   ├── styles.css          # Global styles
-│   └── page-layout.css     # Layout component styles
-├── js/
-│   ├── components/
-│   │   └── page-layout.js  # Page layout web component
-│   ├── utils/
-│   │   ├── router.js       # Routing utilities
-│   │   └── csv-parser.js   # CSV parsing utilities
-│   └── pages/
-│       └── home.js         # Home page logic
-└── static/                 # Symlink to neira_ui_svelte/static
-    ├── dot/                # Generated graph visualizations
-    └── tables/             # Generated comparison tables
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
 ```
 
-## Current Status
+## Building
 
-**Phase 1-3 Complete:**
-- ✅ Directory structure
-- ✅ Shared utilities (router, CSV parser)
-- ✅ Page layout web component
-- ✅ Home page
+To create a production version of your app:
 
-**Not Yet Implemented:**
-- Ranking page with reorderable list
-- Seeding tool
-- Modal dialog component
+```bash
+npm run build
+```
 
-## Development Notes
+You can preview the production build with `npm run preview`.
 
-- Uses ES modules (type="module")
-- Uses Shadow DOM for component encapsulation
-- No build step required
-- Works with modern browsers only
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

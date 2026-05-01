@@ -1,0 +1,23 @@
+digraph girls3foursChoate {NMH [URL="girls3foursNMH.html"];StMarks [URL="girls3foursStMarks.html"];Choate [URL="girls3foursChoate.html"];Taft [URL="girls3foursTaft.html"];BerkshireAcademy [URL="girls3foursBerkshireAcademy.html"];Winsor [URL="girls3foursWinsor.html"];Choate -> Taft[label="18.4
+04/18", weight="82", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Choate & Taft			
+Distance: 1500 M Conditions: Variable tail/cross wind throughout racing; 7-9 mph; flat water. Comments: B2 declared a dead heat. G2 started a full length over the start line. G1 started 5 meters behind the starting line. Choate G5 caught a boat-stopping crab in the last ten strokes. Nice job by all cox'ns on a tricky aligning day. Thanks to Taft and Choate for some great early-season racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2D008875DBBDEC95092F804AC2BBF2F&cat=5", random="random"]; 
+Choate -> BerkshireAcademy[label="66.0
+04/18", weight="34", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Choate & Taft			
+Distance: 1500 M Conditions: Variable tail/cross wind throughout racing; 7-9 mph; flat water. Comments: B2 declared a dead heat. G2 started a full length over the start line. G1 started 5 meters behind the starting line. Choate G5 caught a boat-stopping crab in the last ten strokes. Nice job by all cox'ns on a tricky aligning day. Thanks to Taft and Choate for some great early-season racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2D008875DBBDEC95092F804AC2BBF2F&cat=5", random="random"]; 
+Choate -> Winsor[label="28.2 (31.33)
+04/22", weight="72", tooltip="NEIRA Girls , Winsor School vs. Choate vs. NCDS			
+Distance: 1350 Conditions: 
+Fantastic racing on the busy powerhouse this Wednesday afternoon! Thank you to Choate for coming up and to NCDS for pivoting with some last minute schedule adjustments. 
+13mph steady head wind with a bit of chop for the last 400m, wind increased as racing went on and conditions slowed. 
+Order of racing: Novice 8+, G2, G3, G4, G5, G1. Comments: 6th boat: Novice 8+ of NCDS / Winsor
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=06CC0E20DAFC595AF823D0A12ECC21DF&cat=1", random="random"]; 
+Choate -> StMarks[label="4.2
+04/11", weight="96", tooltip="NEIRA Boys & Girls Fours,St. Marks, Choate, NMH			
+Distance: 1500m Conditions: Variable crossing tailwind, 14-17mph with gusts. Lake was protected due to wind direction, and water was good at start, very choppy from 300-600m. Wind shifted speed all afternoon. Comments: G3 started a boat length over the line. Great racing by all crews! We were lucky to have the sunshine.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FB4EC0A3A1B57E11BCA0D62F8B29A986&cat=5", random="random"]; 
+Choate -> NMH[label="15.5
+04/11", weight="85", tooltip="NEIRA Boys & Girls Fours,St. Marks, Choate, NMH			
+Distance: 1500m Conditions: Variable crossing tailwind, 14-17mph with gusts. Lake was protected due to wind direction, and water was good at start, very choppy from 300-600m. Wind shifted speed all afternoon. Comments: G3 started a boat length over the line. Great racing by all crews! We were lucky to have the sunshine.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FB4EC0A3A1B57E11BCA0D62F8B29A986&cat=5", random="random"]}

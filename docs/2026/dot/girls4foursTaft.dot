@@ -1,0 +1,16 @@
+digraph girls4foursTaft {Choate [URL="girls4foursChoate.html"];Taft [URL="girls4foursTaft.html"];BerkshireAcademy [URL="girls4foursBerkshireAcademy.html"];Pomfret [URL="girls4foursPomfret.html"];Groton [URL="girls4foursGroton.html"];Choate -> Taft[label="15.5
+04/18", weight="85", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Choate & Taft			
+Distance: 1500 M Conditions: Variable tail/cross wind throughout racing; 7-9 mph; flat water. Comments: B2 declared a dead heat. G2 started a full length over the start line. G1 started 5 meters behind the starting line. Choate G5 caught a boat-stopping crab in the last ten strokes. Nice job by all cox'ns on a tricky aligning day. Thanks to Taft and Choate for some great early-season racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2D008875DBBDEC95092F804AC2BBF2F&cat=5", random="random"]; 
+Taft -> BerkshireAcademy[label="115.5
+04/18", weight="-15", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Choate & Taft			
+Distance: 1500 M Conditions: Variable tail/cross wind throughout racing; 7-9 mph; flat water. Comments: B2 declared a dead heat. G2 started a full length over the start line. G1 started 5 meters behind the starting line. Choate G5 caught a boat-stopping crab in the last ten strokes. Nice job by all cox'ns on a tricky aligning day. Thanks to Taft and Choate for some great early-season racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2D008875DBBDEC95092F804AC2BBF2F&cat=5", random="random"]; 
+Taft -> Groton[label="13.5
+04/25", weight="87", tooltip="NEIRA, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500m Conditions: Very light tailwind, 3 to 6 MPH. Water: flat or slight ripple. Great conditions. Comments: Races alternated with boys. Order of girls races: G2, G3, G4, G1, G5. Great conditions, some close racing. Thanks to D-S, Groton, and Taft for making the trip.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D75E188A8E81A27E6EC4D8E89CF923BF&cat=1", random="random"]; 
+Taft -> Pomfret[label="83.8
+04/25", weight="17", tooltip="NEIRA, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500m Conditions: Very light tailwind, 3 to 6 MPH. Water: flat or slight ripple. Great conditions. Comments: Races alternated with boys. Order of girls races: G2, G3, G4, G1, G5. Great conditions, some close racing. Thanks to D-S, Groton, and Taft for making the trip.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D75E188A8E81A27E6EC4D8E89CF923BF&cat=1", random="random"]}

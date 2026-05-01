@@ -1,0 +1,28 @@
+digraph girls3foursStMarks {Brooks [URL="girls3foursBrooks.html"];Middlesex [URL="girls3foursMiddlesex.html"];NMH [URL="girls3foursNMH.html"];Nobles [URL="girls3foursNobles.html"];Choate [URL="girls3foursChoate.html"];StMarks [URL="girls3foursStMarks.html"];Hotchkiss [URL="girls3foursHotchkiss.html"];Hopkins [URL="girls3foursHopkins.html"];Brooks -> StMarks[label="20.3
+04/18", weight="80", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Middlesex -> StMarks[label="3.6
+04/18", weight="97", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Choate -> StMarks[label="4.2
+04/11", weight="96", tooltip="NEIRA Boys & Girls Fours,St. Marks, Choate, NMH			
+Distance: 1500m Conditions: Variable crossing tailwind, 14-17mph with gusts. Lake was protected due to wind direction, and water was good at start, very choppy from 300-600m. Wind shifted speed all afternoon. Comments: G3 started a boat length over the line. Great racing by all crews! We were lucky to have the sunshine.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FB4EC0A3A1B57E11BCA0D62F8B29A986&cat=5", random="random"]; 
+StMarks -> NMH[label="11.3
+04/11", weight="89", tooltip="NEIRA Boys & Girls Fours,St. Marks, Choate, NMH			
+Distance: 1500m Conditions: Variable crossing tailwind, 14-17mph with gusts. Lake was protected due to wind direction, and water was good at start, very choppy from 300-600m. Wind shifted speed all afternoon. Comments: G3 started a boat length over the line. Great racing by all crews! We were lucky to have the sunshine.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FB4EC0A3A1B57E11BCA0D62F8B29A986&cat=5", random="random"]; 
+Nobles -> StMarks[label="13.9
+04/25", weight="87", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+StMarks -> Hotchkiss[label="4.0
+04/25", weight="96", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+StMarks -> Hopkins[label="16.9
+04/25", weight="84", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]}

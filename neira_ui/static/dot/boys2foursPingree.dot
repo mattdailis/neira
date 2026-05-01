@@ -1,0 +1,20 @@
+digraph boys2foursPingree {BUAcademy [URL="boys2foursPingreeBUAcademy.html"];Pingree [URL="boys2foursPingreePingree.html"];BrewsterAcademy [URL="boys2foursPingreeBrewsterAcademy.html"];Brooks [URL="boys2foursPingreeBrooks.html"];MarianapolisPrep [URL="boys2foursPingreeMarianapolisPrep.html"];BBN [URL="boys2foursPingreeBBN.html"];Pingree -> BUAcademy[label="15.0
+04/20", weight="85", tooltip="NEIRA Boys Fours,Pingree School, Boston University Academy			
+Distance: 1500 meters
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=23CC2067AD3F4FF2DCAAB53A534BC81E&cat=1", random="random"]; 
+MarianapolisPrep -> Pingree[label="10.0
+05/11", weight="90", tooltip="NEIRA Boys & Girls Fours,Pingree, Marianapolis Prep			
+Distance: 1500 meters Conditions: Significant chop from direct 12 kt headwind, gusting to 15 kt. Conditions were the same for all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DB29F5D60E0038080A5EDB5951FAE5BA&cat=5", random="random"]; 
+Brooks -> Pingree[label="29.7
+05/18", weight="71", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
+Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]; 
+BBN -> Pingree[label="28.8
+05/18", weight="72", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
+Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]; 
+BrewsterAcademy -> Pingree[label="3.5
+05/18", weight="97", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BB&N, Brewster, Pingree and Thayer			
+Distance: 1500m Conditions: Moderate (6-8 mph) crosswind/ cross headwind. Generally consistent throughout. B5 started 1-2 lengths over the line. Comments: Thanks everyone for a good afternoon of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58DEA62073910A6FCE2EB675464E90EB&cat=5", random="random"]}

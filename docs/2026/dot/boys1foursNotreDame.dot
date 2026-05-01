@@ -1,0 +1,16 @@
+digraph boys1foursNotreDame {Nobles [URL="boys1foursNobles.html"];StMarks [URL="boys1foursStMarks.html"];Hotchkiss [URL="boys1foursHotchkiss.html"];Hopkins [URL="boys1foursHopkins.html"];NotreDame [URL="boys1foursNotreDame.html"];Nobles -> NotreDame[label="28.1
+04/25", weight="72", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hotchkiss -> NotreDame[label="12.5
+04/25", weight="88", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+NotreDame -> Hopkins[label="6.7
+04/25", weight="94", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+NotreDame -> StMarks[label="14.2
+04/25", weight="86", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]}

@@ -1,0 +1,47 @@
+digraph boys4foursHopkins {Canterbury [URL="boys4foursHopkinsCanterbury.html"];BerkshireAcademy [URL="boys4foursHopkinsBerkshireAcademy.html"];Nobles [URL="boys4foursHopkinsNobles.html"];BelmontHill [URL="boys4foursHopkinsBelmontHill.html"];BrewsterAcademy [URL="boys4foursHopkinsBrewsterAcademy.html"];Taft [URL="boys4foursHopkinsTaft.html"];Pomfret [URL="boys4foursHopkinsPomfret.html"];LymeOldLyme [URL="boys4foursHopkinsLymeOldLyme.html"];Hopkins [URL="boys4foursHopkinsHopkins.html"];NMH [URL="boys4foursHopkinsNMH.html"];Nobles -> Hopkins[label="56.6
+05/18", weight="44", tooltip="NEIRA Boys , Pomfret v. Hopkins, Nobles			
+Distance: 1500M Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: B5, B4, B3, B6, B2, B1. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=36B37BA4661B961497A29CE5C39FC791&cat=1", random="random"]; 
+Pomfret -> Hopkins[label="6.1
+05/18", weight="94", tooltip="NEIRA Boys , Pomfret v. Hopkins, Nobles			
+Distance: 1500M Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: B5, B4, B3, B6, B2, B1. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=36B37BA4661B961497A29CE5C39FC791&cat=1", random="random"]; 
+BelmontHill -> Hopkins[label="67.1
+04/20", weight="33", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
+NMH -> Hopkins[label="29.4
+04/20", weight="71", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
+Pomfret -> Hopkins[label="20.0
+04/20", weight="80", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
+BerkshireAcademy -> Hopkins[label="11.5
+05/11", weight="89", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
+LymeOldLyme -> Hopkins[label="9.9
+05/11", weight="91", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
+Hopkins -> Canterbury[label="38.3
+05/11", weight="62", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
+Taft -> Hopkins[label="17.98
+05/05", weight="83", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Pomfret -> Hopkins[label="14.4
+05/05", weight="86", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BrewsterAcademy -> Hopkins[label="0.44
+05/05", weight="100", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> Hopkins[label="12.16
+05/05", weight="88", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Hopkins -> BerkshireAcademy[label="29.54
+05/05", weight="71", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

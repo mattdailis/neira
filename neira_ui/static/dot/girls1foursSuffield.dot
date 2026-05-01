@@ -1,0 +1,35 @@
+digraph girls1foursSuffield {Suffield [URL="girls1foursSuffieldSuffield.html"];Canterbury [URL="girls1foursSuffieldCanterbury.html"];Pomfret [URL="girls1foursSuffieldPomfret.html"];GreenwichAcademy [URL="girls1foursSuffieldGreenwichAcademy.html"];BerkshireAcademy [URL="girls1foursSuffieldBerkshireAcademy.html"];BrewsterAcademy [URL="girls1foursSuffieldBrewsterAcademy.html"];Middletown [URL="girls1foursSuffieldMiddletown.html"];MarianapolisPrep [URL="girls1foursSuffieldMarianapolisPrep.html"];LymeOldLyme [URL="girls1foursSuffieldLymeOldLyme.html"];Hopkins [URL="girls1foursSuffieldHopkins.html"];NMH [URL="girls1foursSuffieldNMH.html"];Middletown -> Suffield[label="21.0
+04/18", weight="79", tooltip="NEIRA Girls Fours,Suffield Academy vs. Middletown			
+Distance: 1500 Conditions: Variety Girls 1
+coxed 4s
+strong tail current, modern head wind, moderate chop.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2AFDF758778B38E961BC1C1092DCA2B8&cat=1", random="random"]; 
+MarianapolisPrep -> Suffield[label="22.0 (23.57)
+04/29", weight="78", tooltip="NEIRA Boys & Girls Fours,Suffield Academy vs. Marianapolis			
+Distance: 1400 Conditions: Severe chop at the start and severe tail wind. Shift to light tail/starboard wind for the last 1100 meters.
+More wind and chop at the start as the day progressed (more for girls 4, more for boys varsity 2)
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=8CCAFC10198F257F661CCA17A80627CA&cat=5", random="random"]; 
+BrewsterAcademy -> Suffield[label="61.21
+05/05", weight="39", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Canterbury -> Suffield[label="60.14
+05/05", weight="40", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> Suffield[label="55.35
+05/05", weight="45", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+BerkshireAcademy -> Suffield[label="48.11
+05/05", weight="52", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Pomfret -> Suffield[label="22.8
+05/05", weight="78", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Hopkins -> Suffield[label="67.4
+05/05", weight="33", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> Suffield[label="61.85
+05/05", weight="39", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+GreenwichAcademy -> Suffield[label="60.1
+05/05", weight="40", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

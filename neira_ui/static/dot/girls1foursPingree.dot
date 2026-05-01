@@ -1,0 +1,12 @@
+digraph girls1foursPingree {Pingree [URL="girls1foursPingreePingree.html"];StMarks [URL="girls1foursPingreeStMarks.html"];BUAcademy [URL="girls1foursPingreeBUAcademy.html"];MarianapolisPrep [URL="girls1foursPingreeMarianapolisPrep.html"];MarianapolisPrep -> Pingree[label="131.0
+05/11", weight="-31", tooltip="NEIRA Boys & Girls Fours,Pingree, Marianapolis Prep			
+Distance: 1500 meters Conditions: Significant chop from direct 12 kt headwind, gusting to 15 kt. Conditions were the same for all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DB29F5D60E0038080A5EDB5951FAE5BA&cat=5", random="random"]; 
+StMarks -> Pingree[label="39.0
+05/05", weight="61", tooltip="NEIRA Boys & Girls Fours,Pingree, St. Mary's, Dublin, Lowell High			
+Distance: 1500 meters
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1FC84CA27BD452269AD455A4A9687A9D&cat=5", random="random"]; 
+BUAcademy -> Pingree[label="40.0
+04/20", weight="60", tooltip="NEIRA Girls Fours,Pingree School, Boston University Academy			
+Distance: 1500 meters
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F3BA116ED6CBF64FC2111D7DC005C4D7&cat=1", random="random"]}

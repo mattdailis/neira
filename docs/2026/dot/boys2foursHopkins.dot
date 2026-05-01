@@ -1,0 +1,39 @@
+digraph boys2foursHopkins {NMH [URL="boys2foursNMH.html"];Nobles [URL="boys2foursNobles.html"];StMarks [URL="boys2foursStMarks.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];Hopkins [URL="boys2foursHopkins.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];BelmontHill [URL="boys2foursBelmontHill.html"];NotreDame [URL="boys2foursNotreDame.html"];BelmontHill -> Hopkins[label="76.6
+04/18", weight="24", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+NMH -> Hopkins[label="45.3
+04/18", weight="55", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+Hopkins -> StMarysLynn[label="21.9
+04/18", weight="79", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+LymeOldLyme -> Hopkins[label="42.4
+04/11", weight="58", tooltip="NEIRA Boys & Girls Fours,Greenwich Country day, Hopkins, Lyme/Old Lyme			
+Distance: 1500 Conditions: 7-15MPH cross tail to tail wind, higher gusts throughout the course. The starting line had the calmest wind to allow for good line ups. Comments: in the B4V4 Race Hopkins 2nd seat had a foot stretcher breakage at the 500m mark, they fixed it on water and continued to race. B5V4 was a novice race. G2V4 has Hopkins V3 race. G4V4 was composed of Hopkins v4, and v5 and LOL GN4. 
+It was a sunny but windy day out on rogers lake. Although it was windy that made for some fast times for all those who went out! Lyme Old Lyme would like to thank the coaches and athletes of GCD and HOP for coming to our lake and racing with us. We hope to see you both at the NEIRA championships and with better conditions.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3B1153FE690E4898C0E1D49FADA7D290&cat=5", random="random"]; 
+Nobles -> Hopkins[label="51.0
+04/25", weight="49", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hotchkiss -> Hopkins[label="33.1
+04/25", weight="67", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+StMarks -> Hopkins[label="2.0
+04/25", weight="98", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hopkins -> NotreDame[label="6.6
+04/25", weight="94", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]}

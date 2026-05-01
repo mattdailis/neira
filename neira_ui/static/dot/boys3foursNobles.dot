@@ -1,0 +1,52 @@
+digraph boys3foursNobles {Nobles [URL="boys3foursNoblesNobles.html"];BelmontHill [URL="boys3foursNoblesBelmontHill.html"];Brooks [URL="boys3foursNoblesBrooks.html"];Groton [URL="boys3foursNoblesGroton.html"];Pomfret [URL="boys3foursNoblesPomfret.html"];BBN [URL="boys3foursNoblesBBN.html"];StMarks [URL="boys3foursNoblesStMarks.html"];Hopkins [URL="boys3foursNoblesHopkins.html"];NMH [URL="boys3foursNoblesNMH.html"];Nobles -> Pomfret[label="24.3
+05/18", weight="76", tooltip="NEIRA Boys , Pomfret v. Hopkins, Nobles			
+Distance: 1500M Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: B5, B4, B3, B6, B2, B1. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=36B37BA4661B961497A29CE5C39FC791&cat=1", random="random"]; 
+Nobles -> Hopkins[label="33.6
+05/18", weight="67", tooltip="NEIRA Boys , Pomfret v. Hopkins, Nobles			
+Distance: 1500M Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: B5, B4, B3, B6, B2, B1. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=36B37BA4661B961497A29CE5C39FC791&cat=1", random="random"]; 
+Nobles -> NMH[label="27.7
+05/11", weight="73", tooltip="NEIRA Boys & Girls Fours,NMH vs Nobles and Deerfield			
+Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&cat=5", random="random"]; 
+BelmontHill -> Nobles[label="8.8 (10.15)
+05/04", weight="92", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
+Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&cat=1", random="random"]; 
+Nobles -> Brooks[label="19.0
+04/13", weight="81", tooltip="NEIRA Boys & Girls Fours,Brooks vs. Nobles			
+Distance: ~1500m Conditions: Gusty headwind (15-25 mph) in moderate chop along lee shore. Crews had approximately the same conditions. Lane assignments probably affected times somewhat. Comments: Challenging conditions overcome by the constructive attitudes of all the coaches and race enthusiasm of athletes. Thanks to a strong Nobles team for coming up for some raw weather racing in early April. We were pleased to get the races in.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=947B7F9F873E76F39BBF493ADD420814&cat=5", random="random"]; 
+Nobles -> StMarks[label="35.9
+04/27", weight="65", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Brewster, NCDS			
+Distance: 1500 Conditions: Variable headwind, started out light for G4 and B4 races and gradually built up to a steady headwind, especially at the last 500m. Gusts up to 15mph at moments. Comments: Races were all started on the line and it was a great day on the Lake. Thanks to all the crews who came out to race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A6F3B0420129EB02E75FD2608D0C3CD5&cat=5", random="random"]; 
+Nobles -> Groton[label="1.2 (1.33)
+04/20", weight="99", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
+Distance: 1350m Conditions: Excellent conditions.
+Cloudy and cool
+Mostly flat water.
+A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&N clashed blades for roughly the first 20 strokes due to Groton moving into BB&N's lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
+5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
+NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
+BB&N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
+Times for this race were:
+Nobles: 2:22.3
+BB&N: 2:30.1
+many thanks to all crews and coaches for a great day of racing for full teams.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]; 
+Nobles -> BBN[label="21.3 (23.67)
+04/20", weight="79", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
+Distance: 1350m Conditions: Excellent conditions.
+Cloudy and cool
+Mostly flat water.
+A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&N clashed blades for roughly the first 20 strokes due to Groton moving into BB&N's lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
+5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
+NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
+BB&N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
+Times for this race were:
+Nobles: 2:22.3
+BB&N: 2:30.1
+many thanks to all crews and coaches for a great day of racing for full teams.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]}

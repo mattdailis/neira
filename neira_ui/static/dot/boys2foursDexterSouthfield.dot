@@ -1,0 +1,8 @@
+digraph boys2foursDexterSouthfield {BrewsterAcademy [URL="boys2foursDexterSouthfieldBrewsterAcademy.html"];WorcesterAcademy [URL="boys2foursDexterSouthfieldWorcesterAcademy.html"];DexterSouthfield [URL="boys2foursDexterSouthfieldDexterSouthfield.html"];WorcesterAcademy -> DexterSouthfield[label="148.4
+05/15", weight="-48", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]; 
+BrewsterAcademy -> DexterSouthfield[label="132.2
+05/15", weight="-32", tooltip="NEIRA Boys & Girls Fours,Worcester Academy vs. Bancroft, Medford, Dexter-Southfield and Brewster Academy			
+Distance: 1500 m Conditions: Very light winds throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7673709177C626391ABCF760AC9A91FE&cat=5", random="random"]}

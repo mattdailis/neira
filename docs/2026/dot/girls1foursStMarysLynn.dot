@@ -1,0 +1,16 @@
+digraph girls1foursStMarysLynn {NMH [URL="girls1foursNMH.html"];GreenwichCountryDay [URL="girls1foursGreenwichCountryDay.html"];Pomfret [URL="girls1foursPomfret.html"];StMarysLynn [URL="girls1foursStMarysLynn.html"];Hopkins [URL="girls1foursHopkins.html"];GreenwichCountryDay -> StMarysLynn[label="12.1 (13.96)
+04/15", weight="88", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
+Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
+NMH -> StMarysLynn[label="57.8
+04/18", weight="43", tooltip="NEIRA Girls Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500m Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Good conditions, improved slightly over the course of race. Alternated races with boys. Girls order of racing was: G2, G3, G4, G1, G5. Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D135C7D3C8063F54C17801E533F8E493&cat=1", random="random"]; 
+Pomfret -> StMarysLynn[label="40.4
+04/18", weight="60", tooltip="NEIRA Girls Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500m Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Good conditions, improved slightly over the course of race. Alternated races with boys. Girls order of racing was: G2, G3, G4, G1, G5. Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D135C7D3C8063F54C17801E533F8E493&cat=1", random="random"]; 
+Hopkins -> StMarysLynn[label="35.1
+04/18", weight="65", tooltip="NEIRA Girls Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500m Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Good conditions, improved slightly over the course of race. Alternated races with boys. Girls order of racing was: G2, G3, G4, G1, G5. Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D135C7D3C8063F54C17801E533F8E493&cat=1", random="random"]}

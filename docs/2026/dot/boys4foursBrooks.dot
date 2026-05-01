@@ -1,0 +1,24 @@
+digraph boys4foursBrooks {Brooks [URL="boys4foursBrooks.html"];Middlesex [URL="boys4foursMiddlesex.html"];CambridgeRLS [URL="boys4foursCambridgeRLS.html"];DexterSouthfield [URL="boys4foursDexterSouthfield.html"];NMH [URL="boys4foursNMH.html"];StMarks [URL="boys4foursStMarks.html"];Brooks -> Middlesex[label="27.5
+04/18", weight="73", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Brooks -> DexterSouthfield[label="42.8
+04/18", weight="58", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Brooks -> StMarks[label="88.7
+04/18", weight="12", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+CambridgeRLS -> Brooks[label="7.2
+04/25", weight="93", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+Brooks -> NMH[label="22.4
+04/25", weight="78", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+Brooks -> Middlesex[label="35.7
+04/25", weight="65", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]}

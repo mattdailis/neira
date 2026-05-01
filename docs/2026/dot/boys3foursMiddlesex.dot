@@ -1,0 +1,28 @@
+digraph boys3foursMiddlesex {Brooks [URL="boys3foursBrooks.html"];Middlesex [URL="boys3foursMiddlesex.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];DexterSouthfield [URL="boys3foursDexterSouthfield.html"];NMH [URL="boys3foursNMH.html"];StMarks [URL="boys3foursStMarks.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Brooks -> Middlesex[label="27.7
+04/18", weight="73", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+DexterSouthfield -> Middlesex[label="4.6
+04/18", weight="96", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Middlesex -> StMarks[label="30.5
+04/18", weight="70", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Brooks -> Middlesex[label="62.4
+04/25", weight="38", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+CambridgeRLS -> Middlesex[label="51.5
+04/25", weight="49", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+NMH -> Middlesex[label="28.1
+04/25", weight="72", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+BelmontHill -> Middlesex[label="37.2
+04/22", weight="63", tooltip="NEIRA Boys Fours, Middlesex v. Belmont Hill			
+Distance: 1,500 Conditions: Consistent light to moderate tail wind for all races. Comments: 3rd boats started about a length over the line.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=894AF5053019C1BDE8DA3D03C4AB9A24&cat=1", random="random"]}

@@ -1,0 +1,22 @@
+digraph boys6foursNobles {BBN [URL="boys6foursNoblesBBN.html"];Nobles [URL="boys6foursNoblesNobles.html"];BelmontHill [URL="boys6foursNoblesBelmontHill.html"];NMH [URL="boys6foursNoblesNMH.html"];NMH -> Nobles[label="1.7
+05/11", weight="99", tooltip="NEIRA Boys & Girls Fours,NMH vs Nobles and Deerfield			
+Distance: 1400m (upriver) Conditions: Beautiful conditions, with light chop and moderate current building slightly through the afternoon. All races started from the same position, but conditions seemed a bit faster for the lower boats compared with the first boat races. Comments: Thank you to Nobles and Deerfield athletes and coaches for some great racing today on the beautiful Connecticut River.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=ECD4EEF2AD48B36F9C3A8B012076D26E&cat=5", random="random"]; 
+Nobles -> BelmontHill[label="1.1 (1.27)
+05/04", weight="99", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup +			
+Distance: 1300m Conditions: excellent water, modest wind shifting from mainly cross to mainly head as the racing progressed. Order of racing was 4V8, 3V4, 6V4, 5V4, 4V4/2V4/1V4 Comments: Thanks to all of the Nobles crews for making the trip downstream for a terrific day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A5B89B2E3F4229F69333FE91D686A8AC&cat=1", random="random"]; 
+Nobles -> BBN[label="13.0 (14.44)
+04/20", weight="87", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
+Distance: 1350m Conditions: Excellent conditions.
+Cloudy and cool
+Mostly flat water.
+A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&N clashed blades for roughly the first 20 strokes due to Groton moving into BB&N's lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
+5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
+NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
+BB&N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
+Times for this race were:
+Nobles: 2:22.3
+BB&N: 2:30.1
+many thanks to all crews and coaches for a great day of racing for full teams.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]}

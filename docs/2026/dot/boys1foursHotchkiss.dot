@@ -1,0 +1,20 @@
+digraph boys1foursHotchkiss {Nobles [URL="boys1foursNobles.html"];StMarks [URL="boys1foursStMarks.html"];Hotchkiss [URL="boys1foursHotchkiss.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];Hopkins [URL="boys1foursHopkins.html"];NotreDame [URL="boys1foursNotreDame.html"];Nobles -> Hotchkiss[label="15.6
+04/25", weight="85", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hotchkiss -> NotreDame[label="12.5
+04/25", weight="88", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hotchkiss -> Hopkins[label="19.2
+04/25", weight="81", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hotchkiss -> StMarks[label="26.7
+04/25", weight="74", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+BerkshireAcademy -> Hotchkiss[label="2.3
+04/15", weight="98", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Hotchkiss			
+Distance: 1500 M Conditions: Very warm; mostly sunny; 7-10 mph tail/quartering tail wind, light at the start and strongest with some chop in the last 500. Comments: In G3, a Berkshire rower came off her seat, but managed to recover. Thanks to Hotchkiss for a great season-opening race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BBABA0AE400667015967B3BE279E6CA4&cat=5", random="random"]}

@@ -70,7 +70,7 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
         cursor.execute(
             """
             select regatta.id
-            from neira.regattas regatta
+            from neira.regatta_versions regatta
             join neira.regatta_statuses rstatus
             on regatta.id = rstatus.regatta_id
             join neira.regatta_checksums checksum on regatta.id = checksum.regatta_id
@@ -95,7 +95,7 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
         if not skip_insert:
             cursor.execute(
                 """
-                insert into neira.regattas
+                insert into neira.regatta_versions
                 (uid, year, date, name, comment, distance, url, location)
                 values
                 (%(uid)s, %(year)s, %(date)s, %(name)s, %(comment)s, %(distance)s, %(url)s, %(location)s)
@@ -216,20 +216,10 @@ def write_regatta(uid, regatta, status, scrape_id, parent_id=None, producer=None
 
 
 def get_heats(year, class_, gender, varsity_index, cursor=None):
-    status = "2_cleaned"
+    status = "3_reviewed"
     with get_cursor(cursor) as cursor:
         cursor.execute(
             """
-            with relevant_regattas as (
-                select distinct on (uid) id
-                from neira.regattas regatta
-                join neira.regatta_statuses rstatus
-                on regatta.id = rstatus.regatta_id
-                where regatta.year = %(year)s
-                and rstatus.status = %(status)s
-                order by uid, rstatus.scrape_id desc
-            )
-
             select
                 heat.id as heat_id,
                 regatta.uid as uid,
@@ -244,10 +234,11 @@ def get_heats(year, class_, gender, varsity_index, cursor=None):
             from neira.regattas regatta
             join neira.heats heat on regatta.id = heat.regatta_id
             join neira.results result on heat.id = result.heat_id
-            where heat.gender = %(gender)s
+            where regatta.year = %(year)s
+            and regatta.status = %(status)s
+            and heat.gender = %(gender)s
             and heat.class = %(class)s
-            and heat.varsity_index = %(varsity_index)s
-            and regatta.id in (select id from relevant_regattas);
+            and heat.varsity_index = %(varsity_index)s;
             """,
             dict(
                 year=year,
@@ -329,7 +320,6 @@ def get_regatta_uids(year):
         with conn.cursor() as cursor:
             cursor.execute(
                 """
-                
                 select distinct uid from neira.regattas
                 where year=%(year)s;
                 """,
@@ -347,27 +337,22 @@ def get_regattas_review_status(year, cursor=None):
     with get_cursor(cursor) as cursor:
         cursor.execute(
             """
-            select regatta.id as regatta_id, rstatus.scrape_id, uid, year,  date, name, rstatus.status, comment, distance, correction.id as correction_id, rp.parent_id
+            select regatta.id as regatta_id, uid, year,  date, name, regatta.status, comment, distance, correction.id as correction_id, regatta.parent_id
             from neira.regattas regatta
-            join neira.regatta_statuses rstatus
-            on regatta.id = rstatus.regatta_id
-            left join neira.regatta_parents rp on regatta.id = rp.child_id
-            left join neira.regatta_checksums checksum on regatta.id = checksum.regatta_id
-            left join neira.corrections correction on regatta.uid = correction.regatta_uid and checksum.checksum = correction.checksum
+            left join neira.corrections correction on regatta.uid = correction.regatta_uid and regatta.checksum = correction.checksum
             where year=%(year)s
-            order by rstatus.scrape_id
             """,
             dict(
                 year=year
             )
         )
         regattas = {}
-        for regatta_id, scrape_id, regatta_uid, year, date, name, status, comment, distance, correction_id, parent_id in cursor:
+        for regatta_id, regatta_uid, year, date, name, status, comment, distance, correction_id, parent_id in cursor:
             if regatta_uid not in regattas:
                 regattas[regatta_uid] = []
             regattas[regatta_uid].append({
                 "regatta_id": regatta_id, 
-                "scrape_id": scrape_id,
+                # "scrape_id": scrape_id,
                 "regatta_uid": regatta_uid,
                 "year": year,
                 "date": date,
@@ -396,31 +381,18 @@ def get_regatta_for_review(regatta_uid, cursor=None):
     with get_cursor(cursor) as cursor:
         cursor.execute(
             """
-            with relevant_regattas as (
-                select distinct on (rstatus.status) id
-                from neira.regattas regatta
-                join neira.regatta_statuses rstatus
-                on regatta.id = rstatus.regatta_id
-                where regatta.uid = %(regatta_uid)s
-                order by rstatus.status, rstatus.scrape_id desc
-            )
             select
                 regatta.id as regatta_id,
-                rstatus.status as status,
+                regatta.status as status,
                 regatta.name,
                 regatta.date,
                 regatta.distance,
                 regatta.comment,
                 regatta.url,
-                regatta_parent.parent_id,
-                checksum.checksum
+                regatta.parent_id,
+                regatta.checksum
             from neira.regattas regatta
-            join neira.regatta_statuses rstatus
-            on regatta.id = rstatus.regatta_id
-            join neira.regatta_checksums checksum
-            on regatta.id = checksum.regatta_id
-            left join neira.regatta_parents regatta_parent on regatta.id = regatta_parent.child_id
-            where regatta.id in (select id from relevant_regattas)
+            where regatta.uid = %(regatta_uid)s
             """,
             dict(
                 regatta_uid=regatta_uid
@@ -488,7 +460,7 @@ def get_regatta_by_checksum(regatta_uid, checksum, cursor=None):
         cursor.execute(
             """
             select id
-            from neira.regattas regatta
+            from neira.regatta_versions regatta
             join neira.regatta_checksums checksum
             on regatta.id = checksum.regatta_id
             where checksum.checksum = %(checksum)s
@@ -516,12 +488,8 @@ def get_regatta(regatta_uid, status, cursor=None):
             """
             select id
             from neira.regattas regatta
-            join neira.regatta_statuses rstatus
-            on regatta.id = rstatus.regatta_id
-            where rstatus.status = %(status)s
+            where regatta.status = %(status)s
             and regatta.uid = %(regatta_uid)s
-            order by rstatus.scrape_id desc
-            limit 1
             """,
             dict(
                 regatta_uid=regatta_uid,
@@ -549,7 +517,7 @@ def get_regattas_by_id(regatta_ids, cursor=None):
                 regatta.comment,
                 regatta.url,
                 regatta.location
-            from neira.regattas regatta
+            from neira.regatta_versions regatta --we have the actual ids (not uids), so we look it up in the original table
             join neira.regatta_statuses rstatus
             on regatta.id = rstatus.regatta_id
             where regatta.id = any(%(regatta_ids)s);
@@ -878,47 +846,15 @@ def get_school_locations(cursor=None):
 
 def get_regattas_for_map(year, cursor=None):
     with get_cursor(cursor) as cursor:
-        cursor.execute(
-            """
-            with relevant_regattas as (
-                select distinct on (uid) id
-                from neira.regattas regatta
-                join neira.regatta_statuses rstatus
-                on regatta.id = rstatus.regatta_id
-                where regatta.year=%(year)s
-                and rstatus.status = '3_reviewed'
-                order by uid, rstatus.scrape_id desc
-            )
-            select distinct regatta.uid, result.school_name
-                from neira.results result
-                join neira.heats heat on heat.id = result.heat_id
-                join neira.regattas regatta on regatta.id = heat.regatta_id
-                where regatta_id in (select id from relevant_regattas)
-                order by regatta.uid;
-            """,
-            dict(year=year)
-        )
-
-        schools_by_uid = defaultdict(list)
-
-        for uid, school_name in cursor:
-            schools_by_uid[uid].append(school_name)
+        schools_by_uid = get_schools_by_regatta(2025)
 
         cursor.execute(
             """
-            with relevant_regattas as (
-                select distinct on (uid) id
-                from neira.regattas regatta
-                join neira.regatta_statuses rstatus
-                on regatta.id=rstatus.regatta_id
-                where regatta.year=%(year)s
-                and rstatus.status='3_reviewed'
-                order by uid, rstatus.scrape_id desc
-            )
             select distinct regatta.uid, heat.class, heat.gender
                 from neira.heats heat
                 join neira.regattas regatta on regatta.id = heat.regatta_id
-                where regatta_id in (select id from relevant_regattas)
+                where regatta.year=%(year)s
+                and regatta.status='3_reviewed'
                 order by regatta.uid;
             """,
             dict(
@@ -933,26 +869,23 @@ def get_regattas_for_map(year, cursor=None):
 
         cursor.execute(
             """
-            select regatta.id as regatta_id, rstatus.scrape_id, uid, year,  date, name, rstatus.status, comment, distance, location, url
+            select regatta.id as regatta_id, uid, year,  date, name, regatta.status, comment, distance, location, url
             from neira.regattas regatta
-            join neira.regatta_statuses rstatus
-            on regatta.id = rstatus.regatta_id
             where year=%(year)s
-            and rstatus.status='2_cleaned'
+            and regatta.status='2_cleaned'
             and location is not null
-            order by rstatus.scrape_id
             """,
             dict(
                 year=year
             )
         )
         regattas = {}
-        for regatta_id, scrape_id, regatta_uid, year, date, name, status, comment, distance, location, url in cursor:
+        for regatta_id, regatta_uid, year, date, name, status, comment, distance, location, url in cursor:
             if regatta_uid not in regattas:
                 regattas[regatta_uid] = []
             regattas[regatta_uid].append({
                 "regatta_id": regatta_id, 
-                "scrape_id": scrape_id,
+                # "scrape_id": scrape_id,
                 "regatta_uid": regatta_uid,
                 "year": year,
                 "date": date,
@@ -978,11 +911,42 @@ def get_regattas_for_map(year, cursor=None):
     return sorted(regattas.values(), key=lambda x: x[0]["date"])
 
 
+def get_schools_by_regatta(year, cursor=None):
+    with get_cursor(cursor=cursor) as cursor:
+        cursor.execute(
+            """
+            select distinct regatta.uid, result.school_name
+                from neira.results result
+                join neira.heats heat on heat.id = result.heat_id
+                join neira.regattas regatta on regatta.id = heat.regatta_id
+                where regatta.year=%(year)s
+                and regatta.status = '3_reviewed'
+                order by regatta.uid;
+            """,
+            dict(year=year)
+        )
+
+        schools_by_uid = defaultdict(list)
+
+        for uid, school_name in cursor:
+            schools_by_uid[uid].append(school_name)
+
+        return schools_by_uid
+
+def insert_founders_day():
+    with open("/Users/dailis/neiraseeding/neira/founders-day.json", "r") as f:
+        regatta = json.load(f)
+    with get_cursor(cursor=None) as cursor:
+        scrape_id = get_scrape_id(cursor=cursor)
+        write_regatta("founders-day-2025", regatta, "2_cleaned", scrape_id, cursor=cursor)
+
+
 if __name__ == '__main__':
     # logger.info(get_regatta("0B5A12BEAF8945DD81EB9EFB206E62F1", status="2_cleaned"))
     # insert_corrections()
-    set_coords()
+    # set_coords()
     # main()
     # get_coordinates()
     # set_school_locations()
+    insert_founders_day()
     

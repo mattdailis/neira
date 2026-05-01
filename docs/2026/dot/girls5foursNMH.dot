@@ -1,0 +1,20 @@
+digraph girls5foursNMH {Brooks [URL="girls5foursBrooks.html"];Middlesex [URL="girls5foursMiddlesex.html"];CambridgeRLS [URL="girls5foursCambridgeRLS.html"];NMH [URL="girls5foursNMH.html"];StMarysLynn [URL="girls5foursStMarysLynn.html"];Hopkins [URL="girls5foursHopkins.html"];NMH -> Hopkins[label="38.8
+04/18", weight="62", tooltip="NEIRA Girls Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500m Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Good conditions, improved slightly over the course of race. Alternated races with boys. Girls order of racing was: G2, G3, G4, G1, G5. Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D135C7D3C8063F54C17801E533F8E493&cat=1", random="random"]; 
+NMH -> StMarysLynn[label="108.0
+04/18", weight="-8", tooltip="NEIRA Girls Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500m Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Good conditions, improved slightly over the course of race. Alternated races with boys. Girls order of racing was: G2, G3, G4, G1, G5. Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D135C7D3C8063F54C17801E533F8E493&cat=1", random="random"]; 
+CambridgeRLS -> NMH[label="61.7
+04/25", weight="39", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+Middlesex -> NMH[label="59.2
+04/25", weight="41", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+Brooks -> NMH[label="39.1
+04/25", weight="61", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]}

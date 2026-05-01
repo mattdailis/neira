@@ -1,0 +1,24 @@
+digraph girls1foursWinsor {NewtonCountryDay [URL="girls1foursNewtonCountryDay.html"];BBN [URL="girls1foursBBN.html"];Choate [URL="girls1foursChoate.html"];GreenwichAcademy [URL="girls1foursGreenwichAcademy.html"];Winsor [URL="girls1foursWinsor.html"];Choate -> Winsor[label="6.2 (6.89)
+04/22", weight="94", tooltip="NEIRA Girls , Winsor School vs. Choate vs. NCDS			
+Distance: 1350 Conditions: 
+Fantastic racing on the busy powerhouse this Wednesday afternoon! Thank you to Choate for coming up and to NCDS for pivoting with some last minute schedule adjustments. 
+13mph steady head wind with a bit of chop for the last 400m, wind increased as racing went on and conditions slowed. 
+Order of racing: Novice 8+, G2, G3, G4, G5, G1. Comments: 6th boat: Novice 8+ of NCDS / Winsor
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=06CC0E20DAFC595AF823D0A12ECC21DF&cat=1", random="random"]; 
+Winsor -> NewtonCountryDay[label="29.9 (33.22)
+04/22", weight="71", tooltip="NEIRA Girls , Winsor School vs. Choate vs. NCDS			
+Distance: 1350 Conditions: 
+Fantastic racing on the busy powerhouse this Wednesday afternoon! Thank you to Choate for coming up and to NCDS for pivoting with some last minute schedule adjustments. 
+13mph steady head wind with a bit of chop for the last 400m, wind increased as racing went on and conditions slowed. 
+Order of racing: Novice 8+, G2, G3, G4, G5, G1. Comments: 6th boat: Novice 8+ of NCDS / Winsor
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=06CC0E20DAFC595AF823D0A12ECC21DF&cat=1", random="random"]; 
+Winsor -> GreenwichAcademy[label="3.2 (3.56)
+04/25", weight="97", tooltip="NEIRA Girls Fours, BB&N vs. Winsor and Greenwich Academy			
+Distance: 1350 Conditions: Great conditions overall. Flat water, slight crosswind. Order of racing 6-5-4-3-2-1 Comments: In the G6 race, Winsor caught an over the head crab in the first 100 meters. The crews were realigned, and the race was restarted from about 200 meters in. 
+In the G4 race, Greenwich steered off the race course in the last 200 meters, cutting to the finish. It did not impact order of finish, but likely impacted margins.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FF64D4F43520608F6821EDF862331DB3&cat=1", random="random"]; 
+Winsor -> BBN[label="9.0 (10.0)
+04/25", weight="91", tooltip="NEIRA Girls Fours, BB&N vs. Winsor and Greenwich Academy			
+Distance: 1350 Conditions: Great conditions overall. Flat water, slight crosswind. Order of racing 6-5-4-3-2-1 Comments: In the G6 race, Winsor caught an over the head crab in the first 100 meters. The crews were realigned, and the race was restarted from about 200 meters in. 
+In the G4 race, Greenwich steered off the race course in the last 200 meters, cutting to the finish. It did not impact order of finish, but likely impacted margins.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FF64D4F43520608F6821EDF862331DB3&cat=1", random="random"]}

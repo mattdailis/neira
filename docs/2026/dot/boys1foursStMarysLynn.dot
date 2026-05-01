@@ -1,0 +1,30 @@
+digraph boys1foursStMarysLynn {Thayer [URL="boys1foursThayer.html"];GreenwichCountryDay [URL="boys1foursGreenwichCountryDay.html"];NMH [URL="boys1foursNMH.html"];Hopkins [URL="boys1foursHopkins.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];BelmontHill [URL="boys1foursBelmontHill.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];StMarysLynn -> GreenwichCountryDay[label="33.5 (38.65)
+04/15", weight="67", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
+Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
+StMarysLynn -> Thayer[label="60.7 (70.04)
+04/15", weight="40", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
+Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
+StMarysLynn -> MarianapolisPrep[label="70.5 (81.35)
+04/15", weight="30", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
+Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
+BelmontHill -> StMarysLynn[label="31.9
+04/18", weight="69", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+NMH -> StMarysLynn[label="13.5
+04/18", weight="87", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+StMarysLynn -> Hopkins[label="10.2
+04/18", weight="90", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]}

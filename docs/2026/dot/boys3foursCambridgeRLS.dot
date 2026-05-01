@@ -1,0 +1,16 @@
+digraph boys3foursCambridgeRLS {Brooks [URL="boys3foursBrooks.html"];Middlesex [URL="boys3foursMiddlesex.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];NMH [URL="boys3foursNMH.html"];BBN [URL="boys3foursBBN.html"];Brooks -> CambridgeRLS[label="10.9
+04/25", weight="90", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+CambridgeRLS -> NMH[label="23.4
+04/25", weight="77", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+CambridgeRLS -> Middlesex[label="51.5
+04/25", weight="49", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+CambridgeRLS -> BBN[label="8.9 (9.89)
+04/11", weight="92", tooltip="NEIRA Boys & Girls Fours,BB&N vs CRLS (Mayor's Cup)			
+Distance: 1350 Conditions: Strong cross-tail wind from starboard throughout racing. Comments: Congratulations to CRLS girls for winning the Mayor's Cup by virtue of winning the 1st boat race. Due to absences on both sides of the boys' teams, several athletes from each team doubled up between the 1st and 2nd boats. To accommodate that, the order of racing was G5, B1, G4, B4, G3, B3, G2, B2, G1. The Mayor's Cup for the boys team will be contested at a later date when the 1st boats can race. Thanks to CRLS for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1A9140D19180C189B6A831FB6F435C23&cat=5", random="random"]}

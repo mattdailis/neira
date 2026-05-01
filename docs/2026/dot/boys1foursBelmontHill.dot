@@ -1,0 +1,26 @@
+digraph boys1foursBelmontHill {Middlesex [URL="boys1foursMiddlesex.html"];NMH [URL="boys1foursNMH.html"];BBN [URL="boys1foursBBN.html"];Hopkins [URL="boys1foursHopkins.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];BelmontHill [URL="boys1foursBelmontHill.html"];BelmontHill -> BBN[label="24.1 (26.78)
+04/25", weight="76", tooltip="NEIRA Boys Fours, BB&N vs. Belmont Hill (Ducey Cup)			
+Distance: 1350 Conditions: Great conditions overall. Flat water with a slight crosswind. In the 3rd boat race the wind direction shifted to be more of a headwind, but shifted back for the 2nd and 1st boat races. Order of races was 4-3-2-1. Comments: Belmont Hill School wins the Ducey Cup by winning the first boat race. In the 3rd boat race, Belmont Hill steered off course significantly near the finish line. It did not impact order of finish.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF12340A1F72D81B00DA7A14745EF5FE&cat=1", random="random"]; 
+BelmontHill -> NMH[label="18.4
+04/18", weight="82", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+BelmontHill -> StMarysLynn[label="31.9
+04/18", weight="69", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+BelmontHill -> Hopkins[label="42.1
+04/18", weight="58", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+BelmontHill -> Middlesex[label="21.7
+04/22", weight="79", tooltip="NEIRA Boys Fours, Middlesex v. Belmont Hill			
+Distance: 1,500 Conditions: Consistent light to moderate tail wind for all races. Comments: 3rd boats started about a length over the line.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=894AF5053019C1BDE8DA3D03C4AB9A24&cat=1", random="random"]}

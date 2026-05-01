@@ -1,0 +1,69 @@
+digraph girls2foursGreenwichAcademy {GreenwichCountryDay [URL="girls2foursGreenwichAcademyGreenwichCountryDay.html"];Hopkins [URL="girls2foursGreenwichAcademyHopkins.html"];Canterbury [URL="girls2foursGreenwichAcademyCanterbury.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademyGreenwichAcademy.html"];BerkshireAcademy [URL="girls2foursGreenwichAcademyBerkshireAcademy.html"];MissPorters [URL="girls2foursGreenwichAcademyMissPorters.html"];Pomfret [URL="girls2foursGreenwichAcademyPomfret.html"];LymeOldLyme [URL="girls2foursGreenwichAcademyLymeOldLyme.html"];Taft [URL="girls2foursGreenwichAcademyTaft.html"];Choate [URL="girls2foursGreenwichAcademyChoate.html"];NMH [URL="girls2foursGreenwichAcademyNMH.html"];Choate -> GreenwichAcademy[label="15.1
+05/18", weight="85", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire, Middletown			
+Distance: 1500m Conditions: Stiff crosswind in the first 500m, settling into a light tailwind for the last 1k. Mostly consistent wind with some gusts toward the end of day. Comments: Due to hotseating, order of races ran: B3, G2, G4, B2, B1, G1, B4, G3, GN. Choate G1 was a scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5D035A34420AED23599F466189189D99&cat=5", random="random"]; 
+Taft -> GreenwichAcademy[label="12.8
+05/18", weight="88", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire, Middletown			
+Distance: 1500m Conditions: Stiff crosswind in the first 500m, settling into a light tailwind for the last 1k. Mostly consistent wind with some gusts toward the end of day. Comments: Due to hotseating, order of races ran: B3, G2, G4, B2, B1, G1, B4, G3, GN. Choate G1 was a scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5D035A34420AED23599F466189189D99&cat=5", random="random"]; 
+GreenwichAcademy -> MissPorters[label="3.4
+05/18", weight="97", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire, Middletown			
+Distance: 1500m Conditions: Stiff crosswind in the first 500m, settling into a light tailwind for the last 1k. Mostly consistent wind with some gusts toward the end of day. Comments: Due to hotseating, order of races ran: B3, G2, G4, B2, B1, G1, B4, G3, GN. Choate G1 was a scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5D035A34420AED23599F466189189D99&cat=5", random="random"]; 
+GreenwichAcademy -> BerkshireAcademy[label="16.7
+05/18", weight="84", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Greenwich Academy, Choate, Miss Porter's, Taft, Berkshire, Middletown			
+Distance: 1500m Conditions: Stiff crosswind in the first 500m, settling into a light tailwind for the last 1k. Mostly consistent wind with some gusts toward the end of day. Comments: Due to hotseating, order of races ran: B3, G2, G4, B2, B1, G1, B4, G3, GN. Choate G1 was a scratch.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=5D035A34420AED23599F466189189D99&cat=5", random="random"]; 
+GreenwichAcademy -> LymeOldLyme[label="6.0
+05/11", weight="94", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
+GreenwichAcademy -> Hopkins[label="11.0
+05/11", weight="89", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
+GreenwichAcademy -> BerkshireAcademy[label="21.7
+05/11", weight="79", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
+GreenwichAcademy -> Canterbury[label="80.2
+05/11", weight="20", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Canterbury, Greenwich Academy, Hopkins, Lyme/Old Lyme			
+Distance: 1500 M Conditions: Overcast, 60 deg., calm for first 500, then very light (5 mph) and variable tail wind for latter 1000 M. Flat water throughout. Comments: Order of racing: G1, G2, B2, B1, G3, B4, B3, G4/nov. Berkshire doubled a rower from G2 to G4 (all-novice boat); Hopkins and Lyme doubled rowers from G3 to G4. B1: Berkshire and LOL encroached on Hopkins' lane approaching the finish, but Hopkins was judged to be too far back to have been impeded. G4: Lyme and Hopkins clashed oars briefly 300 meters from the finish, then separated. Lyme stopped a couple of strokes short of the line. Thanks to visiting teams for traveling, and to the coxswains for their generally excellent work.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=008A7D94A9DF93181CD94ED3239F2603&cat=5", random="random"]; 
+GreenwichAcademy -> GreenwichCountryDay[label="9.4 (11.28)
+05/04", weight="91", tooltip="NEIRA Girls Fours, Greenwich Academy vs. Greenwich Country Day School			
+Distance: 1250m Conditions: 1V race saw a light tailwind shifting to a cross tail in the final 500m. For the 2V, winds stayed directionally consistent, but picked up slightly in intensity. Clear skies, and aside from some mildly inconvenient wakes in the first race, smooth waters. Comments: Thanks to GCDS for helping organize and run a great race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=00841B9320232058185E0FBD16468B00&cat=1", random="random"]; 
+LymeOldLyme -> GreenwichAcademy[label="8.5
+04/27", weight="92", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+GreenwichAcademy -> MissPorters[label="1.9
+04/27", weight="99", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+GreenwichAcademy -> Canterbury[label="53.0
+04/27", weight="47", tooltip="NEIRA Boys & Girls Fours,Frederick Gunn vs Miss Porters, Canterbury, Lyme/Old Lyme, Greenwich Academy, Notre Dame			
+Distance: 1500m Conditions: Tailwind throughout the day 8-18mph. Calm in the starting area with the wind picking up more and more as crews made their way down the course.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3710F27F185D74B3D15DF923C787D9E1&cat=5", random="random"]; 
+GreenwichAcademy -> Hopkins[label="2.62
+05/05", weight="98", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+GreenwichAcademy -> BerkshireAcademy[label="23.98
+05/05", weight="77", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+GreenwichAcademy -> GreenwichCountryDay[label="31.2
+05/05", weight="69", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+GreenwichAcademy -> Canterbury[label="79.2
+05/05", weight="21", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+GreenwichAcademy -> Pomfret[label="16.67
+05/05", weight="84", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Taft -> GreenwichAcademy[label="16.62
+05/05", weight="84", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> GreenwichAcademy[label="12.08
+05/05", weight="88", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

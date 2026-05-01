@@ -1,0 +1,12 @@
+digraph boys2foursStMarysBayView {ValleyRegional [URL="boys2foursStMarysBayViewValleyRegional.html"];Lincoln [URL="boys2foursStMarysBayViewLincoln.html"];StMarysLynn [URL="boys2foursStMarysBayViewStMarysLynn.html"];StMarysBayView [URL="boys2foursStMarysBayViewStMarysBayView.html"];ValleyRegional -> StMarysBayView[label="20.6
+04/27", weight="80", tooltip="NEIRA Boys & Girls Fours,St. Mary Academy - Bay View, Lincoln, St. Mary's - Lynn, Valley Regional			
+Distance: 1500m Conditions: Mild headwind, slight chop, slack tide for the 1st girls race. Old Saybrook (not in league) also competed. Comments: Old Saybrook (not in league) raced in 2nd boys and 3rd girls events.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1004BB53FFEA236A97E11B8A53F16514&cat=5", random="random"]; 
+Lincoln -> StMarysBayView[label="7.6
+04/27", weight="93", tooltip="NEIRA Boys & Girls Fours,St. Mary Academy - Bay View, Lincoln, St. Mary's - Lynn, Valley Regional			
+Distance: 1500m Conditions: Mild headwind, slight chop, slack tide for the 1st girls race. Old Saybrook (not in league) also competed. Comments: Old Saybrook (not in league) raced in 2nd boys and 3rd girls events.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1004BB53FFEA236A97E11B8A53F16514&cat=5", random="random"]; 
+StMarysBayView -> StMarysLynn[label="37.0
+04/27", weight="63", tooltip="NEIRA Boys & Girls Fours,St. Mary Academy - Bay View, Lincoln, St. Mary's - Lynn, Valley Regional			
+Distance: 1500m Conditions: Mild headwind, slight chop, slack tide for the 1st girls race. Old Saybrook (not in league) also competed. Comments: Old Saybrook (not in league) raced in 2nd boys and 3rd girls events.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1004BB53FFEA236A97E11B8A53F16514&cat=5", random="random"]}

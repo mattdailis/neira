@@ -1,0 +1,17 @@
+digraph girls3foursWinsor {BBN [URL="girls3foursBBN.html"];Winsor [URL="girls3foursWinsor.html"];GreenwichAcademy [URL="girls3foursGreenwichAcademy.html"];Choate [URL="girls3foursChoate.html"];Choate -> Winsor[label="28.2 (31.33)
+04/22", weight="72", tooltip="NEIRA Girls , Winsor School vs. Choate vs. NCDS			
+Distance: 1350 Conditions: 
+Fantastic racing on the busy powerhouse this Wednesday afternoon! Thank you to Choate for coming up and to NCDS for pivoting with some last minute schedule adjustments. 
+13mph steady head wind with a bit of chop for the last 400m, wind increased as racing went on and conditions slowed. 
+Order of racing: Novice 8+, G2, G3, G4, G5, G1. Comments: 6th boat: Novice 8+ of NCDS / Winsor
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=06CC0E20DAFC595AF823D0A12ECC21DF&cat=1", random="random"]; 
+GreenwichAcademy -> Winsor[label="4.2 (4.67)
+04/25", weight="96", tooltip="NEIRA Girls Fours, BB&N vs. Winsor and Greenwich Academy			
+Distance: 1350 Conditions: Great conditions overall. Flat water, slight crosswind. Order of racing 6-5-4-3-2-1 Comments: In the G6 race, Winsor caught an over the head crab in the first 100 meters. The crews were realigned, and the race was restarted from about 200 meters in. 
+In the G4 race, Greenwich steered off the race course in the last 200 meters, cutting to the finish. It did not impact order of finish, but likely impacted margins.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FF64D4F43520608F6821EDF862331DB3&cat=1", random="random"]; 
+Winsor -> BBN[label="0.6 (0.67)
+04/25", weight="100", tooltip="NEIRA Girls Fours, BB&N vs. Winsor and Greenwich Academy			
+Distance: 1350 Conditions: Great conditions overall. Flat water, slight crosswind. Order of racing 6-5-4-3-2-1 Comments: In the G6 race, Winsor caught an over the head crab in the first 100 meters. The crews were realigned, and the race was restarted from about 200 meters in. 
+In the G4 race, Greenwich steered off the race course in the last 200 meters, cutting to the finish. It did not impact order of finish, but likely impacted margins.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FF64D4F43520608F6821EDF862331DB3&cat=1", random="random"]}

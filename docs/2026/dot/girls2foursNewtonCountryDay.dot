@@ -1,0 +1,34 @@
+digraph girls2foursNewtonCountryDay {NewtonCountryDay [URL="girls2foursNewtonCountryDay.html"];SacredHeart [URL="girls2foursSacredHeart.html"];Nobles [URL="girls2foursNobles.html"];Choate [URL="girls2foursChoate.html"];StMarks [URL="girls2foursStMarks.html"];Hotchkiss [URL="girls2foursHotchkiss.html"];Hopkins [URL="girls2foursHopkins.html"];Winsor [URL="girls2foursWinsor.html"];Choate -> NewtonCountryDay[label="50.5 (56.11)
+04/22", weight="50", tooltip="NEIRA Girls , Winsor School vs. Choate vs. NCDS			
+Distance: 1350 Conditions: 
+Fantastic racing on the busy powerhouse this Wednesday afternoon! Thank you to Choate for coming up and to NCDS for pivoting with some last minute schedule adjustments. 
+13mph steady head wind with a bit of chop for the last 400m, wind increased as racing went on and conditions slowed. 
+Order of racing: Novice 8+, G2, G3, G4, G5, G1. Comments: 6th boat: Novice 8+ of NCDS / Winsor
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=06CC0E20DAFC595AF823D0A12ECC21DF&cat=1", random="random"]; 
+Winsor -> NewtonCountryDay[label="37.2 (41.33)
+04/22", weight="63", tooltip="NEIRA Girls , Winsor School vs. Choate vs. NCDS			
+Distance: 1350 Conditions: 
+Fantastic racing on the busy powerhouse this Wednesday afternoon! Thank you to Choate for coming up and to NCDS for pivoting with some last minute schedule adjustments. 
+13mph steady head wind with a bit of chop for the last 400m, wind increased as racing went on and conditions slowed. 
+Order of racing: Novice 8+, G2, G3, G4, G5, G1. Comments: 6th boat: Novice 8+ of NCDS / Winsor
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=06CC0E20DAFC595AF823D0A12ECC21DF&cat=1", random="random"]; 
+NewtonCountryDay -> SacredHeart[label="11.6 (13.92)
+04/19", weight="89", tooltip="NEIRA Girls Fours, Newton Country Day vs Sacred Heart Greenwich			
+Distance: 1250 Conditions: Slight head wind and rain but the forecast told a worse tale than reality. Thanks to SHG for making the ride up. All crews raced with Courage and Confidence!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2A91554FD6256609D30391461689A8CB&cat=1", random="random"]; 
+Nobles -> NewtonCountryDay[label="30.5
+04/25", weight="70", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+StMarks -> NewtonCountryDay[label="29.3
+04/25", weight="71", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hotchkiss -> NewtonCountryDay[label="21.5
+04/25", weight="79", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+NewtonCountryDay -> Hopkins[label="2.2
+04/25", weight="98", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]}

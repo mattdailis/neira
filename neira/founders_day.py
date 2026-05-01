@@ -139,7 +139,6 @@ def founders_day():
                 "day": day,
                 "date": day,
                 "name": "Founder's Day Regatta",
-                "name": "Founder's Day Regatta",
                 "url": url,
                 "heats": heats,
             },

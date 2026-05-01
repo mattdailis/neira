@@ -1,0 +1,28 @@
+digraph boys5foursTaft {BBN [URL="boys5foursTaftBBN.html"];Taft [URL="boys5foursTaftTaft.html"];Groton [URL="boys5foursTaftGroton.html"];Pomfret [URL="boys5foursTaftPomfret.html"];BBN -> Taft[label="12.5
+05/11", weight="88", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Taft -> Pomfret[label="4.8
+05/11", weight="96", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Groton -> Taft[label="29.9
+04/27", weight="71", tooltip="NEIRA Boys ,Pomfret v. Groton, Taft			
+Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls' races interspersed).
+Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&cat=1", random="random"]; 
+Pomfret -> Taft[label="3.9
+04/27", weight="97", tooltip="NEIRA Boys ,Pomfret v. Groton, Taft			
+Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls' races interspersed).
+Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&cat=1", random="random"]}

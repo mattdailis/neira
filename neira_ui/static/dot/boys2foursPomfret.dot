@@ -1,0 +1,73 @@
+digraph boys2foursPomfret {Hopkins [URL="boys2foursPomfretHopkins.html"];BerkshireAcademy [URL="boys2foursPomfretBerkshireAcademy.html"];Nobles [URL="boys2foursPomfretNobles.html"];BelmontHill [URL="boys2foursPomfretBelmontHill.html"];BrewsterAcademy [URL="boys2foursPomfretBrewsterAcademy.html"];Groton [URL="boys2foursPomfretGroton.html"];Pomfret [URL="boys2foursPomfretPomfret.html"];BBN [URL="boys2foursPomfretBBN.html"];StMarks [URL="boys2foursPomfretStMarks.html"];LymeOldLyme [URL="boys2foursPomfretLymeOldLyme.html"];Taft [URL="boys2foursPomfretTaft.html"];Choate [URL="boys2foursPomfretChoate.html"];NMH [URL="boys2foursPomfretNMH.html"];Nobles -> Pomfret[label="23.8
+05/18", weight="77", tooltip="NEIRA Boys , Pomfret v. Hopkins, Nobles			
+Distance: 1500M Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: B5, B4, B3, B6, B2, B1. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=36B37BA4661B961497A29CE5C39FC791&cat=1", random="random"]; 
+Hopkins -> Pomfret[label="5.5
+05/18", weight="95", tooltip="NEIRA Boys , Pomfret v. Hopkins, Nobles			
+Distance: 1500M Conditions: Solid cross headwind (starboard to port), steady 10-15 MPH, occasional gusts up to ~20MPH throughout. Light but steady rain through most of the racing. Comments: Races alternated between girls and boys. Order of races: B5, B4, B3, B6, B2, B1. Thanks to Hopkins and Nobles for good racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=36B37BA4661B961497A29CE5C39FC791&cat=1", random="random"]; 
+BBN -> Pomfret[label="5.4
+05/11", weight="95", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Pomfret -> Taft[label="2.0
+05/11", weight="98", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+Pomfret -> StMarks[label="8.8
+05/11", weight="92", tooltip="NEIRA Boys ,Pomfret v. BB&N, Gunn, St. Mark's, Taft: du Pont Cup			
+Distance: 1500 Conditions: ~9MPH crossing headwind from lane 6 to lane 1, with occasional gusts. Beginning of race slightly choppier than finish. Conditions seemed to improve marginally by last race (B1). Comments: Alternated races with girls races. Order of boys races: B5, B6, B4, B3, B2, B1.
+St. Mark's 5 missed B5 race start time and raced in B6 race.
+Gunn was a scratch in the B1 race.
+Pomfret B3 caught two minor crabs early in its race.
+Crossing wind pushed almost all boats at least one lane to port. Many referee calls for boats to move to starboard.
+Congratulations to Taft B1 for winning the 2024 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=223C7EB1077C538878AD4347B31C5F01&cat=1", random="random"]; 
+BelmontHill -> Pomfret[label="25.8
+04/20", weight="75", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
+NMH -> Pomfret[label="22.8
+04/20", weight="78", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
+Hopkins -> Pomfret[label="2.4
+04/20", weight="98", tooltip="NEIRA Boys ,Pomfret v. Belmont Hill, Northfield Mt. Hermon, Hopkins			
+Distance: 1500M Conditions: Very light wind, perhaps slight crossing WSW tail at times of no more than 5MPH. Conditions similar throughout. No current. Comments: Race order: B4, B3, B2, B1. Thanks to BH, NMH, and Hopkins for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6B986013DA22E26BC236F424721DEE8&cat=1", random="random"]; 
+Groton -> Pomfret[label="10.9
+04/27", weight="90", tooltip="NEIRA Boys ,Pomfret v. Groton, Taft			
+Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls' races interspersed).
+Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&cat=1", random="random"]; 
+Pomfret -> Taft[label="0.4
+04/27", weight="100", tooltip="NEIRA Boys ,Pomfret v. Groton, Taft			
+Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls' races interspersed).
+Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&cat=1", random="random"]; 
+Pomfret -> BerkshireAcademy[label="7.2
+04/24", weight="93", tooltip="NEIRA Boys Fours,Pomfret v. Berkshire, Marianapolis			
+Distance: 1500M Conditions: Swirling, gusty winds - 12 to 15MPH, with stronger gusts. Slight tail at the start for first 300 meters, switching to a crossing through 800M mark, then crossing headwind, some strong crossing gusts. Despite the wind, not much chop on the water. Comments: Order of Races, B4, B3, B2, B1 with girls' races in between.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F948FF189D877062CEBEAD4C9A9EE5CF&cat=1", random="random"]; 
+Pomfret -> Choate[label="10.33
+05/05", weight="90", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+Pomfret -> BrewsterAcademy[label="34.93
+05/05", weight="66", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+NMH -> Pomfret[label="5.19
+05/05", weight="95", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]; 
+LymeOldLyme -> Pomfret[label="1.02
+05/05", weight="99", tooltip="Founder's Day Regatta			
+Conditions: Some cross wind in the first 500m shifting into a light tail wind in the last 1k. Teams with multiple boats in a single event only progressed the faster boat even if both finished top 3.", URL="https://www.row2k.com/results/resultspage.cfm?UID=7AC6352FAB62A8BCE52618B8C7A7971D&cat=6", random="random"]}

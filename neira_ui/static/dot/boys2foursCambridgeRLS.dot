@@ -1,0 +1,32 @@
+digraph boys2foursCambridgeRLS {BelmontHill [URL="boys2foursCambridgeRLSBelmontHill.html"];Brooks [URL="boys2foursCambridgeRLSBrooks.html"];BBN [URL="boys2foursCambridgeRLSBBN.html"];Groton [URL="boys2foursCambridgeRLSGroton.html"];CambridgeRLS [URL="boys2foursCambridgeRLSCambridgeRLS.html"];Middlesex [URL="boys2foursCambridgeRLSMiddlesex.html"];NMH [URL="boys2foursCambridgeRLSNMH.html"];BelmontHill -> CambridgeRLS[label="20.6 (23.77)
+04/24", weight="80", tooltip="NEIRA Boys Fours,Belmont Hill, Middlesex, CRLS			
+Distance: 1300 Conditions: Good water with swirling winds -- sometimes cross-head, sometimes cross-tail, sometimes straight cross, varying race-to-race. Comments: The 3V4 race was action-packed: MX caught an over-the-head, boat-stopping crab just over a minute into the race, while the 3-seat of the BHS crew had his oar pop out of his oarlock not once but twice during the race; these incidents caused stoppages of significant duration for both crews. An oarsman in the CRLS 1V4 tested positive for Covid prior to the race and the crew was thus unable to compete today.
+Thanks to Middlesex and CRLS for a great day of racing on the Charles!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95B6D80715F8274903E678063EA5058A&cat=1", random="random"]; 
+CambridgeRLS -> Middlesex[label="5.4 (6.23)
+04/24", weight="95", tooltip="NEIRA Boys Fours,Belmont Hill, Middlesex, CRLS			
+Distance: 1300 Conditions: Good water with swirling winds -- sometimes cross-head, sometimes cross-tail, sometimes straight cross, varying race-to-race. Comments: The 3V4 race was action-packed: MX caught an over-the-head, boat-stopping crab just over a minute into the race, while the 3-seat of the BHS crew had his oar pop out of his oarlock not once but twice during the race; these incidents caused stoppages of significant duration for both crews. An oarsman in the CRLS 1V4 tested positive for Covid prior to the race and the crew was thus unable to compete today.
+Thanks to Middlesex and CRLS for a great day of racing on the Charles!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=95B6D80715F8274903E678063EA5058A&cat=1", random="random"]; 
+Groton -> CambridgeRLS[label="12.0
+05/04", weight="88", tooltip="NEIRA,Cambridge Rindge and Latin HS at Groton			
+Distance: 1225 m. Conditions: Very little current. Flat water. Beginning with the second boats, a slight amount of headwind. Race order G4, B4, G3, B3, G2, B2, G1, B1 Comments: Great racing conditions and great racing by the crews.
+In the G2, the start was strokes on the line instead of bow balls.
+Thank you CRLS for an excellent afternoon.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CF11D4E6381F0019C765544CCA920DEE&cat=5", random="random"]; 
+BBN -> CambridgeRLS[label="3.0 (3.33)
+04/13", weight="97", tooltip="NEIRA Boys & Girls Fours,BB&N CRLS			
+Distance: 1350 M Conditions: Crossing tail wind at the start, to crossing head wind in last 1/3. Conmditions varoed durig the day Comments: A good day for all racers lining up in a crossing tail wind at the start.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F2BDD2379584CF678DC6C30959529211&cat=5", random="random"]; 
+NMH -> CambridgeRLS[label="17.8
+04/27", weight="83", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
+Brooks -> CambridgeRLS[label="15.3
+04/27", weight="85", tooltip="NEIRA Boys & Girls Fours,Brooks vs NMH, Middlesex and CRLS			
+Distance: 1500m Conditions: Conditions evolved from a slight headwind with flat water to a 12-15 mph cross headwind with significant chop in the middle 500m. Races were 4-3-2-1-5. Times should bet be compared between events. Comments: Thank you to our guests for our first bog day using the new facility! Good luck this season and hope to see you at NEIRAs.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DA7A1EFD458CB4B765258C3FD9635963&cat=5", random="random"]; 
+CambridgeRLS -> Middlesex[label="12.4
+05/11", weight="88", tooltip="NEIRA Boys & Girls Fours,Middlesex vs. Cambridge Rindge and Latin School			
+Distance: 1500m Conditions: Variable headwind. Strongest during the Girls and Boys 2nd boat races. Water was mostly flat in the middle third of the course, with more chop in the first and last 500m. Again strongest during the 2nd boat races. Comments: Good job by the coxswains and the aligner working with some tricky wind at the starting line. Race order G4-B4-G3-B3-G2-B2-G1-B1. Finish order in the G3 race confirmed by camera at the finish line. Well rowed by all crews. Thank you CRLS for joining us for a great afternoon of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=61A86E8629F7DAFB0E0306631556FC20&cat=5", random="random"]}

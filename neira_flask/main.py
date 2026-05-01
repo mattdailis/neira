@@ -40,6 +40,10 @@ def review_regatta():
 def map_page():
     return render_template("map.html")
 
+@app.route("/calendar.html")
+def calendar_page():
+    return render_template("calendar.html")
+
 @app.route("/api/heats")
 def api_heats():
     year = request.args.get('year')

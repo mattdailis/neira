@@ -1,0 +1,68 @@
+digraph boys4foursGroton {Pomfret [URL="boys4foursGrotonPomfret.html"];Nobles [URL="boys4foursGrotonNobles.html"];BelmontHill [URL="boys4foursGrotonBelmontHill.html"];Brooks [URL="boys4foursGrotonBrooks.html"];BBN [URL="boys4foursGrotonBBN.html"];Groton [URL="boys4foursGrotonGroton.html"];CambridgeRLS [URL="boys4foursGrotonCambridgeRLS.html"];Middlesex [URL="boys4foursGrotonMiddlesex.html"];StMarks [URL="boys4foursGrotonStMarks.html"];Taft [URL="boys4foursGrotonTaft.html"];Choate [URL="boys4foursGrotonChoate.html"];BelmontHill -> Groton[label="36.1
+05/11", weight="64", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
+Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
+Choate did not race a B3 and NCDS did not race a G4 today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=37A62C22F94B1C2C6EAD9807BFDFECD3&cat=5", random="random"]; 
+Brooks -> Groton[label="9.9
+05/11", weight="91", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
+Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
+Choate did not race a B3 and NCDS did not race a G4 today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=37A62C22F94B1C2C6EAD9807BFDFECD3&cat=5", random="random"]; 
+Groton -> Choate[label="60.4
+05/11", weight="40", tooltip="NEIRA,Brooks vs. Belmont Hill, Choate, Groton and NCDS			
+Distance: 1500m Conditions: Direct gusty headwind that generally diminished from 12-15 mph in the early races to 6-8 mph over the course of the afternoon, but varied such that comparisons between races would not be meaningful. Race order G5-B1-G4-B4-G3-B3-G2-B2-G1 Comments: Fantastic afternoon of racing with two races relying on the finish line camera. Groton G1 victory by a matter of inches, and the B3 race declared a dead heat for second place with less than an inch of separation. Thank you to all the coaches and teams for making the trip to Brooks and for your cooperation and spirited competition.
+Choate did not race a B3 and NCDS did not race a G4 today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=37A62C22F94B1C2C6EAD9807BFDFECD3&cat=5", random="random"]; 
+Groton -> Middlesex[label="21.8
+05/01", weight="79", tooltip="NEIRA Boys Fours,Groton vs. Middlesex			
+Distance: 1500m Conditions: Great racing conditions for all races. Flat water, no wind and little current. Comments: Thank you to Groton for a great afternoon of racing. Well rowed by all crews!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D6A6DD149CC032FE3C0A5DADE25EF871&cat=1", random="random"]; 
+Groton -> CambridgeRLS[label="10.1
+05/04", weight="90", tooltip="NEIRA,Cambridge Rindge and Latin HS at Groton			
+Distance: 1225 m. Conditions: Very little current. Flat water. Beginning with the second boats, a slight amount of headwind. Race order G4, B4, G3, B3, G2, B2, G1, B1 Comments: Great racing conditions and great racing by the crews.
+In the G2, the start was strokes on the line instead of bow balls.
+Thank you CRLS for an excellent afternoon.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CF11D4E6381F0019C765544CCA920DEE&cat=5", random="random"]; 
+Groton -> StMarks[label="8.5 (10.2)
+05/18", weight="92", tooltip="NEIRA Boys & Girls Fours,St. Mark's at Groton. Cooke Family Cup			
+Distance: 1250m Conditions: Conditions all the same. Rain, no wind, slight tail current. Comments: Boys 3rd boats started 3/4 length over the line.
+Very good racing in the rain.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1D8E97828C9D3693798AABF74C77AE19&cat=5", random="random"]; 
+Groton -> Taft[label="9.1
+04/27", weight="91", tooltip="NEIRA Boys ,Pomfret v. Groton, Taft			
+Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls' races interspersed).
+Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&cat=1", random="random"]; 
+Groton -> Pomfret[label="37.9
+04/27", weight="63", tooltip="NEIRA Boys ,Pomfret v. Groton, Taft			
+Distance: 1500 Conditions: At the start, crossing tailwinds of ~10MPH. Winds shifted to a mostly tail after first 500M of ~15MPH, with occasional gusts 20 to 25. Water was choppy after the first 500M all the way to finish line. Comments: Race order: B4, B3, B5, B2, B1 (with girls' races interspersed).
+Winds made aligning starts challenging. Commendable job by aligner. B2 crews were roughly 30ft. over the line at the start. Course steering was challenging for almost all crews. Wind also affected crews as many drifted into other lanes, though no significant impediments that impacted finish order were detected.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DE911428BA7DE499F2D28BF6D23E48AA&cat=1", random="random"]; 
+Nobles -> Groton[label="16.2 (18.0)
+04/20", weight="84", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
+Distance: 1350m Conditions: Excellent conditions.
+Cloudy and cool
+Mostly flat water.
+A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&N clashed blades for roughly the first 20 strokes due to Groton moving into BB&N's lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
+5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
+NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
+BB&N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
+Times for this race were:
+Nobles: 2:22.3
+BB&N: 2:30.1
+many thanks to all crews and coaches for a great day of racing for full teams.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]; 
+Groton -> BBN[label="16.5 (18.33)
+04/20", weight="84", tooltip="NEIRA,Buckingham, Browne & Nichols vs Nobles, Groton			
+Distance: 1350m Conditions: Excellent conditions.
+Cloudy and cool
+Mostly flat water.
+A very light headwind for later races. Comments: In boys 4th boat race, Groton and BB&N clashed blades for roughly the first 20 strokes due to Groton moving into BB&N's lane off the start. This did not affect the order of finish but did have an effect on margins. Both boats handled the situation well once within it.
+5th boats raced on the Powerhouse course approximately 2 hours earlier than Varsity racing.
+NOTE: 6th, 7th boat races took place on the Charles River JV course, from Northeastern to the Kayak Pavilion.
+BB&N and Nobles also raced their 7th and 8th boat crews in eights, a race which was slightly shorter due to a restart.
+Times for this race were:
+Nobles: 2:22.3
+BB&N: 2:30.1
+many thanks to all crews and coaches for a great day of racing for full teams.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=20E78FECE0268B5584D1E5BC6689C505&cat=1", random="random"]}

@@ -1,0 +1,40 @@
+digraph boys1foursBBN {CambridgeRLS [URL="boys1foursCambridgeRLS.html"];Nobles [URL="boys1foursNobles.html"];BBN [URL="boys1foursBBN.html"];BelmontHill [URL="boys1foursBelmontHill.html"];Groton [URL="boys1foursGroton.html"];BelmontHill -> BBN[label="24.1 (26.78)
+04/25", weight="76", tooltip="NEIRA Boys Fours, BB&N vs. Belmont Hill (Ducey Cup)			
+Distance: 1350 Conditions: Great conditions overall. Flat water with a slight crosswind. In the 3rd boat race the wind direction shifted to be more of a headwind, but shifted back for the 2nd and 1st boat races. Order of races was 4-3-2-1. Comments: Belmont Hill School wins the Ducey Cup by winning the first boat race. In the 3rd boat race, Belmont Hill steered off course significantly near the finish line. It did not impact order of finish.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF12340A1F72D81B00DA7A14745EF5FE&cat=1", random="random"]; 
+CambridgeRLS -> BBN[label="22.0 (24.44)
+04/22", weight="78", tooltip="NEIRA, Mayor’s Cup: CRLS vs BB&N			
+Distance: 1350 Conditions: 13mph Head wind with a bit more chop for the last 400m. 
+The lower crews for both teams competed in complete lineups on 4/11 but the 1Vs did not due to academic obligations. This race was for the Mayor’s Cup which is decided solely by the outcome of the 1V race. CRLS retains the cup. 
+Thanks to both coxswains for steering good lines and both crews for fitting in a mid-week race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A9D13B797BEDC786C15FE46340A92068&cat=1", random="random"]; 
+Nobles -> BBN[label="29.4 (32.67)
+04/18", weight="71", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Groton and Nobles			
+Distance: 1350 Conditions: Good conditions overall with a light crosswind that was consistent throughout the day Comments: Great racing all around and thanks to Groton and Nobles for making the trip. In the boys 4th boat, Nobles paddled shortly before they crossed line. In the girls 2nd boat, Groton veered into BB&N's lane before the first bridge and they clashed oars, then again after the bridge causing BB&N to steer to avoid another clash. Nobles JV also made the trip and the 7th and 8th boats raced BB&N on the half mile course just upstream of Eliot Bridge. Results for those races:
+B7 (raced as an 8): 
+Nobles
+BB&N
+G7:
+Nobles
+BB&N
+G8:
+BB&N
+Nobles
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D28F45F757DD3F3143F0D9FBF13C27B5&cat=5", random="random"]; 
+Groton -> BBN[label="17.2 (19.11)
+04/18", weight="83", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Groton and Nobles			
+Distance: 1350 Conditions: Good conditions overall with a light crosswind that was consistent throughout the day Comments: Great racing all around and thanks to Groton and Nobles for making the trip. In the boys 4th boat, Nobles paddled shortly before they crossed line. In the girls 2nd boat, Groton veered into BB&N's lane before the first bridge and they clashed oars, then again after the bridge causing BB&N to steer to avoid another clash. Nobles JV also made the trip and the 7th and 8th boats raced BB&N on the half mile course just upstream of Eliot Bridge. Results for those races:
+B7 (raced as an 8): 
+Nobles
+BB&N
+G7:
+Nobles
+BB&N
+G8:
+BB&N
+Nobles
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D28F45F757DD3F3143F0D9FBF13C27B5&cat=5", random="random"]; 
+CambridgeRLS -> BBN[label="13.2 (14.67)
+04/11", weight="87", tooltip="NEIRA Boys & Girls Fours,BB&N vs CRLS (Mayor's Cup)			
+Distance: 1350 Conditions: Strong cross-tail wind from starboard throughout racing. Comments: Congratulations to CRLS girls for winning the Mayor's Cup by virtue of winning the 1st boat race. Due to absences on both sides of the boys' teams, several athletes from each team doubled up between the 1st and 2nd boats. To accommodate that, the order of racing was G5, B1, G4, B4, G3, B3, G2, B2, G1. The Mayor's Cup for the boys team will be contested at a later date when the 1st boats can race. Thanks to CRLS for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1A9140D19180C189B6A831FB6F435C23&cat=5", random="random"]}
