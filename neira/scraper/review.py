@@ -18,10 +18,15 @@ def review(data_dir):
     for i, filename in enumerate(filenames):
         uid = os.path.splitext(os.path.basename(filename))[0]
 
-        if uid in corrections:
-            with open(os.path.join(data_dir, filename)) as f:
-                new_checksum = hashlib.md5(f.read().encode()).hexdigest()
+        with open(os.path.join(data_dir, filename)) as f:
+            file_contents = f.read()
 
+        regatta_object = json.loads(file_contents)
+        if "eight" in regatta_object["name"].lower():
+            continue  # skip
+
+        if uid in corrections:
+            new_checksum = hashlib.md5(file_contents.encode()).hexdigest()            
             if corrections[uid]["checksum"] == new_checksum:
                 continue
             else:

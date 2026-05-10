@@ -27,7 +27,7 @@ def get(data_dir):
             heat["url"] = scraped_json["url"]
             heat["name"] = scraped_json["name"]
             heat["comment"] = scraped_json["comment"]
-            heat["date"] = scraped_json["day"]
+            heat["date"] = scraped_json["date"]
             all_heats[
                 "-".join((heat["class"], heat["gender"], heat["varsity_index"]))
             ].append(heat)
@@ -36,6 +36,7 @@ def get(data_dir):
 
 
 def founders_day_head_to_head_tuples():
+    return []
     with open("founders-day-head-to-head.json", "r") as f:
         founders_day_head_to_head = json.load(f)
     results = []
@@ -67,9 +68,10 @@ def get_head_to_head_tuples(data_dir, class_=None, gender=None) -> List[Datum]:
     del class_, gender
     results = []
     for filename in os.listdir(data_dir):
+        print(filename)
         with open(os.path.join(data_dir, filename), "r") as f:
             scraped_json = json.load(f)
-        day = scraped_json["day"]
+        day = scraped_json["date"]
 
         date = datetime.datetime.strptime(day, "%Y-%m-%d")
 
@@ -146,7 +148,7 @@ def get_head_to_head_tuples(data_dir, class_=None, gender=None) -> List[Datum]:
                     )
                 else:
                     margin = None  # This result is excluded
-    results.extend(founders_day_head_to_head_tuples())
+    #results.extend(founders_day_head_to_head_tuples())
     return results
 
 

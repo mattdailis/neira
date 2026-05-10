@@ -1,0 +1,66 @@
+{
+    "comment": "Distance: 1400m Conditions: Boys 2V8 race: 8 mph headwind lessening for the last 500m. Light headwind for the B1V and G1V races. Comments: All floating starts, races are not comparable. Thank you Stonington and Avon for a great afternoon of racing.\r\n\nNone",
+    "date": "2026-05-02",
+    "heats": [
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "4:36.3",
+                    "school": "Stonington"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 16.8,
+                    "raw_time": "4:53.1",
+                    "school": "Guilford"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "eights",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "4:53.9",
+                    "school": "Stonington"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 26.0,
+                    "raw_time": "5:19.9",
+                    "school": "Guilford"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "eights",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "5:07.8",
+                    "school": "Stonington"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 1.9,
+                    "raw_time": "5:09.7",
+                    "school": "Guilford"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "location": "Lake Quonnipaug, Guilford, Ct",
+    "name": "NEIRA Boys & Girls Eights,Guilford vs Stonington",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=5B7177BD26CBC1754AC8EA870CFFD429&cat=5"
+}

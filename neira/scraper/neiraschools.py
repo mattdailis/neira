@@ -111,6 +111,7 @@ boys_fours = {
     "Derryfield",
     "Dexter-Southfield",
     "Eagle Hill",
+    "E.O. Smith",
     "Frederick Gunn",
     "Greenwich Country Day",
     "Groton",
@@ -176,7 +177,7 @@ girls_fours = {
     "Derryfield",
     "Dexter-Southfield",
     "Eagle Hill",
-    "EO Smith",
+    "E.O. Smith",
     "Frederick Gunn",
     "Greenwich Academy",
     "Greenwich Country Day",
@@ -413,16 +414,16 @@ def match_school(name, class_, gender):
                 and not (school in boys_eights.union(boys_fours))
                 and gender == "boys"
             ):
-                print(school, gender, class_)
-                raise Exception("Wrong gender?")
+                print("Wrong gender?", school, gender, class_)
+                # raise Exception("Wrong gender?")
 
             if (
                 (school in boys_eights.union(boys_fours))
                 and not (school in girls_eights.union(girls_fours))
                 and gender == "girls"
             ):
-                print(school, gender, class_)
-                raise Exception("Wrong gender?")
+                print("Wrong gender?", school, gender, class_)
+                # raise Exception("Wrong gender?")
             return None
     else:
         unmatched.add(name)

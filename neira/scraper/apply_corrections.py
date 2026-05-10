@@ -6,11 +6,15 @@ def apply_corrections(corrections_file, input_dir, output_dir):
     with open(corrections_file, "r") as f:
         all_corrections = json.load(f)
     for uid, corrections in all_corrections.items():
+        if not os.path.exists(os.path.join(input_dir, uid + ".json")):
+            continue
         with open(os.path.join(input_dir, uid + ".json"), "r") as f:
             race_object = json.load(f)
         print(uid, corrections)
         for correction in corrections["corrections"]:
-            if correction["type"] == "comment":
+            if not "type" in correction and "comment" in correction:
+                pass
+            elif correction["type"] == "comment":
                 pass
             elif correction["type"] == "ignore_heats":
                 ignore_heats(race_object, correction)

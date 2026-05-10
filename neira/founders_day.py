@@ -1,6 +1,7 @@
 import csv
 import json
 import neira.scraper.clean
+from neira.scraper.neiraschools import match_school
 
 
 def founders_day():
@@ -240,3 +241,76 @@ def process_heat(recorded_pairs, heat):
                         }
                     )
     return heat_head_to_head
+
+
+def main():
+    result = {"heats": [],
+              "location": "Lake Waramaug, CT",
+              "comment": """Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.""",
+              "name": "NEIRA Boys & Girls Fours, Founders Day Regatta",
+              "url": "https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6",
+              "date": "2026-05-03"
+              }
+    with open("founders-2026.json", "r") as f:
+        data = json.load(f)
+        for heat in data:
+            if heat["heat"].startswith("B"):
+                gender = "boys"
+            elif heat["heat"].startswith("G"):
+                gender = "girls"
+            else:
+                raise ValueError("Could not guess gender from: " + str(heat["heat"]))
+            
+            varsity_index = heat["heat"][1]
+            int(varsity_index)
+
+            result["heats"].append({
+                "class": "fours",
+                "gender": gender,
+                "varsity_index": varsity_index,
+                "results": [],
+            })
+
+            tmp_results = []
+
+            for results in heat["results"]:
+                school = results["school"]
+                time = results["time"]
+
+                if "(G5)" in school or "(B)" in school:
+                    continue
+
+                neira_school = match_school(school, "fours", gender)
+
+                if neira_school is None:
+                    print("Could not match ", school)
+                    continue
+
+                school = neira_school  #f"{school} ({neira_school})"
+
+                tmp_results.append((neira.scraper.clean.getTime(time), {
+                    "school": school,
+                    "raw_time": time,
+                }))
+
+            tmp_results.sort(key=lambda x: x[0])
+
+            winning_time = tmp_results[0][0]
+            for (i, (t, r)) in enumerate(tmp_results):
+                r["finish_order"] = i + 1
+                r["margin_from_winner"] = (t - winning_time).total_seconds()
+                result["heats"][-1]["results"].append(r)
+            
+
+    filename = "data/1_parsed/AD1DB8B7FF440FDBF5A8B2F0C30E70D1.json"
+    with open(filename, "w") as f:
+        json.dump(result, f, indent=4)
+    print("Wrote", filename)
+    
+    filename = "data/2_cleaned/AD1DB8B7FF440FDBF5A8B2F0C30E70D1.json"
+    with open(filename, "w") as f:
+        json.dump(result, f, indent=4)
+    print("Wrote", filename)
+
+if __name__ == "__main__":
+    main()

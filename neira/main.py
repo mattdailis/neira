@@ -47,7 +47,7 @@ def scrape(refresh=False):
 
     OVERWRITE = True
 
-    year = 2025
+    year = 2026
 
     if refresh and raw_cache:
         for downloaded in download_all(year):
@@ -71,7 +71,9 @@ def scrape(refresh=False):
             if downloaded["url"].endswith("cat=1"):
                 scraped = scrape_cat_1(downloaded["name"], downloaded["html"], downloaded["url"], year)
             elif downloaded["url"].endswith("cat=5"):
-                scraped = scrape_cat_5(downloaded["name"], downloaded["html"], downloaded["url"])
+                scraped = scrape_cat_5(downloaded["name"], downloaded["html"], downloaded["url"], year)
+            elif downloaded["url"].endswith("cat=6") and "Founders" in downloaded["name"]:
+                continue
             else:
                 raise Exception("Unhandled cat: " + downloaded["url"])
                 scraped = scrape_regatta(downloaded["name"], downloaded["html"])

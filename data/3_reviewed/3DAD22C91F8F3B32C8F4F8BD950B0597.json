@@ -1,0 +1,47 @@
+{
+    "comment": "Distance: 1500 Conditions: Moderate tail current and tail wind that was consistent across all races. Slight chop at the start but smoothed out over the course. Comments: Races listed as boy's 3rd boat and girl's 2nd boat are novice races\r\n\nNone",
+    "date": "2026-04-23",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "5:42.99",
+                    "school": "Berwick"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 11.0,
+                    "raw_time": "5:53.99",
+                    "school": "Derryfield"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "6:43.27",
+                    "school": "Derryfield"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 7.29,
+                    "raw_time": "6:50.56",
+                    "school": "Berwick"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "location": "Salmon Falls River",
+    "name": "NEIRA Boys & Girls Fours,Berwick Academy vs. Derryfield",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=3DAD22C91F8F3B32C8F4F8BD950B0597&cat=5"
+}

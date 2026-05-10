@@ -1,0 +1,47 @@
+{
+    "comment": "Distance: 1500m Conditions: Light/medium straight headwind Comments: Girls 1V race was exhibition with mixed crews.  Thanks to Thayer for coming up to Essex!\r\n\nNone",
+    "date": "2026-04-18",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "6:01",
+                    "school": "Pingree"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 11.0,
+                    "raw_time": "6:12",
+                    "school": "Thayer"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "7:35",
+                    "school": "Thayer"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 26.0,
+                    "raw_time": "8:01",
+                    "school": "Pingree"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "location": "Lake Chebacco",
+    "name": "NEIRA Boys & Girls Fours,Pingree vs. Thayer",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=A34F0FBE7FD0A1503A84378FC9880DED&cat=5"
+}

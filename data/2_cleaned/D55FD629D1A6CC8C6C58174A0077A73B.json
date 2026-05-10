@@ -1,0 +1,84 @@
+{
+    "comment": "Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.\n\nNone",
+    "date": "2026-04-15",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "4:01.9",
+                    "school": "St. Mary's-Lynn"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 33.5,
+                    "raw_time": "4:35.4",
+                    "school": "Greenwich Country Day"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 60.7,
+                    "raw_time": "5:02.6",
+                    "school": "Thayer"
+                },
+                {
+                    "finish_order": 4,
+                    "margin_from_winner": 70.5,
+                    "raw_time": "5:12.4",
+                    "school": "Marianapolis Prep"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "4:54.0",
+                    "school": "Greenwich Country Day"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 22.7,
+                    "raw_time": "5:16.7",
+                    "school": "St. Mary's-Lynn"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 93.9,
+                    "raw_time": "6:27.9",
+                    "school": "Marianapolis Prep"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "4:51.4",
+                    "school": "Greenwich Country Day"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 12.1,
+                    "raw_time": "5:03.5",
+                    "school": "St. Mary's-Lynn"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "location": "Thompson, CT",
+    "name": "NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5"
+}

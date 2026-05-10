@@ -106,6 +106,20 @@ def scrape_result_block(result_block, heats, gender=None):
 
     varsity_index = varsity_indexes.get(heat.rstrip(':'))
 
+    if varsity_index is None:
+        if "1V" in heat:
+            varsity_index = "1"
+        if "2V" in heat:
+            varsity_index = "2"
+        if "3V" in heat:
+            varsity_index = "3"
+        if "4V" in heat:
+            varsity_index = "4"
+        if "5V" in heat:
+            varsity_index = "5"
+        if "6V" in heat:
+            varsity_index = "6"
+
     school_times = []
     for school_time in result_block.findAll("tr")[1:]:
         school_time = school_time.findAll("td")

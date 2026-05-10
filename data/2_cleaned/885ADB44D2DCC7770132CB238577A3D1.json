@@ -1,0 +1,266 @@
+{
+    "comment": "Distance: 1400m Conditions: Rain throughout the day, but it picked up intensity after the B3 race. Little to no wind throughout the day. Racing order was B5/G1/B1/G2/B2/G3/B3/G4/B4/G5/CoedJV8's. Moderate/strong current that was even across the lanes. In the B1 race, there was a photo finish between NMH and Hotchkiss; Hotchkiss beat NMH by about a bow ball. Another photo finish in the B3 race, where Hotchkiss beat NMH by 0.4. Thank you to Hotchkiss and Nobles for making the trip!\n\nNone",
+    "date": "2026-05-09",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "5:12.2",
+                    "school": "Nobles"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 5.3,
+                    "raw_time": "5:17.5",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 5.3,
+                    "raw_time": "5:17.5",
+                    "school": "NMH"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "5:14.5",
+                    "school": "Nobles"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 14.6,
+                    "raw_time": "5:29.1",
+                    "school": "NMH"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 18.5,
+                    "raw_time": "5:33.0",
+                    "school": "Hotchkiss"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "5:31.0",
+                    "school": "Nobles"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 11.4,
+                    "raw_time": "5:42.4",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 11.8,
+                    "raw_time": "5:42.8",
+                    "school": "NMH"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "5:26.9",
+                    "school": "Nobles"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 22.5,
+                    "raw_time": "5:49.4",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 24.3,
+                    "raw_time": "5:51.2",
+                    "school": "NMH"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "",
+                    "school": "Nobles"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "",
+                    "school": "NMH"
+                }
+            ],
+            "varsity_index": "5"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "5:52.9",
+                    "school": "Nobles"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 10.9,
+                    "raw_time": "6:03.8",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 13.1,
+                    "raw_time": "6:06.0",
+                    "school": "NMH"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "6:23.0",
+                    "school": "Nobles"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 9.0,
+                    "raw_time": "6:32.0",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 9.4,
+                    "raw_time": "6:32.4",
+                    "school": "NMH"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "6:16.2",
+                    "school": "Nobles"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 19.2,
+                    "raw_time": "6:35.4",
+                    "school": "NMH"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 35.7,
+                    "raw_time": "6:51.9",
+                    "school": "Hotchkiss"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "6:24.57",
+                    "school": "Nobles"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 32.64,
+                    "raw_time": "6:57.21",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 33.53,
+                    "raw_time": "6:58.10",
+                    "school": "NMH"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "6:29.89",
+                    "school": "Nobles"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 37.02,
+                    "raw_time": "7:06.91",
+                    "school": "NMH"
+                }
+            ],
+            "varsity_index": "5"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0,
+                    "raw_time": "5:39.0",
+                    "school": "NMH"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 52.0,
+                    "raw_time": "6:31.0",
+                    "school": "Nobles"
+                }
+            ],
+            "varsity_index": "6"
+        }
+    ],
+    "location": "Connecticut River",
+    "name": "NEIRA Boys & Girls Fours,NEIRA Boys and Girls Fours: NMH, Hotchkiss, and Nobles",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=885ADB44D2DCC7770132CB238577A3D1&cat=5"
+}

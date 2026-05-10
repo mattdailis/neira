@@ -1,0 +1,224 @@
+{
+    "comment": "Distance: 1400m Conditions: Upstream Race. 10kcfs. No time for Boys 2nd boat but Hanover won by 1/4 length. Comments: Thank you St. Paul's\r\n\nNone",
+    "date": "2026-05-09",
+    "heats": [
+        {
+            "class": null,
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": null,
+                    "raw_time": "4:27.6",
+                    "school": "St. Paul's"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "4:27.7",
+                    "school": "Hanover"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": null,
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": null,
+                    "raw_time": "1/4 length",
+                    "school": "Hanover"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "",
+                    "school": "St.Paul's"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": null,
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": null,
+                    "raw_time": "4:48.2",
+                    "school": "Hanover"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "4:53.4",
+                    "school": "St. Paul's"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": null,
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": null,
+                    "raw_time": "4:58.6",
+                    "school": "St. Paul's"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "5:37.3",
+                    "school": "Hanover"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": null,
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": null,
+                    "raw_time": "5:25.4",
+                    "school": "St. Paul's"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "5:25.6",
+                    "school": "Hanover"
+                }
+            ],
+            "varsity_index": "5"
+        },
+        {
+            "class": null,
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": null,
+                    "raw_time": "5:50.0",
+                    "school": "Hanover"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "6:05.0",
+                    "school": "St. Paul's"
+                }
+            ],
+            "varsity_index": "6"
+        },
+        {
+            "class": null,
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": null,
+                    "raw_time": "5:01.5",
+                    "school": "St. Paul's"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "5:08.0",
+                    "school": "Hanover"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": null,
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": null,
+                    "raw_time": "5:25.2",
+                    "school": "St. Paul's"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "5:26.3",
+                    "school": "Hanover"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": null,
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": null,
+                    "raw_time": "5:11.3",
+                    "school": "Hanover"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "5:25.1",
+                    "school": "St. Paul's"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": null,
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": null,
+                    "raw_time": "5:36.8",
+                    "school": "St. Paul's"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "5:47.1",
+                    "school": "Hanover A"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": null,
+                    "raw_time": "6:00.0",
+                    "school": "Hanover B"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": null,
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": null,
+                    "raw_time": "5:51.0",
+                    "school": "St. Paul's"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": null,
+                    "raw_time": "6:20.0",
+                    "school": "Hanover"
+                }
+            ],
+            "varsity_index": "5"
+        }
+    ],
+    "location": "Hanover, NH",
+    "name": "NEIRA Boys & Girls Eights,Hanover vs St. Paul's School",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=4886EB2B8E5B358817E13CC9B0138589&cat=5"
+}

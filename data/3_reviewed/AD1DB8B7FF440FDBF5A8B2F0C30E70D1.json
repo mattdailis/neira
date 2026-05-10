@@ -1,0 +1,422 @@
+{
+    "comment": "Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter\u2019s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, \u2018straight final\u2019 format, an early conclusion also due to wind. Girls\u2019 and Boys\u2019 4V and Girls\u2019 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls\u2019 1V, then boys 1V, then girls\u2019 2V, then boys\u2019 2V, with a possibility of getting to the boys\u2019 3V, all without afternoon finals; girls\u2019 and boys\u2019 1V and girls\u2019 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls\u2019 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn\u2019s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.",
+    "date": "2026-05-03",
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0,
+                    "raw_time": "6:56.63",
+                    "school": "Choate"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 9.58,
+                    "raw_time": "7:06.21",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 20.56,
+                    "raw_time": "7:17.19",
+                    "school": "NMH"
+                },
+                {
+                    "finish_order": 4,
+                    "margin_from_winner": 76.78,
+                    "raw_time": "8:13.41",
+                    "school": "Frederick Gunn"
+                },
+                {
+                    "finish_order": 5,
+                    "margin_from_winner": 110.71,
+                    "raw_time": "8:47.34",
+                    "school": "Canterbury"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0,
+                    "raw_time": "7:22.97",
+                    "school": "Hopkins"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 13.65,
+                    "raw_time": "7:36.62",
+                    "school": "Taft"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 19.97,
+                    "raw_time": "7:42.94",
+                    "school": "Greenwich Academy"
+                },
+                {
+                    "finish_order": 4,
+                    "margin_from_winner": 52.74,
+                    "raw_time": "8:15.71",
+                    "school": "Lyme/Old Lyme"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0,
+                    "raw_time": "6:50.41",
+                    "school": "Taft"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 5.85,
+                    "raw_time": "6:56.26",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 58.24,
+                    "raw_time": "7:48.65",
+                    "school": "Hopkins"
+                },
+                {
+                    "finish_order": 4,
+                    "margin_from_winner": 76.94,
+                    "raw_time": "8:07.35",
+                    "school": "Frederick Gunn"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0,
+                    "raw_time": "7:24.99",
+                    "school": "NMH"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 8.79,
+                    "raw_time": "7:33.78",
+                    "school": "Choate"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 10.9,
+                    "raw_time": "7:35.89",
+                    "school": "Lyme/Old Lyme"
+                }
+            ],
+            "varsity_index": "4"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0,
+                    "raw_time": "7:06.64",
+                    "school": "Taft"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 8.86,
+                    "raw_time": "7:15.50",
+                    "school": "Choate"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 33.05,
+                    "raw_time": "7:39.69",
+                    "school": "Berkshire Academy"
+                },
+                {
+                    "finish_order": 4,
+                    "margin_from_winner": 71.78,
+                    "raw_time": "8:18.42",
+                    "school": "Pomfret"
+                },
+                {
+                    "finish_order": 5,
+                    "margin_from_winner": 132.87,
+                    "raw_time": "9:19.51",
+                    "school": "Canterbury"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0,
+                    "raw_time": "7:29.29",
+                    "school": "Hopkins"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 10.05,
+                    "raw_time": "7:39.34",
+                    "school": "NMH"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 27.08,
+                    "raw_time": "7:56.37",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 4,
+                    "margin_from_winner": 48.15,
+                    "raw_time": "8:17.44",
+                    "school": "Miss Porter's"
+                },
+                {
+                    "finish_order": 5,
+                    "margin_from_winner": 56.32,
+                    "raw_time": "8:25.61",
+                    "school": "Greenwich Academy"
+                }
+            ],
+            "varsity_index": "3"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0,
+                    "raw_time": "7:29.66",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 1.98,
+                    "raw_time": "7:31.64",
+                    "school": "NMH"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 7.65,
+                    "raw_time": "7:37.31",
+                    "school": "Taft"
+                },
+                {
+                    "finish_order": 4,
+                    "margin_from_winner": 18.4,
+                    "raw_time": "7:48.06",
+                    "school": "Hopkins"
+                },
+                {
+                    "finish_order": 5,
+                    "margin_from_winner": 35.94,
+                    "raw_time": "8:05.60",
+                    "school": "Pomfret"
+                },
+                {
+                    "finish_order": 6,
+                    "margin_from_winner": 155.88,
+                    "raw_time": "10:05.54",
+                    "school": "Brewster Academy"
+                }
+            ],
+            "varsity_index": "2"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0,
+                    "raw_time": "6:24.61",
+                    "school": "NMH"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 1.91,
+                    "raw_time": "6:26.52",
+                    "school": "Berkshire Academy"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 10.7,
+                    "raw_time": "6:35.31",
+                    "school": "Choate"
+                },
+                {
+                    "finish_order": 4,
+                    "margin_from_winner": 17.62,
+                    "raw_time": "6:42.23",
+                    "school": "Greenwich Academy"
+                },
+                {
+                    "finish_order": 5,
+                    "margin_from_winner": 43.83,
+                    "raw_time": "7:08.44",
+                    "school": "Lyme/Old Lyme"
+                },
+                {
+                    "finish_order": 6,
+                    "margin_from_winner": 50.16,
+                    "raw_time": "7:14.77",
+                    "school": "Brewster Academy"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0,
+                    "raw_time": "6:23.08",
+                    "school": "Taft"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 6.84,
+                    "raw_time": "6:29.92",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 16.18,
+                    "raw_time": "6:39.26",
+                    "school": "Miss Porter's"
+                },
+                {
+                    "finish_order": 4,
+                    "margin_from_winner": 29.42,
+                    "raw_time": "6:52.50",
+                    "school": "Pomfret"
+                },
+                {
+                    "finish_order": 5,
+                    "margin_from_winner": 29.76,
+                    "raw_time": "6:52.84",
+                    "school": "Hopkins"
+                },
+                {
+                    "finish_order": 6,
+                    "margin_from_winner": 65.9,
+                    "raw_time": "7:28.98",
+                    "school": "Frederick Gunn"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0,
+                    "raw_time": "5:55.28",
+                    "school": "Hotchkiss"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 3.45,
+                    "raw_time": "5:58.73",
+                    "school": "Choate"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 8.27,
+                    "raw_time": "6:03.55",
+                    "school": "Lyme/Old Lyme"
+                },
+                {
+                    "finish_order": 4,
+                    "margin_from_winner": 26.71,
+                    "raw_time": "6:21.99",
+                    "school": "Hopkins"
+                },
+                {
+                    "finish_order": 5,
+                    "margin_from_winner": 28.86,
+                    "raw_time": "6:24.14",
+                    "school": "Brewster Academy"
+                },
+                {
+                    "finish_order": 6,
+                    "margin_from_winner": 46.34,
+                    "raw_time": "6:41.62",
+                    "school": "Suffield"
+                }
+            ],
+            "varsity_index": "1"
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "results": [
+                {
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0,
+                    "raw_time": "5:33.26",
+                    "school": "NMH"
+                },
+                {
+                    "finish_order": 2,
+                    "margin_from_winner": 2.42,
+                    "raw_time": "5:35.68",
+                    "school": "Taft"
+                },
+                {
+                    "finish_order": 3,
+                    "margin_from_winner": 9.3,
+                    "raw_time": "5:42.56",
+                    "school": "Berkshire Academy"
+                },
+                {
+                    "finish_order": 4,
+                    "margin_from_winner": 27.81,
+                    "raw_time": "6:01.07",
+                    "school": "Notre Dame"
+                },
+                {
+                    "finish_order": 5,
+                    "margin_from_winner": 42.43,
+                    "raw_time": "6:15.69",
+                    "school": "Frederick Gunn"
+                },
+                {
+                    "finish_order": 6,
+                    "margin_from_winner": 126.48,
+                    "raw_time": "7:39.74",
+                    "school": "Canterbury"
+                }
+            ],
+            "varsity_index": "1"
+        }
+    ],
+    "location": "Lake Waramaug, CT",
+    "name": "NEIRA Boys & Girls Fours, Founders Day Regatta",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6"
+}
