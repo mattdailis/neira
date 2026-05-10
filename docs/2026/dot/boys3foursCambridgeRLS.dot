@@ -1,4 +1,22 @@
-digraph boys3foursCambridgeRLS {Brooks [URL="boys3foursBrooks.html"];Middlesex [URL="boys3foursMiddlesex.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];NMH [URL="boys3foursNMH.html"];BBN [URL="boys3foursBBN.html"];Brooks -> CambridgeRLS[label="10.9
+digraph boys3foursCambridgeRLS {Groton [URL="boys3foursGroton.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];BBN [URL="boys3foursBBN.html"];Middlesex [URL="boys3foursMiddlesex.html"];Hopkins [URL="boys3foursHopkins.html"];Brooks [URL="boys3foursBrooks.html"];DexterSouthfield [URL="boys3foursDexterSouthfield.html"];NMH [URL="boys3foursNMH.html"];CambridgeRLS -> DexterSouthfield[label="16.9 (19.5)
+05/09", weight="84", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
+Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
+B3, G3, G5, B2, B1, G1, B4, G2, G4
+The boys 2V event had to be stopped after the first 10-12 strokes due to a significant turn toward shore from the Hopkins crew, that was not due to breakage. The crews were brought back to the line and the race restarted without incident. 
+Thank you to Hopkins and Dexter-Southfield for joining us!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=49E35C8A20A0736D6FDA5531D8829D8F&cat=5", random="random"]; 
+CambridgeRLS -> Hopkins[label="30.7 (35.42)
+05/09", weight="70", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
+Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
+B3, G3, G5, B2, B1, G1, B4, G2, G4
+The boys 2V event had to be stopped after the first 10-12 strokes due to a significant turn toward shore from the Hopkins crew, that was not due to breakage. The crews were brought back to the line and the race restarted without incident. 
+Thank you to Hopkins and Dexter-Southfield for joining us!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=49E35C8A20A0736D6FDA5531D8829D8F&cat=5", random="random"]; 
+Groton -> CambridgeRLS[label="7.4 (8.95)
+05/02", weight="93", tooltip="NEIRA Boys & Girls Fours,Cambridge Rindge abd Latin School at Groton			
+Distance: 1240 m Conditions: Great flat water with very little current. On and off sprinkles. Comments: Good racing throughout. Congratulations, CRLS, for some good wins.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=73B77871E3536483D98EF9378161BD6F&cat=5", random="random"]; 
+Brooks -> CambridgeRLS[label="10.9
 04/25", weight="90", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
 Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 

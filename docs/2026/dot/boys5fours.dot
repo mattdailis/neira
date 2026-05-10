@@ -1,4 +1,28 @@
-digraph boys5fours {Brooks [URL="boys5foursBrooks.html"];Middlesex [URL="boys5foursMiddlesex.html"];CambridgeRLS [URL="boys5foursCambridgeRLS.html"];NMH [URL="boys5foursNMH.html"];Nobles [URL="boys5foursNobles.html"];BBN [URL="boys5foursBBN.html"];Taft [URL="boys5foursTaft.html"];Pomfret [URL="boys5foursPomfret.html"];BelmontHill [URL="boys5foursBelmontHill.html"];Groton [URL="boys5foursGroton.html"];BelmontHill -> NMH[label="32.4
+digraph boys5fours {FrederickGunn [URL="boys5foursFrederickGunn.html"];Groton [URL="boys5foursGroton.html"];BBN [URL="boys5foursBBN.html"];CambridgeRLS [URL="boys5foursCambridgeRLS.html"];Middlesex [URL="boys5foursMiddlesex.html"];BelmontHill [URL="boys5foursBelmontHill.html"];Pomfret [URL="boys5foursPomfret.html"];Taft [URL="boys5foursTaft.html"];Brooks [URL="boys5foursBrooks.html"];Nobles [URL="boys5foursNobles.html"];Choate [URL="boys5foursChoate.html"];NMH [URL="boys5foursNMH.html"];BBN -> Taft[label="23.2
+05/09", weight="77", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+BBN -> FrederickGunn[label="44.4
+05/09", weight="56", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+Taft -> FrederickGunn[label="21.2
+05/09", weight="79", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+Middlesex -> Choate[label="5.7
+05/09", weight="95", tooltip="NEIRA Boys & Girls Fours,MIddlesex v Choate			
+Distance: 1500m Conditions: G6, G7, B5 races were 1250m..Conditions were varied, started with head wind for first 5 races then flat no wind for B4, G5, B2 and then head wind for first half of course and heavy rain for G1 & 2 
+B4 boat results can not be used for seeding purposes as Choate went outside two buoys Comments: 
+Race order G6-G4-B3-G7-B5-G3-B4-G5-B2-B1-G2- G1
+Race order was to allow hot seating hulls, a G3 rower needed to Hotseat into G2 due to illness and a g5 rower hotseated into G4 for injury. G1 was delayed by 2 races as a seat broke in the warmup G5 had a restart due to crash a few strokes in. G7 MX was open water ahead with 400m remaining and had a boat-turnng-over-the-head crab
+B4 boat results can not be used for seeding purposes as Choate went outside two buoys
+Great day of racing and thanks to Choate for traveling here and having 12 races!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76C627027A596782E1D608880F99C6BF&cat=5", random="random"]; 
+BelmontHill -> NMH[label="32.4
 04/18", weight="68", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
 Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
 Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
@@ -16,6 +40,10 @@ Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts 
 Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
 Thanks to our guests for being great competitors and exhibiting great sportsmanship.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+Groton -> CambridgeRLS[label="6.9 (8.35)
+05/02", weight="94", tooltip="NEIRA Boys & Girls Fours,Cambridge Rindge abd Latin School at Groton			
+Distance: 1240 m Conditions: Great flat water with very little current. On and off sprinkles. Comments: Good racing throughout. Congratulations, CRLS, for some good wins.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=73B77871E3536483D98EF9378161BD6F&cat=5", random="random"]; 
 Groton -> Taft[label="63.5
 04/25", weight="37", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500M Conditions: Very light tailwind, 3 to 6 MPH. Water: flat or slight ripple. Great conditions. Comments: Note: Pomfret raced down; Pomfret results should not be considered for NEIRA Seeding.
@@ -23,6 +51,10 @@ Races alternated with girls. Order of boys races: B4, B2, B3, B1, B5.
 In the B2 event, D-S drifted slightly into Taft's lane, and Taft drifted slightly into Groton's lane during the first 500. No boat appeared to be impeded; no blades touched. No protest registered.
 Great conditions, some close racing. Thanks to D-S, Groton, and Taft for making the trip.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=90621A35084DD4A81C8811CF573DE6CD&cat=1", random="random"]; 
+BelmontHill -> Nobles[label="7.3 (8.42)
+05/02", weight="93", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup & Crawford-Parker JV Cup			
+Distance: 1300m Conditions: Steady & strong direct headwind, varying slightly in intensity through the racing. Comments: An epic day of competition! Great racing across the board, with three of the eight races decided by 3.2 seconds or less. Nobles varsity crews take home the Bassett Cup by virtue of their wins in the 1V4 and 3V4; Belmont Hill wins the inaugural Crawford-Parker JV Cup. Thanks to all of the Nobles crews and coaches for an outstanding afternoon/early evening on the Charles!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAF3ECF34078FA9EE5DD65E440E3B490&cat=1", random="random"]; 
 Nobles -> BBN[label="24.8 (27.56)
 04/18", weight="76", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Groton and Nobles			
 Distance: 1350 Conditions: Good conditions overall with a light crosswind that was consistent throughout the day Comments: Great racing all around and thanks to Groton and Nobles for making the trip. In the boys 4th boat, Nobles paddled shortly before they crossed line. In the girls 2nd boat, Groton veered into BB&N's lane before the first bridge and they clashed oars, then again after the bridge causing BB&N to steer to avoid another clash. Nobles JV also made the trip and the 7th and 8th boats raced BB&N on the half mile course just upstream of Eliot Bridge. Results for those races:

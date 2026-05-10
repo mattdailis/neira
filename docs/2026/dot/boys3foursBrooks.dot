@@ -1,4 +1,4 @@
-digraph boys3foursBrooks {Brooks [URL="boys3foursBrooks.html"];Middlesex [URL="boys3foursMiddlesex.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];DexterSouthfield [URL="boys3foursDexterSouthfield.html"];NMH [URL="boys3foursNMH.html"];StMarks [URL="boys3foursStMarks.html"];Brooks -> DexterSouthfield[label="23.1
+digraph boys3foursBrooks {Groton [URL="boys3foursGroton.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];Middlesex [URL="boys3foursMiddlesex.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Brooks [URL="boys3foursBrooks.html"];DexterSouthfield [URL="boys3foursDexterSouthfield.html"];StMarks [URL="boys3foursStMarks.html"];NMH [URL="boys3foursNMH.html"];Brooks -> DexterSouthfield[label="23.1
 04/18", weight="77", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
 Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
@@ -10,6 +10,16 @@ Brooks -> StMarks[label="58.2
 04/18", weight="42", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
 Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+BelmontHill -> Brooks[label="5.4
+05/09", weight="95", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Groton, BHS , NCDS			
+Distance: 1500m Conditions: Good racing conditions - occasional rain and quartering headwind/ headwind varying from 6-8 mph. Race order was G1,B3,G3,B4,G4,B2,G2,B1 Comments: Due to equipment breakage in the Brooks B1 during warmup, Boys first boat was moved to the end of the racing order - thank you to our competitors' flexibility. Groton G1 experienced some rigging problems during their race. 
+Overall a good day of racing on Lake Cochichewick after a very windy week. Good luck to all crews for the remainder of your seasons. A special thanks to the NCDS coaching team for your help out on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=14668C4F76D76786763E8999C0590073&cat=5", random="random"]; 
+Brooks -> Groton[label="1.1
+05/09", weight="99", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Groton, BHS , NCDS			
+Distance: 1500m Conditions: Good racing conditions - occasional rain and quartering headwind/ headwind varying from 6-8 mph. Race order was G1,B3,G3,B4,G4,B2,G2,B1 Comments: Due to equipment breakage in the Brooks B1 during warmup, Boys first boat was moved to the end of the racing order - thank you to our competitors' flexibility. Groton G1 experienced some rigging problems during their race. 
+Overall a good day of racing on Lake Cochichewick after a very windy week. Good luck to all crews for the remainder of your seasons. A special thanks to the NCDS coaching team for your help out on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=14668C4F76D76786763E8999C0590073&cat=5", random="random"]; 
 Brooks -> CambridgeRLS[label="10.9
 04/25", weight="90", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
 Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.

@@ -1,4 +1,8 @@
-digraph boys5foursGroton {Taft [URL="boys5foursTaft.html"];Groton [URL="boys5foursGroton.html"];Groton -> Taft[label="63.5
+digraph boys5foursGroton {Groton [URL="boys5foursGroton.html"];Taft [URL="boys5foursTaft.html"];CambridgeRLS [URL="boys5foursCambridgeRLS.html"];Groton -> CambridgeRLS[label="6.9 (8.35)
+05/02", weight="94", tooltip="NEIRA Boys & Girls Fours,Cambridge Rindge abd Latin School at Groton			
+Distance: 1240 m Conditions: Great flat water with very little current. On and off sprinkles. Comments: Good racing throughout. Congratulations, CRLS, for some good wins.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=73B77871E3536483D98EF9378161BD6F&cat=5", random="random"]; 
+Groton -> Taft[label="63.5
 04/25", weight="37", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500M Conditions: Very light tailwind, 3 to 6 MPH. Water: flat or slight ripple. Great conditions. Comments: Note: Pomfret raced down; Pomfret results should not be considered for NEIRA Seeding.
 Races alternated with girls. Order of boys races: B4, B2, B3, B1, B5. 

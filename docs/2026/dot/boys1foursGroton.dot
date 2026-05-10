@@ -1,4 +1,8 @@
-digraph boys1foursGroton {DexterSouthfield [URL="boys1foursDexterSouthfield.html"];Nobles [URL="boys1foursNobles.html"];BBN [URL="boys1foursBBN.html"];Taft [URL="boys1foursTaft.html"];Groton [URL="boys1foursGroton.html"];Taft -> Groton[label="1.4
+digraph boys1foursGroton {Groton [URL="boys1foursGroton.html"];CambridgeRLS [URL="boys1foursCambridgeRLS.html"];BBN [URL="boys1foursBBN.html"];BelmontHill [URL="boys1foursBelmontHill.html"];Taft [URL="boys1foursTaft.html"];Brooks [URL="boys1foursBrooks.html"];DexterSouthfield [URL="boys1foursDexterSouthfield.html"];Nobles [URL="boys1foursNobles.html"];CambridgeRLS -> Groton[label="6.0 (7.26)
+05/02", weight="94", tooltip="NEIRA Boys & Girls Fours,Cambridge Rindge abd Latin School at Groton			
+Distance: 1240 m Conditions: Great flat water with very little current. On and off sprinkles. Comments: Good racing throughout. Congratulations, CRLS, for some good wins.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=73B77871E3536483D98EF9378161BD6F&cat=5", random="random"]; 
+Taft -> Groton[label="1.4
 04/25", weight="99", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
 Distance: 1500M Conditions: Very light tailwind, 3 to 6 MPH. Water: flat or slight ripple. Great conditions. Comments: Note: Pomfret raced down; Pomfret results should not be considered for NEIRA Seeding.
 Races alternated with girls. Order of boys races: B4, B2, B3, B1, B5. 
@@ -37,4 +41,14 @@ BB&N
 G8:
 BB&N
 Nobles
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D28F45F757DD3F3143F0D9FBF13C27B5&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D28F45F757DD3F3143F0D9FBF13C27B5&cat=5", random="random"]; 
+BelmontHill -> Groton[label="9.5
+05/09", weight="91", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Groton, BHS , NCDS			
+Distance: 1500m Conditions: Good racing conditions - occasional rain and quartering headwind/ headwind varying from 6-8 mph. Race order was G1,B3,G3,B4,G4,B2,G2,B1 Comments: Due to equipment breakage in the Brooks B1 during warmup, Boys first boat was moved to the end of the racing order - thank you to our competitors' flexibility. Groton G1 experienced some rigging problems during their race. 
+Overall a good day of racing on Lake Cochichewick after a very windy week. Good luck to all crews for the remainder of your seasons. A special thanks to the NCDS coaching team for your help out on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=14668C4F76D76786763E8999C0590073&cat=5", random="random"]; 
+Brooks -> Groton[label="2.8
+05/09", weight="98", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Groton, BHS , NCDS			
+Distance: 1500m Conditions: Good racing conditions - occasional rain and quartering headwind/ headwind varying from 6-8 mph. Race order was G1,B3,G3,B4,G4,B2,G2,B1 Comments: Due to equipment breakage in the Brooks B1 during warmup, Boys first boat was moved to the end of the racing order - thank you to our competitors' flexibility. Groton G1 experienced some rigging problems during their race. 
+Overall a good day of racing on Lake Cochichewick after a very windy week. Good luck to all crews for the remainder of your seasons. A special thanks to the NCDS coaching team for your help out on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=14668C4F76D76786763E8999C0590073&cat=5", random="random"]}

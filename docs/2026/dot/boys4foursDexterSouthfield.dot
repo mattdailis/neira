@@ -1,4 +1,18 @@
-digraph boys4foursDexterSouthfield {Brooks [URL="boys4foursBrooks.html"];Middlesex [URL="boys4foursMiddlesex.html"];DexterSouthfield [URL="boys4foursDexterSouthfield.html"];StMarks [URL="boys4foursStMarks.html"];Taft [URL="boys4foursTaft.html"];Groton [URL="boys4foursGroton.html"];Brooks -> DexterSouthfield[label="42.8
+digraph boys4foursDexterSouthfield {Groton [URL="boys4foursGroton.html"];CambridgeRLS [URL="boys4foursCambridgeRLS.html"];Middlesex [URL="boys4foursMiddlesex.html"];Hopkins [URL="boys4foursHopkins.html"];Brooks [URL="boys4foursBrooks.html"];Taft [URL="boys4foursTaft.html"];DexterSouthfield [URL="boys4foursDexterSouthfield.html"];StMarks [URL="boys4foursStMarks.html"];CambridgeRLS -> DexterSouthfield[label="43.9 (50.65)
+05/09", weight="57", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
+Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
+B3, G3, G5, B2, B1, G1, B4, G2, G4
+The boys 2V event had to be stopped after the first 10-12 strokes due to a significant turn toward shore from the Hopkins crew, that was not due to breakage. The crews were brought back to the line and the race restarted without incident. 
+Thank you to Hopkins and Dexter-Southfield for joining us!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=49E35C8A20A0736D6FDA5531D8829D8F&cat=5", random="random"]; 
+DexterSouthfield -> Hopkins[label="5.1 (5.88)
+05/09", weight="95", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
+Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
+B3, G3, G5, B2, B1, G1, B4, G2, G4
+The boys 2V event had to be stopped after the first 10-12 strokes due to a significant turn toward shore from the Hopkins crew, that was not due to breakage. The crews were brought back to the line and the race restarted without incident. 
+Thank you to Hopkins and Dexter-Southfield for joining us!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=49E35C8A20A0736D6FDA5531D8829D8F&cat=5", random="random"]; 
+Brooks -> DexterSouthfield[label="42.8
 04/18", weight="58", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
 Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 

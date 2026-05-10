@@ -1,4 +1,30 @@
-digraph girls2foursCambridgeRLS {Brooks [URL="girls2foursBrooks.html"];Middlesex [URL="girls2foursMiddlesex.html"];CambridgeRLS [URL="girls2foursCambridgeRLS.html"];NMH [URL="girls2foursNMH.html"];BBN [URL="girls2foursBBN.html"];Brooks -> CambridgeRLS[label="11.6
+digraph girls2foursCambridgeRLS {Winsor [URL="girls2foursWinsor.html"];Groton [URL="girls2foursGroton.html"];CambridgeRLS [URL="girls2foursCambridgeRLS.html"];NMH [URL="girls2foursNMH.html"];Middlesex [URL="girls2foursMiddlesex.html"];BBN [URL="girls2foursBBN.html"];Hopkins [URL="girls2foursHopkins.html"];Brooks [URL="girls2foursBrooks.html"];DexterSouthfield [URL="girls2foursDexterSouthfield.html"];Nobles [URL="girls2foursNobles.html"];Nobles -> CambridgeRLS[label="8.9 (10.27)
+05/06", weight="92", tooltip="NEIRA Girls Fours, Winsor School vs. Nobles vs. CRLS			
+Distance: 1300 Conditions: Wild and windy day of racing on the powerhouse. All crews persevered through a strong flow and steady headwind with frequent gusts up to 25 mph. Race order: 5V (Nobles & CRLS), Novice 8+, G4, G3, G2, G1, Novice/Composite lower boat 8+. In the G1 race, both Nobles and CRLS stopped before the start line and drifted into it. This did not impact finish order, but did impact margin. In the final N8+ race, a gust of wind pushed the Nobles crew into the CRLS crew as they entered River Street bridge, hitting the bridge and causing an over-the-head crab. The race was paused to recompose and restarted. Resilience award to this CRLS crew for regaining composure and great rowing through some gnarly crabs! Thank you Nobles and CRLS for a great race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAF6A3546F2E621A5341EAEBA6CFA90B&cat=1", random="random"]; 
+Winsor -> CambridgeRLS[label="3.4 (3.92)
+05/06", weight="97", tooltip="NEIRA Girls Fours, Winsor School vs. Nobles vs. CRLS			
+Distance: 1300 Conditions: Wild and windy day of racing on the powerhouse. All crews persevered through a strong flow and steady headwind with frequent gusts up to 25 mph. Race order: 5V (Nobles & CRLS), Novice 8+, G4, G3, G2, G1, Novice/Composite lower boat 8+. In the G1 race, both Nobles and CRLS stopped before the start line and drifted into it. This did not impact finish order, but did impact margin. In the final N8+ race, a gust of wind pushed the Nobles crew into the CRLS crew as they entered River Street bridge, hitting the bridge and causing an over-the-head crab. The race was paused to recompose and restarted. Resilience award to this CRLS crew for regaining composure and great rowing through some gnarly crabs! Thank you Nobles and CRLS for a great race!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAF6A3546F2E621A5341EAEBA6CFA90B&cat=1", random="random"]; 
+CambridgeRLS -> Hopkins[label="24.3 (28.04)
+05/09", weight="76", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
+Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
+B3, G3, G5, B2, B1, G1, B4, G2, G4
+The boys 2V event had to be stopped after the first 10-12 strokes due to a significant turn toward shore from the Hopkins crew, that was not due to breakage. The crews were brought back to the line and the race restarted without incident. 
+Thank you to Hopkins and Dexter-Southfield for joining us!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=49E35C8A20A0736D6FDA5531D8829D8F&cat=5", random="random"]; 
+CambridgeRLS -> DexterSouthfield[label="48.7 (56.19)
+05/09", weight="52", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
+Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
+B3, G3, G5, B2, B1, G1, B4, G2, G4
+The boys 2V event had to be stopped after the first 10-12 strokes due to a significant turn toward shore from the Hopkins crew, that was not due to breakage. The crews were brought back to the line and the race restarted without incident. 
+Thank you to Hopkins and Dexter-Southfield for joining us!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=49E35C8A20A0736D6FDA5531D8829D8F&cat=5", random="random"]; 
+Groton -> CambridgeRLS[label="1.1 (1.33)
+05/02", weight="99", tooltip="NEIRA Boys & Girls Fours,Cambridge Rindge abd Latin School at Groton			
+Distance: 1240 m Conditions: Great flat water with very little current. On and off sprinkles. Comments: Good racing throughout. Congratulations, CRLS, for some good wins.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=73B77871E3536483D98EF9378161BD6F&cat=5", random="random"]; 
+Brooks -> CambridgeRLS[label="11.6
 04/25", weight="89", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
 Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 

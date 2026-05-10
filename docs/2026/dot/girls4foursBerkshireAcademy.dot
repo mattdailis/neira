@@ -1,4 +1,4 @@
-digraph girls4foursBerkshireAcademy {Choate [URL="girls4foursChoate.html"];Taft [URL="girls4foursTaft.html"];BerkshireAcademy [URL="girls4foursBerkshireAcademy.html"];Pomfret [URL="girls4foursPomfret.html"];Middletown [URL="girls4foursMiddletown.html"];Choate -> BerkshireAcademy[label="130.9
+digraph girls4foursBerkshireAcademy {Middletown [URL="girls4foursMiddletown.html"];BerkshireAcademy [URL="girls4foursBerkshireAcademy.html"];GreenwichAcademy [URL="girls4foursGreenwichAcademy.html"];LymeOldLyme [URL="girls4foursLymeOldLyme.html"];Taft [URL="girls4foursTaft.html"];Canterbury [URL="girls4foursCanterbury.html"];Choate [URL="girls4foursChoate.html"];Pomfret [URL="girls4foursPomfret.html"];Choate -> BerkshireAcademy[label="130.9
 04/18", weight="-30", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Choate & Taft			
 Distance: 1500 M Conditions: Variable tail/cross wind throughout racing; 7-9 mph; flat water. Comments: B2 declared a dead heat. G2 started a full length over the start line. G1 started 5 meters behind the starting line. Choate G5 caught a boat-stopping crab in the last ten strokes. Nice job by all cox'ns on a tricky aligning day. Thanks to Taft and Choate for some great early-season racing.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2D008875DBBDEC95092F804AC2BBF2F&cat=5", random="random"]; 
@@ -13,4 +13,16 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DDED0627429CEB0ED1
 BerkshireAcademy -> Pomfret[label="38.8
 04/22", weight="62", tooltip="NEIRA Girls Fours, Pomfret vs Berkshire, Middletown			
 Distance: 1500m Conditions: 9 MPH tailwind, occasional gusts of ~16 MPH. Light chop, more prevalent in the second 750. Comments: Alternated races with boys. Order of girls' races: G3, G2, G1, G4/Novice. Berkshire finished about 1 foot ahead of Pomfret in the G3. Thank you, Berkshire and Middletown, for making the trip.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DDED0627429CEB0ED1DAFC446A7F8D6B&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=DDED0627429CEB0ED1DAFC446A7F8D6B&cat=1", random="random"]; 
+GreenwichAcademy -> BerkshireAcademy[label="9.0 (10.38)
+05/09", weight="91", tooltip="NEIRA Girls Fours, Berkshire v Canterbury, Greenwich Academy, Lyme/Old Lyme, Sacred Heart			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: Races alternated with boys' races. Order of racing: 3V, 2V, 1V, 4V. Berkshire hotseated a rower from 3V to 4V. To ensure fair racing, the course was shortened from 1500 M due to aggressive weed growth in the starting area. In 3V race, GA caught a boat-stopping crab just short of the finish. This would not have impacted finish order, but may have increased the margin. Kudos to cox'ns in 1V and 2V for managing tight 5-boat starts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F58C6BF71D67F028BA2055A66A6FA063&cat=1", random="random"]; 
+BerkshireAcademy -> LymeOldLyme[label="14.1 (16.27)
+05/09", weight="86", tooltip="NEIRA Girls Fours, Berkshire v Canterbury, Greenwich Academy, Lyme/Old Lyme, Sacred Heart			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: Races alternated with boys' races. Order of racing: 3V, 2V, 1V, 4V. Berkshire hotseated a rower from 3V to 4V. To ensure fair racing, the course was shortened from 1500 M due to aggressive weed growth in the starting area. In 3V race, GA caught a boat-stopping crab just short of the finish. This would not have impacted finish order, but may have increased the margin. Kudos to cox'ns in 1V and 2V for managing tight 5-boat starts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F58C6BF71D67F028BA2055A66A6FA063&cat=1", random="random"]; 
+BerkshireAcademy -> Canterbury[label="57.9 (66.81)
+05/09", weight="43", tooltip="NEIRA Girls Fours, Berkshire v Canterbury, Greenwich Academy, Lyme/Old Lyme, Sacred Heart			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: Races alternated with boys' races. Order of racing: 3V, 2V, 1V, 4V. Berkshire hotseated a rower from 3V to 4V. To ensure fair racing, the course was shortened from 1500 M due to aggressive weed growth in the starting area. In 3V race, GA caught a boat-stopping crab just short of the finish. This would not have impacted finish order, but may have increased the margin. Kudos to cox'ns in 1V and 2V for managing tight 5-boat starts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F58C6BF71D67F028BA2055A66A6FA063&cat=1", random="random"]}

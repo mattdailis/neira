@@ -1,4 +1,32 @@
-digraph girls1foursWorcesterAcademy {WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademy.html"];BrewsterAcademy -> WorcesterAcademy[label="78.8
+digraph girls1foursWorcesterAcademy {Derryfield [URL="girls1foursDerryfield.html"];StMarysLynn [URL="girls1foursStMarysLynn.html"];Medford [URL="girls1foursMedford.html"];Berwick [URL="girls1foursBerwick.html"];WorcesterAcademy [URL="girls1foursWorcesterAcademy.html"];BrewsterAcademy [URL="girls1foursBrewsterAcademy.html"];BrewsterAcademy -> WorcesterAcademy[label="78.8
 04/22", weight="22", tooltip="NEIRA Boys & Girls Fours,Worcester Academy, Brewster Academy, Bancroft			
 Distance: 1500 meters Conditions: Clear, 15 mph ctoss/tail wind throughout races. Significant chop. Comments: The 2nd place in the Girls V1 boat waa Brewster's 2V.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A02EF64D21763F7CE3DF883D95C6810C&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A02EF64D21763F7CE3DF883D95C6810C&cat=5", random="random"]; 
+Berwick -> WorcesterAcademy[label="43.5
+05/07", weight="57", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, Medford, Northampton Community Rowing, Regatta Point Rowing, Worcester Academy			
+Distance: 1500 meters Conditions: Light tailwind and chop throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD6FA9140F016BB3A2B25F8B37F7899C&cat=5", random="random"]; 
+Medford -> WorcesterAcademy[label="7.3
+05/07", weight="93", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, Medford, Northampton Community Rowing, Regatta Point Rowing, Worcester Academy			
+Distance: 1500 meters Conditions: Light tailwind and chop throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD6FA9140F016BB3A2B25F8B37F7899C&cat=5", random="random"]; 
+BrewsterAcademy -> WorcesterAcademy[label="76.6
+05/06", weight="24", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+Derryfield -> WorcesterAcademy[label="69.9
+05/06", weight="31", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+StMarysLynn -> WorcesterAcademy[label="62.7
+05/06", weight="38", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+Berwick -> WorcesterAcademy[label="55.7
+05/06", weight="45", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]}

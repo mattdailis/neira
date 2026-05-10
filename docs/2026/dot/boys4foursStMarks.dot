@@ -1,4 +1,14 @@
-digraph boys4foursStMarks {Brooks [URL="boys4foursBrooks.html"];Middlesex [URL="boys4foursMiddlesex.html"];DexterSouthfield [URL="boys4foursDexterSouthfield.html"];Nobles [URL="boys4foursNobles.html"];StMarks [URL="boys4foursStMarks.html"];Hotchkiss [URL="boys4foursHotchkiss.html"];Hopkins [URL="boys4foursHopkins.html"];Brooks -> StMarks[label="88.7
+digraph boys4foursStMarks {BBN [URL="boys4foursBBN.html"];Middlesex [URL="boys4foursMiddlesex.html"];Hopkins [URL="boys4foursHopkins.html"];Brooks [URL="boys4foursBrooks.html"];Taft [URL="boys4foursTaft.html"];Hotchkiss [URL="boys4foursHotchkiss.html"];DexterSouthfield [URL="boys4foursDexterSouthfield.html"];StMarks [URL="boys4foursStMarks.html"];Nobles [URL="boys4foursNobles.html"];Taft -> StMarks[label="45.8
+05/09", weight="55", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+BBN -> StMarks[label="34.6
+05/09", weight="66", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+Brooks -> StMarks[label="88.7
 04/18", weight="12", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
 Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 

@@ -1,4 +1,4 @@
-digraph boys1foursStMarysLynn {Thayer [URL="boys1foursThayer.html"];GreenwichCountryDay [URL="boys1foursGreenwichCountryDay.html"];NMH [URL="boys1foursNMH.html"];Hopkins [URL="boys1foursHopkins.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];BelmontHill [URL="boys1foursBelmontHill.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];StMarysLynn -> GreenwichCountryDay[label="33.5 (38.65)
+digraph boys1foursStMarysLynn {Thayer [URL="boys1foursThayer.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Derryfield [URL="boys1foursDerryfield.html"];BelmontHill [URL="boys1foursBelmontHill.html"];Berwick [URL="boys1foursBerwick.html"];NMH [URL="boys1foursNMH.html"];Hopkins [URL="boys1foursHopkins.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];GreenwichCountryDay [URL="boys1foursGreenwichCountryDay.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];StMarysLynn -> GreenwichCountryDay[label="33.5 (38.65)
 04/15", weight="67", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
 Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
@@ -10,6 +10,31 @@ StMarysLynn -> MarianapolisPrep[label="70.5 (81.35)
 04/15", weight="30", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
 Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
+Berwick -> StMarysLynn[label="6.6
+05/06", weight="94", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+BrewsterAcademy -> StMarysLynn[label="1.1
+05/06", weight="99", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+StMarysLynn -> Derryfield[label="4.7
+05/06", weight="96", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+StMarysLynn -> WorcesterAcademy[label="22.8
+05/06", weight="78", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+StMarysLynn -> Thayer[label="28.7
+05/06", weight="72", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
 BelmontHill -> StMarysLynn[label="31.9
 04/18", weight="69", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
 Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 

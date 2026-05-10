@@ -1,4 +1,4 @@
-digraph boys3foursNMH {Brooks [URL="boys3foursBrooks.html"];Middlesex [URL="boys3foursMiddlesex.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];NMH [URL="boys3foursNMH.html"];Choate [URL="boys3foursChoate.html"];StMarks [URL="boys3foursStMarks.html"];Pomfret [URL="boys3foursPomfret.html"];Hopkins [URL="boys3foursHopkins.html"];BelmontHill [URL="boys3foursBelmontHill.html"];BelmontHill -> NMH[label="27.2
+digraph boys3foursNMH {NMH [URL="boys3foursNMH.html"];CambridgeRLS [URL="boys3foursCambridgeRLS.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Middlesex [URL="boys3foursMiddlesex.html"];Hopkins [URL="boys3foursHopkins.html"];Brooks [URL="boys3foursBrooks.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];Nobles [URL="boys3foursNobles.html"];Choate [URL="boys3foursChoate.html"];StMarks [URL="boys3foursStMarks.html"];Pomfret [URL="boys3foursPomfret.html"];BelmontHill -> NMH[label="27.2
 04/18", weight="73", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
 Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
 Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
@@ -16,6 +16,14 @@ Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts 
 Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
 Thanks to our guests for being great competitors and exhibiting great sportsmanship.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+Nobles -> NMH[label="11.8 (12.64)
+05/09", weight="89", tooltip="NEIRA Boys & Girls Fours,NEIRA Boys and Girls Fours: NMH, Hotchkiss, and Nobles			
+Distance: 1400m Conditions: Rain throughout the day, but it picked up intensity after the B3 race. Little to no wind throughout the day. Racing order was B5/G1/B1/G2/B2/G3/B3/G4/B4/G5/CoedJV8's. Moderate/strong current that was even across the lanes. In the B1 race, there was a photo finish between NMH and Hotchkiss; Hotchkiss beat NMH by about a bow ball. Another photo finish in the B3 race, where Hotchkiss beat NMH by 0.4. Thank you to Hotchkiss and Nobles for making the trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=885ADB44D2DCC7770132CB238577A3D1&cat=5", random="random"]; 
+Hotchkiss -> NMH[label="0.4 (0.43)
+05/09", weight="100", tooltip="NEIRA Boys & Girls Fours,NEIRA Boys and Girls Fours: NMH, Hotchkiss, and Nobles			
+Distance: 1400m Conditions: Rain throughout the day, but it picked up intensity after the B3 race. Little to no wind throughout the day. Racing order was B5/G1/B1/G2/B2/G3/B3/G4/B4/G5/CoedJV8's. Moderate/strong current that was even across the lanes. In the B1 race, there was a photo finish between NMH and Hotchkiss; Hotchkiss beat NMH by about a bow ball. Another photo finish in the B3 race, where Hotchkiss beat NMH by 0.4. Thank you to Hotchkiss and Nobles for making the trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=885ADB44D2DCC7770132CB238577A3D1&cat=5", random="random"]; 
 NMH -> Choate[label="13.6
 04/11", weight="87", tooltip="NEIRA Boys & Girls Fours,St. Marks, Choate, NMH			
 Distance: 1500m Conditions: Variable crossing tailwind, 14-17mph with gusts. Lake was protected due to wind direction, and water was good at start, very choppy from 300-600m. Wind shifted speed all afternoon. Comments: G3 started a boat length over the line. Great racing by all crews! We were lucky to have the sunshine.

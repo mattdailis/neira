@@ -1,4 +1,12 @@
-digraph boys3foursHotchkiss {Nobles [URL="boys3foursNobles.html"];StMarks [URL="boys3foursStMarks.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Hopkins [URL="boys3foursHopkins.html"];Nobles -> Hotchkiss[label="14.1
+digraph boys3foursHotchkiss {BerkshireAcademy [URL="boys3foursBerkshireAcademy.html"];Hopkins [URL="boys3foursHopkins.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];Nobles [URL="boys3foursNobles.html"];StMarks [URL="boys3foursStMarks.html"];NMH [URL="boys3foursNMH.html"];Nobles -> Hotchkiss[label="11.4 (12.21)
+05/09", weight="89", tooltip="NEIRA Boys & Girls Fours,NEIRA Boys and Girls Fours: NMH, Hotchkiss, and Nobles			
+Distance: 1400m Conditions: Rain throughout the day, but it picked up intensity after the B3 race. Little to no wind throughout the day. Racing order was B5/G1/B1/G2/B2/G3/B3/G4/B4/G5/CoedJV8's. Moderate/strong current that was even across the lanes. In the B1 race, there was a photo finish between NMH and Hotchkiss; Hotchkiss beat NMH by about a bow ball. Another photo finish in the B3 race, where Hotchkiss beat NMH by 0.4. Thank you to Hotchkiss and Nobles for making the trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=885ADB44D2DCC7770132CB238577A3D1&cat=5", random="random"]; 
+Hotchkiss -> NMH[label="0.4 (0.43)
+05/09", weight="100", tooltip="NEIRA Boys & Girls Fours,NEIRA Boys and Girls Fours: NMH, Hotchkiss, and Nobles			
+Distance: 1400m Conditions: Rain throughout the day, but it picked up intensity after the B3 race. Little to no wind throughout the day. Racing order was B5/G1/B1/G2/B2/G3/B3/G4/B4/G5/CoedJV8's. Moderate/strong current that was even across the lanes. In the B1 race, there was a photo finish between NMH and Hotchkiss; Hotchkiss beat NMH by about a bow ball. Another photo finish in the B3 race, where Hotchkiss beat NMH by 0.4. Thank you to Hotchkiss and Nobles for making the trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=885ADB44D2DCC7770132CB238577A3D1&cat=5", random="random"]; 
+Nobles -> Hotchkiss[label="14.1
 04/25", weight="86", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
 Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 

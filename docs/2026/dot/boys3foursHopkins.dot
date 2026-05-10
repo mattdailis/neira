@@ -1,4 +1,18 @@
-digraph boys3foursHopkins {NMH [URL="boys3foursNMH.html"];Nobles [URL="boys3foursNobles.html"];StMarks [URL="boys3foursStMarks.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];LymeOldLyme [URL="boys3foursLymeOldLyme.html"];Pomfret [URL="boys3foursPomfret.html"];Hopkins [URL="boys3foursHopkins.html"];BelmontHill [URL="boys3foursBelmontHill.html"];BelmontHill -> Hopkins[label="41.9
+digraph boys3foursHopkins {CambridgeRLS [URL="boys3foursCambridgeRLS.html"];BelmontHill [URL="boys3foursBelmontHill.html"];Hopkins [URL="boys3foursHopkins.html"];LymeOldLyme [URL="boys3foursLymeOldLyme.html"];Pomfret [URL="boys3foursPomfret.html"];Hotchkiss [URL="boys3foursHotchkiss.html"];Nobles [URL="boys3foursNobles.html"];DexterSouthfield [URL="boys3foursDexterSouthfield.html"];StMarks [URL="boys3foursStMarks.html"];NMH [URL="boys3foursNMH.html"];CambridgeRLS -> Hopkins[label="30.7 (35.42)
+05/09", weight="70", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
+Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
+B3, G3, G5, B2, B1, G1, B4, G2, G4
+The boys 2V event had to be stopped after the first 10-12 strokes due to a significant turn toward shore from the Hopkins crew, that was not due to breakage. The crews were brought back to the line and the race restarted without incident. 
+Thank you to Hopkins and Dexter-Southfield for joining us!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=49E35C8A20A0736D6FDA5531D8829D8F&cat=5", random="random"]; 
+DexterSouthfield -> Hopkins[label="13.8 (15.92)
+05/09", weight="87", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
+Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
+B3, G3, G5, B2, B1, G1, B4, G2, G4
+The boys 2V event had to be stopped after the first 10-12 strokes due to a significant turn toward shore from the Hopkins crew, that was not due to breakage. The crews were brought back to the line and the race restarted without incident. 
+Thank you to Hopkins and Dexter-Southfield for joining us!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=49E35C8A20A0736D6FDA5531D8829D8F&cat=5", random="random"]; 
+BelmontHill -> Hopkins[label="41.9
 04/18", weight="59", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
 Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
 Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.

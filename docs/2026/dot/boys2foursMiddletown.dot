@@ -1,10 +1,19 @@
-digraph boys2foursMiddletown {Middletown [URL="boys2foursMiddletown.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];BerkshireAcademy -> Middletown[label="75.6
+digraph boys2foursMiddletown {EOSmith [URL="boys2foursEOSmith.html"];LymeOldLyme [URL="boys2foursLymeOldLyme.html"];BerkshireAcademy [URL="boys2foursBerkshireAcademy.html"];Middletown [URL="boys2foursMiddletown.html"];BerkshireAcademy -> Middletown[label="75.6
 04/22", weight="25", tooltip="NEIRA Boys Fours, Pomfret v. Berkshire, Middletown			
 Distance: 1500M Conditions: 9 MPH tailwind, occasional gusts of ~16 MPH. Light chop, more prevalent in the second 750. Comments: Pomfret Boys raced down. Pomfret racing should not be used for NEIRA seeding.
 Alternated races with Girls. Order of boys' races: B3, B2, B1, B4/Novice.
 *Not sure why/how Middletown B4 was so much faster than B2, B3 - conditions were similar.
 Thank you, Berkshire and Middletown, for making the trip.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAEB8068F20327CAA5D58373BC279D92&cat=1", random="random"]; 
+EOSmith -> Middletown[label="18.5
+05/07", weight="82", tooltip="NEIRA Boys & Girls Fours,Middletown High School, E.O. Smith, Valley Regional			
+Distance: 1500 Meters Conditions: Float starts on the Connecticut River. Current was almost non existent, due to the current going out while the tide came in. Ten mph tail wind with moderate chop & occasional 20 mph gusts. Race course requires a slight turn to port at approximately the 750 meter mark. Comments: MHS Boys 1V 3 seat jumped a slide approximately 1200 meters into the race & had to stop rowing until the athlete returned to their seat.
+Valley Regional Boys 2V incurred a 10 second penalty for cutting the turn to port too early, shortening the course by going on the wrong side of the buoy. Original time was 5:38.95.
+Girls 2V Race included Middletown B Boat (Their 3V boat in a 2V race) that came in 2nd.
+Note for CPSRA: 4th boats are novice races. We also did a mixed novice 8. Times below:
+EO Smith: 6:22.34
+MHS 6:43.53 - 4 seat caught two craps causing all rowers to stop both times.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BEBCD2482A846054F6760131C7D6412D&cat=5", random="random"]; 
 LymeOldLyme -> Middletown[label="47.1
 04/29", weight="53", tooltip="NEIRA Boys & Girls Fours,LOLHS v Middletown			
 Distance: 1500 Conditions: 3-6MPH building head wind progressing down the course Comments: Boys 4th boat was a Bn4. Girls 4th boat was a Gn4. 

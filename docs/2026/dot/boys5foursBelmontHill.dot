@@ -1,4 +1,4 @@
-digraph boys5foursBelmontHill {BelmontHill [URL="boys5foursBelmontHill.html"];Pomfret [URL="boys5foursPomfret.html"];NMH [URL="boys5foursNMH.html"];BelmontHill -> NMH[label="32.4
+digraph boys5foursBelmontHill {BelmontHill [URL="boys5foursBelmontHill.html"];Pomfret [URL="boys5foursPomfret.html"];Nobles [URL="boys5foursNobles.html"];NMH [URL="boys5foursNMH.html"];BelmontHill -> NMH[label="32.4
 04/18", weight="68", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
 Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
 Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
@@ -9,4 +9,8 @@ BelmontHill -> Pomfret[label="130.2
 Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
 Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
 Thanks to our guests for being great competitors and exhibiting great sportsmanship.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+BelmontHill -> Nobles[label="7.3 (8.42)
+05/02", weight="93", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup & Crawford-Parker JV Cup			
+Distance: 1300m Conditions: Steady & strong direct headwind, varying slightly in intensity through the racing. Comments: An epic day of competition! Great racing across the board, with three of the eight races decided by 3.2 seconds or less. Nobles varsity crews take home the Bassett Cup by virtue of their wins in the 1V4 and 3V4; Belmont Hill wins the inaugural Crawford-Parker JV Cup. Thanks to all of the Nobles crews and coaches for an outstanding afternoon/early evening on the Charles!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAF3ECF34078FA9EE5DD65E440E3B490&cat=1", random="random"]}

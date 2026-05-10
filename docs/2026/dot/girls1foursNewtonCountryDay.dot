@@ -1,4 +1,4 @@
-digraph girls1foursNewtonCountryDay {NewtonCountryDay [URL="girls1foursNewtonCountryDay.html"];SacredHeart [URL="girls1foursSacredHeart.html"];Nobles [URL="girls1foursNobles.html"];Choate [URL="girls1foursChoate.html"];StMarks [URL="girls1foursStMarks.html"];Hotchkiss [URL="girls1foursHotchkiss.html"];Hopkins [URL="girls1foursHopkins.html"];Winsor [URL="girls1foursWinsor.html"];Choate -> NewtonCountryDay[label="36.0 (40.0)
+digraph girls1foursNewtonCountryDay {Winsor [URL="girls1foursWinsor.html"];Groton [URL="girls1foursGroton.html"];BBN [URL="girls1foursBBN.html"];Middlesex [URL="girls1foursMiddlesex.html"];SacredHeart [URL="girls1foursSacredHeart.html"];Hopkins [URL="girls1foursHopkins.html"];NewtonCountryDay [URL="girls1foursNewtonCountryDay.html"];Brooks [URL="girls1foursBrooks.html"];Hotchkiss [URL="girls1foursHotchkiss.html"];Choate [URL="girls1foursChoate.html"];StMarks [URL="girls1foursStMarks.html"];Nobles [URL="girls1foursNobles.html"];Choate -> NewtonCountryDay[label="36.0 (40.0)
 04/22", weight="64", tooltip="NEIRA Girls , Winsor School vs. Choate vs. NCDS			
 Distance: 1350 Conditions: 
 Fantastic racing on the busy powerhouse this Wednesday afternoon! Thank you to Choate for coming up and to NCDS for pivoting with some last minute schedule adjustments. 
@@ -12,10 +12,28 @@ Fantastic racing on the busy powerhouse this Wednesday afternoon! Thank you to C
 13mph steady head wind with a bit of chop for the last 400m, wind increased as racing went on and conditions slowed. 
 Order of racing: Novice 8+, G2, G3, G4, G5, G1. Comments: 6th boat: Novice 8+ of NCDS / Winsor
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=06CC0E20DAFC595AF823D0A12ECC21DF&cat=1", random="random"]; 
+Middlesex -> NewtonCountryDay[label="23.2 (26.77)
+05/02", weight="77", tooltip="NEIRA Girls Fours, BB&N, Middlesex, NCDS			
+Distance: 1300 Conditions: Head wind, consistent direction 6-10kts variable speed. Wind picked up once through bridges. Light chop Comments: Thank you Middlesex for making the trip to Boston, BB&N for hosting Middlesex ant their site, and to all coaches who supported on the water. A great day of racing, race order 3,4,1,2 to allow hot seats. 4V event saw oars clashing just through River Street Bridge. Neither crew gained or lost considerable momentum and coxswains and crews recovered effectively making for exciting racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D98427C0D3C15C33CF32D64EFD86CCF0&cat=1", random="random"]; 
+BBN -> NewtonCountryDay[label="8.7 (10.04)
+05/02", weight="92", tooltip="NEIRA Girls Fours, BB&N, Middlesex, NCDS			
+Distance: 1300 Conditions: Head wind, consistent direction 6-10kts variable speed. Wind picked up once through bridges. Light chop Comments: Thank you Middlesex for making the trip to Boston, BB&N for hosting Middlesex ant their site, and to all coaches who supported on the water. A great day of racing, race order 3,4,1,2 to allow hot seats. 4V event saw oars clashing just through River Street Bridge. Neither crew gained or lost considerable momentum and coxswains and crews recovered effectively making for exciting racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D98427C0D3C15C33CF32D64EFD86CCF0&cat=1", random="random"]; 
 NewtonCountryDay -> SacredHeart[label="4.9 (5.88)
 04/19", weight="96", tooltip="NEIRA Girls Fours, Newton Country Day vs Sacred Heart Greenwich			
 Distance: 1250 Conditions: Slight head wind and rain but the forecast told a worse tale than reality. Thanks to SHG for making the ride up. All crews raced with Courage and Confidence!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2A91554FD6256609D30391461689A8CB&cat=1", random="random"]; 
+Brooks -> NewtonCountryDay[label="39.5
+05/09", weight="61", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Groton, BHS , NCDS			
+Distance: 1500m Conditions: Good racing conditions - occasional rain and quartering headwind/ headwind varying from 6-8 mph. Race order was G1,B3,G3,B4,G4,B2,G2,B1 Comments: Due to equipment breakage in the Brooks B1 during warmup, Boys first boat was moved to the end of the racing order - thank you to our competitors' flexibility. Groton G1 experienced some rigging problems during their race. 
+Overall a good day of racing on Lake Cochichewick after a very windy week. Good luck to all crews for the remainder of your seasons. A special thanks to the NCDS coaching team for your help out on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=14668C4F76D76786763E8999C0590073&cat=5", random="random"]; 
+Groton -> NewtonCountryDay[label="27.2
+05/09", weight="73", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Groton, BHS , NCDS			
+Distance: 1500m Conditions: Good racing conditions - occasional rain and quartering headwind/ headwind varying from 6-8 mph. Race order was G1,B3,G3,B4,G4,B2,G2,B1 Comments: Due to equipment breakage in the Brooks B1 during warmup, Boys first boat was moved to the end of the racing order - thank you to our competitors' flexibility. Groton G1 experienced some rigging problems during their race. 
+Overall a good day of racing on Lake Cochichewick after a very windy week. Good luck to all crews for the remainder of your seasons. A special thanks to the NCDS coaching team for your help out on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=14668C4F76D76786763E8999C0590073&cat=5", random="random"]; 
 Nobles -> NewtonCountryDay[label="35.5
 04/25", weight="65", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
 Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
