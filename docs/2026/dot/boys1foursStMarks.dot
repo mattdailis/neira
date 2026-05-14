@@ -1,4 +1,4 @@
-digraph boys1foursStMarks {FrederickGunn [URL="boys1foursFrederickGunn.html"];BBN [URL="boys1foursBBN.html"];NMH [URL="boys1foursNMH.html"];Middlesex [URL="boys1foursMiddlesex.html"];NotreDame [URL="boys1foursNotreDame.html"];Hopkins [URL="boys1foursHopkins.html"];Taft [URL="boys1foursTaft.html"];Brooks [URL="boys1foursBrooks.html"];Nobles [URL="boys1foursNobles.html"];Choate [URL="boys1foursChoate.html"];Hotchkiss [URL="boys1foursHotchkiss.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];DexterSouthfield [URL="boys1foursDexterSouthfield.html"];StMarks [URL="boys1foursStMarks.html"];Pomfret [URL="boys1foursPomfret.html"];Taft -> StMarks[label="23.1
+digraph boys1foursStMarks {Choate [URL="boys1foursChoate.html"];Taft [URL="boys1foursTaft.html"];Hopkins [URL="boys1foursHopkins.html"];Middlesex [URL="boys1foursMiddlesex.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];StMarks [URL="boys1foursStMarks.html"];Hotchkiss [URL="boys1foursHotchkiss.html"];Pomfret [URL="boys1foursPomfret.html"];NMH [URL="boys1foursNMH.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];Nobles [URL="boys1foursNobles.html"];NotreDame [URL="boys1foursNotreDame.html"];Medford [URL="boys1foursMedford.html"];DexterSouthfield [URL="boys1foursDexterSouthfield.html"];Brooks [URL="boys1foursBrooks.html"];BBN [URL="boys1foursBBN.html"];Taft -> StMarks[label="23.1
 05/09", weight="77", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
 Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
 Congratulations to Taft B1 for winning the 2026 du Pont Cup.
@@ -42,6 +42,9 @@ Choate -> StMarks[label="25.0
 04/11", weight="75", tooltip="NEIRA Boys & Girls Fours,St. Marks, Choate, NMH			
 Distance: 1500m Conditions: Variable crossing tailwind, 14-17mph with gusts. Lake was protected due to wind direction, and water was good at start, very choppy from 300-600m. Wind shifted speed all afternoon. Comments: G3 started a boat length over the line. Great racing by all crews! We were lucky to have the sunshine.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FB4EC0A3A1B57E11BCA0D62F8B29A986&cat=5", random="random"]; 
+StMarks -> Medford[label="5.2
+05/03", weight="95", tooltip="Mayor's Cup Invitational			
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=A2B0DEFDD9E685D8962812A1EB9BB055&cat=6", random="random"]; 
 Nobles -> StMarks[label="42.3
 04/25", weight="58", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
 Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!

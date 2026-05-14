@@ -1,4 +1,4 @@
-digraph boys1foursBerwick {Thayer [URL="boys1foursThayer.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Derryfield [URL="boys1foursDerryfield.html"];Berwick [URL="boys1foursBerwick.html"];Medford [URL="boys1foursMedford.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];Berwick -> Medford[label="0.9
+digraph boys1foursBerwick {Derryfield [URL="boys1foursDerryfield.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Thayer [URL="boys1foursThayer.html"];Medford [URL="boys1foursMedford.html"];Berwick [URL="boys1foursBerwick.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Berwick -> Medford[label="0.9
 05/07", weight="100", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, Medford, Northampton Community Rowing, Regatta Point Rowing, Worcester Academy			
 Distance: 1500 meters Conditions: Light tailwind and chop throughout all races.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD6FA9140F016BB3A2B25F8B37F7899C&cat=5", random="random"]; 

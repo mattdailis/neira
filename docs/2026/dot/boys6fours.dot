@@ -1,4 +1,4 @@
-digraph boys6fours {BelmontHill [URL="boys6foursBelmontHill.html"];BBN [URL="boys6foursBBN.html"];Nobles [URL="boys6foursNobles.html"];BelmontHill -> Nobles[label="2.0 (2.31)
+digraph boys6fours {Nobles [URL="boys6foursNobles.html"];BBN [URL="boys6foursBBN.html"];BelmontHill [URL="boys6foursBelmontHill.html"];BelmontHill -> Nobles[label="2.0 (2.31)
 05/02", weight="98", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup & Crawford-Parker JV Cup			
 Distance: 1300m Conditions: Steady & strong direct headwind, varying slightly in intensity through the racing. Comments: An epic day of competition! Great racing across the board, with three of the eight races decided by 3.2 seconds or less. Nobles varsity crews take home the Bassett Cup by virtue of their wins in the 1V4 and 3V4; Belmont Hill wins the inaugural Crawford-Parker JV Cup. Thanks to all of the Nobles crews and coaches for an outstanding afternoon/early evening on the Charles!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAF3ECF34078FA9EE5DD65E440E3B490&cat=1", random="random"]; 

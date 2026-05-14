@@ -1,4 +1,4 @@
-digraph boys1foursThayer {Thayer [URL="boys1foursThayer.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Derryfield [URL="boys1foursDerryfield.html"];Berwick [URL="boys1foursBerwick.html"];Pingree [URL="boys1foursPingree.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];GreenwichCountryDay [URL="boys1foursGreenwichCountryDay.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];StMarysLynn -> Thayer[label="60.7 (70.04)
+digraph boys1foursThayer {Derryfield [URL="boys1foursDerryfield.html"];BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];Thayer [URL="boys1foursThayer.html"];EOSmith [URL="boys1foursEOSmith.html"];Pingree [URL="boys1foursPingree.html"];Berwick [URL="boys1foursBerwick.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];GreenwichCountryDay [URL="boys1foursGreenwichCountryDay.html"];StMarysLynn -> Thayer[label="60.7 (70.04)
 04/15", weight="40", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
 Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
@@ -38,4 +38,7 @@ None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84
 Pingree -> Thayer[label="11.0
 04/18", weight="89", tooltip="NEIRA Boys & Girls Fours,Pingree vs. Thayer			
 Distance: 1500m Conditions: Light/medium straight headwind Comments: Girls 1V race was exhibition with mixed crews. Thanks to Thayer for coming up to Essex!
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A34F0FBE7FD0A1503A84378FC9880DED&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A34F0FBE7FD0A1503A84378FC9880DED&cat=5", random="random"]; 
+EOSmith -> Thayer[label="9.8
+05/03", weight="91", tooltip="Mayor's Cup Invitational			
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=A2B0DEFDD9E685D8962812A1EB9BB055&cat=6", random="random"]}

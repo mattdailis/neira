@@ -1,4 +1,4 @@
-digraph boys4foursCambridgeRLS {Groton [URL="boys4foursGroton.html"];CambridgeRLS [URL="boys4foursCambridgeRLS.html"];BBN [URL="boys4foursBBN.html"];Middlesex [URL="boys4foursMiddlesex.html"];Hopkins [URL="boys4foursHopkins.html"];Brooks [URL="boys4foursBrooks.html"];DexterSouthfield [URL="boys4foursDexterSouthfield.html"];NMH [URL="boys4foursNMH.html"];CambridgeRLS -> DexterSouthfield[label="43.9 (50.65)
+digraph boys4foursCambridgeRLS {Hopkins [URL="boys4foursHopkins.html"];Middlesex [URL="boys4foursMiddlesex.html"];Groton [URL="boys4foursGroton.html"];NMH [URL="boys4foursNMH.html"];DexterSouthfield [URL="boys4foursDexterSouthfield.html"];CambridgeRLS [URL="boys4foursCambridgeRLS.html"];Brooks [URL="boys4foursBrooks.html"];BBN [URL="boys4foursBBN.html"];CambridgeRLS -> DexterSouthfield[label="43.9 (50.65)
 05/09", weight="57", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
 Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
 B3, G3, G5, B2, B1, G1, B4, G2, G4

@@ -1,4 +1,4 @@
-digraph boys2foursNotreDame {NotreDame [URL="boys2foursNotreDame.html"];Hopkins [URL="boys2foursHopkins.html"];Nobles [URL="boys2foursNobles.html"];StMarks [URL="boys2foursStMarks.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];Nobles -> NotreDame[label="57.6
+digraph boys2foursNotreDame {Hopkins [URL="boys2foursHopkins.html"];StMarks [URL="boys2foursStMarks.html"];NotreDame [URL="boys2foursNotreDame.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];Nobles [URL="boys2foursNobles.html"];Nobles -> NotreDame[label="57.6
 04/25", weight="43", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
 Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
 None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 

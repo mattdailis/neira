@@ -1,4 +1,4 @@
-digraph boys1foursEOSmith {EOSmith [URL="boys1foursEOSmith.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];Middletown [URL="boys1foursMiddletown.html"];LymeOldLyme -> EOSmith[label="20.8
+digraph boys1foursEOSmith {EOSmith [URL="boys1foursEOSmith.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];Thayer [URL="boys1foursThayer.html"];Middletown [URL="boys1foursMiddletown.html"];LymeOldLyme -> EOSmith[label="20.8
 04/18", weight="80", tooltip="NEIRA Boys & Girls Fours,LOLHS VS EO Smith			
 Distance: 1500 Conditions: 5-8 MPH crossing tailwind, Calming down through the course. Comments: B3v4 Started approx 3 lenghts down from the starting bouy. G1v4 E.O. Smith Crabbed after the start, race progressed as EO Smith recovered and continued the race. 
 It was a good Saturday morning out on the lake for a quick race between LOL and EO Smith. The wind at the start was tricky for lining up but after the B3V4 lining up was easier. We would like to thank EO Smith for making the trip to start our weekend. We hope to see you at NEIRAs
@@ -11,4 +11,7 @@ Girls 2V Race included Middletown B Boat (Their 3V boat in a 2V race) that came 
 Note for CPSRA: 4th boats are novice races. We also did a mixed novice 8. Times below:
 EO Smith: 6:22.34
 MHS 6:43.53 - 4 seat caught two craps causing all rowers to stop both times.
-None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BEBCD2482A846054F6760131C7D6412D&cat=5", random="random"]}
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BEBCD2482A846054F6760131C7D6412D&cat=5", random="random"]; 
+EOSmith -> Thayer[label="9.8
+05/03", weight="91", tooltip="Mayor's Cup Invitational			
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=A2B0DEFDD9E685D8962812A1EB9BB055&cat=6", random="random"]}
