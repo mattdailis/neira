@@ -1,0 +1,104 @@
+{
+    "heats": [
+        {
+            "class": "fours",
+            "gender": "boys",
+            "varsity_index": "1",
+            "results": [
+                {
+                    "school": "E.O. Smith",
+                    "raw_time": "5:34.2",
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0
+                },
+                {
+                    "school": "Thayer",
+                    "raw_time": "5:44.0",
+                    "finish_order": 2,
+                    "margin_from_winner": 9.8
+                }
+            ]
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "varsity_index": "1",
+            "results": [
+                {
+                    "school": "St. Mark's",
+                    "raw_time": "5:35.6",
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0
+                },
+                {
+                    "school": "Medford",
+                    "raw_time": "5:40.8",
+                    "finish_order": 2,
+                    "margin_from_winner": 5.2
+                }
+            ]
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "varsity_index": "1",
+            "results": [
+                {
+                    "school": "St. Mark's",
+                    "raw_time": "6:18.5",
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0
+                },
+                {
+                    "school": "E.O. Smith",
+                    "raw_time": "6:46.7",
+                    "finish_order": 2,
+                    "margin_from_winner": 28.2
+                }
+            ]
+        },
+        {
+            "class": "fours",
+            "gender": "boys",
+            "varsity_index": "2",
+            "results": [
+                {
+                    "school": "E.O. Smith",
+                    "raw_time": "5:56.3",
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0
+                },
+                {
+                    "school": "St. Mark's",
+                    "raw_time": "6:30.7",
+                    "finish_order": 2,
+                    "margin_from_winner": 34.4
+                }
+            ]
+        },
+        {
+            "class": "fours",
+            "gender": "girls",
+            "varsity_index": "2",
+            "results": [
+                {
+                    "school": "St. Mark's",
+                    "raw_time": "7:22.6",
+                    "finish_order": 1,
+                    "margin_from_winner": 0.0
+                },
+                {
+                    "school": "Worcester Academy",
+                    "raw_time": "7:37.8",
+                    "finish_order": 2,
+                    "margin_from_winner": 15.2
+                }
+            ]
+        }
+    ],
+    "location": "",
+    "comment": "",
+    "name": "Mayor's Cup Invitational",
+    "url": "https://www.row2k.com/results/resultspage.cfm?UID=A2B0DEFDD9E685D8962812A1EB9BB055&cat=6",
+    "date": "2026-05-03"
+}
