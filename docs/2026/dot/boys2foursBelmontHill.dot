@@ -1,0 +1,40 @@
+digraph boys2foursBelmontHill {StMarysLynn [URL="boys2foursStMarysLynn.html"];NMH [URL="boys2foursNMH.html"];Nobles [URL="boys2foursNobles.html"];Groton [URL="boys2foursGroton.html"];Hopkins [URL="boys2foursHopkins.html"];Brooks [URL="boys2foursBrooks.html"];BelmontHill [URL="boys2foursBelmontHill.html"];BBN [URL="boys2foursBBN.html"];Middlesex [URL="boys2foursMiddlesex.html"];BelmontHill -> BBN[label="13.8 (15.33)
+04/25", weight="87", tooltip="NEIRA Boys Fours, BB&N vs. Belmont Hill (Ducey Cup)			
+Distance: 1350 Conditions: Great conditions overall. Flat water with a slight crosswind. In the 3rd boat race the wind direction shifted to be more of a headwind, but shifted back for the 2nd and 1st boat races. Order of races was 4-3-2-1. Comments: Belmont Hill School wins the Ducey Cup by winning the first boat race. In the 3rd boat race, Belmont Hill steered off course significantly near the finish line. It did not impact order of finish.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF12340A1F72D81B00DA7A14745EF5FE&cat=1", random="random"]; 
+BelmontHill -> NMH[label="31.3
+04/18", weight="69", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+BelmontHill -> Hopkins[label="76.6
+04/18", weight="24", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+BelmontHill -> StMarysLynn[label="98.5
+04/18", weight="2", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+BelmontHill -> Nobles[label="9.6 (11.08)
+05/02", weight="91", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup & Crawford-Parker JV Cup			
+Distance: 1300m Conditions: Steady & strong direct headwind, varying slightly in intensity through the racing. Comments: An epic day of competition! Great racing across the board, with three of the eight races decided by 3.2 seconds or less. Nobles varsity crews take home the Bassett Cup by virtue of their wins in the 1V4 and 3V4; Belmont Hill wins the inaugural Crawford-Parker JV Cup. Thanks to all of the Nobles crews and coaches for an outstanding afternoon/early evening on the Charles!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAF3ECF34078FA9EE5DD65E440E3B490&cat=1", random="random"]; 
+BelmontHill -> Brooks[label="6.9
+05/09", weight="94", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Groton, BHS , NCDS			
+Distance: 1500m Conditions: Good racing conditions - occasional rain and quartering headwind/ headwind varying from 6-8 mph. Race order was G1,B3,G3,B4,G4,B2,G2,B1 Comments: Due to equipment breakage in the Brooks B1 during warmup, Boys first boat was moved to the end of the racing order - thank you to our competitors' flexibility. Groton G1 experienced some rigging problems during their race. 
+Overall a good day of racing on Lake Cochichewick after a very windy week. Good luck to all crews for the remainder of your seasons. A special thanks to the NCDS coaching team for your help out on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=14668C4F76D76786763E8999C0590073&cat=5", random="random"]; 
+BelmontHill -> Groton[label="21.1
+05/09", weight="79", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Groton, BHS , NCDS			
+Distance: 1500m Conditions: Good racing conditions - occasional rain and quartering headwind/ headwind varying from 6-8 mph. Race order was G1,B3,G3,B4,G4,B2,G2,B1 Comments: Due to equipment breakage in the Brooks B1 during warmup, Boys first boat was moved to the end of the racing order - thank you to our competitors' flexibility. Groton G1 experienced some rigging problems during their race. 
+Overall a good day of racing on Lake Cochichewick after a very windy week. Good luck to all crews for the remainder of your seasons. A special thanks to the NCDS coaching team for your help out on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=14668C4F76D76786763E8999C0590073&cat=5", random="random"]; 
+BelmontHill -> Middlesex[label="34.3
+04/22", weight="66", tooltip="NEIRA Boys Fours, Middlesex v. Belmont Hill			
+Distance: 1,500 Conditions: Consistent light to moderate tail wind for all races. Comments: 3rd boats started about a length over the line.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=894AF5053019C1BDE8DA3D03C4AB9A24&cat=1", random="random"]}

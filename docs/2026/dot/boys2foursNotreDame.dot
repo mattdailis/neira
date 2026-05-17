@@ -1,0 +1,34 @@
+digraph boys2foursNotreDame {NotreDame [URL="boys2foursNotreDame.html"];Nobles [URL="boys2foursNobles.html"];Hotchkiss [URL="boys2foursHotchkiss.html"];StMarks [URL="boys2foursStMarks.html"];Hopkins [URL="boys2foursHopkins.html"];GreenwichCountryDay [URL="boys2foursGreenwichCountryDay.html"];Middletown [URL="boys2foursMiddletown.html"];Hotchkiss -> NotreDame[label="38.6
+05/16", weight="62", tooltip="NEIRA Boys & Girls Fours,Hopkins, Hotchkiss, Notre DameHousatonic Sprints			
+Distance: 1500 Conditions: Sunny and beautiful morning, light quartering tailwind about 6mph, increasing to 9mph by the last race. Floating start. Comments: Boats raced top down, interleaving boys and girls heats. In the B1 race both Hotchkiss and Hopkins pushed starboard towards Notre Dame's lane, which eventually pinched the Notre Dame boat and caused it to hit the 1000m buoy. Notre Dame came to a stop and lost time untangling. The incident affected the Notre Dame B1 margin.
+Thank you, Hotchkiss and Notre Dame for coming and enjoying the day with us! We look forward to hosting you again next year!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9E09E22A943FD9337DBC41A86B19FC0E&cat=5", random="random"]; 
+Hopkins -> NotreDame[label="22.3
+05/16", weight="78", tooltip="NEIRA Boys & Girls Fours,Hopkins, Hotchkiss, Notre DameHousatonic Sprints			
+Distance: 1500 Conditions: Sunny and beautiful morning, light quartering tailwind about 6mph, increasing to 9mph by the last race. Floating start. Comments: Boats raced top down, interleaving boys and girls heats. In the B1 race both Hotchkiss and Hopkins pushed starboard towards Notre Dame's lane, which eventually pinched the Notre Dame boat and caused it to hit the 1000m buoy. Notre Dame came to a stop and lost time untangling. The incident affected the Notre Dame B1 margin.
+Thank you, Hotchkiss and Notre Dame for coming and enjoying the day with us! We look forward to hosting you again next year!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9E09E22A943FD9337DBC41A86B19FC0E&cat=5", random="random"]; 
+Nobles -> NotreDame[label="57.6
+04/25", weight="43", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hotchkiss -> NotreDame[label="39.7
+04/25", weight="61", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+StMarks -> NotreDame[label="8.6
+04/25", weight="92", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hopkins -> NotreDame[label="6.6
+04/25", weight="94", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+GreenwichCountryDay -> NotreDame[label="10.0
+05/14", weight="90", tooltip="NEIRA,Notre Dame High School, Greenwich Country Day School, & Middletown High School			
+Distance: 1500m Conditions: Mild downstream current with minimal to no wind. Floating starts. Slight turn to port at approximately 750m. Comments: Boys 2nd boat - GCDS & ND had slight high five about 15 seconds into the race, no hands were raised & points were already being adjusted, so race went on. Girls 1st boat - GCDS coxswain cut the turn buoy just barely on the far side of it, so a 5 second penalty was incurred (original time was 5:25.22).
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=41764ABA3525A7AF1176B088D02C463A&cat=5", random="random"]; 
+Middletown -> NotreDame[label="5.2
+05/14", weight="95", tooltip="NEIRA,Notre Dame High School, Greenwich Country Day School, & Middletown High School			
+Distance: 1500m Conditions: Mild downstream current with minimal to no wind. Floating starts. Slight turn to port at approximately 750m. Comments: Boys 2nd boat - GCDS & ND had slight high five about 15 seconds into the race, no hands were raised & points were already being adjusted, so race went on. Girls 1st boat - GCDS coxswain cut the turn buoy just barely on the far side of it, so a 5 second penalty was incurred (original time was 5:25.22).
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=41764ABA3525A7AF1176B088D02C463A&cat=5", random="random"]}

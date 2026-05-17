@@ -1,0 +1,8 @@
+digraph girls1foursSuffield {Canterbury [URL="girls1foursCanterbury.html"];BUAcademy [URL="girls1foursBUAcademy.html"];Suffield [URL="girls1foursSuffield.html"];Suffield -> BUAcademy[label="45.6 (47.17)
+05/09", weight="55", tooltip="NEIRA Boys & Girls Fours,BUA and Suffield Academy			
+Distance: 1450 Conditions: slow current, minimal tail wind
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9C485C3C2709096FB1E519B1CD5B985&cat=5", random="random"]; 
+Canterbury -> Suffield[label="69.2
+05/13", weight="31", tooltip="NEIRA Boys & Girls Fours,Suffield Academy and Canterbury School			
+Distance: 1500 Conditions: For GV1, GV2 and GV3 races, minimum current (rowing against) and tailwind. For BV1-4 races, substantial tailwind at 10mph and minimal current (rowing against). Suffield GV1 experienced boat breakage that required the bow pair to row the last 600 meters
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E729B4FC39A9751E45BADEEB98D71ED5&cat=5", random="random"]}

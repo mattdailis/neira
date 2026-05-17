@@ -1,0 +1,799 @@
+digraph boys1fours {BrewsterAcademy [URL="boys1foursBrewsterAcademy.html"];Pingree [URL="boys1foursPingree.html"];Hotchkiss [URL="boys1foursHotchkiss.html"];Thayer [URL="boys1foursThayer.html"];GreenwichCountryDay [URL="boys1foursGreenwichCountryDay.html"];Hopkins [URL="boys1foursHopkins.html"];BelmontHill [URL="boys1foursBelmontHill.html"];BBN [URL="boys1foursBBN.html"];EagleHill [URL="boys1foursEagleHill.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Pomfret [URL="boys1foursPomfret.html"];MarianapolisPrep [URL="boys1foursMarianapolisPrep.html"];Canterbury [URL="boys1foursCanterbury.html"];StMarks [URL="boys1foursStMarks.html"];Taft [URL="boys1foursTaft.html"];DexterSouthfield [URL="boys1foursDexterSouthfield.html"];Groton [URL="boys1foursGroton.html"];Brooks [URL="boys1foursBrooks.html"];Derryfield [URL="boys1foursDerryfield.html"];CambridgeRLS [URL="boys1foursCambridgeRLS.html"];Middletown [URL="boys1foursMiddletown.html"];FrederickGunn [URL="boys1foursFrederickGunn.html"];Suffield [URL="boys1foursSuffield.html"];Choate [URL="boys1foursChoate.html"];Berwick [URL="boys1foursBerwick.html"];WorcesterAcademy [URL="boys1foursWorcesterAcademy.html"];EOSmith [URL="boys1foursEOSmith.html"];BerkshireAcademy [URL="boys1foursBerkshireAcademy.html"];Bancroft [URL="boys1foursBancroft.html"];NMH [URL="boys1foursNMH.html"];NotreDame [URL="boys1foursNotreDame.html"];Nobles [URL="boys1foursNobles.html"];BUAcademy [URL="boys1foursBUAcademy.html"];Medford [URL="boys1foursMedford.html"];LymeOldLyme [URL="boys1foursLymeOldLyme.html"];Middlesex [URL="boys1foursMiddlesex.html"];BrewsterAcademy -> WorcesterAcademy[label="37.1
+04/22", weight="63", tooltip="NEIRA Boys & Girls Fours,Worcester Academy, Brewster Academy, Bancroft			
+Distance: 1500 meters Conditions: Clear, 15 mph ctoss/tail wind throughout races. Significant chop. Comments: The 2nd place in the Girls V1 boat waa Brewster's 2V.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A02EF64D21763F7CE3DF883D95C6810C&cat=5", random="random"]; 
+BrewsterAcademy -> Bancroft[label="63.9
+04/22", weight="37", tooltip="NEIRA Boys & Girls Fours,Worcester Academy, Brewster Academy, Bancroft			
+Distance: 1500 meters Conditions: Clear, 15 mph ctoss/tail wind throughout races. Significant chop. Comments: The 2nd place in the Girls V1 boat waa Brewster's 2V.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A02EF64D21763F7CE3DF883D95C6810C&cat=5", random="random"]; 
+WorcesterAcademy -> Bancroft[label="26.8
+04/22", weight="74", tooltip="NEIRA Boys & Girls Fours,Worcester Academy, Brewster Academy, Bancroft			
+Distance: 1500 meters Conditions: Clear, 15 mph ctoss/tail wind throughout races. Significant chop. Comments: The 2nd place in the Girls V1 boat waa Brewster's 2V.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A02EF64D21763F7CE3DF883D95C6810C&cat=5", random="random"]; 
+Taft -> BerkshireAcademy[label="2.6
+04/18", weight="98", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Choate & Taft			
+Distance: 1500 M Conditions: Variable tail/cross wind throughout racing; 7-9 mph; flat water. Comments: B2 declared a dead heat. G2 started a full length over the start line. G1 started 5 meters behind the starting line. Choate G5 caught a boat-stopping crab in the last ten strokes. Nice job by all cox'ns on a tricky aligning day. Thanks to Taft and Choate for some great early-season racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2D008875DBBDEC95092F804AC2BBF2F&cat=5", random="random"]; 
+Taft -> Choate[label="22.8
+04/18", weight="78", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Choate & Taft			
+Distance: 1500 M Conditions: Variable tail/cross wind throughout racing; 7-9 mph; flat water. Comments: B2 declared a dead heat. G2 started a full length over the start line. G1 started 5 meters behind the starting line. Choate G5 caught a boat-stopping crab in the last ten strokes. Nice job by all cox'ns on a tricky aligning day. Thanks to Taft and Choate for some great early-season racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2D008875DBBDEC95092F804AC2BBF2F&cat=5", random="random"]; 
+BerkshireAcademy -> Choate[label="20.2
+04/18", weight="80", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Choate & Taft			
+Distance: 1500 M Conditions: Variable tail/cross wind throughout racing; 7-9 mph; flat water. Comments: B2 declared a dead heat. G2 started a full length over the start line. G1 started 5 meters behind the starting line. Choate G5 caught a boat-stopping crab in the last ten strokes. Nice job by all cox'ns on a tricky aligning day. Thanks to Taft and Choate for some great early-season racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2D008875DBBDEC95092F804AC2BBF2F&cat=5", random="random"]; 
+Taft -> BerkshireAcademy[label="1.4
+05/16", weight="99", tooltip="NEIRA Boys & Girls Fours,Berkshire, Choate, Frederick Gunn School, Greenwich Academy, Ms. Porter's, Taft			
+Distance: 1500 Conditions: Racing started out with a light port-side crosswind breeze from approximately 400m–750m for the lower boats, but the water remained quite protected. By third boat races, the crosswind started to reform into a true tail down the course, still leaving the water relatively protected for most of the race, with some very light chop in the final 500. Comments: In the G1 event, Porter's caught a crab near the final 500 that nearly stopped the boat, but the crew recovered admirably and raced hard to the finish.
+Note that in the interest of time for NEIRA seeding, these results temporarily omit the G5 and GN race, as there is a delay in compiling data for those early races. G5 and GN will be updated in short order.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D851EE8CBA7B651F2624CFCB66A81A2D&cat=5", random="random"]; 
+Taft -> Choate[label="11.8
+05/16", weight="89", tooltip="NEIRA Boys & Girls Fours,Berkshire, Choate, Frederick Gunn School, Greenwich Academy, Ms. Porter's, Taft			
+Distance: 1500 Conditions: Racing started out with a light port-side crosswind breeze from approximately 400m–750m for the lower boats, but the water remained quite protected. By third boat races, the crosswind started to reform into a true tail down the course, still leaving the water relatively protected for most of the race, with some very light chop in the final 500. Comments: In the G1 event, Porter's caught a crab near the final 500 that nearly stopped the boat, but the crew recovered admirably and raced hard to the finish.
+Note that in the interest of time for NEIRA seeding, these results temporarily omit the G5 and GN race, as there is a delay in compiling data for those early races. G5 and GN will be updated in short order.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D851EE8CBA7B651F2624CFCB66A81A2D&cat=5", random="random"]; 
+Taft -> FrederickGunn[label="26.5
+05/16", weight="74", tooltip="NEIRA Boys & Girls Fours,Berkshire, Choate, Frederick Gunn School, Greenwich Academy, Ms. Porter's, Taft			
+Distance: 1500 Conditions: Racing started out with a light port-side crosswind breeze from approximately 400m–750m for the lower boats, but the water remained quite protected. By third boat races, the crosswind started to reform into a true tail down the course, still leaving the water relatively protected for most of the race, with some very light chop in the final 500. Comments: In the G1 event, Porter's caught a crab near the final 500 that nearly stopped the boat, but the crew recovered admirably and raced hard to the finish.
+Note that in the interest of time for NEIRA seeding, these results temporarily omit the G5 and GN race, as there is a delay in compiling data for those early races. G5 and GN will be updated in short order.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D851EE8CBA7B651F2624CFCB66A81A2D&cat=5", random="random"]; 
+BerkshireAcademy -> Choate[label="10.4
+05/16", weight="90", tooltip="NEIRA Boys & Girls Fours,Berkshire, Choate, Frederick Gunn School, Greenwich Academy, Ms. Porter's, Taft			
+Distance: 1500 Conditions: Racing started out with a light port-side crosswind breeze from approximately 400m–750m for the lower boats, but the water remained quite protected. By third boat races, the crosswind started to reform into a true tail down the course, still leaving the water relatively protected for most of the race, with some very light chop in the final 500. Comments: In the G1 event, Porter's caught a crab near the final 500 that nearly stopped the boat, but the crew recovered admirably and raced hard to the finish.
+Note that in the interest of time for NEIRA seeding, these results temporarily omit the G5 and GN race, as there is a delay in compiling data for those early races. G5 and GN will be updated in short order.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D851EE8CBA7B651F2624CFCB66A81A2D&cat=5", random="random"]; 
+BerkshireAcademy -> FrederickGunn[label="25.2
+05/16", weight="75", tooltip="NEIRA Boys & Girls Fours,Berkshire, Choate, Frederick Gunn School, Greenwich Academy, Ms. Porter's, Taft			
+Distance: 1500 Conditions: Racing started out with a light port-side crosswind breeze from approximately 400m–750m for the lower boats, but the water remained quite protected. By third boat races, the crosswind started to reform into a true tail down the course, still leaving the water relatively protected for most of the race, with some very light chop in the final 500. Comments: In the G1 event, Porter's caught a crab near the final 500 that nearly stopped the boat, but the crew recovered admirably and raced hard to the finish.
+Note that in the interest of time for NEIRA seeding, these results temporarily omit the G5 and GN race, as there is a delay in compiling data for those early races. G5 and GN will be updated in short order.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D851EE8CBA7B651F2624CFCB66A81A2D&cat=5", random="random"]; 
+Choate -> FrederickGunn[label="14.8
+05/16", weight="86", tooltip="NEIRA Boys & Girls Fours,Berkshire, Choate, Frederick Gunn School, Greenwich Academy, Ms. Porter's, Taft			
+Distance: 1500 Conditions: Racing started out with a light port-side crosswind breeze from approximately 400m–750m for the lower boats, but the water remained quite protected. By third boat races, the crosswind started to reform into a true tail down the course, still leaving the water relatively protected for most of the race, with some very light chop in the final 500. Comments: In the G1 event, Porter's caught a crab near the final 500 that nearly stopped the boat, but the crew recovered admirably and raced hard to the finish.
+Note that in the interest of time for NEIRA seeding, these results temporarily omit the G5 and GN race, as there is a delay in compiling data for those early races. G5 and GN will be updated in short order.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D851EE8CBA7B651F2624CFCB66A81A2D&cat=5", random="random"]; 
+LymeOldLyme -> EOSmith[label="20.8
+04/18", weight="80", tooltip="NEIRA Boys & Girls Fours,LOLHS VS EO Smith			
+Distance: 1500 Conditions: 5-8 MPH crossing tailwind, Calming down through the course. Comments: B3v4 Started approx 3 lenghts down from the starting bouy. G1v4 E.O. Smith Crabbed after the start, race progressed as EO Smith recovered and continued the race. 
+It was a good Saturday morning out on the lake for a quick race between LOL and EO Smith. The wind at the start was tricky for lining up but after the B3V4 lining up was easier. We would like to thank EO Smith for making the trip to start our weekend. We hope to see you at NEIRAs
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=EF236926A783774103C430FABBEC5B22&cat=5", random="random"]; 
+Nobles -> Brooks[label="3.6
+05/16", weight="97", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BBN, St. Marks and Nobles			
+Distance: 1500m Conditions: 10-12 mph wind that varied between a cross wind and a cross tail wind. Conditions in the first 500 and last 250 were quite good, but the body of the race was rowed in challenging waves running perpendicular to the course. Some variation throughout the day so comparisons between races might not be meaningful. Comments: A beautiful afternoon of racing. A few racing notes: St. Marks G1 rowed through a crab in the first few strokes. The Nobles G2 coxswain was forced to steer with hands directly on the cables after losing the steering arm in warm up. 
+Thank you crews and coxswains for your great cooperation on the water. A special thanks to the Nobles coaching team for handling the warm up area so efficiently! Looking forward to some more races in a week.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=544E32D993CF38D1F796D3495B3D39F2&cat=5", random="random"]; 
+Nobles -> BBN[label="23.2
+05/16", weight="77", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BBN, St. Marks and Nobles			
+Distance: 1500m Conditions: 10-12 mph wind that varied between a cross wind and a cross tail wind. Conditions in the first 500 and last 250 were quite good, but the body of the race was rowed in challenging waves running perpendicular to the course. Some variation throughout the day so comparisons between races might not be meaningful. Comments: A beautiful afternoon of racing. A few racing notes: St. Marks G1 rowed through a crab in the first few strokes. The Nobles G2 coxswain was forced to steer with hands directly on the cables after losing the steering arm in warm up. 
+Thank you crews and coxswains for your great cooperation on the water. A special thanks to the Nobles coaching team for handling the warm up area so efficiently! Looking forward to some more races in a week.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=544E32D993CF38D1F796D3495B3D39F2&cat=5", random="random"]; 
+Nobles -> StMarks[label="30.4
+05/16", weight="70", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BBN, St. Marks and Nobles			
+Distance: 1500m Conditions: 10-12 mph wind that varied between a cross wind and a cross tail wind. Conditions in the first 500 and last 250 were quite good, but the body of the race was rowed in challenging waves running perpendicular to the course. Some variation throughout the day so comparisons between races might not be meaningful. Comments: A beautiful afternoon of racing. A few racing notes: St. Marks G1 rowed through a crab in the first few strokes. The Nobles G2 coxswain was forced to steer with hands directly on the cables after losing the steering arm in warm up. 
+Thank you crews and coxswains for your great cooperation on the water. A special thanks to the Nobles coaching team for handling the warm up area so efficiently! Looking forward to some more races in a week.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=544E32D993CF38D1F796D3495B3D39F2&cat=5", random="random"]; 
+Brooks -> BBN[label="19.6
+05/16", weight="81", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BBN, St. Marks and Nobles			
+Distance: 1500m Conditions: 10-12 mph wind that varied between a cross wind and a cross tail wind. Conditions in the first 500 and last 250 were quite good, but the body of the race was rowed in challenging waves running perpendicular to the course. Some variation throughout the day so comparisons between races might not be meaningful. Comments: A beautiful afternoon of racing. A few racing notes: St. Marks G1 rowed through a crab in the first few strokes. The Nobles G2 coxswain was forced to steer with hands directly on the cables after losing the steering arm in warm up. 
+Thank you crews and coxswains for your great cooperation on the water. A special thanks to the Nobles coaching team for handling the warm up area so efficiently! Looking forward to some more races in a week.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=544E32D993CF38D1F796D3495B3D39F2&cat=5", random="random"]; 
+Brooks -> StMarks[label="26.8
+05/16", weight="74", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BBN, St. Marks and Nobles			
+Distance: 1500m Conditions: 10-12 mph wind that varied between a cross wind and a cross tail wind. Conditions in the first 500 and last 250 were quite good, but the body of the race was rowed in challenging waves running perpendicular to the course. Some variation throughout the day so comparisons between races might not be meaningful. Comments: A beautiful afternoon of racing. A few racing notes: St. Marks G1 rowed through a crab in the first few strokes. The Nobles G2 coxswain was forced to steer with hands directly on the cables after losing the steering arm in warm up. 
+Thank you crews and coxswains for your great cooperation on the water. A special thanks to the Nobles coaching team for handling the warm up area so efficiently! Looking forward to some more races in a week.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=544E32D993CF38D1F796D3495B3D39F2&cat=5", random="random"]; 
+BBN -> StMarks[label="7.2
+05/16", weight="93", tooltip="NEIRA Boys & Girls Fours,Brooks vs. BBN, St. Marks and Nobles			
+Distance: 1500m Conditions: 10-12 mph wind that varied between a cross wind and a cross tail wind. Conditions in the first 500 and last 250 were quite good, but the body of the race was rowed in challenging waves running perpendicular to the course. Some variation throughout the day so comparisons between races might not be meaningful. Comments: A beautiful afternoon of racing. A few racing notes: St. Marks G1 rowed through a crab in the first few strokes. The Nobles G2 coxswain was forced to steer with hands directly on the cables after losing the steering arm in warm up. 
+Thank you crews and coxswains for your great cooperation on the water. A special thanks to the Nobles coaching team for handling the warm up area so efficiently! Looking forward to some more races in a week.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=544E32D993CF38D1F796D3495B3D39F2&cat=5", random="random"]; 
+BelmontHill -> BBN[label="24.1 (26.78)
+04/25", weight="76", tooltip="NEIRA Boys Fours, BB&N vs. Belmont Hill (Ducey Cup)			
+Distance: 1350 Conditions: Great conditions overall. Flat water with a slight crosswind. In the 3rd boat race the wind direction shifted to be more of a headwind, but shifted back for the 2nd and 1st boat races. Order of races was 4-3-2-1. Comments: Belmont Hill School wins the Ducey Cup by winning the first boat race. In the 3rd boat race, Belmont Hill steered off course significantly near the finish line. It did not impact order of finish.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AF12340A1F72D81B00DA7A14745EF5FE&cat=1", random="random"]; 
+Berwick -> Medford[label="0.9
+05/07", weight="100", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, Medford, Northampton Community Rowing, Regatta Point Rowing, Worcester Academy			
+Distance: 1500 meters Conditions: Light tailwind and chop throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD6FA9140F016BB3A2B25F8B37F7899C&cat=5", random="random"]; 
+Berwick -> WorcesterAcademy[label="35.3
+05/07", weight="65", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, Medford, Northampton Community Rowing, Regatta Point Rowing, Worcester Academy			
+Distance: 1500 meters Conditions: Light tailwind and chop throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD6FA9140F016BB3A2B25F8B37F7899C&cat=5", random="random"]; 
+Medford -> WorcesterAcademy[label="34.4
+05/07", weight="66", tooltip="NEIRA Boys & Girls Fours,Berwick Academy, Medford, Northampton Community Rowing, Regatta Point Rowing, Worcester Academy			
+Distance: 1500 meters Conditions: Light tailwind and chop throughout all races.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD6FA9140F016BB3A2B25F8B37F7899C&cat=5", random="random"]; 
+StMarysLynn -> GreenwichCountryDay[label="33.5 (38.65)
+04/15", weight="67", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
+Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
+StMarysLynn -> Thayer[label="60.7 (70.04)
+04/15", weight="40", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
+Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
+StMarysLynn -> MarianapolisPrep[label="70.5 (81.35)
+04/15", weight="30", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
+Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
+GreenwichCountryDay -> Thayer[label="27.2 (31.38)
+04/15", weight="73", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
+Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
+GreenwichCountryDay -> MarianapolisPrep[label="37.0 (42.69)
+04/15", weight="63", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
+Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
+Thayer -> MarianapolisPrep[label="9.8 (11.31)
+04/15", weight="91", tooltip="NEIRA Boys & Girls Fours,Thayer Academy, Greenwich Country Day, St. Mary's - Lynn, Marianapolis Prep			
+Distance: 1300 Conditions: All heats had more or less similar conditions. The BV heat had the strongest wind of the day with a slight chop. Breeze was a head-wind at points and then a cross-breeze. GV heat was the calmest of the day with a still breeze and minimal chop. Last race for Novice B was also similar with a slight wind and minimal chop.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D55FD629D1A6CC8C6C58174A0077A73B&cat=5", random="random"]; 
+CambridgeRLS -> DexterSouthfield[label="21.8 (25.15)
+05/09", weight="79", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
+Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
+B3, G3, G5, B2, B1, G1, B4, G2, G4
+The boys 2V event had to be stopped after the first 10-12 strokes due to a significant turn toward shore from the Hopkins crew, that was not due to breakage. The crews were brought back to the line and the race restarted without incident. 
+Thank you to Hopkins and Dexter-Southfield for joining us!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=49E35C8A20A0736D6FDA5531D8829D8F&cat=5", random="random"]; 
+CambridgeRLS -> Hopkins[label="21.9 (25.27)
+05/09", weight="79", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
+Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
+B3, G3, G5, B2, B1, G1, B4, G2, G4
+The boys 2V event had to be stopped after the first 10-12 strokes due to a significant turn toward shore from the Hopkins crew, that was not due to breakage. The crews were brought back to the line and the race restarted without incident. 
+Thank you to Hopkins and Dexter-Southfield for joining us!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=49E35C8A20A0736D6FDA5531D8829D8F&cat=5", random="random"]; 
+DexterSouthfield -> Hopkins[label="0.1 (0.12)
+05/09", weight="100", tooltip="NEIRA Boys & Girls Fours,CRLS vs Hopkins, Dexter Southfield			
+Distance: 1300m Conditions: Conditions were consistent throughout racing. Mostly calm water with occasional minor crosswind/cross headwind. Light rain. Comments: Race Order:
+B3, G3, G5, B2, B1, G1, B4, G2, G4
+The boys 2V event had to be stopped after the first 10-12 strokes due to a significant turn toward shore from the Hopkins crew, that was not due to breakage. The crews were brought back to the line and the race restarted without incident. 
+Thank you to Hopkins and Dexter-Southfield for joining us!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=49E35C8A20A0736D6FDA5531D8829D8F&cat=5", random="random"]; 
+Taft -> BBN[label="10.5
+05/09", weight="90", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+Taft -> StMarks[label="23.1
+05/09", weight="77", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+Taft -> FrederickGunn[label="35.9
+05/09", weight="65", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+Taft -> Pomfret[label="59.4
+05/09", weight="41", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+BBN -> StMarks[label="12.6
+05/09", weight="88", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+BBN -> FrederickGunn[label="25.4
+05/09", weight="75", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+BBN -> Pomfret[label="48.9
+05/09", weight="52", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+StMarks -> FrederickGunn[label="12.8
+05/09", weight="88", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+StMarks -> Pomfret[label="36.3
+05/09", weight="64", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+FrederickGunn -> Pomfret[label="23.5
+05/09", weight="77", tooltip="NEIRA Boys Fours,du Pont Cup: Pomfret v. BB&N, Gunn, St. Mark's, Taft			
+Distance: 1500M Conditions: Tailwind, crossing tail at times. 9-11 MPH with occasional 17-21 MPH gusts. First 500 meters flatter, with some light chop thereafter. Some rain during B2 and B1 races. Comments: Alternated races with Girls. Order of Boys races: B5, B3, B4, B2, B1. Winds picked up slightly during the race day. Pomfret B2 raced down to B4 and should not be factored for NERIA seeding. 
+Congratulations to Taft B1 for winning the 2026 du Pont Cup.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=4F2DBCA9D5314721DD35E2C7F11D064F&cat=1", random="random"]; 
+Choate -> Middlesex[label="3.2
+05/09", weight="97", tooltip="NEIRA Boys & Girls Fours,MIddlesex v Choate			
+Distance: 1500m Conditions: G6, G7, B5 races were 1250m..Conditions were varied, started with head wind for first 5 races then flat no wind for B4, G5, B2 and then head wind for first half of course and heavy rain for G1 & 2 
+B4 boat results can not be used for seeding purposes as Choate went outside two buoys Comments: 
+Race order G6-G4-B3-G7-B5-G3-B4-G5-B2-B1-G2- G1
+Race order was to allow hot seating hulls, a G3 rower needed to Hotseat into G2 due to illness and a g5 rower hotseated into G4 for injury. G1 was delayed by 2 races as a seat broke in the warmup G5 had a restart due to crash a few strokes in. G7 MX was open water ahead with 400m remaining and had a boat-turnng-over-the-head crab
+B4 boat results can not be used for seeding purposes as Choate went outside two buoys
+Great day of racing and thanks to Choate for traveling here and having 12 races!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=76C627027A596782E1D608880F99C6BF&cat=5", random="random"]; 
+Suffield -> BUAcademy[label="13.1 (13.55)
+05/09", weight="87", tooltip="NEIRA Boys & Girls Fours,BUA and Suffield Academy			
+Distance: 1450 Conditions: slow current, minimal tail wind
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D9C485C3C2709096FB1E519B1CD5B985&cat=5", random="random"]; 
+Brooks -> Middlesex[label="10.0
+04/18", weight="90", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Brooks -> DexterSouthfield[label="14.9
+04/18", weight="86", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Brooks -> StMarks[label="30.4
+04/18", weight="70", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Brooks -> BrewsterAcademy[label="43.7
+04/18", weight="57", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Middlesex -> DexterSouthfield[label="4.9
+04/18", weight="96", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Middlesex -> StMarks[label="20.4
+04/18", weight="80", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Middlesex -> BrewsterAcademy[label="33.7
+04/18", weight="67", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+DexterSouthfield -> StMarks[label="15.5
+04/18", weight="85", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+DexterSouthfield -> BrewsterAcademy[label="28.8
+04/18", weight="72", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+StMarks -> BrewsterAcademy[label="13.3
+04/18", weight="87", tooltip="NEIRA Boys & Girls Fours,St. Marks, Brooks, Middlesex, Dexter/Southfield, Brewster			
+Distance: 1500m Conditions: Conditions were perfect, flat water, and an 8mph quartering tailwind. Comments: St. Mark's G4 had to scratch this race. Thank you to all the teams who came out to Lake Quinsigamond. A great day of racing!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B1BC2E7BB6AB044965A1D2383A7E9B3C&cat=5", random="random"]; 
+Berwick -> BrewsterAcademy[label="5.5
+05/06", weight="95", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+Berwick -> StMarysLynn[label="6.6
+05/06", weight="94", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+Berwick -> Derryfield[label="11.3
+05/06", weight="89", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+Berwick -> WorcesterAcademy[label="29.4
+05/06", weight="71", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+Berwick -> Thayer[label="35.3
+05/06", weight="65", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+BrewsterAcademy -> StMarysLynn[label="1.1
+05/06", weight="99", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+BrewsterAcademy -> Derryfield[label="5.8
+05/06", weight="95", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+BrewsterAcademy -> WorcesterAcademy[label="23.9
+05/06", weight="77", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+BrewsterAcademy -> Thayer[label="29.8
+05/06", weight="71", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+StMarysLynn -> Derryfield[label="4.7
+05/06", weight="96", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+StMarysLynn -> WorcesterAcademy[label="22.8
+05/06", weight="78", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+StMarysLynn -> Thayer[label="28.7
+05/06", weight="72", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+Derryfield -> WorcesterAcademy[label="18.1
+05/06", weight="82", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+Derryfield -> Thayer[label="24.0
+05/06", weight="76", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+WorcesterAcademy -> Thayer[label="5.9
+05/06", weight="95", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+CambridgeRLS -> BBN[label="22.0 (24.44)
+04/22", weight="78", tooltip="NEIRA, Mayor’s Cup: CRLS vs BB&N			
+Distance: 1350 Conditions: 13mph Head wind with a bit more chop for the last 400m. 
+The lower crews for both teams competed in complete lineups on 4/11 but the 1Vs did not due to academic obligations. This race was for the Mayor’s Cup which is decided solely by the outcome of the 1V race. CRLS retains the cup. 
+Thanks to both coxswains for steering good lines and both crews for fitting in a mid-week race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A9D13B797BEDC786C15FE46340A92068&cat=1", random="random"]; 
+BerkshireAcademy -> Middletown[label="18.7
+04/22", weight="82", tooltip="NEIRA Boys Fours, Pomfret v. Berkshire, Middletown			
+Distance: 1500M Conditions: 9 MPH tailwind, occasional gusts of ~16 MPH. Light chop, more prevalent in the second 750. Comments: Pomfret Boys raced down. Pomfret racing should not be used for NEIRA seeding.
+Alternated races with Girls. Order of boys' races: B3, B2, B1, B4/Novice.
+*Not sure why/how Middletown B4 was so much faster than B2, B3 - conditions were similar.
+Thank you, Berkshire and Middletown, for making the trip.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAEB8068F20327CAA5D58373BC279D92&cat=1", random="random"]; 
+Middletown -> EOSmith[label="7.6
+05/07", weight="93", tooltip="NEIRA Boys & Girls Fours,Middletown High School, E.O. Smith, Valley Regional			
+Distance: 1500 Meters Conditions: Float starts on the Connecticut River. Current was almost non existent, due to the current going out while the tide came in. Ten mph tail wind with moderate chop & occasional 20 mph gusts. Race course requires a slight turn to port at approximately the 750 meter mark. Comments: MHS Boys 1V 3 seat jumped a slide approximately 1200 meters into the race & had to stop rowing until the athlete returned to their seat.
+Valley Regional Boys 2V incurred a 10 second penalty for cutting the turn to port too early, shortening the course by going on the wrong side of the buoy. Original time was 5:38.95.
+Girls 2V Race included Middletown B Boat (Their 3V boat in a 2V race) that came in 2nd.
+Note for CPSRA: 4th boats are novice races. We also did a mixed novice 8. Times below:
+EO Smith: 6:22.34
+MHS 6:43.53 - 4 seat caught two craps causing all rowers to stop both times.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BEBCD2482A846054F6760131C7D6412D&cat=5", random="random"]; 
+BelmontHill -> NMH[label="18.4
+04/18", weight="82", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+BelmontHill -> StMarysLynn[label="31.9
+04/18", weight="69", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+BelmontHill -> Hopkins[label="42.1
+04/18", weight="58", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+NMH -> StMarysLynn[label="13.5
+04/18", weight="87", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+NMH -> Hopkins[label="23.7
+04/18", weight="77", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+StMarysLynn -> Hopkins[label="10.2
+04/18", weight="90", tooltip="NEIRA Boys Fours, Pomfret v. Belmont Hill, Hopkins, Northfield Mt. Hermon, St. Mary's (Lynn)			
+Distance: 1500M Conditions: Light crossing headwind 8mph (with infrequent gusts of up to 15 mph). Wind decreased in the last 400 meters. Insignificant chop. Comments: Note: Pomfret boys both raced down (this race should not count for Pomfret boys NEIRA seeding). 
+Good conditions, improved slightly over the course of race. Alternated races with girls. Boys order of racing was: B4, B3, B2, B1, B5.
+Thanks to our guests for being great competitors and exhibiting great sportsmanship.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7D9FDF84163099F6514E61F7FB46053D&cat=1", random="random"]; 
+LymeOldLyme -> Hopkins[label="24.9
+04/11", weight="76", tooltip="NEIRA Boys & Girls Fours,Greenwich Country day, Hopkins, Lyme/Old Lyme			
+Distance: 1500 Conditions: 7-15MPH cross tail to tail wind, higher gusts throughout the course. The starting line had the calmest wind to allow for good line ups. Comments: in the B4V4 Race Hopkins 2nd seat had a foot stretcher breakage at the 500m mark, they fixed it on water and continued to race. B5V4 was a novice race. G2V4 has Hopkins V3 race. G4V4 was composed of Hopkins v4, and v5 and LOL GN4. 
+It was a sunny but windy day out on rogers lake. Although it was windy that made for some fast times for all those who went out! Lyme Old Lyme would like to thank the coaches and athletes of GCD and HOP for coming to our lake and racing with us. We hope to see you both at the NEIRA championships and with better conditions.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3B1153FE690E4898C0E1D49FADA7D290&cat=5", random="random"]; 
+LymeOldLyme -> GreenwichCountryDay[label="46.1
+04/11", weight="54", tooltip="NEIRA Boys & Girls Fours,Greenwich Country day, Hopkins, Lyme/Old Lyme			
+Distance: 1500 Conditions: 7-15MPH cross tail to tail wind, higher gusts throughout the course. The starting line had the calmest wind to allow for good line ups. Comments: in the B4V4 Race Hopkins 2nd seat had a foot stretcher breakage at the 500m mark, they fixed it on water and continued to race. B5V4 was a novice race. G2V4 has Hopkins V3 race. G4V4 was composed of Hopkins v4, and v5 and LOL GN4. 
+It was a sunny but windy day out on rogers lake. Although it was windy that made for some fast times for all those who went out! Lyme Old Lyme would like to thank the coaches and athletes of GCD and HOP for coming to our lake and racing with us. We hope to see you both at the NEIRA championships and with better conditions.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3B1153FE690E4898C0E1D49FADA7D290&cat=5", random="random"]; 
+Hopkins -> GreenwichCountryDay[label="21.2
+04/11", weight="79", tooltip="NEIRA Boys & Girls Fours,Greenwich Country day, Hopkins, Lyme/Old Lyme			
+Distance: 1500 Conditions: 7-15MPH cross tail to tail wind, higher gusts throughout the course. The starting line had the calmest wind to allow for good line ups. Comments: in the B4V4 Race Hopkins 2nd seat had a foot stretcher breakage at the 500m mark, they fixed it on water and continued to race. B5V4 was a novice race. G2V4 has Hopkins V3 race. G4V4 was composed of Hopkins v4, and v5 and LOL GN4. 
+It was a sunny but windy day out on rogers lake. Although it was windy that made for some fast times for all those who went out! Lyme Old Lyme would like to thank the coaches and athletes of GCD and HOP for coming to our lake and racing with us. We hope to see you both at the NEIRA championships and with better conditions.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3B1153FE690E4898C0E1D49FADA7D290&cat=5", random="random"]; 
+CambridgeRLS -> Groton[label="6.0 (7.26)
+05/02", weight="94", tooltip="NEIRA Boys & Girls Fours,Cambridge Rindge abd Latin School at Groton			
+Distance: 1240 m Conditions: Great flat water with very little current. On and off sprinkles. Comments: Good racing throughout. Congratulations, CRLS, for some good wins.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=73B77871E3536483D98EF9378161BD6F&cat=5", random="random"]; 
+Taft -> Groton[label="1.4
+04/25", weight="99", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500M Conditions: Very light tailwind, 3 to 6 MPH. Water: flat or slight ripple. Great conditions. Comments: Note: Pomfret raced down; Pomfret results should not be considered for NEIRA Seeding.
+Races alternated with girls. Order of boys races: B4, B2, B3, B1, B5. 
+In the B2 event, D-S drifted slightly into Taft's lane, and Taft drifted slightly into Groton's lane during the first 500. No boat appeared to be impeded; no blades touched. No protest registered.
+Great conditions, some close racing. Thanks to D-S, Groton, and Taft for making the trip.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=90621A35084DD4A81C8811CF573DE6CD&cat=1", random="random"]; 
+Taft -> DexterSouthfield[label="20.4
+04/25", weight="80", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500M Conditions: Very light tailwind, 3 to 6 MPH. Water: flat or slight ripple. Great conditions. Comments: Note: Pomfret raced down; Pomfret results should not be considered for NEIRA Seeding.
+Races alternated with girls. Order of boys races: B4, B2, B3, B1, B5. 
+In the B2 event, D-S drifted slightly into Taft's lane, and Taft drifted slightly into Groton's lane during the first 500. No boat appeared to be impeded; no blades touched. No protest registered.
+Great conditions, some close racing. Thanks to D-S, Groton, and Taft for making the trip.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=90621A35084DD4A81C8811CF573DE6CD&cat=1", random="random"]; 
+Groton -> DexterSouthfield[label="19.0
+04/25", weight="81", tooltip="NEIRA Boys Fours, Pomfret v. Dexter-Southfield, Groton, Taft			
+Distance: 1500M Conditions: Very light tailwind, 3 to 6 MPH. Water: flat or slight ripple. Great conditions. Comments: Note: Pomfret raced down; Pomfret results should not be considered for NEIRA Seeding.
+Races alternated with girls. Order of boys races: B4, B2, B3, B1, B5. 
+In the B2 event, D-S drifted slightly into Taft's lane, and Taft drifted slightly into Groton's lane during the first 500. No boat appeared to be impeded; no blades touched. No protest registered.
+Great conditions, some close racing. Thanks to D-S, Groton, and Taft for making the trip.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=90621A35084DD4A81C8811CF573DE6CD&cat=1", random="random"]; 
+BBN -> Middlesex[label="7.9
+05/02", weight="93", tooltip="NEIRA Boys Fours, Middlesex vs. BB&N			
+Distance: 1,500m Conditions: Moderate tail wind for most of the course. Comments: First and second boats started approximately 1 length over the line.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=C2AE5892C79CC470CC6C205736D8CD69&cat=1", random="random"]; 
+StMarysLynn -> Pingree[label="6.0
+05/09", weight="94", tooltip="NEIRA Boys & Girls Fours, Pingree School, Thayer, Dublin, St. Mary's - Lynn			
+Distance: 1500m Conditions: Rain, calm wind. St. Mary's 3V and 4V girls raced an exhibition vs. each other.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=81DD3F425D50FF79F3F0D678465FD27E&cat=5", random="random"]; 
+StMarysLynn -> Thayer[label="20.0
+05/09", weight="80", tooltip="NEIRA Boys & Girls Fours, Pingree School, Thayer, Dublin, St. Mary's - Lynn			
+Distance: 1500m Conditions: Rain, calm wind. St. Mary's 3V and 4V girls raced an exhibition vs. each other.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=81DD3F425D50FF79F3F0D678465FD27E&cat=5", random="random"]; 
+Pingree -> Thayer[label="14.0
+05/09", weight="86", tooltip="NEIRA Boys & Girls Fours, Pingree School, Thayer, Dublin, St. Mary's - Lynn			
+Distance: 1500m Conditions: Rain, calm wind. St. Mary's 3V and 4V girls raced an exhibition vs. each other.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=81DD3F425D50FF79F3F0D678465FD27E&cat=5", random="random"]; 
+Groton -> Middlesex[label="11.8 (14.16)
+05/16", weight="89", tooltip="NEIRA Boys Fours, Middlesex at Groton			
+Distance: 1250 m. Conditions: Flat glassy water. Perhaps more helping current as the races went on.
+Race order 4-2-1-3 Comments: It was a beautiful day to be out on the water. The races all started right on the starting line. It was good to get Middlesex back on the schedule after a few years when we could not find a date.
+Thanks for the racing, Middlesex.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=150CF8FFF9D55892CF68633754349FE2&cat=1", random="random"]; 
+Nobles -> Hotchkiss[label="5.3 (5.68)
+05/09", weight="95", tooltip="NEIRA Boys & Girls Fours,NEIRA Boys and Girls Fours: NMH, Hotchkiss, and Nobles			
+Distance: 1400m Conditions: Rain throughout the day, but it picked up intensity after the B3 race. Little to no wind throughout the day. Racing order was B5/G1/B1/G2/B2/G3/B3/G4/B4/G5/CoedJV8's. Moderate/strong current that was even across the lanes. In the B1 race, there was a photo finish between NMH and Hotchkiss; Hotchkiss beat NMH by about a bow ball. Another photo finish in the B3 race, where Hotchkiss beat NMH by 0.4. Thank you to Hotchkiss and Nobles for making the trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=885ADB44D2DCC7770132CB238577A3D1&cat=5", random="random"]; 
+Nobles -> NMH[label="5.3 (5.68)
+05/09", weight="95", tooltip="NEIRA Boys & Girls Fours,NEIRA Boys and Girls Fours: NMH, Hotchkiss, and Nobles			
+Distance: 1400m Conditions: Rain throughout the day, but it picked up intensity after the B3 race. Little to no wind throughout the day. Racing order was B5/G1/B1/G2/B2/G3/B3/G4/B4/G5/CoedJV8's. Moderate/strong current that was even across the lanes. In the B1 race, there was a photo finish between NMH and Hotchkiss; Hotchkiss beat NMH by about a bow ball. Another photo finish in the B3 race, where Hotchkiss beat NMH by 0.4. Thank you to Hotchkiss and Nobles for making the trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=885ADB44D2DCC7770132CB238577A3D1&cat=5", random="random"]; 
+Hotchkiss -> NMH[label="0.0 (0.0)
+05/09", weight="100", tooltip="NEIRA Boys & Girls Fours,NEIRA Boys and Girls Fours: NMH, Hotchkiss, and Nobles			
+Distance: 1400m Conditions: Rain throughout the day, but it picked up intensity after the B3 race. Little to no wind throughout the day. Racing order was B5/G1/B1/G2/B2/G3/B3/G4/B4/G5/CoedJV8's. Moderate/strong current that was even across the lanes. In the B1 race, there was a photo finish between NMH and Hotchkiss; Hotchkiss beat NMH by about a bow ball. Another photo finish in the B3 race, where Hotchkiss beat NMH by 0.4. Thank you to Hotchkiss and Nobles for making the trip!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=885ADB44D2DCC7770132CB238577A3D1&cat=5", random="random"]; 
+NMH -> Choate[label="10.5
+04/11", weight="90", tooltip="NEIRA Boys & Girls Fours,St. Marks, Choate, NMH			
+Distance: 1500m Conditions: Variable crossing tailwind, 14-17mph with gusts. Lake was protected due to wind direction, and water was good at start, very choppy from 300-600m. Wind shifted speed all afternoon. Comments: G3 started a boat length over the line. Great racing by all crews! We were lucky to have the sunshine.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FB4EC0A3A1B57E11BCA0D62F8B29A986&cat=5", random="random"]; 
+NMH -> StMarks[label="35.5
+04/11", weight="65", tooltip="NEIRA Boys & Girls Fours,St. Marks, Choate, NMH			
+Distance: 1500m Conditions: Variable crossing tailwind, 14-17mph with gusts. Lake was protected due to wind direction, and water was good at start, very choppy from 300-600m. Wind shifted speed all afternoon. Comments: G3 started a boat length over the line. Great racing by all crews! We were lucky to have the sunshine.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FB4EC0A3A1B57E11BCA0D62F8B29A986&cat=5", random="random"]; 
+Choate -> StMarks[label="25.0
+04/11", weight="75", tooltip="NEIRA Boys & Girls Fours,St. Marks, Choate, NMH			
+Distance: 1500m Conditions: Variable crossing tailwind, 14-17mph with gusts. Lake was protected due to wind direction, and water was good at start, very choppy from 300-600m. Wind shifted speed all afternoon. Comments: G3 started a boat length over the line. Great racing by all crews! We were lucky to have the sunshine.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FB4EC0A3A1B57E11BCA0D62F8B29A986&cat=5", random="random"]; 
+Pingree -> Thayer[label="11.0
+04/18", weight="89", tooltip="NEIRA Boys & Girls Fours,Pingree vs. Thayer			
+Distance: 1500m Conditions: Light/medium straight headwind Comments: Girls 1V race was exhibition with mixed crews. Thanks to Thayer for coming up to Essex!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A34F0FBE7FD0A1503A84378FC9880DED&cat=5", random="random"]; 
+Nobles -> BelmontHill[label="3.2 (3.69)
+05/02", weight="97", tooltip="NEIRA Boys Fours, Belmont Hill vs Nobles, The Bassett Cup & Crawford-Parker JV Cup			
+Distance: 1300m Conditions: Steady & strong direct headwind, varying slightly in intensity through the racing. Comments: An epic day of competition! Great racing across the board, with three of the eight races decided by 3.2 seconds or less. Nobles varsity crews take home the Bassett Cup by virtue of their wins in the 1V4 and 3V4; Belmont Hill wins the inaugural Crawford-Parker JV Cup. Thanks to all of the Nobles crews and coaches for an outstanding afternoon/early evening on the Charles!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=CAF3ECF34078FA9EE5DD65E440E3B490&cat=1", random="random"]; 
+BerkshireAcademy -> LymeOldLyme[label="18.6 (21.46)
+05/09", weight="82", tooltip="NEIRA Boys Fours, Berkshire v. Canterbury, Lyme/Old Lyme			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: To ensure fair racing, course was shortened from 1500 M due to aggressive weed growth in the starting area.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=09397F83C568CCDDD278C059BD735052&cat=1", random="random"]; 
+BerkshireAcademy -> Canterbury[label="53.2 (61.38)
+05/09", weight="47", tooltip="NEIRA Boys Fours, Berkshire v. Canterbury, Lyme/Old Lyme			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: To ensure fair racing, course was shortened from 1500 M due to aggressive weed growth in the starting area.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=09397F83C568CCDDD278C059BD735052&cat=1", random="random"]; 
+LymeOldLyme -> Canterbury[label="34.6 (39.92)
+05/09", weight="66", tooltip="NEIRA Boys Fours, Berkshire v. Canterbury, Lyme/Old Lyme			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: To ensure fair racing, course was shortened from 1500 M due to aggressive weed growth in the starting area.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=09397F83C568CCDDD278C059BD735052&cat=1", random="random"]; 
+Hotchkiss -> Hopkins[label="17.9
+05/16", weight="83", tooltip="NEIRA Boys & Girls Fours,Hopkins, Hotchkiss, Notre DameHousatonic Sprints			
+Distance: 1500 Conditions: Sunny and beautiful morning, light quartering tailwind about 6mph, increasing to 9mph by the last race. Floating start. Comments: Boats raced top down, interleaving boys and girls heats. In the B1 race both Hotchkiss and Hopkins pushed starboard towards Notre Dame's lane, which eventually pinched the Notre Dame boat and caused it to hit the 1000m buoy. Notre Dame came to a stop and lost time untangling. The incident affected the Notre Dame B1 margin.
+Thank you, Hotchkiss and Notre Dame for coming and enjoying the day with us! We look forward to hosting you again next year!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9E09E22A943FD9337DBC41A86B19FC0E&cat=5", random="random"]; 
+Hotchkiss -> NotreDame[label="31.6
+05/16", weight="69", tooltip="NEIRA Boys & Girls Fours,Hopkins, Hotchkiss, Notre DameHousatonic Sprints			
+Distance: 1500 Conditions: Sunny and beautiful morning, light quartering tailwind about 6mph, increasing to 9mph by the last race. Floating start. Comments: Boats raced top down, interleaving boys and girls heats. In the B1 race both Hotchkiss and Hopkins pushed starboard towards Notre Dame's lane, which eventually pinched the Notre Dame boat and caused it to hit the 1000m buoy. Notre Dame came to a stop and lost time untangling. The incident affected the Notre Dame B1 margin.
+Thank you, Hotchkiss and Notre Dame for coming and enjoying the day with us! We look forward to hosting you again next year!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9E09E22A943FD9337DBC41A86B19FC0E&cat=5", random="random"]; 
+Hopkins -> NotreDame[label="13.7
+05/16", weight="87", tooltip="NEIRA Boys & Girls Fours,Hopkins, Hotchkiss, Notre DameHousatonic Sprints			
+Distance: 1500 Conditions: Sunny and beautiful morning, light quartering tailwind about 6mph, increasing to 9mph by the last race. Floating start. Comments: Boats raced top down, interleaving boys and girls heats. In the B1 race both Hotchkiss and Hopkins pushed starboard towards Notre Dame's lane, which eventually pinched the Notre Dame boat and caused it to hit the 1000m buoy. Notre Dame came to a stop and lost time untangling. The incident affected the Notre Dame B1 margin.
+Thank you, Hotchkiss and Notre Dame for coming and enjoying the day with us! We look forward to hosting you again next year!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=9E09E22A943FD9337DBC41A86B19FC0E&cat=5", random="random"]; 
+Suffield -> Canterbury[label="31.7
+05/13", weight="69", tooltip="NEIRA Boys & Girls Fours,Suffield Academy and Canterbury School			
+Distance: 1500 Conditions: For GV1, GV2 and GV3 races, minimum current (rowing against) and tailwind. For BV1-4 races, substantial tailwind at 10mph and minimal current (rowing against). Suffield GV1 experienced boat breakage that required the bow pair to row the last 600 meters
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E729B4FC39A9751E45BADEEB98D71ED5&cat=5", random="random"]; 
+Nobles -> Groton[label="12.2 (13.56)
+04/18", weight="88", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Groton and Nobles			
+Distance: 1350 Conditions: Good conditions overall with a light crosswind that was consistent throughout the day Comments: Great racing all around and thanks to Groton and Nobles for making the trip. In the boys 4th boat, Nobles paddled shortly before they crossed line. In the girls 2nd boat, Groton veered into BB&N's lane before the first bridge and they clashed oars, then again after the bridge causing BB&N to steer to avoid another clash. Nobles JV also made the trip and the 7th and 8th boats raced BB&N on the half mile course just upstream of Eliot Bridge. Results for those races:
+B7 (raced as an 8): 
+Nobles
+BB&N
+G7:
+Nobles
+BB&N
+G8:
+BB&N
+Nobles
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D28F45F757DD3F3143F0D9FBF13C27B5&cat=5", random="random"]; 
+Nobles -> BBN[label="29.4 (32.67)
+04/18", weight="71", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Groton and Nobles			
+Distance: 1350 Conditions: Good conditions overall with a light crosswind that was consistent throughout the day Comments: Great racing all around and thanks to Groton and Nobles for making the trip. In the boys 4th boat, Nobles paddled shortly before they crossed line. In the girls 2nd boat, Groton veered into BB&N's lane before the first bridge and they clashed oars, then again after the bridge causing BB&N to steer to avoid another clash. Nobles JV also made the trip and the 7th and 8th boats raced BB&N on the half mile course just upstream of Eliot Bridge. Results for those races:
+B7 (raced as an 8): 
+Nobles
+BB&N
+G7:
+Nobles
+BB&N
+G8:
+BB&N
+Nobles
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D28F45F757DD3F3143F0D9FBF13C27B5&cat=5", random="random"]; 
+Groton -> BBN[label="17.2 (19.11)
+04/18", weight="83", tooltip="NEIRA Boys & Girls Fours,BB&N vs. Groton and Nobles			
+Distance: 1350 Conditions: Good conditions overall with a light crosswind that was consistent throughout the day Comments: Great racing all around and thanks to Groton and Nobles for making the trip. In the boys 4th boat, Nobles paddled shortly before they crossed line. In the girls 2nd boat, Groton veered into BB&N's lane before the first bridge and they clashed oars, then again after the bridge causing BB&N to steer to avoid another clash. Nobles JV also made the trip and the 7th and 8th boats raced BB&N on the half mile course just upstream of Eliot Bridge. Results for those races:
+B7 (raced as an 8): 
+Nobles
+BB&N
+G7:
+Nobles
+BB&N
+G8:
+BB&N
+Nobles
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D28F45F757DD3F3143F0D9FBF13C27B5&cat=5", random="random"]; 
+EOSmith -> Thayer[label="9.8
+05/03", weight="91", tooltip="Mayor's Cup Invitational			
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=A2B0DEFDD9E685D8962812A1EB9BB055&cat=6", random="random"]; 
+StMarysLynn -> Medford[label="5.2
+05/03", weight="95", tooltip="Mayor's Cup Invitational			
+", URL="https://www.row2k.com/results/resultspage.cfm?UID=A2B0DEFDD9E685D8962812A1EB9BB055&cat=6", random="random"]; 
+BerkshireAcademy -> LymeOldLyme[label="18.6 (21.46)
+05/09", weight="82", tooltip="NEIRA Boys Fours, Berkshire v. Canterbury, Lyme/Old Lyme			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: To ensure fair racing, course was shortened from 1500 M due to aggressive weed growth in the starting area.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=697B846B0409033DF2198C3505FE65A0&cat=1", random="random"]; 
+BerkshireAcademy -> Canterbury[label="53.2 (61.38)
+05/09", weight="47", tooltip="NEIRA Boys Fours, Berkshire v. Canterbury, Lyme/Old Lyme			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: To ensure fair racing, course was shortened from 1500 M due to aggressive weed growth in the starting area.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=697B846B0409033DF2198C3505FE65A0&cat=1", random="random"]; 
+LymeOldLyme -> Canterbury[label="34.6 (39.92)
+05/09", weight="66", tooltip="NEIRA Boys Fours, Berkshire v. Canterbury, Lyme/Old Lyme			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: To ensure fair racing, course was shortened from 1500 M due to aggressive weed growth in the starting area.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=697B846B0409033DF2198C3505FE65A0&cat=1", random="random"]; 
+BelmontHill -> Brooks[label="6.7
+05/09", weight="94", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Groton, BHS , NCDS			
+Distance: 1500m Conditions: Good racing conditions - occasional rain and quartering headwind/ headwind varying from 6-8 mph. Race order was G1,B3,G3,B4,G4,B2,G2,B1 Comments: Due to equipment breakage in the Brooks B1 during warmup, Boys first boat was moved to the end of the racing order - thank you to our competitors' flexibility. Groton G1 experienced some rigging problems during their race. 
+Overall a good day of racing on Lake Cochichewick after a very windy week. Good luck to all crews for the remainder of your seasons. A special thanks to the NCDS coaching team for your help out on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=14668C4F76D76786763E8999C0590073&cat=5", random="random"]; 
+BelmontHill -> Groton[label="9.5
+05/09", weight="91", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Groton, BHS , NCDS			
+Distance: 1500m Conditions: Good racing conditions - occasional rain and quartering headwind/ headwind varying from 6-8 mph. Race order was G1,B3,G3,B4,G4,B2,G2,B1 Comments: Due to equipment breakage in the Brooks B1 during warmup, Boys first boat was moved to the end of the racing order - thank you to our competitors' flexibility. Groton G1 experienced some rigging problems during their race. 
+Overall a good day of racing on Lake Cochichewick after a very windy week. Good luck to all crews for the remainder of your seasons. A special thanks to the NCDS coaching team for your help out on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=14668C4F76D76786763E8999C0590073&cat=5", random="random"]; 
+Brooks -> Groton[label="2.8
+05/09", weight="98", tooltip="NEIRA Boys & Girls Fours,Brooks vs.Groton, BHS , NCDS			
+Distance: 1500m Conditions: Good racing conditions - occasional rain and quartering headwind/ headwind varying from 6-8 mph. Race order was G1,B3,G3,B4,G4,B2,G2,B1 Comments: Due to equipment breakage in the Brooks B1 during warmup, Boys first boat was moved to the end of the racing order - thank you to our competitors' flexibility. Groton G1 experienced some rigging problems during their race. 
+Overall a good day of racing on Lake Cochichewick after a very windy week. Good luck to all crews for the remainder of your seasons. A special thanks to the NCDS coaching team for your help out on the water today.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=14668C4F76D76786763E8999C0590073&cat=5", random="random"]; 
+Brooks -> CambridgeRLS[label="3.1
+04/25", weight="97", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+Brooks -> NMH[label="13.8
+04/25", weight="87", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+Brooks -> Middlesex[label="23.8
+04/25", weight="77", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+CambridgeRLS -> NMH[label="10.7
+04/25", weight="90", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+CambridgeRLS -> Middlesex[label="20.7
+04/25", weight="80", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+NMH -> Middlesex[label="10.0
+04/25", weight="90", tooltip="NEIRA,Brooks vs. CRLS, Middlesex and NMH - corrected			
+Distance: 1500m Conditions: 10-12 mph quartering headwind causing significant chop in the first 750 meters. Relative calm in the last 500 meters. Conditions were mostly consistent throughout the afternoon, though the G1 and B1 had the best conditions. Comments: Thanks to all athletes and coaches for your great cooperation on the water. We look forward to seeing you in a few weeks.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=B5B633DFB75BB9FA84BC8CC58D8CEED8&cat=5", random="random"]; 
+StMarysLynn -> Berwick[label="10.8
+05/16", weight="90", tooltip="NEIRA Boys & Girls Fours,Berwick, Brewster, St. Mary's Lynn			
+Distance: 1500 Conditions: Slack tide for all races. Light cross wind at start, moving into protected water after about 250m. Comments: Girl's 3V race is girl's novices. Girl's 4V race is mixed novices.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E38A6FB0DDB3ED4D019FB1D087C3CD41&cat=5", random="random"]; 
+StMarysLynn -> BrewsterAcademy[label="18.8
+05/16", weight="82", tooltip="NEIRA Boys & Girls Fours,Berwick, Brewster, St. Mary's Lynn			
+Distance: 1500 Conditions: Slack tide for all races. Light cross wind at start, moving into protected water after about 250m. Comments: Girl's 3V race is girl's novices. Girl's 4V race is mixed novices.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E38A6FB0DDB3ED4D019FB1D087C3CD41&cat=5", random="random"]; 
+Berwick -> BrewsterAcademy[label="7.9
+05/16", weight="93", tooltip="NEIRA Boys & Girls Fours,Berwick, Brewster, St. Mary's Lynn			
+Distance: 1500 Conditions: Slack tide for all races. Light cross wind at start, moving into protected water after about 250m. Comments: Girl's 3V race is girl's novices. Girl's 4V race is mixed novices.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E38A6FB0DDB3ED4D019FB1D087C3CD41&cat=5", random="random"]; 
+Nobles -> Hotchkiss[label="15.6
+04/25", weight="85", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Nobles -> NotreDame[label="28.1
+04/25", weight="72", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Nobles -> Hopkins[label="34.8
+04/25", weight="66", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Nobles -> StMarks[label="42.3
+04/25", weight="58", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hotchkiss -> NotreDame[label="12.5
+04/25", weight="88", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hotchkiss -> Hopkins[label="19.2
+04/25", weight="81", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hotchkiss -> StMarks[label="26.7
+04/25", weight="74", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+NotreDame -> Hopkins[label="6.7
+04/25", weight="94", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+NotreDame -> StMarks[label="14.2
+04/25", weight="86", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hopkins -> StMarks[label="7.5
+04/25", weight="93", tooltip="NEIRA Boys & Girls Fours,St. Marks, Nobles, Notre Dame, NCDS, Hopkins, Hotchkiss			
+Distance: 1500m Conditions: Fabulous racing conditions. Great water with a 5mph quartering tail. No change in wind all afternoon. Comments: Thanks to all crews for a great day of racing on a perfect Lake Quinsigamond day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=6F7CED5A9E3FC80A9EBD370AFF530DB2&cat=5", random="random"]; 
+Hotchkiss -> Choate[label="3.5
+05/03", weight="97", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Hotchkiss -> LymeOldLyme[label="8.3
+05/03", weight="92", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Hotchkiss -> Hopkins[label="26.7
+05/03", weight="74", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Hotchkiss -> BrewsterAcademy[label="28.9
+05/03", weight="72", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Hotchkiss -> Suffield[label="46.3
+05/03", weight="54", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Choate -> LymeOldLyme[label="4.8
+05/03", weight="96", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Choate -> Hopkins[label="23.3
+05/03", weight="77", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Choate -> BrewsterAcademy[label="25.4
+05/03", weight="75", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Choate -> Suffield[label="42.9
+05/03", weight="58", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+LymeOldLyme -> Hopkins[label="18.4
+05/03", weight="82", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+LymeOldLyme -> BrewsterAcademy[label="20.6
+05/03", weight="80", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+LymeOldLyme -> Suffield[label="38.1
+05/03", weight="62", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Hopkins -> BrewsterAcademy[label="2.1
+05/03", weight="98", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Hopkins -> Suffield[label="19.6
+05/03", weight="81", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+BrewsterAcademy -> Suffield[label="17.5
+05/03", weight="83", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+NMH -> Taft[label="2.4
+05/03", weight="98", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+NMH -> BerkshireAcademy[label="9.3
+05/03", weight="91", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+NMH -> NotreDame[label="27.8
+05/03", weight="73", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+NMH -> FrederickGunn[label="42.4
+05/03", weight="58", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+NMH -> Canterbury[label="126.5
+05/03", weight="-26", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Taft -> BerkshireAcademy[label="6.9
+05/03", weight="94", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Taft -> NotreDame[label="25.4
+05/03", weight="75", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Taft -> FrederickGunn[label="40.0
+05/03", weight="60", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+Taft -> Canterbury[label="124.1
+05/03", weight="-24", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+BerkshireAcademy -> NotreDame[label="18.5
+05/03", weight="82", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+BerkshireAcademy -> FrederickGunn[label="33.1
+05/03", weight="67", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+BerkshireAcademy -> Canterbury[label="117.2
+05/03", weight="-17", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+NotreDame -> FrederickGunn[label="14.6
+05/03", weight="86", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+NotreDame -> Canterbury[label="98.7
+05/03", weight="2", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+FrederickGunn -> Canterbury[label="84.1
+05/03", weight="16", tooltip="NEIRA Boys & Girls Fours, Founders Day Regatta			
+Conditions: Competing Programs: Hotchkiss, Berkshire, Miss Porter’s Canterbury, Rumsey Hall, Hopkins, Lyme/Old Lyme, Greenwich Academy, Choate, Northfield Mount Hermon, Taft, Suffield, Brewster, Notre Dame West Haven, Pomfret, Gunn A very windy day on Lake Waramaug led to first a pause in racing and then, following a restart with a truncated, ‘straight final’ format, an early conclusion also due to wind. Girls’ and Boys’ 4V and Girls’ 3V ran as scheduled in the morning, after which point racing paused. The regatta resumed following a resolution to start with both flights of girls’ 1V, then boys 1V, then girls’ 2V, then boys’ 2V, with a possibility of getting to the boys’ 3V, all without afternoon finals; girls’ and boys’ 1V and girls’ 2V were able to get their one race each despite headwinds building again in each successive race before racing ultimately ended for the day. Stiff and steady AM headwinds built finally to 10+ knots in the morning with gusts far in excess of that, leading to chop increasing drastically from the finish up to the start; upon resumption of racing after the morning pause, the first girls’ 1V race featured relatively clean water with a steady headwind before wind speeds built again to 10+ knots with gusts, chop and white caps by the end of the race day. Thank you to all programs for coming out and being so patient with Gunn’s regatta staff as we navigated some very tricky conditions and decisions. Here's to a calm, sunny day next year.", URL="https://www.row2k.com/results/resultspage.cfm?UID=AD1DB8B7FF440FDBF5A8B2F0C30E70D1&cat=6", random="random"]; 
+NotreDame -> Middletown[label="3.2
+05/14", weight="97", tooltip="NEIRA,Notre Dame High School, Greenwich Country Day School, & Middletown High School			
+Distance: 1500m Conditions: Mild downstream current with minimal to no wind. Floating starts. Slight turn to port at approximately 750m. Comments: Boys 2nd boat - GCDS & ND had slight high five about 15 seconds into the race, no hands were raised & points were already being adjusted, so race went on. Girls 1st boat - GCDS coxswain cut the turn buoy just barely on the far side of it, so a 5 second penalty was incurred (original time was 5:25.22).
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=41764ABA3525A7AF1176B088D02C463A&cat=5", random="random"]; 
+NotreDame -> GreenwichCountryDay[label="4.6
+05/14", weight="96", tooltip="NEIRA,Notre Dame High School, Greenwich Country Day School, & Middletown High School			
+Distance: 1500m Conditions: Mild downstream current with minimal to no wind. Floating starts. Slight turn to port at approximately 750m. Comments: Boys 2nd boat - GCDS & ND had slight high five about 15 seconds into the race, no hands were raised & points were already being adjusted, so race went on. Girls 1st boat - GCDS coxswain cut the turn buoy just barely on the far side of it, so a 5 second penalty was incurred (original time was 5:25.22).
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=41764ABA3525A7AF1176B088D02C463A&cat=5", random="random"]; 
+Middletown -> GreenwichCountryDay[label="1.4
+05/14", weight="99", tooltip="NEIRA,Notre Dame High School, Greenwich Country Day School, & Middletown High School			
+Distance: 1500m Conditions: Mild downstream current with minimal to no wind. Floating starts. Slight turn to port at approximately 750m. Comments: Boys 2nd boat - GCDS & ND had slight high five about 15 seconds into the race, no hands were raised & points were already being adjusted, so race went on. Girls 1st boat - GCDS coxswain cut the turn buoy just barely on the far side of it, so a 5 second penalty was incurred (original time was 5:25.22).
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=41764ABA3525A7AF1176B088D02C463A&cat=5", random="random"]; 
+BerkshireAcademy -> Hotchkiss[label="2.3
+04/15", weight="98", tooltip="NEIRA Boys & Girls Fours,Berkshire vs. Hotchkiss			
+Distance: 1500 M Conditions: Very warm; mostly sunny; 7-10 mph tail/quartering tail wind, light at the start and strongest with some chop in the last 500. Comments: In G3, a Berkshire rower came off her seat, but managed to recover. Thanks to Hotchkiss for a great season-opening race.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=BBABA0AE400667015967B3BE279E6CA4&cat=5", random="random"]; 
+Berwick -> Derryfield[label="11.0
+04/23", weight="89", tooltip="NEIRA Boys & Girls Fours,Berwick Academy vs. Derryfield			
+Distance: 1500 Conditions: Moderate tail current and tail wind that was consistent across all races. Slight chop at the start but smoothed out over the course. Comments: Races listed as boy's 3rd boat and girl's 2nd boat are novice races
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=3DAD22C91F8F3B32C8F4F8BD950B0597&cat=5", random="random"]; 
+BelmontHill -> Middlesex[label="21.7
+04/22", weight="79", tooltip="NEIRA Boys Fours, Middlesex v. Belmont Hill			
+Distance: 1,500 Conditions: Consistent light to moderate tail wind for all races. Comments: 3rd boats started about a length over the line.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=894AF5053019C1BDE8DA3D03C4AB9A24&cat=1", random="random"]; 
+EagleHill -> WorcesterAcademy[label="20.0
+04/29", weight="80", tooltip="NEIRA Boys Fours, Worcester Academy Vs Eagle Hill School			
+Distance: 1500 M Conditions: Light breeze with no chop or crosswinds. Excellent Quinsig water!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7FE81BF896BAF76E0F1737BF730B5873&cat=1", random="random"]; 
+LymeOldLyme -> FrederickGunn[label="20.6
+04/25", weight="80", tooltip="NEIRA Boys & Girls Fours: Frederick Gunn School, Ms. Porter's School, Lyme/Old Lyme High School, Canterbury School			
+Distance: 1500 Conditions: Steady tailwind from 500m on throughout the day; clean water. Comments: Girls 2V event timing malfunction lead to incomplete timing results for that race. Ms. Porter's finished comfortably (5+ lengths open water) ahead of Lyme/Old Lyme; Lyme/Old Lyme likewise finished comfortably (5+ lengths open water) ahead of Canterbury.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58C29486F18E3FB9C02AF58DC1DA54B2&cat=5", random="random"]; 
+LymeOldLyme -> Canterbury[label="48.8
+04/25", weight="52", tooltip="NEIRA Boys & Girls Fours: Frederick Gunn School, Ms. Porter's School, Lyme/Old Lyme High School, Canterbury School			
+Distance: 1500 Conditions: Steady tailwind from 500m on throughout the day; clean water. Comments: Girls 2V event timing malfunction lead to incomplete timing results for that race. Ms. Porter's finished comfortably (5+ lengths open water) ahead of Lyme/Old Lyme; Lyme/Old Lyme likewise finished comfortably (5+ lengths open water) ahead of Canterbury.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58C29486F18E3FB9C02AF58DC1DA54B2&cat=5", random="random"]; 
+FrederickGunn -> Canterbury[label="28.2
+04/25", weight="72", tooltip="NEIRA Boys & Girls Fours: Frederick Gunn School, Ms. Porter's School, Lyme/Old Lyme High School, Canterbury School			
+Distance: 1500 Conditions: Steady tailwind from 500m on throughout the day; clean water. Comments: Girls 2V event timing malfunction lead to incomplete timing results for that race. Ms. Porter's finished comfortably (5+ lengths open water) ahead of Lyme/Old Lyme; Lyme/Old Lyme likewise finished comfortably (5+ lengths open water) ahead of Canterbury.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=58C29486F18E3FB9C02AF58DC1DA54B2&cat=5", random="random"]; 
+LymeOldLyme -> Middletown[label="4.4
+04/29", weight="96", tooltip="NEIRA Boys & Girls Fours,LOLHS v Middletown			
+Distance: 1500 Conditions: 3-6MPH building head wind progressing down the course Comments: Boys 4th boat was a Bn4. Girls 4th boat was a Gn4. 
+The boys 4th(Bn4) race stopped after the first start due to a collision between Lyme/Old Lyme and Middletown. The race was then restarted at the 1000m mark. The race was restarted with Middletown steering to the outside lane. 
+It was a good day to race out on rogers lake. Other than the novice boys 4 (4th boat) all races had no issues lining up and racing. We look forward to seeing Middletown again!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=D5827A97F9E614B74A3872E4EEFE14AF&cat=5", random="random"]; 
+CambridgeRLS -> BBN[label="13.2 (14.67)
+04/11", weight="87", tooltip="NEIRA Boys & Girls Fours,BB&N vs CRLS (Mayor's Cup)			
+Distance: 1350 Conditions: Strong cross-tail wind from starboard throughout racing. Comments: Congratulations to CRLS girls for winning the Mayor's Cup by virtue of winning the 1st boat race. Due to absences on both sides of the boys' teams, several athletes from each team doubled up between the 1st and 2nd boats. To accommodate that, the order of racing was G5, B1, G4, B4, G3, B3, G2, B2, G1. The Mayor's Cup for the boys team will be contested at a later date when the 1st boats can race. Thanks to CRLS for a great day of racing.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=1A9140D19180C189B6A831FB6F435C23&cat=5", random="random"]}

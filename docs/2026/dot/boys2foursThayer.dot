@@ -1,0 +1,8 @@
+digraph boys2foursThayer {Thayer [URL="boys2foursThayer.html"];StMarysLynn [URL="boys2foursStMarysLynn.html"];Pingree [URL="boys2foursPingree.html"];Pingree -> Thayer[label="3.0
+05/09", weight="97", tooltip="NEIRA Boys & Girls Fours, Pingree School, Thayer, Dublin, St. Mary's - Lynn			
+Distance: 1500m Conditions: Rain, calm wind. St. Mary's 3V and 4V girls raced an exhibition vs. each other.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=81DD3F425D50FF79F3F0D678465FD27E&cat=5", random="random"]; 
+Thayer -> StMarysLynn[label="10.0
+05/09", weight="90", tooltip="NEIRA Boys & Girls Fours, Pingree School, Thayer, Dublin, St. Mary's - Lynn			
+Distance: 1500m Conditions: Rain, calm wind. St. Mary's 3V and 4V girls raced an exhibition vs. each other.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=81DD3F425D50FF79F3F0D678465FD27E&cat=5", random="random"]}

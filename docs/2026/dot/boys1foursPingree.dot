@@ -1,0 +1,12 @@
+digraph boys1foursPingree {Thayer [URL="boys1foursThayer.html"];StMarysLynn [URL="boys1foursStMarysLynn.html"];Pingree [URL="boys1foursPingree.html"];StMarysLynn -> Pingree[label="6.0
+05/09", weight="94", tooltip="NEIRA Boys & Girls Fours, Pingree School, Thayer, Dublin, St. Mary's - Lynn			
+Distance: 1500m Conditions: Rain, calm wind. St. Mary's 3V and 4V girls raced an exhibition vs. each other.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=81DD3F425D50FF79F3F0D678465FD27E&cat=5", random="random"]; 
+Pingree -> Thayer[label="14.0
+05/09", weight="86", tooltip="NEIRA Boys & Girls Fours, Pingree School, Thayer, Dublin, St. Mary's - Lynn			
+Distance: 1500m Conditions: Rain, calm wind. St. Mary's 3V and 4V girls raced an exhibition vs. each other.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=81DD3F425D50FF79F3F0D678465FD27E&cat=5", random="random"]; 
+Pingree -> Thayer[label="11.0
+04/18", weight="89", tooltip="NEIRA Boys & Girls Fours,Pingree vs. Thayer			
+Distance: 1500m Conditions: Light/medium straight headwind Comments: Girls 1V race was exhibition with mixed crews. Thanks to Thayer for coming up to Essex!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=A34F0FBE7FD0A1503A84378FC9880DED&cat=5", random="random"]}

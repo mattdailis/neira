@@ -1,0 +1,25 @@
+digraph girls2foursSacredHeart {SacredHeart [URL="girls2foursSacredHeart.html"];GreenwichAcademy [URL="girls2foursGreenwichAcademy.html"];Canterbury [URL="girls2foursCanterbury.html"];NewtonCountryDay [URL="girls2foursNewtonCountryDay.html"];BerkshireAcademy [URL="girls2foursBerkshireAcademy.html"];LymeOldLyme [URL="girls2foursLymeOldLyme.html"];GreenwichAcademy -> SacredHeart[label="23.2 (24.86)
+04/22", weight="77", tooltip="NEIRA Girls Fours, Greenwich Academy, Sacred Heart Greenwich, Greenwich Country Day			
+Distance: 1400m Conditions: Race order: 3V/4V, 2V, 1V. All events saw sustained 10-12 m.p.h. cross-tailwinds, with racing heading inland with the rising tide. Intermittent rollers plagued the first 250m, with conditions flattening out as races approached the 300m. Throughout the day racing conditions trended calmer, going from rougher chop at the start to mild agitation by the end. Comments: We also ran an exhibition heat before the girls' events of a GCDS Men's 1V4+ and 1N4+, listed under the Fourth Boat category. Greenwich Academy also ran their 4V as an exhibition event in the 3V category.
+Many thanks to the other programs for joining Greenwich Academy again this year on the Mianus, and for their coaches' support in making it a successful day!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=7EFDBA1B24E108B582C6EBA3D988CF47&cat=1", random="random"]; 
+NewtonCountryDay -> SacredHeart[label="11.6 (13.92)
+04/19", weight="89", tooltip="NEIRA Girls Fours, Newton Country Day vs Sacred Heart Greenwich			
+Distance: 1250 Conditions: Slight head wind and rain but the forecast told a worse tale than reality. Thanks to SHG for making the ride up. All crews raced with Courage and Confidence!
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=2A91554FD6256609D30391461689A8CB&cat=1", random="random"]; 
+BerkshireAcademy -> SacredHeart[label="27.3 (31.5)
+05/09", weight="73", tooltip="NEIRA Girls Fours, Berkshire v Canterbury, Greenwich Academy, Lyme/Old Lyme, Sacred Heart			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: Races alternated with boys' races. Order of racing: 3V, 2V, 1V, 4V. Berkshire hotseated a rower from 3V to 4V. To ensure fair racing, the course was shortened from 1500 M due to aggressive weed growth in the starting area. In 3V race, GA caught a boat-stopping crab just short of the finish. This would not have impacted finish order, but may have increased the margin. Kudos to cox'ns in 1V and 2V for managing tight 5-boat starts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F58C6BF71D67F028BA2055A66A6FA063&cat=1", random="random"]; 
+GreenwichAcademy -> SacredHeart[label="16.5 (19.04)
+05/09", weight="84", tooltip="NEIRA Girls Fours, Berkshire v Canterbury, Greenwich Academy, Lyme/Old Lyme, Sacred Heart			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: Races alternated with boys' races. Order of racing: 3V, 2V, 1V, 4V. Berkshire hotseated a rower from 3V to 4V. To ensure fair racing, the course was shortened from 1500 M due to aggressive weed growth in the starting area. In 3V race, GA caught a boat-stopping crab just short of the finish. This would not have impacted finish order, but may have increased the margin. Kudos to cox'ns in 1V and 2V for managing tight 5-boat starts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F58C6BF71D67F028BA2055A66A6FA063&cat=1", random="random"]; 
+SacredHeart -> LymeOldLyme[label="4.2 (4.85)
+05/09", weight="96", tooltip="NEIRA Girls Fours, Berkshire v Canterbury, Greenwich Academy, Lyme/Old Lyme, Sacred Heart			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: Races alternated with boys' races. Order of racing: 3V, 2V, 1V, 4V. Berkshire hotseated a rower from 3V to 4V. To ensure fair racing, the course was shortened from 1500 M due to aggressive weed growth in the starting area. In 3V race, GA caught a boat-stopping crab just short of the finish. This would not have impacted finish order, but may have increased the margin. Kudos to cox'ns in 1V and 2V for managing tight 5-boat starts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F58C6BF71D67F028BA2055A66A6FA063&cat=1", random="random"]; 
+SacredHeart -> Canterbury[label="47.6 (54.92)
+05/09", weight="53", tooltip="NEIRA Girls Fours, Berkshire v Canterbury, Greenwich Academy, Lyme/Old Lyme, Sacred Heart			
+Distance: 1300 M Conditions: Steady rain; occasional very light tailwind; flat water. Comments: Races alternated with boys' races. Order of racing: 3V, 2V, 1V, 4V. Berkshire hotseated a rower from 3V to 4V. To ensure fair racing, the course was shortened from 1500 M due to aggressive weed growth in the starting area. In 3V race, GA caught a boat-stopping crab just short of the finish. This would not have impacted finish order, but may have increased the margin. Kudos to cox'ns in 1V and 2V for managing tight 5-boat starts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=F58C6BF71D67F028BA2055A66A6FA063&cat=1", random="random"]}

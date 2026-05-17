@@ -1,0 +1,23 @@
+digraph girls2foursBerwick {StMarysLynn [URL="girls2foursStMarysLynn.html"];Berwick [URL="girls2foursBerwick.html"];BrewsterAcademy [URL="girls2foursBrewsterAcademy.html"];Derryfield [URL="girls2foursDerryfield.html"];BrewsterAcademy -> Berwick[label="10.8
+05/06", weight="90", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+Derryfield -> Berwick[label="0.5
+05/06", weight="100", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+Berwick -> StMarysLynn[label="4.3
+05/06", weight="96", tooltip="NEIRA Boys & Girls Fours,Davison Cup Regatta: Derryfield vs. Berwick, Brewster, St. Mary's-Lynn, Thayer, Worcester Academy			
+Distance: 1500m Conditions: Tail current, light headwind and chop. Headwind and chop moderate for later GV2, BV3/4 and novice races. Comments: BV3/4 and novice boys/girls races restarted in place 10 and 20 strokes in, respectively, due to collisions. Combined Boys V3 and V4 races, and Novice Boys and Girls races.
+Except for the V1 races, many varsity boats contained novice rowers due to illnesses/student regatta conflicts.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=FC5E961B1D9B1EFA84B8AE7C02C78823&cat=5", random="random"]; 
+BrewsterAcademy -> Berwick[label="9.7
+05/16", weight="91", tooltip="NEIRA Boys & Girls Fours,Berwick, Brewster, St. Mary's Lynn			
+Distance: 1500 Conditions: Slack tide for all races. Light cross wind at start, moving into protected water after about 250m. Comments: Girl's 3V race is girl's novices. Girl's 4V race is mixed novices.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E38A6FB0DDB3ED4D019FB1D087C3CD41&cat=5", random="random"]; 
+Berwick -> StMarysLynn[label="10.2
+05/16", weight="90", tooltip="NEIRA Boys & Girls Fours,Berwick, Brewster, St. Mary's Lynn			
+Distance: 1500 Conditions: Slack tide for all races. Light cross wind at start, moving into protected water after about 250m. Comments: Girl's 3V race is girl's novices. Girl's 4V race is mixed novices.
+None", URL="https://www.row2k.com/results/resultspage.cfm?UID=E38A6FB0DDB3ED4D019FB1D087C3CD41&cat=5", random="random"]}
