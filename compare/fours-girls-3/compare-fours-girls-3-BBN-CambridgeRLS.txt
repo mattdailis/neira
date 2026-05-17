@@ -1,17 +1,19 @@
 BB&N and Cambridge RLS have raced head to head once on 2026-04-11
 Cambridge RLS won the race by 30.78 seconds
 
-There are 5 paths of length 2 between BB&N and Cambridge RLS
-3/5 of them favor Cambridge RLS
+There are 7 paths of length 2 between BB&N and Cambridge RLS
+4/7 of them favor Cambridge RLS
 From most recent to least recent:
 BB&N--(-5.0 5/9)-->Winsor--(-16.15 5/6)-->Cambridge RLS [Cambridge RLS net +21.15]
+BB&N--(-4.2 5/16)-->Nobles--(8.42 5/6)-->Cambridge RLS [BB&N net +4.22]
 BB&N--(-0.67 4/25)-->Winsor--(-16.15 5/6)-->Cambridge RLS [Cambridge RLS net +16.82]
+BB&N--(-8.5 5/16)-->Brooks--(8.0 4/25)-->Cambridge RLS [Cambridge RLS net +0.5]
 BB&N--(4.62 5/2)-->Middlesex--(5.8 4/25)-->Cambridge RLS [BB&N net +10.42]
 BB&N--(12.22 4/18)-->Groton--(-23.47 5/2)-->Cambridge RLS [Cambridge RLS net +11.25]
 BB&N--(4.89 4/18)-->Nobles--(8.42 5/6)-->Cambridge RLS [BB&N net +13.31]
 
-There are 33 paths of length 3 between BB&N and Cambridge RLS
-22/33 of them favor Cambridge RLS
+There are 54 paths of length 3 between BB&N and Cambridge RLS
+33/54 of them favor Cambridge RLS
 From most recent to least recent:
 BB&N--(-5.0 5/9)-->Winsor--(-24.58 5/6)-->Nobles--(8.42 5/6)-->Cambridge RLS [Cambridge RLS net +21.16]
 BB&N--(6.5 5/9)-->Taft--(-11.5 5/9)-->Winsor--(-16.15 5/6)-->Cambridge RLS [Cambridge RLS net +21.15]
@@ -19,7 +21,13 @@ BB&N--(9.2 5/9)-->St. Mark's--(-14.2 5/9)-->Winsor--(-16.15 5/6)-->Cambridge RLS
 BB&N--(9.8 5/9)-->Miss Porter's--(-14.8 5/9)-->Winsor--(-16.15 5/6)-->Cambridge RLS [Cambridge RLS net +21.15]
 BB&N--(39.7 5/9)-->Pomfret--(-44.7 5/9)-->Winsor--(-16.15 5/6)-->Cambridge RLS [Cambridge RLS net +21.15]
 BB&N--(77.5 5/9)-->Frederick Gunn--(-82.5 5/9)-->Winsor--(-16.15 5/6)-->Cambridge RLS [Cambridge RLS net +21.15]
+BB&N--(9.2 5/9)-->St. Mark's--(-28.2 5/16)-->Nobles--(8.42 5/6)-->Cambridge RLS [Cambridge RLS net +10.58]
+BB&N--(24.0 5/16)-->St. Mark's--(-14.2 5/9)-->Winsor--(-16.15 5/6)-->Cambridge RLS [Cambridge RLS net +6.35]
+BB&N--(-8.5 5/16)-->Brooks--(4.3 5/16)-->Nobles--(8.42 5/6)-->Cambridge RLS [BB&N net +4.22]
+BB&N--(24.0 5/16)-->St. Mark's--(-28.2 5/16)-->Nobles--(8.42 5/6)-->Cambridge RLS [BB&N net +4.22]
+BB&N--(-4.2 5/16)-->Nobles--(24.58 5/6)-->Winsor--(-16.15 5/6)-->Cambridge RLS [BB&N net +4.23]
 BB&N--(9.8 5/9)-->Miss Porter's--(-48.1 5/3)-->Hopkins--(-26.88 5/9)-->Cambridge RLS [Cambridge RLS net +65.18]
+BB&N--(-8.5 5/16)-->Brooks--(11.2 5/9)-->Groton--(-23.47 5/2)-->Cambridge RLS [Cambridge RLS net +20.77]
 BB&N--(44.08 5/2)-->Newton Country Day--(-4.4 5/9)-->Groton--(-23.47 5/2)-->Cambridge RLS [BB&N net +16.21]
 BB&N--(-5.33 4/25)-->Greenwich Academy--(-56.3 5/3)-->Hopkins--(-26.88 5/9)-->Cambridge RLS [Cambridge RLS net +88.51]
 BB&N--(-5.33 4/25)-->Greenwich Academy--(-46.3 5/3)-->NMH--(-27.0 4/25)-->Cambridge RLS [Cambridge RLS net +78.63]
@@ -27,22 +35,37 @@ BB&N--(9.8 5/9)-->Miss Porter's--(-38.1 5/3)-->NMH--(-27.0 4/25)-->Cambridge RLS
 BB&N--(39.7 5/9)-->Pomfret--(-38.9 4/25)-->Groton--(-23.47 5/2)-->Cambridge RLS [Cambridge RLS net +22.67]
 BB&N--(-0.67 4/25)-->Winsor--(-24.58 5/6)-->Nobles--(8.42 5/6)-->Cambridge RLS [Cambridge RLS net +16.83]
 BB&N--(-5.33 4/25)-->Greenwich Academy--(4.67 4/25)-->Winsor--(-16.15 5/6)-->Cambridge RLS [Cambridge RLS net +16.81]
+BB&N--(9.2 5/9)-->St. Mark's--(-32.5 5/16)-->Brooks--(8.0 4/25)-->Cambridge RLS [Cambridge RLS net +15.3]
 BB&N--(6.5 5/9)-->Taft--(3.8 4/25)-->Groton--(-23.47 5/2)-->Cambridge RLS [Cambridge RLS net +13.17]
+BB&N--(-4.2 5/16)-->Nobles--(20.57 5/9)-->NMH--(-27.0 4/25)-->Cambridge RLS [Cambridge RLS net +10.63]
 BB&N--(9.2 5/9)-->St. Mark's--(16.9 4/25)-->Hopkins--(-26.88 5/9)-->Cambridge RLS [Cambridge RLS net +0.78]
+BB&N--(-8.5 5/16)-->Brooks--(2.2 4/25)-->Middlesex--(5.8 4/25)-->Cambridge RLS [Cambridge RLS net +0.5]
+BB&N--(-8.5 5/16)-->Brooks--(35.0 4/25)-->NMH--(-27.0 4/25)-->Cambridge RLS [Cambridge RLS net +0.5]
+BB&N--(-4.2 5/16)-->Nobles--(-4.3 5/16)-->Brooks--(8.0 4/25)-->Cambridge RLS [Cambridge RLS net +0.5]
+BB&N--(24.0 5/16)-->St. Mark's--(-32.5 5/16)-->Brooks--(8.0 4/25)-->Cambridge RLS [Cambridge RLS net +0.5]
+BB&N--(-4.2 5/16)-->Nobles--(30.8 4/25)-->Hopkins--(-26.88 5/9)-->Cambridge RLS [Cambridge RLS net +0.28]
 BB&N--(9.2 5/9)-->St. Mark's--(-13.9 4/25)-->Nobles--(8.42 5/6)-->Cambridge RLS [BB&N net +3.72]
 BB&N--(44.08 5/2)-->Newton Country Day--(-39.58 5/2)-->Middlesex--(5.8 4/25)-->Cambridge RLS [BB&N net +10.3]
 BB&N--(4.62 5/2)-->Middlesex--(-2.2 4/25)-->Brooks--(8.0 4/25)-->Cambridge RLS [BB&N net +10.42]
 BB&N--(4.62 5/2)-->Middlesex--(32.8 4/25)-->NMH--(-27.0 4/25)-->Cambridge RLS [BB&N net +10.42]
+BB&N--(24.0 5/16)-->St. Mark's--(16.9 4/25)-->Hopkins--(-26.88 5/9)-->Cambridge RLS [BB&N net +14.02]
+BB&N--(24.0 5/16)-->St. Mark's--(-13.9 4/25)-->Nobles--(8.42 5/6)-->Cambridge RLS [BB&N net +18.52]
 BB&N--(44.08 5/2)-->Newton Country Day--(-15.6 5/9)-->Brooks--(8.0 4/25)-->Cambridge RLS [BB&N net +36.48]
 BB&N--(39.7 5/9)-->Pomfret--(-70.5 4/18)-->NMH--(-27.0 4/25)-->Cambridge RLS [Cambridge RLS net +57.8]
 BB&N--(39.7 5/9)-->Pomfret--(-62.1 4/18)-->Hopkins--(-26.88 5/9)-->Cambridge RLS [Cambridge RLS net +49.28]
+BB&N--(-4.2 5/16)-->Nobles--(7.33 4/18)-->Groton--(-23.47 5/2)-->Cambridge RLS [Cambridge RLS net +20.34]
 BB&N--(4.89 4/18)-->Nobles--(7.33 4/18)-->Groton--(-23.47 5/2)-->Cambridge RLS [Cambridge RLS net +11.25]
 BB&N--(4.62 5/2)-->Middlesex--(-16.7 4/18)-->Brooks--(8.0 4/25)-->Cambridge RLS [Cambridge RLS net +4.08]
 BB&N--(9.2 5/9)-->St. Mark's--(-20.3 4/18)-->Brooks--(8.0 4/25)-->Cambridge RLS [Cambridge RLS net +3.1]
 BB&N--(4.89 4/18)-->Nobles--(20.57 5/9)-->NMH--(-27.0 4/25)-->Cambridge RLS [Cambridge RLS net +1.54]
+BB&N--(4.89 4/18)-->Nobles--(-4.3 5/16)-->Brooks--(8.0 4/25)-->Cambridge RLS [BB&N net +8.59]
 BB&N--(4.89 4/18)-->Nobles--(30.8 4/25)-->Hopkins--(-26.88 5/9)-->Cambridge RLS [BB&N net +8.81]
 BB&N--(12.22 4/18)-->Groton--(-11.2 5/9)-->Brooks--(8.0 4/25)-->Cambridge RLS [BB&N net +9.02]
 BB&N--(9.2 5/9)-->St. Mark's--(-3.6 4/18)-->Middlesex--(5.8 4/25)-->Cambridge RLS [BB&N net +11.4]
+BB&N--(24.0 5/16)-->St. Mark's--(-20.3 4/18)-->Brooks--(8.0 4/25)-->Cambridge RLS [BB&N net +11.7]
 BB&N--(12.22 4/18)-->Groton--(-7.33 4/18)-->Nobles--(8.42 5/6)-->Cambridge RLS [BB&N net +13.31]
 BB&N--(4.89 4/18)-->Nobles--(24.58 5/6)-->Winsor--(-16.15 5/6)-->Cambridge RLS [BB&N net +13.32]
+BB&N--(-8.5 5/16)-->Brooks--(16.7 4/18)-->Middlesex--(5.8 4/25)-->Cambridge RLS [BB&N net +14.0]
+BB&N--(24.0 5/16)-->St. Mark's--(-3.6 4/18)-->Middlesex--(5.8 4/25)-->Cambridge RLS [BB&N net +26.2]
 BB&N--(9.2 5/9)-->St. Mark's--(11.3 4/11)-->NMH--(-27.0 4/25)-->Cambridge RLS [Cambridge RLS net +6.5]
+BB&N--(24.0 5/16)-->St. Mark's--(11.3 4/11)-->NMH--(-27.0 4/25)-->Cambridge RLS [BB&N net +8.3]

@@ -1,22 +1,31 @@
 BB&N and Groton have raced head to head once on 2026-04-18
 Groton won the race by 14.56 seconds
 
-There are 4 paths of length 2 between BB&N and Groton
+There are 6 paths of length 2 between BB&N and Groton
 All of them favor Groton
 From most recent to least recent:
+BB&N--(-22.4 5/16)-->Brooks--(12.3 5/9)-->Groton [Groton net +10.1]
 BB&N--(10.04 5/2)-->Newton Country Day--(-27.2 5/9)-->Groton [Groton net +17.16]
 BB&N--(-19.5 5/9)-->Taft--(-2.1 4/25)-->Groton [Groton net +21.6]
 BB&N--(4.8 5/9)-->Pomfret--(-20.4 4/25)-->Groton [Groton net +15.6]
+BB&N--(-25.8 5/16)-->Nobles--(10.11 4/18)-->Groton [Groton net +15.69]
 BB&N--(-18.22 4/11)-->Cambridge RLS--(5.69 5/2)-->Groton [Groton net +12.53]
 
-There are 44 paths of length 3 between BB&N and Groton
+There are 66 paths of length 3 between BB&N and Groton
 All of them favor Groton
 From most recent to least recent:
+BB&N--(-26.1 5/9)-->St. Mark's--(-5.0 5/16)-->Brooks--(12.3 5/9)-->Groton [Groton net +18.8]
+BB&N--(-25.8 5/16)-->Nobles--(3.4 5/16)-->Brooks--(12.3 5/9)-->Groton [Groton net +10.1]
+BB&N--(-22.4 5/16)-->Brooks--(39.5 5/9)-->Newton Country Day--(-27.2 5/9)-->Groton [Groton net +10.1]
+BB&N--(-17.4 5/16)-->St. Mark's--(-5.0 5/16)-->Brooks--(12.3 5/9)-->Groton [Groton net +10.1]
 BB&N--(-16.6 5/9)-->Winsor--(-18.23 5/6)-->Cambridge RLS--(5.69 5/2)-->Groton [Groton net +29.14]
 BB&N--(-16.73 5/2)-->Middlesex--(26.77 5/2)-->Newton Country Day--(-27.2 5/9)-->Groton [Groton net +17.16]
 BB&N--(10.04 5/2)-->Newton Country Day--(-39.5 5/9)-->Brooks--(12.3 5/9)-->Groton [Groton net +17.16]
+BB&N--(-25.8 5/16)-->Nobles--(6.69 5/6)-->Cambridge RLS--(5.69 5/2)-->Groton [Groton net +13.42]
 BB&N--(17.5 5/9)-->Frederick Gunn--(-65.9 5/3)-->Taft--(-2.1 4/25)-->Groton [Groton net +50.5]
+BB&N--(-8.4 5/9)-->Miss Porter's--(-31.0 5/16)-->Taft--(-2.1 4/25)-->Groton [Groton net +41.5]
 BB&N--(17.5 5/9)-->Frederick Gunn--(-36.5 5/3)-->Pomfret--(-20.4 4/25)-->Groton [Groton net +39.4]
+BB&N--(17.5 5/9)-->Frederick Gunn--(-45.9 5/16)-->Taft--(-2.1 4/25)-->Groton [Groton net +30.5]
 BB&N--(-16.73 5/2)-->Middlesex--(-23.7 4/25)-->Brooks--(12.3 5/9)-->Groton [Groton net +28.13]
 BB&N--(-8.4 5/9)-->Miss Porter's--(-16.2 5/3)-->Taft--(-2.1 4/25)-->Groton [Groton net +26.7]
 BB&N--(4.8 5/9)-->Pomfret--(-29.4 5/3)-->Taft--(-2.1 4/25)-->Groton [Groton net +26.7]
@@ -29,7 +38,9 @@ BB&N--(-16.6 5/9)-->Winsor--(-2.9 5/9)-->Taft--(-2.1 4/25)-->Groton [Groton net 
 BB&N--(-8.4 5/9)-->Miss Porter's--(-11.1 5/9)-->Taft--(-2.1 4/25)-->Groton [Groton net +21.6]
 BB&N--(4.8 5/9)-->Pomfret--(-24.3 5/9)-->Taft--(-2.1 4/25)-->Groton [Groton net +21.6]
 BB&N--(17.5 5/9)-->Frederick Gunn--(-37.0 5/9)-->Taft--(-2.1 4/25)-->Groton [Groton net +21.6]
+BB&N--(-6.44 4/25)-->Greenwich Academy--(-11.7 5/16)-->Taft--(-2.1 4/25)-->Groton [Groton net +20.24]
 BB&N--(-26.1 5/9)-->St. Mark's--(34.3 4/25)-->Newton Country Day--(-27.2 5/9)-->Groton [Groton net +19.0]
+BB&N--(-25.8 5/16)-->Nobles--(35.5 4/25)-->Newton Country Day--(-27.2 5/9)-->Groton [Groton net +17.5]
 BB&N--(-26.1 5/9)-->St. Mark's--(30.9 5/9)-->Pomfret--(-20.4 4/25)-->Groton [Groton net +15.6]
 BB&N--(-19.5 5/9)-->Taft--(24.3 5/9)-->Pomfret--(-20.4 4/25)-->Groton [Groton net +15.6]
 BB&N--(-16.6 5/9)-->Winsor--(21.4 5/9)-->Pomfret--(-20.4 4/25)-->Groton [Groton net +15.6]
@@ -39,20 +50,33 @@ BB&N--(4.8 5/9)-->Pomfret--(-18.3 4/25)-->Taft--(-2.1 4/25)-->Groton [Groton net
 BB&N--(4.8 5/9)-->Pomfret--(0.8 4/25)-->Dexter-Southfield--(-21.2 4/25)-->Groton [Groton net +15.6]
 BB&N--(17.5 5/9)-->Frederick Gunn--(-12.7 5/9)-->Pomfret--(-20.4 4/25)-->Groton [Groton net +15.6]
 BB&N--(-10.0 4/25)-->Winsor--(-2.9 5/9)-->Taft--(-2.1 4/25)-->Groton [Groton net +15.0]
+BB&N--(-17.4 5/16)-->St. Mark's--(6.6 5/9)-->Taft--(-2.1 4/25)-->Groton [Groton net +12.9]
 BB&N--(-19.5 5/9)-->Taft--(29.4 5/3)-->Pomfret--(-20.4 4/25)-->Groton [Groton net +10.5]
+BB&N--(-17.4 5/16)-->St. Mark's--(34.3 4/25)-->Newton Country Day--(-27.2 5/9)-->Groton [Groton net +10.3]
 BB&N--(-10.0 4/25)-->Winsor--(21.4 5/9)-->Pomfret--(-20.4 4/25)-->Groton [Groton net +9.0]
+BB&N--(-22.4 5/16)-->Brooks--(8.4 4/25)-->Cambridge RLS--(5.69 5/2)-->Groton [Groton net +8.31]
+BB&N--(10.04 5/2)-->Newton Country Day--(3.96 5/16)-->Dexter-Southfield--(-21.2 4/25)-->Groton [Groton net +7.2]
+BB&N--(-17.4 5/16)-->St. Mark's--(30.9 5/9)-->Pomfret--(-20.4 4/25)-->Groton [Groton net +6.9]
 BB&N--(-16.6 5/9)-->Winsor--(33.22 4/22)-->Newton Country Day--(-27.2 5/9)-->Groton [Groton net +10.58]
 BB&N--(-10.0 4/25)-->Winsor--(33.22 4/22)-->Newton Country Day--(-27.2 5/9)-->Groton [Groton net +3.98]
 BB&N--(-16.73 5/2)-->Middlesex--(-27.7 4/18)-->Brooks--(12.3 5/9)-->Groton [Groton net +32.13]
 BB&N--(-16.6 5/9)-->Winsor--(-24.92 5/6)-->Nobles--(10.11 4/18)-->Groton [Groton net +31.41]
 BB&N--(-16.73 5/2)-->Middlesex--(7.4 4/18)-->Dexter-Southfield--(-21.2 4/25)-->Groton [Groton net +30.53]
 BB&N--(-10.0 4/25)-->Winsor--(-24.92 5/6)-->Nobles--(10.11 4/18)-->Groton [Groton net +24.81]
+BB&N--(-26.1 5/9)-->St. Mark's--(-8.4 5/16)-->Nobles--(10.11 4/18)-->Groton [Groton net +24.39]
 BB&N--(-26.1 5/9)-->St. Mark's--(-4.3 4/18)-->Brooks--(12.3 5/9)-->Groton [Groton net +18.1]
 BB&N--(-26.1 5/9)-->St. Mark's--(-1.2 4/25)-->Nobles--(10.11 4/18)-->Groton [Groton net +17.19]
 BB&N--(-26.1 5/9)-->St. Mark's--(30.8 4/18)-->Dexter-Southfield--(-21.2 4/25)-->Groton [Groton net +16.5]
 BB&N--(-24.67 4/18)-->Nobles--(35.5 4/25)-->Newton Country Day--(-27.2 5/9)-->Groton [Groton net +16.37]
+BB&N--(-22.4 5/16)-->Brooks--(-3.4 5/16)-->Nobles--(10.11 4/18)-->Groton [Groton net +15.69]
+BB&N--(-17.4 5/16)-->St. Mark's--(-8.4 5/16)-->Nobles--(10.11 4/18)-->Groton [Groton net +15.69]
 BB&N--(10.04 5/2)-->Newton Country Day--(-35.5 4/25)-->Nobles--(10.11 4/18)-->Groton [Groton net +15.35]
 BB&N--(-24.67 4/18)-->Nobles--(6.69 5/6)-->Cambridge RLS--(5.69 5/2)-->Groton [Groton net +12.29]
+BB&N--(-17.4 5/16)-->St. Mark's--(-4.3 4/18)-->Brooks--(12.3 5/9)-->Groton [Groton net +9.4]
+BB&N--(-24.67 4/18)-->Nobles--(3.4 5/16)-->Brooks--(12.3 5/9)-->Groton [Groton net +8.97]
+BB&N--(-22.4 5/16)-->Brooks--(35.1 4/18)-->Dexter-Southfield--(-21.2 4/25)-->Groton [Groton net +8.5]
+BB&N--(-17.4 5/16)-->St. Mark's--(-1.2 4/25)-->Nobles--(10.11 4/18)-->Groton [Groton net +8.49]
+BB&N--(-17.4 5/16)-->St. Mark's--(30.8 4/18)-->Dexter-Southfield--(-21.2 4/25)-->Groton [Groton net +7.8]
 BB&N--(-18.22 4/11)-->Cambridge RLS--(22.04 5/9)-->Dexter-Southfield--(-21.2 4/25)-->Groton [Groton net +17.38]
 BB&N--(-18.22 4/11)-->Cambridge RLS--(-6.69 5/6)-->Nobles--(10.11 4/18)-->Groton [Groton net +14.8]
 BB&N--(-18.22 4/11)-->Cambridge RLS--(-8.4 4/25)-->Brooks--(12.3 5/9)-->Groton [Groton net +14.32]

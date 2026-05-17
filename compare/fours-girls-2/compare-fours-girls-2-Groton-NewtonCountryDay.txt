@@ -1,18 +1,23 @@
 Groton and Newton Country Day have raced head to head once on 2026-05-09
 Groton won the race by 31.7 seconds
 
-There are 2 paths of length 2 between Groton and Newton Country Day
+There are 3 paths of length 2 between Groton and Newton Country Day
 All of them favor Groton
 From most recent to least recent:
+Groton--(71.7 4/25)-->Dexter-Southfield--(-55.08 5/16)-->Newton Country Day [Groton net +16.62]
 Groton--(-7.44 4/18)-->Nobles--(30.5 4/25)-->Newton Country Day [Groton net +23.06]
 Groton--(5.89 4/18)-->BB&N--(29.08 5/2)-->Newton Country Day [Groton net +34.97]
 
-There are 33 paths of length 3 between Groton and Newton Country Day
+There are 46 paths of length 3 between Groton and Newton Country Day
 All of them favor Groton
 From most recent to least recent:
+Groton--(1.33 5/2)-->Cambridge RLS--(56.19 5/9)-->Dexter-Southfield--(-55.08 5/16)-->Newton Country Day [Groton net +2.44]
+Groton--(-7.2 5/9)-->Brooks--(15.0 5/16)-->BB&N--(29.08 5/2)-->Newton Country Day [Groton net +36.88]
 Groton--(29.4 4/25)-->Pomfret--(-17.5 5/3)-->Hopkins--(-2.2 4/25)-->Newton Country Day [Groton net +9.7]
 Groton--(3.2 4/25)-->Taft--(10.7 5/3)-->Hopkins--(-2.2 4/25)-->Newton Country Day [Groton net +11.7]
 Groton--(29.4 4/25)-->Pomfret--(-35.9 5/3)-->Hotchkiss--(21.5 4/25)-->Newton Country Day [Groton net +15.0]
+Groton--(3.2 4/25)-->Taft--(68.5 4/25)-->Dexter-Southfield--(-55.08 5/16)-->Newton Country Day [Groton net +16.62]
+Groton--(29.4 4/25)-->Pomfret--(42.3 4/25)-->Dexter-Southfield--(-55.08 5/16)-->Newton Country Day [Groton net +16.62]
 Groton--(3.2 4/25)-->Taft--(-7.7 5/3)-->Hotchkiss--(21.5 4/25)-->Newton Country Day [Groton net +17.0]
 Groton--(1.33 5/2)-->Cambridge RLS--(-10.27 5/6)-->Nobles--(30.5 4/25)-->Newton Country Day [Groton net +21.56]
 Groton--(29.4 4/25)-->Pomfret--(-37.1 5/9)-->St. Mark's--(29.3 4/25)-->Newton Country Day [Groton net +21.6]
@@ -21,13 +26,17 @@ Groton--(1.33 5/2)-->Cambridge RLS--(28.04 5/9)-->Hopkins--(-2.2 4/25)-->Newton 
 Groton--(29.4 4/25)-->Pomfret--(-30.5 5/9)-->BB&N--(29.08 5/2)-->Newton Country Day [Groton net +27.98]
 Groton--(1.33 5/2)-->Cambridge RLS--(-11.6 4/25)-->Brooks--(38.9 5/9)-->Newton Country Day [Groton net +28.63]
 Groton--(-7.2 5/9)-->Brooks--(21.1 4/25)-->Middlesex--(15.58 5/2)-->Newton Country Day [Groton net +29.48]
+Groton--(-7.2 5/9)-->Brooks--(8.9 5/16)-->Nobles--(30.5 4/25)-->Newton Country Day [Groton net +32.2]
 Groton--(3.2 4/25)-->Taft--(1.1 5/9)-->St. Mark's--(29.3 4/25)-->Newton Country Day [Groton net +33.6]
+Groton--(-7.2 5/9)-->Brooks--(16.8 5/16)-->St. Mark's--(29.3 4/25)-->Newton Country Day [Groton net +38.9]
 Groton--(3.2 4/25)-->Taft--(7.7 5/9)-->BB&N--(29.08 5/2)-->Newton Country Day [Groton net +39.98]
 Groton--(71.7 4/25)-->Dexter-Southfield--(-28.15 5/9)-->Hopkins--(-2.2 4/25)-->Newton Country Day [Groton net +41.35]
 Groton--(29.4 4/25)-->Pomfret--(-48.3 5/9)-->Winsor--(41.33 4/22)-->Newton Country Day [Groton net +22.43]
 Groton--(3.2 4/25)-->Taft--(-10.1 5/9)-->Winsor--(41.33 4/22)-->Newton Country Day [Groton net +34.43]
 Groton--(1.33 5/2)-->Cambridge RLS--(-3.92 5/6)-->Winsor--(41.33 4/22)-->Newton Country Day [Groton net +38.74]
+Groton--(3.2 4/25)-->Taft--(-4.4 5/16)-->Choate--(56.11 4/22)-->Newton Country Day [Groton net +54.91]
 Groton--(29.4 4/25)-->Pomfret--(-15.5 4/18)-->Hopkins--(-2.2 4/25)-->Newton Country Day [Groton net +11.7]
+Groton--(-7.44 4/18)-->Nobles--(-8.9 5/16)-->Brooks--(38.9 5/9)-->Newton Country Day [Groton net +22.56]
 Groton--(-7.44 4/18)-->Nobles--(1.2 4/25)-->St. Mark's--(29.3 4/25)-->Newton Country Day [Groton net +23.06]
 Groton--(-7.44 4/18)-->Nobles--(9.0 4/25)-->Hotchkiss--(21.5 4/25)-->Newton Country Day [Groton net +23.06]
 Groton--(-7.44 4/18)-->Nobles--(32.7 4/25)-->Hopkins--(-2.2 4/25)-->Newton Country Day [Groton net +23.06]
@@ -35,11 +44,16 @@ Groton--(5.89 4/18)-->BB&N--(-13.33 4/18)-->Nobles--(30.5 4/25)-->Newton Country
 Groton--(-7.44 4/18)-->Nobles--(9.64 5/9)-->Hotchkiss--(21.5 4/25)-->Newton Country Day [Groton net +23.7]
 Groton--(3.2 4/25)-->Taft--(-35.1 4/18)-->Choate--(56.11 4/22)-->Newton Country Day [Groton net +24.21]
 Groton--(-7.2 5/9)-->Brooks--(16.4 4/18)-->Middlesex--(15.58 5/2)-->Newton Country Day [Groton net +24.78]
+Groton--(-7.44 4/18)-->Nobles--(6.1 5/16)-->BB&N--(29.08 5/2)-->Newton Country Day [Groton net +27.74]
 Groton--(5.89 4/18)-->BB&N--(-6.6 5/9)-->St. Mark's--(29.3 4/25)-->Newton Country Day [Groton net +28.59]
 Groton--(5.89 4/18)-->BB&N--(-18.44 4/25)-->Winsor--(41.33 4/22)-->Newton Country Day [Groton net +28.78]
 Groton--(5.89 4/18)-->BB&N--(-17.8 5/9)-->Winsor--(41.33 4/22)-->Newton Country Day [Groton net +29.42]
+Groton--(-7.44 4/18)-->Nobles--(7.9 5/16)-->St. Mark's--(29.3 4/25)-->Newton Country Day [Groton net +29.76]
+Groton--(5.89 4/18)-->BB&N--(-15.0 5/16)-->Brooks--(38.9 5/9)-->Newton Country Day [Groton net +29.79]
+Groton--(5.89 4/18)-->BB&N--(-6.1 5/16)-->Nobles--(30.5 4/25)-->Newton Country Day [Groton net +30.29]
 Groton--(-7.44 4/18)-->Nobles--(13.33 4/18)-->BB&N--(29.08 5/2)-->Newton Country Day [Groton net +34.97]
 Groton--(5.89 4/18)-->BB&N--(13.5 5/2)-->Middlesex--(15.58 5/2)-->Newton Country Day [Groton net +34.97]
 Groton--(-7.2 5/9)-->Brooks--(13.0 4/18)-->St. Mark's--(29.3 4/25)-->Newton Country Day [Groton net +35.1]
+Groton--(5.89 4/18)-->BB&N--(1.8 5/16)-->St. Mark's--(29.3 4/25)-->Newton Country Day [Groton net +36.99]
 Groton--(-7.44 4/18)-->Nobles--(6.35 5/6)-->Winsor--(41.33 4/22)-->Newton Country Day [Groton net +40.24]
 Groton--(1.33 5/2)-->Cambridge RLS--(7.67 4/11)-->BB&N--(29.08 5/2)-->Newton Country Day [Groton net +38.08]

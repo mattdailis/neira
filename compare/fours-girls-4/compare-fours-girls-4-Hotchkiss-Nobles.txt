@@ -5,26 +5,44 @@ From most recent to least recent:
 2026-05-09: Nobles won by 34.93 seconds
 2026-04-25: Nobles won by 44.6 seconds
 
-There is exactly one path of length 2 between Hotchkiss and Nobles, via Hotchkiss--(11.0 5/3)-->NMH--(-35.89 5/9)-->Nobles [Nobles net +24.89]
-It favors Nobles by a cumulative margin of 24.89 seconds
-
-There are 17 paths of length 3 between Hotchkiss and Nobles
+There are 3 paths of length 2 between Hotchkiss and Nobles
 All of them favor Nobles
 From most recent to least recent:
+Hotchkiss--(11.0 5/3)-->NMH--(-35.89 5/9)-->Nobles [Nobles net +24.89]
+Hotchkiss--(-11.5 5/16)-->Hopkins--(-34.1 4/25)-->Nobles [Nobles net +45.6]
+Hotchkiss--(5.5 4/25)-->St. Mark's--(-38.4 5/16)-->Nobles [Nobles net +32.9]
+
+There are 31 paths of length 3 between Hotchkiss and Nobles
+All of them favor Nobles
+From most recent to least recent:
+Hotchkiss--(-11.5 5/16)-->Hopkins--(-11.19 5/9)-->Cambridge RLS--(-16.04 5/6)-->Nobles [Nobles net +38.73]
 Hotchkiss--(-9.6 5/3)-->Choate--(20.6 5/3)-->NMH--(-35.89 5/9)-->Nobles [Nobles net +24.89]
 Hotchkiss--(67.2 5/3)-->Frederick Gunn--(-56.2 5/3)-->NMH--(-35.89 5/9)-->Nobles [Nobles net +24.89]
 Hotchkiss--(101.1 5/3)-->Canterbury--(-90.1 5/3)-->NMH--(-35.89 5/9)-->Nobles [Nobles net +24.89]
 Hotchkiss--(5.5 4/25)-->St. Mark's--(-5.9 5/9)-->Winsor--(-70.5 5/6)-->Nobles [Nobles net +70.9]
+Hotchkiss--(-11.5 5/16)-->Hopkins--(16.0 4/25)-->St. Mark's--(-50.1 4/25)-->Nobles [Nobles net +45.6]
 Hotchkiss--(-10.5 4/25)-->Hopkins--(-11.19 5/9)-->Cambridge RLS--(-16.04 5/6)-->Nobles [Nobles net +37.73]
+Hotchkiss--(-11.5 5/16)-->Hopkins--(16.0 4/25)-->St. Mark's--(-38.4 5/16)-->Nobles [Nobles net +33.9]
+Hotchkiss--(-10.5 4/25)-->Hopkins--(16.0 4/25)-->St. Mark's--(-38.4 5/16)-->Nobles [Nobles net +32.9]
+Hotchkiss--(5.5 4/25)-->St. Mark's--(-37.8 5/16)-->Brooks--(-0.6 5/16)-->Nobles [Nobles net +32.9]
+Hotchkiss--(5.5 4/25)-->St. Mark's--(-33.6 5/16)-->BB&N--(-4.8 5/16)-->Nobles [Nobles net +32.9]
 Hotchkiss--(0.96 5/9)-->NMH--(3.1 4/25)-->Cambridge RLS--(-16.04 5/6)-->Nobles [Nobles net +11.98]
+Hotchkiss--(0.96 5/9)-->NMH--(-12.2 4/25)-->Brooks--(-0.6 5/16)-->Nobles [Nobles net +11.84]
+Hotchkiss--(5.5 4/25)-->St. Mark's--(-7.3 5/9)-->BB&N--(-4.8 5/16)-->Nobles [Nobles net +6.6]
 Hotchkiss--(11.0 5/3)-->NMH--(3.1 4/25)-->Cambridge RLS--(-16.04 5/6)-->Nobles [Nobles net +1.94]
+Hotchkiss--(11.0 5/3)-->NMH--(-12.2 4/25)-->Brooks--(-0.6 5/16)-->Nobles [Nobles net +1.8]
 Hotchkiss--(-9.6 5/3)-->Choate--(12.22 4/22)-->Winsor--(-70.5 5/6)-->Nobles [Nobles net +67.88]
+Hotchkiss--(-11.5 5/16)-->Hopkins--(4.0 4/18)-->NMH--(-35.89 5/9)-->Nobles [Nobles net +43.39]
 Hotchkiss--(-10.5 4/25)-->Hopkins--(4.0 4/18)-->NMH--(-35.89 5/9)-->Nobles [Nobles net +42.39]
+Hotchkiss--(5.5 4/25)-->St. Mark's--(-33.6 5/16)-->BB&N--(-12.89 4/18)-->Nobles [Nobles net +40.99]
 Hotchkiss--(0.96 5/9)-->NMH--(-4.0 4/18)-->Hopkins--(-34.1 4/25)-->Nobles [Nobles net +37.14]
 Hotchkiss--(11.0 5/3)-->NMH--(-4.0 4/18)-->Hopkins--(-34.1 4/25)-->Nobles [Nobles net +27.1]
 Hotchkiss--(5.5 4/25)-->St. Mark's--(-7.3 5/9)-->BB&N--(-12.89 4/18)-->Nobles [Nobles net +14.69]
 Hotchkiss--(-9.6 5/3)-->Choate--(-12.5 4/11)-->NMH--(-35.89 5/9)-->Nobles [Nobles net +57.99]
 Hotchkiss--(-9.6 5/3)-->Choate--(7.2 4/11)-->St. Mark's--(-50.1 4/25)-->Nobles [Nobles net +52.5]
 Hotchkiss--(5.5 4/25)-->St. Mark's--(-19.7 4/11)-->NMH--(-35.89 5/9)-->Nobles [Nobles net +50.09]
+Hotchkiss--(-9.6 5/3)-->Choate--(7.2 4/11)-->St. Mark's--(-38.4 5/16)-->Nobles [Nobles net +40.8]
 Hotchkiss--(0.96 5/9)-->NMH--(19.7 4/11)-->St. Mark's--(-50.1 4/25)-->Nobles [Nobles net +29.44]
 Hotchkiss--(11.0 5/3)-->NMH--(19.7 4/11)-->St. Mark's--(-50.1 4/25)-->Nobles [Nobles net +19.4]
+Hotchkiss--(0.96 5/9)-->NMH--(19.7 4/11)-->St. Mark's--(-38.4 5/16)-->Nobles [Nobles net +17.74]
+Hotchkiss--(11.0 5/3)-->NMH--(19.7 4/11)-->St. Mark's--(-38.4 5/16)-->Nobles [Nobles net +7.7]

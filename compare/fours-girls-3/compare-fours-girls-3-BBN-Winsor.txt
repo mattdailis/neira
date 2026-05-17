@@ -5,33 +5,60 @@ From most recent to least recent:
 2026-05-09: Winsor won by 5.0 seconds
 2026-04-25: Winsor won by 0.67 seconds
 
-There are 2 paths of length 2 between BB&N and Winsor
-1/2 of them favor BB&N
+There are 4 paths of length 2 between BB&N and Winsor
+3/4 of them favor BB&N
 From most recent to least recent:
+BB&N--(24.0 5/16)-->St. Mark's--(-14.2 5/9)-->Winsor [BB&N net +9.8]
+BB&N--(-4.2 5/16)-->Nobles--(24.58 5/6)-->Winsor [BB&N net +20.38]
 BB&N--(4.89 4/18)-->Nobles--(24.58 5/6)-->Winsor [BB&N net +29.47]
 BB&N--(-30.78 4/11)-->Cambridge RLS--(16.15 5/6)-->Winsor [Winsor net +14.63]
 
-There are 21 paths of length 3 between BB&N and Winsor
-15/21 of them favor BB&N
+There are 46 paths of length 3 between BB&N and Winsor
+34/46 of them favor BB&N
 From most recent to least recent:
+BB&N--(6.5 5/9)-->Taft--(2.2 5/16)-->Miss Porter's--(-14.8 5/9)-->Winsor [Winsor net +6.1]
+BB&N--(9.8 5/9)-->Miss Porter's--(-2.2 5/16)-->Taft--(-11.5 5/9)-->Winsor [Winsor net +3.9]
+BB&N--(-8.5 5/16)-->Brooks--(32.5 5/16)-->St. Mark's--(-14.2 5/9)-->Winsor [BB&N net +9.8]
+BB&N--(-4.2 5/16)-->Nobles--(28.2 5/16)-->St. Mark's--(-14.2 5/9)-->Winsor [BB&N net +9.8]
+BB&N--(24.0 5/16)-->St. Mark's--(-2.7 5/9)-->Taft--(-11.5 5/9)-->Winsor [BB&N net +9.8]
+BB&N--(24.0 5/16)-->St. Mark's--(0.6 5/9)-->Miss Porter's--(-14.8 5/9)-->Winsor [BB&N net +9.8]
+BB&N--(24.0 5/16)-->St. Mark's--(30.5 5/9)-->Pomfret--(-44.7 5/9)-->Winsor [BB&N net +9.8]
+BB&N--(24.0 5/16)-->St. Mark's--(68.3 5/9)-->Frederick Gunn--(-82.5 5/9)-->Winsor [BB&N net +9.8]
+BB&N--(9.2 5/9)-->St. Mark's--(-28.2 5/16)-->Nobles--(24.58 5/6)-->Winsor [BB&N net +5.58]
+BB&N--(-4.2 5/16)-->Nobles--(8.42 5/6)-->Cambridge RLS--(16.15 5/6)-->Winsor [BB&N net +20.37]
+BB&N--(-8.5 5/16)-->Brooks--(4.3 5/16)-->Nobles--(24.58 5/6)-->Winsor [BB&N net +20.38]
+BB&N--(24.0 5/16)-->St. Mark's--(-28.2 5/16)-->Nobles--(24.58 5/6)-->Winsor [BB&N net +20.38]
 BB&N--(39.7 5/9)-->Pomfret--(-71.8 5/3)-->Taft--(-11.5 5/9)-->Winsor [Winsor net +43.6]
 BB&N--(6.5 5/9)-->Taft--(71.8 5/3)-->Pomfret--(-44.7 5/9)-->Winsor [BB&N net +33.6]
 BB&N--(-5.33 4/25)-->Greenwich Academy--(-8.2 5/3)-->Miss Porter's--(-14.8 5/9)-->Winsor [Winsor net +28.33]
 BB&N--(39.7 5/9)-->Pomfret--(-42.7 4/25)-->Taft--(-11.5 5/9)-->Winsor [Winsor net +14.5]
+BB&N--(-5.33 4/25)-->Greenwich Academy--(6.7 5/16)-->Miss Porter's--(-14.8 5/9)-->Winsor [Winsor net +13.43]
+BB&N--(-5.33 4/25)-->Greenwich Academy--(4.5 5/16)-->Taft--(-11.5 5/9)-->Winsor [Winsor net +12.33]
+BB&N--(-4.2 5/16)-->Nobles--(13.9 4/25)-->St. Mark's--(-14.2 5/9)-->Winsor [Winsor net +4.5]
 BB&N--(6.5 5/9)-->Taft--(42.7 4/25)-->Pomfret--(-44.7 5/9)-->Winsor [BB&N net +4.5]
+BB&N--(6.5 5/9)-->Taft--(-4.5 5/16)-->Greenwich Academy--(4.67 4/25)-->Winsor [BB&N net +6.67]
+BB&N--(9.8 5/9)-->Miss Porter's--(-6.7 5/16)-->Greenwich Academy--(4.67 4/25)-->Winsor [BB&N net +7.77]
+BB&N--(-8.5 5/16)-->Brooks--(8.0 4/25)-->Cambridge RLS--(16.15 5/6)-->Winsor [BB&N net +15.65]
 BB&N--(9.2 5/9)-->St. Mark's--(-13.9 4/25)-->Nobles--(24.58 5/6)-->Winsor [BB&N net +19.88]
 BB&N--(9.8 5/9)-->Miss Porter's--(8.2 5/3)-->Greenwich Academy--(4.67 4/25)-->Winsor [BB&N net +22.67]
 BB&N--(4.62 5/2)-->Middlesex--(5.8 4/25)-->Cambridge RLS--(16.15 5/6)-->Winsor [BB&N net +26.57]
+BB&N--(24.0 5/16)-->St. Mark's--(-13.9 4/25)-->Nobles--(24.58 5/6)-->Winsor [BB&N net +34.68]
 BB&N--(39.7 5/9)-->Pomfret--(-62.9 5/3)-->Choate--(31.33 4/22)-->Winsor [BB&N net +8.13]
 BB&N--(4.62 5/2)-->Middlesex--(-22.2 5/9)-->Choate--(31.33 4/22)-->Winsor [BB&N net +13.75]
+BB&N--(-5.33 4/25)-->Greenwich Academy--(-6.8 5/16)-->Choate--(31.33 4/22)-->Winsor [BB&N net +19.2]
+BB&N--(6.5 5/9)-->Taft--(-11.3 5/16)-->Choate--(31.33 4/22)-->Winsor [BB&N net +26.53]
+BB&N--(9.8 5/9)-->Miss Porter's--(-13.5 5/16)-->Choate--(31.33 4/22)-->Winsor [BB&N net +27.63]
 BB&N--(6.5 5/9)-->Taft--(8.9 5/3)-->Choate--(31.33 4/22)-->Winsor [BB&N net +46.73]
 BB&N--(4.62 5/2)-->Middlesex--(3.6 4/18)-->St. Mark's--(-14.2 5/9)-->Winsor [Winsor net +5.98]
 BB&N--(12.22 4/18)-->Groton--(-3.8 4/25)-->Taft--(-11.5 5/9)-->Winsor [Winsor net +3.08]
+BB&N--(-8.5 5/16)-->Brooks--(20.3 4/18)-->St. Mark's--(-14.2 5/9)-->Winsor [Winsor net +2.4]
 BB&N--(4.89 4/18)-->Nobles--(13.9 4/25)-->St. Mark's--(-14.2 5/9)-->Winsor [BB&N net +4.59]
 BB&N--(12.22 4/18)-->Groton--(-23.47 5/2)-->Cambridge RLS--(16.15 5/6)-->Winsor [BB&N net +4.9]
 BB&N--(12.22 4/18)-->Groton--(38.9 4/25)-->Pomfret--(-44.7 5/9)-->Winsor [BB&N net +6.42]
+BB&N--(4.89 4/18)-->Nobles--(28.2 5/16)-->St. Mark's--(-14.2 5/9)-->Winsor [BB&N net +18.89]
 BB&N--(6.5 5/9)-->Taft--(-18.4 4/18)-->Choate--(31.33 4/22)-->Winsor [BB&N net +19.43]
 BB&N--(4.89 4/18)-->Nobles--(8.42 5/6)-->Cambridge RLS--(16.15 5/6)-->Winsor [BB&N net +29.46]
 BB&N--(12.22 4/18)-->Groton--(-7.33 4/18)-->Nobles--(24.58 5/6)-->Winsor [BB&N net +29.47]
 BB&N--(-30.78 4/11)-->Cambridge RLS--(-8.42 5/6)-->Nobles--(24.58 5/6)-->Winsor [Winsor net +14.62]
 BB&N--(9.2 5/9)-->St. Mark's--(-4.2 4/11)-->Choate--(31.33 4/22)-->Winsor [BB&N net +36.33]
+BB&N--(24.0 5/16)-->St. Mark's--(-4.2 4/11)-->Choate--(31.33 4/22)-->Winsor [BB&N net +51.13]

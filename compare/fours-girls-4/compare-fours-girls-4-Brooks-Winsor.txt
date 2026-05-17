@@ -1,17 +1,42 @@
 Brooks and Winsor have never raced head to head
 
-There is exactly one path of length 2 between Brooks and Winsor, via Brooks--(15.3 4/25)-->Cambridge RLS--(54.46 5/6)-->Winsor [Brooks net +69.76]
-It favors Brooks by a cumulative margin of 69.76 seconds
-
-There are 22 paths of length 3 between Brooks and Winsor
-21/22 of them favor Brooks
+There are 5 paths of length 2 between Brooks and Winsor
+All of them favor Brooks
 From most recent to least recent:
+Brooks--(4.2 5/16)-->BB&N--(1.4 5/9)-->Winsor [Brooks net +5.6]
+Brooks--(37.8 5/16)-->St. Mark's--(-5.9 5/9)-->Winsor [Brooks net +31.9]
+Brooks--(-0.6 5/16)-->Nobles--(70.5 5/6)-->Winsor [Brooks net +69.9]
+Brooks--(4.2 5/16)-->BB&N--(26.78 4/25)-->Winsor [Brooks net +30.98]
+Brooks--(15.3 4/25)-->Cambridge RLS--(54.46 5/6)-->Winsor [Brooks net +69.76]
+
+There are 46 paths of length 3 between Brooks and Winsor
+45/46 of them favor Brooks
+From most recent to least recent:
+Brooks--(-0.6 5/16)-->Nobles--(4.8 5/16)-->BB&N--(1.4 5/9)-->Winsor [Brooks net +5.6]
+Brooks--(4.2 5/16)-->BB&N--(7.3 5/9)-->St. Mark's--(-5.9 5/9)-->Winsor [Brooks net +5.6]
+Brooks--(4.2 5/16)-->BB&N--(13.7 5/9)-->Taft--(-12.3 5/9)-->Winsor [Brooks net +5.6]
+Brooks--(4.2 5/16)-->BB&N--(71.0 5/9)-->Pomfret--(-69.6 5/9)-->Winsor [Brooks net +5.6]
+Brooks--(37.8 5/16)-->St. Mark's--(-33.6 5/16)-->BB&N--(1.4 5/9)-->Winsor [Brooks net +5.6]
+Brooks--(-0.6 5/16)-->Nobles--(38.4 5/16)-->St. Mark's--(-5.9 5/9)-->Winsor [Brooks net +31.9]
+Brooks--(4.2 5/16)-->BB&N--(33.6 5/16)-->St. Mark's--(-5.9 5/9)-->Winsor [Brooks net +31.9]
+Brooks--(37.8 5/16)-->St. Mark's--(-7.3 5/9)-->BB&N--(1.4 5/9)-->Winsor [Brooks net +31.9]
+Brooks--(37.8 5/16)-->St. Mark's--(6.4 5/9)-->Taft--(-12.3 5/9)-->Winsor [Brooks net +31.9]
+Brooks--(37.8 5/16)-->St. Mark's--(63.7 5/9)-->Pomfret--(-69.6 5/9)-->Winsor [Brooks net +31.9]
+Brooks--(-0.6 5/16)-->Nobles--(16.04 5/6)-->Cambridge RLS--(54.46 5/6)-->Winsor [Brooks net +69.9]
+Brooks--(4.2 5/16)-->BB&N--(-4.8 5/16)-->Nobles--(70.5 5/6)-->Winsor [Brooks net +69.9]
+Brooks--(37.8 5/16)-->St. Mark's--(-38.4 5/16)-->Nobles--(70.5 5/6)-->Winsor [Brooks net +69.9]
 Brooks--(20.9 5/9)-->Groton--(-12.1 5/2)-->Cambridge RLS--(54.46 5/6)-->Winsor [Brooks net +63.26]
 Brooks--(20.9 5/9)-->Groton--(-13.5 4/25)-->Taft--(-12.3 5/9)-->Winsor [Winsor net +4.9]
 Brooks--(23.0 4/25)-->Middlesex--(-16.73 5/2)-->BB&N--(1.4 5/9)-->Winsor [Brooks net +7.67]
 Brooks--(20.9 5/9)-->Groton--(70.3 4/25)-->Pomfret--(-69.6 5/9)-->Winsor [Brooks net +21.6]
+Brooks--(-0.6 5/16)-->Nobles--(4.8 5/16)-->BB&N--(26.78 4/25)-->Winsor [Brooks net +30.98]
+Brooks--(4.2 5/16)-->BB&N--(7.78 4/25)-->Greenwich Academy--(19.0 4/25)-->Winsor [Brooks net +30.98]
+Brooks--(37.8 5/16)-->St. Mark's--(-33.6 5/16)-->BB&N--(26.78 4/25)-->Winsor [Brooks net +30.98]
 Brooks--(23.0 4/25)-->Middlesex--(-16.73 5/2)-->BB&N--(26.78 4/25)-->Winsor [Brooks net +33.05]
+Brooks--(-0.6 5/16)-->Nobles--(50.1 4/25)-->St. Mark's--(-5.9 5/9)-->Winsor [Brooks net +43.6]
 Brooks--(12.2 4/25)-->NMH--(-35.89 5/9)-->Nobles--(70.5 5/6)-->Winsor [Brooks net +46.81]
+Brooks--(37.8 5/16)-->St. Mark's--(-7.3 5/9)-->BB&N--(26.78 4/25)-->Winsor [Brooks net +57.28]
+Brooks--(37.8 5/16)-->St. Mark's--(-50.1 4/25)-->Nobles--(70.5 5/6)-->Winsor [Brooks net +58.2]
 Brooks--(12.2 4/25)-->NMH--(3.1 4/25)-->Cambridge RLS--(54.46 5/6)-->Winsor [Brooks net +69.76]
 Brooks--(15.3 4/25)-->Cambridge RLS--(-16.04 5/6)-->Nobles--(70.5 5/6)-->Winsor [Brooks net +69.76]
 Brooks--(23.0 4/25)-->Middlesex--(-7.7 4/25)-->Cambridge RLS--(54.46 5/6)-->Winsor [Brooks net +69.76]
@@ -19,12 +44,17 @@ Brooks--(12.2 4/25)-->NMH--(-20.6 5/3)-->Choate--(12.22 4/22)-->Winsor [Brooks n
 Brooks--(23.0 4/25)-->Middlesex--(-15.6 5/9)-->Choate--(12.22 4/22)-->Winsor [Brooks net +19.62]
 Brooks--(19.4 4/18)-->Middlesex--(-16.73 5/2)-->BB&N--(1.4 5/9)-->Winsor [Brooks net +4.07]
 Brooks--(20.9 5/9)-->Groton--(-10.67 4/18)-->BB&N--(1.4 5/9)-->Winsor [Brooks net +11.63]
+Brooks--(-0.6 5/16)-->Nobles--(12.89 4/18)-->BB&N--(1.4 5/9)-->Winsor [Brooks net +13.69]
 Brooks--(19.4 4/18)-->Middlesex--(-15.6 5/9)-->Choate--(12.22 4/22)-->Winsor [Brooks net +16.02]
 Brooks--(19.4 4/18)-->Middlesex--(-16.73 5/2)-->BB&N--(26.78 4/25)-->Winsor [Brooks net +29.45]
 Brooks--(20.9 5/9)-->Groton--(-10.67 4/18)-->BB&N--(26.78 4/25)-->Winsor [Brooks net +37.01]
+Brooks--(-0.6 5/16)-->Nobles--(12.89 4/18)-->BB&N--(26.78 4/25)-->Winsor [Brooks net +39.07]
+Brooks--(4.2 5/16)-->BB&N--(-12.89 4/18)-->Nobles--(70.5 5/6)-->Winsor [Brooks net +61.81]
 Brooks--(19.4 4/18)-->Middlesex--(-7.7 4/25)-->Cambridge RLS--(54.46 5/6)-->Winsor [Brooks net +66.16]
 Brooks--(20.9 5/9)-->Groton--(-23.56 4/18)-->Nobles--(70.5 5/6)-->Winsor [Brooks net +67.84]
 Brooks--(15.3 4/25)-->Cambridge RLS--(-8.56 4/11)-->BB&N--(1.4 5/9)-->Winsor [Brooks net +8.14]
 Brooks--(12.2 4/25)-->NMH--(19.7 4/11)-->St. Mark's--(-5.9 5/9)-->Winsor [Brooks net +26.0]
 Brooks--(15.3 4/25)-->Cambridge RLS--(-8.56 4/11)-->BB&N--(26.78 4/25)-->Winsor [Brooks net +33.52]
 Brooks--(12.2 4/25)-->NMH--(12.5 4/11)-->Choate--(12.22 4/22)-->Winsor [Brooks net +36.92]
+Brooks--(37.8 5/16)-->St. Mark's--(-7.2 4/11)-->Choate--(12.22 4/22)-->Winsor [Brooks net +42.82]
+Brooks--(4.2 5/16)-->BB&N--(8.56 4/11)-->Cambridge RLS--(54.46 5/6)-->Winsor [Brooks net +67.22]

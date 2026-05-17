@@ -6,19 +6,33 @@ From most recent to least recent:
 2026-05-03: Taft won by 28.3 seconds
 2026-04-25: Taft won by 26.2 seconds
 
-There are 3 paths of length 2 between Pomfret and Taft
+There are 5 paths of length 2 between Pomfret and Taft
 All of them favor Taft
 From most recent to least recent:
+Pomfret--(-23.4 5/9)-->Miss Porter's--(-3.7 5/16)-->Taft [Taft net +27.1]
+Pomfret--(-39.0 4/22)-->Berkshire Academy--(9.8 5/16)-->Taft [Taft net +29.2]
 Pomfret--(-38.0 4/18)-->NMH--(5.7 5/3)-->Taft [Taft net +32.3]
 Pomfret--(-15.5 4/18)-->Hopkins--(-10.7 5/3)-->Taft [Taft net +26.2]
 Pomfret--(-39.0 4/22)-->Berkshire Academy--(28.9 4/18)-->Taft [Taft net +10.1]
 
-There are 44 paths of length 3 between Pomfret and Taft
-42/44 of them favor Taft
+There are 73 paths of length 3 between Pomfret and Taft
+69/73 of them favor Taft
 From most recent to least recent:
+Pomfret--(-37.1 5/9)-->St. Mark's--(-1.8 5/16)-->BB&N--(-7.7 5/9)-->Taft [Taft net +46.6]
+Pomfret--(-30.5 5/9)-->BB&N--(1.8 5/16)-->St. Mark's--(-1.1 5/9)-->Taft [Taft net +29.8]
+Pomfret--(-48.3 5/9)-->Winsor--(24.9 5/9)-->Miss Porter's--(-3.7 5/16)-->Taft [Taft net +27.1]
+Pomfret--(-37.1 5/9)-->St. Mark's--(13.7 5/9)-->Miss Porter's--(-3.7 5/16)-->Taft [Taft net +27.1]
+Pomfret--(-30.5 5/9)-->BB&N--(7.1 5/9)-->Miss Porter's--(-3.7 5/16)-->Taft [Taft net +27.1]
+Pomfret--(-23.4 5/9)-->Miss Porter's--(-13.5 5/16)-->Berkshire Academy--(9.8 5/16)-->Taft [Taft net +27.1]
+Pomfret--(-23.4 5/9)-->Miss Porter's--(6.0 5/16)-->Greenwich Academy--(-9.7 5/16)-->Taft [Taft net +27.1]
+Pomfret--(-23.4 5/9)-->Miss Porter's--(-8.0 5/16)-->Choate--(4.4 5/16)-->Taft [Taft net +27.0]
+Pomfret--(-35.9 5/3)-->Hotchkiss--(11.1 5/16)-->Hopkins--(-10.7 5/3)-->Taft [Taft net +35.5]
 Pomfret--(-35.9 5/3)-->Hotchkiss--(0.43 5/9)-->NMH--(5.7 5/3)-->Taft [Taft net +29.77]
 Pomfret--(-34.0 5/3)-->NMH--(-0.43 5/9)-->Hotchkiss--(7.7 5/3)-->Taft [Taft net +26.73]
+Pomfret--(-17.5 5/3)-->Hopkins--(-11.1 5/16)-->Hotchkiss--(7.7 5/3)-->Taft [Taft net +20.9]
 Pomfret--(-17.5 5/3)-->Hopkins--(28.15 5/9)-->Dexter-Southfield--(-68.5 4/25)-->Taft [Taft net +57.85]
+Pomfret--(-30.5 5/9)-->BB&N--(-11.33 4/25)-->Greenwich Academy--(-9.7 5/16)-->Taft [Taft net +51.53]
+Pomfret--(-48.3 5/9)-->Winsor--(7.11 4/25)-->Greenwich Academy--(-9.7 5/16)-->Taft [Taft net +50.89]
 Pomfret--(-17.5 5/3)-->Hopkins--(-31.5 4/25)-->St. Mark's--(-1.1 5/9)-->Taft [Taft net +50.1]
 Pomfret--(-35.9 5/3)-->Hotchkiss--(-7.8 4/25)-->St. Mark's--(-1.1 5/9)-->Taft [Taft net +44.8]
 Pomfret--(-30.5 5/9)-->BB&N--(-18.44 4/25)-->Winsor--(10.1 5/9)-->Taft [Taft net +38.84]
@@ -28,10 +42,19 @@ Pomfret--(-35.9 5/3)-->Hotchkiss--(23.7 4/25)-->Hopkins--(-10.7 5/3)-->Taft [Taf
 Pomfret--(-37.1 5/9)-->St. Mark's--(7.8 4/25)-->Hotchkiss--(7.7 5/3)-->Taft [Taft net +21.6]
 Pomfret--(-37.1 5/9)-->St. Mark's--(31.5 4/25)-->Hopkins--(-10.7 5/3)-->Taft [Taft net +16.3]
 Pomfret--(42.3 4/25)-->Dexter-Southfield--(-28.15 5/9)-->Hopkins--(-10.7 5/3)-->Taft [Pomfret net +3.45]
+Pomfret--(-48.3 5/9)-->Winsor--(-14.78 4/22)-->Choate--(4.4 5/16)-->Taft [Taft net +58.68]
+Pomfret--(-39.0 4/22)-->Berkshire Academy--(13.5 5/16)-->Miss Porter's--(-14.8 5/9)-->Taft [Taft net +40.3]
+Pomfret--(-39.0 4/22)-->Berkshire Academy--(12.46 5/9)-->Greenwich Academy--(-9.7 5/16)-->Taft [Taft net +36.24]
+Pomfret--(-39.0 4/22)-->Berkshire Academy--(13.5 5/16)-->Miss Porter's--(-3.7 5/16)-->Taft [Taft net +29.2]
+Pomfret--(-39.0 4/22)-->Berkshire Academy--(19.5 5/16)-->Greenwich Academy--(-9.7 5/16)-->Taft [Taft net +29.2]
+Pomfret--(17.6 4/22)-->Middletown--(-56.6 4/22)-->Berkshire Academy--(9.8 5/16)-->Taft [Taft net +29.2]
+Pomfret--(-39.0 4/22)-->Berkshire Academy--(5.5 5/16)-->Choate--(4.4 5/16)-->Taft [Taft net +29.1]
 Pomfret--(-37.1 5/9)-->St. Mark's--(30.3 4/18)-->Brewster Academy--(-148.2 5/3)-->Taft [Taft net +155.0]
+Pomfret--(46.3 4/18)-->St. Mary's-Lynn--(-19.9 5/16)-->Brewster Academy--(-148.2 5/3)-->Taft [Taft net +121.8]
 Pomfret--(46.3 4/18)-->St. Mary's-Lynn--(-15.1 5/6)-->Brewster Academy--(-148.2 5/3)-->Taft [Taft net +117.0]
 Pomfret--(-15.5 4/18)-->Hopkins--(28.15 5/9)-->Dexter-Southfield--(-68.5 4/25)-->Taft [Taft net +55.85]
 Pomfret--(-15.5 4/18)-->Hopkins--(-31.5 4/25)-->St. Mark's--(-1.1 5/9)-->Taft [Taft net +48.1]
+Pomfret--(-39.0 4/22)-->Berkshire Academy--(-6.2 4/18)-->Choate--(4.4 5/16)-->Taft [Taft net +40.8]
 Pomfret--(-17.5 5/3)-->Hopkins--(-22.5 4/18)-->NMH--(5.7 5/3)-->Taft [Taft net +34.3]
 Pomfret--(-30.5 5/9)-->BB&N--(-5.89 4/18)-->Groton--(3.2 4/25)-->Taft [Taft net +33.19]
 Pomfret--(-38.0 4/18)-->NMH--(-2.0 5/3)-->Hotchkiss--(7.7 5/3)-->Taft [Taft net +32.3]
@@ -49,11 +72,19 @@ Pomfret--(-15.5 4/18)-->Hopkins--(-16.4 5/3)-->NMH--(5.7 5/3)-->Taft [Taft net +
 Pomfret--(-15.5 4/18)-->Hopkins--(137.5 5/3)-->Brewster Academy--(-148.2 5/3)-->Taft [Taft net +26.2]
 Pomfret--(46.3 4/18)-->St. Mary's-Lynn--(-61.8 4/18)-->Hopkins--(-10.7 5/3)-->Taft [Taft net +26.2]
 Pomfret--(-34.0 5/3)-->NMH--(22.5 4/18)-->Hopkins--(-10.7 5/3)-->Taft [Taft net +22.2]
+Pomfret--(-15.5 4/18)-->Hopkins--(-11.1 5/16)-->Hotchkiss--(7.7 5/3)-->Taft [Taft net +18.9]
 Pomfret--(-39.0 4/22)-->Berkshire Academy--(-6.2 4/18)-->Choate--(35.1 4/18)-->Taft [Taft net +10.1]
 Pomfret--(17.6 4/22)-->Middletown--(-56.6 4/22)-->Berkshire Academy--(28.9 4/18)-->Taft [Taft net +10.1]
+Pomfret--(-23.4 5/9)-->Miss Porter's--(-13.5 5/16)-->Berkshire Academy--(28.9 4/18)-->Taft [Taft net +8.0]
+Pomfret--(-39.0 4/22)-->Berkshire Academy--(5.5 5/16)-->Choate--(35.1 4/18)-->Taft [Pomfret net +1.6]
+Pomfret--(-23.4 5/9)-->Miss Porter's--(-8.0 5/16)-->Choate--(35.1 4/18)-->Taft [Pomfret net +3.7]
 Pomfret--(119.9 5/3)-->Brewster Academy--(-30.3 4/18)-->St. Mark's--(-1.1 5/9)-->Taft [Pomfret net +88.5]
+Pomfret--(-35.9 5/3)-->Hotchkiss--(-13.2 4/15)-->Berkshire Academy--(9.8 5/16)-->Taft [Taft net +39.3]
 Pomfret--(-35.9 5/3)-->Hotchkiss--(-13.2 4/15)-->Berkshire Academy--(28.9 4/18)-->Taft [Taft net +20.2]
 Pomfret--(-39.0 4/22)-->Berkshire Academy--(13.2 4/15)-->Hotchkiss--(7.7 5/3)-->Taft [Taft net +18.1]
+Pomfret--(-37.1 5/9)-->St. Mark's--(-21.3 4/11)-->Choate--(4.4 5/16)-->Taft [Taft net +54.0]
+Pomfret--(-38.0 4/18)-->NMH--(-20.1 4/11)-->Choate--(4.4 5/16)-->Taft [Taft net +53.7]
+Pomfret--(-34.0 5/3)-->NMH--(-20.1 4/11)-->Choate--(4.4 5/16)-->Taft [Taft net +49.7]
 Pomfret--(-38.0 4/18)-->NMH--(1.2 4/11)-->St. Mark's--(-1.1 5/9)-->Taft [Taft net +37.9]
 Pomfret--(-34.0 5/3)-->NMH--(1.2 4/11)-->St. Mark's--(-1.1 5/9)-->Taft [Taft net +33.9]
 Pomfret--(-37.1 5/9)-->St. Mark's--(-1.2 4/11)-->NMH--(5.7 5/3)-->Taft [Taft net +32.6]

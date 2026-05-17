@@ -8,11 +8,15 @@ Groton--(-12.3 5/9)-->Brooks--(15.3 4/25)-->NMH [Groton net +3.0]
 Groton--(20.4 4/25)-->Pomfret--(-17.4 4/18)-->NMH [Groton net +3.0]
 Groton--(-10.11 4/18)-->Nobles--(14.04 5/9)-->NMH [Groton net +3.93]
 
-There are 50 paths of length 3 between Groton and NMH
-33/50 of them favor Groton
+There are 61 paths of length 3 between Groton and NMH
+39/61 of them favor Groton
 From most recent to least recent:
+Groton--(-12.3 5/9)-->Brooks--(-3.4 5/16)-->Nobles--(14.04 5/9)-->NMH [NMH net +1.66]
 Groton--(-5.69 5/2)-->Cambridge RLS--(-6.69 5/6)-->Nobles--(14.04 5/9)-->NMH [Groton net +1.66]
+Groton--(2.1 4/25)-->Taft--(-3.9 5/16)-->Choate--(-10.7 5/3)-->NMH [NMH net +12.5]
 Groton--(27.2 5/9)-->Newton Country Day--(-26.77 5/2)-->Middlesex--(-8.4 4/25)-->NMH [NMH net +7.97]
+Groton--(2.1 4/25)-->Taft--(11.7 5/16)-->Greenwich Academy--(-17.6 5/3)-->NMH [NMH net +3.8]
+Groton--(2.1 4/25)-->Taft--(-0.5 5/16)-->Berkshire Academy--(-1.9 5/3)-->NMH [NMH net +0.3]
 Groton--(20.4 4/25)-->Pomfret--(-22.6 5/3)-->Hotchkiss--(2.36 5/9)-->NMH [Groton net +0.16]
 Groton--(-5.69 5/2)-->Cambridge RLS--(-8.4 4/25)-->Brooks--(15.3 4/25)-->NMH [Groton net +1.21]
 Groton--(-5.69 5/2)-->Cambridge RLS--(15.3 4/25)-->Middlesex--(-8.4 4/25)-->NMH [Groton net +1.21]
@@ -36,6 +40,7 @@ Groton--(20.4 4/25)-->Pomfret--(0.3 5/3)-->Hopkins--(-22.7 4/18)-->NMH [NMH net 
 Groton--(21.2 4/25)-->Dexter-Southfield--(-35.1 4/18)-->Brooks--(15.3 4/25)-->NMH [Groton net +1.4]
 Groton--(2.1 4/25)-->Taft--(1.3 4/18)-->Berkshire Academy--(-1.9 5/3)-->NMH [Groton net +1.5]
 Groton--(14.56 4/18)-->BB&N--(4.8 5/9)-->Pomfret--(-17.4 4/18)-->NMH [Groton net +1.96]
+Groton--(14.56 4/18)-->BB&N--(-25.8 5/16)-->Nobles--(14.04 5/9)-->NMH [Groton net +2.8]
 Groton--(2.1 4/25)-->Taft--(18.3 4/25)-->Pomfret--(-17.4 4/18)-->NMH [Groton net +3.0]
 Groton--(20.4 4/25)-->Pomfret--(5.3 4/18)-->Hopkins--(-22.7 4/18)-->NMH [Groton net +3.0]
 Groton--(20.4 4/25)-->Pomfret--(40.4 4/18)-->St. Mary's-Lynn--(-57.8 4/18)-->NMH [Groton net +3.0]
@@ -48,6 +53,8 @@ Groton--(-10.11 4/18)-->Nobles--(12.9 4/25)-->Hotchkiss--(2.36 5/9)-->NMH [Groto
 Groton--(27.2 5/9)-->Newton Country Day--(0.7 4/25)-->Hopkins--(-22.7 4/18)-->NMH [Groton net +5.2]
 Groton--(21.2 4/25)-->Dexter-Southfield--(-7.4 4/18)-->Middlesex--(-8.4 4/25)-->NMH [Groton net +5.4]
 Groton--(-12.3 5/9)-->Brooks--(27.7 4/18)-->Middlesex--(-8.4 4/25)-->NMH [Groton net +7.0]
+Groton--(14.56 4/18)-->BB&N--(-22.4 5/16)-->Brooks--(15.3 4/25)-->NMH [Groton net +7.46]
+Groton--(-10.11 4/18)-->Nobles--(3.4 5/16)-->Brooks--(15.3 4/25)-->NMH [Groton net +8.59]
 Groton--(2.1 4/25)-->Taft--(24.3 5/9)-->Pomfret--(-17.4 4/18)-->NMH [Groton net +9.0]
 Groton--(2.1 4/25)-->Taft--(29.8 5/3)-->Hopkins--(-22.7 4/18)-->NMH [Groton net +9.2]
 Groton--(2.1 4/25)-->Taft--(29.4 5/3)-->Pomfret--(-17.4 4/18)-->NMH [Groton net +14.1]
@@ -57,7 +64,11 @@ Groton--(20.4 4/25)-->Pomfret--(-30.9 5/9)-->St. Mark's--(5.3 4/11)-->NMH [NMH n
 Groton--(21.2 4/25)-->Dexter-Southfield--(-30.8 4/18)-->St. Mark's--(5.3 4/11)-->NMH [NMH net +4.3]
 Groton--(-10.11 4/18)-->Nobles--(1.2 4/25)-->St. Mark's--(5.3 4/11)-->NMH [NMH net +3.61]
 Groton--(-12.3 5/9)-->Brooks--(4.3 4/18)-->St. Mark's--(5.3 4/11)-->NMH [NMH net +2.7]
+Groton--(-12.3 5/9)-->Brooks--(5.0 5/16)-->St. Mark's--(5.3 4/11)-->NMH [NMH net +2.0]
 Groton--(27.2 5/9)-->Newton Country Day--(-34.3 4/25)-->St. Mark's--(5.3 4/11)-->NMH [NMH net +1.8]
 Groton--(2.1 4/25)-->Taft--(-6.6 5/9)-->St. Mark's--(5.3 4/11)-->NMH [Groton net +0.8]
+Groton--(14.56 4/18)-->BB&N--(-17.4 5/16)-->St. Mark's--(5.3 4/11)-->NMH [Groton net +2.46]
+Groton--(2.1 4/25)-->Taft--(-3.9 5/16)-->Choate--(4.4 4/11)-->NMH [Groton net +2.6]
 Groton--(14.56 4/18)-->BB&N--(-18.22 4/11)-->Cambridge RLS--(6.9 4/25)-->NMH [Groton net +3.24]
+Groton--(-10.11 4/18)-->Nobles--(8.4 5/16)-->St. Mark's--(5.3 4/11)-->NMH [Groton net +3.59]
 Groton--(2.1 4/25)-->Taft--(0.6 4/18)-->Choate--(4.4 4/11)-->NMH [Groton net +7.1]

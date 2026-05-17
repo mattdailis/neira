@@ -1,25 +1,43 @@
 Brooks and Cambridge RLS have raced head to head once on 2026-04-25
 Brooks won the race by 8.4 seconds
 
-There are 3 paths of length 2 between Brooks and Cambridge RLS
+There are 5 paths of length 2 between Brooks and Cambridge RLS
 All of them favor Brooks
 From most recent to least recent:
+Brooks--(-3.4 5/16)-->Nobles--(6.69 5/6)-->Cambridge RLS [Brooks net +3.29]
 Brooks--(12.3 5/9)-->Groton--(-5.69 5/2)-->Cambridge RLS [Brooks net +6.61]
 Brooks--(27.7 4/18)-->Middlesex--(-15.3 4/25)-->Cambridge RLS [Brooks net +12.4]
 Brooks--(35.1 4/18)-->Dexter-Southfield--(-22.04 5/9)-->Cambridge RLS [Brooks net +13.06]
+Brooks--(22.4 5/16)-->BB&N--(-18.22 4/11)-->Cambridge RLS [Brooks net +4.18]
 
-There are 29 paths of length 3 between Brooks and Cambridge RLS
-25/29 of them favor Brooks
+There are 53 paths of length 3 between Brooks and Cambridge RLS
+45/53 of them favor Brooks
 From most recent to least recent:
+Brooks--(39.5 5/9)-->Newton Country Day--(3.96 5/16)-->Dexter-Southfield--(-22.04 5/9)-->Cambridge RLS [Brooks net +21.42]
+Brooks--(22.4 5/16)-->BB&N--(-16.6 5/9)-->Winsor--(-18.23 5/6)-->Cambridge RLS [Cambridge RLS net +12.43]
+Brooks--(5.0 5/16)-->St. Mark's--(9.5 5/9)-->Winsor--(-18.23 5/6)-->Cambridge RLS [Cambridge RLS net +3.73]
+Brooks--(-3.4 5/16)-->Nobles--(24.92 5/6)-->Winsor--(-18.23 5/6)-->Cambridge RLS [Brooks net +3.29]
+Brooks--(5.0 5/16)-->St. Mark's--(-8.4 5/16)-->Nobles--(6.69 5/6)-->Cambridge RLS [Brooks net +3.29]
+Brooks--(22.4 5/16)-->BB&N--(-25.8 5/16)-->Nobles--(6.69 5/6)-->Cambridge RLS [Brooks net +3.29]
 Brooks--(39.5 5/9)-->Newton Country Day--(-27.2 5/9)-->Groton--(-5.69 5/2)-->Cambridge RLS [Brooks net +6.61]
+Brooks--(22.4 5/16)-->BB&N--(-16.73 5/2)-->Middlesex--(-15.3 4/25)-->Cambridge RLS [Cambridge RLS net +9.63]
+Brooks--(22.4 5/16)-->BB&N--(-10.0 4/25)-->Winsor--(-18.23 5/6)-->Cambridge RLS [Cambridge RLS net +5.83]
 Brooks--(39.5 5/9)-->Newton Country Day--(-26.77 5/2)-->Middlesex--(-15.3 4/25)-->Cambridge RLS [Cambridge RLS net +2.57]
+Brooks--(-3.4 5/16)-->Nobles--(14.04 5/9)-->NMH--(-6.9 4/25)-->Cambridge RLS [Brooks net +3.74]
 Brooks--(15.3 4/25)-->NMH--(-14.04 5/9)-->Nobles--(6.69 5/6)-->Cambridge RLS [Brooks net +7.95]
+Brooks--(5.0 5/16)-->St. Mark's--(-1.2 4/25)-->Nobles--(6.69 5/6)-->Cambridge RLS [Brooks net +10.49]
 Brooks--(39.5 5/9)-->Newton Country Day--(-35.5 4/25)-->Nobles--(6.69 5/6)-->Cambridge RLS [Brooks net +10.69]
 Brooks--(12.3 5/9)-->Groton--(21.2 4/25)-->Dexter-Southfield--(-22.04 5/9)-->Cambridge RLS [Brooks net +11.46]
+Brooks--(-3.4 5/16)-->Nobles--(36.2 4/25)-->Hopkins--(-20.42 5/9)-->Cambridge RLS [Brooks net +12.38]
+Brooks--(5.0 5/16)-->St. Mark's--(35.0 4/25)-->Hopkins--(-20.42 5/9)-->Cambridge RLS [Brooks net +19.58]
 Brooks--(39.5 5/9)-->Newton Country Day--(0.7 4/25)-->Hopkins--(-20.42 5/9)-->Cambridge RLS [Brooks net +19.78]
 Brooks--(39.5 5/9)-->Newton Country Day--(-33.22 4/22)-->Winsor--(-18.23 5/6)-->Cambridge RLS [Cambridge RLS net +11.95]
 Brooks--(52.6 4/18)-->Brewster Academy--(-50.2 5/3)-->NMH--(-6.9 4/25)-->Cambridge RLS [Cambridge RLS net +4.5]
 Brooks--(4.3 4/18)-->St. Mark's--(9.5 5/9)-->Winsor--(-18.23 5/6)-->Cambridge RLS [Cambridge RLS net +4.43]
+Brooks--(-3.4 5/16)-->Nobles--(10.11 4/18)-->Groton--(-5.69 5/2)-->Cambridge RLS [Brooks net +1.02]
+Brooks--(22.4 5/16)-->BB&N--(-14.56 4/18)-->Groton--(-5.69 5/2)-->Cambridge RLS [Brooks net +2.15]
+Brooks--(4.3 4/18)-->St. Mark's--(-8.4 5/16)-->Nobles--(6.69 5/6)-->Cambridge RLS [Brooks net +2.59]
+Brooks--(22.4 5/16)-->BB&N--(-24.67 4/18)-->Nobles--(6.69 5/6)-->Cambridge RLS [Brooks net +4.42]
 Brooks--(35.1 4/18)-->Dexter-Southfield--(-21.2 4/25)-->Groton--(-5.69 5/2)-->Cambridge RLS [Brooks net +8.21]
 Brooks--(12.3 5/9)-->Groton--(-10.11 4/18)-->Nobles--(6.69 5/6)-->Cambridge RLS [Brooks net +8.88]
 Brooks--(23.7 4/25)-->Middlesex--(7.4 4/18)-->Dexter-Southfield--(-22.04 5/9)-->Cambridge RLS [Brooks net +9.06]
@@ -32,11 +50,19 @@ Brooks--(4.3 4/18)-->St. Mark's--(30.8 4/18)-->Dexter-Southfield--(-22.04 5/9)--
 Brooks--(27.7 4/18)-->Middlesex--(7.4 4/18)-->Dexter-Southfield--(-22.04 5/9)-->Cambridge RLS [Brooks net +13.06]
 Brooks--(35.1 4/18)-->Dexter-Southfield--(-1.62 5/9)-->Hopkins--(-20.42 5/9)-->Cambridge RLS [Brooks net +13.06]
 Brooks--(52.6 4/18)-->Brewster Academy--(-17.5 4/18)-->Dexter-Southfield--(-22.04 5/9)-->Cambridge RLS [Brooks net +13.06]
+Brooks--(5.0 5/16)-->St. Mark's--(23.4 4/18)-->Middlesex--(-15.3 4/25)-->Cambridge RLS [Brooks net +13.1]
+Brooks--(5.0 5/16)-->St. Mark's--(30.8 4/18)-->Dexter-Southfield--(-22.04 5/9)-->Cambridge RLS [Brooks net +13.76]
 Brooks--(15.3 4/25)-->NMH--(22.7 4/18)-->Hopkins--(-20.42 5/9)-->Cambridge RLS [Brooks net +17.58]
 Brooks--(4.3 4/18)-->St. Mark's--(35.0 4/25)-->Hopkins--(-20.42 5/9)-->Cambridge RLS [Brooks net +18.88]
 Brooks--(4.3 4/18)-->St. Mark's--(5.3 4/11)-->NMH--(-6.9 4/25)-->Cambridge RLS [Brooks net +2.7]
+Brooks--(-3.4 5/16)-->Nobles--(24.67 4/18)-->BB&N--(-18.22 4/11)-->Cambridge RLS [Brooks net +3.05]
+Brooks--(5.0 5/16)-->St. Mark's--(5.3 4/11)-->NMH--(-6.9 4/25)-->Cambridge RLS [Brooks net +3.4]
+Brooks--(4.3 4/18)-->St. Mark's--(17.4 5/16)-->BB&N--(-18.22 4/11)-->Cambridge RLS [Brooks net +3.48]
+Brooks--(-3.4 5/16)-->Nobles--(25.8 5/16)-->BB&N--(-18.22 4/11)-->Cambridge RLS [Brooks net +4.18]
+Brooks--(5.0 5/16)-->St. Mark's--(17.4 5/16)-->BB&N--(-18.22 4/11)-->Cambridge RLS [Brooks net +4.18]
 Brooks--(12.3 5/9)-->Groton--(14.56 4/18)-->BB&N--(-18.22 4/11)-->Cambridge RLS [Brooks net +8.64]
 Brooks--(39.5 5/9)-->Newton Country Day--(-10.04 5/2)-->BB&N--(-18.22 4/11)-->Cambridge RLS [Brooks net +11.24]
 Brooks--(4.3 4/18)-->St. Mark's--(26.1 5/9)-->BB&N--(-18.22 4/11)-->Cambridge RLS [Brooks net +12.18]
+Brooks--(5.0 5/16)-->St. Mark's--(26.1 5/9)-->BB&N--(-18.22 4/11)-->Cambridge RLS [Brooks net +12.88]
 Brooks--(23.7 4/25)-->Middlesex--(16.73 5/2)-->BB&N--(-18.22 4/11)-->Cambridge RLS [Brooks net +22.21]
 Brooks--(27.7 4/18)-->Middlesex--(16.73 5/2)-->BB&N--(-18.22 4/11)-->Cambridge RLS [Brooks net +26.21]

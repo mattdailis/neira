@@ -1,17 +1,32 @@
-BB&N and St. Mark's have raced head to head once on 2026-05-09
-St. Mark's won the race by 26.1 seconds
+BB&N and St. Mark's have raced head to head 2 times
+St. Mark's has won every race
 
-There are 4 paths of length 2 between BB&N and St. Mark's
+From most recent to least recent:
+2026-05-16: St. Mark's won by 17.4 seconds
+2026-05-09: St. Mark's won by 26.1 seconds
+
+There are 7 paths of length 2 between BB&N and St. Mark's
 All of them favor St. Mark's
 From most recent to least recent:
+BB&N--(-25.8 5/16)-->Nobles--(1.2 4/25)-->St. Mark's [St. Mark's net +24.6]
 BB&N--(10.04 5/2)-->Newton Country Day--(-34.3 4/25)-->St. Mark's [St. Mark's net +24.26]
 BB&N--(-10.0 4/25)-->Winsor--(-9.5 5/9)-->St. Mark's [St. Mark's net +19.5]
 BB&N--(-16.73 5/2)-->Middlesex--(-23.4 4/18)-->St. Mark's [St. Mark's net +40.13]
 BB&N--(-24.67 4/18)-->Nobles--(1.2 4/25)-->St. Mark's [St. Mark's net +23.47]
+BB&N--(-22.4 5/16)-->Brooks--(4.3 4/18)-->St. Mark's [St. Mark's net +18.1]
+BB&N--(-24.67 4/18)-->Nobles--(8.4 5/16)-->St. Mark's [St. Mark's net +16.27]
 
-There are 76 paths of length 3 between BB&N and St. Mark's
-75/76 of them favor St. Mark's
+There are 116 paths of length 3 between BB&N and St. Mark's
+115/116 of them favor St. Mark's
 From most recent to least recent:
+BB&N--(-8.4 5/9)-->Miss Porter's--(-31.0 5/16)-->Taft--(-6.6 5/9)-->St. Mark's [St. Mark's net +46.0]
+BB&N--(-8.4 5/9)-->Miss Porter's--(14.9 5/16)-->Frederick Gunn--(-43.6 5/9)-->St. Mark's [St. Mark's net +37.1]
+BB&N--(17.5 5/9)-->Frederick Gunn--(-45.9 5/16)-->Taft--(-6.6 5/9)-->St. Mark's [St. Mark's net +35.0]
+BB&N--(-19.5 5/9)-->Taft--(45.9 5/16)-->Frederick Gunn--(-43.6 5/9)-->St. Mark's [St. Mark's net +17.2]
+BB&N--(17.5 5/9)-->Frederick Gunn--(-14.9 5/16)-->Miss Porter's--(-17.7 5/9)-->St. Mark's [St. Mark's net +15.1]
+BB&N--(-19.5 5/9)-->Taft--(31.0 5/16)-->Miss Porter's--(-17.7 5/9)-->St. Mark's [St. Mark's net +6.2]
+BB&N--(-16.6 5/9)-->Winsor--(-24.92 5/6)-->Nobles--(8.4 5/16)-->St. Mark's [St. Mark's net +33.12]
+BB&N--(-25.8 5/16)-->Nobles--(24.92 5/6)-->Winsor--(-9.5 5/9)-->St. Mark's [St. Mark's net +10.38]
 BB&N--(17.5 5/9)-->Frederick Gunn--(-65.9 5/3)-->Taft--(-6.6 5/9)-->St. Mark's [St. Mark's net +55.0]
 BB&N--(17.5 5/9)-->Frederick Gunn--(-49.7 5/3)-->Miss Porter's--(-17.7 5/9)-->St. Mark's [St. Mark's net +49.9]
 BB&N--(17.5 5/9)-->Frederick Gunn--(-36.5 5/3)-->Pomfret--(-30.9 5/9)-->St. Mark's [St. Mark's net +49.9]
@@ -24,9 +39,11 @@ BB&N--(-19.5 5/9)-->Taft--(29.4 5/3)-->Pomfret--(-30.9 5/9)-->St. Mark's [St. Ma
 BB&N--(-8.4 5/9)-->Miss Porter's--(49.7 5/3)-->Frederick Gunn--(-43.6 5/9)-->St. Mark's [St. Mark's net +2.3]
 BB&N--(4.8 5/9)-->Pomfret--(36.5 5/3)-->Frederick Gunn--(-43.6 5/9)-->St. Mark's [St. Mark's net +2.3]
 BB&N--(-19.5 5/9)-->Taft--(65.9 5/3)-->Frederick Gunn--(-43.6 5/9)-->St. Mark's [BB&N net +2.8]
+BB&N--(10.04 5/2)-->Newton Country Day--(-39.5 5/9)-->Brooks--(5.0 5/16)-->St. Mark's [St. Mark's net +24.46]
 BB&N--(17.5 5/9)-->Frederick Gunn--(-36.1 5/3)-->Hopkins--(-35.0 4/25)-->St. Mark's [St. Mark's net +53.6]
 BB&N--(17.5 5/9)-->Frederick Gunn--(-59.1 5/3)-->Hotchkiss--(-11.7 4/25)-->St. Mark's [St. Mark's net +53.3]
 BB&N--(-16.6 5/9)-->Winsor--(-24.92 5/6)-->Nobles--(1.2 4/25)-->St. Mark's [St. Mark's net +40.32]
+BB&N--(-16.73 5/2)-->Middlesex--(-23.7 4/25)-->Brooks--(5.0 5/16)-->St. Mark's [St. Mark's net +35.43]
 BB&N--(-10.0 4/25)-->Winsor--(-24.92 5/6)-->Nobles--(1.2 4/25)-->St. Mark's [St. Mark's net +33.72]
 BB&N--(-19.5 5/9)-->Taft--(18.3 4/25)-->Pomfret--(-30.9 5/9)-->St. Mark's [St. Mark's net +32.1]
 BB&N--(17.5 5/9)-->Frederick Gunn--(-30.4 4/25)-->Miss Porter's--(-17.7 5/9)-->St. Mark's [St. Mark's net +30.6]
@@ -34,7 +51,14 @@ BB&N--(4.8 5/9)-->Pomfret--(0.3 5/3)-->Hopkins--(-35.0 4/25)-->St. Mark's [St. M
 BB&N--(-8.4 5/9)-->Miss Porter's--(13.6 5/3)-->Hopkins--(-35.0 4/25)-->St. Mark's [St. Mark's net +29.8]
 BB&N--(4.8 5/9)-->Pomfret--(-22.6 5/3)-->Hotchkiss--(-11.7 4/25)-->St. Mark's [St. Mark's net +29.5]
 BB&N--(-8.4 5/9)-->Miss Porter's--(-9.3 5/3)-->Hotchkiss--(-11.7 4/25)-->St. Mark's [St. Mark's net +29.4]
+BB&N--(-10.0 4/25)-->Winsor--(-24.92 5/6)-->Nobles--(8.4 5/16)-->St. Mark's [St. Mark's net +26.52]
+BB&N--(-25.8 5/16)-->Nobles--(11.68 5/9)-->Hotchkiss--(-11.7 4/25)-->St. Mark's [St. Mark's net +25.82]
+BB&N--(-6.44 4/25)-->Greenwich Academy--(-11.7 5/16)-->Taft--(-6.6 5/9)-->St. Mark's [St. Mark's net +24.74]
 BB&N--(-19.5 5/9)-->Taft--(29.8 5/3)-->Hopkins--(-35.0 4/25)-->St. Mark's [St. Mark's net +24.7]
+BB&N--(-25.8 5/16)-->Nobles--(12.9 4/25)-->Hotchkiss--(-11.7 4/25)-->St. Mark's [St. Mark's net +24.6]
+BB&N--(-25.8 5/16)-->Nobles--(35.5 4/25)-->Newton Country Day--(-34.3 4/25)-->St. Mark's [St. Mark's net +24.6]
+BB&N--(-25.8 5/16)-->Nobles--(36.2 4/25)-->Hopkins--(-35.0 4/25)-->St. Mark's [St. Mark's net +24.6]
+BB&N--(-22.4 5/16)-->Brooks--(-3.4 5/16)-->Nobles--(1.2 4/25)-->St. Mark's [St. Mark's net +24.6]
 BB&N--(-19.5 5/9)-->Taft--(6.8 5/3)-->Hotchkiss--(-11.7 4/25)-->St. Mark's [St. Mark's net +24.4]
 BB&N--(-16.73 5/2)-->Middlesex--(26.77 5/2)-->Newton Country Day--(-34.3 4/25)-->St. Mark's [St. Mark's net +24.26]
 BB&N--(10.04 5/2)-->Newton Country Day--(-35.5 4/25)-->Nobles--(1.2 4/25)-->St. Mark's [St. Mark's net +24.26]
@@ -47,6 +71,10 @@ BB&N--(-10.0 4/25)-->Winsor--(8.2 5/9)-->Miss Porter's--(-17.7 5/9)-->St. Mark's
 BB&N--(-10.0 4/25)-->Winsor--(21.4 5/9)-->Pomfret--(-30.9 5/9)-->St. Mark's [St. Mark's net +19.5]
 BB&N--(-10.0 4/25)-->Winsor--(34.1 5/9)-->Frederick Gunn--(-43.6 5/9)-->St. Mark's [St. Mark's net +19.5]
 BB&N--(-6.44 4/25)-->Greenwich Academy--(-3.56 4/25)-->Winsor--(-9.5 5/9)-->St. Mark's [St. Mark's net +19.5]
+BB&N--(-22.4 5/16)-->Brooks--(39.5 5/9)-->Newton Country Day--(-34.3 4/25)-->St. Mark's [St. Mark's net +17.2]
+BB&N--(10.04 5/2)-->Newton Country Day--(-35.5 4/25)-->Nobles--(8.4 5/16)-->St. Mark's [St. Mark's net +17.06]
+BB&N--(-6.44 4/25)-->Greenwich Academy--(34.2 5/16)-->Frederick Gunn--(-43.6 5/9)-->St. Mark's [St. Mark's net +15.84]
+BB&N--(-6.44 4/25)-->Greenwich Academy--(19.3 5/16)-->Miss Porter's--(-17.7 5/9)-->St. Mark's [St. Mark's net +4.84]
 BB&N--(10.04 5/2)-->Newton Country Day--(-33.22 4/22)-->Winsor--(-9.5 5/9)-->St. Mark's [St. Mark's net +32.68]
 BB&N--(-16.6 5/9)-->Winsor--(33.22 4/22)-->Newton Country Day--(-34.3 4/25)-->St. Mark's [St. Mark's net +17.68]
 BB&N--(-10.0 4/25)-->Winsor--(33.22 4/22)-->Newton Country Day--(-34.3 4/25)-->St. Mark's [St. Mark's net +11.08]
@@ -54,6 +82,7 @@ BB&N--(-16.73 5/2)-->Middlesex--(-27.7 4/18)-->Brooks--(4.3 4/18)-->St. Mark's [
 BB&N--(-16.73 5/2)-->Middlesex--(7.4 4/18)-->Dexter-Southfield--(-30.8 4/18)-->St. Mark's [St. Mark's net +40.13]
 BB&N--(-16.73 5/2)-->Middlesex--(24.9 4/18)-->Brewster Academy--(-48.3 4/18)-->St. Mark's [St. Mark's net +40.13]
 BB&N--(10.04 5/2)-->Newton Country Day--(-26.77 5/2)-->Middlesex--(-23.4 4/18)-->St. Mark's [St. Mark's net +40.13]
+BB&N--(-16.73 5/2)-->Middlesex--(-27.7 4/18)-->Brooks--(5.0 5/16)-->St. Mark's [St. Mark's net +39.43]
 BB&N--(-16.73 5/2)-->Middlesex--(-23.7 4/25)-->Brooks--(4.3 4/18)-->St. Mark's [St. Mark's net +36.13]
 BB&N--(-19.5 5/9)-->Taft--(19.1 4/25)-->Dexter-Southfield--(-30.8 4/18)-->St. Mark's [St. Mark's net +31.2]
 BB&N--(4.8 5/9)-->Pomfret--(0.8 4/25)-->Dexter-Southfield--(-30.8 4/18)-->St. Mark's [St. Mark's net +25.2]
@@ -68,9 +97,21 @@ BB&N--(-24.67 4/18)-->Nobles--(36.2 4/25)-->Hopkins--(-35.0 4/25)-->St. Mark's [
 BB&N--(-14.56 4/18)-->Groton--(-10.11 4/18)-->Nobles--(1.2 4/25)-->St. Mark's [St. Mark's net +23.47]
 BB&N--(-14.56 4/18)-->Groton--(-12.3 5/9)-->Brooks--(4.3 4/18)-->St. Mark's [St. Mark's net +22.56]
 BB&N--(-6.44 4/25)-->Greenwich Academy--(32.5 5/3)-->Brewster Academy--(-48.3 4/18)-->St. Mark's [St. Mark's net +22.24]
+BB&N--(-22.4 5/16)-->Brooks--(23.7 4/25)-->Middlesex--(-23.4 4/18)-->St. Mark's [St. Mark's net +22.1]
+BB&N--(-14.56 4/18)-->Groton--(-12.3 5/9)-->Brooks--(5.0 5/16)-->St. Mark's [St. Mark's net +21.86]
 BB&N--(-14.56 4/18)-->Groton--(27.2 5/9)-->Newton Country Day--(-34.3 4/25)-->St. Mark's [St. Mark's net +21.66]
 BB&N--(-14.56 4/18)-->Groton--(2.1 4/25)-->Taft--(-6.6 5/9)-->St. Mark's [St. Mark's net +19.06]
+BB&N--(-25.8 5/16)-->Nobles--(3.4 5/16)-->Brooks--(4.3 4/18)-->St. Mark's [St. Mark's net +18.1]
+BB&N--(-22.4 5/16)-->Brooks--(27.7 4/18)-->Middlesex--(-23.4 4/18)-->St. Mark's [St. Mark's net +18.1]
+BB&N--(-22.4 5/16)-->Brooks--(35.1 4/18)-->Dexter-Southfield--(-30.8 4/18)-->St. Mark's [St. Mark's net +18.1]
+BB&N--(-22.4 5/16)-->Brooks--(52.6 4/18)-->Brewster Academy--(-48.3 4/18)-->St. Mark's [St. Mark's net +18.1]
+BB&N--(-24.67 4/18)-->Nobles--(3.4 5/16)-->Brooks--(4.3 4/18)-->St. Mark's [St. Mark's net +16.97]
+BB&N--(10.04 5/2)-->Newton Country Day--(3.96 5/16)-->Dexter-Southfield--(-30.8 4/18)-->St. Mark's [St. Mark's net +16.8]
+BB&N--(-24.67 4/18)-->Nobles--(3.4 5/16)-->Brooks--(5.0 5/16)-->St. Mark's [St. Mark's net +16.27]
+BB&N--(-14.56 4/18)-->Groton--(-10.11 4/18)-->Nobles--(8.4 5/16)-->St. Mark's [St. Mark's net +16.27]
 BB&N--(-24.67 4/18)-->Nobles--(24.92 5/6)-->Winsor--(-9.5 5/9)-->St. Mark's [St. Mark's net +9.25]
+BB&N--(-8.4 5/9)-->Miss Porter's--(-34.9 5/16)-->Choate--(-0.9 4/11)-->St. Mark's [St. Mark's net +44.2]
+BB&N--(17.5 5/9)-->Frederick Gunn--(-49.8 5/16)-->Choate--(-0.9 4/11)-->St. Mark's [St. Mark's net +33.2]
 BB&N--(-18.22 4/11)-->Cambridge RLS--(20.42 5/9)-->Hopkins--(-35.0 4/25)-->St. Mark's [St. Mark's net +32.8]
 BB&N--(10.04 5/2)-->Newton Country Day--(-40.0 4/22)-->Choate--(-0.9 4/11)-->St. Mark's [St. Mark's net +30.86]
 BB&N--(-16.73 5/2)-->Middlesex--(-8.4 4/25)-->NMH--(-5.3 4/11)-->St. Mark's [St. Mark's net +30.43]
@@ -79,12 +120,18 @@ BB&N--(-6.44 4/25)-->Greenwich Academy--(-17.6 5/3)-->NMH--(-5.3 4/11)-->St. Mar
 BB&N--(-18.22 4/11)-->Cambridge RLS--(22.04 5/9)-->Dexter-Southfield--(-30.8 4/18)-->St. Mark's [St. Mark's net +26.98]
 BB&N--(-18.22 4/11)-->Cambridge RLS--(15.3 4/25)-->Middlesex--(-23.4 4/18)-->St. Mark's [St. Mark's net +26.32]
 BB&N--(-16.6 5/9)-->Winsor--(-6.89 4/22)-->Choate--(-0.9 4/11)-->St. Mark's [St. Mark's net +24.39]
+BB&N--(-19.5 5/9)-->Taft--(-3.9 5/16)-->Choate--(-0.9 4/11)-->St. Mark's [St. Mark's net +24.3]
 BB&N--(-18.22 4/11)-->Cambridge RLS--(-6.69 5/6)-->Nobles--(1.2 4/25)-->St. Mark's [St. Mark's net +23.71]
+BB&N--(-6.44 4/25)-->Greenwich Academy--(-15.6 5/16)-->Choate--(-0.9 4/11)-->St. Mark's [St. Mark's net +22.94]
 BB&N--(-18.22 4/11)-->Cambridge RLS--(-8.4 4/25)-->Brooks--(4.3 4/18)-->St. Mark's [St. Mark's net +22.32]
+BB&N--(-18.22 4/11)-->Cambridge RLS--(-8.4 4/25)-->Brooks--(5.0 5/16)-->St. Mark's [St. Mark's net +21.62]
 BB&N--(-19.5 5/9)-->Taft--(0.6 4/18)-->Choate--(-0.9 4/11)-->St. Mark's [St. Mark's net +19.8]
 BB&N--(4.8 5/9)-->Pomfret--(-17.4 4/18)-->NMH--(-5.3 4/11)-->St. Mark's [St. Mark's net +17.9]
 BB&N--(-10.0 4/25)-->Winsor--(-6.89 4/22)-->Choate--(-0.9 4/11)-->St. Mark's [St. Mark's net +17.79]
+BB&N--(-25.8 5/16)-->Nobles--(14.04 5/9)-->NMH--(-5.3 4/11)-->St. Mark's [St. Mark's net +17.06]
 BB&N--(-18.22 4/11)-->Cambridge RLS--(6.9 4/25)-->NMH--(-5.3 4/11)-->St. Mark's [St. Mark's net +16.62]
+BB&N--(-18.22 4/11)-->Cambridge RLS--(-6.69 5/6)-->Nobles--(8.4 5/16)-->St. Mark's [St. Mark's net +16.51]
 BB&N--(-24.67 4/18)-->Nobles--(14.04 5/9)-->NMH--(-5.3 4/11)-->St. Mark's [St. Mark's net +15.93]
 BB&N--(-6.44 4/25)-->Greenwich Academy--(-6.9 5/3)-->Choate--(-0.9 4/11)-->St. Mark's [St. Mark's net +14.24]
+BB&N--(-22.4 5/16)-->Brooks--(15.3 4/25)-->NMH--(-5.3 4/11)-->St. Mark's [St. Mark's net +12.4]
 BB&N--(-18.22 4/11)-->Cambridge RLS--(18.23 5/6)-->Winsor--(-9.5 5/9)-->St. Mark's [St. Mark's net +9.49]

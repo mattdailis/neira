@@ -5,10 +5,12 @@ From most recent to least recent:
 2026-05-03: NMH won by 16.4 seconds
 2026-04-18: NMH won by 22.5 seconds
 
-There are 8 paths of length 2 between Hopkins and NMH
+There are 10 paths of length 2 between Hopkins and NMH
 All of them favor NMH
 From most recent to least recent:
+Hopkins--(-11.1 5/16)-->Hotchkiss--(0.43 5/9)-->NMH [NMH net +10.67]
 Hopkins--(-18.4 5/3)-->Hotchkiss--(0.43 5/9)-->NMH [NMH net +17.97]
+Hopkins--(-11.1 5/16)-->Hotchkiss--(2.0 5/3)-->NMH [NMH net +9.1]
 Hopkins--(-23.7 4/25)-->Hotchkiss--(0.43 5/9)-->NMH [NMH net +23.27]
 Hopkins--(-32.7 4/25)-->Nobles--(10.07 5/9)-->NMH [NMH net +22.63]
 Hopkins--(-23.7 4/25)-->Hotchkiss--(2.0 5/3)-->NMH [NMH net +21.7]
@@ -17,19 +19,24 @@ Hopkins--(17.5 5/3)-->Pomfret--(-38.0 4/18)-->NMH [NMH net +20.5]
 Hopkins--(15.5 4/18)-->Pomfret--(-34.0 5/3)-->NMH [NMH net +18.5]
 Hopkins--(-31.5 4/25)-->St. Mark's--(-1.2 4/11)-->NMH [NMH net +32.7]
 
-There are 69 paths of length 3 between Hopkins and NMH
-65/69 of them favor NMH
+There are 83 paths of length 3 between Hopkins and NMH
+77/83 of them favor NMH
 From most recent to least recent:
+Hopkins--(-11.1 5/16)-->Hotchkiss--(-9.64 5/9)-->Nobles--(10.07 5/9)-->NMH [NMH net +10.67]
 Hopkins--(-28.04 5/9)-->Cambridge RLS--(-10.27 5/6)-->Nobles--(10.07 5/9)-->NMH [NMH net +28.24]
 Hopkins--(17.5 5/3)-->Pomfret--(-38.2 5/9)-->Taft--(-5.7 5/3)-->NMH [NMH net +26.4]
 Hopkins--(-18.4 5/3)-->Hotchkiss--(-9.64 5/9)-->Nobles--(10.07 5/9)-->NMH [NMH net +17.97]
 Hopkins--(-10.7 5/3)-->Taft--(-7.7 5/3)-->Hotchkiss--(0.43 5/9)-->NMH [NMH net +17.97]
 Hopkins--(17.5 5/3)-->Pomfret--(-35.9 5/3)-->Hotchkiss--(0.43 5/9)-->NMH [NMH net +17.97]
 Hopkins--(137.5 5/3)-->Brewster Academy--(-155.9 5/3)-->Hotchkiss--(0.43 5/9)-->NMH [NMH net +17.97]
+Hopkins--(-11.1 5/16)-->Hotchkiss--(35.9 5/3)-->Pomfret--(-34.0 5/3)-->NMH [NMH net +9.2]
+Hopkins--(-11.1 5/16)-->Hotchkiss--(7.7 5/3)-->Taft--(-5.7 5/3)-->NMH [NMH net +9.1]
+Hopkins--(-11.1 5/16)-->Hotchkiss--(155.9 5/3)-->Brewster Academy--(-153.9 5/3)-->NMH [NMH net +9.1]
 Hopkins--(-10.7 5/3)-->Taft--(38.2 5/9)-->Pomfret--(-34.0 5/3)-->NMH [NMH net +6.5]
 Hopkins--(28.15 5/9)-->Dexter-Southfield--(-42.3 4/25)-->Pomfret--(-34.0 5/3)-->NMH [NMH net +48.15]
 Hopkins--(28.15 5/9)-->Dexter-Southfield--(-68.5 4/25)-->Taft--(-5.7 5/3)-->NMH [NMH net +46.05]
 Hopkins--(-31.5 4/25)-->St. Mark's--(-1.1 5/9)-->Taft--(-5.7 5/3)-->NMH [NMH net +38.3]
+Hopkins--(-31.5 4/25)-->St. Mark's--(-7.9 5/16)-->Nobles--(10.07 5/9)-->NMH [NMH net +29.33]
 Hopkins--(-31.5 4/25)-->St. Mark's--(37.1 5/9)-->Pomfret--(-34.0 5/3)-->NMH [NMH net +28.4]
 Hopkins--(-32.7 4/25)-->Nobles--(9.0 4/25)-->Hotchkiss--(0.43 5/9)-->NMH [NMH net +23.27]
 Hopkins--(-31.5 4/25)-->St. Mark's--(7.8 4/25)-->Hotchkiss--(0.43 5/9)-->NMH [NMH net +23.27]
@@ -39,6 +46,7 @@ Hopkins--(-32.7 4/25)-->Nobles--(9.64 5/9)-->Hotchkiss--(0.43 5/9)-->NMH [NMH ne
 Hopkins--(-31.5 4/25)-->St. Mark's--(-1.2 4/25)-->Nobles--(10.07 5/9)-->NMH [NMH net +22.63]
 Hopkins--(-23.7 4/25)-->Hotchkiss--(-9.0 4/25)-->Nobles--(10.07 5/9)-->NMH [NMH net +22.63]
 Hopkins--(-2.2 4/25)-->Newton Country Day--(-30.5 4/25)-->Nobles--(10.07 5/9)-->NMH [NMH net +22.63]
+Hopkins--(-31.5 4/25)-->St. Mark's--(-16.8 5/16)-->Brooks--(26.1 4/25)-->NMH [NMH net +22.2]
 Hopkins--(-23.7 4/25)-->Hotchkiss--(35.9 5/3)-->Pomfret--(-34.0 5/3)-->NMH [NMH net +21.8]
 Hopkins--(-32.7 4/25)-->Nobles--(9.0 4/25)-->Hotchkiss--(2.0 5/3)-->NMH [NMH net +21.7]
 Hopkins--(-31.5 4/25)-->St. Mark's--(7.8 4/25)-->Hotchkiss--(2.0 5/3)-->NMH [NMH net +21.7]
@@ -48,14 +56,17 @@ Hopkins--(-2.2 4/25)-->Newton Country Day--(-21.5 4/25)-->Hotchkiss--(2.0 5/3)--
 Hopkins--(-32.7 4/25)-->Nobles--(9.64 5/9)-->Hotchkiss--(2.0 5/3)-->NMH [NMH net +21.06]
 Hopkins--(-10.7 5/3)-->Taft--(26.2 4/25)-->Pomfret--(-34.0 5/3)-->NMH [NMH net +18.5]
 Hopkins--(-18.4 5/3)-->Hotchkiss--(-9.0 4/25)-->Nobles--(10.07 5/9)-->NMH [NMH net +17.33]
+Hopkins--(-32.7 4/25)-->Nobles--(-8.9 5/16)-->Brooks--(26.1 4/25)-->NMH [NMH net +15.5]
 Hopkins--(-2.2 4/25)-->Newton Country Day--(-38.9 5/9)-->Brooks--(26.1 4/25)-->NMH [NMH net +15.0]
 Hopkins--(17.5 5/3)-->Pomfret--(-26.2 4/25)-->Taft--(-5.7 5/3)-->NMH [NMH net +14.4]
 Hopkins--(-28.04 5/9)-->Cambridge RLS--(-11.6 4/25)-->Brooks--(26.1 4/25)-->NMH [NMH net +13.54]
 Hopkins--(-28.04 5/9)-->Cambridge RLS--(9.5 4/25)-->Middlesex--(5.0 4/25)-->NMH [NMH net +13.54]
 Hopkins--(28.15 5/9)-->Dexter-Southfield--(-56.19 5/9)-->Cambridge RLS--(14.5 4/25)-->NMH [NMH net +13.54]
 Hopkins--(-2.2 4/25)-->Newton Country Day--(-15.58 5/2)-->Middlesex--(5.0 4/25)-->NMH [NMH net +12.78]
+Hopkins--(-11.1 5/16)-->Hotchkiss--(-9.0 4/25)-->Nobles--(10.07 5/9)-->NMH [NMH net +10.03]
 Hopkins--(-32.7 4/25)-->Nobles--(10.27 5/6)-->Cambridge RLS--(14.5 4/25)-->NMH [NMH net +7.93]
 Hopkins--(-31.5 4/25)-->St. Mark's--(30.3 4/18)-->Brewster Academy--(-153.9 5/3)-->NMH [NMH net +155.1]
+Hopkins--(61.8 4/18)-->St. Mary's-Lynn--(-19.9 5/16)-->Brewster Academy--(-153.9 5/3)-->NMH [NMH net +112.0]
 Hopkins--(61.8 4/18)-->St. Mary's-Lynn--(-15.1 5/6)-->Brewster Academy--(-153.9 5/3)-->NMH [NMH net +107.2]
 Hopkins--(28.15 5/9)-->Dexter-Southfield--(-42.3 4/25)-->Pomfret--(-38.0 4/18)-->NMH [NMH net +52.15]
 Hopkins--(-31.5 4/25)-->St. Mark's--(37.1 5/9)-->Pomfret--(-38.0 4/18)-->NMH [NMH net +32.4]
@@ -74,8 +85,10 @@ Hopkins--(61.8 4/18)-->St. Mary's-Lynn--(-46.3 4/18)-->Pomfret--(-34.0 5/3)-->NM
 Hopkins--(15.5 4/18)-->Pomfret--(-35.9 5/3)-->Hotchkiss--(2.0 5/3)-->NMH [NMH net +18.4]
 Hopkins--(-31.5 4/25)-->St. Mark's--(-13.0 4/18)-->Brooks--(26.1 4/25)-->NMH [NMH net +18.4]
 Hopkins--(15.5 4/18)-->Pomfret--(-26.2 4/25)-->Taft--(-5.7 5/3)-->NMH [NMH net +16.4]
+Hopkins--(-11.1 5/16)-->Hotchkiss--(35.9 5/3)-->Pomfret--(-38.0 4/18)-->NMH [NMH net +13.2]
 Hopkins--(-10.7 5/3)-->Taft--(38.2 5/9)-->Pomfret--(-38.0 4/18)-->NMH [NMH net +10.5]
 Hopkins--(137.5 5/3)-->Brewster Academy--(15.1 5/6)-->St. Mary's-Lynn--(-84.3 4/18)-->NMH [Hopkins net +68.3]
+Hopkins--(137.5 5/3)-->Brewster Academy--(19.9 5/16)-->St. Mary's-Lynn--(-84.3 4/18)-->NMH [Hopkins net +73.1]
 Hopkins--(137.5 5/3)-->Brewster Academy--(-26.9 4/18)-->Middlesex--(5.0 4/25)-->NMH [Hopkins net +115.6]
 Hopkins--(137.5 5/3)-->Brewster Academy--(-43.3 4/18)-->Brooks--(26.1 4/25)-->NMH [Hopkins net +120.3]
 Hopkins--(-2.2 4/25)-->Newton Country Day--(-56.11 4/22)-->Choate--(20.1 4/11)-->NMH [NMH net +38.21]
@@ -84,8 +97,11 @@ Hopkins--(-31.5 4/25)-->St. Mark's--(-21.3 4/11)-->Choate--(20.1 4/11)-->NMH [NM
 Hopkins--(-23.7 4/25)-->Hotchkiss--(-7.8 4/25)-->St. Mark's--(-1.2 4/11)-->NMH [NMH net +32.7]
 Hopkins--(-2.2 4/25)-->Newton Country Day--(-29.3 4/25)-->St. Mark's--(-1.2 4/11)-->NMH [NMH net +32.7]
 Hopkins--(-18.4 5/3)-->Hotchkiss--(-7.8 4/25)-->St. Mark's--(-1.2 4/11)-->NMH [NMH net +27.4]
+Hopkins--(-32.7 4/25)-->Nobles--(7.9 5/16)-->St. Mark's--(-1.2 4/11)-->NMH [NMH net +26.0]
 Hopkins--(-10.7 5/3)-->Taft--(-35.1 4/18)-->Choate--(20.1 4/11)-->NMH [NMH net +25.7]
 Hopkins--(15.5 4/18)-->Pomfret--(-37.1 5/9)-->St. Mark's--(-1.2 4/11)-->NMH [NMH net +22.8]
 Hopkins--(17.5 5/3)-->Pomfret--(-37.1 5/9)-->St. Mark's--(-1.2 4/11)-->NMH [NMH net +20.8]
+Hopkins--(-11.1 5/16)-->Hotchkiss--(-7.8 4/25)-->St. Mark's--(-1.2 4/11)-->NMH [NMH net +20.1]
 Hopkins--(-10.7 5/3)-->Taft--(1.1 5/9)-->St. Mark's--(-1.2 4/11)-->NMH [NMH net +10.8]
+Hopkins--(-10.7 5/3)-->Taft--(-4.4 5/16)-->Choate--(20.1 4/11)-->NMH [Hopkins net +5.0]
 Hopkins--(137.5 5/3)-->Brewster Academy--(-30.3 4/18)-->St. Mark's--(-1.2 4/11)-->NMH [Hopkins net +106.0]

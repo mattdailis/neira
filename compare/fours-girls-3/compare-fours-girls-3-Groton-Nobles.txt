@@ -1,29 +1,50 @@
 Groton and Nobles have raced head to head once on 2026-04-18
 Nobles won the race by 7.33 seconds
 
-There is exactly one path of length 2 between Groton and Nobles, via Groton--(-23.47 5/2)-->Cambridge RLS--(-8.42 5/6)-->Nobles [Nobles net +31.89]
-It favors Nobles by a cumulative margin of 31.89 seconds
-
-There are 20 paths of length 3 between Groton and Nobles
-17/20 of them favor Nobles
+There are 3 paths of length 2 between Groton and Nobles
+All of them favor Nobles
 From most recent to least recent:
+Groton--(-11.2 5/9)-->Brooks--(4.3 5/16)-->Nobles [Nobles net +6.9]
+Groton--(-23.47 5/2)-->Cambridge RLS--(-8.42 5/6)-->Nobles [Nobles net +31.89]
+Groton--(-12.22 4/18)-->BB&N--(-4.2 5/16)-->Nobles [Nobles net +16.42]
+
+There are 37 paths of length 3 between Groton and Nobles
+31/37 of them favor Nobles
+From most recent to least recent:
+Groton--(-11.2 5/9)-->Brooks--(8.5 5/16)-->BB&N--(-4.2 5/16)-->Nobles [Nobles net +6.9]
+Groton--(-11.2 5/9)-->Brooks--(32.5 5/16)-->St. Mark's--(-28.2 5/16)-->Nobles [Nobles net +6.9]
+Groton--(4.4 5/9)-->Newton Country Day--(-15.6 5/9)-->Brooks--(4.3 5/16)-->Nobles [Nobles net +6.9]
+Groton--(4.4 5/9)-->Newton Country Day--(-44.08 5/2)-->BB&N--(-4.2 5/16)-->Nobles [Nobles net +43.88]
 Groton--(-23.47 5/2)-->Cambridge RLS--(16.15 5/6)-->Winsor--(-24.58 5/6)-->Nobles [Nobles net +31.9]
 Groton--(-3.8 4/25)-->Taft--(-11.5 5/9)-->Winsor--(-24.58 5/6)-->Nobles [Nobles net +39.88]
 Groton--(38.9 4/25)-->Pomfret--(-44.7 5/9)-->Winsor--(-24.58 5/6)-->Nobles [Nobles net +30.38]
+Groton--(-3.8 4/25)-->Taft--(2.7 5/9)-->St. Mark's--(-28.2 5/16)-->Nobles [Nobles net +29.3]
 Groton--(-23.47 5/2)-->Cambridge RLS--(26.88 5/9)-->Hopkins--(-30.8 4/25)-->Nobles [Nobles net +27.39]
+Groton--(-23.47 5/2)-->Cambridge RLS--(-8.0 4/25)-->Brooks--(4.3 5/16)-->Nobles [Nobles net +27.17]
+Groton--(38.9 4/25)-->Pomfret--(-30.5 5/9)-->St. Mark's--(-28.2 5/16)-->Nobles [Nobles net +19.8]
 Groton--(-23.47 5/2)-->Cambridge RLS--(27.0 4/25)-->NMH--(-20.57 5/9)-->Nobles [Nobles net +17.04]
 Groton--(-3.8 4/25)-->Taft--(2.7 5/9)-->St. Mark's--(-13.9 4/25)-->Nobles [Nobles net +15.0]
+Groton--(-3.8 4/25)-->Taft--(-6.5 5/9)-->BB&N--(-4.2 5/16)-->Nobles [Nobles net +14.5]
 Groton--(-11.2 5/9)-->Brooks--(8.0 4/25)-->Cambridge RLS--(-8.42 5/6)-->Nobles [Nobles net +11.62]
 Groton--(38.9 4/25)-->Pomfret--(-30.5 5/9)-->St. Mark's--(-13.9 4/25)-->Nobles [Nobles net +5.5]
+Groton--(38.9 4/25)-->Pomfret--(-39.7 5/9)-->BB&N--(-4.2 5/16)-->Nobles [Nobles net +5.0]
 Groton--(-11.2 5/9)-->Brooks--(35.0 4/25)-->NMH--(-20.57 5/9)-->Nobles [Groton net +3.23]
+Groton--(-11.2 5/9)-->Brooks--(32.5 5/16)-->St. Mark's--(-13.9 4/25)-->Nobles [Groton net +7.4]
 Groton--(38.9 4/25)-->Pomfret--(-62.1 4/18)-->Hopkins--(-30.8 4/25)-->Nobles [Nobles net +54.0]
 Groton--(38.9 4/25)-->Pomfret--(-70.5 4/18)-->NMH--(-20.57 5/9)-->Nobles [Nobles net +52.17]
 Groton--(-12.22 4/18)-->BB&N--(-5.0 5/9)-->Winsor--(-24.58 5/6)-->Nobles [Nobles net +41.8]
 Groton--(-12.22 4/18)-->BB&N--(-0.67 4/25)-->Winsor--(-24.58 5/6)-->Nobles [Nobles net +37.47]
 Groton--(4.4 5/9)-->Newton Country Day--(-44.08 5/2)-->BB&N--(4.89 4/18)-->Nobles [Nobles net +34.79]
+Groton--(-12.22 4/18)-->BB&N--(9.2 5/9)-->St. Mark's--(-28.2 5/16)-->Nobles [Nobles net +31.22]
+Groton--(-11.2 5/9)-->Brooks--(20.3 4/18)-->St. Mark's--(-28.2 5/16)-->Nobles [Nobles net +19.1]
 Groton--(-12.22 4/18)-->BB&N--(9.2 5/9)-->St. Mark's--(-13.9 4/25)-->Nobles [Nobles net +16.92]
+Groton--(-12.22 4/18)-->BB&N--(-8.5 5/16)-->Brooks--(4.3 5/16)-->Nobles [Nobles net +16.42]
+Groton--(-12.22 4/18)-->BB&N--(24.0 5/16)-->St. Mark's--(-28.2 5/16)-->Nobles [Nobles net +16.42]
 Groton--(-3.8 4/25)-->Taft--(-6.5 5/9)-->BB&N--(4.89 4/18)-->Nobles [Nobles net +5.41]
 Groton--(-11.2 5/9)-->Brooks--(20.3 4/18)-->St. Mark's--(-13.9 4/25)-->Nobles [Nobles net +4.8]
+Groton--(-12.22 4/18)-->BB&N--(24.0 5/16)-->St. Mark's--(-13.9 4/25)-->Nobles [Nobles net +2.12]
+Groton--(-11.2 5/9)-->Brooks--(8.5 5/16)-->BB&N--(4.89 4/18)-->Nobles [Groton net +2.19]
 Groton--(38.9 4/25)-->Pomfret--(-39.7 5/9)-->BB&N--(4.89 4/18)-->Nobles [Groton net +4.09]
 Groton--(-12.22 4/18)-->BB&N--(-30.78 4/11)-->Cambridge RLS--(-8.42 5/6)-->Nobles [Nobles net +51.42]
+Groton--(-23.47 5/2)-->Cambridge RLS--(30.78 4/11)-->BB&N--(-4.2 5/16)-->Nobles [Groton net +3.11]
 Groton--(-23.47 5/2)-->Cambridge RLS--(30.78 4/11)-->BB&N--(4.89 4/18)-->Nobles [Groton net +12.2]

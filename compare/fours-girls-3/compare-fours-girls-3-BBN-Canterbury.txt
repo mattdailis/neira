@@ -6,7 +6,7 @@ From most recent to least recent:
 BB&N--(39.7 5/9)-->Pomfret--(61.1 5/3)-->Canterbury [BB&N net +100.8]
 BB&N--(6.5 5/9)-->Taft--(132.9 5/3)-->Canterbury [BB&N net +139.4]
 
-There are 30 paths of length 3 between BB&N and Canterbury
+There are 41 paths of length 3 between BB&N and Canterbury
 All of them favor BB&N
 From most recent to least recent:
 BB&N--(-5.0 5/9)-->Winsor--(44.7 5/9)-->Pomfret--(61.1 5/3)-->Canterbury [BB&N net +100.8]
@@ -17,6 +17,11 @@ BB&N--(39.7 5/9)-->Pomfret--(-71.8 5/3)-->Taft--(132.9 5/3)-->Canterbury [BB&N n
 BB&N--(39.7 5/9)-->Pomfret--(-62.9 5/3)-->Choate--(124.0 5/3)-->Canterbury [BB&N net +100.8]
 BB&N--(39.7 5/9)-->Pomfret--(-38.7 5/3)-->Berkshire Academy--(99.8 5/3)-->Canterbury [BB&N net +100.8]
 BB&N--(77.5 5/9)-->Frederick Gunn--(-37.8 5/9)-->Pomfret--(61.1 5/3)-->Canterbury [BB&N net +100.8]
+BB&N--(6.5 5/9)-->Taft--(-3.6 5/16)-->Berkshire Academy--(99.8 5/3)-->Canterbury [BB&N net +102.7]
+BB&N--(9.8 5/9)-->Miss Porter's--(-5.8 5/16)-->Berkshire Academy--(99.8 5/3)-->Canterbury [BB&N net +103.8]
+BB&N--(24.0 5/16)-->St. Mark's--(30.5 5/9)-->Pomfret--(61.1 5/3)-->Canterbury [BB&N net +115.6]
+BB&N--(6.5 5/9)-->Taft--(-11.3 5/16)-->Choate--(124.0 5/3)-->Canterbury [BB&N net +119.2]
+BB&N--(9.8 5/9)-->Miss Porter's--(-13.5 5/16)-->Choate--(124.0 5/3)-->Canterbury [BB&N net +120.3]
 BB&N--(6.5 5/9)-->Taft--(33.0 5/3)-->Berkshire Academy--(99.8 5/3)-->Canterbury [BB&N net +139.3]
 BB&N--(-5.0 5/9)-->Winsor--(11.5 5/9)-->Taft--(132.9 5/3)-->Canterbury [BB&N net +139.4]
 BB&N--(6.5 5/9)-->Taft--(8.9 5/3)-->Choate--(124.0 5/3)-->Canterbury [BB&N net +139.4]
@@ -25,11 +30,16 @@ BB&N--(9.2 5/9)-->St. Mark's--(-2.7 5/9)-->Taft--(132.9 5/3)-->Canterbury [BB&N 
 BB&N--(9.8 5/9)-->Miss Porter's--(-3.3 5/9)-->Taft--(132.9 5/3)-->Canterbury [BB&N net +139.4]
 BB&N--(39.7 5/9)-->Pomfret--(-33.2 5/9)-->Taft--(132.9 5/3)-->Canterbury [BB&N net +139.4]
 BB&N--(77.5 5/9)-->Frederick Gunn--(-71.0 5/9)-->Taft--(132.9 5/3)-->Canterbury [BB&N net +139.4]
+BB&N--(9.8 5/9)-->Miss Porter's--(-2.2 5/16)-->Taft--(132.9 5/3)-->Canterbury [BB&N net +140.5]
+BB&N--(24.0 5/16)-->St. Mark's--(-2.7 5/9)-->Taft--(132.9 5/3)-->Canterbury [BB&N net +154.2]
 BB&N--(4.62 5/2)-->Middlesex--(-22.2 5/9)-->Choate--(124.0 5/3)-->Canterbury [BB&N net +106.42]
 BB&N--(-5.33 4/25)-->Greenwich Academy--(-17.08 5/9)-->Berkshire Academy--(99.8 5/3)-->Canterbury [BB&N net +77.39]
+BB&N--(-5.33 4/25)-->Greenwich Academy--(0.9 5/16)-->Berkshire Academy--(99.8 5/3)-->Canterbury [BB&N net +95.37]
 BB&N--(-0.67 4/25)-->Winsor--(44.7 5/9)-->Pomfret--(61.1 5/3)-->Canterbury [BB&N net +105.13]
 BB&N--(6.5 5/9)-->Taft--(42.7 4/25)-->Pomfret--(61.1 5/3)-->Canterbury [BB&N net +110.3]
+BB&N--(-5.33 4/25)-->Greenwich Academy--(-6.8 5/16)-->Choate--(124.0 5/3)-->Canterbury [BB&N net +111.87]
 BB&N--(39.7 5/9)-->Pomfret--(-42.7 4/25)-->Taft--(132.9 5/3)-->Canterbury [BB&N net +129.9]
+BB&N--(-5.33 4/25)-->Greenwich Academy--(4.5 5/16)-->Taft--(132.9 5/3)-->Canterbury [BB&N net +132.07]
 BB&N--(-0.67 4/25)-->Winsor--(11.5 5/9)-->Taft--(132.9 5/3)-->Canterbury [BB&N net +143.73]
 BB&N--(-5.0 5/9)-->Winsor--(-31.33 4/22)-->Choate--(124.0 5/3)-->Canterbury [BB&N net +87.67]
 BB&N--(-0.67 4/25)-->Winsor--(-31.33 4/22)-->Choate--(124.0 5/3)-->Canterbury [BB&N net +92.0]
@@ -39,3 +49,4 @@ BB&N--(12.22 4/18)-->Groton--(38.9 4/25)-->Pomfret--(61.1 5/3)-->Canterbury [BB&
 BB&N--(12.22 4/18)-->Groton--(-3.8 4/25)-->Taft--(132.9 5/3)-->Canterbury [BB&N net +141.32]
 BB&N--(6.5 5/9)-->Taft--(47.6 4/18)-->Berkshire Academy--(99.8 5/3)-->Canterbury [BB&N net +153.9]
 BB&N--(9.2 5/9)-->St. Mark's--(-4.2 4/11)-->Choate--(124.0 5/3)-->Canterbury [BB&N net +129.0]
+BB&N--(24.0 5/16)-->St. Mark's--(-4.2 4/11)-->Choate--(124.0 5/3)-->Canterbury [BB&N net +143.8]

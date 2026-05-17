@@ -1,19 +1,42 @@
 Brooks and Hotchkiss have never raced head to head
 
-There are 3 paths of length 2 between Brooks and Hotchkiss
+There are 6 paths of length 2 between Brooks and Hotchkiss
 All of them favor Brooks
 From most recent to least recent:
+Brooks--(4.3 5/16)-->Nobles--(38.25 5/9)-->Hotchkiss [Brooks net +42.55]
+Brooks--(4.3 5/16)-->Nobles--(17.9 4/25)-->Hotchkiss [Brooks net +22.2]
+Brooks--(32.5 5/16)-->St. Mark's--(4.0 4/25)-->Hotchkiss [Brooks net +36.5]
 Brooks--(35.0 4/25)-->NMH--(17.0 5/3)-->Hotchkiss [Brooks net +52.0]
 Brooks--(35.0 4/25)-->NMH--(17.68 5/9)-->Hotchkiss [Brooks net +52.68]
 Brooks--(20.3 4/18)-->St. Mark's--(4.0 4/25)-->Hotchkiss [Brooks net +24.3]
 
-There are 30 paths of length 3 between Brooks and Hotchkiss
-29/30 of them favor Brooks
+There are 61 paths of length 3 between Brooks and Hotchkiss
+58/61 of them favor Brooks
 From most recent to least recent:
+Brooks--(4.3 5/16)-->Nobles--(20.57 5/9)-->NMH--(17.68 5/9)-->Hotchkiss [Brooks net +42.55]
+Brooks--(8.5 5/16)-->BB&N--(-4.2 5/16)-->Nobles--(38.25 5/9)-->Hotchkiss [Brooks net +42.55]
+Brooks--(32.5 5/16)-->St. Mark's--(-28.2 5/16)-->Nobles--(38.25 5/9)-->Hotchkiss [Brooks net +42.55]
+Brooks--(8.5 5/16)-->BB&N--(9.8 5/9)-->Miss Porter's--(-21.1 5/3)-->Hotchkiss [Hotchkiss net +2.8]
+Brooks--(32.5 5/16)-->St. Mark's--(0.6 5/9)-->Miss Porter's--(-21.1 5/3)-->Hotchkiss [Brooks net +12.0]
+Brooks--(4.3 5/16)-->Nobles--(20.57 5/9)-->NMH--(17.0 5/3)-->Hotchkiss [Brooks net +41.87]
+Brooks--(8.5 5/16)-->BB&N--(-5.33 4/25)-->Greenwich Academy--(-29.2 5/3)-->Hotchkiss [Hotchkiss net +26.03]
+Brooks--(35.0 4/25)-->NMH--(-10.1 5/3)-->Hopkins--(-16.8 5/16)-->Hotchkiss [Brooks net +8.1]
 Brooks--(35.0 4/25)-->NMH--(-10.1 5/3)-->Hopkins--(-12.9 4/25)-->Hotchkiss [Brooks net +12.0]
 Brooks--(8.0 4/25)-->Cambridge RLS--(-8.42 5/6)-->Nobles--(17.9 4/25)-->Hotchkiss [Brooks net +17.48]
+Brooks--(8.0 4/25)-->Cambridge RLS--(26.88 5/9)-->Hopkins--(-16.8 5/16)-->Hotchkiss [Brooks net +18.08]
+Brooks--(4.3 5/16)-->Nobles--(30.8 4/25)-->Hopkins--(-16.8 5/16)-->Hotchkiss [Brooks net +18.3]
+Brooks--(8.5 5/16)-->BB&N--(9.2 5/9)-->St. Mark's--(4.0 4/25)-->Hotchkiss [Brooks net +21.7]
 Brooks--(8.0 4/25)-->Cambridge RLS--(26.88 5/9)-->Hopkins--(-12.9 4/25)-->Hotchkiss [Brooks net +21.98]
+Brooks--(4.3 5/16)-->Nobles--(13.9 4/25)-->St. Mark's--(4.0 4/25)-->Hotchkiss [Brooks net +22.2]
+Brooks--(4.3 5/16)-->Nobles--(30.8 4/25)-->Hopkins--(-12.9 4/25)-->Hotchkiss [Brooks net +22.2]
+Brooks--(8.5 5/16)-->BB&N--(-4.2 5/16)-->Nobles--(17.9 4/25)-->Hotchkiss [Brooks net +22.2]
+Brooks--(32.5 5/16)-->St. Mark's--(-28.2 5/16)-->Nobles--(17.9 4/25)-->Hotchkiss [Brooks net +22.2]
 Brooks--(35.0 4/25)-->NMH--(-20.57 5/9)-->Nobles--(17.9 4/25)-->Hotchkiss [Brooks net +32.33]
+Brooks--(32.5 5/16)-->St. Mark's--(16.9 4/25)-->Hopkins--(-16.8 5/16)-->Hotchkiss [Brooks net +32.6]
+Brooks--(4.3 5/16)-->Nobles--(28.2 5/16)-->St. Mark's--(4.0 4/25)-->Hotchkiss [Brooks net +36.5]
+Brooks--(8.5 5/16)-->BB&N--(24.0 5/16)-->St. Mark's--(4.0 4/25)-->Hotchkiss [Brooks net +36.5]
+Brooks--(32.5 5/16)-->St. Mark's--(-13.9 4/25)-->Nobles--(17.9 4/25)-->Hotchkiss [Brooks net +36.5]
+Brooks--(32.5 5/16)-->St. Mark's--(16.9 4/25)-->Hopkins--(-12.9 4/25)-->Hotchkiss [Brooks net +36.5]
 Brooks--(8.0 4/25)-->Cambridge RLS--(-8.42 5/6)-->Nobles--(38.25 5/9)-->Hotchkiss [Brooks net +37.83]
 Brooks--(2.2 4/25)-->Middlesex--(32.8 4/25)-->NMH--(17.0 5/3)-->Hotchkiss [Brooks net +52.0]
 Brooks--(8.0 4/25)-->Cambridge RLS--(27.0 4/25)-->NMH--(17.0 5/3)-->Hotchkiss [Brooks net +52.0]
@@ -23,16 +46,25 @@ Brooks--(35.0 4/25)-->NMH--(46.3 5/3)-->Greenwich Academy--(-29.2 5/3)-->Hotchki
 Brooks--(2.2 4/25)-->Middlesex--(32.8 4/25)-->NMH--(17.68 5/9)-->Hotchkiss [Brooks net +52.68]
 Brooks--(8.0 4/25)-->Cambridge RLS--(27.0 4/25)-->NMH--(17.68 5/9)-->Hotchkiss [Brooks net +52.68]
 Brooks--(35.0 4/25)-->NMH--(-20.57 5/9)-->Nobles--(38.25 5/9)-->Hotchkiss [Brooks net +52.68]
+Brooks--(32.5 5/16)-->St. Mark's--(-13.9 4/25)-->Nobles--(38.25 5/9)-->Hotchkiss [Brooks net +56.85]
 Brooks--(8.0 4/25)-->Cambridge RLS--(26.88 5/9)-->Hopkins--(27.1 5/3)-->Hotchkiss [Brooks net +61.98]
+Brooks--(4.3 5/16)-->Nobles--(30.8 4/25)-->Hopkins--(27.1 5/3)-->Hotchkiss [Brooks net +62.2]
+Brooks--(32.5 5/16)-->St. Mark's--(16.9 4/25)-->Hopkins--(27.1 5/3)-->Hotchkiss [Brooks net +76.5]
 Brooks--(20.3 4/18)-->St. Mark's--(0.6 5/9)-->Miss Porter's--(-21.1 5/3)-->Hotchkiss [Hotchkiss net +0.2]
 Brooks--(2.2 4/25)-->Middlesex--(3.6 4/18)-->St. Mark's--(4.0 4/25)-->Hotchkiss [Brooks net +9.8]
+Brooks--(20.3 4/18)-->St. Mark's--(-28.2 5/16)-->Nobles--(17.9 4/25)-->Hotchkiss [Brooks net +10.0]
+Brooks--(20.3 4/18)-->St. Mark's--(16.9 4/25)-->Hopkins--(-16.8 5/16)-->Hotchkiss [Brooks net +20.4]
 Brooks--(11.2 5/9)-->Groton--(-7.33 4/18)-->Nobles--(17.9 4/25)-->Hotchkiss [Brooks net +21.77]
 Brooks--(16.7 4/18)-->Middlesex--(3.6 4/18)-->St. Mark's--(4.0 4/25)-->Hotchkiss [Brooks net +24.3]
 Brooks--(20.3 4/18)-->St. Mark's--(-13.9 4/25)-->Nobles--(17.9 4/25)-->Hotchkiss [Brooks net +24.3]
 Brooks--(20.3 4/18)-->St. Mark's--(16.9 4/25)-->Hopkins--(-12.9 4/25)-->Hotchkiss [Brooks net +24.3]
+Brooks--(35.0 4/25)-->NMH--(8.4 4/18)-->Hopkins--(-16.8 5/16)-->Hotchkiss [Brooks net +26.6]
+Brooks--(20.3 4/18)-->St. Mark's--(-28.2 5/16)-->Nobles--(38.25 5/9)-->Hotchkiss [Brooks net +30.35]
 Brooks--(35.0 4/25)-->NMH--(8.4 4/18)-->Hopkins--(-12.9 4/25)-->Hotchkiss [Brooks net +30.5]
+Brooks--(8.5 5/16)-->BB&N--(4.89 4/18)-->Nobles--(17.9 4/25)-->Hotchkiss [Brooks net +31.29]
 Brooks--(11.2 5/9)-->Groton--(-7.33 4/18)-->Nobles--(38.25 5/9)-->Hotchkiss [Brooks net +42.12]
 Brooks--(20.3 4/18)-->St. Mark's--(-13.9 4/25)-->Nobles--(38.25 5/9)-->Hotchkiss [Brooks net +44.65]
+Brooks--(8.5 5/16)-->BB&N--(4.89 4/18)-->Nobles--(38.25 5/9)-->Hotchkiss [Brooks net +51.64]
 Brooks--(20.3 4/18)-->St. Mark's--(16.9 4/25)-->Hopkins--(27.1 5/3)-->Hotchkiss [Brooks net +64.3]
 Brooks--(16.7 4/18)-->Middlesex--(32.8 4/25)-->NMH--(17.0 5/3)-->Hotchkiss [Brooks net +66.5]
 Brooks--(16.7 4/18)-->Middlesex--(32.8 4/25)-->NMH--(17.68 5/9)-->Hotchkiss [Brooks net +67.18]
@@ -40,3 +72,5 @@ Brooks--(35.0 4/25)-->NMH--(8.4 4/18)-->Hopkins--(27.1 5/3)-->Hotchkiss [Brooks 
 Brooks--(35.0 4/25)-->NMH--(-11.3 4/11)-->St. Mark's--(4.0 4/25)-->Hotchkiss [Brooks net +27.7]
 Brooks--(20.3 4/18)-->St. Mark's--(11.3 4/11)-->NMH--(17.0 5/3)-->Hotchkiss [Brooks net +48.6]
 Brooks--(20.3 4/18)-->St. Mark's--(11.3 4/11)-->NMH--(17.68 5/9)-->Hotchkiss [Brooks net +49.28]
+Brooks--(32.5 5/16)-->St. Mark's--(11.3 4/11)-->NMH--(17.0 5/3)-->Hotchkiss [Brooks net +60.8]
+Brooks--(32.5 5/16)-->St. Mark's--(11.3 4/11)-->NMH--(17.68 5/9)-->Hotchkiss [Brooks net +61.48]

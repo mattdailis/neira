@@ -1,15 +1,25 @@
-Miss Porter's and Taft have raced head to head once on 2026-05-09
-Taft won the race by 14.8 seconds
+Miss Porter's and Taft have raced head to head 2 times
+Taft has won every race
 
-There are 2 paths of length 2 between Miss Porter's and Taft
-All of them favor Taft
+From most recent to least recent:
+2026-05-16: Taft won by 3.7 seconds
+2026-05-09: Taft won by 14.8 seconds
+
+There are 4 paths of length 2 between Miss Porter's and Taft
+2/4 of them favor Miss Porter's
 From most recent to least recent:
 Miss Porter's--(23.4 5/9)-->Pomfret--(-28.3 5/3)-->Taft [Taft net +4.9]
 Miss Porter's--(23.4 5/9)-->Pomfret--(-26.2 4/25)-->Taft [Taft net +2.8]
+Miss Porter's--(-13.5 5/16)-->Berkshire Academy--(28.9 4/18)-->Taft [Miss Porter's net +15.4]
+Miss Porter's--(-8.0 5/16)-->Choate--(35.1 4/18)-->Taft [Miss Porter's net +27.1]
 
-There are 24 paths of length 3 between Miss Porter's and Taft
-20/24 of them favor Taft
+There are 51 paths of length 3 between Miss Porter's and Taft
+32/51 of them favor Taft
 From most recent to least recent:
+Miss Porter's--(-13.7 5/9)-->St. Mark's--(-1.8 5/16)-->BB&N--(-7.7 5/9)-->Taft [Taft net +23.2]
+Miss Porter's--(-13.5 5/16)-->Berkshire Academy--(12.46 5/9)-->Greenwich Academy--(-9.7 5/16)-->Taft [Taft net +10.74]
+Miss Porter's--(-7.1 5/9)-->BB&N--(1.8 5/16)-->St. Mark's--(-1.1 5/9)-->Taft [Taft net +6.4]
+Miss Porter's--(6.0 5/16)-->Greenwich Academy--(-12.46 5/9)-->Berkshire Academy--(9.8 5/16)-->Taft [Miss Porter's net +3.34]
 Miss Porter's--(-24.9 5/9)-->Winsor--(48.3 5/9)-->Pomfret--(-28.3 5/3)-->Taft [Taft net +4.9]
 Miss Porter's--(-13.7 5/9)-->St. Mark's--(37.1 5/9)-->Pomfret--(-28.3 5/3)-->Taft [Taft net +4.9]
 Miss Porter's--(-7.1 5/9)-->BB&N--(30.5 5/9)-->Pomfret--(-28.3 5/3)-->Taft [Taft net +4.9]
@@ -17,6 +27,8 @@ Miss Porter's--(23.4 5/9)-->Pomfret--(-34.0 5/3)-->NMH--(5.7 5/3)-->Taft [Taft n
 Miss Porter's--(23.4 5/9)-->Pomfret--(119.9 5/3)-->Brewster Academy--(-148.2 5/3)-->Taft [Taft net +4.9]
 Miss Porter's--(23.4 5/9)-->Pomfret--(-35.9 5/3)-->Hotchkiss--(7.7 5/3)-->Taft [Taft net +4.8]
 Miss Porter's--(23.4 5/9)-->Pomfret--(-17.5 5/3)-->Hopkins--(-10.7 5/3)-->Taft [Taft net +4.8]
+Miss Porter's--(-7.1 5/9)-->BB&N--(-11.33 4/25)-->Greenwich Academy--(-9.7 5/16)-->Taft [Taft net +28.13]
+Miss Porter's--(-24.9 5/9)-->Winsor--(7.11 4/25)-->Greenwich Academy--(-9.7 5/16)-->Taft [Taft net +27.49]
 Miss Porter's--(-7.1 5/9)-->BB&N--(-18.44 4/25)-->Winsor--(10.1 5/9)-->Taft [Taft net +15.44]
 Miss Porter's--(-24.9 5/9)-->Winsor--(18.44 4/25)-->BB&N--(-7.7 5/9)-->Taft [Taft net +14.16]
 Miss Porter's--(-24.9 5/9)-->Winsor--(48.3 5/9)-->Pomfret--(-26.2 4/25)-->Taft [Taft net +2.8]
@@ -26,11 +38,32 @@ Miss Porter's--(23.4 5/9)-->Pomfret--(-29.4 4/25)-->Groton--(3.2 4/25)-->Taft [T
 Miss Porter's--(23.4 5/9)-->Pomfret--(42.3 4/25)-->Dexter-Southfield--(-68.5 4/25)-->Taft [Taft net +2.8]
 Miss Porter's--(-13.7 5/9)-->St. Mark's--(7.8 4/25)-->Hotchkiss--(7.7 5/3)-->Taft [Miss Porter's net +1.8]
 Miss Porter's--(-13.7 5/9)-->St. Mark's--(31.5 4/25)-->Hopkins--(-10.7 5/3)-->Taft [Miss Porter's net +7.1]
+Miss Porter's--(6.0 5/16)-->Greenwich Academy--(-7.11 4/25)-->Winsor--(10.1 5/9)-->Taft [Miss Porter's net +8.99]
+Miss Porter's--(6.0 5/16)-->Greenwich Academy--(11.33 4/25)-->BB&N--(-7.7 5/9)-->Taft [Miss Porter's net +9.63]
+Miss Porter's--(-24.9 5/9)-->Winsor--(-14.78 4/22)-->Choate--(4.4 5/16)-->Taft [Taft net +35.28]
+Miss Porter's--(-13.5 5/16)-->Berkshire Academy--(39.0 4/22)-->Pomfret--(-38.2 5/9)-->Taft [Taft net +12.7]
+Miss Porter's--(23.4 5/9)-->Pomfret--(-39.0 4/22)-->Berkshire Academy--(9.8 5/16)-->Taft [Taft net +5.8]
+Miss Porter's--(-13.5 5/16)-->Berkshire Academy--(39.0 4/22)-->Pomfret--(-28.3 5/3)-->Taft [Taft net +2.8]
+Miss Porter's--(-13.5 5/16)-->Berkshire Academy--(39.0 4/22)-->Pomfret--(-26.2 4/25)-->Taft [Taft net +0.7]
+Miss Porter's--(-8.0 5/16)-->Choate--(14.78 4/22)-->Winsor--(10.1 5/9)-->Taft [Miss Porter's net +16.88]
 Miss Porter's--(-13.7 5/9)-->St. Mark's--(30.3 4/18)-->Brewster Academy--(-148.2 5/3)-->Taft [Taft net +131.6]
+Miss Porter's--(-13.5 5/16)-->Berkshire Academy--(-6.2 4/18)-->Choate--(4.4 5/16)-->Taft [Taft net +15.3]
 Miss Porter's--(-7.1 5/9)-->BB&N--(-5.89 4/18)-->Groton--(3.2 4/25)-->Taft [Taft net +9.79]
 Miss Porter's--(23.4 5/9)-->Pomfret--(-38.0 4/18)-->NMH--(5.7 5/3)-->Taft [Taft net +8.9]
 Miss Porter's--(-24.9 5/9)-->Winsor--(-14.78 4/22)-->Choate--(35.1 4/18)-->Taft [Taft net +4.58]
 Miss Porter's--(23.4 5/9)-->Pomfret--(-15.5 4/18)-->Hopkins--(-10.7 5/3)-->Taft [Taft net +2.8]
+Miss Porter's--(-8.0 5/16)-->Choate--(6.2 4/18)-->Berkshire Academy--(9.8 5/16)-->Taft [Miss Porter's net +8.0]
 Miss Porter's--(23.4 5/9)-->Pomfret--(-39.0 4/22)-->Berkshire Academy--(28.9 4/18)-->Taft [Miss Porter's net +13.3]
+Miss Porter's--(-13.5 5/16)-->Berkshire Academy--(-6.2 4/18)-->Choate--(35.1 4/18)-->Taft [Miss Porter's net +15.4]
+Miss Porter's--(-8.0 5/16)-->Choate--(-5.5 5/16)-->Berkshire Academy--(28.9 4/18)-->Taft [Miss Porter's net +15.4]
+Miss Porter's--(6.0 5/16)-->Greenwich Academy--(-19.5 5/16)-->Berkshire Academy--(28.9 4/18)-->Taft [Miss Porter's net +15.4]
+Miss Porter's--(6.0 5/16)-->Greenwich Academy--(-12.46 5/9)-->Berkshire Academy--(28.9 4/18)-->Taft [Miss Porter's net +22.44]
+Miss Porter's--(6.0 5/16)-->Greenwich Academy--(-14.1 5/16)-->Choate--(35.1 4/18)-->Taft [Miss Porter's net +27.0]
+Miss Porter's--(-13.5 5/16)-->Berkshire Academy--(5.5 5/16)-->Choate--(35.1 4/18)-->Taft [Miss Porter's net +27.1]
+Miss Porter's--(-8.0 5/16)-->Choate--(6.2 4/18)-->Berkshire Academy--(28.9 4/18)-->Taft [Miss Porter's net +27.1]
+Miss Porter's--(-13.5 5/16)-->Berkshire Academy--(13.2 4/15)-->Hotchkiss--(7.7 5/3)-->Taft [Miss Porter's net +7.4]
+Miss Porter's--(-13.7 5/9)-->St. Mark's--(-21.3 4/11)-->Choate--(4.4 5/16)-->Taft [Taft net +30.6]
 Miss Porter's--(-13.7 5/9)-->St. Mark's--(-1.2 4/11)-->NMH--(5.7 5/3)-->Taft [Taft net +9.2]
 Miss Porter's--(-13.7 5/9)-->St. Mark's--(-21.3 4/11)-->Choate--(35.1 4/18)-->Taft [Miss Porter's net +0.1]
+Miss Porter's--(-8.0 5/16)-->Choate--(21.3 4/11)-->St. Mark's--(-1.1 5/9)-->Taft [Miss Porter's net +12.2]
+Miss Porter's--(-8.0 5/16)-->Choate--(20.1 4/11)-->NMH--(5.7 5/3)-->Taft [Miss Porter's net +17.8]
